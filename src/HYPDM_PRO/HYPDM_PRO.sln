@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYORMLib", "HYORMLib\HYORML
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYLogLib", "HYLogLib\HYLogLib.csproj", "{92CABCA8-2DD2-48C6-8884-37791B003F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYCoreLib", "HYCore\HYCoreLib.csproj", "{7D437CF4-B7D4-414D-B660-583788D70A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYSysManageLib", "HYSysManage\HYSysManageLib.csproj", "{6E6F7216-AEA2-4D6C-8536-2D29253984FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYBPMLib", "HYBPM\HYBPMLib.csproj", "{1628E536-72EE-4577-8896-C9521705F787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYDictionaryLib", "HYDictionaryLib\HYDictionaryLib.csproj", "{8D824DFF-29CC-40C3-83DF-2ED1427A3B22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +39,22 @@ Global
 		{92CABCA8-2DD2-48C6-8884-37791B003F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92CABCA8-2DD2-48C6-8884-37791B003F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92CABCA8-2DD2-48C6-8884-37791B003F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D437CF4-B7D4-414D-B660-583788D70A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D437CF4-B7D4-414D-B660-583788D70A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D437CF4-B7D4-414D-B660-583788D70A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D437CF4-B7D4-414D-B660-583788D70A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6F7216-AEA2-4D6C-8536-2D29253984FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6F7216-AEA2-4D6C-8536-2D29253984FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6F7216-AEA2-4D6C-8536-2D29253984FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6F7216-AEA2-4D6C-8536-2D29253984FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1628E536-72EE-4577-8896-C9521705F787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1628E536-72EE-4577-8896-C9521705F787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1628E536-72EE-4577-8896-C9521705F787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1628E536-72EE-4577-8896-C9521705F787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D824DFF-29CC-40C3-83DF-2ED1427A3B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D824DFF-29CC-40C3-83DF-2ED1427A3B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D824DFF-29CC-40C3-83DF-2ED1427A3B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D824DFF-29CC-40C3-83DF-2ED1427A3B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
