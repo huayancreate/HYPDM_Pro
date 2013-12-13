@@ -20,7 +20,7 @@ namespace View_Winform
             DevExpress.UserSkins.BonusSkins.Register();
             UserLookAndFeel.Default.SetSkinStyle("Metropolis");
 
-            Application.Run(new Doc_management.ChooseDocTemplate());
+            Application.Run(new DocManage.ApprovalFlowDefinition.SetActivity());
         }
     }
 }

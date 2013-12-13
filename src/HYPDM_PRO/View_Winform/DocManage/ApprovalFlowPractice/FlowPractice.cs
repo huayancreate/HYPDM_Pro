@@ -7,11 +7,11 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.DocManagement
+namespace View_Winform.DocManage.ApprovalFlowPractice
 {
-    public partial class AssociatedParts : DevExpress.XtraEditors.XtraForm
+    public partial class FlowPractice : DevExpress.XtraEditors.XtraForm
     {
-        public AssociatedParts()
+        public FlowPractice()
         {
             InitializeComponent();
         }

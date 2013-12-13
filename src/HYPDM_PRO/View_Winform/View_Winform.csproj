@@ -67,47 +67,95 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DocManagement\AssociatedParts.cs">
+    <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowActivityManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\AssociatedParts.Designer.cs">
+    <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowActivityManage.Designer.cs">
+      <DependentUpon>DocFlowActivityManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowDefinition\SetActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowDefinition\SetActivity.Designer.cs">
+      <DependentUpon>SetActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.Designer.cs">
+      <DependentUpon>BuildDocTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplateCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplateCategory.Designer.cs">
+      <DependentUpon>BuildDocTemplateCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\CheckDocCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\CheckDocCategory.Designer.cs">
+      <DependentUpon>CheckDocCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplateCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplateCategory.Designer.cs">
+      <DependentUpon>ModifyDocTemplateCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\AssociatedParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\AssociatedParts.Designer.cs">
       <DependentUpon>AssociatedParts.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocManagement\ChoosDocReviewFlow.cs">
+    <Compile Include="DocManage\DocManageTool\ChoosDocReviewFlow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\ChoosDocReviewFlow.Designer.cs">
+    <Compile Include="DocManage\DocManageTool\ChoosDocReviewFlow.Designer.cs">
       <DependentUpon>ChoosDocReviewFlow.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocManagement\ChooseDocTemplate.cs">
+    <Compile Include="DocManage\DocManageTool\ChooseDocTemplate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\ChooseDocTemplate.designer.cs">
+    <Compile Include="DocManage\DocManageTool\ChooseDocTemplate.designer.cs">
       <DependentUpon>ChooseDocTemplate.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocManagement\DocBulkImport.cs">
+    <Compile Include="DocManage\DocManageTool\DocBulkImport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\DocBulkImport.designer.cs">
+    <Compile Include="DocManage\DocManageTool\DocBulkImport.designer.cs">
       <DependentUpon>DocBulkImport.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocManagement\DocEntryExists.cs">
+    <Compile Include="DocManage\DocManageTool\DocEntryExists.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\DocEntryExists.designer.cs">
+    <Compile Include="DocManage\DocManageTool\DocEntryExists.designer.cs">
       <DependentUpon>DocEntryExists.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocManagement\DocModify.cs">
+    <Compile Include="DocManage\DocManageTool\DocModify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\DocModify.designer.cs">
+    <Compile Include="DocManage\DocManageTool\DocModify.designer.cs">
       <DependentUpon>DocModify.cs</DependentUpon>
     </Compile>
-    <Compile Include="DocManagement\DocOpen.cs">
+    <Compile Include="DocManage\DocManageTool\DocOpen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DocManagement\DocOpen.designer.cs">
+    <Compile Include="DocManage\DocManageTool\DocOpen.designer.cs">
       <DependentUpon>DocOpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\DocTemplateManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\DocTemplateManage.Designer.cs">
+      <DependentUpon>DocTemplateManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplete.Designer.cs">
+      <DependentUpon>ModifyDocTemplete.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -118,26 +166,50 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DocManagement\AssociatedParts.resx">
+    <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\DocFlowActivityManage.resx">
+      <DependentUpon>DocFlowActivityManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\SetActivity.resx">
+      <DependentUpon>SetActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.resx">
+      <DependentUpon>BuildDocTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\BuildDocTemplateCategory.resx">
+      <DependentUpon>BuildDocTemplateCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\CheckDocCategory.resx">
+      <DependentUpon>CheckDocCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplateCategory.resx">
+      <DependentUpon>ModifyDocTemplateCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocManageTool\AssociatedParts.resx">
       <DependentUpon>AssociatedParts.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocManagement\ChoosDocReviewFlow.resx">
+    <EmbeddedResource Include="DocManage\DocManageTool\ChoosDocReviewFlow.resx">
       <DependentUpon>ChoosDocReviewFlow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocManagement\ChooseDocTemplate.resx">
+    <EmbeddedResource Include="DocManage\DocManageTool\ChooseDocTemplate.resx">
       <DependentUpon>ChooseDocTemplate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocManagement\DocBulkImport.resx">
+    <EmbeddedResource Include="DocManage\DocManageTool\DocBulkImport.resx">
       <DependentUpon>DocBulkImport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocManagement\DocEntryExists.resx">
+    <EmbeddedResource Include="DocManage\DocManageTool\DocEntryExists.resx">
       <DependentUpon>DocEntryExists.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocManagement\DocModify.resx">
+    <EmbeddedResource Include="DocManage\DocManageTool\DocModify.resx">
       <DependentUpon>DocModify.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DocManagement\DocOpen.resx">
+    <EmbeddedResource Include="DocManage\DocManageTool\DocOpen.resx">
       <DependentUpon>DocOpen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\DocTemplateManage.resx">
+      <DependentUpon>DocTemplateManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplete.resx">
+      <DependentUpon>ModifyDocTemplete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -175,6 +247,14 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="DocManage\ApprovalFlowDefinition\ReadMe.txt" />
+    <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
