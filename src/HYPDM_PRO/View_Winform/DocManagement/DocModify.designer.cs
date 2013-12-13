@@ -1,4 +1,4 @@
-﻿namespace DocManagement
+﻿namespace View_Winform.Doc_management
 {
     partial class docManagement
     {

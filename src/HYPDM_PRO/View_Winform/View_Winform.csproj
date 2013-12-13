@@ -58,6 +58,7 @@
     <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -66,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocManagement\AssociatedParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManagement\AssociatedParts.Designer.cs">
+      <DependentUpon>AssociatedParts.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManagement\ChoosDocReviewFlow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +118,9 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DocManagement\AssociatedParts.resx">
+      <DependentUpon>AssociatedParts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DocManagement\ChoosDocReviewFlow.resx">
       <DependentUpon>ChoosDocReviewFlow.cs</DependentUpon>
     </EmbeddedResource>
