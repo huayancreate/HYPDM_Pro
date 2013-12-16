@@ -59,6 +59,7 @@
     <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -67,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocManage\ApprovalFlowDefinition\BuildActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowDefinition\BuildActivity.Designer.cs">
+      <DependentUpon>BuildActivity.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowActivityManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +85,36 @@
     </Compile>
     <Compile Include="DocManage\ApprovalFlowDefinition\SetActivity.Designer.cs">
       <DependentUpon>SetActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\ApprovalFlowPractice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\ApprovalFlowPractice.Designer.cs">
+      <DependentUpon>ApprovalFlowPractice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\FlowPractice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\FlowPractice.Designer.cs">
+      <DependentUpon>FlowPractice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\PersonnelSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\PersonnelSelection.Designer.cs">
+      <DependentUpon>PersonnelSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\TaskGroupManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowPractice\TaskGroupManage.Designer.cs">
+      <DependentUpon>TaskGroupManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocQuery\DocQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocQuery\DocQuery.Designer.cs">
+      <DependentUpon>DocQuery.cs</DependentUpon>
     </Compile>
     <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.cs">
       <SubType>Form</SubType>
@@ -166,11 +203,29 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\BuildActivity.resx">
+      <DependentUpon>BuildActivity.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\DocFlowActivityManage.resx">
       <DependentUpon>DocFlowActivityManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\SetActivity.resx">
       <DependentUpon>SetActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\ApprovalFlowPractice\ApprovalFlowPractice.resx">
+      <DependentUpon>ApprovalFlowPractice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\ApprovalFlowPractice\FlowPractice.resx">
+      <DependentUpon>FlowPractice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\ApprovalFlowPractice\PersonnelSelection.resx">
+      <DependentUpon>PersonnelSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\ApprovalFlowPractice\TaskGroupManage.resx">
+      <DependentUpon>TaskGroupManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocQuery\DocQuery.resx">
+      <DependentUpon>DocQuery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.resx">
       <DependentUpon>BuildDocTemplate.cs</DependentUpon>
@@ -254,7 +309,9 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="DocManage\ApprovalFlowDefinition\ReadMe.txt" />
+    <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />
     <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />
+    <Content Include="DocManage\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
