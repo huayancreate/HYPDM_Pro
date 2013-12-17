@@ -110,11 +110,65 @@
     <Compile Include="DocManage\ApprovalFlowPractice\TaskGroupManage.Designer.cs">
       <DependentUpon>TaskGroupManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\DocGrantManage\DocGrantHistoryQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\DocGrantHistoryQuery.Designer.cs">
+      <DependentUpon>DocGrantHistoryQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\DocGrantManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\DocGrantManage.Designer.cs">
+      <DependentUpon>DocGrantManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\GrantInfoBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\GrantInfoBuild.Designer.cs">
+      <DependentUpon>GrantInfoBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\QueryDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocGrantManage\QueryDoc.Designer.cs">
+      <DependentUpon>QueryDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.Designer.cs">
+      <DependentUpon>ApplyHistoryMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocPermissionApproval\DocPermissionApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPermissionApproval\DocPermissionApproval.Designer.cs">
+      <DependentUpon>DocPermissionApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\AddDocProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\AddDocProperty.Designer.cs">
+      <DependentUpon>AddDocProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\DocPropertyBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\DocPropertyBuild.Designer.cs">
+      <DependentUpon>DocPropertyBuild.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManage\DocQuery\DocQuery.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DocManage\DocQuery\DocQuery.Designer.cs">
       <DependentUpon>DocQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocQuery\PermissionApply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocQuery\PermissionApply.Designer.cs">
+      <DependentUpon>PermissionApply.cs</DependentUpon>
     </Compile>
     <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.cs">
       <SubType>Form</SubType>
@@ -194,6 +248,12 @@
     <Compile Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplete.Designer.cs">
       <DependentUpon>ModifyDocTemplete.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\FlowTemplateQuote\FlowTemplateQuoteState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\FlowTemplateQuote\FlowTemplateQuoteState.Designer.cs">
+      <DependentUpon>FlowTemplateQuoteState.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -224,8 +284,35 @@
     <EmbeddedResource Include="DocManage\ApprovalFlowPractice\TaskGroupManage.resx">
       <DependentUpon>TaskGroupManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocGrantManage\DocGrantHistoryQuery.resx">
+      <DependentUpon>DocGrantHistoryQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocGrantManage\DocGrantManage.resx">
+      <DependentUpon>DocGrantManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocGrantManage\GrantInfoBuild.resx">
+      <DependentUpon>GrantInfoBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocGrantManage\QueryDoc.resx">
+      <DependentUpon>QueryDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.resx">
+      <DependentUpon>ApplyHistoryMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPermissionApproval\DocPermissionApproval.resx">
+      <DependentUpon>DocPermissionApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPropertyBuild\AddDocProperty.resx">
+      <DependentUpon>AddDocProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPropertyBuild\DocPropertyBuild.resx">
+      <DependentUpon>DocPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocQuery\DocQuery.resx">
       <DependentUpon>DocQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocQuery\PermissionApply.resx">
+      <DependentUpon>PermissionApply.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.resx">
       <DependentUpon>BuildDocTemplate.cs</DependentUpon>
@@ -265,6 +352,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\ModifyDocTemplete.resx">
       <DependentUpon>ModifyDocTemplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\FlowTemplateQuote\FlowTemplateQuoteState.resx">
+      <DependentUpon>FlowTemplateQuoteState.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

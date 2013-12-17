@@ -33,5 +33,16 @@
  
   1.9  DocPropertyBuild 文档属性设置 
        1.91 DocPropertyBuild 文档属性设置
-	   1.92 AddDocProperty  添加文档属性                  （没写）
-	    
+
+-----------------------------------------------------------------------2013-12-16	   
+	   1.92 AddDocProperty  添加文档属性（2张图文本框，列表框）
+	   1.93 UpdateDocProperty 修改文档属性                 
+
+  1.10 DocSecurityLevelBuild 文档密级设置
+       1.101 DocSecurityLevelBuild 文档密级设置 
+	   1.101 AddDocSecurityLevel 添加文档秘级
+ 
+  1.11 PaperDocManage 纸质文档管理
+       1.111 PaperDocManage 纸质文档管理  
+	   1.112 ClassifyManage 归类管理
+	   1.113 BorrowManage 借阅管理
