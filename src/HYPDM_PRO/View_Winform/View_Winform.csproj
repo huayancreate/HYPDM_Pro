@@ -328,6 +328,14 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Person.cs" />
+    <Compile Include="ProductStructureManage\BOMInformationMaintion.cs" />
+    <Compile Include="ProductStructureManage\BOMInformationMaintion.Designer.cs">
+      <DependentUpon>BOMInformationMaintion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\changyongyangshi.cs" />
+    <Compile Include="ProductStructureManage\changyongyangshi.Designer.cs">
+      <DependentUpon>changyongyangshi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templete.cs">
@@ -463,6 +471,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\BOMInformationMaintion.resx">
+      <DependentUpon>BOMInformationMaintion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\changyongyangshi.resx">
+      <DependentUpon>changyongyangshi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -508,6 +522,7 @@
     <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />
     <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />
     <Content Include="DocManage\ReadMe.txt" />
+    <Content Include="ProductStructureManage\ReadMe.txt" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
