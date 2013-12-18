@@ -41,12 +41,23 @@
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
+            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
+            this.xtraTabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton4
@@ -91,16 +102,16 @@
             // 
             // textEdit7
             // 
-            this.textEdit7.Location = new System.Drawing.Point(136, 61);
+            this.textEdit7.Location = new System.Drawing.Point(167, 61);
             this.textEdit7.Name = "textEdit7";
             this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(167, 20);
+            this.textEdit7.Size = new System.Drawing.Size(51, 20);
             this.textEdit7.TabIndex = 50;
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(310, 113);
+            this.checkEdit1.Location = new System.Drawing.Point(523, 59);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "包括";
             this.checkEdit1.Size = new System.Drawing.Size(55, 19);
@@ -115,7 +126,7 @@
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(136, 113);
+            this.textEdit4.Location = new System.Drawing.Point(77, 87);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -140,23 +151,72 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Location = new System.Drawing.Point(136, 219);
+            this.panelControl1.Location = new System.Drawing.Point(62, 139);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(115, 100);
             this.panelControl1.TabIndex = 61;
             // 
             // listBoxControl1
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(331, 235);
+            this.listBoxControl1.Location = new System.Drawing.Point(238, 65);
             this.listBoxControl1.Name = "listBoxControl1";
             this.listBoxControl1.Size = new System.Drawing.Size(120, 95);
             this.listBoxControl1.TabIndex = 62;
+            // 
+            // xtraTabControl1
+            // 
+            this.xtraTabControl1.Location = new System.Drawing.Point(263, 187);
+            this.xtraTabControl1.Name = "xtraTabControl1";
+            this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
+            this.xtraTabControl1.Size = new System.Drawing.Size(244, 95);
+            this.xtraTabControl1.TabIndex = 63;
+            this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.xtraTabPage1,
+            this.xtraTabPage2});
+            // 
+            // xtraTabPage1
+            // 
+            this.xtraTabPage1.Name = "xtraTabPage1";
+            this.xtraTabPage1.Size = new System.Drawing.Size(238, 66);
+            this.xtraTabPage1.Text = "xtraTabPage1";
+            // 
+            // xtraTabPage2
+            // 
+            this.xtraTabPage2.Name = "xtraTabPage2";
+            this.xtraTabPage2.Size = new System.Drawing.Size(238, 66);
+            this.xtraTabPage2.Text = "xtraTabPage2";
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Location = new System.Drawing.Point(429, 351);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(200, 100);
+            this.groupControl1.TabIndex = 65;
+            this.groupControl1.Text = "groupControl1";
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Location = new System.Drawing.Point(72, 288);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(227, 163);
+            this.gridControl1.TabIndex = 66;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
             // 
             // Templete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(701, 560);
+            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.listBoxControl1);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.simpleButton5);
@@ -178,6 +238,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
+            this.xtraTabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,5 +263,11 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
+        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
     }
 }

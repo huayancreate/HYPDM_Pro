@@ -51,18 +51,25 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Design.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -146,17 +153,41 @@
     <Compile Include="DocManage\DocPermissionApproval\DocPermissionApproval.Designer.cs">
       <DependentUpon>DocPermissionApproval.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\DocPrint\DocPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPrint\DocPrint.Designer.cs">
+      <DependentUpon>DocPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocPrint\PrintAffirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPrint\PrintAffirm.Designer.cs">
+      <DependentUpon>PrintAffirm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManage\DocPropertyBuild\AddDocProperty.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DocManage\DocPropertyBuild\AddDocProperty.Designer.cs">
       <DependentUpon>AddDocProperty.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\AddDocProperty2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\AddDocProperty2.Designer.cs">
+      <DependentUpon>AddDocProperty2.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManage\DocPropertyBuild\DocPropertyBuild.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DocManage\DocPropertyBuild\DocPropertyBuild.Designer.cs">
       <DependentUpon>DocPropertyBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\UpdateDocProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\UpdateDocProperty.Designer.cs">
+      <DependentUpon>UpdateDocProperty.cs</DependentUpon>
     </Compile>
     <Compile Include="DocManage\DocQuery\DocQuery.cs">
       <SubType>Form</SubType>
@@ -169,6 +200,18 @@
     </Compile>
     <Compile Include="DocManage\DocQuery\PermissionApply.Designer.cs">
       <DependentUpon>PermissionApply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocSecurityLevelBuild\AddDocSecurityLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocSecurityLevelBuild\AddDocSecurityLevel.Designer.cs">
+      <DependentUpon>AddDocSecurityLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocSecurityLevelBuild\DocSecurityLevelBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocSecurityLevelBuild\DocSecurityLevelBuild.Designer.cs">
+      <DependentUpon>DocSecurityLevelBuild.cs</DependentUpon>
     </Compile>
     <Compile Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.cs">
       <SubType>Form</SubType>
@@ -254,6 +297,30 @@
     <Compile Include="DocManage\FlowTemplateQuote\FlowTemplateQuoteState.Designer.cs">
       <DependentUpon>FlowTemplateQuoteState.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\PaperDocManage\BorrowManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\PaperDocManage\BorrowManage.Designer.cs">
+      <DependentUpon>BorrowManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\PaperDocManage\ClassifyManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\PaperDocManage\ClassifyManage.Designer.cs">
+      <DependentUpon>ClassifyManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\PaperDocManage\PaperDocManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\PaperDocManage\PaperDocManage.Designer.cs">
+      <DependentUpon>PaperDocManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\PermissionApproverBuild\PermissionApproverBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\PermissionApproverBuild\PermissionApproverBuild.Designer.cs">
+      <DependentUpon>PermissionApproverBuild.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -263,6 +330,12 @@
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Templete.Designer.cs">
+      <DependentUpon>Templete.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\BuildActivity.resx">
       <DependentUpon>BuildActivity.cs</DependentUpon>
     </EmbeddedResource>
@@ -302,17 +375,35 @@
     <EmbeddedResource Include="DocManage\DocPermissionApproval\DocPermissionApproval.resx">
       <DependentUpon>DocPermissionApproval.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPrint\DocPrint.resx">
+      <DependentUpon>DocPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPrint\PrintAffirm.resx">
+      <DependentUpon>PrintAffirm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocPropertyBuild\AddDocProperty.resx">
       <DependentUpon>AddDocProperty.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPropertyBuild\AddDocProperty2.resx">
+      <DependentUpon>AddDocProperty2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocPropertyBuild\DocPropertyBuild.resx">
       <DependentUpon>DocPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPropertyBuild\UpdateDocProperty.resx">
+      <DependentUpon>UpdateDocProperty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocQuery\DocQuery.resx">
       <DependentUpon>DocQuery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocQuery\PermissionApply.resx">
       <DependentUpon>PermissionApply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocSecurityLevelBuild\AddDocSecurityLevel.resx">
+      <DependentUpon>AddDocSecurityLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocSecurityLevelBuild\DocSecurityLevelBuild.resx">
+      <DependentUpon>DocSecurityLevelBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocTemplateCategoryManage\BuildDocTemplate.resx">
       <DependentUpon>BuildDocTemplate.cs</DependentUpon>
@@ -356,6 +447,18 @@
     <EmbeddedResource Include="DocManage\FlowTemplateQuote\FlowTemplateQuoteState.resx">
       <DependentUpon>FlowTemplateQuoteState.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\PaperDocManage\BorrowManage.resx">
+      <DependentUpon>BorrowManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\PaperDocManage\ClassifyManage.resx">
+      <DependentUpon>ClassifyManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\PaperDocManage\PaperDocManage.resx">
+      <DependentUpon>PaperDocManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\PermissionApproverBuild\PermissionApproverBuild.resx">
+      <DependentUpon>PermissionApproverBuild.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -371,6 +474,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Templete.resx">
+      <DependentUpon>Templete.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -402,6 +508,7 @@
     <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />
     <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />
     <Content Include="DocManage\ReadMe.txt" />
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
