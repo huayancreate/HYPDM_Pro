@@ -38,7 +38,6 @@
             this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit4 = new DevExpress.XtraEditors.ButtonEdit();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
@@ -47,6 +46,8 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.trackBarControl1 = new DevExpress.XtraEditors.TrackBarControl();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
@@ -58,6 +59,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton4
@@ -123,6 +127,7 @@
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Size = new System.Drawing.Size(102, 20);
             this.textEdit6.TabIndex = 52;
+            this.textEdit6.EditValueChanged += new System.EventHandler(this.textEdit6_EditValueChanged);
             // 
             // textEdit4
             // 
@@ -141,17 +146,9 @@
             this.simpleButton5.TabIndex = 60;
             this.simpleButton5.Text = "取消(C)";
             // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(312, 12);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 59;
-            this.simpleButton6.Text = "确定(O)";
-            // 
             // panelControl1
             // 
-            this.panelControl1.Location = new System.Drawing.Point(62, 139);
+            this.panelControl1.Location = new System.Drawing.Point(61, 134);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(115, 100);
             this.panelControl1.TabIndex = 61;
@@ -165,7 +162,7 @@
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Location = new System.Drawing.Point(429, 144);
+            this.xtraTabControl1.Location = new System.Drawing.Point(385, 90);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
             this.xtraTabControl1.Size = new System.Drawing.Size(244, 95);
@@ -188,7 +185,7 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Location = new System.Drawing.Point(429, 351);
+            this.groupControl1.Location = new System.Drawing.Point(468, 201);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(200, 100);
             this.groupControl1.TabIndex = 65;
@@ -196,31 +193,49 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(72, 288);
+            this.gridControl1.Location = new System.Drawing.Point(219, 201);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.Size = new System.Drawing.Size(227, 163);
             this.gridControl1.TabIndex = 66;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
+            this.gridControl1.Click += new System.EventHandler(this.gridControl1_Click);
             // 
             // gridView1
             // 
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             // 
+            // treeList1
+            // 
+            this.treeList1.Location = new System.Drawing.Point(61, 370);
+            this.treeList1.Name = "treeList1";
+            this.treeList1.OptionsPrint.UsePrintStyles = true;
+            this.treeList1.Size = new System.Drawing.Size(221, 123);
+            this.treeList1.TabIndex = 67;
+            // 
+            // trackBarControl1
+            // 
+            this.trackBarControl1.EditValue = null;
+            this.trackBarControl1.Location = new System.Drawing.Point(412, 391);
+            this.trackBarControl1.Name = "trackBarControl1";
+            this.trackBarControl1.Size = new System.Drawing.Size(104, 45);
+            this.trackBarControl1.TabIndex = 78;
+            // 
             // Templete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(701, 560);
+            this.Controls.Add(this.trackBarControl1);
+            this.Controls.Add(this.treeList1);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.listBoxControl1);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton6);
             this.Controls.Add(this.textEdit4);
             this.Controls.Add(this.textEdit6);
             this.Controls.Add(this.checkEdit1);
@@ -243,6 +258,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,7 +278,6 @@
         private DevExpress.XtraEditors.TextEdit textEdit6;
         private DevExpress.XtraEditors.ButtonEdit textEdit4;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
@@ -269,5 +286,7 @@
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
     }
 }

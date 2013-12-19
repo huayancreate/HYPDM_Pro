@@ -7,21 +7,16 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform
+namespace View_Winform.PartsMange.MaterialBankManage
 {
-    public partial class Templete : DevExpress.XtraEditors.XtraForm
+    public partial class DataAddGuide : DevExpress.XtraEditors.XtraForm
     {
-        public Templete()
+        public DataAddGuide()
         {
             InitializeComponent();
         }
 
-        private void gridControl1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textEdit6_EditValueChanged(object sender, EventArgs e)
+        private void simpleButton1_Click(object sender, EventArgs e)
         {
 
         }

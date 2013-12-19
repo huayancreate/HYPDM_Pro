@@ -9,16 +9,11 @@ using DevExpress.XtraEditors;
 
 namespace View_Winform.PartsMange.MaterialBankManage
 {
-    public partial class AddType : DevExpress.XtraEditors.XtraForm
+    public partial class AddMaterialInfor : DevExpress.XtraEditors.XtraForm
     {
-        public AddType()
+        public AddMaterialInfor()
         {
             InitializeComponent();
-        }
-
-        private void AddType_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
