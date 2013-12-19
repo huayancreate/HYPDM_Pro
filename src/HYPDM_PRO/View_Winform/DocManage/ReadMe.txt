@@ -42,7 +42,15 @@
        1.101 DocSecurityLevelBuild 文档密级设置 
 	   1.101 AddDocSecurityLevel 添加文档秘级
  
-  1.11 PaperDocManage 纸质文档管理
+  1.11 PaperDocManage 纸质文档管理    (威哥:纸质文档不在做 还剩一个没画)
        1.111 PaperDocManage 纸质文档管理  
 	   1.112 ClassifyManage 归类管理
+
+
+-----------------------------------------------------------------------
 	   1.113 BorrowManage 借阅管理
+  1.12 PermissionApproverBuild 权限审批人设置
+       1.121 PermissionApproverBuild 权限审批人设置
+  
+  1.13 DocPrint  文档打印
+       PrintAffirm 打印确认
