@@ -252,7 +252,7 @@
             // 
             // memoExEdit1
             // 
-            this.memoExEdit1.Location = new System.Drawing.Point(149, 72);
+            this.memoExEdit1.Location = new System.Drawing.Point(73, 56);
             this.memoExEdit1.Name = "memoExEdit1";
             this.memoExEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});

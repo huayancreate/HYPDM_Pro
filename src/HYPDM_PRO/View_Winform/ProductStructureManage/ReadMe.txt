@@ -24,3 +24,13 @@
 	选择参考BOM     SelectConsultBOM
 
 	BOM的配置       BOMDeploy
+
+	引用参考BOM中的零部件  ConsultBOMParts
+
+	引用物料库中的零部件    ConsumablesStoreBOMParts
+
+	关联已有文档         RelevanceOldDoc
+
+	关联本地文档         RelevanceNativeplaceDoc
+
+	BOM节点相关信息      BOMNodeMessage
