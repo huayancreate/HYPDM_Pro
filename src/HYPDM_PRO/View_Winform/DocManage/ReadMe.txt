@@ -59,4 +59,5 @@
 二  PartsManage  零部件管理
     
   2.1  MaterialBankManage 物料库管理
+  2.2  AddType            新增类型
        
