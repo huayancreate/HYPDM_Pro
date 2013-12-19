@@ -47,6 +47,10 @@
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
             this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
+            this.checkButton2 = new DevExpress.XtraEditors.CheckButton();
+            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.dropDownButton2 = new DevExpress.XtraEditors.DropDownButton();
+            this.memoExEdit1 = new DevExpress.XtraEditors.MemoExEdit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -62,11 +66,13 @@
             this.xtraTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
             this.galleryControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoExEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(61, 38);
+            this.simpleButton1.Location = new System.Drawing.Point(59, 12);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(102, 23);
             this.simpleButton1.TabIndex = 0;
@@ -219,11 +225,49 @@
             this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
             this.galleryControlClient1.Size = new System.Drawing.Size(99, 91);
             // 
-            // changyong
+            // checkButton2
+            // 
+            this.checkButton2.Location = new System.Drawing.Point(303, 1);
+            this.checkButton2.Name = "checkButton2";
+            this.checkButton2.Size = new System.Drawing.Size(75, 23);
+            this.checkButton2.TabIndex = 17;
+            this.checkButton2.Text = "checkButton2";
+            // 
+            // buttonEdit2
+            // 
+            this.buttonEdit2.Location = new System.Drawing.Point(303, 331);
+            this.buttonEdit2.Name = "buttonEdit2";
+            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit2.Size = new System.Drawing.Size(100, 20);
+            this.buttonEdit2.TabIndex = 18;
+            // 
+            // dropDownButton2
+            // 
+            this.dropDownButton2.Location = new System.Drawing.Point(303, 390);
+            this.dropDownButton2.Name = "dropDownButton2";
+            this.dropDownButton2.Size = new System.Drawing.Size(135, 23);
+            this.dropDownButton2.TabIndex = 19;
+            this.dropDownButton2.Text = "dropDownButton2";
+            // 
+            // memoExEdit1
+            // 
+            this.memoExEdit1.Location = new System.Drawing.Point(149, 72);
+            this.memoExEdit1.Name = "memoExEdit1";
+            this.memoExEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.memoExEdit1.Size = new System.Drawing.Size(100, 20);
+            this.memoExEdit1.TabIndex = 20;
+            // 
+            // changyongyangshi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 473);
+            this.Controls.Add(this.memoExEdit1);
+            this.Controls.Add(this.dropDownButton2);
+            this.Controls.Add(this.buttonEdit2);
+            this.Controls.Add(this.checkButton2);
             this.Controls.Add(this.galleryControl1);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.comboBoxEdit2);
@@ -241,7 +285,7 @@
             this.Controls.Add(this.buttonEdit1);
             this.Controls.Add(this.checkButton1);
             this.Controls.Add(this.simpleButton1);
-            this.Name = "changyong";
+            this.Name = "changyongyangshi";
             this.Text = "changyong";
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
@@ -258,6 +302,8 @@
             this.xtraTabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
             this.galleryControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoExEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -284,5 +330,9 @@
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraBars.Ribbon.GalleryControl galleryControl1;
         private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient1;
+        private DevExpress.XtraEditors.CheckButton checkButton2;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
+        private DevExpress.XtraEditors.DropDownButton dropDownButton2;
+        private DevExpress.XtraEditors.MemoExEdit memoExEdit1;
     }
 }
