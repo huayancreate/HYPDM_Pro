@@ -65,4 +65,11 @@
 	   2.14 DataAddGuide       数据导入向导
   2.2 MeasurementUnitBuild     计量单位设置
   2.3 MaterialPegging          物料反查
-  2.4 物料属性设置     
+  2.4 MaterialPropertyBuild    物料属性设置
+       2.41 AddMaterialProperty添加物料属性
+	   2.42 ChooseMaterialType 选择物料类型
+  2.5 ProductCategoryManage    产品分类管理
+  2.6 MaterialReviewRuleManage 物料重查规则管理
+       2.61 AddReviewRule      新增重查规则
+	   2.62 CheckResult        查看结果
+
