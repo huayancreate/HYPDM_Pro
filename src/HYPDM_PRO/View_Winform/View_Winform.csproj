@@ -424,6 +424,66 @@
     <Compile Include="ProductStructureManage\changyongyangshi.Designer.cs">
       <DependentUpon>changyongyangshi.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductStructureManage\CheckBOMMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\CheckBOMMessage.Designer.cs">
+      <DependentUpon>CheckBOMMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PartsPermissionBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PartsPermissionBuild.Designer.cs">
+      <DependentUpon>PartsPermissionBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild.Designer.cs">
+      <DependentUpon>PermissionBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.Designer.cs">
+      <DependentUpon>PermissionBuild2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.Designer.cs">
+      <DependentUpon>PersonnelSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\BOMDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\BOMDeploy.Designer.cs">
+      <DependentUpon>BOMDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.Designer.cs">
+      <DependentUpon>NewProjtctBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectBOMApprovalFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectBOMApprovalFlow.Designer.cs">
+      <DependentUpon>SelectBOMApprovalFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectConsultBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectConsultBOM.Designer.cs">
+      <DependentUpon>SelectConsultBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectExistingFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectExistingFile.Designer.cs">
+      <DependentUpon>SelectExistingFile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templete.cs">
@@ -606,6 +666,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\changyongyangshi.resx">
       <DependentUpon>changyongyangshi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\CheckBOMMessage.resx">
+      <DependentUpon>CheckBOMMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PartsPermissionBuild.resx">
+      <DependentUpon>PartsPermissionBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild.resx">
+      <DependentUpon>PermissionBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.resx">
+      <DependentUpon>PermissionBuild2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.resx">
+      <DependentUpon>PersonnelSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\BOMDeploy.resx">
+      <DependentUpon>BOMDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.resx">
+      <DependentUpon>NewProjtctBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\SelectBOMApprovalFlow.resx">
+      <DependentUpon>SelectBOMApprovalFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\SelectConsultBOM.resx">
+      <DependentUpon>SelectConsultBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\SelectExistingFile.resx">
+      <DependentUpon>SelectExistingFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
