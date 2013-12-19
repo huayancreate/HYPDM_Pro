@@ -1,4 +1,5 @@
-﻿一 功能模块术语定义
+﻿功能模块术语定义
+一 DocManage 文档管理管理
   1.3 
     1.31 approval flow definition 审批流程定义
          ApprovalFlowDefinition
@@ -54,3 +55,8 @@
   
   1.13 DocPrint  文档打印
        PrintAffirm 打印确认
+
+二  PartsManage  零部件管理
+    
+  2.1  MaterialBankManage 物料库管理
+       
