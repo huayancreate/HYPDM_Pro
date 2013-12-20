@@ -327,6 +327,90 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PartsMange\ChooseMaterialType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\ChooseMaterialType.Designer.cs">
+      <DependentUpon>ChooseMaterialType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.Designer.cs">
+      <DependentUpon>AddMaterialInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialProperty.Designer.cs">
+      <DependentUpon>AddMaterialProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddReviewRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddReviewRule.Designer.cs">
+      <DependentUpon>AddReviewRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddType.Designer.cs">
+      <DependentUpon>AddType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\CheckResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\CheckResult.Designer.cs">
+      <DependentUpon>CheckResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\CustomExportItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\CustomExportItem.Designer.cs">
+      <DependentUpon>CustomExportItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\DataAddGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\DataAddGuide.Designer.cs">
+      <DependentUpon>DataAddGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialBankManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialBankManage.Designer.cs">
+      <DependentUpon>MaterialBankManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialPegging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialPegging.Designer.cs">
+      <DependentUpon>MaterialPegging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialPropertyBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialPropertyBuild.Designer.cs">
+      <DependentUpon>MaterialPropertyBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialReviewRuleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialReviewRuleManage.Designer.cs">
+      <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MeasurementUnitBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MeasurementUnitBuild.Designer.cs">
+      <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\ProductCategoryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\ProductCategoryManage.Designer.cs">
+      <DependentUpon>ProductCategoryManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Person.cs" />
     <Compile Include="ProductStructureManage\BOMInformationMaintion.cs">
       <SubType>Form</SubType>
@@ -564,6 +648,48 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\ChooseMaterialType.resx">
+      <DependentUpon>ChooseMaterialType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
+      <DependentUpon>AddMaterialInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialProperty.resx">
+      <DependentUpon>AddMaterialProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddReviewRule.resx">
+      <DependentUpon>AddReviewRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddType.resx">
+      <DependentUpon>AddType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\CheckResult.resx">
+      <DependentUpon>CheckResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\CustomExportItem.resx">
+      <DependentUpon>CustomExportItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\DataAddGuide.resx">
+      <DependentUpon>DataAddGuide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialBankManage.resx">
+      <DependentUpon>MaterialBankManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialPegging.resx">
+      <DependentUpon>MaterialPegging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialPropertyBuild.resx">
+      <DependentUpon>MaterialPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialReviewRuleManage.resx">
+      <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\MeasurementUnitBuild.resx">
+      <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\ProductCategoryManage.resx">
+      <DependentUpon>ProductCategoryManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\BOMInformationMaintion.resx">
       <DependentUpon>BOMInformationMaintion.cs</DependentUpon>

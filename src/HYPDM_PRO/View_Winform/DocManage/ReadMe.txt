@@ -65,4 +65,23 @@
 	   2.13 CustomExportItem   自定义导导
   2.2 MeasurementUnitBuild     计量单位设置
   2.3 MaterialPegging          物料反查
-  2.4 物料属性设置     
+  2.4 MaterialPropertyBuild    物料属性设置
+       2.41 AddMaterialProperty添加物料属性
+	   2.42 ChooseMaterialType 选择物料类型
+  2.5 ProductCategoryManage    产品分类管理
+  2.6 MaterialReviewRuleManage 物料重查规则管理
+       2.61 AddReviewRule      新增重查规则
+	   2.62 CheckResult        查看结果
+
+三  MyTaskBox 我的任务箱
+  3.1 MyTask  我的任务
+       3.11DocApprovalTask 文档审签任务 ****
+       3.12TaskTranspond   任务转发
+	   3.13DocSendBack     文档打回
+  3.2 OfficeTask 办公任务
+      ApprovalTaskExecute   审签任务执行
+	  
+  3.3 EmailAddress  电子邮箱   
+      WriteEmail    写邮件
+  3.4 BBS           电子公告 
+      
