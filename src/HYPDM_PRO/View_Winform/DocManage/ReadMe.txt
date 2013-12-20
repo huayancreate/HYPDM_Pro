@@ -73,3 +73,15 @@
        2.61 AddReviewRule      新增重查规则
 	   2.62 CheckResult        查看结果
 
+三  MyTaskBox 我的任务箱
+  3.1 MyTask  我的任务
+       3.11DocApprovalTask 文档审签任务 ****
+       3.12TaskTranspond   任务转发
+	   3.13DocSendBack     文档打回
+  3.2 OfficeTask 办公任务
+      ApprovalTaskExecute   审签任务执行
+	  
+  3.3 EmailAddress  电子邮箱   
+      WriteEmail    写邮件
+  3.4 BBS           电子公告 
+      
