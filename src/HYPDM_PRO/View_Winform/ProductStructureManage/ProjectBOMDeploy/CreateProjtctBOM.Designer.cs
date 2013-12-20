@@ -1,6 +1,6 @@
 ﻿namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
 {
-    partial class NewProjtctBOM
+    partial class CreateProjtctBOM
     {
         /// <summary>
         /// Required designer variable.

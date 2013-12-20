@@ -60,9 +60,9 @@
     
   2.1  MaterialBankManage 物料库管理
        2.11 AddType            新增类型
-	   2.12 AddMaterialInfor   录入物料信息
-	   2.13 CustomExportItem   自定义导出项
-	   2.14 DataAddGuide       数据导入向导
+	   2.12 AddMaterialInfor   录入物料信出项
+	   2.14 DataAddGuide       数据导入向息
+	   2.13 CustomExportItem   自定义导导
   2.2 MeasurementUnitBuild     计量单位设置
   2.3 MaterialPegging          物料反查
   2.4 物料属性设置     

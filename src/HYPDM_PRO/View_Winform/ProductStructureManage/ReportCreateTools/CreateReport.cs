@@ -7,16 +7,16 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
+namespace View_Winform.ProductStructureManage.ReportCreateTools
 {
-    public partial class NewProjtctBOM : DevExpress.XtraEditors.XtraForm
+    public partial class CreateReport : DevExpress.XtraEditors.XtraForm
     {
-        public NewProjtctBOM()
+        public CreateReport()
         {
             InitializeComponent();
         }
 
-        private void listBoxControl2_SelectedIndexChanged(object sender, EventArgs e)
+        private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
 
         }
