@@ -541,11 +541,41 @@
     <Compile Include="ProductStructureManage\ProjectBOMDeploy\BOMDeploy.Designer.cs">
       <DependentUpon>BOMDeploy.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\BOMNodeMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\BOMNodeMessage.Designer.cs">
+      <DependentUpon>BOMNodeMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\ConsultBOMParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\ConsultBOMParts.Designer.cs">
+      <DependentUpon>ConsultBOMParts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\ConsumablesStoreBOMParts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\ConsumablesStoreBOMParts.Designer.cs">
+      <DependentUpon>ConsumablesStoreBOMParts.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.Designer.cs">
       <DependentUpon>NewProjtctBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\RelevanceNativeplaceDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\RelevanceNativeplaceDoc.Designer.cs">
+      <DependentUpon>RelevanceNativeplaceDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\RelevanceOldDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\RelevanceOldDoc.Designer.cs">
+      <DependentUpon>RelevanceOldDoc.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductStructureManage\ProjectBOMDeploy\SelectBOMApprovalFlow.cs">
       <SubType>Form</SubType>
@@ -805,8 +835,23 @@
     <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\BOMDeploy.resx">
       <DependentUpon>BOMDeploy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\BOMNodeMessage.resx">
+      <DependentUpon>BOMNodeMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\ConsultBOMParts.resx">
+      <DependentUpon>ConsultBOMParts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\ConsumablesStoreBOMParts.resx">
+      <DependentUpon>ConsumablesStoreBOMParts.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.resx">
       <DependentUpon>NewProjtctBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\RelevanceNativeplaceDoc.resx">
+      <DependentUpon>RelevanceNativeplaceDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\RelevanceOldDoc.resx">
+      <DependentUpon>RelevanceOldDoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\SelectBOMApprovalFlow.resx">
       <DependentUpon>SelectBOMApprovalFlow.cs</DependentUpon>
