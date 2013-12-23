@@ -1,5 +1,6 @@
-﻿三
- 3.1.产品结构管理   ProductStructureManage
+﻿三.产品结构管理   ProductStructureManage
+
+3.1配置信息管理    DeployInformationManage
 
 	 BOM信息维护    BOMInformationMaintion
 
@@ -90,3 +91,82 @@ ________________________________________________________________________________
 	添加属性        AddBuild
 
 __________________________________________________________________________________________2013.12.20
+
+BOM附加属性为列表框  BOMAddProperty
+
+七.变更管理    ChangeManage
+
+7.1变更申请    ChangeApplication
+
+创建变更申请书    CreateChangeApplication
+
+变更管理界面    ChangeManageInterface
+
+变更申请创建    ChangeCreateApplication
+
+
+7.2变更任务管理  ChangeTaskManage
+
+变更任务管理   ChangeTaskManage
+
+
+
+7.3变更通知发放组管理 ChangeMessageGroupManage
+
+变更通知发放组管理  ChangeMessageGroupManage
+
+
+八.项目管理  ProjectManage 
+
+8.1新项目创建  CreateNewProject
+
+新建项目   CreateProject
+
+
+8.2项目日历设置   ProjectCalendarBuild
+
+项目日历    ProjectCalendar
+
+
+8.3项目计划管理    ProjectPlanManage 
+
+项目列表   ProjectList
+
+任务基本信息  TaskBasicMessage
+
+输出类型      OutputType
+
+新建项目文档   CreateProjectDoc
+
+新建产品配置   CreateProductDeploy
+
+另存归档的配置  StoreFileDeploy
+
+输入信息   InputMessage
+
+任务关系设置    TaskRelationBuild
+
+根据流程及BOM分解任务   FlowAndBOMResolveTask
+
+任务计划生效及删除    TaskPlanPassAndDelete
+
+甘特图      GanttChart
+
+
+8.4项目流程定义   ProjectFlowDefinition
+
+项目流程定义     ProjectFlowDefinition
+
+新建项目流程    CreateProjectFlow （注意文档上该图不全）
+
+活动属性设置   ActivityPropertyBuild
+
+项目输出目录管理   ProjectInputCatalogManage
+
+选择添加类型      CreateAddType
+
+
+
+
+
+评审活动属性设置   ReviewActivityPropertyBuild
