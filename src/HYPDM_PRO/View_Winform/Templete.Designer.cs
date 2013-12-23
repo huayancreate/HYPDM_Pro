@@ -31,40 +31,41 @@
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit4 = new DevExpress.XtraEditors.ButtonEdit();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.trackBarControl1 = new DevExpress.XtraEditors.TrackBarControl();
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton4
@@ -90,31 +91,6 @@
             this.simpleButton1.Size = new System.Drawing.Size(55, 23);
             this.simpleButton1.TabIndex = 46;
             this.simpleButton1.Text = "修改(M)";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(61, 12);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 45;
-            this.simpleButton3.Text = "添加(A)";
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Location = new System.Drawing.Point(61, 64);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(40, 14);
-            this.labelControl5.TabIndex = 49;
-            this.labelControl5.Text = "创建人:";
-            // 
-            // textEdit7
-            // 
-            this.textEdit7.Location = new System.Drawing.Point(167, 61);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(51, 20);
-            this.textEdit7.TabIndex = 50;
             // 
             // checkEdit1
             // 
@@ -143,18 +119,11 @@
             // 
             // simpleButton5
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(382, 12);
+            this.simpleButton5.Location = new System.Drawing.Point(305, 12);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(55, 23);
             this.simpleButton5.TabIndex = 60;
             this.simpleButton5.Text = "取消(C)";
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Location = new System.Drawing.Point(61, 134);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(115, 100);
-            this.panelControl1.TabIndex = 61;
             // 
             // listBoxControl1
             // 
@@ -186,20 +155,12 @@
             this.xtraTabPage2.Size = new System.Drawing.Size(238, 66);
             this.xtraTabPage2.Text = "xtraTabPage2";
             // 
-            // groupControl1
-            // 
-            this.groupControl1.Location = new System.Drawing.Point(468, 201);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(200, 100);
-            this.groupControl1.TabIndex = 65;
-            this.groupControl1.Text = "groupControl1";
-            // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(219, 201);
+            this.gridControl1.Location = new System.Drawing.Point(315, 191);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(227, 163);
+            this.gridControl1.Size = new System.Drawing.Size(227, 70);
             this.gridControl1.TabIndex = 66;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -212,7 +173,7 @@
             // 
             // treeList1
             // 
-            this.treeList1.Location = new System.Drawing.Point(61, 370);
+            this.treeList1.Location = new System.Drawing.Point(38, 369);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;
             this.treeList1.Size = new System.Drawing.Size(221, 123);
@@ -228,60 +189,100 @@
             // 
             // memoEdit1
             // 
-            this.memoEdit1.Location = new System.Drawing.Point(526, 324);
+            this.memoEdit1.Location = new System.Drawing.Point(536, 377);
             this.memoEdit1.Name = "memoEdit1";
             this.memoEdit1.Size = new System.Drawing.Size(100, 100);
             this.memoEdit1.TabIndex = 79;
             // 
             // simpleButton6
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(613, 27);
+            this.simpleButton6.Location = new System.Drawing.Point(366, 12);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.Size = new System.Drawing.Size(55, 23);
             this.simpleButton6.TabIndex = 80;
             this.simpleButton6.Text = "确定(O)";
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Location = new System.Drawing.Point(38, 249);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(200, 100);
+            this.groupControl1.TabIndex = 82;
+            this.groupControl1.Text = "groupControl1";
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Location = new System.Drawing.Point(324, 273);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(52, 14);
+            this.labelControl6.TabIndex = 85;
+            this.labelControl6.Text = "属性名称:";
+            // 
+            // textEdit7
+            // 
+            this.textEdit7.Location = new System.Drawing.Point(88, 140);
+            this.textEdit7.Name = "textEdit7";
+            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.textEdit7.Size = new System.Drawing.Size(41, 20);
+            this.textEdit7.TabIndex = 98;
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Location = new System.Drawing.Point(324, 314);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(200, 102);
+            this.groupControl2.TabIndex = 99;
+            this.groupControl2.Text = "groupControl2";
+            // 
+            // panelControl1
+            // 
+            this.panelControl1.Location = new System.Drawing.Point(122, 143);
+            this.panelControl1.Name = "panelControl1";
+            this.panelControl1.Size = new System.Drawing.Size(155, 56);
+            this.panelControl1.TabIndex = 100;
             // 
             // Templete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(701, 560);
+            this.Controls.Add(this.panelControl1);
+            this.Controls.Add(this.groupControl2);
+            this.Controls.Add(this.textEdit7);
+            this.Controls.Add(this.labelControl6);
+            this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.simpleButton6);
             this.Controls.Add(this.trackBarControl1);
             this.Controls.Add(this.treeList1);
             this.Controls.Add(this.gridControl1);
-            this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.listBoxControl1);
-            this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.textEdit4);
             this.Controls.Add(this.textEdit6);
             this.Controls.Add(this.checkEdit1);
-            this.Controls.Add(this.textEdit7);
-            this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.simpleButton4);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.memoEdit1);
             this.Name = "Templete";
-            this.Text = "Templete";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -292,24 +293,24 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit6;
         private DevExpress.XtraEditors.ButtonEdit textEdit4;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraTreeList.TreeList treeList1;
         private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
         private DevExpress.XtraEditors.MemoEdit memoEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl6;
+        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private DevExpress.XtraEditors.PanelControl panelControl1;
     }
 }
