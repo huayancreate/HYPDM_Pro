@@ -83,5 +83,11 @@
 	  
   3.3 EmailAddress  电子邮箱   
       WriteEmail    写邮件
-  3.4 BBS           电子公告 
+  3.4 BBS           电子公告
+  3.5 ModificatoryMessage 变更消息通知
+  3.6 MyDoc         我的文档
+  3.7 SetDocCategory  设定文档分类
+  3.8 PersonalInforSet 个人信息设置
+  3.9 MyCode           我的编码
+  3.10 ApplyCode 申请编码  
       

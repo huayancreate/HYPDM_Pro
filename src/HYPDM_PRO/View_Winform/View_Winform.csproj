@@ -52,7 +52,9 @@
     <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Design.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -61,6 +63,7 @@
     <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -326,6 +329,84 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\ApplyCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\ApplyCode.Designer.cs">
+      <DependentUpon>ApplyCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\ApprovalTaskExecute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\ApprovalTaskExecute.Designer.cs">
+      <DependentUpon>ApprovalTaskExecute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\BBS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\BBS.Designer.cs">
+      <DependentUpon>BBS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\DocSendBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\DocSendBack.Designer.cs">
+      <DependentUpon>DocSendBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\EmailAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\EmailAddress.Designer.cs">
+      <DependentUpon>EmailAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\ModificatoryMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\ModificatoryMessage.Designer.cs">
+      <DependentUpon>ModificatoryMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\MyCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\MyCode.Designer.cs">
+      <DependentUpon>MyCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\MyDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\MyDoc.Designer.cs">
+      <DependentUpon>MyDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\MyTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\MyTask.Designer.cs">
+      <DependentUpon>MyTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\PersonalInforSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\PersonalInforSet.Designer.cs">
+      <DependentUpon>PersonalInforSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\SetDocCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\SetDocCategory.Designer.cs">
+      <DependentUpon>SetDocCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\TaskTranspond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\TaskTranspond.Designer.cs">
+      <DependentUpon>TaskTranspond.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\WriteEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\WriteEmail.Designer.cs">
+      <DependentUpon>WriteEmail.cs</DependentUpon>
     </Compile>
     <Compile Include="PartsMange\ChooseMaterialType.cs">
       <SubType>Form</SubType>
@@ -619,6 +700,45 @@
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\ApplyCode.resx">
+      <DependentUpon>ApplyCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\ApprovalTaskExecute.resx">
+      <DependentUpon>ApprovalTaskExecute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\BBS.resx">
+      <DependentUpon>BBS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\DocSendBack.resx">
+      <DependentUpon>DocSendBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\EmailAddress.resx">
+      <DependentUpon>EmailAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\ModificatoryMessage.resx">
+      <DependentUpon>ModificatoryMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\MyCode.resx">
+      <DependentUpon>MyCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\MyDoc.resx">
+      <DependentUpon>MyDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\MyTask.resx">
+      <DependentUpon>MyTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\PersonalInforSet.resx">
+      <DependentUpon>PersonalInforSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\SetDocCategory.resx">
+      <DependentUpon>SetDocCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\TaskTranspond.resx">
+      <DependentUpon>TaskTranspond.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\WriteEmail.resx">
+      <DependentUpon>WriteEmail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\ChooseMaterialType.resx">
       <DependentUpon>ChooseMaterialType.cs</DependentUpon>
     </EmbeddedResource>
@@ -742,6 +862,7 @@
     <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />
     <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />
     <Content Include="DocManage\ReadMe.txt" />
+    <Content Include="MyTaskBox\ReadMe.txt" />
     <Content Include="ProductStructureManage\ReadMe.txt" />
     <Content Include="ReadMe.txt" />
   </ItemGroup>
