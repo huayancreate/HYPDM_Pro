@@ -60,9 +60,9 @@
     
   2.1  MaterialBankManage 物料库管理
        2.11 AddType            新增类型
-	   2.12 AddMaterialInfor   录入物料信出项
-	   2.14 DataAddGuide       数据导入向息
-	   2.13 CustomExportItem   自定义导导
+	   2.12 AddMaterialInfor   录入物料信息
+	   2.13 CustomExportItem   自定义导出项
+	   2.14 DataAddGuide       数据导入向导
   2.2 MeasurementUnitBuild     计量单位设置
   2.3 MaterialPegging          物料反查
   2.4 MaterialPropertyBuild    物料属性设置
@@ -83,7 +83,6 @@
 	  
   3.3 EmailAddress  电子邮箱   
       WriteEmail    写邮件
-<<<<<<< HEAD
   3.4 BBS           电子公告
   3.5 ModificatoryMessage 变更消息通知
   3.6 MyDoc         我的文档
@@ -92,7 +91,3 @@
   3.9 MyCode           我的编码
   3.10 ApplyCode 申请编码  
       
-=======
-  3.4 BBS           电子公告 
-      
->>>>>>> d308b063cf2153d95b6e62917648188d458ca3c6
