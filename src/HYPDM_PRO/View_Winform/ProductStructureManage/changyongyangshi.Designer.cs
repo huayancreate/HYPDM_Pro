@@ -42,7 +42,6 @@
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.imageListBoxControl1 = new DevExpress.XtraEditors.ImageListBoxControl();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
@@ -61,7 +60,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageListBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
@@ -185,13 +183,6 @@
             this.comboBoxEdit2.Size = new System.Drawing.Size(52, 20);
             this.comboBoxEdit2.TabIndex = 0;
             // 
-            // listBoxControl2
-            // 
-            this.listBoxControl2.Location = new System.Drawing.Point(325, 216);
-            this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(120, 95);
-            this.listBoxControl2.TabIndex = 14;
-            // 
             // xtraTabControl1
             // 
             this.xtraTabControl1.Location = new System.Drawing.Point(490, 193);
@@ -213,7 +204,7 @@
             this.galleryControl1.Controls.Add(this.galleryControlClient1);
             this.galleryControl1.DesignGalleryGroupIndex = 0;
             this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(606, 100);
+            this.galleryControl1.Location = new System.Drawing.Point(336, 193);
             this.galleryControl1.Name = "galleryControl1";
             this.galleryControl1.Size = new System.Drawing.Size(120, 95);
             this.galleryControl1.TabIndex = 16;
@@ -263,7 +254,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 473);
+            this.ClientSize = new System.Drawing.Size(790, 501);
             this.Controls.Add(this.memoExEdit1);
             this.Controls.Add(this.dropDownButton2);
             this.Controls.Add(this.buttonEdit2);
@@ -271,7 +262,6 @@
             this.Controls.Add(this.galleryControl1);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.comboBoxEdit2);
-            this.Controls.Add(this.listBoxControl2);
             this.Controls.Add(this.imageListBoxControl1);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.listBoxControl1);
@@ -297,7 +287,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageListBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
@@ -325,7 +314,6 @@
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
         private DevExpress.XtraEditors.ImageListBoxControl imageListBoxControl1;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraBars.Ribbon.GalleryControl galleryControl1;
