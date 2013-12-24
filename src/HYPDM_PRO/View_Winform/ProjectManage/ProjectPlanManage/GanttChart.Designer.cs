@@ -258,7 +258,7 @@
             this.Controls.Add(this.treeList1);
             this.Controls.Add(this.panelControl1);
             this.Name = "GanttChart";
-            this.Text = "GanttChart";
+            this.Text = "项目计划管理";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();

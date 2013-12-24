@@ -39,7 +39,10 @@
             this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxEdit6 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
+            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
@@ -48,9 +51,6 @@
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
-            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
-            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.checkButton2 = new DevExpress.XtraEditors.CheckButton();
             this.checkButton3 = new DevExpress.XtraEditors.CheckButton();
@@ -71,12 +71,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
             this.galleryControl1.SuspendLayout();
-            this.galleryControlClient1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
@@ -183,6 +182,13 @@
             this.groupControl1.TabIndex = 15;
             this.groupControl1.Text = "查询条件";
             // 
+            // listBoxControl2
+            // 
+            this.listBoxControl2.Location = new System.Drawing.Point(5, 19);
+            this.listBoxControl2.Name = "listBoxControl2";
+            this.listBoxControl2.Size = new System.Drawing.Size(979, 79);
+            this.listBoxControl2.TabIndex = 15;
+            // 
             // groupControl2
             // 
             this.groupControl2.Controls.Add(this.galleryControl1);
@@ -191,6 +197,23 @@
             this.groupControl2.Size = new System.Drawing.Size(984, 261);
             this.groupControl2.TabIndex = 16;
             this.groupControl2.Text = "查询结构显示区";
+            // 
+            // galleryControl1
+            // 
+            this.galleryControl1.Controls.Add(this.galleryControlClient1);
+            this.galleryControl1.DesignGalleryGroupIndex = 0;
+            this.galleryControl1.DesignGalleryItemIndex = 0;
+            this.galleryControl1.Location = new System.Drawing.Point(0, 25);
+            this.galleryControl1.Name = "galleryControl1";
+            this.galleryControl1.Size = new System.Drawing.Size(979, 236);
+            this.galleryControl1.TabIndex = 17;
+            this.galleryControl1.Text = "galleryControl1";
+            // 
+            // galleryControlClient1
+            // 
+            this.galleryControlClient1.GalleryControl = this.galleryControl1;
+            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
+            this.galleryControlClient1.Size = new System.Drawing.Size(958, 232);
             // 
             // simpleButton1
             // 
@@ -257,30 +280,6 @@
             this.simpleButton8.TabIndex = 8;
             this.simpleButton8.Text = "BOM导入ERP状态";
             this.simpleButton8.Click += new System.EventHandler(this.simpleButton8_Click);
-            // 
-            // galleryControl1
-            // 
-            this.galleryControl1.Controls.Add(this.galleryControlClient1);
-            this.galleryControl1.DesignGalleryGroupIndex = 0;
-            this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(0, 25);
-            this.galleryControl1.Name = "galleryControl1";
-            this.galleryControl1.Size = new System.Drawing.Size(979, 236);
-            this.galleryControl1.TabIndex = 17;
-            this.galleryControl1.Text = "galleryControl1";
-            // 
-            // galleryControlClient1
-            // 
-            this.galleryControlClient1.GalleryControl = this.galleryControl1;
-            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(958, 232);
-            // 
-            // listBoxControl2
-            // 
-            this.listBoxControl2.Location = new System.Drawing.Point(5, 19);
-            this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(979, 79);
-            this.listBoxControl2.TabIndex = 15;
             // 
             // labelControl1
             // 
@@ -383,7 +382,7 @@
             this.Controls.Add(this.checkEdit2);
             this.Controls.Add(this.checkEdit1);
             this.Name = "BOMInformationMaintion";
-            this.Text = "XtraForm1";
+            this.Text = "配置信息管理";
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
@@ -395,12 +394,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
             this.galleryControl1.ResumeLayout(false);
-            this.galleryControlClient1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -29,12 +29,14 @@
         private void InitializeComponent()
         {
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
@@ -42,13 +44,11 @@
             this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit6 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit7 = new DevExpress.XtraEditors.CheckEdit();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
@@ -72,22 +72,12 @@
             this.groupControl1.TabIndex = 8;
             this.groupControl1.Text = "项目信息";
             // 
-            // labelControl1
+            // textEdit1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(10, 54);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(48, 14);
-            this.labelControl1.TabIndex = 6;
-            this.labelControl1.Text = "开始时间";
-            this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(10, 25);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(48, 14);
-            this.labelControl2.TabIndex = 7;
-            this.labelControl2.Text = "项目名称";
+            this.textEdit1.Location = new System.Drawing.Point(64, 51);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(207, 20);
+            this.textEdit1.TabIndex = 20;
             // 
             // buttonEdit2
             // 
@@ -98,12 +88,22 @@
             this.buttonEdit2.Size = new System.Drawing.Size(207, 20);
             this.buttonEdit2.TabIndex = 19;
             // 
-            // textEdit1
+            // labelControl2
             // 
-            this.textEdit1.Location = new System.Drawing.Point(64, 51);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(207, 20);
-            this.textEdit1.TabIndex = 20;
+            this.labelControl2.Location = new System.Drawing.Point(10, 25);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(48, 14);
+            this.labelControl2.TabIndex = 7;
+            this.labelControl2.Text = "项目名称";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(10, 54);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(48, 14);
+            this.labelControl1.TabIndex = 6;
+            this.labelControl1.Text = "开始时间";
+            this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
             // 
             // groupControl2
             // 
@@ -124,13 +124,29 @@
             this.groupControl2.TabIndex = 9;
             this.groupControl2.Text = "工作日和工作时间";
             // 
-            // labelControl3
+            // labelControl6
             // 
-            this.labelControl3.Location = new System.Drawing.Point(5, 25);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(124, 14);
-            this.labelControl3.TabIndex = 6;
-            this.labelControl3.Text = "一周中哪些天是工作日:";
+            this.labelControl6.Location = new System.Drawing.Point(10, 140);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(54, 14);
+            this.labelControl6.TabIndex = 19;
+            this.labelControl6.Text = "从(xx:xx):";
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Location = new System.Drawing.Point(133, 140);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(54, 14);
+            this.labelControl5.TabIndex = 18;
+            this.labelControl5.Text = "到(xx:xx):";
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(5, 110);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(88, 14);
+            this.labelControl4.TabIndex = 17;
+            this.labelControl4.Text = "一天的工作时间:";
             // 
             // checkEdit1
             // 
@@ -189,29 +205,13 @@
             this.checkEdit7.Size = new System.Drawing.Size(50, 19);
             this.checkEdit7.TabIndex = 16;
             // 
-            // labelControl4
+            // labelControl3
             // 
-            this.labelControl4.Location = new System.Drawing.Point(5, 110);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(88, 14);
-            this.labelControl4.TabIndex = 17;
-            this.labelControl4.Text = "一天的工作时间:";
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Location = new System.Drawing.Point(133, 140);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(54, 14);
-            this.labelControl5.TabIndex = 18;
-            this.labelControl5.Text = "到(xx:xx):";
-            // 
-            // labelControl6
-            // 
-            this.labelControl6.Location = new System.Drawing.Point(10, 140);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(54, 14);
-            this.labelControl6.TabIndex = 19;
-            this.labelControl6.Text = "从(xx:xx):";
+            this.labelControl3.Location = new System.Drawing.Point(5, 25);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(124, 14);
+            this.labelControl3.TabIndex = 6;
+            this.labelControl3.Text = "一周中哪些天是工作日:";
             // 
             // ProjectCalendar
             // 
@@ -221,12 +221,12 @@
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);
             this.Name = "ProjectCalendar";
-            this.Text = "ProjectCalendar";
+            this.Text = "项目日历";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
