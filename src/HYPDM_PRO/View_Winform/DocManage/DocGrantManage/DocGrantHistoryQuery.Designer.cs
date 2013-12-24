@@ -531,7 +531,7 @@
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.panelControl1);
             this.Name = "DocGrantHistoryQuery";
-            this.Text = "DocGrantHistoryQuery";
+            this.Text = "文档发放记录查询";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();

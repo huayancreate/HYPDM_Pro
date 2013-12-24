@@ -458,7 +458,7 @@
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.panelControl1);
             this.Name = "DocGrantManage";
-            this.Text = "DocGrantManage";
+            this.Text = "文档发放管理";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();

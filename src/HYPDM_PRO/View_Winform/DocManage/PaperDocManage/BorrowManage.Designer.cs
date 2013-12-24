@@ -85,6 +85,41 @@
             this.xtraTabControl2 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
+            this.xtraTabControl3 = new DevExpress.XtraTab.XtraTabControl();
+            this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
+            this.textEdit21 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl28 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit22 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl39 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit23 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit34 = new DevExpress.XtraEditors.TextEdit();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl38 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.textEdit33 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit24 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl37 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit25 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit32 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit26 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl36 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl24 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit31 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl35 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl26 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit30 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl34 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit29 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl29 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl33 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl30 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit28 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl31 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl32 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit27 = new DevExpress.XtraEditors.TextEdit();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
@@ -99,41 +134,6 @@
             this.labelControl22 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.textEdit21 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit22 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit23 = new DevExpress.XtraEditors.TextEdit();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textEdit24 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit25 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit26 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl24 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl26 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl27 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl28 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl29 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl30 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl31 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit27 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl32 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit28 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl33 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit29 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl34 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit30 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl35 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit31 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl36 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit32 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl37 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit33 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl38 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit34 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl39 = new DevExpress.XtraEditors.LabelControl();
-            this.xtraTabControl3 = new DevExpress.XtraTab.XtraTabControl();
-            this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
             this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -198,6 +198,24 @@
             this.xtraTabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
             this.panelControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl3)).BeginInit();
+            this.xtraTabControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit23.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit24.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit25.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit26.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit29.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit28.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit27.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
@@ -205,24 +223,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).BeginInit();
             this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit23.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit24.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit25.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit26.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit27.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit28.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit29.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl3)).BeginInit();
-            this.xtraTabControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
             this.groupControl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -770,6 +770,274 @@
             this.panelControl5.Size = new System.Drawing.Size(386, 302);
             this.panelControl5.TabIndex = 0;
             // 
+            // xtraTabControl3
+            // 
+            this.xtraTabControl3.Location = new System.Drawing.Point(5, 204);
+            this.xtraTabControl3.Name = "xtraTabControl3";
+            this.xtraTabControl3.SelectedTabPage = this.xtraTabPage5;
+            this.xtraTabControl3.Size = new System.Drawing.Size(383, 90);
+            this.xtraTabControl3.TabIndex = 127;
+            this.xtraTabControl3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.xtraTabPage5,
+            this.xtraTabPage6});
+            // 
+            // xtraTabPage5
+            // 
+            this.xtraTabPage5.Name = "xtraTabPage5";
+            this.xtraTabPage5.Size = new System.Drawing.Size(377, 61);
+            this.xtraTabPage5.Text = "关键字";
+            // 
+            // xtraTabPage6
+            // 
+            this.xtraTabPage6.Name = "xtraTabPage6";
+            this.xtraTabPage6.Size = new System.Drawing.Size(377, 61);
+            this.xtraTabPage6.Text = "摘要";
+            // 
+            // textEdit21
+            // 
+            this.textEdit21.Location = new System.Drawing.Point(279, 167);
+            this.textEdit21.Name = "textEdit21";
+            this.textEdit21.Size = new System.Drawing.Size(100, 20);
+            this.textEdit21.TabIndex = 126;
+            // 
+            // labelControl28
+            // 
+            this.labelControl28.Location = new System.Drawing.Point(221, 75);
+            this.labelControl28.Name = "labelControl28";
+            this.labelControl28.Size = new System.Drawing.Size(52, 14);
+            this.labelControl28.TabIndex = 114;
+            this.labelControl28.Text = "文档格式:";
+            // 
+            // textEdit22
+            // 
+            this.textEdit22.Location = new System.Drawing.Point(279, 143);
+            this.textEdit22.Name = "textEdit22";
+            this.textEdit22.Size = new System.Drawing.Size(100, 20);
+            this.textEdit22.TabIndex = 125;
+            // 
+            // labelControl39
+            // 
+            this.labelControl39.Location = new System.Drawing.Point(11, 5);
+            this.labelControl39.Name = "labelControl39";
+            this.labelControl39.Size = new System.Drawing.Size(52, 14);
+            this.labelControl39.TabIndex = 95;
+            this.labelControl39.Text = "文档编码:";
+            // 
+            // textEdit23
+            // 
+            this.textEdit23.Location = new System.Drawing.Point(279, 119);
+            this.textEdit23.Name = "textEdit23";
+            this.textEdit23.Size = new System.Drawing.Size(100, 20);
+            this.textEdit23.TabIndex = 124;
+            // 
+            // textEdit34
+            // 
+            this.textEdit34.Location = new System.Drawing.Point(72, 2);
+            this.textEdit34.Name = "textEdit34";
+            this.textEdit34.Size = new System.Drawing.Size(100, 20);
+            this.textEdit34.TabIndex = 96;
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.Location = new System.Drawing.Point(279, 94);
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(100, 20);
+            this.comboBoxEdit2.TabIndex = 123;
+            // 
+            // labelControl38
+            // 
+            this.labelControl38.Location = new System.Drawing.Point(5, 29);
+            this.labelControl38.Name = "labelControl38";
+            this.labelControl38.Size = new System.Drawing.Size(59, 14);
+            this.labelControl38.TabIndex = 97;
+            this.labelControl38.Text = "*文档名称:";
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.Location = new System.Drawing.Point(279, 72);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(100, 20);
+            this.comboBoxEdit1.TabIndex = 122;
+            // 
+            // textEdit33
+            // 
+            this.textEdit33.Location = new System.Drawing.Point(72, 26);
+            this.textEdit33.Name = "textEdit33";
+            this.textEdit33.Size = new System.Drawing.Size(100, 20);
+            this.textEdit33.TabIndex = 98;
+            // 
+            // textEdit24
+            // 
+            this.textEdit24.Location = new System.Drawing.Point(279, 49);
+            this.textEdit24.Name = "textEdit24";
+            this.textEdit24.Size = new System.Drawing.Size(100, 20);
+            this.textEdit24.TabIndex = 121;
+            // 
+            // labelControl37
+            // 
+            this.labelControl37.Location = new System.Drawing.Point(12, 52);
+            this.labelControl37.Name = "labelControl37";
+            this.labelControl37.Size = new System.Drawing.Size(52, 14);
+            this.labelControl37.TabIndex = 99;
+            this.labelControl37.Text = "文档卷宗:";
+            // 
+            // textEdit25
+            // 
+            this.textEdit25.Location = new System.Drawing.Point(279, 26);
+            this.textEdit25.Name = "textEdit25";
+            this.textEdit25.Size = new System.Drawing.Size(100, 20);
+            this.textEdit25.TabIndex = 120;
+            // 
+            // textEdit32
+            // 
+            this.textEdit32.Location = new System.Drawing.Point(72, 49);
+            this.textEdit32.Name = "textEdit32";
+            this.textEdit32.Size = new System.Drawing.Size(100, 20);
+            this.textEdit32.TabIndex = 100;
+            // 
+            // textEdit26
+            // 
+            this.textEdit26.Location = new System.Drawing.Point(279, 2);
+            this.textEdit26.Name = "textEdit26";
+            this.textEdit26.Size = new System.Drawing.Size(100, 20);
+            this.textEdit26.TabIndex = 119;
+            // 
+            // labelControl36
+            // 
+            this.labelControl36.Location = new System.Drawing.Point(14, 76);
+            this.labelControl36.Name = "labelControl36";
+            this.labelControl36.Size = new System.Drawing.Size(52, 14);
+            this.labelControl36.TabIndex = 101;
+            this.labelControl36.Text = "文档数量:";
+            // 
+            // labelControl24
+            // 
+            this.labelControl24.Location = new System.Drawing.Point(221, 170);
+            this.labelControl24.Name = "labelControl24";
+            this.labelControl24.Size = new System.Drawing.Size(52, 14);
+            this.labelControl24.TabIndex = 118;
+            this.labelControl24.Text = "失效时间:";
+            // 
+            // textEdit31
+            // 
+            this.textEdit31.Location = new System.Drawing.Point(72, 72);
+            this.textEdit31.Name = "textEdit31";
+            this.textEdit31.Size = new System.Drawing.Size(100, 20);
+            this.textEdit31.TabIndex = 102;
+            // 
+            // labelControl25
+            // 
+            this.labelControl25.Location = new System.Drawing.Point(221, 146);
+            this.labelControl25.Name = "labelControl25";
+            this.labelControl25.Size = new System.Drawing.Size(52, 14);
+            this.labelControl25.TabIndex = 117;
+            this.labelControl25.Text = "图纸幅面:";
+            // 
+            // labelControl35
+            // 
+            this.labelControl35.Location = new System.Drawing.Point(36, 97);
+            this.labelControl35.Name = "labelControl35";
+            this.labelControl35.Size = new System.Drawing.Size(28, 14);
+            this.labelControl35.TabIndex = 103;
+            this.labelControl35.Text = "张数:";
+            // 
+            // labelControl26
+            // 
+            this.labelControl26.Location = new System.Drawing.Point(231, 123);
+            this.labelControl26.Name = "labelControl26";
+            this.labelControl26.Size = new System.Drawing.Size(28, 14);
+            this.labelControl26.TabIndex = 116;
+            this.labelControl26.Text = "柜号:";
+            // 
+            // textEdit30
+            // 
+            this.textEdit30.Location = new System.Drawing.Point(72, 95);
+            this.textEdit30.Name = "textEdit30";
+            this.textEdit30.Size = new System.Drawing.Size(100, 20);
+            this.textEdit30.TabIndex = 104;
+            // 
+            // labelControl27
+            // 
+            this.labelControl27.Location = new System.Drawing.Point(221, 98);
+            this.labelControl27.Name = "labelControl27";
+            this.labelControl27.Size = new System.Drawing.Size(52, 14);
+            this.labelControl27.TabIndex = 115;
+            this.labelControl27.Text = "纸质密级:";
+            // 
+            // labelControl34
+            // 
+            this.labelControl34.Location = new System.Drawing.Point(25, 124);
+            this.labelControl34.Name = "labelControl34";
+            this.labelControl34.Size = new System.Drawing.Size(40, 14);
+            this.labelControl34.TabIndex = 105;
+            this.labelControl34.Text = "入库人:";
+            // 
+            // textEdit29
+            // 
+            this.textEdit29.Location = new System.Drawing.Point(71, 120);
+            this.textEdit29.Name = "textEdit29";
+            this.textEdit29.Size = new System.Drawing.Size(100, 20);
+            this.textEdit29.TabIndex = 106;
+            // 
+            // labelControl29
+            // 
+            this.labelControl29.Location = new System.Drawing.Point(221, 49);
+            this.labelControl29.Name = "labelControl29";
+            this.labelControl29.Size = new System.Drawing.Size(52, 14);
+            this.labelControl29.TabIndex = 113;
+            this.labelControl29.Text = "文档分类:";
+            // 
+            // labelControl33
+            // 
+            this.labelControl33.Location = new System.Drawing.Point(26, 148);
+            this.labelControl33.Name = "labelControl33";
+            this.labelControl33.Size = new System.Drawing.Size(40, 14);
+            this.labelControl33.TabIndex = 107;
+            this.labelControl33.Text = "设计者:";
+            // 
+            // labelControl30
+            // 
+            this.labelControl30.Location = new System.Drawing.Point(221, 29);
+            this.labelControl30.Name = "labelControl30";
+            this.labelControl30.Size = new System.Drawing.Size(52, 14);
+            this.labelControl30.TabIndex = 112;
+            this.labelControl30.Text = "底图总号:";
+            // 
+            // textEdit28
+            // 
+            this.textEdit28.Location = new System.Drawing.Point(70, 146);
+            this.textEdit28.Name = "textEdit28";
+            this.textEdit28.Size = new System.Drawing.Size(100, 20);
+            this.textEdit28.TabIndex = 108;
+            // 
+            // labelControl31
+            // 
+            this.labelControl31.Location = new System.Drawing.Point(221, 5);
+            this.labelControl31.Name = "labelControl31";
+            this.labelControl31.Size = new System.Drawing.Size(52, 14);
+            this.labelControl31.TabIndex = 111;
+            this.labelControl31.Text = "文档版本:";
+            // 
+            // labelControl32
+            // 
+            this.labelControl32.Location = new System.Drawing.Point(15, 170);
+            this.labelControl32.Name = "labelControl32";
+            this.labelControl32.Size = new System.Drawing.Size(52, 14);
+            this.labelControl32.TabIndex = 109;
+            this.labelControl32.Text = "生效时间:";
+            // 
+            // textEdit27
+            // 
+            this.textEdit27.Location = new System.Drawing.Point(70, 169);
+            this.textEdit27.Name = "textEdit27";
+            this.textEdit27.ShowToolTips = false;
+            this.textEdit27.Size = new System.Drawing.Size(100, 20);
+            this.textEdit27.TabIndex = 110;
+            // 
             // xtraTabPage4
             // 
             this.xtraTabPage4.Name = "xtraTabPage4";
@@ -885,7 +1153,7 @@
             // 
             this.xtraTabPage2.Controls.Add(this.panelControl3);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(556, 431);
+            this.xtraTabPage2.Size = new System.Drawing.Size(556, 363);
             this.xtraTabPage2.Text = "文档卷宗";
             // 
             // panelControl3
@@ -893,276 +1161,8 @@
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl3.Location = new System.Drawing.Point(0, 0);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(556, 431);
+            this.panelControl3.Size = new System.Drawing.Size(556, 363);
             this.panelControl3.TabIndex = 62;
-            // 
-            // textEdit21
-            // 
-            this.textEdit21.Location = new System.Drawing.Point(279, 167);
-            this.textEdit21.Name = "textEdit21";
-            this.textEdit21.Size = new System.Drawing.Size(100, 20);
-            this.textEdit21.TabIndex = 126;
-            // 
-            // textEdit22
-            // 
-            this.textEdit22.Location = new System.Drawing.Point(279, 143);
-            this.textEdit22.Name = "textEdit22";
-            this.textEdit22.Size = new System.Drawing.Size(100, 20);
-            this.textEdit22.TabIndex = 125;
-            // 
-            // textEdit23
-            // 
-            this.textEdit23.Location = new System.Drawing.Point(279, 119);
-            this.textEdit23.Name = "textEdit23";
-            this.textEdit23.Size = new System.Drawing.Size(100, 20);
-            this.textEdit23.TabIndex = 124;
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(279, 94);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(100, 20);
-            this.comboBoxEdit2.TabIndex = 123;
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(279, 72);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(100, 20);
-            this.comboBoxEdit1.TabIndex = 122;
-            // 
-            // textEdit24
-            // 
-            this.textEdit24.Location = new System.Drawing.Point(279, 49);
-            this.textEdit24.Name = "textEdit24";
-            this.textEdit24.Size = new System.Drawing.Size(100, 20);
-            this.textEdit24.TabIndex = 121;
-            // 
-            // textEdit25
-            // 
-            this.textEdit25.Location = new System.Drawing.Point(279, 26);
-            this.textEdit25.Name = "textEdit25";
-            this.textEdit25.Size = new System.Drawing.Size(100, 20);
-            this.textEdit25.TabIndex = 120;
-            // 
-            // textEdit26
-            // 
-            this.textEdit26.Location = new System.Drawing.Point(279, 2);
-            this.textEdit26.Name = "textEdit26";
-            this.textEdit26.Size = new System.Drawing.Size(100, 20);
-            this.textEdit26.TabIndex = 119;
-            // 
-            // labelControl24
-            // 
-            this.labelControl24.Location = new System.Drawing.Point(221, 170);
-            this.labelControl24.Name = "labelControl24";
-            this.labelControl24.Size = new System.Drawing.Size(52, 14);
-            this.labelControl24.TabIndex = 118;
-            this.labelControl24.Text = "失效时间:";
-            // 
-            // labelControl25
-            // 
-            this.labelControl25.Location = new System.Drawing.Point(221, 146);
-            this.labelControl25.Name = "labelControl25";
-            this.labelControl25.Size = new System.Drawing.Size(52, 14);
-            this.labelControl25.TabIndex = 117;
-            this.labelControl25.Text = "图纸幅面:";
-            // 
-            // labelControl26
-            // 
-            this.labelControl26.Location = new System.Drawing.Point(231, 123);
-            this.labelControl26.Name = "labelControl26";
-            this.labelControl26.Size = new System.Drawing.Size(28, 14);
-            this.labelControl26.TabIndex = 116;
-            this.labelControl26.Text = "柜号:";
-            // 
-            // labelControl27
-            // 
-            this.labelControl27.Location = new System.Drawing.Point(221, 98);
-            this.labelControl27.Name = "labelControl27";
-            this.labelControl27.Size = new System.Drawing.Size(52, 14);
-            this.labelControl27.TabIndex = 115;
-            this.labelControl27.Text = "纸质密级:";
-            // 
-            // labelControl28
-            // 
-            this.labelControl28.Location = new System.Drawing.Point(221, 75);
-            this.labelControl28.Name = "labelControl28";
-            this.labelControl28.Size = new System.Drawing.Size(52, 14);
-            this.labelControl28.TabIndex = 114;
-            this.labelControl28.Text = "文档格式:";
-            // 
-            // labelControl29
-            // 
-            this.labelControl29.Location = new System.Drawing.Point(221, 49);
-            this.labelControl29.Name = "labelControl29";
-            this.labelControl29.Size = new System.Drawing.Size(52, 14);
-            this.labelControl29.TabIndex = 113;
-            this.labelControl29.Text = "文档分类:";
-            // 
-            // labelControl30
-            // 
-            this.labelControl30.Location = new System.Drawing.Point(221, 29);
-            this.labelControl30.Name = "labelControl30";
-            this.labelControl30.Size = new System.Drawing.Size(52, 14);
-            this.labelControl30.TabIndex = 112;
-            this.labelControl30.Text = "底图总号:";
-            // 
-            // labelControl31
-            // 
-            this.labelControl31.Location = new System.Drawing.Point(221, 5);
-            this.labelControl31.Name = "labelControl31";
-            this.labelControl31.Size = new System.Drawing.Size(52, 14);
-            this.labelControl31.TabIndex = 111;
-            this.labelControl31.Text = "文档版本:";
-            // 
-            // textEdit27
-            // 
-            this.textEdit27.Location = new System.Drawing.Point(70, 169);
-            this.textEdit27.Name = "textEdit27";
-            this.textEdit27.ShowToolTips = false;
-            this.textEdit27.Size = new System.Drawing.Size(100, 20);
-            this.textEdit27.TabIndex = 110;
-            // 
-            // labelControl32
-            // 
-            this.labelControl32.Location = new System.Drawing.Point(15, 170);
-            this.labelControl32.Name = "labelControl32";
-            this.labelControl32.Size = new System.Drawing.Size(52, 14);
-            this.labelControl32.TabIndex = 109;
-            this.labelControl32.Text = "生效时间:";
-            // 
-            // textEdit28
-            // 
-            this.textEdit28.Location = new System.Drawing.Point(70, 146);
-            this.textEdit28.Name = "textEdit28";
-            this.textEdit28.Size = new System.Drawing.Size(100, 20);
-            this.textEdit28.TabIndex = 108;
-            // 
-            // labelControl33
-            // 
-            this.labelControl33.Location = new System.Drawing.Point(26, 148);
-            this.labelControl33.Name = "labelControl33";
-            this.labelControl33.Size = new System.Drawing.Size(40, 14);
-            this.labelControl33.TabIndex = 107;
-            this.labelControl33.Text = "设计者:";
-            // 
-            // textEdit29
-            // 
-            this.textEdit29.Location = new System.Drawing.Point(71, 120);
-            this.textEdit29.Name = "textEdit29";
-            this.textEdit29.Size = new System.Drawing.Size(100, 20);
-            this.textEdit29.TabIndex = 106;
-            // 
-            // labelControl34
-            // 
-            this.labelControl34.Location = new System.Drawing.Point(25, 124);
-            this.labelControl34.Name = "labelControl34";
-            this.labelControl34.Size = new System.Drawing.Size(40, 14);
-            this.labelControl34.TabIndex = 105;
-            this.labelControl34.Text = "入库人:";
-            // 
-            // textEdit30
-            // 
-            this.textEdit30.Location = new System.Drawing.Point(72, 95);
-            this.textEdit30.Name = "textEdit30";
-            this.textEdit30.Size = new System.Drawing.Size(100, 20);
-            this.textEdit30.TabIndex = 104;
-            // 
-            // labelControl35
-            // 
-            this.labelControl35.Location = new System.Drawing.Point(36, 97);
-            this.labelControl35.Name = "labelControl35";
-            this.labelControl35.Size = new System.Drawing.Size(28, 14);
-            this.labelControl35.TabIndex = 103;
-            this.labelControl35.Text = "张数:";
-            // 
-            // textEdit31
-            // 
-            this.textEdit31.Location = new System.Drawing.Point(72, 72);
-            this.textEdit31.Name = "textEdit31";
-            this.textEdit31.Size = new System.Drawing.Size(100, 20);
-            this.textEdit31.TabIndex = 102;
-            // 
-            // labelControl36
-            // 
-            this.labelControl36.Location = new System.Drawing.Point(14, 76);
-            this.labelControl36.Name = "labelControl36";
-            this.labelControl36.Size = new System.Drawing.Size(52, 14);
-            this.labelControl36.TabIndex = 101;
-            this.labelControl36.Text = "文档数量:";
-            // 
-            // textEdit32
-            // 
-            this.textEdit32.Location = new System.Drawing.Point(72, 49);
-            this.textEdit32.Name = "textEdit32";
-            this.textEdit32.Size = new System.Drawing.Size(100, 20);
-            this.textEdit32.TabIndex = 100;
-            // 
-            // labelControl37
-            // 
-            this.labelControl37.Location = new System.Drawing.Point(12, 52);
-            this.labelControl37.Name = "labelControl37";
-            this.labelControl37.Size = new System.Drawing.Size(52, 14);
-            this.labelControl37.TabIndex = 99;
-            this.labelControl37.Text = "文档卷宗:";
-            // 
-            // textEdit33
-            // 
-            this.textEdit33.Location = new System.Drawing.Point(72, 26);
-            this.textEdit33.Name = "textEdit33";
-            this.textEdit33.Size = new System.Drawing.Size(100, 20);
-            this.textEdit33.TabIndex = 98;
-            // 
-            // labelControl38
-            // 
-            this.labelControl38.Location = new System.Drawing.Point(5, 29);
-            this.labelControl38.Name = "labelControl38";
-            this.labelControl38.Size = new System.Drawing.Size(59, 14);
-            this.labelControl38.TabIndex = 97;
-            this.labelControl38.Text = "*文档名称:";
-            // 
-            // textEdit34
-            // 
-            this.textEdit34.Location = new System.Drawing.Point(72, 2);
-            this.textEdit34.Name = "textEdit34";
-            this.textEdit34.Size = new System.Drawing.Size(100, 20);
-            this.textEdit34.TabIndex = 96;
-            // 
-            // labelControl39
-            // 
-            this.labelControl39.Location = new System.Drawing.Point(11, 5);
-            this.labelControl39.Name = "labelControl39";
-            this.labelControl39.Size = new System.Drawing.Size(52, 14);
-            this.labelControl39.TabIndex = 95;
-            this.labelControl39.Text = "文档编码:";
-            // 
-            // xtraTabControl3
-            // 
-            this.xtraTabControl3.Location = new System.Drawing.Point(5, 204);
-            this.xtraTabControl3.Name = "xtraTabControl3";
-            this.xtraTabControl3.SelectedTabPage = this.xtraTabPage5;
-            this.xtraTabControl3.Size = new System.Drawing.Size(383, 90);
-            this.xtraTabControl3.TabIndex = 127;
-            this.xtraTabControl3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
-            this.xtraTabPage5,
-            this.xtraTabPage6});
-            // 
-            // xtraTabPage5
-            // 
-            this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(377, 61);
-            this.xtraTabPage5.Text = "关键字";
-            // 
-            // xtraTabPage6
-            // 
-            this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(377, 61);
-            this.xtraTabPage6.Text = "摘要";
             // 
             // groupControl6
             // 
@@ -1370,6 +1370,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
             this.panelControl5.ResumeLayout(false);
             this.panelControl5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl3)).EndInit();
+            this.xtraTabControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit23.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit24.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit25.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit26.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit29.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit28.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit27.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
@@ -1377,24 +1395,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit19.Properties)).EndInit();
             this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit21.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit22.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit23.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit24.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit25.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit26.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit27.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit28.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit29.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit30.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit31.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit32.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit33.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit34.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl3)).EndInit();
-            this.xtraTabControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
             this.groupControl6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
