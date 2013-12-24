@@ -83,7 +83,7 @@
             this.ClientSize = new System.Drawing.Size(380, 457);
             this.Controls.Add(this.treeList1);
             this.Name = "TaskPlanPassAndDelete";
-            this.Text = "TaskPlanPassAndDelete";
+            this.Text = "任务生效与删除";
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             this.ResumeLayout(false);
 

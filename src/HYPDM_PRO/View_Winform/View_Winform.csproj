@@ -529,6 +529,12 @@
     <Compile Include="ProductProcessManage\AssemblyProcess.Designer.cs">
       <DependentUpon>AssemblyProcess.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductProcessManage\ChooseMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ChooseMaterial.Designer.cs">
+      <DependentUpon>ChooseMaterial.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductProcessManage\ModifyProperty.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -663,6 +669,90 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.Designer.cs">
+      <DependentUpon>ApplicationIntegration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.Designer.cs">
+      <DependentUpon>DocFormatMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.Designer.cs">
+      <DependentUpon>CodeRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.Designer.cs">
+      <DependentUpon>CodeTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.Designer.cs">
+      <DependentUpon>ModifyScheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.Designer.cs">
+      <DependentUpon>FTPSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\LogManage\LogManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\LogManage\LogManage.Designer.cs">
+      <DependentUpon>LogManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.Designer.cs">
+      <DependentUpon>MessageSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.Designer.cs">
+      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.Designer.cs">
+      <DependentUpon>DataImportGuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.Designer.cs">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserManage.Designer.cs">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.Designer.cs">
+      <DependentUpon>UserRoleSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.Designer.cs">
+      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Templete.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -895,6 +985,9 @@
     <EmbeddedResource Include="ProductProcessManage\AssemblyProcess.resx">
       <DependentUpon>AssemblyProcess.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ChooseMaterial.resx">
+      <DependentUpon>ChooseMaterial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductProcessManage\ModifyProperty.resx">
       <DependentUpon>ModifyProperty.cs</DependentUpon>
     </EmbeddedResource>
@@ -972,6 +1065,48 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.resx">
+      <DependentUpon>ApplicationIntegration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.resx">
+      <DependentUpon>DocFormatMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.resx">
+      <DependentUpon>CodeRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.resx">
+      <DependentUpon>CodeTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.resx">
+      <DependentUpon>ModifyScheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\FTPSet\FTPSet.resx">
+      <DependentUpon>FTPSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\LogManage\LogManage.resx">
+      <DependentUpon>LogManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\MessageSet\MessageSet.resx">
+      <DependentUpon>MessageSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\AddVirtualGroup.resx">
+      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\DataImportGuit.resx">
+      <DependentUpon>DataImportGuit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserManage.resx">
+      <DependentUpon>UserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserRoleSet.resx">
+      <DependentUpon>UserRoleSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.resx">
+      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
@@ -1000,12 +1135,11 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="DocManage\ApprovalFlowDefinition\ReadMe.txt" />
+    <Folder Include="SystemManagementAndTools\CodeRuleSet\" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />
-    <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />
-    <Content Include="DocManage\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

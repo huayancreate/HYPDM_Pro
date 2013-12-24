@@ -11,6 +11,8 @@
 
 	 权限设置       PermissionBuild
 
+	 权限设置      UserPermissionBuild 
+
 	 零部件权限设置  PartsPermissionBuild
 
 	 人员选择      PersonnelSelection
@@ -19,6 +21,8 @@
 
 
     新建设计BOM  CreateProjtctBOM
+
+	新建根件     NewProjtctBOM
 
 	选择已有文件  SelectExistingFile
 
@@ -165,8 +169,71 @@ BOM附加属性为列表框  BOMAddProperty
 
 选择添加类型      CreateAddType
 
-
+----------------------------------------------------------------------2013.12.24
 
 
 
 评审活动属性设置   ReviewActivityPropertyBuild
+
+
+8.5项目任务统计    ProjectTaskStatistics
+
+项目任务统计    ProjectTaskStatistics
+
+
+8.6零星任务创建   SporadicTaskCreate
+
+创建设计任务      CreateProjectTask
+
+新建文档包       CreateDocPackage
+
+新建产品结构配置  CreateProductDeploy
+
+复制归档BOM      CopyPigeonholeBOM
+
+输入信息    InputMessage
+
+创建办公任务   CreateOfficeTask
+
+创建工艺任务   CreateTechnologyTask 
+
+
+
+8.7零星任务管理    SporadicTaskManage
+
+设计任务管理(办公 、工艺)   ProjectTaskManage
+
+  
+8.8人员任务查询      PersonnelTaskInquire
+
+人员任务查询  PersonnelTaskInquire
+
+
+8.9零星任务统计   SporadicTaskStatistics
+
+零星任务统计   SporadicTaskStatistics
+
+
+
+8.10项目导出    ProjectExport
+
+项目导出       ProjectExport
+
+
+九.数据接口与集成   DataPortAndIntegration
+
+9.1 BOM数据导入   BOMDataInput
+
+数据导入向导一   DataInputGuideOne
+
+数据导入向导二   DataInputGuideTwo
+
+数据导入向导三   DataInputGuideThree
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 ﻿namespace View_Winform.ProjectManage.ProjectFlowDefinition
 {
-    partial class ActivityPropertyBuild
+    partial class ReviewActivityPropertyBuild
     {
         /// <summary>
         /// Required designer variable.
@@ -36,41 +36,38 @@
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
-            this.groupControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(12, 92);
+            this.labelControl1.Location = new System.Drawing.Point(12, 99);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 14);
             this.labelControl1.TabIndex = 6;
@@ -78,7 +75,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(12, 49);
+            this.labelControl2.Location = new System.Drawing.Point(12, 53);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 14);
             this.labelControl2.TabIndex = 7;
@@ -94,30 +91,30 @@
             // 
             // buttonEdit2
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(88, 9);
+            this.buttonEdit2.Location = new System.Drawing.Point(68, 9);
             this.buttonEdit2.Name = "buttonEdit2";
             this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(197, 20);
+            this.buttonEdit2.Size = new System.Drawing.Size(200, 20);
             this.buttonEdit2.TabIndex = 19;
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(88, 46);
+            this.textEdit1.Location = new System.Drawing.Point(70, 93);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(197, 20);
+            this.textEdit1.Size = new System.Drawing.Size(180, 20);
             this.textEdit1.TabIndex = 20;
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(88, 89);
+            this.textEdit2.Location = new System.Drawing.Point(68, 50);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(166, 20);
+            this.textEdit2.Size = new System.Drawing.Size(200, 20);
             this.textEdit2.TabIndex = 21;
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(260, 92);
+            this.labelControl4.Location = new System.Drawing.Point(256, 96);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(12, 14);
             this.labelControl4.TabIndex = 22;
@@ -126,28 +123,26 @@
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.listBoxControl1);
-            this.groupControl1.Location = new System.Drawing.Point(3, 126);
+            this.groupControl1.Location = new System.Drawing.Point(3, 119);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(282, 334);
+            this.groupControl1.Size = new System.Drawing.Size(269, 419);
             this.groupControl1.TabIndex = 23;
             this.groupControl1.Text = "描述";
             // 
-            // groupControl2
+            // listBoxControl1
             // 
-            this.groupControl2.Controls.Add(this.gridControl1);
-            this.groupControl2.Location = new System.Drawing.Point(291, 12);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(412, 164);
-            this.groupControl2.TabIndex = 24;
-            this.groupControl2.Text = "输出目录信息";
+            this.listBoxControl1.Location = new System.Drawing.Point(0, 20);
+            this.listBoxControl1.Name = "listBoxControl1";
+            this.listBoxControl1.Size = new System.Drawing.Size(265, 399);
+            this.listBoxControl1.TabIndex = 11;
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 19);
+            this.gridControl1.Location = new System.Drawing.Point(274, 1);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(412, 145);
-            this.gridControl1.TabIndex = 0;
+            this.gridControl1.Size = new System.Drawing.Size(400, 238);
+            this.gridControl1.TabIndex = 24;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
@@ -155,123 +150,131 @@
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
-            this.gridColumn2});
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn4});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
             // 
-            this.gridColumn1.Caption = "输出目录";
+            this.gridColumn1.Caption = "人员名称";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
             // 
             // gridColumn2
             // 
-            this.gridColumn2.Caption = "输出包";
+            this.gridColumn2.Caption = "部门";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
             // 
-            // groupControl3
+            // gridColumn3
             // 
-            this.groupControl3.Controls.Add(this.gridControl2);
-            this.groupControl3.Location = new System.Drawing.Point(291, 182);
-            this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(412, 278);
-            this.groupControl3.TabIndex = 25;
-            this.groupControl3.Text = "groupControl3";
+            this.gridColumn3.Caption = "职务";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 2;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "人员编号";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 3;
             // 
             // gridControl2
             // 
-            this.gridControl2.Location = new System.Drawing.Point(0, 20);
+            this.gridControl2.Location = new System.Drawing.Point(274, 289);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(412, 253);
-            this.gridControl2.TabIndex = 0;
+            this.gridControl2.Size = new System.Drawing.Size(400, 249);
+            this.gridControl2.TabIndex = 25;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
             // 
             this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5});
+            this.gridColumn5,
+            this.gridColumn6,
+            this.gridColumn7,
+            this.gridColumn8});
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
             // 
-            // gridColumn3
-            // 
-            this.gridColumn3.Caption = "文档模板名称";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 0;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.Caption = "模板幅面";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 1;
-            // 
-            // gridColumn5
-            // 
-            this.gridColumn5.Caption = "模板格式";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 2;
-            // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(402, 466);
+            this.simpleButton1.Location = new System.Drawing.Point(594, 251);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(79, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "添加输出(A)";
+            this.simpleButton1.Size = new System.Drawing.Size(80, 23);
+            this.simpleButton1.TabIndex = 26;
+            this.simpleButton1.Text = "删除人员(D)";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(652, 466);
+            this.simpleButton2.Location = new System.Drawing.Point(513, 251);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(51, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "取消(C)";
+            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton2.TabIndex = 27;
+            this.simpleButton2.Text = "添加人员(A)";
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "选择";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 0;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "输出目录";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 1;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "输出包";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 2;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.Caption = "活动名称";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 3;
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(589, 466);
+            this.simpleButton3.Location = new System.Drawing.Point(620, 544);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(57, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "确定(O)";
+            this.simpleButton3.Size = new System.Drawing.Size(54, 23);
+            this.simpleButton3.TabIndex = 28;
+            this.simpleButton3.Text = "取消(C)";
             // 
             // simpleButton4
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(487, 466);
+            this.simpleButton4.Location = new System.Drawing.Point(563, 544);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(96, 23);
-            this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "关联文档模板(I)";
+            this.simpleButton4.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton4.TabIndex = 29;
+            this.simpleButton4.Text = "确定(O)";
             // 
-            // listBoxControl1
-            // 
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 20);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(282, 314);
-            this.listBoxControl1.TabIndex = 11;
-            // 
-            // ActivityPropertyBuild
+            // ReviewActivityPropertyBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 499);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton3);
+            this.ClientSize = new System.Drawing.Size(675, 569);
             this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.groupControl3);
-            this.Controls.Add(this.groupControl2);
+            this.Controls.Add(this.simpleButton3);
+            this.Controls.Add(this.simpleButton2);
+            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.gridControl2);
+            this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.textEdit2);
@@ -280,22 +283,18 @@
             this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
-            this.Name = "ActivityPropertyBuild";
+            this.Name = "ReviewActivityPropertyBuild";
             this.Text = "活动属性";
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
-            this.groupControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -311,21 +310,22 @@
         private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraGrid.GridControl gridControl2;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
     }
 }

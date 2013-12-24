@@ -102,7 +102,7 @@
             this.ClientSize = new System.Drawing.Size(646, 495);
             this.Controls.Add(this.gridControl1);
             this.Name = "CompareResult";
-            this.Text = "CompareResult";
+            this.Text = "产品比较";
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);

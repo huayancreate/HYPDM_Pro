@@ -103,6 +103,16 @@
             this.xtraTabPage8 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabControl5 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage13 = new DevExpress.XtraTab.XtraTabPage();
+            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
+            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton13 = new DevExpress.XtraEditors.SimpleButton();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -122,16 +132,6 @@
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
-            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton13 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
-            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
-            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -173,15 +173,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).BeginInit();
             this.xtraTabControl5.SuspendLayout();
             this.xtraTabPage13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
+            this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             this.xtraTabPage9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl4)).BeginInit();
             this.xtraTabControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
-            this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -435,7 +435,7 @@
             this.xtraTabPage1.Controls.Add(this.groupControl2);
             this.xtraTabPage1.Controls.Add(this.xtraTabControl3);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(578, 456);
+            this.xtraTabPage1.Size = new System.Drawing.Size(578, 487);
             this.xtraTabPage1.Text = "版本信息";
             // 
             // groupControl2
@@ -803,7 +803,7 @@
             // xtraTabPage5
             // 
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(578, 456);
+            this.xtraTabPage5.Size = new System.Drawing.Size(578, 487);
             this.xtraTabPage5.Text = "零部件审查信息";
             // 
             // xtraTabPage8
@@ -832,6 +832,90 @@
             this.xtraTabPage13.Name = "xtraTabPage13";
             this.xtraTabPage13.Size = new System.Drawing.Size(578, 474);
             this.xtraTabPage13.Text = "设计BOM区";
+            // 
+            // groupControl3
+            // 
+            this.groupControl3.Controls.Add(this.gridControl3);
+            this.groupControl3.Controls.Add(this.simpleButton14);
+            this.groupControl3.Controls.Add(this.simpleButton13);
+            this.groupControl3.Location = new System.Drawing.Point(-2, 194);
+            this.groupControl3.Name = "groupControl3";
+            this.groupControl3.Size = new System.Drawing.Size(577, 269);
+            this.groupControl3.TabIndex = 8;
+            this.groupControl3.Text = "该零件在设计BOM中被引用了2次";
+            // 
+            // gridControl3
+            // 
+            this.gridControl3.Location = new System.Drawing.Point(5, 25);
+            this.gridControl3.MainView = this.gridView3;
+            this.gridControl3.Name = "gridControl3";
+            this.gridControl3.Size = new System.Drawing.Size(572, 265);
+            this.gridControl3.TabIndex = 16;
+            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
+            // 
+            // gridView3
+            // 
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn12,
+            this.gridColumn13,
+            this.gridColumn14,
+            this.gridColumn15,
+            this.gridColumn16});
+            this.gridView3.GridControl = this.gridControl3;
+            this.gridView3.Name = "gridView3";
+            // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "零件件号";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.Visible = true;
+            this.gridColumn12.VisibleIndex = 0;
+            // 
+            // gridColumn13
+            // 
+            this.gridColumn13.Caption = "零件名称";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 1;
+            // 
+            // gridColumn14
+            // 
+            this.gridColumn14.Caption = "版本";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 2;
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.Caption = "数量";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 3;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.Caption = "...";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 4;
+            // 
+            // simpleButton14
+            // 
+            this.simpleButton14.Location = new System.Drawing.Point(439, 0);
+            this.simpleButton14.Name = "simpleButton14";
+            this.simpleButton14.Size = new System.Drawing.Size(61, 22);
+            this.simpleButton14.TabIndex = 15;
+            this.simpleButton14.Text = "浏览(B)";
+            this.simpleButton14.Click += new System.EventHandler(this.simpleButton14_Click);
+            // 
+            // simpleButton13
+            // 
+            this.simpleButton13.Location = new System.Drawing.Point(506, 0);
+            this.simpleButton13.Name = "simpleButton13";
+            this.simpleButton13.Size = new System.Drawing.Size(58, 22);
+            this.simpleButton13.TabIndex = 14;
+            this.simpleButton13.Text = "输出(U)";
             // 
             // gridControl2
             // 
@@ -916,20 +1000,20 @@
             // xtraTabPage14
             // 
             this.xtraTabPage14.Name = "xtraTabPage14";
-            this.xtraTabPage14.Size = new System.Drawing.Size(578, 434);
+            this.xtraTabPage14.Size = new System.Drawing.Size(578, 474);
             this.xtraTabPage14.Text = "工装BOM区";
             // 
             // xtraTabPage15
             // 
             this.xtraTabPage15.Name = "xtraTabPage15";
-            this.xtraTabPage15.Size = new System.Drawing.Size(578, 434);
+            this.xtraTabPage15.Size = new System.Drawing.Size(578, 474);
             this.xtraTabPage15.Text = "装配工序区";
             // 
             // xtraTabPage9
             // 
             this.xtraTabPage9.Controls.Add(this.xtraTabControl4);
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(578, 456);
+            this.xtraTabPage9.Size = new System.Drawing.Size(578, 487);
             this.xtraTabPage9.Text = "文档清单";
             // 
             // xtraTabControl4
@@ -951,110 +1035,26 @@
             // xtraTabPage7
             // 
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(578, 456);
+            this.xtraTabPage7.Size = new System.Drawing.Size(578, 487);
             this.xtraTabPage7.Text = "零部件文档清单";
             // 
             // xtraTabPage3
             // 
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(587, 485);
+            this.xtraTabPage3.Size = new System.Drawing.Size(587, 524);
             this.xtraTabPage3.Text = "文档简图浏览区";
             // 
             // xtraTabPage4
             // 
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(587, 485);
+            this.xtraTabPage4.Size = new System.Drawing.Size(587, 524);
             this.xtraTabPage4.Text = "零部件列表";
             // 
             // xtraTabPage6
             // 
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(587, 485);
+            this.xtraTabPage6.Size = new System.Drawing.Size(587, 524);
             this.xtraTabPage6.Text = "参考区";
-            // 
-            // groupControl3
-            // 
-            this.groupControl3.Controls.Add(this.gridControl3);
-            this.groupControl3.Controls.Add(this.simpleButton14);
-            this.groupControl3.Controls.Add(this.simpleButton13);
-            this.groupControl3.Location = new System.Drawing.Point(-2, 194);
-            this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(577, 269);
-            this.groupControl3.TabIndex = 8;
-            this.groupControl3.Text = "该零件在设计BOM中被引用了2次";
-            // 
-            // simpleButton13
-            // 
-            this.simpleButton13.Location = new System.Drawing.Point(506, 0);
-            this.simpleButton13.Name = "simpleButton13";
-            this.simpleButton13.Size = new System.Drawing.Size(58, 22);
-            this.simpleButton13.TabIndex = 14;
-            this.simpleButton13.Text = "输出(U)";
-            // 
-            // simpleButton14
-            // 
-            this.simpleButton14.Location = new System.Drawing.Point(439, 0);
-            this.simpleButton14.Name = "simpleButton14";
-            this.simpleButton14.Size = new System.Drawing.Size(61, 22);
-            this.simpleButton14.TabIndex = 15;
-            this.simpleButton14.Text = "浏览(B)";
-            this.simpleButton14.Click += new System.EventHandler(this.simpleButton14_Click);
-            // 
-            // gridControl3
-            // 
-            this.gridControl3.Location = new System.Drawing.Point(5, 25);
-            this.gridControl3.MainView = this.gridView3;
-            this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(572, 265);
-            this.gridControl3.TabIndex = 16;
-            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView3});
-            // 
-            // gridView3
-            // 
-            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn12,
-            this.gridColumn13,
-            this.gridColumn14,
-            this.gridColumn15,
-            this.gridColumn16});
-            this.gridView3.GridControl = this.gridControl3;
-            this.gridView3.Name = "gridView3";
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.Caption = "零件件号";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 0;
-            // 
-            // gridColumn13
-            // 
-            this.gridColumn13.Caption = "零件名称";
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 1;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.Caption = "版本";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 2;
-            // 
-            // gridColumn15
-            // 
-            this.gridColumn15.Caption = "数量";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 3;
-            // 
-            // gridColumn16
-            // 
-            this.gridColumn16.Caption = "...";
-            this.gridColumn16.Name = "gridColumn16";
-            this.gridColumn16.Visible = true;
-            this.gridColumn16.VisibleIndex = 4;
             // 
             // BOMNodeMessage
             // 
@@ -1080,7 +1080,7 @@
             this.Controls.Add(this.simpleButton4);
             this.Controls.Add(this.panelControl1);
             this.Name = "BOMNodeMessage";
-            this.Text = "BOMNodeMessage";
+            this.Text = "BOM配置";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -1124,15 +1124,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl5)).EndInit();
             this.xtraTabControl5.ResumeLayout(false);
             this.xtraTabPage13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
+            this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             this.xtraTabPage9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl4)).EndInit();
             this.xtraTabControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
-            this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
