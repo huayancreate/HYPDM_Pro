@@ -220,11 +220,11 @@
             // 
             // textEdit7
             // 
-            this.textEdit7.Location = new System.Drawing.Point(88, 140);
+            this.textEdit7.Location = new System.Drawing.Point(77, 140);
             this.textEdit7.Name = "textEdit7";
             this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(41, 20);
+            this.textEdit7.Size = new System.Drawing.Size(116, 20);
             this.textEdit7.TabIndex = 98;
             // 
             // groupControl2
@@ -237,7 +237,7 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Location = new System.Drawing.Point(122, 143);
+            this.panelControl1.Location = new System.Drawing.Point(77, 178);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(155, 56);
             this.panelControl1.TabIndex = 100;
