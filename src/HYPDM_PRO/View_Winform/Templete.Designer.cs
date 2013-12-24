@@ -46,10 +46,10 @@
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
@@ -124,6 +124,7 @@
             this.simpleButton5.Size = new System.Drawing.Size(55, 23);
             this.simpleButton5.TabIndex = 60;
             this.simpleButton5.Text = "取消(C)";
+            this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
             // 
             // listBoxControl1
             // 
@@ -182,7 +183,7 @@
             // trackBarControl1
             // 
             this.trackBarControl1.EditValue = null;
-            this.trackBarControl1.Location = new System.Drawing.Point(342, 392);
+            this.trackBarControl1.Location = new System.Drawing.Point(324, 432);
             this.trackBarControl1.Name = "trackBarControl1";
             this.trackBarControl1.Size = new System.Drawing.Size(104, 45);
             this.trackBarControl1.TabIndex = 78;
@@ -201,6 +202,7 @@
             this.simpleButton6.Size = new System.Drawing.Size(55, 23);
             this.simpleButton6.TabIndex = 80;
             this.simpleButton6.Text = "确定(O)";
+            this.simpleButton6.Click += new System.EventHandler(this.simpleButton6_Click);
             // 
             // groupControl1
             // 
@@ -210,21 +212,13 @@
             this.groupControl1.TabIndex = 82;
             this.groupControl1.Text = "groupControl1";
             // 
-            // labelControl6
-            // 
-            this.labelControl6.Location = new System.Drawing.Point(324, 273);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(52, 14);
-            this.labelControl6.TabIndex = 85;
-            this.labelControl6.Text = "属性名称:";
-            // 
             // textEdit7
             // 
             this.textEdit7.Location = new System.Drawing.Point(77, 140);
             this.textEdit7.Name = "textEdit7";
             this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(116, 20);
+            this.textEdit7.Size = new System.Drawing.Size(49, 20);
             this.textEdit7.TabIndex = 98;
             // 
             // groupControl2
@@ -241,6 +235,14 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(155, 56);
             this.panelControl1.TabIndex = 100;
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Location = new System.Drawing.Point(324, 273);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(52, 14);
+            this.labelControl6.TabIndex = 85;
+            this.labelControl6.Text = "属性名称:";
             // 
             // Templete
             // 
@@ -267,6 +269,7 @@
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.memoEdit1);
             this.Name = "Templete";
+            this.Load += new System.EventHandler(this.Templete_Load);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
@@ -308,9 +311,9 @@
         private DevExpress.XtraEditors.MemoEdit memoEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.PanelControl panelControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl6;
     }
 }

@@ -25,5 +25,20 @@ namespace View_Winform
         {
 
         }
+
+        private void Templete_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
