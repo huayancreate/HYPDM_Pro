@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.checkButton1 = new DevExpress.XtraEditors.CheckButton();
             this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
             this.dropDownButton1 = new DevExpress.XtraEditors.DropDownButton();
@@ -50,6 +49,7 @@
             this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
             this.dropDownButton2 = new DevExpress.XtraEditors.DropDownButton();
             this.memoExEdit1 = new DevExpress.XtraEditors.MemoExEdit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -67,14 +67,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoExEdit1.Properties)).BeginInit();
             this.SuspendLayout();
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(59, 12);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton1.TabIndex = 0;
-            this.simpleButton1.Text = "simpleButton1";
             // 
             // checkButton1
             // 
@@ -250,6 +242,14 @@
             this.memoExEdit1.Size = new System.Drawing.Size(100, 20);
             this.memoExEdit1.TabIndex = 20;
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(59, 12);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(102, 23);
+            this.simpleButton1.TabIndex = 0;
+            this.simpleButton1.Text = "simpleButton1";
+            // 
             // changyongyangshi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -277,6 +277,7 @@
             this.Controls.Add(this.simpleButton1);
             this.Name = "changyongyangshi";
             this.Text = "changyong";
+            this.Load += new System.EventHandler(this.changyongyangshi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
@@ -300,7 +301,6 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.CheckButton checkButton1;
         private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
         private DevExpress.XtraEditors.DropDownButton dropDownButton1;
@@ -322,5 +322,6 @@
         private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
         private DevExpress.XtraEditors.DropDownButton dropDownButton2;
         private DevExpress.XtraEditors.MemoExEdit memoExEdit1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

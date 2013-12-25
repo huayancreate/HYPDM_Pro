@@ -152,7 +152,7 @@
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(74, 23);
             this.simpleButton3.TabIndex = 20;
-            this.simpleButton3.Text = "确定(Q)";
+            this.simpleButton3.Text = "确定(O)";
             // 
             // PartsPermissionActivity
             // 

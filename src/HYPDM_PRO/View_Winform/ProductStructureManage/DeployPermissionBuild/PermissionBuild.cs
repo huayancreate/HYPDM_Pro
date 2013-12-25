@@ -20,5 +20,10 @@ namespace View_Winform.ProductStructureManage
         {
 
         }
+
+        private void gridControl2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
