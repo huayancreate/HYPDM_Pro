@@ -480,6 +480,102 @@
       <DependentUpon>ProductCategoryManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Person.cs" />
+    <Compile Include="ProductProcessManage\AddAssemblyProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AddAssemblyProcess.Designer.cs">
+      <DependentUpon>AddAssemblyProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\AdditionalPropertySet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AdditionalPropertySet.Designer.cs">
+      <DependentUpon>AdditionalPropertySet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\AddProcessLine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AddProcessLine.Designer.cs">
+      <DependentUpon>AddProcessLine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\AddProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AddProperty.Designer.cs">
+      <DependentUpon>AddProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\AssemblyLineSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AssemblyLineSet.Designer.cs">
+      <DependentUpon>AssemblyLineSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\AssemblyProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AssemblyProcess.Designer.cs">
+      <DependentUpon>AssemblyProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ChooseMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ChooseMaterial.Designer.cs">
+      <DependentUpon>ChooseMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ModifyProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ModifyProperty.Designer.cs">
+      <DependentUpon>ModifyProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ModifyStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ModifyStation.Designer.cs">
+      <DependentUpon>ModifyStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessTaskEstablish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessTaskEstablish.Designer.cs">
+      <DependentUpon>ProcessTaskEstablish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessTaskManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessTaskManage.Designer.cs">
+      <DependentUpon>ProcessTaskManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\QueryAssemblyProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\QueryAssemblyProcess.Designer.cs">
+      <DependentUpon>QueryAssemblyProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\QuoteAssemblyProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\QuoteAssemblyProcess.Designer.cs">
+      <DependentUpon>QuoteAssemblyProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage.Designer.cs">
+      <DependentUpon>ToolingEquipmentManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\WorkProcedureManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\WorkProcedureManage.Designer.cs">
+      <DependentUpon>WorkProcedureManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\WorkSpaceManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\WorkSpaceManage.Designer.cs">
+      <DependentUpon>WorkSpaceManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductStructureManage\BOMExplorer\DisplayChangeParts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -872,6 +968,102 @@
       <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.Designer.cs">
+      <DependentUpon>ApplicationIntegration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.Designer.cs">
+      <DependentUpon>DocFormatMaintain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\FillGroupCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\FillGroupCode.Designer.cs">
+      <DependentUpon>FillGroupCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\WaterCodeRuleSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\WaterCodeRuleSet.Designer.cs">
+      <DependentUpon>WaterCodeRuleSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.Designer.cs">
+      <DependentUpon>CodeRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.Designer.cs">
+      <DependentUpon>CodeTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.Designer.cs">
+      <DependentUpon>ModifyScheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.Designer.cs">
+      <DependentUpon>FTPSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\LogManage\LogManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\LogManage\LogManage.Designer.cs">
+      <DependentUpon>LogManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.Designer.cs">
+      <DependentUpon>MessageSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.Designer.cs">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.Designer.cs">
+      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.Designer.cs">
+      <DependentUpon>DataImportGuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.Designer.cs">
+      <DependentUpon>UserRoleSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UsersManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UsersManage.Designer.cs">
+      <DependentUpon>UsersManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.Designer.cs">
+      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Templete.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1076,6 +1268,54 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\ProductCategoryManage.resx">
       <DependentUpon>ProductCategoryManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AddAssemblyProcess.resx">
+      <DependentUpon>AddAssemblyProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AdditionalPropertySet.resx">
+      <DependentUpon>AdditionalPropertySet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AddProcessLine.resx">
+      <DependentUpon>AddProcessLine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AddProperty.resx">
+      <DependentUpon>AddProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AssemblyLineSet.resx">
+      <DependentUpon>AssemblyLineSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcess.resx">
+      <DependentUpon>AssemblyProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ChooseMaterial.resx">
+      <DependentUpon>ChooseMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ModifyProperty.resx">
+      <DependentUpon>ModifyProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ModifyStation.resx">
+      <DependentUpon>ModifyStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ProcessTaskEstablish.resx">
+      <DependentUpon>ProcessTaskEstablish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ProcessTaskManage.resx">
+      <DependentUpon>ProcessTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\QueryAssemblyProcess.resx">
+      <DependentUpon>QueryAssemblyProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\QuoteAssemblyProcess.resx">
+      <DependentUpon>QuoteAssemblyProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage.resx">
+      <DependentUpon>ToolingEquipmentManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\WorkProcedureManage.resx">
+      <DependentUpon>WorkProcedureManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\WorkSpaceManage.resx">
+      <DependentUpon>WorkSpaceManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\BOMExplorer\DisplayChangeParts.resx">
       <DependentUpon>DisplayChangeParts.cs</DependentUpon>
@@ -1283,6 +1523,54 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.resx">
+      <DependentUpon>ApplicationIntegration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.resx">
+      <DependentUpon>DocFormatMaintain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeRuleSet\FillGroupCode.resx">
+      <DependentUpon>FillGroupCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeRuleSet\WaterCodeRuleSet.resx">
+      <DependentUpon>WaterCodeRuleSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.resx">
+      <DependentUpon>CodeRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.resx">
+      <DependentUpon>CodeTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.resx">
+      <DependentUpon>ModifyScheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\FTPSet\FTPSet.resx">
+      <DependentUpon>FTPSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\LogManage\LogManage.resx">
+      <DependentUpon>LogManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\MessageSet\MessageSet.resx">
+      <DependentUpon>MessageSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\AddVirtualGroup.resx">
+      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\DataImportGuit.resx">
+      <DependentUpon>DataImportGuit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserRoleSet.resx">
+      <DependentUpon>UserRoleSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UsersManage.resx">
+      <DependentUpon>UsersManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.resx">
+      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
