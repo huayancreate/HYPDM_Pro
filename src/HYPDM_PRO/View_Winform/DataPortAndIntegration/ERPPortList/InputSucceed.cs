@@ -7,16 +7,16 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.DataPortAndIntegration.BOMDataInput
+namespace View_Winform.DataPortAndIntegration.ERPPortList
 {
-    public partial class DataInputGuidefour : DevExpress.XtraEditors.XtraForm
+    public partial class InputSucceed : DevExpress.XtraEditors.XtraForm
     {
-        public DataInputGuidefour()
+        public InputSucceed()
         {
             InitializeComponent();
         }
 
-        private void checkEdit1_CheckedChanged(object sender, EventArgs e)
+        private void simpleButton2_Click(object sender, EventArgs e)
         {
 
         }

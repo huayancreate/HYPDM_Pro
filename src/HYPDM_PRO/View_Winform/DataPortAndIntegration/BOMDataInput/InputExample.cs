@@ -9,16 +9,11 @@ using DevExpress.XtraEditors;
 
 namespace View_Winform.DataPortAndIntegration.BOMDataInput
 {
-    public partial class DataInputGuidefour : DevExpress.XtraEditors.XtraForm
+    public partial class InputExample : DevExpress.XtraEditors.XtraForm
     {
-        public DataInputGuidefour()
+        public InputExample()
         {
             InitializeComponent();
-        }
-
-        private void checkEdit1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

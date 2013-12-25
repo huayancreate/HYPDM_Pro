@@ -84,7 +84,7 @@
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(59, 23);
             this.simpleButton5.TabIndex = 19;
-            this.simpleButton5.Text = "确定(Q)";
+            this.simpleButton5.Text = "确定(O)";
             // 
             // gridControl1
             // 

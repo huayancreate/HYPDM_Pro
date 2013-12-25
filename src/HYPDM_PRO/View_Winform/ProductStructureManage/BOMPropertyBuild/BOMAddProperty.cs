@@ -30,5 +30,10 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
         {
 
         }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

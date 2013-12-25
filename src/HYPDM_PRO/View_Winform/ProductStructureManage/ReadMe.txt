@@ -237,6 +237,46 @@ BOM附加属性为列表框  BOMAddProperty
 
 数据导入向导四  DataInputGuidefour 
 
+导入实例       InputExample
+
+
+9.2BOM数据导出   BOMDataOutput
+
+数据导出向导一   DataOutputGuideOne
+
+数据导出向导二   DataOutputGuideTwo
+
+数据导出向导三   DataOutputGuideThree
+
+数据导出向导四   DataOutputGuidefour
+
+
+9.3ERP接口列表   ERPPortList
+
+ERP接口列表    ERPPortList
+
+新增异步接口配置   AddAsynchronousPortDeploy
+
+新增同步接口配置   AddSynchronizationPortDeploy
+
+物料属性映射  MaterialPropertyMap
+
+BOM属性映射    BOMPropertyMap  
+
+选择ERP   SelectERP
+
+导入成功   InputSucceed
+
+选择物料    SelectMaterial
+
+选择BOM节点导出到ERP  SelectBOMInputERP
+
+BOM导入PDM     BOMInputPDM
+
+工艺路线导出到ERP   TechnologyInputERP
+
+
+
 
 
  

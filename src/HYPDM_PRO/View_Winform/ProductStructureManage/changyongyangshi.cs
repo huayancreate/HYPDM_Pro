@@ -30,5 +30,10 @@ namespace View_Winform.ProductStructureManage
         {
 
         }
+
+        private void changyongyangshi_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

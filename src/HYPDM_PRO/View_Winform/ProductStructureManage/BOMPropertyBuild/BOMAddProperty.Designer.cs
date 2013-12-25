@@ -43,11 +43,11 @@
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
@@ -206,28 +206,14 @@
             this.panelControl1.Size = new System.Drawing.Size(684, 242);
             this.panelControl1.TabIndex = 20;
             // 
-            // listBoxControl1
+            // simpleButton4
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(477, 12);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(193, 141);
-            this.listBoxControl1.TabIndex = 20;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(477, 12);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(193, 23);
-            this.simpleButton1.TabIndex = 21;
-            this.simpleButton1.Text = "列表框值";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(599, 159);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(39, 23);
-            this.simpleButton2.TabIndex = 22;
-            this.simpleButton2.Text = "√";
+            this.simpleButton4.Location = new System.Drawing.Point(509, 159);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(39, 23);
+            this.simpleButton4.TabIndex = 24;
+            this.simpleButton4.Text = "+";
+            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // simpleButton3
             // 
@@ -237,14 +223,29 @@
             this.simpleButton3.TabIndex = 23;
             this.simpleButton3.Text = "-";
             // 
-            // simpleButton4
+            // simpleButton2
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(509, 159);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(39, 23);
-            this.simpleButton4.TabIndex = 24;
-            this.simpleButton4.Text = "+";
-            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
+            this.simpleButton2.Location = new System.Drawing.Point(599, 159);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(39, 23);
+            this.simpleButton2.TabIndex = 22;
+            this.simpleButton2.Text = "√";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(477, 12);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(193, 23);
+            this.simpleButton1.TabIndex = 21;
+            this.simpleButton1.Text = "列表框值";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // listBoxControl1
+            // 
+            this.listBoxControl1.Location = new System.Drawing.Point(477, 12);
+            this.listBoxControl1.Name = "listBoxControl1";
+            this.listBoxControl1.Size = new System.Drawing.Size(193, 141);
+            this.listBoxControl1.TabIndex = 20;
             // 
             // simpleButton5
             // 
@@ -271,7 +272,7 @@
             this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.panelControl1);
             this.Name = "BOMAddProperty";
-            this.Text = "BOMAddProperty";
+            this.Text = "添加BOM属性";
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
