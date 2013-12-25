@@ -51,24 +51,24 @@
   <ItemGroup>
     <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Design.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Design.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpo.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraNavBar.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPivotGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraTreeList.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraVerticalGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
@@ -395,55 +395,81 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\ApplyCode.cs" />
+    <Compile Include="MyTaskBox\ApplyCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\ApplyCode.Designer.cs">
       <DependentUpon>ApplyCode.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\ApprovalTaskExecute.cs" />
+    <Compile Include="MyTaskBox\ApprovalTaskExecute.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\ApprovalTaskExecute.Designer.cs">
       <DependentUpon>ApprovalTaskExecute.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\BBS.cs" />
+    <Compile Include="MyTaskBox\BBS.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\BBS.Designer.cs">
       <DependentUpon>BBS.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\DocSendBack.cs" />
+    <Compile Include="MyTaskBox\DocSendBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\DocSendBack.Designer.cs">
       <DependentUpon>DocSendBack.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\EmailAddress.cs" />
+    <Compile Include="MyTaskBox\EmailAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\EmailAddress.Designer.cs">
       <DependentUpon>EmailAddress.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\ModificatoryMessage.cs" />
+    <Compile Include="MyTaskBox\ModificatoryMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\ModificatoryMessage.Designer.cs">
       <DependentUpon>ModificatoryMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\MyCode.cs" />
+    <Compile Include="MyTaskBox\MyCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\MyCode.Designer.cs">
       <DependentUpon>MyCode.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\MyDoc.cs" />
+    <Compile Include="MyTaskBox\MyDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\MyDoc.Designer.cs">
       <DependentUpon>MyDoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\MyTask.cs" />
+    <Compile Include="MyTaskBox\MyTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\MyTask.Designer.cs">
       <DependentUpon>MyTask.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\PersonalInforSet.cs" />
+    <Compile Include="MyTaskBox\PersonalInforSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\PersonalInforSet.Designer.cs">
       <DependentUpon>PersonalInforSet.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\SetDocCategory.cs" />
+    <Compile Include="MyTaskBox\SetDocCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\SetDocCategory.Designer.cs">
       <DependentUpon>SetDocCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\TaskTranspond.cs" />
+    <Compile Include="MyTaskBox\TaskTranspond.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\TaskTranspond.Designer.cs">
       <DependentUpon>TaskTranspond.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyTaskBox\WriteEmail.cs" />
+    <Compile Include="MyTaskBox\WriteEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTaskBox\WriteEmail.Designer.cs">
       <DependentUpon>WriteEmail.cs</DependentUpon>
     </Compile>
@@ -625,67 +651,6 @@
     <Compile Include="ProductProcessManage\WorkSpaceManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AddAssemblyProcess.cs" />
-    <Compile Include="ProductProcessManage\AddAssemblyProcess.Designer.cs">
-      <DependentUpon>AddAssemblyProcess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\AdditionalPropertySet.cs" />
-    <Compile Include="ProductProcessManage\AdditionalPropertySet.Designer.cs">
-      <DependentUpon>AdditionalPropertySet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\AddProcessLine.cs" />
-    <Compile Include="ProductProcessManage\AddProcessLine.Designer.cs">
-      <DependentUpon>AddProcessLine.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\AddProperty.cs" />
-    <Compile Include="ProductProcessManage\AddProperty.Designer.cs">
-      <DependentUpon>AddProperty.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\AssemblyLineSet.cs" />
-    <Compile Include="ProductProcessManage\AssemblyLineSet.Designer.cs">
-      <DependentUpon>AssemblyLineSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\AssemblyProcess.cs" />
-    <Compile Include="ProductProcessManage\AssemblyProcess.Designer.cs">
-      <DependentUpon>AssemblyProcess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ChooseMaterial.cs" />
-    <Compile Include="ProductProcessManage\ChooseMaterial.Designer.cs">
-      <DependentUpon>ChooseMaterial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ModifyProperty.cs" />
-    <Compile Include="ProductProcessManage\ModifyProperty.Designer.cs">
-      <DependentUpon>ModifyProperty.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ModifyStation.cs" />
-    <Compile Include="ProductProcessManage\ModifyStation.Designer.cs">
-      <DependentUpon>ModifyStation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ProcessTaskEstablish.cs" />
-    <Compile Include="ProductProcessManage\ProcessTaskEstablish.Designer.cs">
-      <DependentUpon>ProcessTaskEstablish.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ProcessTaskManage.cs" />
-    <Compile Include="ProductProcessManage\ProcessTaskManage.Designer.cs">
-      <DependentUpon>ProcessTaskManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\QueryAssemblyProcess.cs" />
-    <Compile Include="ProductProcessManage\QueryAssemblyProcess.Designer.cs">
-      <DependentUpon>QueryAssemblyProcess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\QuoteAssemblyProcess.cs" />
-    <Compile Include="ProductProcessManage\QuoteAssemblyProcess.Designer.cs">
-      <DependentUpon>QuoteAssemblyProcess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ToolingEquipmentManage.cs" />
-    <Compile Include="ProductProcessManage\ToolingEquipmentManage.Designer.cs">
-      <DependentUpon>ToolingEquipmentManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\WorkProcedureManage.cs" />
-    <Compile Include="ProductProcessManage\WorkProcedureManage.Designer.cs">
-      <DependentUpon>WorkProcedureManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\WorkSpaceManage.cs" />
     <Compile Include="ProductProcessManage\WorkSpaceManage.Designer.cs">
       <DependentUpon>WorkSpaceManage.cs</DependentUpon>
     </Compile>
@@ -1093,6 +1058,24 @@
     <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.Designer.cs">
       <DependentUpon>DocFormatMaintain.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\CodeApplyManage\CodeApplyManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeApplyManage\CodeApplyManage.Designer.cs">
+      <DependentUpon>CodeApplyManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\BatchFillCommonCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\BatchFillCommonCode.Designer.cs">
+      <DependentUpon>BatchFillCommonCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\FillCommonCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\CodeRuleSet\FillCommonCode.Designer.cs">
+      <DependentUpon>FillCommonCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\CodeRuleSet\FillGroupCode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1147,6 +1130,18 @@
     <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.Designer.cs">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\SealManange\SealManange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\SealManange\SealManange.Designer.cs">
+      <DependentUpon>SealManange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.Designer.cs">
+      <DependentUpon>SystemParameterSet.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1174,63 +1169,6 @@
     <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.cs" />
-    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.Designer.cs">
-      <DependentUpon>ApplicationIntegration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.cs" />
-    <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.Designer.cs">
-      <DependentUpon>DocFormatMaintain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\CodeRuleSet\WaterCodeRuleSet.cs" />
-    <Compile Include="SystemManagementAndTools\CodeRuleSet\WaterCodeRuleSet.Designer.cs">
-      <DependentUpon>WaterCodeRuleSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.cs" />
-    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeRecovery.Designer.cs">
-      <DependentUpon>CodeRecovery.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.cs" />
-    <Compile Include="SystemManagementAndTools\CodeSchemeManage\CodeTool.Designer.cs">
-      <DependentUpon>CodeTool.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.cs" />
-    <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.Designer.cs">
-      <DependentUpon>ModifyScheme.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.cs" />
-    <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.Designer.cs">
-      <DependentUpon>FTPSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\LogManage\LogManage.cs" />
-    <Compile Include="SystemManagementAndTools\LogManage\LogManage.Designer.cs">
-      <DependentUpon>LogManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.cs" />
-    <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.Designer.cs">
-      <DependentUpon>MessageSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs" />
-    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.Designer.cs">
-      <DependentUpon>RoleManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs" />
-    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.Designer.cs">
-      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.cs" />
-    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.Designer.cs">
-      <DependentUpon>DataImportGuit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\UserManage.cs" />
-    <Compile Include="SystemManagementAndTools\UserManage\UserManage.Designer.cs">
-      <DependentUpon>UserManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.cs" />
-    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.Designer.cs">
-      <DependentUpon>UserRoleSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.cs" />
     <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.Designer.cs">
       <DependentUpon>UserRoleBrowse.cs</DependentUpon>
     </Compile>
@@ -1556,11 +1494,11 @@
     <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild.resx">
       <DependentUpon>PermissionBuild.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.resx">
-      <DependentUpon>UserPermissionBuild.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.resx">
       <DependentUpon>PersonnelSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.resx">
+      <DependentUpon>UserPermissionBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\ProductStructureDifferenceAnalysis\BuildCondition.resx">
       <DependentUpon>BuildCondition.cs</DependentUpon>
@@ -1738,6 +1676,15 @@
     <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.resx">
       <DependentUpon>DocFormatMaintain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeApplyManage\CodeApplyManage.resx">
+      <DependentUpon>CodeApplyManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeRuleSet\BatchFillCommonCode.resx">
+      <DependentUpon>BatchFillCommonCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\CodeRuleSet\FillCommonCode.resx">
+      <DependentUpon>FillCommonCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\CodeRuleSet\FillGroupCode.resx">
       <DependentUpon>FillGroupCode.cs</DependentUpon>
     </EmbeddedResource>
@@ -1765,6 +1712,12 @@
     <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\SealManange\SealManange.resx">
+      <DependentUpon>SealManange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.resx">
+      <DependentUpon>SystemParameterSet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\UserManage\AddVirtualGroup.resx">
       <DependentUpon>AddVirtualGroup.cs</DependentUpon>
     </EmbeddedResource>
@@ -1776,12 +1729,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\UserManage\UsersManage.resx">
       <DependentUpon>UsersManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserManage.resx">
-      <DependentUpon>UserManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserRoleSet.resx">
-      <DependentUpon>UserRoleSet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.resx">
       <DependentUpon>UserRoleBrowse.cs</DependentUpon>
