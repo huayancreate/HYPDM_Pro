@@ -20,5 +20,10 @@ namespace View_Winform.SystemManagementAndTools.CodeSchemeManage
         {
 
         }
+
+        private void simpleButton6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
