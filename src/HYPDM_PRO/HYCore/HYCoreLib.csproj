@@ -39,7 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\Interface\IApp.cs" />
+    <Compile Include="App\Interface\IAppInfo.cs" />
+    <Compile Include="Architecture\IArchitecture.cs" />
+    <Compile Include="Dev\IDevInfo.cs" />
+    <Compile Include="ORM\Entity\DatabaseInfo.cs" />
+    <Compile Include="ORM\Interface\IDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App\Implement\" />
+    <Folder Include="ORM\Ibatis\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
