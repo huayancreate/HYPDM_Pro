@@ -113,6 +113,24 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuideOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuideOne.Designer.cs">
+      <DependentUpon>DataInputGuideOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuideThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuideThree.Designer.cs">
+      <DependentUpon>DataInputGuideThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuideTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuideTwo.Designer.cs">
+      <DependentUpon>DataInputGuideTwo.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManage\ApprovalFlowDefinition\BuildActivity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -516,11 +534,11 @@
     <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild.Designer.cs">
       <DependentUpon>PermissionBuild.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.cs">
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.Designer.cs">
-      <DependentUpon>PermissionBuild2.cs</DependentUpon>
+      <DependentUpon>UserPermissionBuild.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.cs">
       <SubType>Form</SubType>
@@ -570,7 +588,15 @@
     <Compile Include="ProductStructureManage\ProjectBOMDeploy\ConsumablesStoreBOMParts.Designer.cs">
       <DependentUpon>ConsumablesStoreBOMParts.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.cs" />
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\CreateProjtctBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\CreateProjtctBOM.Designer.cs">
+      <DependentUpon>CreateProjtctBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.Designer.cs">
       <DependentUpon>NewProjtctBOM.cs</DependentUpon>
     </Compile>
@@ -653,11 +679,23 @@
     <Compile Include="ProjectManage\CreateNewProject\CreateProject.Designer.cs">
       <DependentUpon>CreateProject.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.Designer.cs">
+      <DependentUpon>PersonnelTaskInquire.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.Designer.cs">
       <DependentUpon>ProjectCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectExport\ProjectExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectExport\ProjectExport.Designer.cs">
+      <DependentUpon>ProjectExport.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.cs">
       <SubType>Form</SubType>
@@ -688,6 +726,12 @@
     </Compile>
     <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.Designer.cs">
       <DependentUpon>ProjectInputCatalogManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.Designer.cs">
+      <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.cs">
       <SubType>Form</SubType>
@@ -755,6 +799,72 @@
     <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.Designer.cs">
       <DependentUpon>TaskRelationBuild.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.Designer.cs">
+      <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.Designer.cs">
+      <DependentUpon>CreateDocPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.Designer.cs">
+      <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.Designer.cs">
+      <DependentUpon>CreateOfficeTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.Designer.cs">
+      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.Designer.cs">
+      <DependentUpon>CreateProjectTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.Designer.cs">
+      <DependentUpon>CreateTechnologyTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.Designer.cs">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskManage\OfficeTaskManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskManage\OfficeTaskManage.Designer.cs">
+      <DependentUpon>OfficeTaskManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.Designer.cs">
+      <DependentUpon>ProjectTaskManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.Designer.cs">
+      <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Templete.cs">
       <SubType>Form</SubType>
@@ -776,6 +886,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataInput\DataInputGuideOne.resx">
+      <DependentUpon>DataInputGuideOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataInput\DataInputGuideThree.resx">
+      <DependentUpon>DataInputGuideThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataInput\DataInputGuideTwo.resx">
+      <DependentUpon>DataInputGuideTwo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\BuildActivity.resx">
       <DependentUpon>BuildActivity.cs</DependentUpon>
@@ -980,7 +1099,7 @@
       <DependentUpon>PermissionBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.resx">
-      <DependentUpon>PermissionBuild2.cs</DependentUpon>
+      <DependentUpon>UserPermissionBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.resx">
       <DependentUpon>PersonnelSelection.cs</DependentUpon>
@@ -1005,6 +1124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\ConsumablesStoreBOMParts.resx">
       <DependentUpon>ConsumablesStoreBOMParts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\CreateProjtctBOM.resx">
+      <DependentUpon>CreateProjtctBOM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\NewProjtctBOM.resx">
       <DependentUpon>NewProjtctBOM.cs</DependentUpon>
@@ -1048,8 +1170,14 @@
     <EmbeddedResource Include="ProjectManage\CreateNewProject\CreateProject.resx">
       <DependentUpon>CreateProject.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.resx">
+      <DependentUpon>PersonnelTaskInquire.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.resx">
       <DependentUpon>ProjectCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectExport\ProjectExport.resx">
+      <DependentUpon>ProjectExport.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.resx">
       <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
@@ -1065,6 +1193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.resx">
       <DependentUpon>ProjectInputCatalogManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.resx">
+      <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.resx">
       <DependentUpon>CreateProductDeploy.cs</DependentUpon>
@@ -1098,6 +1229,39 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.resx">
       <DependentUpon>TaskRelationBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.resx">
+      <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.resx">
+      <DependentUpon>CreateDocPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.resx">
+      <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.resx">
+      <DependentUpon>CreateOfficeTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.resx">
+      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.resx">
+      <DependentUpon>CreateProjectTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.resx">
+      <DependentUpon>CreateTechnologyTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\InputMessage.resx">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskManage\OfficeTaskManage.resx">
+      <DependentUpon>OfficeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.resx">
+      <DependentUpon>ProjectTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.resx">
+      <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
