@@ -44,7 +44,10 @@
     <Compile Include="Architecture\IArchitecture.cs" />
     <Compile Include="Dev\IDevInfo.cs" />
     <Compile Include="ORM\Entity\DatabaseInfo.cs" />
+    <Compile Include="ORM\Entity\DatabaseTables.cs" />
+    <Compile Include="ORM\Entity\Element.cs" />
     <Compile Include="ORM\Interface\IDatabase.cs" />
+    <Compile Include="ORM\Interface\IDatabaseOperator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
