@@ -30,45 +30,45 @@
         {
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FormType_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FormType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_MenuList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl6
@@ -81,34 +81,34 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.checkEdit1);
-            this.panelControl1.Controls.Add(this.textEdit3);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl3);
-            this.panelControl1.Controls.Add(this.textEdit2);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FormType_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl2);
             this.panelControl1.Controls.Add(this.labelControl1);
-            this.panelControl1.Controls.Add(this.textEdit1);
-            this.panelControl1.Controls.Add(this.textEdit6);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl6);
             this.panelControl1.Location = new System.Drawing.Point(0, 2);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(849, 49);
             this.panelControl1.TabIndex = 101;
             // 
-            // checkEdit1
+            // SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(752, 16);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "主菜单可见";
-            this.checkEdit1.Size = new System.Drawing.Size(92, 19);
-            this.checkEdit1.TabIndex = 94;
+            this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.Location = new System.Drawing.Point(752, 16);
+            this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.Name = "SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit";
+            this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.Properties.Caption = "主菜单可见";
+            this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.Size = new System.Drawing.Size(92, 19);
+            this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.TabIndex = 94;
             // 
-            // textEdit3
+            // SystemManagementAndTools_MenuManagement_UIAddress_TextEdit
             // 
-            this.textEdit3.Location = new System.Drawing.Point(644, 15);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(102, 20);
-            this.textEdit3.TabIndex = 93;
+            this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit.Location = new System.Drawing.Point(644, 15);
+            this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit.Name = "SystemManagementAndTools_MenuManagement_UIAddress_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit.Size = new System.Drawing.Size(102, 20);
+            this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit.TabIndex = 93;
             // 
             // labelControl3
             // 
@@ -118,12 +118,12 @@
             this.labelControl3.TabIndex = 92;
             this.labelControl3.Text = "web界面UI地址";
             // 
-            // textEdit2
+            // SystemManagementAndTools_MenuManagement_FormType_TextEdit
             // 
-            this.textEdit2.Location = new System.Drawing.Point(446, 15);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(102, 20);
-            this.textEdit2.TabIndex = 91;
+            this.SystemManagementAndTools_MenuManagement_FormType_TextEdit.Location = new System.Drawing.Point(446, 15);
+            this.SystemManagementAndTools_MenuManagement_FormType_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FormType_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FormType_TextEdit.Size = new System.Drawing.Size(102, 20);
+            this.SystemManagementAndTools_MenuManagement_FormType_TextEdit.TabIndex = 91;
             // 
             // labelControl2
             // 
@@ -141,46 +141,46 @@
             this.labelControl1.TabIndex = 89;
             this.labelControl1.Text = "功能ID";
             // 
-            // textEdit1
+            // SystemManagementAndTools_MenuManagement_FunctionID_TextEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(238, 15);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(102, 20);
-            this.textEdit1.TabIndex = 88;
+            this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit.Location = new System.Drawing.Point(238, 15);
+            this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionID_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit.Size = new System.Drawing.Size(102, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit.TabIndex = 88;
             // 
-            // textEdit6
+            // SystemManagementAndTools_MenuManagement_PropertyName_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(88, 15);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(102, 20);
-            this.textEdit6.TabIndex = 87;
+            this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit.Location = new System.Drawing.Point(88, 15);
+            this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit.Name = "SystemManagementAndTools_MenuManagement_PropertyName_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit.Size = new System.Drawing.Size(102, 20);
+            this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit.TabIndex = 87;
             // 
-            // treeList1
+            // SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList
             // 
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList1.Location = new System.Drawing.Point(2, 22);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(228, 471);
-            this.treeList1.TabIndex = 102;
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Name = "SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList";
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Size = new System.Drawing.Size(228, 471);
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.TabIndex = 102;
             // 
             // groupControl2
             // 
-            this.groupControl2.Controls.Add(this.treeList1);
+            this.groupControl2.Controls.Add(this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList);
             this.groupControl2.Location = new System.Drawing.Point(0, 57);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(232, 495);
             this.groupControl2.TabIndex = 103;
             this.groupControl2.Text = "菜单管理";
             // 
-            // gridControl1
+            // SystemManagementAndTools_MenuManagement_MenuList_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(238, 105);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(620, 391);
-            this.gridControl1.TabIndex = 104;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Location = new System.Drawing.Point(238, 105);
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Name = "SystemManagementAndTools_MenuManagement_MenuList_GridControl";
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Size = new System.Drawing.Size(620, 391);
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.TabIndex = 104;
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -190,7 +190,7 @@
             this.gridColumn2,
             this.gridColumn3,
             this.gridColumn4});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.SystemManagementAndTools_MenuManagement_MenuList_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -221,37 +221,37 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
-            // simpleButton1
+            // SystemManagementAndTools_MenuManagement_Query_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(583, 57);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 105;
-            this.simpleButton1.Text = "查询(Q)";
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Location = new System.Drawing.Point(583, 57);
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_Query_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.TabIndex = 105;
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Text = "查询(Q)";
             // 
-            // simpleButton2
+            // SystemManagementAndTools_MenuManagement_Add_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(644, 57);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 106;
-            this.simpleButton2.Text = "新建(A)";
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Location = new System.Drawing.Point(644, 57);
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_Add_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.TabIndex = 106;
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Text = "新建(A)";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_MenuManagement_Export_SimpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(705, 57);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 107;
-            this.simpleButton3.Text = "导出(I)";
-            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Location = new System.Drawing.Point(705, 57);
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_Export_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.TabIndex = 107;
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Text = "导出(I)";
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
-            // textEdit4
+            // SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit
             // 
-            this.textEdit4.Location = new System.Drawing.Point(539, 516);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(32, 20);
-            this.textEdit4.TabIndex = 108;
+            this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit.Location = new System.Drawing.Point(539, 516);
+            this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit.Name = "SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit.Size = new System.Drawing.Size(32, 20);
+            this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit.TabIndex = 108;
             // 
             // labelControl4
             // 
@@ -269,54 +269,54 @@
             this.labelControl5.TabIndex = 110;
             this.labelControl5.Text = "页";
             // 
-            // simpleButton4
+            // SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(460, 513);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 111;
-            this.simpleButton4.Text = "上一页";
+            this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton.Location = new System.Drawing.Point(460, 513);
+            this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton.TabIndex = 111;
+            this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton.Text = "上一页";
             // 
-            // simpleButton5
+            // SystemManagementAndTools_MenuManagement_NextPage_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(595, 513);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 112;
-            this.simpleButton5.Text = "下一页";
+            this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton.Location = new System.Drawing.Point(595, 513);
+            this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_NextPage_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton.TabIndex = 112;
+            this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton.Text = "下一页";
             // 
-            // simpleButton6
+            // SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(656, 513);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(69, 23);
-            this.simpleButton6.TabIndex = 113;
-            this.simpleButton6.Text = "导出当前页";
+            this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton.Location = new System.Drawing.Point(656, 513);
+            this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton.Size = new System.Drawing.Size(69, 23);
+            this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton.TabIndex = 113;
+            this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton.Text = "导出当前页";
             // 
-            // simpleButton7
+            // SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(731, 513);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(69, 23);
-            this.simpleButton7.TabIndex = 114;
-            this.simpleButton7.Text = "导出全部页";
+            this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton.Location = new System.Drawing.Point(731, 513);
+            this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton.Size = new System.Drawing.Size(69, 23);
+            this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton.TabIndex = 114;
+            this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton.Text = "导出全部页";
             // 
             // MenuManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 548);
-            this.Controls.Add(this.simpleButton7);
-            this.Controls.Add(this.simpleButton6);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton4);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_NextPage_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton);
             this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.labelControl4);
-            this.Controls.Add(this.textEdit4);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_Export_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_Add_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_Query_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_MenuList_GridControl);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.panelControl1);
             this.Name = "MenuManagement";
@@ -324,17 +324,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_UIAddress_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FormType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionID_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_PropertyName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_MenuList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -344,31 +344,31 @@
 
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_PropertyName_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionID_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FormType_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_UIAddress_TextEdit;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_MenuManagement_IsVisible_ChekEdit;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_MenuManagement_MenuList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_Query_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_Add_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_Export_SimpleButton;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_CurrentPage_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_PreviousPage_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_NextPage_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_ExportCurrentPage_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_ExportAllPage_SimpleButton;
     }
 }

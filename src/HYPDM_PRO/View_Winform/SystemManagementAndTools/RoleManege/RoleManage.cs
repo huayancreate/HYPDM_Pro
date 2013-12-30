@@ -15,5 +15,10 @@ namespace View_Winform.SystemManagementAndTools.RoleManege
         {
             InitializeComponent();
         }
+
+        private void SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

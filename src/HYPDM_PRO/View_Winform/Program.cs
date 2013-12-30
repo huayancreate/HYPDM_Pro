@@ -18,9 +18,11 @@ namespace View_Winform
 
             DevExpress.Skins.SkinManager.EnableFormSkins();
             DevExpress.UserSkins.BonusSkins.Register();
-            UserLookAndFeel.Default.SetSkinStyle("Metropolis");
+            UserLookAndFeel.Default.SetSkinStyle("Office 2010 Blue");
 
             Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserMessage());
+            Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
+           Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPrint.DocPrint());
         }
     }

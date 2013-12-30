@@ -29,76 +29,95 @@
         private void InitializeComponent()
         {
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
+            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.memoEdit2 = new DevExpress.XtraEditors.MemoEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.SystemManagementAndTools_UserGroupManage_Name_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
             this.groupControl6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton)).BeginInit();
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl5
             // 
-            this.groupControl5.Controls.Add(this.groupControl6);
-            this.groupControl5.Controls.Add(this.simpleButton4);
-            this.groupControl5.Controls.Add(this.simpleButton3);
-            this.groupControl5.Controls.Add(this.listBoxControl1);
+            this.groupControl5.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton);
+            this.groupControl5.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton);
+            this.groupControl5.Controls.Add(this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl);
             this.groupControl5.Location = new System.Drawing.Point(688, 1);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(171, 570);
+            this.groupControl5.Size = new System.Drawing.Size(171, 227);
             this.groupControl5.TabIndex = 114;
             this.groupControl5.Text = "包含用户";
             // 
-            // simpleButton4
+            // groupControl6
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(90, 546);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 107;
-            this.simpleButton4.Text = "移除(D)";
+            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton);
+            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton);
+            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl);
+            this.groupControl6.Location = new System.Drawing.Point(690, 234);
+            this.groupControl6.Name = "groupControl6";
+            this.groupControl6.Size = new System.Drawing.Size(174, 339);
+            this.groupControl6.TabIndex = 108;
+            this.groupControl6.Text = "包含用户组";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(20, 546);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 81;
-            this.simpleButton3.Text = "编辑(E)";
+            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.Location = new System.Drawing.Point(0, 25);
+            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.Name = "SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl";
+            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.Size = new System.Drawing.Size(171, 271);
+            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.TabIndex = 63;
             // 
-            // listBoxControl1
+            // SystemManagementAndTools_UserGroupManage_Remove_SimpleButton
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(169, 202);
-            this.listBoxControl1.TabIndex = 63;
+            this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton.Location = new System.Drawing.Point(88, 198);
+            this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Remove_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton.TabIndex = 107;
+            this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton.Text = "移除(D)";
+            // 
+            // SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton
+            // 
+            this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.Location = new System.Drawing.Point(27, 198);
+            this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.TabIndex = 81;
+            this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.Text = "编辑(E)";
+            // 
+            // SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl
+            // 
+            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.Name = "SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl";
+            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.Size = new System.Drawing.Size(169, 170);
+            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.TabIndex = 63;
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.simpleButton6);
-            this.groupControl1.Controls.Add(this.memoEdit2);
-            this.groupControl1.Controls.Add(this.textEdit6);
+            this.groupControl1.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton);
+            this.groupControl1.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit);
+            this.groupControl1.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Name_TextEdit);
             this.groupControl1.Controls.Add(this.labelControl1);
             this.groupControl1.Controls.Add(this.labelControl6);
             this.groupControl1.Location = new System.Drawing.Point(179, 1);
@@ -107,27 +126,27 @@
             this.groupControl1.TabIndex = 111;
             this.groupControl1.Text = "用户组详细信息";
             // 
-            // simpleButton6
+            // SystemManagementAndTools_UserGroupManage_Save_SimpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(394, 130);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 106;
-            this.simpleButton6.Text = "保存(S)";
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Location = new System.Drawing.Point(394, 130);
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Save_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.TabIndex = 106;
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Text = "保存(S)";
             // 
-            // memoEdit2
+            // SystemManagementAndTools_UserGroupManage_Describe_MemoEdit
             // 
-            this.memoEdit2.Location = new System.Drawing.Point(76, 60);
-            this.memoEdit2.Name = "memoEdit2";
-            this.memoEdit2.Size = new System.Drawing.Size(423, 62);
-            this.memoEdit2.TabIndex = 105;
+            this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Location = new System.Drawing.Point(76, 60);
+            this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Name = "SystemManagementAndTools_UserGroupManage_Describe_MemoEdit";
+            this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Size = new System.Drawing.Size(423, 62);
+            this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.TabIndex = 105;
             // 
-            // textEdit6
+            // SystemManagementAndTools_UserGroupManage_Name_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(76, 34);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(423, 20);
-            this.textEdit6.TabIndex = 88;
+            this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Location = new System.Drawing.Point(76, 34);
+            this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Name = "SystemManagementAndTools_UserGroupManage_Name_TextEdit";
+            this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Size = new System.Drawing.Size(423, 20);
+            this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.TabIndex = 88;
             // 
             // labelControl1
             // 
@@ -145,82 +164,83 @@
             this.labelControl6.TabIndex = 86;
             this.labelControl6.Text = "名称(*):";
             // 
-            // simpleButton2
+            // SystemManagementAndTools_UserGroupManage_Delete_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(102, 11);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 110;
-            this.simpleButton2.Text = "删除(D)";
+            this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton.Location = new System.Drawing.Point(102, 11);
+            this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Delete_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton.TabIndex = 110;
+            this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton.Text = "删除(D)";
             // 
-            // simpleButton1
+            // SystemManagementAndTools_UserGroupManage_Add_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(12, 11);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 109;
-            this.simpleButton1.Text = "添加(A)";
+            this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton.Location = new System.Drawing.Point(12, 11);
+            this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Add_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton.TabIndex = 109;
+            this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton.Text = "添加(A)";
             // 
-            // groupControl2
+            // SystemManagementAndTools_UserGroupManage_dd_SimpleButton
             // 
-            this.groupControl2.Controls.Add(this.treeList1);
-            this.groupControl2.Location = new System.Drawing.Point(1, 59);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(170, 514);
-            this.groupControl2.TabIndex = 108;
-            this.groupControl2.Text = "用户组列表";
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.Controls.Add(this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList);
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.Location = new System.Drawing.Point(1, 59);
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_dd_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.Size = new System.Drawing.Size(170, 514);
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.TabIndex = 108;
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.Text = "用户组列表";
             // 
-            // treeList1
+            // SystemManagementAndTools_UserGroupManage_RoleList_TreeList
             // 
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList1.Location = new System.Drawing.Point(2, 22);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(166, 490);
-            this.treeList1.TabIndex = 68;
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.Name = "SystemManagementAndTools_UserGroupManage_RoleList_TreeList";
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.Size = new System.Drawing.Size(166, 490);
+            this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.TabIndex = 68;
             // 
-            // groupControl6
+            // SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton
             // 
-            this.groupControl6.Controls.Add(this.listBoxControl2);
-            this.groupControl6.Location = new System.Drawing.Point(2, 230);
-            this.groupControl6.Name = "groupControl6";
-            this.groupControl6.Size = new System.Drawing.Size(174, 310);
-            this.groupControl6.TabIndex = 108;
-            this.groupControl6.Text = "包含用户组";
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Location = new System.Drawing.Point(94, 302);
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.TabIndex = 109;
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Text = "移除(D)";
             // 
-            // listBoxControl2
+            // SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton
             // 
-            this.listBoxControl2.Location = new System.Drawing.Point(0, 25);
-            this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(171, 285);
-            this.listBoxControl2.TabIndex = 63;
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Location = new System.Drawing.Point(25, 302);
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.TabIndex = 108;
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Text = "编辑(E)";
             // 
             // UserGroupManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(861, 575);
+            this.Controls.Add(this.groupControl6);
             this.Controls.Add(this.groupControl5);
             this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.groupControl2);
+            this.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton);
             this.Name = "UserGroupManage";
             this.Text = "用户组管理";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
+            this.groupControl6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
-            this.groupControl6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton)).EndInit();
+            this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -228,20 +248,22 @@
         #endregion
 
         private DevExpress.XtraEditors.GroupControl groupControl5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Remove_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.MemoEdit memoEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Save_SimpleButton;
+        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_UserGroupManage_Describe_MemoEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_UserGroupManage_Name_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Delete_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Add_SimpleButton;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_UserGroupManage_dd_SimpleButton;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_UserGroupManage_RoleList_TreeList;
         private DevExpress.XtraEditors.GroupControl groupControl6;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton;
     }
 }

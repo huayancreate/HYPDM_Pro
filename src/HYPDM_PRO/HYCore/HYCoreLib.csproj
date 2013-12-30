@@ -48,7 +48,13 @@
     <Compile Include="ORM\Entity\Element.cs" />
     <Compile Include="ORM\Interface\IDatabase.cs" />
     <Compile Include="ORM\Interface\IDatabaseOperator.cs" />
+    <Compile Include="SysManger\Entity\LinkInfo.cs" />
+    <Compile Include="SysManger\Entity\UserInfo.cs" />
+    <Compile Include="SysManger\Interface\ILogin.cs" />
+    <Compile Include="SysManger\Interface\IOperate.cs" />
+    <Compile Include="SysManger\Interface\ISysManger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SysManger\Interface\IUserOperate.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App\Implement\" />

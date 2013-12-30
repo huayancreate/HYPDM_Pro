@@ -407,6 +407,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HYPDM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HYPDM.Designer.cs">
+      <DependentUpon>HYPDM.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyTaskBox\ApplyCode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1406,6 +1412,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HYPDM.resx">
+      <DependentUpon>HYPDM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyTaskBox\ApplyCode.resx">
       <DependentUpon>ApplyCode.cs</DependentUpon>
