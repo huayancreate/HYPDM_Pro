@@ -45,9 +45,9 @@
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.groupControl1);
-            this.panelControl1.Location = new System.Drawing.Point(3, 3);
+            this.panelControl1.Location = new System.Drawing.Point(-3, 3);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(293, 390);
+            this.panelControl1.Size = new System.Drawing.Size(299, 390);
             this.panelControl1.TabIndex = 7;
             // 
             // groupControl1
@@ -55,7 +55,7 @@
             this.groupControl1.Controls.Add(this.treeList1);
             this.groupControl1.Location = new System.Drawing.Point(0, 9);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(290, 381);
+            this.groupControl1.Size = new System.Drawing.Size(299, 381);
             this.groupControl1.TabIndex = 8;
             this.groupControl1.Text = "用户信息";
             // 
@@ -64,7 +64,7 @@
             this.treeList1.Location = new System.Drawing.Point(2, 21);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(288, 359);
+            this.treeList1.Size = new System.Drawing.Size(297, 359);
             this.treeList1.TabIndex = 0;
             this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 

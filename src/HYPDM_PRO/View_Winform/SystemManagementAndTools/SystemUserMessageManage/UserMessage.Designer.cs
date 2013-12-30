@@ -154,7 +154,7 @@
             this.xtraTabControl1.Location = new System.Drawing.Point(215, 1);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
-            this.xtraTabControl1.Size = new System.Drawing.Size(707, 546);
+            this.xtraTabControl1.Size = new System.Drawing.Size(716, 546);
             this.xtraTabControl1.TabIndex = 16;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2,
@@ -218,7 +218,7 @@
             this.xtraTabPage2.Controls.Add(this.labelControl2);
             this.xtraTabPage2.Controls.Add(this.labelControl1);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(701, 517);
+            this.xtraTabPage2.Size = new System.Drawing.Size(710, 517);
             this.xtraTabPage2.Text = "用户信息";
             // 
             // comboBoxEdit11
@@ -238,7 +238,7 @@
             this.groupControl2.Controls.Add(this.panelControl3);
             this.groupControl2.Location = new System.Drawing.Point(467, 224);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(234, 283);
+            this.groupControl2.Size = new System.Drawing.Size(243, 283);
             this.groupControl2.TabIndex = 57;
             this.groupControl2.Text = "所属角色";
             // 
@@ -263,7 +263,7 @@
             this.panelControl3.Controls.Add(this.galleryControl1);
             this.panelControl3.Location = new System.Drawing.Point(5, 25);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(224, 226);
+            this.panelControl3.Size = new System.Drawing.Size(238, 226);
             this.panelControl3.TabIndex = 7;
             // 
             // galleryControl1
@@ -271,9 +271,9 @@
             this.galleryControl1.Controls.Add(this.galleryControlClient1);
             this.galleryControl1.DesignGalleryGroupIndex = 0;
             this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(0, 1);
+            this.galleryControl1.Location = new System.Drawing.Point(-3, 1);
             this.galleryControl1.Name = "galleryControl1";
-            this.galleryControl1.Size = new System.Drawing.Size(224, 225);
+            this.galleryControl1.Size = new System.Drawing.Size(241, 225);
             this.galleryControl1.TabIndex = 18;
             this.galleryControl1.Text = "galleryControl1";
             // 
@@ -281,16 +281,16 @@
             // 
             this.galleryControlClient1.GalleryControl = this.galleryControl1;
             this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(203, 221);
+            this.galleryControlClient1.Size = new System.Drawing.Size(220, 221);
             // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.simpleButton2);
             this.groupControl1.Controls.Add(this.panelControl2);
-            this.groupControl1.Location = new System.Drawing.Point(464, 3);
+            this.groupControl1.Location = new System.Drawing.Point(464, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(234, 215);
+            this.groupControl1.Size = new System.Drawing.Size(246, 215);
             this.groupControl1.TabIndex = 56;
             this.groupControl1.Text = "所属机构";
             // 
@@ -315,7 +315,7 @@
             this.panelControl2.Controls.Add(this.galleryControl2);
             this.panelControl2.Location = new System.Drawing.Point(5, 25);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(224, 156);
+            this.panelControl2.Size = new System.Drawing.Size(241, 156);
             this.panelControl2.TabIndex = 7;
             // 
             // galleryControl2
@@ -323,9 +323,9 @@
             this.galleryControl2.Controls.Add(this.galleryControlClient2);
             this.galleryControl2.DesignGalleryGroupIndex = 0;
             this.galleryControl2.DesignGalleryItemIndex = 0;
-            this.galleryControl2.Location = new System.Drawing.Point(1, 1);
+            this.galleryControl2.Location = new System.Drawing.Point(-5, 1);
             this.galleryControl2.Name = "galleryControl2";
-            this.galleryControl2.Size = new System.Drawing.Size(223, 154);
+            this.galleryControl2.Size = new System.Drawing.Size(246, 154);
             this.galleryControl2.TabIndex = 18;
             this.galleryControl2.Text = "galleryControl2";
             // 
@@ -333,7 +333,7 @@
             // 
             this.galleryControlClient2.GalleryControl = this.galleryControl2;
             this.galleryControlClient2.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient2.Size = new System.Drawing.Size(202, 150);
+            this.galleryControlClient2.Size = new System.Drawing.Size(225, 150);
             // 
             // comboBoxEdit10
             // 
@@ -752,7 +752,7 @@
             // xtraTabPage1
             // 
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(701, 517);
+            this.xtraTabPage1.Size = new System.Drawing.Size(710, 517);
             this.xtraTabPage1.Text = "可操作功能";
             // 
             // panelControl1
@@ -762,26 +762,26 @@
             this.panelControl1.Controls.Add(this.simpleButton9);
             this.panelControl1.Controls.Add(this.simpleButton7);
             this.panelControl1.Controls.Add(this.xtraTabControl1);
-            this.panelControl1.Location = new System.Drawing.Point(4, 1);
+            this.panelControl1.Location = new System.Drawing.Point(0, 1);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(927, 552);
+            this.panelControl1.Size = new System.Drawing.Size(931, 560);
             this.panelControl1.TabIndex = 17;
             // 
             // groupControl3
             // 
             this.groupControl3.Controls.Add(this.treeList1);
-            this.groupControl3.Location = new System.Drawing.Point(5, 34);
+            this.groupControl3.Location = new System.Drawing.Point(0, 34);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(205, 508);
+            this.groupControl3.Size = new System.Drawing.Size(210, 508);
             this.groupControl3.TabIndex = 24;
             this.groupControl3.Text = "用户列表";
             // 
             // treeList1
             // 
-            this.treeList1.Location = new System.Drawing.Point(2, 21);
+            this.treeList1.Location = new System.Drawing.Point(0, 21);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(202, 487);
+            this.treeList1.Size = new System.Drawing.Size(210, 487);
             this.treeList1.TabIndex = 17;
             // 
             // simpleButton5

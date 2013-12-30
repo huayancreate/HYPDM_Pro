@@ -732,7 +732,7 @@
     <Compile Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.Designer.cs">
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.Designer.cs">
       <DependentUpon>UserPermissionBuild.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.cs">
