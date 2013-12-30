@@ -729,7 +729,7 @@
     <Compile Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.Designer.cs">
+    <Compile Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.Designer.cs">
       <DependentUpon>UserPermissionBuild.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.cs">
@@ -1744,11 +1744,11 @@
     <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild.resx">
       <DependentUpon>PermissionBuild.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PermissionBuild2.resx">
-      <DependentUpon>UserPermissionBuild.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\PersonnelSelection.resx">
       <DependentUpon>PersonnelSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\DeployPermissionBuild\UserPermissionBuild.resx">
+      <DependentUpon>UserPermissionBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\ProductStructureDifferenceAnalysis\BuildCondition.resx">
       <DependentUpon>BuildCondition.cs</DependentUpon>
