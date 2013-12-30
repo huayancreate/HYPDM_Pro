@@ -29,86 +29,87 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.groupControl1);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(-3, 3);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(299, 390);
             this.panelControl1.TabIndex = 7;
             // 
-            // groupControl1
+            // SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.treeList1);
-            this.groupControl1.Location = new System.Drawing.Point(0, 9);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(299, 381);
-            this.groupControl1.TabIndex = 8;
-            this.groupControl1.Text = "用户信息";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.Location = new System.Drawing.Point(0, 0);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupContr" +
+                "ol";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.Size = new System.Drawing.Size(299, 390);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.TabIndex = 8;
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.Text = "用户信息";
             // 
-            // treeList1
+            // SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList
             // 
-            this.treeList1.Location = new System.Drawing.Point(2, 21);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(297, 359);
-            this.treeList1.TabIndex = 0;
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList.Location = new System.Drawing.Point(2, 21);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList.Name = "SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList.Size = new System.Drawing.Size(297, 368);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList.TabIndex = 0;
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 
-            // checkEdit1
+            // SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(3, 398);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "全选";
-            this.checkEdit1.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit1.TabIndex = 6;
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.Location = new System.Drawing.Point(3, 398);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.Name = "SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.Properties.Caption = "全选";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.Size = new System.Drawing.Size(75, 19);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.TabIndex = 6;
             // 
-            // simpleButton1
+            // SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(148, 398);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(47, 23);
-            this.simpleButton1.TabIndex = 2;
-            this.simpleButton1.Text = "确定";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton.Location = new System.Drawing.Point(148, 398);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton.Size = new System.Drawing.Size(47, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton.TabIndex = 2;
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton.Text = "确定";
             // 
-            // simpleButton2
+            // SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(202, 399);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(47, 23);
-            this.simpleButton2.TabIndex = 3;
-            this.simpleButton2.Text = "取消";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton.Location = new System.Drawing.Point(202, 399);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton";
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton.Size = new System.Drawing.Size(47, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton.TabIndex = 3;
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton.Text = "取消";
             // 
             // AddUserMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(295, 423);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.checkEdit1);
+            this.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit);
             this.Controls.Add(this.panelControl1);
             this.Name = "AddUserMessage";
             this.Text = "添加用户";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl)).EndInit();
+            this.SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -116,10 +117,10 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_AddUserMessage_UserMessage_GroupControl;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_OrganizationManage_AddUserMessage_TreeList;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_OrganizationManage_AddUserMessage_CheckAll_CheckEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddUserMessage_Confirm_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddUserMessage_Cancel_SimpleButton;
     }
 }

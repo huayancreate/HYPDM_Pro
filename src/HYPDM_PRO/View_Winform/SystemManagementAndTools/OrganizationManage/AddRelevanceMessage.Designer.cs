@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
@@ -45,10 +45,10 @@
             this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
@@ -59,64 +59,68 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.checkEdit1);
-            this.panelControl1.Controls.Add(this.groupControl1);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(-2, -1);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(613, 423);
             this.panelControl1.TabIndex = 7;
             // 
-            // simpleButton1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(491, 397);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(47, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "确定";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Location = new System.Drawing.Point(491, 397);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleBut" +
+                "ton";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Size = new System.Drawing.Size(47, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.TabIndex = 1;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Text = "确定";
             // 
-            // simpleButton2
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(544, 397);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(47, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "取消";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Location = new System.Drawing.Point(544, 397);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButt" +
+                "on";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Size = new System.Drawing.Size(47, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.TabIndex = 2;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Text = "取消";
             // 
-            // checkEdit1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(5, 400);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "全选";
-            this.checkEdit1.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit1.TabIndex = 5;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.Location = new System.Drawing.Point(5, 400);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdi" +
+                "t";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.Properties.Caption = "全选";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.Size = new System.Drawing.Size(75, 19);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.TabIndex = 5;
             // 
-            // groupControl1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.gridControl1);
-            this.groupControl1.Location = new System.Drawing.Point(0, 0);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(613, 394);
-            this.groupControl1.TabIndex = 8;
-            this.groupControl1.Text = "角色信息";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Location = new System.Drawing.Point(0, 0);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_Group" +
+                "Control";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Size = new System.Drawing.Size(613, 394);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.TabIndex = 8;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Text = "角色信息";
             // 
-            // gridControl1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 21);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.Location = new System.Drawing.Point(0, 21);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1,
             this.repositoryItemCheckEdit2,
             this.repositoryItemComboBox1,
             this.repositoryItemComboBox2,
             this.repositoryItemCheckEdit3});
-            this.gridControl1.Size = new System.Drawing.Size(613, 373);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.Size = new System.Drawing.Size(613, 373);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.TabIndex = 0;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
-            this.gridControl1.Click += new System.EventHandler(this.gridControl1_Click);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl.Click += new System.EventHandler(this.gridControl1_Click);
             // 
             // gridView1
             // 
@@ -124,7 +128,7 @@
             this.gridColumn2,
             this.gridColumn3,
             this.gridColumn4});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn2
@@ -188,10 +192,10 @@
             this.Text = "添加角色";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl)).EndInit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
@@ -205,11 +209,11 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CheckAll_CheckEdit;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit2;
