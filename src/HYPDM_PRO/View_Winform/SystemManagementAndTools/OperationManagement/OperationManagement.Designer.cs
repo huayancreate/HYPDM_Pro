@@ -28,84 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl)).BeginInit();
             this.SuspendLayout();
             // 
-            // simpleButton6
+            // SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(123, 3);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(83, 23);
-            this.simpleButton6.TabIndex = 84;
-            this.simpleButton6.Text = "批量添加(B)";
+            this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton.Location = new System.Drawing.Point(123, 3);
+            this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton.Name = "SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton";
+            this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton.Size = new System.Drawing.Size(83, 23);
+            this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton.TabIndex = 84;
+            this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton.Text = "批量添加(B)";
             // 
-            // simpleButton5
+            // SystemManagementAndTools_OperationManagement_Delete_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(62, 3);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 83;
-            this.simpleButton5.Text = "删除(D)";
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton.Location = new System.Drawing.Point(62, 3);
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton.Name = "SystemManagementAndTools_OperationManagement_Delete_SimpleButton";
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton.TabIndex = 83;
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton.Text = "删除(D)";
             // 
-            // simpleButton4
+            // SystemManagementAndTools_OperationManagement_Add_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(1, 3);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 81;
-            this.simpleButton4.Text = "添加(A)";
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton.Location = new System.Drawing.Point(1, 3);
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton.Name = "SystemManagementAndTools_OperationManagement_Add_SimpleButton";
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton.TabIndex = 81;
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton.Text = "添加(A)";
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.treeList1);
+            this.groupControl1.Controls.Add(this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList);
             this.groupControl1.Location = new System.Drawing.Point(1, 32);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(205, 516);
             this.groupControl1.TabIndex = 85;
             this.groupControl1.Text = "功能列表";
             // 
-            // treeList1
+            // SystemManagementAndTools_OperationManagement_FunctionList_TreeList
             // 
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList1.Location = new System.Drawing.Point(2, 22);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(201, 492);
-            this.treeList1.TabIndex = 68;
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList.Name = "SystemManagementAndTools_OperationManagement_FunctionList_TreeList";
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList.Size = new System.Drawing.Size(201, 492);
+            this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList.TabIndex = 68;
             // 
             // groupControl2
             // 
             this.groupControl2.Controls.Add(this.simpleButton1);
-            this.groupControl2.Controls.Add(this.textEdit1);
-            this.groupControl2.Controls.Add(this.textEdit7);
-            this.groupControl2.Controls.Add(this.textEdit6);
+            this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit);
+            this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit);
+            this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit);
             this.groupControl2.Controls.Add(this.labelControl2);
             this.groupControl2.Controls.Add(this.labelControl1);
             this.groupControl2.Controls.Add(this.labelControl6);
@@ -123,28 +123,28 @@
             this.simpleButton1.TabIndex = 101;
             this.simpleButton1.Text = "保存(S)";
             // 
-            // textEdit1
+            // SystemManagementAndTools_OperationManagement_FunctionID_TextEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(105, 98);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(360, 20);
-            this.textEdit1.TabIndex = 100;
+            this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Location = new System.Drawing.Point(105, 98);
+            this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Name = "SystemManagementAndTools_OperationManagement_FunctionID_TextEdit";
+            this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Size = new System.Drawing.Size(360, 20);
+            this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.TabIndex = 100;
             // 
-            // textEdit7
+            // SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit
             // 
-            this.textEdit7.Location = new System.Drawing.Point(105, 66);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Location = new System.Drawing.Point(105, 66);
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Name = "SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit";
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(360, 20);
-            this.textEdit7.TabIndex = 99;
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Size = new System.Drawing.Size(360, 20);
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.TabIndex = 99;
             // 
-            // textEdit6
+            // SystemManagementAndTools_OperationManagement_FunctionName_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(105, 34);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(360, 20);
-            this.textEdit6.TabIndex = 89;
+            this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Location = new System.Drawing.Point(105, 34);
+            this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Name = "SystemManagementAndTools_OperationManagement_FunctionName_TextEdit";
+            this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Size = new System.Drawing.Size(360, 20);
+            this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.TabIndex = 89;
             // 
             // labelControl2
             // 
@@ -172,37 +172,37 @@
             // 
             // groupControl3
             // 
-            this.groupControl3.Controls.Add(this.simpleButton3);
-            this.groupControl3.Controls.Add(this.simpleButton2);
-            this.groupControl3.Controls.Add(this.listBoxControl1);
+            this.groupControl3.Controls.Add(this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1);
+            this.groupControl3.Controls.Add(this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1);
+            this.groupControl3.Controls.Add(this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl);
             this.groupControl3.Location = new System.Drawing.Point(687, 32);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(166, 514);
             this.groupControl3.TabIndex = 101;
             this.groupControl3.Text = "可操作角色";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_OperationManagement_Delete_SimpleButton1
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(98, 481);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 84;
-            this.simpleButton3.Text = "删除(D)";
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1.Location = new System.Drawing.Point(98, 481);
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1.Name = "SystemManagementAndTools_OperationManagement_Delete_SimpleButton1";
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1.TabIndex = 84;
+            this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton1.Text = "删除(D)";
             // 
-            // simpleButton2
+            // SystemManagementAndTools_OperationManagement_Add_SimpleButton1
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(34, 481);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 82;
-            this.simpleButton2.Text = "添加(A)";
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1.Location = new System.Drawing.Point(34, 481);
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1.Name = "SystemManagementAndTools_OperationManagement_Add_SimpleButton1";
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1.TabIndex = 82;
+            this.SystemManagementAndTools_OperationManagement_Add_SimpleButton1.Text = "添加(A)";
             // 
-            // listBoxControl1
+            // SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 20);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(166, 449);
-            this.listBoxControl1.TabIndex = 63;
+            this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl.Location = new System.Drawing.Point(0, 20);
+            this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl.Name = "SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl";
+            this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl.Size = new System.Drawing.Size(166, 449);
+            this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl.TabIndex = 63;
             // 
             // OperationManagement
             // 
@@ -212,45 +212,45 @@
             this.Controls.Add(this.groupControl3);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.simpleButton6);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton4);
+            this.Controls.Add(this.SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_OperationManagement_Delete_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_OperationManagement_Add_SimpleButton);
             this.Name = "OperationManagement";
             this.Text = "操作管理";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_VastAdd_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_Delete_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_Add_SimpleButton;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_OperationManagement_FunctionList_TreeList;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OperationManagement_FunctionName_TextEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OperationManagement_FunctionID_TextEdit;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_Add_SimpleButton1;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_Delete_SimpleButton1;
     }
 }

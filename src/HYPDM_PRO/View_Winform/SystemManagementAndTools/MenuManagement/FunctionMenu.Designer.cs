@@ -36,30 +36,30 @@
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt = new DevExpress.XtraEditors.CheckEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             this.SuspendLayout();
@@ -128,158 +128,158 @@
             this.labelControl8.TabIndex = 93;
             this.labelControl8.Text = "显示名称(*):";
             // 
-            // textEdit6
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(84, 14);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(200, 20);
-            this.textEdit6.TabIndex = 94;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Location = new System.Drawing.Point(84, 14);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Size = new System.Drawing.Size(200, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.TabIndex = 94;
             // 
-            // textEdit7
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit
             // 
-            this.textEdit7.Location = new System.Drawing.Point(84, 45);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Location = new System.Drawing.Point(84, 45);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(460, 20);
-            this.textEdit7.TabIndex = 99;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Size = new System.Drawing.Size(460, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.TabIndex = 99;
             // 
-            // textEdit1
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(84, 81);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(171, 20);
-            this.textEdit1.TabIndex = 100;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Location = new System.Drawing.Point(84, 81);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Size = new System.Drawing.Size(171, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.TabIndex = 100;
             // 
-            // textEdit2
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit
             // 
-            this.textEdit2.Location = new System.Drawing.Point(351, 81);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(171, 20);
-            this.textEdit2.TabIndex = 101;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Location = new System.Drawing.Point(351, 81);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Size = new System.Drawing.Size(171, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.TabIndex = 101;
             // 
-            // textEdit3
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit
             // 
-            this.textEdit3.Location = new System.Drawing.Point(84, 115);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(416, 20);
-            this.textEdit3.TabIndex = 102;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Location = new System.Drawing.Point(84, 115);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Size = new System.Drawing.Size(416, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.TabIndex = 102;
             // 
-            // simpleButton6
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(506, 112);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(38, 23);
-            this.simpleButton6.TabIndex = 103;
-            this.simpleButton6.Text = "……";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Location = new System.Drawing.Point(506, 112);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Size = new System.Drawing.Size(38, 23);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.TabIndex = 103;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Text = "……";
             // 
-            // textEdit4
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit
             // 
-            this.textEdit4.Location = new System.Drawing.Point(113, 150);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(387, 20);
-            this.textEdit4.TabIndex = 104;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Location = new System.Drawing.Point(113, 150);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Size = new System.Drawing.Size(387, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.TabIndex = 104;
             // 
-            // textEdit5
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit
             // 
-            this.textEdit5.Location = new System.Drawing.Point(113, 186);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(387, 20);
-            this.textEdit5.TabIndex = 105;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Location = new System.Drawing.Point(113, 186);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Size = new System.Drawing.Size(387, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.TabIndex = 105;
             // 
-            // textEdit8
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit
             // 
-            this.textEdit8.Location = new System.Drawing.Point(113, 215);
-            this.textEdit8.Name = "textEdit8";
-            this.textEdit8.Size = new System.Drawing.Size(387, 20);
-            this.textEdit8.TabIndex = 106;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Location = new System.Drawing.Point(113, 215);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Size = new System.Drawing.Size(387, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.TabIndex = 106;
             // 
-            // simpleButton1
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(506, 183);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(38, 23);
-            this.simpleButton1.TabIndex = 107;
-            this.simpleButton1.Text = "……";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Location = new System.Drawing.Point(506, 183);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Size = new System.Drawing.Size(38, 23);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.TabIndex = 107;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Text = "……";
             // 
-            // checkEdit1
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(48, 251);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "主菜单可见";
-            this.checkEdit1.Size = new System.Drawing.Size(88, 19);
-            this.checkEdit1.TabIndex = 108;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Location = new System.Drawing.Point(48, 251);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Properties.Caption = "主菜单可见";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Size = new System.Drawing.Size(88, 19);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.TabIndex = 108;
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.textEdit6);
-            this.panelControl1.Controls.Add(this.checkEdit1);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt);
             this.panelControl1.Controls.Add(this.labelControl6);
-            this.panelControl1.Controls.Add(this.simpleButton1);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton);
             this.panelControl1.Controls.Add(this.labelControl1);
-            this.panelControl1.Controls.Add(this.textEdit8);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl2);
-            this.panelControl1.Controls.Add(this.textEdit5);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl3);
-            this.panelControl1.Controls.Add(this.textEdit4);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl4);
-            this.panelControl1.Controls.Add(this.simpleButton6);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton);
             this.panelControl1.Controls.Add(this.labelControl5);
-            this.panelControl1.Controls.Add(this.textEdit3);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl7);
-            this.panelControl1.Controls.Add(this.textEdit2);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl8);
-            this.panelControl1.Controls.Add(this.textEdit1);
-            this.panelControl1.Controls.Add(this.textEdit7);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit);
             this.panelControl1.Location = new System.Drawing.Point(9, 32);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(552, 275);
             this.panelControl1.TabIndex = 109;
             // 
-            // simpleButton2
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(337, 326);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(50, 23);
-            this.simpleButton2.TabIndex = 110;
-            this.simpleButton2.Text = "添加(A)";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Location = new System.Drawing.Point(337, 326);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Size = new System.Drawing.Size(50, 23);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.TabIndex = 110;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Text = "添加(A)";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(393, 326);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(50, 23);
-            this.simpleButton3.TabIndex = 111;
-            this.simpleButton3.Text = "保存(S)";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Location = new System.Drawing.Point(393, 326);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Size = new System.Drawing.Size(50, 23);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.TabIndex = 111;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Text = "保存(S)";
             // 
-            // simpleButton4
+            // SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(449, 326);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(50, 23);
-            this.simpleButton4.TabIndex = 109;
-            this.simpleButton4.Text = "关闭(C)";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Location = new System.Drawing.Point(449, 326);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton";
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Size = new System.Drawing.Size(50, 23);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.TabIndex = 109;
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Text = "关闭(C)";
             // 
             // FunctionMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(568, 361);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton2);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton);
             this.Controls.Add(this.panelControl1);
             this.Name = "FunctionMenu";
             this.Text = "功能菜单";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -297,20 +297,20 @@
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.LabelControl labelControl8;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
-        private DevExpress.XtraEditors.TextEdit textEdit8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton;
     }
 }
