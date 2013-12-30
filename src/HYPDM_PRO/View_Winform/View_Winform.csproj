@@ -113,6 +113,18 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommonTemplet\EditInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\EditInfo.Designer.cs">
+      <DependentUpon>EditInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\EditRelevanceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\EditRelevanceInfo.Designer.cs">
+      <DependentUpon>EditRelevanceInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuidefour.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1118,6 +1130,18 @@
     <Compile Include="SystemManagementAndTools\LogManage\LogManage.Designer.cs">
       <DependentUpon>LogManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\MenuManagement\FunctionMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MenuManagement\FunctionMenu.Designer.cs">
+      <DependentUpon>FunctionMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MenuManagement\MenuManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\MenuManagement\MenuManagement.Designer.cs">
+      <DependentUpon>MenuManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1143,9 +1167,22 @@
       <DependentUpon>OrganizationManage.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs">
+    <Compile Include="SystemManagementAndTools\OperationManagement\OperationManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.Designer.cs">
+    <Compile Include="SystemManagementAndTools\OperationManagement\OperationManagement.Designer.cs">
+      <DependentUpon>OperationManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManageOld\RoleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManageOld\RoleManage.Designer.cs">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManege\RoleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\RoleManege\RoleManage.Designer.cs">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagementAndTools\SealManange\SealManange.cs">
@@ -1216,6 +1253,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\EditInfo.resx">
+      <DependentUpon>EditInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\EditRelevanceInfo.resx">
+      <DependentUpon>EditRelevanceInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataPortAndIntegration\BOMDataInput\DataInputGuidefour.resx">
       <DependentUpon>DataInputGuidefour.cs</DependentUpon>
@@ -1730,6 +1773,12 @@
     <EmbeddedResource Include="SystemManagementAndTools\LogManage\LogManage.resx">
       <DependentUpon>LogManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\MenuManagement\FunctionMenu.resx">
+      <DependentUpon>FunctionMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\MenuManagement\MenuManagement.resx">
+      <DependentUpon>MenuManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\MessageSet\MessageSet.resx">
       <DependentUpon>MessageSet.cs</DependentUpon>
     </EmbeddedResource>
@@ -1743,6 +1792,13 @@
       <DependentUpon>OrganizationManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
+    <EmbeddedResource Include="SystemManagementAndTools\OperationManagement\OperationManagement.resx">
+      <DependentUpon>OperationManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\RoleManageOld\RoleManage.resx">
+      <DependentUpon>RoleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\RoleManege\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\SealManange\SealManange.resx">

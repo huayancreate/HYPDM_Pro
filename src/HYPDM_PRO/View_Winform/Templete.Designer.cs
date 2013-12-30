@@ -46,7 +46,6 @@
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
@@ -63,7 +62,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.SuspendLayout();
@@ -212,15 +210,6 @@
             this.groupControl1.TabIndex = 82;
             this.groupControl1.Text = "groupControl1";
             // 
-            // textEdit7
-            // 
-            this.textEdit7.Location = new System.Drawing.Point(77, 140);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(49, 20);
-            this.textEdit7.TabIndex = 98;
-            // 
             // groupControl2
             // 
             this.groupControl2.Location = new System.Drawing.Point(324, 314);
@@ -251,7 +240,6 @@
             this.ClientSize = new System.Drawing.Size(701, 560);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.textEdit7);
             this.Controls.Add(this.labelControl6);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.simpleButton6);
@@ -283,7 +271,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.ResumeLayout(false);
@@ -311,7 +298,6 @@
         private DevExpress.XtraEditors.MemoEdit memoEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl6;

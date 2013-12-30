@@ -9,5 +9,7 @@ namespace HYCoreLib.ORM.Interface
     public interface IDatabase
     {
         DatabaseInfo GetInfo();
+        DatabaseTables GetTables();
+        IDatabaseOperator GetOperator();
     }
 }
