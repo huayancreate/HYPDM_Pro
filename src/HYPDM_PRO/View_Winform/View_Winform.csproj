@@ -1124,6 +1124,24 @@
     <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.Designer.cs">
       <DependentUpon>MessageSet.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.Designer.cs">
+      <DependentUpon>AddRelevanceMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\AddUserMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\AddUserMessage.Designer.cs">
+      <DependentUpon>AddUserMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.Designer.cs">
+      <DependentUpon>OrganizationManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1141,6 +1159,12 @@
     </Compile>
     <Compile Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.Designer.cs">
       <DependentUpon>SystemParameterSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\SystemUserMessageManage\UserMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\SystemUserMessageManage\UserMessage.Designer.cs">
+      <DependentUpon>UserMessage.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs">
       <SubType>Form</SubType>
@@ -1709,6 +1733,15 @@
     <EmbeddedResource Include="SystemManagementAndTools\MessageSet\MessageSet.resx">
       <DependentUpon>MessageSet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.resx">
+      <DependentUpon>AddRelevanceMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\AddUserMessage.resx">
+      <DependentUpon>AddUserMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.resx">
+      <DependentUpon>OrganizationManage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </EmbeddedResource>
@@ -1717,6 +1750,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.resx">
       <DependentUpon>SystemParameterSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\SystemUserMessageManage\UserMessage.resx">
+      <DependentUpon>UserMessage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\UserManage\AddVirtualGroup.resx">
       <DependentUpon>AddVirtualGroup.cs</DependentUpon>
@@ -1736,6 +1772,7 @@
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

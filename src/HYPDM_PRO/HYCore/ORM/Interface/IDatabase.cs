@@ -6,7 +6,7 @@ using System.Text;
 
 namespace HYCoreLib.ORM.Interface
 {
-    interface IDatabase
+    public interface IDatabase
     {
         DatabaseInfo GetInfo();
     }
