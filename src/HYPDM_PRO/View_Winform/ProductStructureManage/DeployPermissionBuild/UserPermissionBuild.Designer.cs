@@ -1,6 +1,6 @@
 ﻿namespace View_Winform.ProductStructureManage
 {
-    partial class PermissionActivity2
+    partial class UserPermissionBuild
     {
         /// <summary>
         /// Required designer variable.

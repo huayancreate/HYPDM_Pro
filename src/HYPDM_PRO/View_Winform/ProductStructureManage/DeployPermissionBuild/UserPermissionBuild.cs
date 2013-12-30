@@ -9,9 +9,9 @@ using DevExpress.XtraEditors;
 
 namespace View_Winform.ProductStructureManage
 {
-    public partial class PermissionActivity2 : DevExpress.XtraEditors.XtraForm
+    public partial class UserPermissionBuild : DevExpress.XtraEditors.XtraForm
     {
-        public PermissionActivity2()
+        public UserPermissionBuild()
         {
             InitializeComponent();
         }
