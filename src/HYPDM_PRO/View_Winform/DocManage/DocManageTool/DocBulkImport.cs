@@ -20,5 +20,10 @@ namespace View_Winform.Doc_management
         {
 
         }
+
+        private void DocManagement_DocModify_Label_DocNumber_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -29,46 +29,46 @@
         private void InitializeComponent()
         {
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.memoEdit2 = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.memoEdit2 = new DevExpress.XtraEditors.MemoEdit();
+            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
             this.listBoxControl3 = new DevExpress.XtraEditors.ListBoxControl();
+            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.listBoxControl4 = new DevExpress.XtraEditors.ListBoxControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
+            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
             this.groupControl6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl4)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl2
@@ -79,6 +79,15 @@
             this.groupControl2.Size = new System.Drawing.Size(170, 514);
             this.groupControl2.TabIndex = 100;
             this.groupControl2.Text = "角色列表";
+            // 
+            // treeList1
+            // 
+            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.treeList1.Location = new System.Drawing.Point(2, 22);
+            this.treeList1.Name = "treeList1";
+            this.treeList1.OptionsPrint.UsePrintStyles = true;
+            this.treeList1.Size = new System.Drawing.Size(166, 490);
+            this.treeList1.TabIndex = 68;
             // 
             // simpleButton2
             // 
@@ -109,13 +118,27 @@
             this.groupControl1.TabIndex = 103;
             this.groupControl1.Text = "角色详细信息";
             // 
-            // labelControl6
+            // simpleButton6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(5, 37);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(45, 14);
-            this.labelControl6.TabIndex = 86;
-            this.labelControl6.Text = "名称(*):";
+            this.simpleButton6.Location = new System.Drawing.Point(394, 130);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton6.TabIndex = 106;
+            this.simpleButton6.Text = "保存(S)";
+            // 
+            // memoEdit2
+            // 
+            this.memoEdit2.Location = new System.Drawing.Point(76, 60);
+            this.memoEdit2.Name = "memoEdit2";
+            this.memoEdit2.Size = new System.Drawing.Size(423, 62);
+            this.memoEdit2.TabIndex = 105;
+            // 
+            // textEdit6
+            // 
+            this.textEdit6.Location = new System.Drawing.Point(76, 34);
+            this.textEdit6.Name = "textEdit6";
+            this.textEdit6.Size = new System.Drawing.Size(423, 20);
+            this.textEdit6.TabIndex = 88;
             // 
             // labelControl1
             // 
@@ -125,27 +148,13 @@
             this.labelControl1.TabIndex = 87;
             this.labelControl1.Text = "描述:";
             // 
-            // textEdit6
+            // labelControl6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(76, 34);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(423, 20);
-            this.textEdit6.TabIndex = 88;
-            // 
-            // memoEdit2
-            // 
-            this.memoEdit2.Location = new System.Drawing.Point(76, 60);
-            this.memoEdit2.Name = "memoEdit2";
-            this.memoEdit2.Size = new System.Drawing.Size(423, 62);
-            this.memoEdit2.TabIndex = 105;
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(394, 130);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 106;
-            this.simpleButton6.Text = "保存(S)";
+            this.labelControl6.Location = new System.Drawing.Point(5, 37);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(45, 14);
+            this.labelControl6.TabIndex = 86;
+            this.labelControl6.Text = "名称(*):";
             // 
             // groupControl3
             // 
@@ -156,6 +165,14 @@
             this.groupControl3.TabIndex = 104;
             this.groupControl3.Text = "可操作功能";
             // 
+            // listBoxControl3
+            // 
+            this.listBoxControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxControl3.Location = new System.Drawing.Point(2, 22);
+            this.listBoxControl3.Name = "listBoxControl3";
+            this.listBoxControl3.Size = new System.Drawing.Size(499, 141);
+            this.listBoxControl3.TabIndex = 64;
+            // 
             // groupControl4
             // 
             this.groupControl4.Controls.Add(this.listBoxControl4);
@@ -164,6 +181,14 @@
             this.groupControl4.Size = new System.Drawing.Size(503, 205);
             this.groupControl4.TabIndex = 105;
             this.groupControl4.Text = "可操作菜单";
+            // 
+            // listBoxControl4
+            // 
+            this.listBoxControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxControl4.Location = new System.Drawing.Point(2, 22);
+            this.listBoxControl4.Name = "listBoxControl4";
+            this.listBoxControl4.Size = new System.Drawing.Size(499, 181);
+            this.listBoxControl4.TabIndex = 64;
             // 
             // groupControl5
             // 
@@ -176,6 +201,29 @@
             this.groupControl5.TabIndex = 106;
             this.groupControl5.Text = "包含用户";
             // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Location = new System.Drawing.Point(106, 223);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton4.TabIndex = 107;
+            this.simpleButton4.Text = "移除(D)";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Location = new System.Drawing.Point(36, 223);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton3.TabIndex = 81;
+            this.simpleButton3.Text = "编辑(E)";
+            // 
+            // listBoxControl1
+            // 
+            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
+            this.listBoxControl1.Name = "listBoxControl1";
+            this.listBoxControl1.Size = new System.Drawing.Size(169, 195);
+            this.listBoxControl1.TabIndex = 63;
+            // 
             // groupControl6
             // 
             this.groupControl6.Controls.Add(this.simpleButton7);
@@ -187,60 +235,13 @@
             this.groupControl6.TabIndex = 107;
             this.groupControl6.Text = "包含用户组";
             // 
-            // treeList1
+            // simpleButton7
             // 
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList1.Location = new System.Drawing.Point(2, 22);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(166, 490);
-            this.treeList1.TabIndex = 68;
-            // 
-            // listBoxControl1
-            // 
-            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(169, 195);
-            this.listBoxControl1.TabIndex = 63;
-            // 
-            // listBoxControl2
-            // 
-            this.listBoxControl2.Location = new System.Drawing.Point(0, 25);
-            this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(171, 254);
-            this.listBoxControl2.TabIndex = 63;
-            // 
-            // listBoxControl3
-            // 
-            this.listBoxControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxControl3.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl3.Name = "listBoxControl3";
-            this.listBoxControl3.Size = new System.Drawing.Size(499, 141);
-            this.listBoxControl3.TabIndex = 64;
-            // 
-            // listBoxControl4
-            // 
-            this.listBoxControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxControl4.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl4.Name = "listBoxControl4";
-            this.listBoxControl4.Size = new System.Drawing.Size(499, 181);
-            this.listBoxControl4.TabIndex = 64;
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(36, 223);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 81;
-            this.simpleButton3.Text = "编辑(E)";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(106, 223);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 107;
-            this.simpleButton4.Text = "移除(D)";
+            this.simpleButton7.Location = new System.Drawing.Point(111, 282);
+            this.simpleButton7.Name = "simpleButton7";
+            this.simpleButton7.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton7.TabIndex = 108;
+            this.simpleButton7.Text = "移除(D)";
             // 
             // simpleButton5
             // 
@@ -250,13 +251,12 @@
             this.simpleButton5.TabIndex = 82;
             this.simpleButton5.Text = "编辑(E)";
             // 
-            // simpleButton7
+            // listBoxControl2
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(111, 282);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton7.TabIndex = 108;
-            this.simpleButton7.Text = "移除(D)";
+            this.listBoxControl2.Location = new System.Drawing.Point(0, 25);
+            this.listBoxControl2.Name = "listBoxControl2";
+            this.listBoxControl2.Size = new System.Drawing.Size(171, 254);
+            this.listBoxControl2.TabIndex = 63;
             // 
             // RoleManage
             // 
@@ -275,24 +275,24 @@
             this.Text = "角色管理";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
             this.groupControl6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl4)).EndInit();
             this.ResumeLayout(false);
 
         }

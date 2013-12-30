@@ -368,6 +368,7 @@
             this.DocManagement_DocModify_Label_DocNumber.Size = new System.Drawing.Size(59, 14);
             this.DocManagement_DocModify_Label_DocNumber.TabIndex = 31;
             this.DocManagement_DocModify_Label_DocNumber.Text = "*文档编码:";
+            this.DocManagement_DocModify_Label_DocNumber.Click += new System.EventHandler(this.DocManagement_DocModify_Label_DocNumber_Click);
             // 
             // xtraTabPage2
             // 
