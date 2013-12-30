@@ -11,6 +11,5 @@ namespace HYCoreLib.SysManger.Entity
         private string username;
         private string real_name;
         private Int64 group_id;
-        private IRole role;
     }
 }
