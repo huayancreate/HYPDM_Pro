@@ -41,7 +41,6 @@
             this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
@@ -67,6 +66,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Add_simpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Delete_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl)).BeginInit();
@@ -79,7 +79,6 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Properties)).BeginInit();
@@ -93,6 +92,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationList_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationList_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -206,8 +206,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl
             // 
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.comboBoxEdit1);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.labelControl10);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.listBoxControl);
@@ -243,14 +243,6 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Size = new System.Drawing.Size(47, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.TabIndex = 29;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Text = "保存";
-            // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit
-            // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit.Location = new System.Drawing.Point(80, 171);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_T" +
-                "extEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit.Size = new System.Drawing.Size(204, 20);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit.TabIndex = 28;
             // 
             // labelControl10
             // 
@@ -456,6 +448,16 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Delete_SimpleButton.TabIndex = 1;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Delete_SimpleButton.Text = "删除";
             // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.EditValue = "ComboBoxEdit";
+            this.comboBoxEdit1.Location = new System.Drawing.Point(79, 171);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(205, 20);
+            this.comboBoxEdit1.TabIndex = 30;
+            // 
             // OrganizationManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -477,7 +479,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.ResumeLayout(false);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Properties)).EndInit();
@@ -491,6 +492,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationList_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationList_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -523,7 +525,6 @@
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit;
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl;
@@ -536,5 +537,6 @@
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton;
         private DevExpress.XtraBars.Ribbon.GalleryControl SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl;
         private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient2;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
     }
 }

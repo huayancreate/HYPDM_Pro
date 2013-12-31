@@ -1,6 +1,6 @@
 ﻿namespace View_Winform.SystemManagementAndTools.SealManange
 {
-    partial class SealManange
+    partial class SealManage
     {
         /// <summary>
         /// Required designer variable.

@@ -1184,17 +1184,17 @@
     <Compile Include="SystemManagementAndTools\RoleManageOld\RoleManage.Designer.cs">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemManagementAndTools\RoleManege\RoleManage.cs">
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemManagementAndTools\RoleManege\RoleManage.Designer.cs">
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.Designer.cs">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemManagementAndTools\SealManange\SealManange.cs">
+    <Compile Include="SystemManagementAndTools\SealManage\SealManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemManagementAndTools\SealManange\SealManange.Designer.cs">
-      <DependentUpon>SealManange.cs</DependentUpon>
+    <Compile Include="SystemManagementAndTools\SealManage\SealManage.Designer.cs">
+      <DependentUpon>SealManage.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.cs">
       <SubType>Form</SubType>
@@ -2005,11 +2005,11 @@
     <EmbeddedResource Include="SystemManagementAndTools\RoleManageOld\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\RoleManege\RoleManage.resx">
+    <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\SealManange\SealManange.resx">
-      <DependentUpon>SealManange.cs</DependentUpon>
+    <EmbeddedResource Include="SystemManagementAndTools\SealManage\SealManage.resx">
+      <DependentUpon>SealManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\SystemParameterSet\SystemParameterSet.resx">
       <DependentUpon>SystemParameterSet.cs</DependentUpon>
