@@ -28,60 +28,86 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            this.tlCategoryList = new DevExpress.XtraTreeList.TreeList();
+            this.name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            ((System.ComponentModel.ISupportInitialize)(this.tlCategoryList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
+            this.splitContainerControl1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // treeList1
+            // tlCategoryList
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
-            this.treeListColumn1});
-            this.treeList1.Location = new System.Drawing.Point(-1, 0);
-            this.treeList1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
-            "文档管理"}, -1);
-            this.treeList1.AppendNode(new object[] {
-            "我的工具箱"}, -1);
-            this.treeList1.AppendNode(new object[] {
-            "系统管理及工具"}, -1);
-            this.treeList1.AppendNode(new object[] {
-            "用户管理"}, 2);
-            this.treeList1.AppendNode(new object[] {
-            "用户组管理"}, 2);
-            this.treeList1.AppendNode(new object[] {
-            "角色管理"}, 2);
-            this.treeList1.AppendNode(new object[] {
-            "功能操作管理"}, 2);
-            this.treeList1.AppendNode(new object[] {
-            "菜单管理"}, 2);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(208, 698);
-            this.treeList1.TabIndex = 68;
+            this.tlCategoryList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.name,
+            this.id});
+            this.tlCategoryList.Location = new System.Drawing.Point(4, 4);
+            this.tlCategoryList.Margin = new System.Windows.Forms.Padding(4);
+            this.tlCategoryList.Name = "tlCategoryList";
+            this.tlCategoryList.BeginUnboundLoad();
+            this.tlCategoryList.AppendNode(new object[] {
+            "",
+            "系统管理工具"}, -1);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupManage",
+            "用户组管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserMessage",
+            "用户管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.RoleManege.RoleManage",
+            "角色管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.OperationManagement.OperationManagement",
+            "操作管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.MenuManagement.MenuManagement",
+            "菜单管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationManage",
+            "组织机构管理"}, 0);
+            this.tlCategoryList.EndUnboundLoad();
+            this.tlCategoryList.OptionsBehavior.PopulateServiceColumns = true;
+            this.tlCategoryList.OptionsPrint.UsePrintStyles = true;
+            this.tlCategoryList.Size = new System.Drawing.Size(243, 495);
+            this.tlCategoryList.TabIndex = 68;
+            this.tlCategoryList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
+            this.tlCategoryList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeList1_MouseDown);
             // 
-            // labelControl6
+            // name
             // 
-            this.labelControl6.Appearance.Font = new System.Drawing.Font("微软雅黑", 18F);
-            this.labelControl6.Appearance.ForeColor = System.Drawing.Color.Red;
-            this.labelControl6.Location = new System.Drawing.Point(391, 230);
-            this.labelControl6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(200, 31);
-            this.labelControl6.TabIndex = 86;
-            this.labelControl6.Text = "欢迎使用华研PDM";
+            this.name.Caption = "HYPDM v1.0";
+            this.name.FieldName = "name";
+            this.name.MinWidth = 52;
+            this.name.Name = "name";
+            this.name.OptionsColumn.AllowEdit = false;
+            this.name.Width = 111;
             // 
-            // treeListColumn1
+            // id
             // 
-            this.treeListColumn1.Caption = "HYPDM v1.0";
-            this.treeListColumn1.FieldName = "treeListColumn1";
-            this.treeListColumn1.MinWidth = 52;
-            this.treeListColumn1.Name = "treeListColumn1";
-            this.treeListColumn1.Visible = true;
-            this.treeListColumn1.VisibleIndex = 0;
+            this.id.Caption = "HYPDM v1.0";
+            this.id.FieldName = "id";
+            this.id.MinWidth = 52;
+            this.id.Name = "id";
+            this.id.OptionsColumn.AllowEdit = false;
+            this.id.Visible = true;
+            this.id.VisibleIndex = 0;
+            this.id.Width = 114;
+            // 
+            // splitContainerControl1
+            // 
+            this.splitContainerControl1.Location = new System.Drawing.Point(-1, 0);
+            this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.AutoScroll = true;
+            this.splitContainerControl1.Panel1.Controls.Add(this.tlCategoryList);
+            this.splitContainerControl1.Panel1.Text = "Panel1";
+            this.splitContainerControl1.Panel2.AutoScroll = true;
+            this.splitContainerControl1.Panel2.Text = "Panel2";
+            this.splitContainerControl1.Size = new System.Drawing.Size(1063, 530);
+            this.splitContainerControl1.SplitterPosition = 251;
+            this.splitContainerControl1.TabIndex = 69;
+            this.splitContainerControl1.Text = "splitContainerControl1";
             // 
             // HYPDM
             // 
@@ -89,22 +115,24 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 530);
-            this.Controls.Add(this.labelControl6);
-            this.Controls.Add(this.treeList1);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.ClientSize = new System.Drawing.Size(1061, 530);
+            this.Controls.Add(this.splitContainerControl1);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "HYPDM";
             this.Text = "HYPDM";
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            this.Load += new System.EventHandler(this.HYPDM_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.tlCategoryList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
+            this.splitContainerControl1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
+        private DevExpress.XtraTreeList.TreeList tlCategoryList;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn name;
+        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn id;
     }
 }

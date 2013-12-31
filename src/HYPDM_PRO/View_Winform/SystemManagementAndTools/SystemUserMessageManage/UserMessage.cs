@@ -25,5 +25,10 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
         {
 
         }
+
+        private void UserMessage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

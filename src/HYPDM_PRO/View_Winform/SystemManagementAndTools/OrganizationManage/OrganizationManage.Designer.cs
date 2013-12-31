@@ -464,6 +464,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "OrganizationManage";
             this.Text = "组织机构管理";
+            this.Load += new System.EventHandler(this.OrganizationManage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl)).EndInit();

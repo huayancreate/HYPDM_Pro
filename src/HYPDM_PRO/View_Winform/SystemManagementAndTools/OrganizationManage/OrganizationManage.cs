@@ -15,5 +15,10 @@ namespace View_Winform.SystemManagementAndTools.OrganizationManage
         {
             InitializeComponent();
         }
+
+        private void OrganizationManage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

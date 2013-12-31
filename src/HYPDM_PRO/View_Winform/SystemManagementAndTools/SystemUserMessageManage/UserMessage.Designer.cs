@@ -837,6 +837,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "UserMessage";
             this.Text = "用户信息";
+            this.Load += new System.EventHandler(this.UserMessage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage2.ResumeLayout(false);
