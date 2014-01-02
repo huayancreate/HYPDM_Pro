@@ -9,11 +9,16 @@ using DevExpress.XtraEditors;
 
 namespace View_Winform.SystemManagementAndTools.OrganizationManage
 {
-    public partial class AddUserMessage : DevExpress.XtraEditors.XtraForm
+    public partial class OrganizationMessage : DevExpress.XtraEditors.XtraForm
     {
-        public AddUserMessage()
+        public OrganizationMessage()
         {
             InitializeComponent();
+        }
+
+        private void simpleButton4_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)

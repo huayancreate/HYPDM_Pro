@@ -7,11 +7,11 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.SystemManagementAndTools.SealManange
+namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
 {
-    public partial class SealManange : DevExpress.XtraEditors.XtraForm
+    public partial class UserList : DevExpress.XtraEditors.XtraForm
     {
-        public SealManange()
+        public UserList()
         {
             InitializeComponent();
         }
