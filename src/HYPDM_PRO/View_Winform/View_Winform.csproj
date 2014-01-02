@@ -1166,17 +1166,17 @@
     <Compile Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.Designer.cs">
       <DependentUpon>AddRelevanceMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemManagementAndTools\OrganizationManage\AddUserMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\OrganizationManage\AddUserMessage.Designer.cs">
-      <DependentUpon>AddUserMessage.cs</DependentUpon>
-    </Compile>
     <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.Designer.cs">
       <DependentUpon>OrganizationManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationMessage.Designer.cs">
+      <DependentUpon>OrganizationMessage.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagementAndTools\RoleManageOld\RoleManage.cs">
       <SubType>Form</SubType>
@@ -2002,11 +2002,11 @@
     <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.resx">
       <DependentUpon>AddRelevanceMessage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\AddUserMessage.resx">
-      <DependentUpon>AddUserMessage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.resx">
       <DependentUpon>OrganizationManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\OrganizationMessage.resx">
+      <DependentUpon>OrganizationMessage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\RoleManageOld\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>

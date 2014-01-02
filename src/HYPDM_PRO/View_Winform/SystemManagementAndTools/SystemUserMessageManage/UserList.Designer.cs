@@ -33,8 +33,8 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -58,8 +58,8 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Properties)).BeginInit();
@@ -75,8 +75,8 @@
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton);
             this.panelControl1.Controls.Add(this.simpleButton5);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton);
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.groupControl2);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(1, 0);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(637, 482);
@@ -115,22 +115,24 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.TabIndex = 2;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Text = "添加(A)";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(496, 454);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "确定(O)";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Location = new System.Drawing.Point(496, 454);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButto" +
+                "n";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.TabIndex = 3;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Text = "确定(O)";
             // 
-            // groupControl2
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl
             // 
-            this.groupControl2.Controls.Add(this.gridControl1);
-            this.groupControl2.Location = new System.Drawing.Point(0, 31);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(637, 411);
-            this.groupControl2.TabIndex = 8;
-            this.groupControl2.Text = "用户列表信息";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.gridControl1);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 31);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupCo" +
+                "ntrol";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Size = new System.Drawing.Size(637, 411);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.TabIndex = 8;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Text = "用户列表信息";
             // 
             // gridControl1
             // 
@@ -312,8 +314,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).EndInit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Properties)).EndInit();
@@ -325,12 +327,12 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
