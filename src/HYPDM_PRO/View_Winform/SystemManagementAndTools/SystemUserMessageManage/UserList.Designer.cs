@@ -29,13 +29,19 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -53,34 +59,107 @@
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).BeginInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit);
-            this.panelControl1.Controls.Add(this.labelControl1);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton);
-            this.panelControl1.Controls.Add(this.simpleButton5);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(1, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(637, 482);
+            this.panelControl1.Size = new System.Drawing.Size(799, 482);
             this.panelControl1.TabIndex = 7;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit.Location = new System.Drawing.Point(711, 45);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdi" +
+                "t";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit.Size = new System.Drawing.Size(80, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit.TabIndex = 15;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.Location = new System.Drawing.Point(598, 44);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEd" +
+                "it";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.Properties.Caption = "按用户编码查询:";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.Size = new System.Drawing.Size(114, 19);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.TabIndex = 6;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit.Location = new System.Drawing.Point(503, 44);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit.Size = new System.Drawing.Size(80, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit.TabIndex = 14;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit.Location = new System.Drawing.Point(103, 45);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit" +
+                "";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit.Size = new System.Drawing.Size(80, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit.TabIndex = 15;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.Location = new System.Drawing.Point(390, 43);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.Properties.Caption = "按身份证号查询:";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.Size = new System.Drawing.Size(114, 19);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.TabIndex = 5;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit.Location = new System.Drawing.Point(302, 44);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit.Size = new System.Drawing.Size(80, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit.TabIndex = 13;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.Location = new System.Drawing.Point(5, 46);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdi" +
+                "t";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.Properties.Caption = "按登录名查询:";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.Size = new System.Drawing.Size(96, 19);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.TabIndex = 7;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.Location = new System.Drawing.Point(190, 45);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit" +
+                "";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.Properties.Caption = "按真实姓名查询:";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.Size = new System.Drawing.Size(115, 19);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.TabIndex = 6;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton
             // 
@@ -93,19 +172,11 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Location = new System.Drawing.Point(433, 5);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Location = new System.Drawing.Point(150, 5);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.TabIndex = 4;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Text = "查询(Q)";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(562, 454);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton5.TabIndex = 5;
-            this.simpleButton5.Text = "取消(C)";
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton
             // 
@@ -115,33 +186,27 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.TabIndex = 2;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Text = "添加(A)";
             // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Location = new System.Drawing.Point(496, 454);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButto" +
-                "n";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.TabIndex = 3;
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Text = "确定(O)";
-            // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.gridControl1);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 31);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 71);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupCo" +
                 "ntrol";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Size = new System.Drawing.Size(637, 411);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Size = new System.Drawing.Size(799, 411);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Text = "用户列表信息";
             // 
-            // gridControl1
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 21);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(637, 396);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Location = new System.Drawing.Point(0, 21);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridCon" +
+                "trol";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Size = new System.Drawing.Size(799, 356);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.TabIndex = 0;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -163,7 +228,7 @@
             this.gridColumn14,
             this.gridColumn15,
             this.gridColumn16});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -278,48 +343,46 @@
             this.gridColumn16.Visible = true;
             this.gridColumn16.VisibleIndex = 15;
             // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.EditValue = "ComboBoxEdit";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Location = new System.Drawing.Point(169, 6);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Size = new System.Drawing.Size(94, 20);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.TabIndex = 9;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Location = new System.Drawing.Point(731, 383);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton" +
+                "";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.TabIndex = 5;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Text = "取消(C)";
             // 
-            // labelControl1
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton
             // 
-            this.labelControl1.Location = new System.Drawing.Point(147, 8);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(16, 14);
-            this.labelControl1.TabIndex = 6;
-            this.labelControl1.Text = "按:";
-            // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit.Location = new System.Drawing.Point(271, 6);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit.Size = new System.Drawing.Size(154, 20);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit.TabIndex = 13;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Location = new System.Drawing.Point(652, 383);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButto" +
+                "n";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.TabIndex = 3;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Text = "确定(O)";
             // 
             // UserList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 482);
+            this.ClientSize = new System.Drawing.Size(800, 482);
             this.Controls.Add(this.panelControl1);
             this.Name = "UserList";
             this.Text = "用户列表";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).EndInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -330,10 +393,10 @@
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -351,9 +414,14 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_ComboBoxEdit;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_TextEdit;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_CheckEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserList_IdCardQuery_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserList_LoginNameQuery_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserList_RealNameQuery_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_TextEdit;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_SystemUserMessageManage_UserList_UserNumberQuery_CheckEdit;
 
     }
 }

@@ -89,6 +89,8 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
@@ -133,7 +135,7 @@
             this.xtraTabControl1.Location = new System.Drawing.Point(5, 0);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
-            this.xtraTabControl1.Size = new System.Drawing.Size(716, 541);
+            this.xtraTabControl1.Size = new System.Drawing.Size(716, 545);
             this.xtraTabControl1.TabIndex = 16;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2});
@@ -195,7 +197,7 @@
             this.xtraTabPage2.Controls.Add(this.labelControl2);
             this.xtraTabPage2.Controls.Add(this.labelControl1);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(710, 512);
+            this.xtraTabPage2.Size = new System.Drawing.Size(710, 516);
             this.xtraTabPage2.Text = "用户信息";
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit
@@ -214,16 +216,16 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Controls.Add(this.panelControl3);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Location = new System.Drawing.Point(442, 3);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Location = new System.Drawing.Point(442, 0);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_Grou" +
                 "pControl";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Size = new System.Drawing.Size(273, 507);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Size = new System.Drawing.Size(273, 516);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.TabIndex = 57;
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Text = "所属角色";
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Location = new System.Drawing.Point(131, 484);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Location = new System.Drawing.Point(131, 486);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton" +
                 "";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Size = new System.Drawing.Size(61, 23);
@@ -232,7 +234,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Location = new System.Drawing.Point(198, 484);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Location = new System.Drawing.Point(198, 486);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleBut" +
                 "ton";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Size = new System.Drawing.Size(61, 23);
@@ -693,16 +695,36 @@
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.xtraTabControl1);
-            this.panelControl1.Location = new System.Drawing.Point(-4, 1);
+            this.panelControl1.Location = new System.Drawing.Point(-4, -1);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(721, 543);
             this.panelControl1.TabIndex = 17;
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton.Location = new System.Drawing.Point(575, 546);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleBu" +
+                "tton";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton.Size = new System.Drawing.Size(61, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton.TabIndex = 19;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton.Text = "确定(Q)";
+            // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton.Location = new System.Drawing.Point(642, 546);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleBut" +
+                "ton";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton.Size = new System.Drawing.Size(61, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton.TabIndex = 20;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton.Text = "取消(C)";
             // 
             // UserMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 541);
+            this.ClientSize = new System.Drawing.Size(716, 572);
+            this.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton);
             this.Controls.Add(this.panelControl1);
             this.Name = "UserMessage";
             this.Text = "用户信息";
@@ -812,5 +834,7 @@
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton;
         private DevExpress.XtraBars.Ribbon.GalleryControl SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GalleryControl;
         private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient1;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserMessage_ConfirmUser_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserMessage_CancelUser_SimpleButton;
     }
 }

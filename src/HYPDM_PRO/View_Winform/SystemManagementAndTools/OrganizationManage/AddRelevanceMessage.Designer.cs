@@ -28,122 +28,157 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl)).BeginInit();
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
+            // 
+            // repositoryItemCheckEdit1
+            // 
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.textEdit1);
-            this.panelControl1.Controls.Add(this.labelControl1);
-            this.panelControl1.Controls.Add(this.comboBoxEdit1);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(-2, -1);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(744, 468);
             this.panelControl1.TabIndex = 7;
             // 
-            // comboBoxEdit1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit
             // 
-            this.comboBoxEdit1.EditValue = "ComboBoxEdit";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(172, 8);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(94, 20);
-            this.comboBoxEdit1.TabIndex = 9;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit.Location = new System.Drawing.Point(321, 41);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_T" +
+                "extEdit";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit.Size = new System.Drawing.Size(80, 20);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit.TabIndex = 17;
             // 
-            // simpleButton2
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(435, 6);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "查询(Q)";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.Location = new System.Drawing.Point(206, 41);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_C" +
+                "heckEdit";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.Properties.Caption = "按角色编号查询:";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.Size = new System.Drawing.Size(113, 19);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.TabIndex = 5;
             // 
-            // simpleButton3
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(13, 5);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "添加(A)";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit.Location = new System.Drawing.Point(113, 40);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_Tex" +
+                "tEdit";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit.Size = new System.Drawing.Size(80, 20);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit.TabIndex = 16;
             // 
-            // simpleButton1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(81, 6);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "删除(D)";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.Location = new System.Drawing.Point(11, 40);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_Che" +
+                "ckEdit";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.Properties.Caption = "按角色名查询:";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.Size = new System.Drawing.Size(103, 19);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.TabIndex = 5;
             // 
-            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton
             // 
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Location = new System.Drawing.Point(594, 440);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleBut" +
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton.Location = new System.Drawing.Point(150, 6);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleB" +
+                "utton";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton.TabIndex = 2;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton.Text = "查询(Q)";
+            // 
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton
+            // 
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton.Location = new System.Drawing.Point(13, 5);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleBut" +
                 "ton";
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Size = new System.Drawing.Size(60, 23);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.TabIndex = 1;
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton.Text = "确定(Q)";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton.TabIndex = 3;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton.Text = "添加(A)";
             // 
-            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton
             // 
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Location = new System.Drawing.Point(669, 440);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButt" +
-                "on";
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Size = new System.Drawing.Size(60, 23);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.TabIndex = 2;
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Text = "取消(C)";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton.Location = new System.Drawing.Point(81, 6);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_Simple" +
+                "Button";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton.TabIndex = 1;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton.Text = "删除(D)";
             // 
-            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl
             // 
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Controls.Add(this.gridControl1);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Location = new System.Drawing.Point(0, 33);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_Group" +
-                "Control";
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Size = new System.Drawing.Size(744, 401);
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.TabIndex = 8;
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Text = "角色列表信息";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl.Location = new System.Drawing.Point(594, 440);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_Simpl" +
+                "eButtonl";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl.TabIndex = 1;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl.Text = "确定(Q)";
             // 
-            // gridControl1
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 21);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.repositoryItemCheckEdit1});
-            this.gridControl1.Size = new System.Drawing.Size(744, 380);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl.Location = new System.Drawing.Point(669, 440);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_Simple" +
+                "Buttonl";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl.TabIndex = 2;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl.Text = "取消(C)";
+            // 
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl
+            // 
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.Location = new System.Drawing.Point(0, 74);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_G" +
+                "roupControl";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.Size = new System.Drawing.Size(744, 360);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.TabIndex = 8;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.Text = "角色列表信息";
+            // 
+            // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl
+            // 
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl.Location = new System.Drawing.Point(0, 21);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_G" +
+                "ridControl";
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl.Size = new System.Drawing.Size(744, 339);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl.TabIndex = 0;
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -153,7 +188,7 @@
             this.gridColumn2,
             this.gridColumn3,
             this.gridColumn4});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -185,26 +220,6 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 0;
             // 
-            // repositoryItemCheckEdit1
-            // 
-            this.repositoryItemCheckEdit1.AutoHeight = false;
-            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(151, 10);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(16, 14);
-            this.labelControl1.TabIndex = 6;
-            this.labelControl1.Text = "按:";
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(273, 8);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(154, 20);
-            this.textEdit1.TabIndex = 13;
-            // 
             // AddRelevanceMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -213,16 +228,17 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "AddRelevanceMessage";
             this.Text = "角色列表";
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl)).EndInit();
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl)).EndInit();
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -230,21 +246,22 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Confirm_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GroupControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_CancelRole_SimpleButtonl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_ConfirmRole_SimpleButtonl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_AddRole_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_QueryRole_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_DeleteRole_SimpleButton;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleListMessage_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_CheckEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNameQuery_TextEdit;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_CheckEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_RoleNumberQuery_TextEdit;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
     }
 }
