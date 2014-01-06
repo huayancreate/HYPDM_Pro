@@ -276,10 +276,10 @@
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.gridControl1);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 98);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 101);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupCo" +
     "ntrol";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Size = new System.Drawing.Size(637, 344);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Size = new System.Drawing.Size(637, 341);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Text = "用户列表信息";
             // 
@@ -290,7 +290,7 @@
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.gridControl1.Size = new System.Drawing.Size(637, 318);
+            this.gridControl1.Size = new System.Drawing.Size(632, 318);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});

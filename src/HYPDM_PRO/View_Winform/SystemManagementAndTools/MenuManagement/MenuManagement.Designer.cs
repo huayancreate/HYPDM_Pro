@@ -161,24 +161,24 @@
             this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Location = new System.Drawing.Point(2, 22);
             this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Name = "SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList";
             this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.OptionsPrint.UsePrintStyles = true;
-            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Size = new System.Drawing.Size(228, 471);
+            this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.Size = new System.Drawing.Size(228, 442);
             this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList.TabIndex = 102;
             // 
             // groupControl2
             // 
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_MenuManagement_MenuMangeList_TreeList);
-            this.groupControl2.Location = new System.Drawing.Point(0, 57);
+            this.groupControl2.Location = new System.Drawing.Point(0, 86);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(232, 495);
+            this.groupControl2.Size = new System.Drawing.Size(232, 466);
             this.groupControl2.TabIndex = 103;
             this.groupControl2.Text = "菜单管理";
             // 
             // SystemManagementAndTools_MenuManagement_MenuList_GridControl
             // 
-            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Location = new System.Drawing.Point(238, 105);
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Location = new System.Drawing.Point(238, 86);
             this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.MainView = this.gridView1;
             this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Name = "SystemManagementAndTools_MenuManagement_MenuList_GridControl";
-            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Size = new System.Drawing.Size(620, 391);
+            this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.Size = new System.Drawing.Size(620, 410);
             this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.TabIndex = 104;
             this.SystemManagementAndTools_MenuManagement_MenuList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -223,7 +223,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_Query_SimpleButton
             // 
-            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Location = new System.Drawing.Point(583, 57);
+            this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Location = new System.Drawing.Point(672, 57);
             this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_Query_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_MenuManagement_Query_SimpleButton.TabIndex = 105;
@@ -231,7 +231,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_Add_SimpleButton
             // 
-            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Location = new System.Drawing.Point(644, 57);
+            this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Location = new System.Drawing.Point(733, 57);
             this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_Add_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_MenuManagement_Add_SimpleButton.TabIndex = 106;
@@ -239,7 +239,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_Export_SimpleButton
             // 
-            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Location = new System.Drawing.Point(705, 57);
+            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Location = new System.Drawing.Point(794, 57);
             this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_Export_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.TabIndex = 107;

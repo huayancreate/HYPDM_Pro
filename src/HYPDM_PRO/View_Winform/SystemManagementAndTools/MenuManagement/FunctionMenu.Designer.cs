@@ -66,7 +66,7 @@
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(9, 218);
+            this.labelControl6.Location = new System.Drawing.Point(16, 218);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(92, 14);
             this.labelControl6.TabIndex = 86;
@@ -74,7 +74,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(9, 189);
+            this.labelControl1.Location = new System.Drawing.Point(16, 189);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(102, 14);
             this.labelControl1.TabIndex = 87;
@@ -82,7 +82,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(9, 153);
+            this.labelControl2.Location = new System.Drawing.Point(16, 153);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(98, 14);
             this.labelControl2.TabIndex = 88;
@@ -90,7 +90,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(10, 118);
+            this.labelControl3.Location = new System.Drawing.Point(17, 118);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(28, 14);
             this.labelControl3.TabIndex = 89;
@@ -98,7 +98,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(306, 84);
+            this.labelControl4.Location = new System.Drawing.Point(313, 84);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(72, 14);
             this.labelControl4.TabIndex = 90;
@@ -106,7 +106,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(10, 84);
+            this.labelControl5.Location = new System.Drawing.Point(17, 84);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(28, 14);
             this.labelControl5.TabIndex = 91;
@@ -114,7 +114,7 @@
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(10, 48);
+            this.labelControl7.Location = new System.Drawing.Point(17, 48);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(69, 14);
             this.labelControl7.TabIndex = 92;
@@ -122,7 +122,7 @@
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(10, 17);
+            this.labelControl8.Location = new System.Drawing.Point(17, 17);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(69, 14);
             this.labelControl8.TabIndex = 93;
@@ -130,44 +130,44 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Location = new System.Drawing.Point(113, 14);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Location = new System.Drawing.Point(120, 14);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Size = new System.Drawing.Size(200, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.TabIndex = 94;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Location = new System.Drawing.Point(113, 45);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Location = new System.Drawing.Point(120, 45);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Size = new System.Drawing.Size(441, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Size = new System.Drawing.Size(428, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.TabIndex = 99;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Location = new System.Drawing.Point(113, 81);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Location = new System.Drawing.Point(120, 81);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.Size = new System.Drawing.Size(171, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Order_TextEdit.TabIndex = 100;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Location = new System.Drawing.Point(383, 81);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Location = new System.Drawing.Point(390, 81);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit";
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Size = new System.Drawing.Size(171, 20);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Size = new System.Drawing.Size(158, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.TabIndex = 101;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Location = new System.Drawing.Point(113, 115);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Location = new System.Drawing.Point(120, 115);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Size = new System.Drawing.Size(387, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.TabIndex = 102;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Location = new System.Drawing.Point(503, 112);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Location = new System.Drawing.Point(510, 112);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Size = new System.Drawing.Size(38, 23);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.TabIndex = 103;
@@ -175,28 +175,28 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Location = new System.Drawing.Point(113, 150);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Location = new System.Drawing.Point(120, 150);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Size = new System.Drawing.Size(428, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.TabIndex = 104;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Location = new System.Drawing.Point(113, 186);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Location = new System.Drawing.Point(120, 186);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Size = new System.Drawing.Size(387, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.TabIndex = 105;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Location = new System.Drawing.Point(113, 215);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Location = new System.Drawing.Point(120, 215);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Size = new System.Drawing.Size(428, 20);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.TabIndex = 106;
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Location = new System.Drawing.Point(503, 183);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Location = new System.Drawing.Point(510, 183);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Size = new System.Drawing.Size(38, 23);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.TabIndex = 107;
@@ -204,7 +204,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt
             // 
-            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Location = new System.Drawing.Point(8, 252);
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Location = new System.Drawing.Point(15, 252);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Properties.Caption = "主菜单可见";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt.Size = new System.Drawing.Size(88, 19);
