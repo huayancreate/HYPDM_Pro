@@ -105,7 +105,7 @@
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Location = new System.Drawing.Point(562, 72);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton" +
-    "";
+                "";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.TabIndex = 15;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Text = "导入(I)";
@@ -142,7 +142,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Location = new System.Drawing.Point(495, 33);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit" +
-    "";
+                "";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Size = new System.Drawing.Size(126, 20);
@@ -176,7 +176,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Location = new System.Drawing.Point(495, 11);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdi" +
-    "t";
+                "t";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.Items.AddRange(new object[] {
@@ -235,7 +235,7 @@
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Location = new System.Drawing.Point(496, 72);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton" +
-    "";
+                "";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.TabIndex = 1;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Text = "删除(D)";
@@ -268,7 +268,7 @@
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Location = new System.Drawing.Point(496, 454);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButto" +
-    "n";
+                "n";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.TabIndex = 3;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Text = "确定(O)";
@@ -278,7 +278,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.gridControl1);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 101);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupCo" +
-    "ntrol";
+                "ntrol";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Size = new System.Drawing.Size(637, 341);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Text = "用户列表信息";
@@ -298,7 +298,6 @@
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn17,
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
@@ -314,7 +313,8 @@
             this.gridColumn10,
             this.gridColumn14,
             this.gridColumn15,
-            this.gridColumn16});
+            this.gridColumn16,
+            this.gridColumn17});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ColumnAutoWidth = false;
