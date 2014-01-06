@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
@@ -44,14 +46,12 @@
             this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_UserGroupManage_dd_SimpleButton = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList = new DevExpress.XtraTreeList.TreeList();
-            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
             this.groupControl6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Properties)).BeginInit();
@@ -65,30 +65,12 @@
             // 
             this.groupControl5.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Remove_SimpleButton);
             this.groupControl5.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton);
-            this.groupControl5.Controls.Add(this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl);
+            this.groupControl5.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl);
             this.groupControl5.Location = new System.Drawing.Point(688, 1);
             this.groupControl5.Name = "groupControl5";
             this.groupControl5.Size = new System.Drawing.Size(171, 227);
             this.groupControl5.TabIndex = 114;
             this.groupControl5.Text = "包含用户";
-            // 
-            // groupControl6
-            // 
-            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton);
-            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton);
-            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl);
-            this.groupControl6.Location = new System.Drawing.Point(690, 234);
-            this.groupControl6.Name = "groupControl6";
-            this.groupControl6.Size = new System.Drawing.Size(174, 339);
-            this.groupControl6.TabIndex = 108;
-            this.groupControl6.Text = "包含用户组";
-            // 
-            // SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl
-            // 
-            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.Location = new System.Drawing.Point(0, 25);
-            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.Name = "SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl";
-            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.Size = new System.Drawing.Size(171, 271);
-            this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl.TabIndex = 63;
             // 
             // SystemManagementAndTools_UserGroupManage_Remove_SimpleButton
             // 
@@ -106,12 +88,46 @@
             this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.TabIndex = 81;
             this.SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton.Text = "编辑(E)";
             // 
-            // SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl
+            // SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl
             // 
-            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.Name = "SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl";
-            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.Size = new System.Drawing.Size(169, 170);
-            this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl.TabIndex = 63;
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl.Size = new System.Drawing.Size(169, 170);
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl.TabIndex = 63;
+            // 
+            // groupControl6
+            // 
+            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton);
+            this.groupControl6.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton);
+            this.groupControl6.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl);
+            this.groupControl6.Location = new System.Drawing.Point(690, 234);
+            this.groupControl6.Name = "groupControl6";
+            this.groupControl6.Size = new System.Drawing.Size(174, 339);
+            this.groupControl6.TabIndex = 108;
+            this.groupControl6.Text = "包含角色";
+            // 
+            // SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton
+            // 
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Location = new System.Drawing.Point(94, 302);
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.TabIndex = 109;
+            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Text = "移除(D)";
+            // 
+            // SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton
+            // 
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Location = new System.Drawing.Point(25, 302);
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton";
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.TabIndex = 108;
+            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Text = "编辑(E)";
+            // 
+            // SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl
+            // 
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl.Location = new System.Drawing.Point(0, 25);
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl.Size = new System.Drawing.Size(171, 271);
+            this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl.TabIndex = 63;
             // 
             // groupControl1
             // 
@@ -198,22 +214,6 @@
             this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.Size = new System.Drawing.Size(166, 490);
             this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.TabIndex = 68;
             // 
-            // SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton
-            // 
-            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Location = new System.Drawing.Point(94, 302);
-            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton";
-            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.TabIndex = 109;
-            this.SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton.Text = "移除(D)";
-            // 
-            // SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton
-            // 
-            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Location = new System.Drawing.Point(25, 302);
-            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton";
-            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.TabIndex = 108;
-            this.SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton.Text = "编辑(E)";
-            // 
             // UserGroupManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -229,10 +229,10 @@
             this.Text = "用户组管理";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
             this.groupControl6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
@@ -250,7 +250,7 @@
         private DevExpress.XtraEditors.GroupControl groupControl5;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Remove_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Eidt_SimpleButton;
-        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_UserGroupManage_ContainedUser_listBoxControl;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_ContainUser_ListBoxControl;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Save_SimpleButton;
         private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_UserGroupManage_Describe_MemoEdit;
@@ -262,7 +262,7 @@
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_UserGroupManage_dd_SimpleButton;
         private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_UserGroupManage_RoleList_TreeList;
         private DevExpress.XtraEditors.GroupControl groupControl6;
-        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_UserGroupManage_ContainedUserGroup_listBoxControl;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_ContainRole_ListBoxControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Remove1_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_UserGroupManage_Eidt1_SimpleButton;
     }

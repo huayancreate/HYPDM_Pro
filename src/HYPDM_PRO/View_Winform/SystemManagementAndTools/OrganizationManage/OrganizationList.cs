@@ -9,14 +9,19 @@ using DevExpress.XtraEditors;
 
 namespace View_Winform.SystemManagementAndTools.OrganizationManage
 {
-    public partial class AddRelevanceMessage : DevExpress.XtraEditors.XtraForm
+    public partial class OrganizationList : DevExpress.XtraEditors.XtraForm
     {
-        public AddRelevanceMessage()
+        public OrganizationList()
         {
             InitializeComponent();
         }
 
-        private void gridControl1_Click(object sender, EventArgs e)
+        private void simpleButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
         {
 
         }

@@ -1160,29 +1160,23 @@
     <Compile Include="SystemManagementAndTools\OperationManagement\OperationManagement.Designer.cs">
       <DependentUpon>OperationManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.Designer.cs">
-      <DependentUpon>AddRelevanceMessage.cs</DependentUpon>
-    </Compile>
     <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.Designer.cs">
       <DependentUpon>OrganizationManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationMessage.cs">
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationMessage.Designer.cs">
-      <DependentUpon>OrganizationMessage.cs</DependentUpon>
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationList.Designer.cs">
+      <DependentUpon>OrganizationList.cs</DependentUpon>
     </Compile>
-    <Compile Include="SystemManagementAndTools\RoleManageOld\RoleManage.cs">
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SystemManagementAndTools\RoleManageOld\RoleManage.Designer.cs">
-      <DependentUpon>RoleManage.cs</DependentUpon>
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleList.Designer.cs">
+      <DependentUpon>RoleList.cs</DependentUpon>
     </Compile>
     <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs">
       <SubType>Form</SubType>
@@ -1219,36 +1213,6 @@
     </Compile>
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.Designer.cs">
       <DependentUpon>UserGroupManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.Designer.cs">
-      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.Designer.cs">
-      <DependentUpon>DataImportGuit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.Designer.cs">
-      <DependentUpon>UserRoleSet.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\UsersManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserManage\UsersManage.Designer.cs">
-      <DependentUpon>UsersManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.Designer.cs">
-      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
     </Compile>
     <Compile Include="Templete.cs">
       <SubType>Form</SubType>
@@ -1805,17 +1769,14 @@
     <EmbeddedResource Include="SystemManagementAndTools\OperationManagement\OperationManagement.resx">
       <DependentUpon>OperationManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\AddRelevanceMessage.resx">
-      <DependentUpon>AddRelevanceMessage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.resx">
       <DependentUpon>OrganizationManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\OrganizationMessage.resx">
-      <DependentUpon>OrganizationMessage.cs</DependentUpon>
+    <EmbeddedResource Include="SystemManagementAndTools\OrganizationManage\OrganizationList.resx">
+      <DependentUpon>OrganizationList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\RoleManageOld\RoleManage.resx">
-      <DependentUpon>RoleManage.cs</DependentUpon>
+    <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleList.resx">
+      <DependentUpon>RoleList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\RoleManage\RoleManage.resx">
       <DependentUpon>RoleManage.cs</DependentUpon>
@@ -1834,21 +1795,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.resx">
       <DependentUpon>UserGroupManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserManage\AddVirtualGroup.resx">
-      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserManage\DataImportGuit.resx">
-      <DependentUpon>DataImportGuit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserRoleSet.resx">
-      <DependentUpon>UserRoleSet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UsersManage.resx">
-      <DependentUpon>UsersManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.resx">
-      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>

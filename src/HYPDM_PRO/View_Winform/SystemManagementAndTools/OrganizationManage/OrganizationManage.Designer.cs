@@ -30,20 +30,18 @@
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl = new DevExpress.XtraBars.Ribbon.GalleryControl();
-            this.galleryControlClient2 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
-            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -62,23 +60,19 @@
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl)).BeginInit();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1)).BeginInit();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Properties)).BeginInit();
@@ -87,6 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -96,26 +91,34 @@
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(-1, 1);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(629, 551);
+            this.panelControl1.Size = new System.Drawing.Size(629, 556);
             this.panelControl1.TabIndex = 7;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl
             // 
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Location = new System.Drawing.Point(344, 256);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_Gr" +
-                "oupControl";
+    "oupControl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Size = new System.Drawing.Size(280, 295);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.TabIndex = 11;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.Text = "所属角色";
+            // 
+            // SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl
+            // 
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl.Location = new System.Drawing.Point(5, 25);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBo" +
+    "xControl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl.Size = new System.Drawing.Size(270, 239);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl.TabIndex = 22;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton.Location = new System.Drawing.Point(215, 270);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleB" +
-                "utton";
+    "utton";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton.Size = new System.Drawing.Size(59, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton.TabIndex = 21;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton.Text = "删除(D)";
@@ -124,83 +127,55 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton.Location = new System.Drawing.Point(146, 270);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButt" +
-                "on";
+    "on";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton.Size = new System.Drawing.Size(59, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton.TabIndex = 20;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton.Text = "添加(A)";
             // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl
-            // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.Controls.Add(this.galleryControlClient2);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.DesignGalleryGroupIndex = 0;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.DesignGalleryItemIndex = 0;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.Location = new System.Drawing.Point(0, 21);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_Ga" +
-                "lleryControl";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.Size = new System.Drawing.Size(285, 245);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.TabIndex = 17;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.Text = "galleryControl2";
-            // 
-            // galleryControlClient2
-            // 
-            this.galleryControlClient2.GalleryControl = this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl;
-            this.galleryControlClient2.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient2.Size = new System.Drawing.Size(264, 241);
-            // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Location = new System.Drawing.Point(342, 0);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupC" +
-                "ontrol";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Size = new System.Drawing.Size(287, 250);
+    "ontrol";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Size = new System.Drawing.Size(282, 250);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.TabIndex = 10;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.Text = "包含用户";
             // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton
+            // SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton.Location = new System.Drawing.Point(148, 225);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButt" +
-                "on";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton.Size = new System.Drawing.Size(59, 23);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton.TabIndex = 19;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton.Text = "添加(A)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl.Location = new System.Drawing.Point(7, 29);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBo" +
+    "xControl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl.Size = new System.Drawing.Size(269, 190);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl.TabIndex = 23;
+            // 
+            // SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton
+            // 
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton.Location = new System.Drawing.Point(148, 225);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButt" +
+    "on";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton.TabIndex = 19;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton.Text = "添加(A)";
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton.Location = new System.Drawing.Point(217, 225);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleB" +
-                "utton";
+    "utton";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton.Size = new System.Drawing.Size(59, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton.TabIndex = 18;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton.Text = "删除(D)";
             // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1
-            // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.Controls.Add(this.galleryControlClient1);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.DesignGalleryGroupIndex = 0;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.DesignGalleryItemIndex = 0;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.Location = new System.Drawing.Point(0, 23);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_Galler" +
-                "yControl1";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.Size = new System.Drawing.Size(287, 200);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.TabIndex = 17;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.Text = "galleryControl1";
-            // 
-            // galleryControlClient1
-            // 
-            this.galleryControlClient1.GalleryControl = this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1;
-            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(266, 196);
-            // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.labelControl10);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.listBoxControl);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit);
@@ -219,9 +194,10 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.labelControl3);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.labelControl2);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.labelControl1);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Location = new System.Drawing.Point(1, 0);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetail" +
-                "s_GroupControl";
+    "s_GroupControl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Size = new System.Drawing.Size(335, 551);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.TabIndex = 9;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Text = "组织机构详细信息";
@@ -229,13 +205,21 @@
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.EditValue = "ComboBoxEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Location = new System.Drawing.Point(80, 171);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Location = new System.Drawing.Point(79, 171);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_C" +
-                "omboBoxEdit";
+    "omboBoxEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Size = new System.Drawing.Size(248, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Size = new System.Drawing.Size(251, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.TabIndex = 30;
+            // 
+            // SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton
+            // 
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Location = new System.Drawing.Point(269, 525);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.TabIndex = 29;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Text = "保存(S)";
             // 
             // labelControl10
             // 
@@ -250,24 +234,17 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.EditValue = "ComboBoxEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Location = new System.Drawing.Point(79, 63);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_" +
-                "ComboBoxEdit";
+    "ComboBoxEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Size = new System.Drawing.Size(251, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.TabIndex = 26;
             // 
-            // listBoxControl
-            // 
-            this.listBoxControl.Location = new System.Drawing.Point(80, 375);
-            this.listBoxControl.Name = "listBoxControl";
-            this.listBoxControl.Size = new System.Drawing.Size(250, 171);
-            this.listBoxControl.TabIndex = 25;
-            // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Location = new System.Drawing.Point(80, 339);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddres" +
-                "s_TextEdit";
+    "s_TextEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.TabIndex = 24;
             // 
@@ -275,7 +252,7 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Location = new System.Drawing.Point(80, 306);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdi" +
-                "t";
+    "t";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.TabIndex = 23;
             // 
@@ -283,7 +260,7 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Location = new System.Drawing.Point(80, 270);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdi" +
-                "t";
+    "t";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.TabIndex = 22;
             // 
@@ -291,7 +268,7 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Location = new System.Drawing.Point(80, 239);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdi" +
-                "t";
+    "t";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.TabIndex = 21;
             // 
@@ -299,7 +276,7 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Location = new System.Drawing.Point(80, 206);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdi" +
-                "t";
+    "t";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.TabIndex = 20;
             // 
@@ -314,7 +291,7 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Location = new System.Drawing.Point(80, 98);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber" +
-                "_TextEdit";
+    "_TextEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.TabIndex = 18;
             // 
@@ -322,7 +299,7 @@
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Location = new System.Drawing.Point(80, 26);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_T" +
-                "extEdit";
+    "extEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Size = new System.Drawing.Size(250, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.TabIndex = 17;
             // 
@@ -406,31 +383,18 @@
             this.labelControl1.TabIndex = 6;
             this.labelControl1.Text = "修改人:";
             // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton
+            // SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton.Location = new System.Drawing.Point(489, 555);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_Simple" +
-                "Button";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton.Size = new System.Drawing.Size(59, 23);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton.TabIndex = 30;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton.Text = "确定(Q)";
-            // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton
-            // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton.Location = new System.Drawing.Point(558, 555);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleB" +
-                "utton";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton.Size = new System.Drawing.Size(59, 23);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton.TabIndex = 30;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton.Text = "取消(C)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Location = new System.Drawing.Point(80, 375);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Size = new System.Drawing.Size(250, 144);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.TabIndex = 31;
             // 
             // OrganizationManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 581);
-            this.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton);
-            this.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton);
+            this.ClientSize = new System.Drawing.Size(628, 556);
             this.Controls.Add(this.panelControl1);
             this.Name = "OrganizationManage";
             this.Text = "组织机构管理";
@@ -439,18 +403,15 @@
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl)).EndInit();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1)).EndInit();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.ResumeLayout(false);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Properties)).EndInit();
@@ -459,6 +420,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -485,21 +447,18 @@
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit;
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GroupControl;
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GroupControl;
-        private DevExpress.XtraBars.Ribbon.GalleryControl SystemManagementAndTools_OrganizationManage_OrganizationManage_IncludeUser_GalleryControl1;
-        private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient1;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_AddUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_DeleteRole_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_AddRole_SimpleButton;
-        private DevExpress.XtraBars.Ribbon.GalleryControl SystemManagementAndTools_OrganizationManage_OrganizationManage_SubordinateRole_GalleryControl;
-        private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient2;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_ConfirmRole_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationManage_CancelRole_SimpleButton;
+        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainRole_ListBoxControl;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_OrganizationManage_OrganizationManage_ContainUser_ListBoxControl;
     }
 }
