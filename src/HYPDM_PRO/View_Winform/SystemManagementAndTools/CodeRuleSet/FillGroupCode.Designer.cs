@@ -29,33 +29,33 @@
         private void InitializeComponent()
         {
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList = new DevExpress.XtraTreeList.TreeList();
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl6
@@ -66,49 +66,58 @@
             this.labelControl6.TabIndex = 86;
             this.labelControl6.Text = "查找:";
             // 
-            // textEdit6
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(42, 9);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(98, 20);
-            this.textEdit6.TabIndex = 87;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit.Location = new System.Drawing.Point(42, 9);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit.Size = new System.Drawing.Size(98, 20);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit.TabIndex = 87;
             // 
-            // simpleButton1
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(147, 6);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(86, 23);
-            this.simpleButton1.TabIndex = 88;
-            this.simpleButton1.Text = "查找下一个(F)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton.Location = new System.Drawing.Point(147, 6);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton.Size = new System.Drawing.Size(86, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton.TabIndex = 88;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton.Text = "查找下一个(F)";
             // 
-            // treeList1
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.treeList1.Location = new System.Drawing.Point(0, 44);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.Location = new System.Drawing.Point(0, 44);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.BeginUnboundLoad();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.AppendNode(new object[] {
             "设计室"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.AppendNode(new object[] {
             "实施室"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.AppendNode(new object[] {
             "销售室"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.AppendNode(new object[] {
             "需求室"}, -1);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(236, 478);
-            this.treeList1.TabIndex = 89;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.EndUnboundLoad();
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.Size = new System.Drawing.Size(236, 478);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList.TabIndex = 89;
             // 
-            // gridControl1
+            // treeListColumn1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(242, 6);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(448, 243);
-            this.gridControl1.TabIndex = 90;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.treeListColumn1.Caption = "任务接收室";
+            this.treeListColumn1.FieldName = "任务接收室";
+            this.treeListColumn1.MinWidth = 34;
+            this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.Visible = true;
+            this.treeListColumn1.VisibleIndex = 0;
+            // 
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl
+            // 
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl.Location = new System.Drawing.Point(242, 6);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl.Size = new System.Drawing.Size(448, 243);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl.TabIndex = 90;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -117,7 +126,7 @@
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -149,20 +158,20 @@
             this.labelControl1.TabIndex = 91;
             this.labelControl1.Text = "编码值平【2位】:";
             // 
-            // textEdit1
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(357, 261);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(224, 20);
-            this.textEdit1.TabIndex = 92;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit.Location = new System.Drawing.Point(357, 261);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit.Size = new System.Drawing.Size(224, 20);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit.TabIndex = 92;
             // 
-            // simpleButton2
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(587, 258);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 93;
-            this.simpleButton2.Text = "批量填充";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Location = new System.Drawing.Point(587, 258);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.TabIndex = 93;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Text = "批量填充";
             // 
             // labelControl2
             // 
@@ -172,100 +181,91 @@
             this.labelControl2.TabIndex = 94;
             this.labelControl2.Text = "所属分组:";
             // 
-            // textEdit2
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit
             // 
-            this.textEdit2.Location = new System.Drawing.Point(357, 293);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(285, 20);
-            this.textEdit2.TabIndex = 95;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Location = new System.Drawing.Point(357, 293);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Size = new System.Drawing.Size(285, 20);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.TabIndex = 95;
             // 
-            // groupControl1
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl
             // 
-            this.groupControl1.Location = new System.Drawing.Point(239, 319);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(448, 164);
-            this.groupControl1.TabIndex = 96;
-            this.groupControl1.Text = "备注";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl.Location = new System.Drawing.Point(239, 319);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl.Size = new System.Drawing.Size(448, 164);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl.TabIndex = 96;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl.Text = "备注";
             // 
-            // simpleButton6
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(529, 489);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 101;
-            this.simpleButton6.Text = "确定(O)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton.Location = new System.Drawing.Point(529, 489);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton.TabIndex = 101;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton.Text = "确定(O)";
             // 
-            // simpleButton4
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(346, 489);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 99;
-            this.simpleButton4.Text = "添加(A)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton.Location = new System.Drawing.Point(346, 489);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton.TabIndex = 99;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton.Text = "添加(A)";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(468, 489);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 98;
-            this.simpleButton3.Text = "删除(D)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton.Location = new System.Drawing.Point(468, 489);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton.TabIndex = 98;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton.Text = "删除(D)";
             // 
-            // simpleButton7
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(407, 489);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton7.TabIndex = 97;
-            this.simpleButton7.Text = "修改(M)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton.Location = new System.Drawing.Point(407, 489);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton.TabIndex = 97;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton.Text = "修改(M)";
             // 
-            // simpleButton5
+            // SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(590, 489);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 102;
-            this.simpleButton5.Text = "取消(C)";
-            // 
-            // treeListColumn1
-            // 
-            this.treeListColumn1.Caption = "任务接收室";
-            this.treeListColumn1.FieldName = "任务接收室";
-            this.treeListColumn1.MinWidth = 34;
-            this.treeListColumn1.Name = "treeListColumn1";
-            this.treeListColumn1.Visible = true;
-            this.treeListColumn1.VisibleIndex = 0;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton.Location = new System.Drawing.Point(590, 489);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton.TabIndex = 102;
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton.Text = "取消(C)";
             // 
             // FillGroupCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(689, 521);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton6);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton7);
-            this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.textEdit2);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit);
             this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit);
             this.Controls.Add(this.labelControl1);
-            this.Controls.Add(this.gridControl1);
-            this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.textEdit6);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit);
             this.Controls.Add(this.labelControl6);
             this.Name = "FillGroupCode";
             this.Text = "编码值";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,25 +274,25 @@
         #endregion
 
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_textEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_FindNext_simpleButton;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_treeList;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_gridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_textEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_simpleButton;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
     }
 }

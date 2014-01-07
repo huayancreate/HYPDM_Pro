@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
@@ -38,23 +44,17 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.treeList2 = new DevExpress.XtraTreeList.TreeList();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
+            this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeList2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -70,6 +70,57 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(653, 505);
             this.panelControl1.TabIndex = 7;
+            // 
+            // panelControl2
+            // 
+            this.panelControl2.Controls.Add(this.labelControl4);
+            this.panelControl2.Controls.Add(this.textEdit3);
+            this.panelControl2.Controls.Add(this.labelControl3);
+            this.panelControl2.Controls.Add(this.textEdit2);
+            this.panelControl2.Controls.Add(this.labelControl2);
+            this.panelControl2.Controls.Add(this.textEdit1);
+            this.panelControl2.Location = new System.Drawing.Point(6, 5);
+            this.panelControl2.Name = "panelControl2";
+            this.panelControl2.Size = new System.Drawing.Size(642, 67);
+            this.panelControl2.TabIndex = 14;
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(234, 11);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(60, 14);
+            this.labelControl4.TabIndex = 16;
+            this.labelControl4.Text = "机构编码：";
+            // 
+            // textEdit3
+            // 
+            this.textEdit3.Location = new System.Drawing.Point(300, 8);
+            this.textEdit3.Name = "textEdit3";
+            this.textEdit3.Size = new System.Drawing.Size(154, 20);
+            this.textEdit3.TabIndex = 17;
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(8, 40);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(60, 14);
+            this.labelControl3.TabIndex = 14;
+            this.labelControl3.Text = "机构分类：";
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.Location = new System.Drawing.Point(74, 37);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Size = new System.Drawing.Size(154, 20);
+            this.textEdit2.TabIndex = 15;
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(8, 11);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(60, 14);
+            this.labelControl2.TabIndex = 0;
+            this.labelControl2.Text = "机构名称：";
             // 
             // textEdit1
             // 
@@ -142,81 +193,30 @@
             this.treeList1.Location = new System.Drawing.Point(0, 25);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(653, 417);
+            this.treeList1.Size = new System.Drawing.Size(653, 337);
             this.treeList1.TabIndex = 0;
             this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
-            // 
-            // panelControl2
-            // 
-            this.panelControl2.Controls.Add(this.labelControl4);
-            this.panelControl2.Controls.Add(this.textEdit3);
-            this.panelControl2.Controls.Add(this.labelControl3);
-            this.panelControl2.Controls.Add(this.textEdit2);
-            this.panelControl2.Controls.Add(this.labelControl2);
-            this.panelControl2.Controls.Add(this.textEdit1);
-            this.panelControl2.Location = new System.Drawing.Point(6, 5);
-            this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(642, 67);
-            this.panelControl2.TabIndex = 14;
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(8, 11);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(60, 14);
-            this.labelControl2.TabIndex = 0;
-            this.labelControl2.Text = "机构名称：";
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Location = new System.Drawing.Point(8, 40);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(60, 14);
-            this.labelControl3.TabIndex = 14;
-            this.labelControl3.Text = "机构分类：";
-            // 
-            // textEdit2
-            // 
-            this.textEdit2.Location = new System.Drawing.Point(74, 37);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(154, 20);
-            this.textEdit2.TabIndex = 15;
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Location = new System.Drawing.Point(234, 11);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(60, 14);
-            this.labelControl4.TabIndex = 16;
-            this.labelControl4.Text = "机构编码：";
-            // 
-            // textEdit3
-            // 
-            this.textEdit3.Location = new System.Drawing.Point(300, 8);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(154, 20);
-            this.textEdit3.TabIndex = 17;
             // 
             // OrganizationList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 506);
+            this.ClientSize = new System.Drawing.Size(650, 500);
             this.Controls.Add(this.panelControl1);
             this.Name = "OrganizationList";
             this.Text = "组织机构列表";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
+            this.panelControl2.ResumeLayout(false);
+            this.panelControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.treeList2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            this.panelControl2.ResumeLayout(false);
-            this.panelControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
