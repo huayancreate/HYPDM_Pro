@@ -169,7 +169,7 @@
             // 
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Location = new System.Drawing.Point(587, 258);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton";
-            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Size = new System.Drawing.Size(58, 23);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.TabIndex = 93;
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BatchFill_simpleButton.Text = "批量填充";
             // 
@@ -185,7 +185,7 @@
             // 
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Location = new System.Drawing.Point(357, 293);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit";
-            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Size = new System.Drawing.Size(285, 20);
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.Size = new System.Drawing.Size(288, 20);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_textEdit.TabIndex = 95;
             // 
             // SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_groupControl

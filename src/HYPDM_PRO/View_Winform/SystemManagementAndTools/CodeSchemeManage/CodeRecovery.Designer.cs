@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
@@ -43,7 +43,7 @@
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -57,14 +57,14 @@
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Size = new System.Drawing.Size(146, 19);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.TabIndex = 52;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.Location = new System.Drawing.Point(164, 12);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Location = new System.Drawing.Point(164, 12);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.Size = new System.Drawing.Size(140, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.TabIndex = 99;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Size = new System.Drawing.Size(140, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.TabIndex = 99;
             // 
             // labelControl6
             // 
@@ -175,12 +175,12 @@
             this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton);
             this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit);
             this.Controls.Add(this.labelControl6);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit);
             this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit);
             this.Name = "CodeRecovery";
             this.Text = "编码回收";
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
@@ -192,7 +192,7 @@
         #endregion
 
         private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_TextEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton;
