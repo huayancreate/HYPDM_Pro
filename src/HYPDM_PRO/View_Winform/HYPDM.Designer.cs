@@ -50,6 +50,9 @@
             "",
             "系统管理工具"}, -1);
             this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationManage",
+            "组织机构管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
             "View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupManage",
             "用户组管理"}, 0);
             this.tlCategoryList.AppendNode(new object[] {
@@ -65,8 +68,17 @@
             "View_Winform.SystemManagementAndTools.MenuManagement.MenuManagement",
             "菜单管理"}, 0);
             this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationManage",
-            "组织机构管理"}, 0);
+            null,
+            "编码字典填充"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            null,
+            "编码申请管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            null,
+            "编码规则设置"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.CodeSchemeManage.CodeTool",
+            "编码方案管理"}, 0);
             this.tlCategoryList.EndUnboundLoad();
             this.tlCategoryList.OptionsBehavior.PopulateServiceColumns = true;
             this.tlCategoryList.OptionsPrint.UsePrintStyles = true;
