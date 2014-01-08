@@ -65,21 +65,27 @@ namespace View_Winform
                 //lblCategoryName.Text = CategoryName;
                 //MessageBox.Show("1");
             }
-            //else if (e.Button == MouseButtons.Right)//右键
-            //{
-            //    Form form = new Form();
-            //    form.Name = CategoryName;
-            //    form.Show();
-            //    //Do something
-            //    //MessageBox.Show("2");
+            else if (e.Button == MouseButtons.Right)//右键
+            {
+                //tlCategoryList.ContextMenuStrip = null;
 
-            //}
+                //TreeListHitInfo hInfo = tlCategoryList.CalcHitInfo(new Point(e.X, e.Y));
+                //TreeListNode node = hInfo.Node;
+                //tlCategoryList.FocusedNode = node;
+                //if (node != null)
+                //{
+                    
+                //}
+                popupMenu1.ShowPopup(this.PointToScreen(e.Location));
+            }
+
         }
+
 
         private void CreateForm(string strName)
         {
             if (strName == "" || strName == null) return;
-                
+
             Assembly assembly = Assembly.GetExecutingAssembly();
             this.Cursor = Cursors.WaitCursor;
             string name = strName; //类的名字
@@ -90,6 +96,14 @@ namespace View_Winform
             fm.Show();
             //fm.Dock = DockStyle.Fill;
             //this.Cursor = Cursors.Default;
+        }
+
+        private void tlCategoryList_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+               // popupMenu1.HidePopup();
+            }
         }
     }
 }

@@ -37,9 +37,9 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_RoleManage_RoleManage_Remove_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_RoleManage_RoleManage_Edit_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
@@ -57,10 +57,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_ContainedUser_ListBoxControl)).BeginInit();
@@ -140,38 +140,38 @@
             // 
             // groupControl3
             // 
-            this.groupControl3.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl);
+            this.groupControl3.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl);
             this.groupControl3.Location = new System.Drawing.Point(179, 199);
             this.groupControl3.Name = "groupControl3";
             this.groupControl3.Size = new System.Drawing.Size(503, 165);
             this.groupControl3.TabIndex = 104;
             this.groupControl3.Text = "可操作功能";
             // 
-            // SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl
+            // SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl
             // 
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl";
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl.Size = new System.Drawing.Size(499, 141);
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl.TabIndex = 64;
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl.SelectedIndexChanged += new System.EventHandler(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl_SelectedIndexChanged);
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl.Size = new System.Drawing.Size(499, 141);
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl.TabIndex = 64;
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl.SelectedIndexChanged += new System.EventHandler(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl_SelectedIndexChanged);
             // 
             // groupControl4
             // 
-            this.groupControl4.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl);
+            this.groupControl4.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl);
             this.groupControl4.Location = new System.Drawing.Point(179, 369);
             this.groupControl4.Name = "groupControl4";
             this.groupControl4.Size = new System.Drawing.Size(503, 203);
             this.groupControl4.TabIndex = 105;
             this.groupControl4.Text = "可操作菜单";
             // 
-            // SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl
+            // SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl
             // 
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl";
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl.Size = new System.Drawing.Size(499, 179);
-            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl.TabIndex = 64;
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl.Size = new System.Drawing.Size(499, 179);
+            this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl.TabIndex = 64;
             // 
             // groupControl5
             // 
@@ -264,10 +264,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
             this.groupControl5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_ContainedUser_ListBoxControl)).EndInit();
@@ -294,8 +294,8 @@
         private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_RoleManage_RoleManage_RoleList_TreeList;
         private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_ContainedUser_ListBoxControl;
         private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_ContainedUserGroup_ListBoxControl;
-        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_listBoxControl;
-        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_listBoxControl;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_OperableFunction_ListBoxControl;
+        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_RoleManage_RoleManage_OperableMenu_ListBoxControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_RoleManage_RoleManage_Remove_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_RoleManage_RoleManage_Edit_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_RoleManage_RoleManage_Remove1_SimpleButton;

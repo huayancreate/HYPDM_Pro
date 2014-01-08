@@ -34,7 +34,7 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_OperationManagement_FunctionList_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -102,7 +102,7 @@
             // 
             // groupControl2
             // 
-            this.groupControl2.Controls.Add(this.simpleButton1);
+            this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton);
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit);
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit);
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit);
@@ -115,13 +115,13 @@
             this.groupControl2.TabIndex = 100;
             this.groupControl2.Text = "功能详细信息";
             // 
-            // simpleButton1
+            // SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(317, 140);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 101;
-            this.simpleButton1.Text = "保存(S)";
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Location = new System.Drawing.Point(317, 140);
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Name = "SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton";
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.TabIndex = 101;
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Text = "保存(S)";
             // 
             // SystemManagementAndTools_OperationManagement_FunctionID_TextEdit
             // 
@@ -247,7 +247,7 @@
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OperationManagement_FunctionName_TextEdit;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OperationManagement_FunctionID_TextEdit;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton;
         private DevExpress.XtraEditors.GroupControl groupControl3;
         private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_OperationManagement_OperableRole_ListBoxControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OperationManagement_Add_SimpleButton1;

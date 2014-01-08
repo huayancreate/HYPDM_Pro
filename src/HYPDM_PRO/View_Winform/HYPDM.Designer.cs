@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tlCategoryList = new DevExpress.XtraTreeList.TreeList();
             this.name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tlCategoryList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             this.SuspendLayout();
             // 
             // tlCategoryList
@@ -86,6 +98,7 @@
             this.tlCategoryList.TabIndex = 68;
             this.tlCategoryList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             this.tlCategoryList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeList1_MouseDown);
+            this.tlCategoryList.MouseUp += new System.Windows.Forms.MouseEventHandler(this.tlCategoryList_MouseUp);
             // 
             // name
             // 
@@ -121,6 +134,74 @@
             this.splitContainerControl1.TabIndex = 69;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
+            // barManager1
+            // 
+            this.barManager1.DockControls.Add(this.barDockControlTop);
+            this.barManager1.DockControls.Add(this.barDockControlBottom);
+            this.barManager1.DockControls.Add(this.barDockControlLeft);
+            this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.Form = this;
+            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.barSubItem1,
+            this.barSubItem2,
+            this.barSubItem3});
+            this.barManager1.MaxItemId = 3;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(1061, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 530);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1061, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 530);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(1061, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 530);
+            // 
+            // barSubItem1
+            // 
+            this.barSubItem1.Caption = "添加";
+            this.barSubItem1.Id = 0;
+            this.barSubItem1.Name = "barSubItem1";
+            // 
+            // barSubItem2
+            // 
+            this.barSubItem2.Caption = "修改";
+            this.barSubItem2.Id = 1;
+            this.barSubItem2.Name = "barSubItem2";
+            // 
+            // barSubItem3
+            // 
+            this.barSubItem3.Caption = "删除";
+            this.barSubItem3.Id = 2;
+            this.barSubItem3.Name = "barSubItem3";
+            // 
+            // popupMenu1
+            // 
+            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3)});
+            this.popupMenu1.Manager = this.barManager1;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
             // HYPDM
             // 
             this.Appearance.Font = new System.Drawing.Font("Tahoma", 12F);
@@ -129,6 +210,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1061, 530);
             this.Controls.Add(this.splitContainerControl1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "HYPDM";
             this.Text = "HYPDM";
@@ -136,6 +221,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.tlCategoryList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -146,5 +233,14 @@
         private DevExpress.XtraTreeList.Columns.TreeListColumn name;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
         private DevExpress.XtraTreeList.Columns.TreeListColumn id;
+        private DevExpress.XtraBars.BarManager barManager1;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraBars.BarSubItem barSubItem1;
+        private DevExpress.XtraBars.BarSubItem barSubItem2;
+        private DevExpress.XtraBars.BarSubItem barSubItem3;
+        private DevExpress.XtraBars.PopupMenu popupMenu1;
     }
 }

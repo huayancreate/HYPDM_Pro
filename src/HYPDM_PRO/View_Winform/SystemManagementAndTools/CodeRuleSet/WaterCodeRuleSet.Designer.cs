@@ -31,40 +31,40 @@
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit = new DevExpress.XtraEditors.TextEdit();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.Properties)).BeginInit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro)).BeginInit();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro)).BeginInit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl)).BeginInit();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl6
@@ -91,45 +91,45 @@
             this.labelControl2.TabIndex = 88;
             this.labelControl2.Text = "文档编码";
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.Location = new System.Drawing.Point(84, 52);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Location = new System.Drawing.Point(84, 52);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.Size = new System.Drawing.Size(358, 20);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.TabIndex = 99;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Size = new System.Drawing.Size(358, 20);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.TabIndex = 99;
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit);
             this.panelControl1.Controls.Add(this.labelControl3);
             this.panelControl1.Location = new System.Drawing.Point(1, 78);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(534, 300);
             this.panelControl1.TabIndex = 101;
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.Location = new System.Drawing.Point(5, 172);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.Size = new System.Drawing.Size(524, 128);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.TabIndex = 106;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.Text = "忽略字数";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Location = new System.Drawing.Point(5, 172);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Size = new System.Drawing.Size(524, 128);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.TabIndex = 106;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Text = "忽略字数";
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.MainView = this.gridView2;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.Size = new System.Drawing.Size(520, 104);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.TabIndex = 68;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.MainView = this.gridView2;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.Size = new System.Drawing.Size(520, 104);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.TabIndex = 68;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -139,7 +139,7 @@
             this.gridColumn6,
             this.gridColumn7,
             this.gridColumn8});
-            this.gridView2.GridControl = this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl;
+            this.gridView2.GridControl = this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl;
             this.gridView2.Name = "gridView2";
             // 
             // gridColumn5
@@ -170,24 +170,24 @@
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 3;
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.Location = new System.Drawing.Point(5, 36);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.Size = new System.Drawing.Size(524, 130);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.TabIndex = 105;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.Text = "忽略字符";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Location = new System.Drawing.Point(5, 36);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Size = new System.Drawing.Size(524, 130);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.TabIndex = 105;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Text = "忽略字符";
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.MainView = this.gridView1;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.Size = new System.Drawing.Size(520, 106);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.TabIndex = 67;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.Size = new System.Drawing.Size(520, 106);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.TabIndex = 67;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -197,7 +197,7 @@
             this.gridColumn2,
             this.gridColumn3,
             this.gridColumn4});
-            this.gridView1.GridControl = this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl;
+            this.gridView1.GridControl = this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -228,20 +228,20 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit.Location = new System.Drawing.Point(101, 10);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit.Size = new System.Drawing.Size(91, 20);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit.TabIndex = 104;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit.Location = new System.Drawing.Point(101, 10);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit.Size = new System.Drawing.Size(91, 20);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit.TabIndex = 104;
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.Location = new System.Drawing.Point(213, 11);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.Properties.Caption = "末尾跳零";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.Size = new System.Drawing.Size(75, 19);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.TabIndex = 103;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.Location = new System.Drawing.Point(213, 11);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.Properties.Caption = "末尾跳零";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.Size = new System.Drawing.Size(75, 19);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.TabIndex = 103;
             // 
             // labelControl3
             // 
@@ -251,52 +251,52 @@
             this.labelControl3.TabIndex = 102;
             this.labelControl3.Text = "流水码起始号：";
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton.Location = new System.Drawing.Point(380, 382);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleBu" +
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Location = new System.Drawing.Point(380, 382);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleBu" +
                 "tton";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton.TabIndex = 103;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton.Text = "确定(O)";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.TabIndex = 103;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Text = "确定(O)";
             // 
-            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton
+            // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton.Location = new System.Drawing.Point(441, 382);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleBut" +
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Location = new System.Drawing.Point(441, 382);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleBut" +
                 "ton";
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton.TabIndex = 102;
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton.Text = "取消(C)";
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.TabIndex = 102;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Text = "取消(C)";
             // 
             // WaterCodeRuleSet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(536, 422);
-            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton);
-            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton);
             this.Controls.Add(this.panelControl1);
-            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit);
+            this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.labelControl6);
             this.Name = "WaterCodeRuleSet";
             this.Text = "流水码规则设置";
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro)).EndInit();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro)).EndInit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl)).EndInit();
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl)).EndInit();
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,26 +307,26 @@
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_comboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_checkEdit;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_textEdit;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_groupControl;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_groupContro;
-        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_gridControl;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_EndZero_CheckEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_gridControl;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton;
     }
 }

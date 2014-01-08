@@ -28,135 +28,156 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl = new DevExpress.XtraTab.XtraTabControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
             this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit = new DevExpress.XtraEditors.MemoEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit = new DevExpress.XtraEditors.TextEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit = new DevExpress.XtraEditors.TextEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl)).BeginInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.SuspendLayout();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl = new DevExpress.XtraGrid.GridControl();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl)).BeginInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl)).BeginInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl)).BeginInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             this.xtraTabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl)).BeginInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.Properties)).BeginInit();
             this.xtraTabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.Properties)).BeginInit();
+            this.xtraTabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
+            this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.Location = new System.Drawing.Point(1, 1);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabContro" +
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.Location = new System.Drawing.Point(1, 1);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabContro" +
                 "l";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.SelectedTabPage = this.xtraTabPage1;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.Size = new System.Drawing.Size(788, 573);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.TabIndex = 111;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.SelectedTabPage = this.xtraTabPage1;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.Size = new System.Drawing.Size(792, 573);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.TabIndex = 111;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
             this.xtraTabPage2,
             this.xtraTabPage3,
-            this.xtraTabPage4,
-            this.xtraTabPage5});
+            this.xtraTabPage4});
             // 
             // xtraTabPage1
             // 
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit);
             this.xtraTabPage1.Controls.Add(this.labelControl1);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl);
-            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl);
+            this.xtraTabPage1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl);
             this.xtraTabPage1.Controls.Add(this.textEdit6);
             this.xtraTabPage1.Controls.Add(this.labelControl6);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(782, 544);
+            this.xtraTabPage1.Size = new System.Drawing.Size(786, 544);
             this.xtraTabPage1.Text = "编码方案管理(M)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit.Location = new System.Drawing.Point(289, 13);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit.Size = new System.Drawing.Size(489, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit.TabIndex = 121;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit.Location = new System.Drawing.Point(289, 13);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit.Size = new System.Drawing.Size(489, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit.TabIndex = 121;
             // 
             // labelControl1
             // 
@@ -166,23 +187,23 @@
             this.labelControl1.TabIndex = 120;
             this.labelControl1.Text = "方案名称:";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.Location = new System.Drawing.Point(3, 3);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.BeginUnboundLoad();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.Location = new System.Drawing.Point(3, 3);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.BeginUnboundLoad();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.AppendNode(new object[] {
             "文档编码"}, -1);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.AppendNode(new object[] {
             "物料编码"}, -1);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.AppendNode(new object[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.AppendNode(new object[] {
             null}, -1);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.EndUnboundLoad();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.OptionsPrint.UsePrintStyles = true;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.Size = new System.Drawing.Size(222, 538);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList.TabIndex = 119;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.EndUnboundLoad();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.Size = new System.Drawing.Size(222, 538);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList.TabIndex = 119;
             // 
             // treeListColumn1
             // 
@@ -193,57 +214,57 @@
             this.treeListColumn1.Visible = true;
             this.treeListColumn1.VisibleIndex = 0;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton.Location = new System.Drawing.Point(664, 497);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton.Size = new System.Drawing.Size(77, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton.TabIndex = 118;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton.Text = "编码回收(R)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton.Location = new System.Drawing.Point(664, 497);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton.Size = new System.Drawing.Size(77, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton.TabIndex = 118;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton.Text = "编码回收(R)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton.Location = new System.Drawing.Point(603, 497);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton.TabIndex = 117;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton.Text = "删除(D)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton.Location = new System.Drawing.Point(603, 497);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton.TabIndex = 117;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton.Text = "删除(D)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton.Location = new System.Drawing.Point(542, 497);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton.TabIndex = 116;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton.Text = "修改(E)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton.Location = new System.Drawing.Point(542, 497);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton.TabIndex = 116;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton.Text = "修改(E)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton.Location = new System.Drawing.Point(481, 497);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton.TabIndex = 115;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton.Text = "添加(A)";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton.Click += new System.EventHandler(this.simpleButton6_Click);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton.Location = new System.Drawing.Point(481, 497);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton.TabIndex = 115;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton.Text = "添加(A)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton.Click += new System.EventHandler(this.simpleButton6_Click);
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.Location = new System.Drawing.Point(229, 154);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.Size = new System.Drawing.Size(558, 324);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.TabIndex = 114;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.Text = "已生成编码值";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.Location = new System.Drawing.Point(229, 154);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.Size = new System.Drawing.Size(558, 324);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.TabIndex = 114;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.Text = "已生成编码值";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.MainView = this.gridView1;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.Size = new System.Drawing.Size(554, 300);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.TabIndex = 67;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.Size = new System.Drawing.Size(554, 300);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.TabIndex = 67;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -252,7 +273,7 @@
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3});
-            this.gridView1.GridControl = this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl;
+            this.gridView1.GridControl = this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -276,22 +297,22 @@
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.Location = new System.Drawing.Point(229, 39);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.Size = new System.Drawing.Size(553, 111);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.TabIndex = 113;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.Text = "文档描述";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.Location = new System.Drawing.Point(229, 39);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.Size = new System.Drawing.Size(553, 111);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.TabIndex = 113;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.Text = "文档描述";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.Size = new System.Drawing.Size(549, 87);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.TabIndex = 80;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.Size = new System.Drawing.Size(549, 87);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.TabIndex = 80;
             // 
             // textEdit6
             // 
@@ -310,103 +331,103 @@
             // 
             // xtraTabPage2
             // 
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit);
             this.xtraTabPage2.Controls.Add(this.labelControl5);
             this.xtraTabPage2.Controls.Add(this.labelControl4);
             this.xtraTabPage2.Controls.Add(this.labelControl3);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit);
             this.xtraTabPage2.Controls.Add(this.labelControl2);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(782, 544);
+            this.xtraTabPage2.Size = new System.Drawing.Size(786, 544);
             this.xtraTabPage2.Text = "编码规则设置(S)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton.Location = new System.Drawing.Point(646, 511);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton.TabIndex = 122;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton.Text = "保存(S)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton.Location = new System.Drawing.Point(646, 511);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton.TabIndex = 122;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton.Text = "保存(S)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton.Location = new System.Drawing.Point(524, 511);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton.TabIndex = 121;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton.Text = "插入(I)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton.Location = new System.Drawing.Point(524, 511);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton.TabIndex = 121;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton.Text = "插入(I)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton.Location = new System.Drawing.Point(585, 511);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton.TabIndex = 120;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton.Text = "删除(D)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton.Location = new System.Drawing.Point(585, 511);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton.TabIndex = 120;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton.Text = "删除(D)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton.Location = new System.Drawing.Point(463, 511);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton.TabIndex = 119;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton.Text = "修改(E)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton.Location = new System.Drawing.Point(463, 511);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton.TabIndex = 119;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton.Text = "修改(E)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton.Location = new System.Drawing.Point(402, 511);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton.TabIndex = 118;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton.Text = "添加(A)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton.Location = new System.Drawing.Point(402, 511);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton.TabIndex = 118;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton.Text = "添加(A)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.Location = new System.Drawing.Point(0, 381);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.Size = new System.Drawing.Size(778, 114);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.TabIndex = 108;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.Text = "规则备注";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.Location = new System.Drawing.Point(0, 381);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.Size = new System.Drawing.Size(778, 114);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.TabIndex = 108;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.Text = "规则备注";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.Size = new System.Drawing.Size(774, 90);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.TabIndex = 80;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.Size = new System.Drawing.Size(774, 90);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.TabIndex = 80;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit.Location = new System.Drawing.Point(81, 355);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit.Size = new System.Drawing.Size(697, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit.TabIndex = 107;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit.Location = new System.Drawing.Point(81, 355);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit.Size = new System.Drawing.Size(697, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit.TabIndex = 107;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit.Location = new System.Drawing.Point(81, 328);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit.Size = new System.Drawing.Size(697, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit.TabIndex = 106;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit.Location = new System.Drawing.Point(81, 328);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit.Size = new System.Drawing.Size(697, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit.TabIndex = 106;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit.Location = new System.Drawing.Point(81, 302);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit.Size = new System.Drawing.Size(697, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit.TabIndex = 105;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit.Location = new System.Drawing.Point(81, 302);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit.Size = new System.Drawing.Size(697, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit.TabIndex = 105;
             // 
             // labelControl5
             // 
@@ -432,14 +453,14 @@
             this.labelControl3.TabIndex = 102;
             this.labelControl3.Text = "规则名称:";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl.Location = new System.Drawing.Point(-1, 56);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl.MainView = this.gridView2;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl.Size = new System.Drawing.Size(779, 228);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl.TabIndex = 101;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl.Location = new System.Drawing.Point(-1, 56);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl.MainView = this.gridView2;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl.Size = new System.Drawing.Size(779, 228);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl.TabIndex = 101;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -449,7 +470,7 @@
             this.gridColumn5,
             this.gridColumn6,
             this.gridColumn7});
-            this.gridView2.GridControl = this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl;
+            this.gridView2.GridControl = this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl;
             this.gridView2.Name = "gridView2";
             // 
             // gridColumn4
@@ -480,22 +501,22 @@
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 3;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton.Location = new System.Drawing.Point(687, 14);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton.TabIndex = 100;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton.Text = "刷新(R)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton.Location = new System.Drawing.Point(687, 14);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton.TabIndex = 100;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton.Text = "刷新(R)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.Location = new System.Drawing.Point(105, 17);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.Location = new System.Drawing.Point(105, 17);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.Size = new System.Drawing.Size(576, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.TabIndex = 99;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.Size = new System.Drawing.Size(576, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.TabIndex = 99;
             // 
             // labelControl2
             // 
@@ -509,80 +530,80 @@
             // 
             this.xtraTabPage3.Controls.Add(this.panelControl1);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(782, 544);
+            this.xtraTabPage3.Size = new System.Drawing.Size(786, 544);
             this.xtraTabPage3.Text = "编码字典填充(F)";
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.labelControl10);
             this.panelControl1.Controls.Add(this.labelControl9);
             this.panelControl1.Controls.Add(this.labelControl8);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton);
-            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.labelControl7);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(782, 544);
+            this.panelControl1.Size = new System.Drawing.Size(786, 544);
             this.panelControl1.TabIndex = 101;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton.Location = new System.Drawing.Point(593, 161);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleB" +
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton.Location = new System.Drawing.Point(593, 161);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleB" +
                 "utton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton.Size = new System.Drawing.Size(77, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton.TabIndex = 109;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton.Text = "设置占位码";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton.Size = new System.Drawing.Size(77, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton.TabIndex = 109;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton.Text = "设置占位码";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton.Location = new System.Drawing.Point(593, 116);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton.Size = new System.Drawing.Size(77, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton.TabIndex = 108;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton.Text = "填充分组码";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton.Location = new System.Drawing.Point(593, 116);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton.Size = new System.Drawing.Size(77, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton.TabIndex = 108;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton.Text = "填充分组码";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton.Location = new System.Drawing.Point(593, 74);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton.Size = new System.Drawing.Size(77, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton.TabIndex = 107;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton.Text = "填充常规码";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton.Location = new System.Drawing.Point(593, 74);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton.Size = new System.Drawing.Size(77, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton.TabIndex = 107;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton.Text = "填充常规码";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.Location = new System.Drawing.Point(168, 164);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.Location = new System.Drawing.Point(168, 164);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.Size = new System.Drawing.Size(408, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.TabIndex = 106;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.Size = new System.Drawing.Size(408, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.TabIndex = 106;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.Location = new System.Drawing.Point(168, 119);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.Location = new System.Drawing.Point(168, 119);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.Size = new System.Drawing.Size(408, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.TabIndex = 105;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.Size = new System.Drawing.Size(408, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.TabIndex = 105;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.Location = new System.Drawing.Point(168, 77);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.Location = new System.Drawing.Point(168, 77);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.Size = new System.Drawing.Size(408, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.TabIndex = 104;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.Size = new System.Drawing.Size(408, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.TabIndex = 104;
             // 
             // labelControl10
             // 
@@ -608,24 +629,24 @@
             this.labelControl8.TabIndex = 101;
             this.labelControl8.Text = "任务重要性【2位】:";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton.Location = new System.Drawing.Point(664, 13);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButto" +
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton.Location = new System.Drawing.Point(664, 13);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButto" +
                 "n";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton.TabIndex = 100;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton.Text = "刷新(R)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton.TabIndex = 100;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton.Text = "刷新(R)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.Location = new System.Drawing.Point(134, 16);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit" +
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.Location = new System.Drawing.Point(134, 16);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit" +
                 "";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.Size = new System.Drawing.Size(514, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.TabIndex = 99;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.Size = new System.Drawing.Size(514, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.TabIndex = 99;
             // 
             // labelControl7
             // 
@@ -637,92 +658,225 @@
             // 
             // xtraTabPage4
             // 
+            this.xtraTabPage4.Controls.Add(this.panelControl2);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(782, 544);
+            this.xtraTabPage4.Size = new System.Drawing.Size(786, 544);
             this.xtraTabPage4.Text = "编码回收(R)";
             // 
-            // xtraTabPage5
+            // panelControl2
             // 
-            this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(782, 544);
-            this.xtraTabPage5.Text = "退出(X)";
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton);
+            this.panelControl2.Controls.Add(this.labelControl12);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit);
+            this.panelControl2.Controls.Add(this.labelControl11);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit);
+            this.panelControl2.Location = new System.Drawing.Point(0, -1);
+            this.panelControl2.Name = "panelControl2";
+            this.panelControl2.Size = new System.Drawing.Size(786, 545);
+            this.panelControl2.TabIndex = 7;
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Location = new System.Drawing.Point(10, 8);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties.Caption = "过滤已用编码编码方案:";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Size = new System.Drawing.Size(146, 19);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.TabIndex = 53;
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Location = new System.Drawing.Point(162, 8);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Size = new System.Drawing.Size(225, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.TabIndex = 100;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Location = new System.Drawing.Point(410, 10);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(40, 14);
+            this.labelControl11.TabIndex = 101;
+            this.labelControl11.Text = "编码值:";
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Location = new System.Drawing.Point(456, 8);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Size = new System.Drawing.Size(261, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.TabIndex = 102;
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Location = new System.Drawing.Point(727, 6);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.TabIndex = 103;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Text = "查询(F)";
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.Location = new System.Drawing.Point(3, 30);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.MainView = this.gridView3;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.Size = new System.Drawing.Size(780, 487);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.TabIndex = 104;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
+            // 
+            // gridView3
+            // 
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn8,
+            this.gridColumn9,
+            this.gridColumn10});
+            this.gridView3.GridControl = this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl;
+            this.gridView3.Name = "gridView3";
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.Caption = "所属方案";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 0;
+            // 
+            // gridColumn9
+            // 
+            this.gridColumn9.Caption = "编码值";
+            this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.Visible = true;
+            this.gridColumn9.VisibleIndex = 1;
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "说明";
+            this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.Visible = true;
+            this.gridColumn10.VisibleIndex = 2;
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Location = new System.Drawing.Point(5, 523);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(98, 14);
+            this.labelControl12.TabIndex = 105;
+            this.labelControl12.Text = "共查询出75个编码";
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Location = new System.Drawing.Point(728, 519);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.TabIndex = 108;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Text = "关闭(C)";
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Location = new System.Drawing.Point(662, 519);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.TabIndex = 109;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Text = "回收(R)";
+            // 
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton
+            // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Location = new System.Drawing.Point(574, 519);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButto" +
+                "n";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Size = new System.Drawing.Size(74, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.TabIndex = 110;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Text = "回收所有(A)";
             // 
             // CodeTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 571);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl);
             this.Name = "CodeTool";
             this.Text = "编码器";
             this.Load += new System.EventHandler(this.CodeTool_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl)).EndInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl)).EndInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl.ResumeLayout(false);
             this.xtraTabPage1.ResumeLayout(false);
             this.xtraTabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl)).EndInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl)).EndInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl)).EndInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl)).EndInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             this.xtraTabPage2.ResumeLayout(false);
             this.xtraTabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl)).EndInit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl)).EndInit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit.Properties)).EndInit();
             this.xtraTabPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit.Properties)).EndInit();
+            this.xtraTabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
+            this.panelControl2.ResumeLayout(false);
+            this.panelControl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraTab.XtraTabControl SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_xtraTabControl;
+        private DevExpress.XtraTab.XtraTabControl SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeSchemeManage_XtraTabControl;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
-        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_treeList;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_simpleButton;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_groupControl;
-        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_gridControl;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeScheme_TreeList;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRecycle_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifiCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCode_SimpleButton;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GroupControl;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeSchemeManage_CodeTool_ProducedCode_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_groupControl;
-        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_memoEdit;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_GroupControl;
+        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_DocDescribe_MemoEdit;
         private DevExpress.XtraEditors.TextEdit textEdit6;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_textEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_SchemeName_TextEdit;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage3;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage4;
-        private DevExpress.XtraTab.XtraTabPage xtraTabPage5;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_comboBoxEdit;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_simpleButton;
-        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_gridControl;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCode_ComboBoxEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCode_SimpleButton;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeSchemeManage_CodeTool_CodeRuleList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
@@ -731,29 +885,44 @@
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_textEdit;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_textEdit;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_textEdit;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_groupControl;
-        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_memoEdit;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_simpleButton;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleType_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleLocation_TextEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleName_TextEdit;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_GroupControl;
+        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_RuleRemark_MemoEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_InsertCodeTool_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_DeleteCodeTool_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_ModifyCodeTool_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_AddCodeTool_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_SaveCodeTool_SimpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_comboBoxEdit;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_simpleButton;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_SelectCodeInstall_ComboBoxEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_RefreshCodeInstall_SimpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.LabelControl labelControl9;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_comboBoxEdit;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_comboBoxEdit;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_comboBoxEdit;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_simpleButton;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_Placeholder_ComboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_ComboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_ComboBoxEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_FillCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_FillGroupCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeTool_InstallPlaceholderCode_SimpleButton;
+        private DevExpress.XtraEditors.PanelControl panelControl2;
+        private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit;
+        private DevExpress.XtraEditors.LabelControl labelControl11;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
+        private DevExpress.XtraEditors.LabelControl labelControl12;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton;
 
     }
 }

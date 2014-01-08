@@ -45,14 +45,12 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -69,6 +67,8 @@
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -81,7 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).BeginInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             this.SuspendLayout();
@@ -92,7 +92,7 @@
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton);
-            this.panelControl1.Controls.Add(this.simpleButton5);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl);
@@ -248,13 +248,14 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.TabIndex = 4;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Text = "查询(Q)";
             // 
-            // simpleButton5
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(562, 454);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton5.TabIndex = 5;
-            this.simpleButton5.Text = "取消(C)";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Location = new System.Drawing.Point(562, 454);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton" +
+                "";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.TabIndex = 5;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Text = "取消(C)";
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton
             // 
@@ -275,7 +276,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.gridControl1);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 101);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupCo" +
                 "ntrol";
@@ -283,16 +284,17 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Text = "用户列表信息";
             // 
-            // gridControl1
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 21);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Location = new System.Drawing.Point(0, 21);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridCon" +
+                "trol";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.gridControl1.Size = new System.Drawing.Size(632, 318);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Size = new System.Drawing.Size(632, 318);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.TabIndex = 0;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -315,24 +317,9 @@
             this.gridColumn15,
             this.gridColumn16,
             this.gridColumn17});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ColumnAutoWidth = false;
-            // 
-            // gridColumn17
-            // 
-            this.gridColumn17.Caption = "选择";
-            this.gridColumn17.ColumnEdit = this.repositoryItemCheckEdit1;
-            this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.OptionsColumn.AllowSize = false;
-            this.gridColumn17.Visible = true;
-            this.gridColumn17.VisibleIndex = 0;
-            this.gridColumn17.Width = 40;
-            // 
-            // repositoryItemCheckEdit1
-            // 
-            this.repositoryItemCheckEdit1.AutoHeight = false;
-            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
             // 
             // gridColumn1
             // 
@@ -462,6 +449,21 @@
             this.gridColumn16.VisibleIndex = 16;
             this.gridColumn16.Width = 90;
             // 
+            // gridColumn17
+            // 
+            this.gridColumn17.Caption = "选择";
+            this.gridColumn17.ColumnEdit = this.repositoryItemCheckEdit1;
+            this.gridColumn17.Name = "gridColumn17";
+            this.gridColumn17.OptionsColumn.AllowSize = false;
+            this.gridColumn17.Visible = true;
+            this.gridColumn17.VisibleIndex = 0;
+            this.gridColumn17.Width = 40;
+            // 
+            // repositoryItemCheckEdit1
+            // 
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+            // 
             // UserList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -483,7 +485,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).EndInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             this.ResumeLayout(false);
@@ -496,10 +498,10 @@
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
