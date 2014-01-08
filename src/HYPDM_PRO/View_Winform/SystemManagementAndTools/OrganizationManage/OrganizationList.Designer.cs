@@ -31,41 +31,41 @@
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.treeList2 = new DevExpress.XtraTreeList.TreeList();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList = new DevExpress.XtraTreeList.TreeList();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeList2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.panelControl2);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Controls.Add(this.simpleButton4);
-            this.panelControl1.Controls.Add(this.simpleButton5);
-            this.panelControl1.Controls.Add(this.groupControl1);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl);
+            this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl);
             this.panelControl1.Location = new System.Drawing.Point(-2, 1);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(653, 505);
@@ -74,11 +74,11 @@
             // panelControl2
             // 
             this.panelControl2.Controls.Add(this.labelControl4);
-            this.panelControl2.Controls.Add(this.textEdit3);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit);
             this.panelControl2.Controls.Add(this.labelControl3);
-            this.panelControl2.Controls.Add(this.textEdit2);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit);
             this.panelControl2.Controls.Add(this.labelControl2);
-            this.panelControl2.Controls.Add(this.textEdit1);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit);
             this.panelControl2.Location = new System.Drawing.Point(6, 5);
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(642, 67);
@@ -92,12 +92,13 @@
             this.labelControl4.TabIndex = 16;
             this.labelControl4.Text = "机构编码：";
             // 
-            // textEdit3
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit
             // 
-            this.textEdit3.Location = new System.Drawing.Point(300, 8);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(154, 20);
-            this.textEdit3.TabIndex = 17;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit.Location = new System.Drawing.Point(300, 8);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_" +
+                "TextEdit";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit.Size = new System.Drawing.Size(154, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit.TabIndex = 17;
             // 
             // labelControl3
             // 
@@ -107,12 +108,13 @@
             this.labelControl3.TabIndex = 14;
             this.labelControl3.Text = "机构分类：";
             // 
-            // textEdit2
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit
             // 
-            this.textEdit2.Location = new System.Drawing.Point(74, 37);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(154, 20);
-            this.textEdit2.TabIndex = 15;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit.Location = new System.Drawing.Point(74, 37);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_" +
+                "TextEdit";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit.Size = new System.Drawing.Size(154, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit.TabIndex = 15;
             // 
             // labelControl2
             // 
@@ -122,63 +124,70 @@
             this.labelControl2.TabIndex = 0;
             this.labelControl2.Text = "机构名称：";
             // 
-            // textEdit1
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(74, 8);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(154, 20);
-            this.textEdit1.TabIndex = 13;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Location = new System.Drawing.Point(74, 8);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_" +
+                "TextEdit";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Size = new System.Drawing.Size(154, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.TabIndex = 13;
             // 
-            // simpleButton2
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(586, 475);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "取消(C)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Location = new System.Drawing.Point(586, 475);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganizatio" +
+                "n_SimpleButtonl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.TabIndex = 2;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Text = "取消(C)";
             // 
-            // simpleButton3
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(589, 78);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "删除(D)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Location = new System.Drawing.Point(589, 78);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganizatio" +
+                "n_SimpleButtonl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.TabIndex = 3;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Text = "删除(D)";
             // 
-            // simpleButton1
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(514, 475);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "确定(O)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Location = new System.Drawing.Point(514, 475);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganizati" +
+                "on_SimpleButtonl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.TabIndex = 1;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Text = "确定(O)";
             // 
-            // simpleButton4
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(459, 78);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "查询(Q)";
-            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Location = new System.Drawing.Point(459, 78);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization" +
+                "_SimpleButtonl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.TabIndex = 4;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Text = "查询(Q)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
-            // simpleButton5
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(524, 78);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton5.TabIndex = 5;
-            this.simpleButton5.Text = "添加(A)";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Location = new System.Drawing.Point(524, 78);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_S" +
+                "impleButtonl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.TabIndex = 5;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Text = "添加(A)";
             // 
-            // groupControl1
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.treeList2);
-            this.groupControl1.Controls.Add(this.treeList1);
-            this.groupControl1.Location = new System.Drawing.Point(0, 107);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(653, 362);
-            this.groupControl1.TabIndex = 8;
-            this.groupControl1.Text = "组织结构列表信息";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.treeList2);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Location = new System.Drawing.Point(0, 107);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListM" +
+                "essage_GroupControl";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Size = new System.Drawing.Size(653, 362);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.TabIndex = 8;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Text = "组织结构列表信息";
             // 
             // treeList2
             // 
@@ -188,14 +197,15 @@
             this.treeList2.Size = new System.Drawing.Size(8, 8);
             this.treeList2.TabIndex = 1;
             // 
-            // treeList1
+            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList
             // 
-            this.treeList1.Location = new System.Drawing.Point(0, 25);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(653, 337);
-            this.treeList1.TabIndex = 0;
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Location = new System.Drawing.Point(0, 25);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListM" +
+                "essage_TreeList";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Size = new System.Drawing.Size(653, 337);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.TabIndex = 0;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 
             // OrganizationList
             // 
@@ -210,13 +220,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl)).EndInit();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.treeList2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -224,20 +234,20 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList;
         private DevExpress.XtraTreeList.TreeList treeList2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit;
     }
 }

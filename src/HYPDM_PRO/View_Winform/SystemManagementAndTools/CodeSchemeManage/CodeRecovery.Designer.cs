@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit = new DevExpress.XtraEditors.TextEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -57,14 +57,14 @@
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Size = new System.Drawing.Size(146, 19);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.TabIndex = 52;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Location = new System.Drawing.Point(164, 12);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Location = new System.Drawing.Point(164, 12);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Size = new System.Drawing.Size(140, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.TabIndex = 99;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Size = new System.Drawing.Size(140, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.TabIndex = 99;
             // 
             // labelControl6
             // 
@@ -81,13 +81,13 @@
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Size = new System.Drawing.Size(145, 20);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.TabIndex = 101;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton.Location = new System.Drawing.Point(507, 9);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton.TabIndex = 102;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton.Text = "查询(F)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Location = new System.Drawing.Point(507, 9);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.TabIndex = 102;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton.Text = "查询(F)";
             // 
             // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl
             // 
@@ -137,50 +137,50 @@
             this.labelControl1.TabIndex = 104;
             this.labelControl1.Text = "共查询出75个编码";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton.Location = new System.Drawing.Point(351, 262);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButto" +
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Location = new System.Drawing.Point(351, 262);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButto" +
                 "n";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton.Size = new System.Drawing.Size(74, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton.TabIndex = 105;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton.Text = "回收所有(A)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Size = new System.Drawing.Size(74, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.TabIndex = 105;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Text = "回收所有(A)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton.Location = new System.Drawing.Point(431, 262);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton.TabIndex = 106;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton.Text = "回收(R)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Location = new System.Drawing.Point(431, 262);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.TabIndex = 106;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Text = "回收(R)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton.Location = new System.Drawing.Point(492, 262);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton";
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton.TabIndex = 107;
-            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton.Text = "关闭(C)";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Location = new System.Drawing.Point(492, 262);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton";
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.TabIndex = 107;
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Text = "关闭(C)";
             // 
             // CodeRecovery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(580, 297);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton);
             this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit);
             this.Controls.Add(this.labelControl6);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit);
             this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit);
             this.Name = "CodeRecovery";
             this.Text = "编码回收";
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
@@ -192,18 +192,18 @@
         #endregion
 
         private DevExpress.XtraEditors.CheckEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_CheckEdit;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_comboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_UsedCode_ComboBoxEdit;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeValue_TextEdit;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_QueryCode_SimpleButton;
         private DevExpress.XtraGrid.GridControl SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_simpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton;
     }
 }

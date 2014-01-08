@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit = new DevExpress.XtraEditors.TextEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit = new DevExpress.XtraEditors.MemoEdit();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl)).BeginInit();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.Properties)).BeginInit();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl)).BeginInit();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -51,12 +51,12 @@
             this.labelControl1.TabIndex = 102;
             this.labelControl1.Text = "方案名称:";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit
+            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit.Location = new System.Drawing.Point(70, 9);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit.Size = new System.Drawing.Size(297, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit.TabIndex = 103;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Location = new System.Drawing.Point(70, 9);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Size = new System.Drawing.Size(297, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.TabIndex = 103;
             // 
             // labelControl2
             // 
@@ -66,70 +66,70 @@
             this.labelControl2.TabIndex = 104;
             this.labelControl2.Text = "编码分类:";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit
+            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.Location = new System.Drawing.Point(70, 38);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Location = new System.Drawing.Point(70, 38);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.Size = new System.Drawing.Size(297, 20);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.TabIndex = 105;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Size = new System.Drawing.Size(297, 20);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.TabIndex = 105;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl
+            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.Location = new System.Drawing.Point(0, 64);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupContro" +
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Location = new System.Drawing.Point(0, 64);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupContro" +
                 "l";
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.Size = new System.Drawing.Size(367, 134);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.TabIndex = 106;
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.Text = "方案描述";
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Size = new System.Drawing.Size(367, 134);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.TabIndex = 106;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Text = "方案描述";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit
+            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit";
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.Size = new System.Drawing.Size(363, 110);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.TabIndex = 80;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit";
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.Size = new System.Drawing.Size(363, 110);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.TabIndex = 80;
             // 
-            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton.Location = new System.Drawing.Point(229, 204);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleBut" +
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Location = new System.Drawing.Point(229, 204);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleBut" +
                 "ton";
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton.TabIndex = 108;
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton.Text = "确定(O)";
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.TabIndex = 108;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Text = "确定(O)";
             // 
-            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton
+            // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton
             // 
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton.Location = new System.Drawing.Point(290, 204);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButt" +
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Location = new System.Drawing.Point(290, 204);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButt" +
                 "on";
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton.Size = new System.Drawing.Size(55, 23);
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton.TabIndex = 107;
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton.Text = "取消(C)";
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.TabIndex = 107;
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Text = "取消(C)";
             // 
             // ModifyScheme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 237);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit);
             this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit);
+            this.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit);
             this.Controls.Add(this.labelControl1);
             this.Name = "ModifyScheme";
             this.Text = "新方案";
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl)).EndInit();
-            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl)).EndInit();
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,12 +138,12 @@
         #endregion
 
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_textEdit;
+        private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_textEdit;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_groupControl;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_simpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_simpleButton;
-        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_memoEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit;
+        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton;
+        private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit;
     }
 }
