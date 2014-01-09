@@ -111,7 +111,7 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Location = new System.Drawing.Point(400, 26);
+            this.panelControl1.Location = new System.Drawing.Point(449, 12);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(200, 100);
             this.panelControl1.TabIndex = 6;

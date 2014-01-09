@@ -221,6 +221,12 @@
     <Compile Include="DocManage\DocGrantManage\QueryDoc.Designer.cs">
       <DependentUpon>QueryDoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\DocManageTool\CheckChangeHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\CheckChangeHistory.Designer.cs">
+      <DependentUpon>CheckChangeHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1288,6 +1294,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocGrantManage\QueryDoc.resx">
       <DependentUpon>QueryDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocManageTool\CheckChangeHistory.resx">
+      <DependentUpon>CheckChangeHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.resx">
       <DependentUpon>ApplyHistoryMaintain.cs</DependentUpon>

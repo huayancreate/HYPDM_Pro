@@ -31,11 +31,6 @@ namespace View_Winform.Doc_management
 
         }
 
-        private void panelControl1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void xtraTabPage1_Paint(object sender, PaintEventArgs e)
         {
 
