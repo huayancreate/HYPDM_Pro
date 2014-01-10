@@ -28,11 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.components = new System.ComponentModel.Container();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
@@ -106,8 +102,18 @@
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage7 = new DevExpress.XtraTab.XtraTabPage();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.bar1 = new DevExpress.XtraBars.Bar();
+            this.bar2 = new DevExpress.XtraBars.Bar();
+            this.bar3 = new DevExpress.XtraBars.Bar();
+            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
@@ -143,62 +149,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(5, 5);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(24, 14);
-            this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "文件";
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(75, 5);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(24, 14);
-            this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "查找";
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Location = new System.Drawing.Point(153, 5);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(24, 14);
-            this.labelControl3.TabIndex = 2;
-            this.labelControl3.Text = "选择";
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Location = new System.Drawing.Point(237, 5);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(24, 14);
-            this.labelControl4.TabIndex = 3;
-            this.labelControl4.Text = "工具";
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.Controls.Add(this.labelControl1);
-            this.panelControl1.Controls.Add(this.labelControl4);
-            this.panelControl1.Controls.Add(this.labelControl2);
-            this.panelControl1.Controls.Add(this.labelControl3);
-            this.panelControl1.Location = new System.Drawing.Point(1, -5);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(859, 27);
-            this.panelControl1.TabIndex = 4;
             // 
             // simpleButton1
             // 
             this.simpleButton1.Location = new System.Drawing.Point(84, 50);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(73, 22);
+            this.simpleButton1.Size = new System.Drawing.Size(80, 22);
             this.simpleButton1.TabIndex = 5;
             this.simpleButton1.Text = "打开BOM(O)";
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(163, 50);
+            this.simpleButton2.Location = new System.Drawing.Point(170, 50);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(69, 22);
             this.simpleButton2.TabIndex = 6;
@@ -206,7 +170,7 @@
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(238, 50);
+            this.simpleButton3.Location = new System.Drawing.Point(245, 50);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(98, 22);
             this.simpleButton3.TabIndex = 7;
@@ -222,7 +186,7 @@
             // 
             // simpleButton5
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(803, 50);
+            this.simpleButton5.Location = new System.Drawing.Point(810, 50);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(57, 22);
             this.simpleButton5.TabIndex = 9;
@@ -230,7 +194,7 @@
             // 
             // simpleButton6
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(714, 50);
+            this.simpleButton6.Location = new System.Drawing.Point(721, 50);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.Size = new System.Drawing.Size(83, 22);
             this.simpleButton6.TabIndex = 10;
@@ -238,7 +202,7 @@
             // 
             // simpleButton7
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(615, 50);
+            this.simpleButton7.Location = new System.Drawing.Point(622, 50);
             this.simpleButton7.Name = "simpleButton7";
             this.simpleButton7.Size = new System.Drawing.Size(93, 22);
             this.simpleButton7.TabIndex = 11;
@@ -247,7 +211,7 @@
             // 
             // simpleButton8
             // 
-            this.simpleButton8.Location = new System.Drawing.Point(342, 50);
+            this.simpleButton8.Location = new System.Drawing.Point(349, 50);
             this.simpleButton8.Name = "simpleButton8";
             this.simpleButton8.Size = new System.Drawing.Size(98, 22);
             this.simpleButton8.TabIndex = 12;
@@ -255,7 +219,7 @@
             // 
             // simpleButton9
             // 
-            this.simpleButton9.Location = new System.Drawing.Point(525, 50);
+            this.simpleButton9.Location = new System.Drawing.Point(532, 50);
             this.simpleButton9.Name = "simpleButton9";
             this.simpleButton9.Size = new System.Drawing.Size(84, 22);
             this.simpleButton9.TabIndex = 13;
@@ -263,7 +227,7 @@
             // 
             // simpleButton10
             // 
-            this.simpleButton10.Location = new System.Drawing.Point(446, 50);
+            this.simpleButton10.Location = new System.Drawing.Point(453, 50);
             this.simpleButton10.Name = "simpleButton10";
             this.simpleButton10.Size = new System.Drawing.Size(73, 22);
             this.simpleButton10.TabIndex = 14;
@@ -762,25 +726,25 @@
             // xtraTabPage11
             // 
             this.xtraTabPage11.Name = "xtraTabPage11";
-            this.xtraTabPage11.Size = new System.Drawing.Size(548, 294);
+            this.xtraTabPage11.Size = new System.Drawing.Size(555, 294);
             this.xtraTabPage11.Text = "BOM节点附加信息";
             // 
             // xtraTabPage5
             // 
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(557, 453);
+            this.xtraTabPage5.Size = new System.Drawing.Size(560, 456);
             this.xtraTabPage5.Text = "文档简图浏览区";
             // 
             // xtraTabPage8
             // 
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(557, 453);
+            this.xtraTabPage8.Size = new System.Drawing.Size(560, 456);
             this.xtraTabPage8.Text = "零部件列表";
             // 
             // xtraTabPage9
             // 
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(557, 453);
+            this.xtraTabPage9.Size = new System.Drawing.Size(560, 456);
             this.xtraTabPage9.Text = "参考区";
             // 
             // xtraTabPage3
@@ -807,6 +771,110 @@
             this.xtraTabPage7.Size = new System.Drawing.Size(566, 485);
             this.xtraTabPage7.Text = "零部件文档清单";
             // 
+            // barManager1
+            // 
+            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
+            this.bar1,
+            this.bar2,
+            this.bar3});
+            this.barManager1.DockControls.Add(this.barDockControlTop);
+            this.barManager1.DockControls.Add(this.barDockControlBottom);
+            this.barManager1.DockControls.Add(this.barDockControlLeft);
+            this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.Form = this;
+            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.barSubItem1,
+            this.barSubItem2,
+            this.barSubItem3,
+            this.barSubItem4});
+            this.barManager1.MainMenu = this.bar2;
+            this.barManager1.MaxItemId = 4;
+            this.barManager1.StatusBar = this.bar3;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(979, 53);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 569);
+            this.barDockControlBottom.Size = new System.Drawing.Size(979, 23);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 53);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 516);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(979, 53);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 516);
+            // 
+            // bar1
+            // 
+            this.bar1.BarName = "Tools";
+            this.bar1.DockCol = 0;
+            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
+            this.bar1.Text = "Tools";
+            // 
+            // bar2
+            // 
+            this.bar2.BarName = "Main menu";
+            this.bar2.DockCol = 0;
+            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
+            this.bar2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4)});
+            this.bar2.OptionsBar.MultiLine = true;
+            this.bar2.OptionsBar.UseWholeRow = true;
+            this.bar2.Text = "Main menu";
+            // 
+            // bar3
+            // 
+            this.bar3.BarName = "Status bar";
+            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
+            this.bar3.DockCol = 0;
+            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
+            this.bar3.OptionsBar.AllowQuickCustomization = false;
+            this.bar3.OptionsBar.DrawDragBorder = false;
+            this.bar3.OptionsBar.UseWholeRow = true;
+            this.bar3.Text = "Status bar";
+            // 
+            // barSubItem1
+            // 
+            this.barSubItem1.Caption = "文件";
+            this.barSubItem1.Id = 0;
+            this.barSubItem1.Name = "barSubItem1";
+            // 
+            // barSubItem2
+            // 
+            this.barSubItem2.Caption = "查找";
+            this.barSubItem2.Id = 1;
+            this.barSubItem2.Name = "barSubItem2";
+            // 
+            // barSubItem3
+            // 
+            this.barSubItem3.Caption = "选择";
+            this.barSubItem3.Id = 2;
+            this.barSubItem3.Name = "barSubItem3";
+            // 
+            // barSubItem4
+            // 
+            this.barSubItem4.Caption = "工具";
+            this.barSubItem4.Id = 3;
+            this.barSubItem4.Name = "barSubItem4";
+            // 
             // BOMDeploy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -829,12 +897,12 @@
             this.Controls.Add(this.simpleButton3);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.panelControl1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
             this.Name = "BOMDeploy";
             this.Text = "BOM配置";
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
@@ -871,6 +939,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -878,11 +947,6 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
@@ -956,5 +1020,17 @@
         private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
+        private DevExpress.XtraBars.BarManager barManager1;
+        private DevExpress.XtraBars.Bar bar1;
+        private DevExpress.XtraBars.Bar bar2;
+        private DevExpress.XtraBars.BarSubItem barSubItem1;
+        private DevExpress.XtraBars.BarSubItem barSubItem2;
+        private DevExpress.XtraBars.BarSubItem barSubItem3;
+        private DevExpress.XtraBars.BarSubItem barSubItem4;
+        private DevExpress.XtraBars.Bar bar3;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
     }
 }

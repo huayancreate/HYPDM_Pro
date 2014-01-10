@@ -118,6 +118,35 @@
     </Compile>
     <Compile Include="CommonTemplet\CommonList.Designer.cs">
       <DependentUpon>CommonList.cs</DependentUpon>
+    <Compile Include="CommonTemplet\CommonCheckEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonCheckEdit.Designer.cs">
+      <DependentUpon>CommonCheckEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonGalleryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonGalleryControl.Designer.cs">
+      <DependentUpon>CommonGalleryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonMemoEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonMemoEdit.Designer.cs">
+      <DependentUpon>CommonMemoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonTree.Designer.cs">
+      <DependentUpon>CommonTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\ConmmonListBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\ConmmonListBoxControl.Designer.cs">
+      <DependentUpon>ConmmonListBoxControl.cs</DependentUpon>
     </Compile>
     <Compile Include="CommonTemplet\EditInfo.cs">
       <SubType>Form</SubType>
@@ -226,6 +255,12 @@
     </Compile>
     <Compile Include="DocManage\DocGrantManage\QueryDoc.Designer.cs">
       <DependentUpon>QueryDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\CheckChangeHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\CheckChangeHistory.Designer.cs">
+      <DependentUpon>CheckChangeHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.cs">
       <SubType>Form</SubType>
@@ -1243,6 +1278,20 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\CommonList.resx">
       <DependentUpon>CommonList.cs</DependentUpon>
+    <EmbeddedResource Include="CommonTemplet\CommonCheckEdit.resx">
+      <DependentUpon>CommonCheckEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonGalleryControl.resx">
+      <DependentUpon>CommonGalleryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonMemoEdit.resx">
+      <DependentUpon>CommonMemoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonTree.resx">
+      <DependentUpon>CommonTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\ConmmonListBoxControl.resx">
+      <DependentUpon>ConmmonListBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\EditInfo.resx">
       <DependentUpon>EditInfo.cs</DependentUpon>
@@ -1297,6 +1346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocGrantManage\QueryDoc.resx">
       <DependentUpon>QueryDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocManageTool\CheckChangeHistory.resx">
+      <DependentUpon>CheckChangeHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DocManage\DocPermissionApproval\ApplyHistoryMaintain.resx">
       <DependentUpon>ApplyHistoryMaintain.cs</DependentUpon>

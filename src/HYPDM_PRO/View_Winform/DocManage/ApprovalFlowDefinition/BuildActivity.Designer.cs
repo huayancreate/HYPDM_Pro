@@ -37,6 +37,7 @@
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.commonEdit1 = new View_Winform.CommonTemplet.CommonMemoEdit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -90,6 +91,7 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.commonEdit1);
             this.groupControl1.Controls.Add(this.memoEdit1);
             this.groupControl1.Location = new System.Drawing.Point(0, 88);
             this.groupControl1.Name = "groupControl1";
@@ -119,6 +121,13 @@
             this.simpleButton1.Size = new System.Drawing.Size(60, 23);
             this.simpleButton1.TabIndex = 10;
             this.simpleButton1.Text = "确定(O)";
+            // 
+            // commonEdit1
+            // 
+            this.commonEdit1.Location = new System.Drawing.Point(263, 101);
+            this.commonEdit1.Name = "commonEdit1";
+            this.commonEdit1.Size = new System.Drawing.Size(8, 8);
+            this.commonEdit1.TabIndex = 1;
             // 
             // BuildActivity
             // 
@@ -153,5 +162,6 @@
         private DevExpress.XtraEditors.MemoEdit memoEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private CommonTemplet.CommonMemoEdit commonEdit1;
     }
 }

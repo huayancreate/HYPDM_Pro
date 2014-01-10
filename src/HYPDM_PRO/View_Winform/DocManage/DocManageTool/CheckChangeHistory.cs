@@ -7,18 +7,13 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage
+namespace View_Winform.DocManage.DocManageTool
 {
-    public partial class UserPermissionBuild : DevExpress.XtraEditors.XtraForm
+    public partial class CheckChangeHistory : DevExpress.XtraEditors.XtraForm
     {
-        public UserPermissionBuild()
+        public CheckChangeHistory()
         {
             InitializeComponent();
-        }
-
-        private void commonTree1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -48,20 +48,20 @@
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
+            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
@@ -196,6 +196,7 @@
             // 
             // trackBarControl1
             // 
+            this.trackBarControl1.EditValue = null;
             this.trackBarControl1.Location = new System.Drawing.Point(91, 119);
             this.trackBarControl1.Name = "trackBarControl1";
             this.trackBarControl1.Size = new System.Drawing.Size(274, 45);
@@ -247,49 +248,21 @@
             this.xtraTabPage1.Size = new System.Drawing.Size(778, 256);
             this.xtraTabPage1.Text = "输出信息";
             // 
-            // xtraTabPage3
+            // simpleButton8
             // 
-            this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(294, 271);
-            this.xtraTabPage3.Text = "参考文档";
+            this.simpleButton8.Location = new System.Drawing.Point(721, 32);
+            this.simpleButton8.Name = "simpleButton8";
+            this.simpleButton8.Size = new System.Drawing.Size(54, 23);
+            this.simpleButton8.TabIndex = 7;
+            this.simpleButton8.Text = "删除(D)";
             // 
-            // xtraTabPage4
+            // simpleButton7
             // 
-            this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(761, 271);
-            this.xtraTabPage4.Text = "任务描述";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(724, 447);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(57, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "取消(C)";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(661, 447);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(57, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "完成(F)";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(583, 447);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(72, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "下一步(N)";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(505, 447);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(72, 23);
-            this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "上一步(B)";
+            this.simpleButton7.Location = new System.Drawing.Point(721, 3);
+            this.simpleButton7.Name = "simpleButton7";
+            this.simpleButton7.Size = new System.Drawing.Size(54, 23);
+            this.simpleButton7.TabIndex = 6;
+            this.simpleButton7.Text = "添加(A)";
             // 
             // gridControl1
             // 
@@ -339,21 +312,49 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
-            // simpleButton7
+            // xtraTabPage3
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(721, 3);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(54, 23);
-            this.simpleButton7.TabIndex = 6;
-            this.simpleButton7.Text = "添加(A)";
+            this.xtraTabPage3.Name = "xtraTabPage3";
+            this.xtraTabPage3.Size = new System.Drawing.Size(778, 256);
+            this.xtraTabPage3.Text = "参考文档";
             // 
-            // simpleButton8
+            // xtraTabPage4
             // 
-            this.simpleButton8.Location = new System.Drawing.Point(721, 32);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(54, 23);
-            this.simpleButton8.TabIndex = 7;
-            this.simpleButton8.Text = "删除(D)";
+            this.xtraTabPage4.Name = "xtraTabPage4";
+            this.xtraTabPage4.Size = new System.Drawing.Size(778, 256);
+            this.xtraTabPage4.Text = "任务描述";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(724, 447);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(57, 23);
+            this.simpleButton1.TabIndex = 1;
+            this.simpleButton1.Text = "取消(C)";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Location = new System.Drawing.Point(661, 447);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(57, 23);
+            this.simpleButton2.TabIndex = 2;
+            this.simpleButton2.Text = "完成(F)";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Location = new System.Drawing.Point(583, 447);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(72, 23);
+            this.simpleButton3.TabIndex = 3;
+            this.simpleButton3.Text = "下一步(N)";
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Location = new System.Drawing.Point(505, 447);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(72, 23);
+            this.simpleButton4.TabIndex = 4;
+            this.simpleButton4.Text = "上一步(B)";
             // 
             // CreateProjectTask
             // 
@@ -383,7 +384,7 @@
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Name = "CreateProjectTask";
-            this.Text = "设计任务创建";
+            this.Text = "工艺设计任务创建";
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();

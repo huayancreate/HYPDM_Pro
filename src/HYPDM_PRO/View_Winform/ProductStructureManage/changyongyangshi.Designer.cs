@@ -40,16 +40,16 @@
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.imageListBoxControl1 = new DevExpress.XtraEditors.ImageListBoxControl();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
             this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
-            this.checkButton2 = new DevExpress.XtraEditors.CheckButton();
             this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
             this.dropDownButton2 = new DevExpress.XtraEditors.DropDownButton();
             this.memoExEdit1 = new DevExpress.XtraEditors.MemoExEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.xtraUserControl1 = new DevExpress.XtraEditors.XtraUserControl();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -59,7 +59,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageListBoxControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
@@ -70,7 +69,7 @@
             // 
             // checkButton1
             // 
-            this.checkButton1.Location = new System.Drawing.Point(207, 38);
+            this.checkButton1.Location = new System.Drawing.Point(160, 38);
             this.checkButton1.Name = "checkButton1";
             this.checkButton1.Size = new System.Drawing.Size(89, 23);
             this.checkButton1.TabIndex = 1;
@@ -87,7 +86,7 @@
             // 
             // dropDownButton1
             // 
-            this.dropDownButton1.Location = new System.Drawing.Point(61, 164);
+            this.dropDownButton1.Location = new System.Drawing.Point(26, 132);
             this.dropDownButton1.Name = "dropDownButton1";
             this.dropDownButton1.Size = new System.Drawing.Size(135, 23);
             this.dropDownButton1.TabIndex = 3;
@@ -95,7 +94,7 @@
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(61, 226);
+            this.checkEdit1.Location = new System.Drawing.Point(2, 161);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "checkEdit1";
             this.checkEdit1.Size = new System.Drawing.Size(75, 19);
@@ -103,7 +102,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(73, 274);
+            this.labelControl1.Location = new System.Drawing.Point(12, 193);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(70, 14);
             this.labelControl1.TabIndex = 5;
@@ -111,7 +110,7 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Location = new System.Drawing.Point(400, 26);
+            this.panelControl1.Location = new System.Drawing.Point(274, 229);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(200, 100);
             this.panelControl1.TabIndex = 6;
@@ -119,7 +118,7 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Location = new System.Drawing.Point(194, 67);
+            this.groupControl1.Location = new System.Drawing.Point(285, 353);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(200, 100);
             this.groupControl1.TabIndex = 7;
@@ -128,7 +127,7 @@
             // comboBoxEdit1
             // 
             this.comboBoxEdit1.EditValue = "ComboBoxEdit";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(62, 331);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(12, 230);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -137,7 +136,7 @@
             // 
             // imageComboBoxEdit1
             // 
-            this.imageComboBoxEdit1.Location = new System.Drawing.Point(61, 387);
+            this.imageComboBoxEdit1.Location = new System.Drawing.Point(4, 268);
             this.imageComboBoxEdit1.Name = "imageComboBoxEdit1";
             this.imageComboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -146,34 +145,25 @@
             // 
             // listBoxControl1
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(160, 193);
+            this.listBoxControl1.Location = new System.Drawing.Point(118, 173);
             this.listBoxControl1.Name = "listBoxControl1";
             this.listBoxControl1.Size = new System.Drawing.Size(120, 95);
             this.listBoxControl1.TabIndex = 10;
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(73, 441);
+            this.textEdit1.Location = new System.Drawing.Point(12, 309);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(100, 20);
             this.textEdit1.TabIndex = 12;
             // 
             // imageListBoxControl1
             // 
-            this.imageListBoxControl1.Location = new System.Drawing.Point(167, 312);
+            this.imageListBoxControl1.Location = new System.Drawing.Point(12, 358);
             this.imageListBoxControl1.Name = "imageListBoxControl1";
             this.imageListBoxControl1.Size = new System.Drawing.Size(120, 95);
             this.imageListBoxControl1.TabIndex = 13;
             this.imageListBoxControl1.SelectedIndexChanged += new System.EventHandler(this.imageListBoxControl1_SelectedIndexChanged);
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(167, -2);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(52, 20);
-            this.comboBoxEdit2.TabIndex = 0;
             // 
             // xtraTabControl1
             // 
@@ -196,7 +186,7 @@
             this.galleryControl1.Controls.Add(this.galleryControlClient1);
             this.galleryControl1.DesignGalleryGroupIndex = 0;
             this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(336, 193);
+            this.galleryControl1.Location = new System.Drawing.Point(148, 373);
             this.galleryControl1.Name = "galleryControl1";
             this.galleryControl1.Size = new System.Drawing.Size(120, 95);
             this.galleryControl1.TabIndex = 16;
@@ -208,17 +198,9 @@
             this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
             this.galleryControlClient1.Size = new System.Drawing.Size(99, 91);
             // 
-            // checkButton2
-            // 
-            this.checkButton2.Location = new System.Drawing.Point(303, 1);
-            this.checkButton2.Name = "checkButton2";
-            this.checkButton2.Size = new System.Drawing.Size(75, 23);
-            this.checkButton2.TabIndex = 17;
-            this.checkButton2.Text = "checkButton2";
-            // 
             // buttonEdit2
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(303, 331);
+            this.buttonEdit2.Location = new System.Drawing.Point(138, 327);
             this.buttonEdit2.Name = "buttonEdit2";
             this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -227,7 +209,7 @@
             // 
             // dropDownButton2
             // 
-            this.dropDownButton2.Location = new System.Drawing.Point(303, 390);
+            this.dropDownButton2.Location = new System.Drawing.Point(133, 285);
             this.dropDownButton2.Name = "dropDownButton2";
             this.dropDownButton2.Size = new System.Drawing.Size(135, 23);
             this.dropDownButton2.TabIndex = 19;
@@ -235,7 +217,7 @@
             // 
             // memoExEdit1
             // 
-            this.memoExEdit1.Location = new System.Drawing.Point(73, 56);
+            this.memoExEdit1.Location = new System.Drawing.Point(26, 67);
             this.memoExEdit1.Name = "memoExEdit1";
             this.memoExEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -250,18 +232,34 @@
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "simpleButton1";
             // 
+            // xtraUserControl1
+            // 
+            this.xtraUserControl1.Location = new System.Drawing.Point(305, 12);
+            this.xtraUserControl1.Name = "xtraUserControl1";
+            this.xtraUserControl1.Size = new System.Drawing.Size(150, 150);
+            this.xtraUserControl1.TabIndex = 21;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(261, 124);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // changyongyangshi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(790, 501);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.xtraUserControl1);
             this.Controls.Add(this.memoExEdit1);
             this.Controls.Add(this.dropDownButton2);
             this.Controls.Add(this.buttonEdit2);
-            this.Controls.Add(this.checkButton2);
             this.Controls.Add(this.galleryControl1);
             this.Controls.Add(this.xtraTabControl1);
-            this.Controls.Add(this.comboBoxEdit2);
             this.Controls.Add(this.imageListBoxControl1);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.listBoxControl1);
@@ -287,7 +285,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageListBoxControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
@@ -312,16 +309,16 @@
         private DevExpress.XtraEditors.ImageComboBoxEdit imageComboBoxEdit1;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
         private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
         private DevExpress.XtraEditors.ImageListBoxControl imageListBoxControl1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraBars.Ribbon.GalleryControl galleryControl1;
         private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient1;
-        private DevExpress.XtraEditors.CheckButton checkButton2;
         private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
         private DevExpress.XtraEditors.DropDownButton dropDownButton2;
         private DevExpress.XtraEditors.MemoExEdit memoExEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.XtraUserControl xtraUserControl1;
+        private System.Windows.Forms.Button button1;
     }
 }

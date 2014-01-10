@@ -70,6 +70,63 @@
             this.DocManagement_DocModify_tabContr_AdditionalInfor = new DevExpress.XtraTab.XtraTabPage();
             this.DocManagement_DocModify_TabContr_ApproInfo = new DevExpress.XtraTab.XtraTabPage();
             this.DocManagement_DocModify_TabContr_DocAssociated = new DevExpress.XtraTab.XtraTabPage();
+            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
+            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
+            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
+            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
+            this.groupControl5 = new DevExpress.XtraEditors.GroupControl();
+            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
+            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
+            this.buttonEdit3 = new DevExpress.XtraEditors.ButtonEdit();
+            this.buttonEdit4 = new DevExpress.XtraEditors.ButtonEdit();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupControl6 = new DevExpress.XtraEditors.GroupControl();
+            this.treeList2 = new DevExpress.XtraTreeList.TreeList();
+            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TabContr)).BeginInit();
             this.DocManagement_DocModify_TabContr.SuspendLayout();
             this.DocManagement_DocModify_TabContr_BasicInfo.SuspendLayout();
@@ -91,6 +148,48 @@
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TextEdit_EnglishName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TextEdit_.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TextEidt_DocVersion.Properties)).BeginInit();
+            this.DocManagement_DocModify_TabContr_ApproInfo.SuspendLayout();
+            this.DocManagement_DocModify_TabContr_DocAssociated.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
+            this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
+            this.panelControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
+            this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
+            this.panelControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
+            this.groupControl5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
+            this.panelControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
+            this.groupControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).BeginInit();
+            this.groupControl6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.treeList2)).BeginInit();
             this.SuspendLayout();
             // 
             // DocManagement_DocModify_TabContr
@@ -454,15 +553,508 @@
             // 
             // DocManagement_DocModify_TabContr_ApproInfo
             // 
+            this.DocManagement_DocModify_TabContr_ApproInfo.Controls.Add(this.panelControl3);
             this.DocManagement_DocModify_TabContr_ApproInfo.Name = "DocManagement_DocModify_TabContr_ApproInfo";
             this.DocManagement_DocModify_TabContr_ApproInfo.Size = new System.Drawing.Size(647, 531);
             this.DocManagement_DocModify_TabContr_ApproInfo.Text = "文档审签信息";
             // 
             // DocManagement_DocModify_TabContr_DocAssociated
             // 
+            this.DocManagement_DocModify_TabContr_DocAssociated.Controls.Add(this.panelControl1);
             this.DocManagement_DocModify_TabContr_DocAssociated.Name = "DocManagement_DocModify_TabContr_DocAssociated";
             this.DocManagement_DocModify_TabContr_DocAssociated.Size = new System.Drawing.Size(647, 531);
             this.DocManagement_DocModify_TabContr_DocAssociated.Text = "关联文档";
+            // 
+            // panelControl1
+            // 
+            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Flat;
+            this.panelControl1.Controls.Add(this.simpleButton1);
+            this.panelControl1.Controls.Add(this.panelControl2);
+            this.panelControl1.Controls.Add(this.buttonEdit1);
+            this.panelControl1.Controls.Add(this.buttonEdit2);
+            this.panelControl1.Controls.Add(this.checkEdit2);
+            this.panelControl1.Controls.Add(this.checkEdit1);
+            this.panelControl1.Controls.Add(this.groupControl1);
+            this.panelControl1.Location = new System.Drawing.Point(3, 0);
+            this.panelControl1.Name = "panelControl1";
+            this.panelControl1.Size = new System.Drawing.Size(644, 531);
+            this.panelControl1.TabIndex = 7;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(156, 214);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(59, 23);
+            this.simpleButton1.TabIndex = 25;
+            this.simpleButton1.Text = "查询(Q)";
+            // 
+            // panelControl2
+            // 
+            this.panelControl2.Controls.Add(this.groupControl3);
+            this.panelControl2.Controls.Add(this.groupControl2);
+            this.panelControl2.Location = new System.Drawing.Point(218, 2);
+            this.panelControl2.Name = "panelControl2";
+            this.panelControl2.Size = new System.Drawing.Size(426, 529);
+            this.panelControl2.TabIndex = 23;
+            // 
+            // buttonEdit1
+            // 
+            this.buttonEdit1.Location = new System.Drawing.Point(68, 141);
+            this.buttonEdit1.Name = "buttonEdit1";
+            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit1.Size = new System.Drawing.Size(147, 20);
+            this.buttonEdit1.TabIndex = 20;
+            // 
+            // buttonEdit2
+            // 
+            this.buttonEdit2.Location = new System.Drawing.Point(68, 179);
+            this.buttonEdit2.Name = "buttonEdit2";
+            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit2.Size = new System.Drawing.Size(147, 20);
+            this.buttonEdit2.TabIndex = 19;
+            // 
+            // checkEdit2
+            // 
+            this.checkEdit2.Location = new System.Drawing.Point(1, 141);
+            this.checkEdit2.Name = "checkEdit2";
+            this.checkEdit2.Properties.Caption = "创建人:";
+            this.checkEdit2.Size = new System.Drawing.Size(61, 19);
+            this.checkEdit2.TabIndex = 10;
+            // 
+            // checkEdit1
+            // 
+            this.checkEdit1.Location = new System.Drawing.Point(1, 179);
+            this.checkEdit1.Name = "checkEdit1";
+            this.checkEdit1.Properties.Caption = "修改人:";
+            this.checkEdit1.Size = new System.Drawing.Size(61, 19);
+            this.checkEdit1.TabIndex = 9;
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.textEdit1);
+            this.groupControl1.Controls.Add(this.textEdit2);
+            this.groupControl1.Controls.Add(this.textEdit3);
+            this.groupControl1.Controls.Add(this.labelControl3);
+            this.groupControl1.Controls.Add(this.labelControl2);
+            this.groupControl1.Controls.Add(this.labelControl1);
+            this.groupControl1.Location = new System.Drawing.Point(3, 3);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(212, 122);
+            this.groupControl1.TabIndex = 8;
+            this.groupControl1.Text = "文档信息";
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(65, 96);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(142, 20);
+            this.textEdit1.TabIndex = 13;
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.Location = new System.Drawing.Point(65, 62);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Size = new System.Drawing.Size(142, 20);
+            this.textEdit2.TabIndex = 14;
+            // 
+            // textEdit3
+            // 
+            this.textEdit3.Location = new System.Drawing.Point(65, 25);
+            this.textEdit3.Name = "textEdit3";
+            this.textEdit3.Size = new System.Drawing.Size(142, 20);
+            this.textEdit3.TabIndex = 15;
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Location = new System.Drawing.Point(7, 28);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(52, 14);
+            this.labelControl3.TabIndex = 8;
+            this.labelControl3.Text = "文档名称:";
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Location = new System.Drawing.Point(7, 64);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(52, 14);
+            this.labelControl2.TabIndex = 7;
+            this.labelControl2.Text = "文档编号:";
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(7, 99);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(52, 14);
+            this.labelControl1.TabIndex = 6;
+            this.labelControl1.Text = "文档版本:";
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.gridControl1);
+            this.groupControl2.Location = new System.Drawing.Point(3, 1);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(423, 195);
+            this.groupControl2.TabIndex = 8;
+            this.groupControl2.Text = "文档查询结果";
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Location = new System.Drawing.Point(0, 21);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(426, 174);
+            this.gridControl1.TabIndex = 0;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn4});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "文档名称";
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 0;
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.Caption = "文档编号";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 1;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "文档版本";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 2;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "文档类型";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 3;
+            // 
+            // groupControl3
+            // 
+            this.groupControl3.Controls.Add(this.simpleButton6);
+            this.groupControl3.Controls.Add(this.simpleButton5);
+            this.groupControl3.Controls.Add(this.simpleButton2);
+            this.groupControl3.Controls.Add(this.treeList1);
+            this.groupControl3.Location = new System.Drawing.Point(5, 202);
+            this.groupControl3.Name = "groupControl3";
+            this.groupControl3.Size = new System.Drawing.Size(421, 327);
+            this.groupControl3.TabIndex = 9;
+            this.groupControl3.Text = "关联文档列表区";
+            // 
+            // treeList1
+            // 
+            this.treeList1.Location = new System.Drawing.Point(0, 23);
+            this.treeList1.Name = "treeList1";
+            this.treeList1.OptionsPrint.UsePrintStyles = true;
+            this.treeList1.Size = new System.Drawing.Size(421, 273);
+            this.treeList1.TabIndex = 0;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Location = new System.Drawing.Point(221, 299);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton2.TabIndex = 26;
+            this.simpleButton2.Text = "添加";
+            // 
+            // panelControl3
+            // 
+            this.panelControl3.Controls.Add(this.panelControl4);
+            this.panelControl3.Controls.Add(this.simpleButton3);
+            this.panelControl3.Controls.Add(this.buttonEdit4);
+            this.panelControl3.Controls.Add(this.buttonEdit3);
+            this.panelControl3.Controls.Add(this.checkEdit4);
+            this.panelControl3.Controls.Add(this.checkEdit3);
+            this.panelControl3.Controls.Add(this.groupControl5);
+            this.panelControl3.Location = new System.Drawing.Point(1, 0);
+            this.panelControl3.Name = "panelControl3";
+            this.panelControl3.Size = new System.Drawing.Size(651, 531);
+            this.panelControl3.TabIndex = 7;
+            // 
+            // groupControl5
+            // 
+            this.groupControl5.Controls.Add(this.textEdit4);
+            this.groupControl5.Controls.Add(this.textEdit5);
+            this.groupControl5.Controls.Add(this.textEdit6);
+            this.groupControl5.Controls.Add(this.labelControl4);
+            this.groupControl5.Controls.Add(this.labelControl5);
+            this.groupControl5.Controls.Add(this.labelControl6);
+            this.groupControl5.Location = new System.Drawing.Point(5, 3);
+            this.groupControl5.Name = "groupControl5";
+            this.groupControl5.Size = new System.Drawing.Size(212, 122);
+            this.groupControl5.TabIndex = 9;
+            this.groupControl5.Text = "文档信息";
+            // 
+            // textEdit4
+            // 
+            this.textEdit4.Location = new System.Drawing.Point(65, 96);
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Size = new System.Drawing.Size(142, 20);
+            this.textEdit4.TabIndex = 13;
+            // 
+            // textEdit5
+            // 
+            this.textEdit5.Location = new System.Drawing.Point(65, 62);
+            this.textEdit5.Name = "textEdit5";
+            this.textEdit5.Size = new System.Drawing.Size(142, 20);
+            this.textEdit5.TabIndex = 14;
+            // 
+            // textEdit6
+            // 
+            this.textEdit6.Location = new System.Drawing.Point(65, 25);
+            this.textEdit6.Name = "textEdit6";
+            this.textEdit6.Size = new System.Drawing.Size(142, 20);
+            this.textEdit6.TabIndex = 15;
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Location = new System.Drawing.Point(7, 28);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(52, 14);
+            this.labelControl4.TabIndex = 8;
+            this.labelControl4.Text = "文档名称:";
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Location = new System.Drawing.Point(7, 64);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(52, 14);
+            this.labelControl5.TabIndex = 7;
+            this.labelControl5.Text = "文档编号:";
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Location = new System.Drawing.Point(7, 99);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(52, 14);
+            this.labelControl6.TabIndex = 6;
+            this.labelControl6.Text = "文档版本:";
+            // 
+            // checkEdit3
+            // 
+            this.checkEdit3.Location = new System.Drawing.Point(2, 178);
+            this.checkEdit3.Name = "checkEdit3";
+            this.checkEdit3.Properties.Caption = "审签人:";
+            this.checkEdit3.Size = new System.Drawing.Size(62, 19);
+            this.checkEdit3.TabIndex = 10;
+            // 
+            // checkEdit4
+            // 
+            this.checkEdit4.Location = new System.Drawing.Point(2, 141);
+            this.checkEdit4.Name = "checkEdit4";
+            this.checkEdit4.Properties.Caption = "申请人:";
+            this.checkEdit4.Size = new System.Drawing.Size(62, 19);
+            this.checkEdit4.TabIndex = 11;
+            // 
+            // buttonEdit3
+            // 
+            this.buttonEdit3.Location = new System.Drawing.Point(70, 178);
+            this.buttonEdit3.Name = "buttonEdit3";
+            this.buttonEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit3.Size = new System.Drawing.Size(147, 20);
+            this.buttonEdit3.TabIndex = 19;
+            // 
+            // buttonEdit4
+            // 
+            this.buttonEdit4.Location = new System.Drawing.Point(70, 141);
+            this.buttonEdit4.Name = "buttonEdit4";
+            this.buttonEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit4.Size = new System.Drawing.Size(147, 20);
+            this.buttonEdit4.TabIndex = 20;
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Location = new System.Drawing.Point(158, 204);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(59, 23);
+            this.simpleButton3.TabIndex = 26;
+            this.simpleButton3.Text = "查询(Q)";
+            // 
+            // panelControl4
+            // 
+            this.panelControl4.Controls.Add(this.simpleButton4);
+            this.panelControl4.Controls.Add(this.simpleButton7);
+            this.panelControl4.Controls.Add(this.groupControl6);
+            this.panelControl4.Controls.Add(this.simpleButton8);
+            this.panelControl4.Controls.Add(this.groupControl4);
+            this.panelControl4.Location = new System.Drawing.Point(218, 1);
+            this.panelControl4.Name = "panelControl4";
+            this.panelControl4.Size = new System.Drawing.Size(428, 530);
+            this.panelControl4.TabIndex = 27;
+            // 
+            // groupControl4
+            // 
+            this.groupControl4.Controls.Add(this.gridControl2);
+            this.groupControl4.Location = new System.Drawing.Point(0, -1);
+            this.groupControl4.Name = "groupControl4";
+            this.groupControl4.Size = new System.Drawing.Size(428, 220);
+            this.groupControl4.TabIndex = 8;
+            this.groupControl4.Text = "文档查询结果";
+            // 
+            // gridControl2
+            // 
+            this.gridControl2.Location = new System.Drawing.Point(1, 21);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.Size = new System.Drawing.Size(428, 197);
+            this.gridControl2.TabIndex = 0;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
+            // 
+            // gridView2
+            // 
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn5,
+            this.gridColumn6,
+            this.gridColumn7,
+            this.gridColumn8,
+            this.gridColumn9,
+            this.gridColumn10,
+            this.gridColumn11,
+            this.gridColumn12,
+            this.gridColumn13});
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "文档名称";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 0;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "文档编号";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 1;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "文档版本";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 2;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.Caption = "审签状态";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 3;
+            // 
+            // gridColumn9
+            // 
+            this.gridColumn9.Caption = "申请人";
+            this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.Visible = true;
+            this.gridColumn9.VisibleIndex = 4;
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "申请日期";
+            this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.Visible = true;
+            this.gridColumn10.VisibleIndex = 5;
+            // 
+            // gridColumn11
+            // 
+            this.gridColumn11.Caption = "审签人";
+            this.gridColumn11.Name = "gridColumn11";
+            this.gridColumn11.Visible = true;
+            this.gridColumn11.VisibleIndex = 6;
+            // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "审签日期";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.Visible = true;
+            this.gridColumn12.VisibleIndex = 7;
+            // 
+            // gridColumn13
+            // 
+            this.gridColumn13.Caption = "备注";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 8;
+            // 
+            // groupControl6
+            // 
+            this.groupControl6.Controls.Add(this.treeList2);
+            this.groupControl6.Location = new System.Drawing.Point(2, 225);
+            this.groupControl6.Name = "groupControl6";
+            this.groupControl6.Size = new System.Drawing.Size(427, 271);
+            this.groupControl6.TabIndex = 9;
+            this.groupControl6.Text = "文档审签详细信息";
+            // 
+            // treeList2
+            // 
+            this.treeList2.Location = new System.Drawing.Point(-2, 22);
+            this.treeList2.Name = "treeList2";
+            this.treeList2.OptionsPrint.UsePrintStyles = true;
+            this.treeList2.Size = new System.Drawing.Size(429, 249);
+            this.treeList2.TabIndex = 0;
+            // 
+            // simpleButton5
+            // 
+            this.simpleButton5.Location = new System.Drawing.Point(335, 299);
+            this.simpleButton5.Name = "simpleButton5";
+            this.simpleButton5.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton5.TabIndex = 28;
+            this.simpleButton5.Text = "修改";
+            // 
+            // simpleButton6
+            // 
+            this.simpleButton6.Location = new System.Drawing.Point(278, 299);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton6.TabIndex = 29;
+            this.simpleButton6.Text = "删除";
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Location = new System.Drawing.Point(274, 502);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton4.TabIndex = 32;
+            this.simpleButton4.Text = "删除";
+            // 
+            // simpleButton7
+            // 
+            this.simpleButton7.Location = new System.Drawing.Point(331, 502);
+            this.simpleButton7.Name = "simpleButton7";
+            this.simpleButton7.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton7.TabIndex = 31;
+            this.simpleButton7.Text = "修改";
+            // 
+            // simpleButton8
+            // 
+            this.simpleButton8.Location = new System.Drawing.Point(217, 502);
+            this.simpleButton8.Name = "simpleButton8";
+            this.simpleButton8.Size = new System.Drawing.Size(51, 23);
+            this.simpleButton8.TabIndex = 30;
+            this.simpleButton8.Text = "添加";
             // 
             // docManagement
             // 
@@ -496,6 +1088,50 @@
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TextEdit_EnglishName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TextEdit_.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TextEidt_DocVersion.Properties)).EndInit();
+            this.DocManagement_DocModify_TabContr_ApproInfo.ResumeLayout(false);
+            this.DocManagement_DocModify_TabContr_DocAssociated.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
+            this.panelControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
+            this.panelControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
+            this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
+            this.panelControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).EndInit();
+            this.groupControl5.ResumeLayout(false);
+            this.groupControl5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
+            this.panelControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
+            this.groupControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl6)).EndInit();
+            this.groupControl6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.treeList2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -544,5 +1180,62 @@
         private DevExpress.XtraEditors.GroupControl DocManagement_DocModify_GroupControl_PartsRelated;
         private DevExpress.XtraEditors.SimpleButton DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete;
         private DevExpress.XtraEditors.SimpleButton DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add;
+        private DevExpress.XtraEditors.PanelControl panelControl1;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.CheckEdit checkEdit2;
+        private DevExpress.XtraEditors.CheckEdit checkEdit1;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
+        private DevExpress.XtraEditors.PanelControl panelControl2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraEditors.GroupControl groupControl3;
+        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.PanelControl panelControl3;
+        private DevExpress.XtraEditors.GroupControl groupControl5;
+        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit textEdit5;
+        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.LabelControl labelControl6;
+        private DevExpress.XtraEditors.CheckEdit checkEdit4;
+        private DevExpress.XtraEditors.CheckEdit checkEdit3;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit4;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.PanelControl panelControl4;
+        private DevExpress.XtraEditors.GroupControl groupControl4;
+        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
+        private DevExpress.XtraEditors.GroupControl groupControl6;
+        private DevExpress.XtraTreeList.TreeList treeList2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton6;
+        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton7;
+        private DevExpress.XtraEditors.SimpleButton simpleButton8;
     }
 }

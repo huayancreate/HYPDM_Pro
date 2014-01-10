@@ -32,11 +32,12 @@
             this.checkButton1 = new DevExpress.XtraEditors.CheckButton();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.label1 = new System.Windows.Forms.Label();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
+            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
             this.label2 = new System.Windows.Forms.Label();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.label7 = new System.Windows.Forms.Label();
@@ -49,8 +50,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.label3 = new System.Windows.Forms.Label();
-            this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
-            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
+            this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
@@ -59,14 +59,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
+            this.galleryControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
-            this.galleryControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkButton1
@@ -94,12 +94,6 @@
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(589, 377);
             this.xtraTabPage2.Text = "BOM基本信息";
-            // 
-            // xtraTabPage1
-            // 
-            this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(294, 271);
-            this.xtraTabPage1.Text = "BOM审签信息";
             // 
             // panelControl1
             // 
@@ -147,6 +141,23 @@
             this.groupControl1.Size = new System.Drawing.Size(589, 272);
             this.groupControl1.TabIndex = 26;
             this.groupControl1.Text = "描述信息";
+            // 
+            // galleryControl1
+            // 
+            this.galleryControl1.Controls.Add(this.galleryControlClient1);
+            this.galleryControl1.DesignGalleryGroupIndex = 0;
+            this.galleryControl1.DesignGalleryItemIndex = 0;
+            this.galleryControl1.Location = new System.Drawing.Point(-1, 23);
+            this.galleryControl1.Name = "galleryControl1";
+            this.galleryControl1.Size = new System.Drawing.Size(590, 246);
+            this.galleryControl1.TabIndex = 17;
+            this.galleryControl1.Text = "galleryControl1";
+            // 
+            // galleryControlClient1
+            // 
+            this.galleryControlClient1.GalleryControl = this.galleryControl1;
+            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
+            this.galleryControlClient1.Size = new System.Drawing.Size(569, 242);
             // 
             // label2
             // 
@@ -244,22 +255,11 @@
             this.label3.TabIndex = 21;
             this.label3.Text = "BOM类型";
             // 
-            // galleryControl1
+            // xtraTabPage1
             // 
-            this.galleryControl1.Controls.Add(this.galleryControlClient1);
-            this.galleryControl1.DesignGalleryGroupIndex = 0;
-            this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(-1, 23);
-            this.galleryControl1.Name = "galleryControl1";
-            this.galleryControl1.Size = new System.Drawing.Size(590, 246);
-            this.galleryControl1.TabIndex = 17;
-            this.galleryControl1.Text = "galleryControl1";
-            // 
-            // galleryControlClient1
-            // 
-            this.galleryControlClient1.GalleryControl = this.galleryControl1;
-            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(569, 242);
+            this.xtraTabPage1.Name = "xtraTabPage1";
+            this.xtraTabPage1.Size = new System.Drawing.Size(589, 377);
+            this.xtraTabPage1.Text = "BOM审签信息";
             // 
             // CheckBOMMessage
             // 
@@ -279,14 +279,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
+            this.galleryControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
-            this.galleryControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -141,7 +141,7 @@
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
-            // PermissionActivity2
+            // UserPermissionBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,7 +149,7 @@
             this.Controls.Add(this.gridControl2);
             this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.simpleButton4);
-            this.Name = "PermissionActivity2";
+            this.Name = "UserPermissionBuild";
             this.Text = "BOM用户权限设定";
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
