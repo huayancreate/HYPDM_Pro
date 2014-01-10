@@ -31,6 +31,7 @@
             DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
@@ -118,10 +119,12 @@
             galleryItemGroup1.Tag = "BOM1";
             galleryItemGroup2.Caption = "Group10";
             galleryItemGroup3.Caption = "Group11";
+            galleryItemGroup4.Caption = "Group1";
             this.galleryControl1.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
             galleryItemGroup1,
             galleryItemGroup2,
-            galleryItemGroup3});
+            galleryItemGroup3,
+            galleryItemGroup4});
             this.galleryControl1.Location = new System.Drawing.Point(5, 81);
             this.galleryControl1.Name = "galleryControl1";
             this.galleryControl1.Size = new System.Drawing.Size(444, 367);

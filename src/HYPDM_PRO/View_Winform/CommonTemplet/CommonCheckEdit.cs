@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProjectManage.SporadicTaskManage
+namespace View_Winform.CommonTemplet
 {
-    public partial class OfficeTaskManage : DevExpress.XtraEditors.XtraForm
+    public partial class CommonCheckEdit : DevExpress.XtraEditors.XtraUserControl
     {
-        public OfficeTaskManage()
+        public CommonCheckEdit()
         {
             InitializeComponent();
         }

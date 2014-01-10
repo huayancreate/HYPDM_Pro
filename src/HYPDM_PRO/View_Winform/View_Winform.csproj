@@ -113,6 +113,36 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommonTemplet\CommonCheckEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonCheckEdit.Designer.cs">
+      <DependentUpon>CommonCheckEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonGalleryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonGalleryControl.Designer.cs">
+      <DependentUpon>CommonGalleryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonMemoEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonMemoEdit.Designer.cs">
+      <DependentUpon>CommonMemoEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonTree.Designer.cs">
+      <DependentUpon>CommonTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\ConmmonListBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\ConmmonListBoxControl.Designer.cs">
+      <DependentUpon>ConmmonListBoxControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonTemplet\EditInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1240,6 +1270,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonCheckEdit.resx">
+      <DependentUpon>CommonCheckEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonGalleryControl.resx">
+      <DependentUpon>CommonGalleryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonMemoEdit.resx">
+      <DependentUpon>CommonMemoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonTree.resx">
+      <DependentUpon>CommonTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\ConmmonListBoxControl.resx">
+      <DependentUpon>ConmmonListBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\EditInfo.resx">
       <DependentUpon>EditInfo.cs</DependentUpon>

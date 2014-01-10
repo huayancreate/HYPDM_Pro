@@ -20,5 +20,10 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         {
 
         }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
