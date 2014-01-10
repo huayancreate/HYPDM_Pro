@@ -113,6 +113,12 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommonTemplet\CommonList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonList.Designer.cs">
+      <DependentUpon>CommonList.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonTemplet\EditInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1234,6 +1240,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonList.resx">
+      <DependentUpon>CommonList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\EditInfo.resx">
       <DependentUpon>EditInfo.cs</DependentUpon>
