@@ -24,7 +24,7 @@ namespace View_Winform
             //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPrint.DocPrint());
-            Application.Run(new View_Winform.HYPDM());
+             Application.Run(new View_Winform.HYPDM());
         }
     }
 }

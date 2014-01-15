@@ -60,37 +60,82 @@
             this.tlCategoryList.BeginUnboundLoad();
             this.tlCategoryList.AppendNode(new object[] {
             "",
+            "文档管理"}, -1);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档管理器"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档模板管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "审签流程定义"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "审签流程实例化"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档查询"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档权限审批"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档发放管理"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "流程模板引用"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档属性设置"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档密级设置"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "权限审批人设置"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "1",
+            "文档打印"}, 0);
+            this.tlCategoryList.AppendNode(new object[] {
+            "",
             "系统管理工具"}, -1);
             this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationManage",
-            "组织机构管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupManage",
-            "用户组管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserMessage",
-            "用户管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.RoleManege.RoleManage",
-            "角色管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.OperationManagement.OperationManagement",
-            "操作管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.MenuManagement.MenuManagement",
-            "菜单管理"}, 0);
+            null,
+            "编码规则设置"}, 13);
             this.tlCategoryList.AppendNode(new object[] {
             null,
-            "编码字典填充"}, 0);
+            "编码申请管理"}, 13);
             this.tlCategoryList.AppendNode(new object[] {
             null,
-            "编码申请管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            null,
-            "编码规则设置"}, 0);
+            "编码字典填充"}, 13);
             this.tlCategoryList.AppendNode(new object[] {
             "View_Winform.SystemManagementAndTools.CodeSchemeManage.CodeTool",
-            "编码方案管理"}, 0);
+            "编码方案管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.MenuManagement.MenuManagement",
+            "菜单管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.OperationManagement.OperationList",
+            "操作管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationList",
+            "组织机构管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.RoleManage.RoleList",
+            "角色管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserList",
+            "用户管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupList",
+            "用户组管理"}, 13);
+            this.tlCategoryList.AppendNode(new object[] {
+            "",
+            "测试"}, -1);
+            this.tlCategoryList.AppendNode(new object[] {
+            null,
+            "1"}, 24);
             this.tlCategoryList.EndUnboundLoad();
             this.tlCategoryList.OptionsBehavior.PopulateServiceColumns = true;
             this.tlCategoryList.OptionsPrint.UsePrintStyles = true;
@@ -106,7 +151,8 @@
             this.name.FieldName = "name";
             this.name.MinWidth = 52;
             this.name.Name = "name";
-            this.name.OptionsColumn.AllowEdit = false;
+            this.name.Visible = true;
+            this.name.VisibleIndex = 1;
             this.name.Width = 111;
             // 
             // id
@@ -115,7 +161,6 @@
             this.id.FieldName = "id";
             this.id.MinWidth = 52;
             this.id.Name = "id";
-            this.id.OptionsColumn.AllowEdit = false;
             this.id.Visible = true;
             this.id.VisibleIndex = 0;
             this.id.Width = 114;

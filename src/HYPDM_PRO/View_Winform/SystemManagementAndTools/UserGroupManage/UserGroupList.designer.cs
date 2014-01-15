@@ -1,6 +1,6 @@
-﻿namespace View_Winform.SystemManagementAndTools.RoleManage
+﻿namespace View_Winform.SystemManagementAndTools.UserGroupManage
 {
-    partial class RoleList
+    partial class UserGroupList
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,6 @@
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.paging1 = new View_Winform.CommonTemplet.paging();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -59,7 +58,6 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.paging1);
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_RoleList_AddRole_SimpleButton);
@@ -67,10 +65,11 @@
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_RoleList_Choose_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl);
-            this.panelControl1.Location = new System.Drawing.Point(1, 2);
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(744, 468);
-            this.panelControl1.TabIndex = 8;
+            this.panelControl1.Size = new System.Drawing.Size(746, 496);
+            this.panelControl1.TabIndex = 9;
             // 
             // panelControl2
             // 
@@ -85,13 +84,13 @@
             // 
             this.labelControl2.Location = new System.Drawing.Point(8, 18);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(60, 14);
+            this.labelControl2.Size = new System.Drawing.Size(72, 14);
             this.labelControl2.TabIndex = 0;
-            this.labelControl2.Text = "角色名称：";
+            this.labelControl2.Text = "用户组名称：";
             // 
             // SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit
             // 
-            this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Location = new System.Drawing.Point(74, 15);
+            this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Location = new System.Drawing.Point(86, 15);
             this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Name = "SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit";
             this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Size = new System.Drawing.Size(154, 20);
             this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.TabIndex = 13;
@@ -170,7 +169,7 @@
             // 
             // gridColumn1
             // 
-            this.gridColumn1.Caption = "角色名";
+            this.gridColumn1.Caption = "用户组名";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 1;
@@ -178,7 +177,7 @@
             // 
             // gridColumn3
             // 
-            this.gridColumn3.Caption = "角色编号";
+            this.gridColumn3.Caption = "用户组编号";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
@@ -198,21 +197,14 @@
             this.repositoryItemCheckEdit1.AutoHeight = false;
             this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
             // 
-            // paging1
-            // 
-            this.paging1.Location = new System.Drawing.Point(129, 440);
-            this.paging1.Name = "paging1";
-            this.paging1.Size = new System.Drawing.Size(381, 25);
-            this.paging1.TabIndex = 15;
-            // 
-            // RoleList
+            // UserGroupList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(746, 471);
+            this.ClientSize = new System.Drawing.Size(746, 496);
             this.Controls.Add(this.panelControl1);
-            this.Name = "RoleList";
-            this.Text = "角色列表";
+            this.Name = "UserGroupList";
+            this.Text = "用户组列表";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
@@ -231,6 +223,8 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
+        private DevExpress.XtraEditors.PanelControl panelControl2;
+        private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_RoleList_QueryRole_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_RoleList_AddRole_SimpleButton;
@@ -244,8 +238,5 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
-        private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
-        private CommonTemplet.paging paging1;
     }
 }

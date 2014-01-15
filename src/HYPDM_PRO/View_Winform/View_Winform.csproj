@@ -131,6 +131,12 @@
     <Compile Include="CommonTemplet\CommonMemoEdit.Designer.cs">
       <DependentUpon>CommonMemoEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommonTemplet\CommonTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonTree.designer.cs">
+      <DependentUpon>CommonTree.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonTemplet\ConmmonListBoxControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1184,6 +1190,12 @@
     <Compile Include="SystemManagementAndTools\MessageSet\MessageSet.Designer.cs">
       <DependentUpon>MessageSet.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\OperationManagement\OperationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\OperationManagement\OperationList.designer.cs">
+      <DependentUpon>OperationList.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\OperationManagement\OperationManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1238,6 +1250,12 @@
     <Compile Include="SystemManagementAndTools\SystemUserMessageManage\UserMessage.Designer.cs">
       <DependentUpon>UserMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupList.designer.cs">
+      <DependentUpon>UserGroupList.cs</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1273,6 +1291,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\CommonMemoEdit.resx">
       <DependentUpon>CommonMemoEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonTree.resx">
+      <DependentUpon>CommonTree.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\ConmmonListBoxControl.resx">
       <DependentUpon>ConmmonListBoxControl.cs</DependentUpon>
@@ -1811,6 +1832,9 @@
     <EmbeddedResource Include="SystemManagementAndTools\MessageSet\MessageSet.resx">
       <DependentUpon>MessageSet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\OperationManagement\OperationList.resx">
+      <DependentUpon>OperationList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\OperationManagement\OperationManagement.resx">
       <DependentUpon>OperationManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -1837,6 +1861,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\SystemUserMessageManage\UserMessage.resx">
       <DependentUpon>UserMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserGroupManage\UserGroupList.resx">
+      <DependentUpon>UserGroupList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.resx">
       <DependentUpon>UserGroupManage.cs</DependentUpon>

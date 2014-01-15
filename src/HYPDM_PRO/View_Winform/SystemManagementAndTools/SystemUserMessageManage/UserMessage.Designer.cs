@@ -31,11 +31,6 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl = new DevExpress.XtraEditors.GroupControl();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl26 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl25 = new DevExpress.XtraEditors.LabelControl();
@@ -88,15 +83,11 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_Remark_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl)).BeginInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl)).BeginInit();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
-            this.panelControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyUserId_TextEdit.Properties)).BeginInit();
@@ -140,8 +131,8 @@
             // 
             // xtraTabPage2
             // 
+            this.xtraTabPage2.Controls.Add(this.conmmonListBoxControl1);
             this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit);
-            this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl);
             this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit);
             this.xtraTabPage2.Controls.Add(this.labelControl26);
             this.xtraTabPage2.Controls.Add(this.labelControl25);
@@ -207,52 +198,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Size = new System.Drawing.Size(143, 20);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.TabIndex = 62;
-            // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Controls.Add(this.panelControl3);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Location = new System.Drawing.Point(442, 3);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_Grou" +
-                "pControl";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Size = new System.Drawing.Size(273, 507);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.TabIndex = 57;
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.Text = "所属角色";
-            // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Location = new System.Drawing.Point(131, 484);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton" +
-                "";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Size = new System.Drawing.Size(61, 23);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.TabIndex = 1;
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton.Text = "添加(A)";
-            // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Location = new System.Drawing.Point(198, 484);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleBut" +
-                "ton";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Size = new System.Drawing.Size(61, 23);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.TabIndex = 2;
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton.Text = "删除(D)";
-            // 
-            // panelControl3
-            // 
-            this.panelControl3.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl);
-            this.panelControl3.Location = new System.Drawing.Point(2, 21);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(271, 457);
-            this.panelControl3.TabIndex = 7;
-            // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl.Location = new System.Drawing.Point(4, 5);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxC" +
-                "ontrol";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl.Size = new System.Drawing.Size(258, 445);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl.TabIndex = 0;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit
             // 
@@ -687,6 +632,13 @@
             this.panelControl1.Size = new System.Drawing.Size(721, 543);
             this.panelControl1.TabIndex = 17;
             // 
+            // conmmonListBoxControl1
+            // 
+            this.conmmonListBoxControl1.Location = new System.Drawing.Point(460, 3);
+            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl1.TabIndex = 64;
+            // 
             // UserMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -701,11 +653,6 @@
             this.xtraTabPage2.ResumeLayout(false);
             this.xtraTabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl)).EndInit();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
-            this.panelControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyUserId_TextEdit.Properties)).EndInit();
@@ -789,15 +736,11 @@
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserMessage_CompanyId_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl17;
-        private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateRole_GroupControl;
-        private DevExpress.XtraEditors.PanelControl panelControl3;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit;
         private DevExpress.XtraEditors.LabelControl labelControl26;
         private DevExpress.XtraEditors.LabelControl labelControl25;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserMessage_AddRole_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserMessage_DeleteRole_SimpleButton;
-        private DevExpress.XtraEditors.ListBoxControl SystemManagementAndTools_SystemUserMessageManage_UserMessage_ContainRole_ListBoxControl;
         private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_SystemUserMessageManage_UserMessage_Remark_MemoEdit;
+        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl1;
     }
 }

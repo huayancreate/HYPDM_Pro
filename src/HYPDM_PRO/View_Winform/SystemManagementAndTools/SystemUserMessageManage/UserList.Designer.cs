@@ -69,6 +69,7 @@
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.paging1 = new View_Winform.CommonTemplet.paging();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -88,6 +89,7 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Controls.Add(this.paging1);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton);
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton);
@@ -464,6 +466,13 @@
             this.repositoryItemCheckEdit1.AutoHeight = false;
             this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
             // 
+            // paging1
+            // 
+            this.paging1.Location = new System.Drawing.Point(77, 452);
+            this.paging1.Name = "paging1";
+            this.paging1.Size = new System.Drawing.Size(381, 25);
+            this.paging1.TabIndex = 16;
+            // 
             // UserList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -535,6 +544,7 @@
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
+        private CommonTemplet.paging paging1;
 
     }
 }

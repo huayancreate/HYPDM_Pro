@@ -44,6 +44,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.treeList2 = new DevExpress.XtraTreeList.TreeList();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.paging1 = new View_Winform.CommonTemplet.paging();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -59,6 +60,7 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Controls.Add(this.paging1);
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl);
@@ -207,11 +209,18 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.TabIndex = 0;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 
+            // paging1
+            // 
+            this.paging1.Location = new System.Drawing.Point(100, 475);
+            this.paging1.Name = "paging1";
+            this.paging1.Size = new System.Drawing.Size(381, 25);
+            this.paging1.TabIndex = 15;
+            // 
             // OrganizationList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 500);
+            this.ClientSize = new System.Drawing.Size(652, 500);
             this.Controls.Add(this.panelControl1);
             this.Name = "OrganizationList";
             this.Text = "组织机构列表";
@@ -249,5 +258,6 @@
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationType_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit;
+        private CommonTemplet.paging paging1;
     }
 }
