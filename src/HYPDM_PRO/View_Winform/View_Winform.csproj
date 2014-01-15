@@ -118,6 +118,7 @@
     </Compile>
     <Compile Include="CommonTemplet\CommonList.Designer.cs">
       <DependentUpon>CommonList.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonTemplet\CommonCheckEdit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1086,12 +1087,6 @@
     <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.Designer.cs">
       <DependentUpon>InputMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProjectManage\SporadicTaskManage\OfficeTaskManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskManage\OfficeTaskManage.Designer.cs">
-      <DependentUpon>OfficeTaskManage.cs</DependentUpon>
-    </Compile>
     <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1278,6 +1273,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\CommonList.resx">
       <DependentUpon>CommonList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\CommonCheckEdit.resx">
       <DependentUpon>CommonCheckEdit.cs</DependentUpon>
     </EmbeddedResource>
@@ -1761,9 +1757,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\InputMessage.resx">
       <DependentUpon>InputMessage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskManage\OfficeTaskManage.resx">
-      <DependentUpon>OfficeTaskManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.resx">
       <DependentUpon>ProjectTaskManage.cs</DependentUpon>
