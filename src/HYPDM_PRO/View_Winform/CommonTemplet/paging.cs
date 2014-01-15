@@ -9,16 +9,11 @@ using DevExpress.XtraEditors;
 
 namespace View_Winform.CommonTemplet
 {
-    public partial class CommonList : DevExpress.XtraEditors.XtraUserControl
+    public partial class paging : DevExpress.XtraEditors.XtraUserControl
     {
-        public CommonList()
+        public paging()
         {
             InitializeComponent();
-        }
-
-        private void groupControl1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

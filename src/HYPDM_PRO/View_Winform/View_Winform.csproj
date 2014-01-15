@@ -113,12 +113,6 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="CommonTemplet\CommonList.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CommonTemplet\CommonList.Designer.cs">
-      <DependentUpon>CommonList.cs</DependentUpon>
-    </Compile>
     <Compile Include="CommonTemplet\CommonCheckEdit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -137,12 +131,6 @@
     <Compile Include="CommonTemplet\CommonMemoEdit.Designer.cs">
       <DependentUpon>CommonMemoEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="CommonTemplet\CommonTree.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="CommonTemplet\CommonTree.Designer.cs">
-      <DependentUpon>CommonTree.cs</DependentUpon>
-    </Compile>
     <Compile Include="CommonTemplet\ConmmonListBoxControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -160,6 +148,12 @@
     </Compile>
     <Compile Include="CommonTemplet\EditRelevanceInfo.Designer.cs">
       <DependentUpon>EditRelevanceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonTemplet\paging.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\paging.Designer.cs">
+      <DependentUpon>paging.cs</DependentUpon>
     </Compile>
     <Compile Include="DataPortAndIntegration\BOMDataInput\DataInputGuidefour.cs">
       <SubType>Form</SubType>
@@ -1271,9 +1265,6 @@
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommonTemplet\CommonList.resx">
-      <DependentUpon>CommonList.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\CommonCheckEdit.resx">
       <DependentUpon>CommonCheckEdit.cs</DependentUpon>
     </EmbeddedResource>
@@ -1283,9 +1274,6 @@
     <EmbeddedResource Include="CommonTemplet\CommonMemoEdit.resx">
       <DependentUpon>CommonMemoEdit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CommonTemplet\CommonTree.resx">
-      <DependentUpon>CommonTree.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\ConmmonListBoxControl.resx">
       <DependentUpon>ConmmonListBoxControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -1294,6 +1282,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\EditRelevanceInfo.resx">
       <DependentUpon>EditRelevanceInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\paging.resx">
+      <DependentUpon>paging.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataPortAndIntegration\BOMDataInput\DataInputGuidefour.resx">
       <DependentUpon>DataInputGuidefour.cs</DependentUpon>
