@@ -31,30 +31,30 @@
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl5
@@ -81,41 +81,41 @@
             this.labelControl2.TabIndex = 55;
             this.labelControl2.Text = "流水码起始值:";
             // 
-            // checkEdit1
+            // PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(127, 44);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "是";
-            this.checkEdit1.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit1.Size = new System.Drawing.Size(55, 19);
-            this.checkEdit1.TabIndex = 56;
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Location = new System.Drawing.Point(127, 44);
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit";
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties.Caption = "是";
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Size = new System.Drawing.Size(55, 19);
+            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.TabIndex = 56;
             // 
-            // checkEdit2
+            // PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(180, 44);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "否";
-            this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit2.Size = new System.Drawing.Size(55, 19);
-            this.checkEdit2.TabIndex = 57;
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Location = new System.Drawing.Point(180, 44);
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit";
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties.Caption = "否";
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Size = new System.Drawing.Size(55, 19);
+            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.TabIndex = 57;
             // 
-            // checkEdit3
+            // PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit
             // 
-            this.checkEdit3.Location = new System.Drawing.Point(127, 84);
-            this.checkEdit3.Name = "checkEdit3";
-            this.checkEdit3.Properties.Caption = "0";
-            this.checkEdit3.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit3.Size = new System.Drawing.Size(55, 19);
-            this.checkEdit3.TabIndex = 58;
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Location = new System.Drawing.Point(127, 84);
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit";
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties.Caption = "0";
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Size = new System.Drawing.Size(55, 19);
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.TabIndex = 58;
             // 
-            // checkEdit4
+            // PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit
             // 
-            this.checkEdit4.Location = new System.Drawing.Point(180, 83);
-            this.checkEdit4.Name = "checkEdit4";
-            this.checkEdit4.Properties.Caption = "1";
-            this.checkEdit4.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit4.Size = new System.Drawing.Size(55, 19);
-            this.checkEdit4.TabIndex = 59;
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Location = new System.Drawing.Point(180, 83);
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit";
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties.Caption = "1";
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Size = new System.Drawing.Size(55, 19);
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.TabIndex = 59;
             // 
             // labelControl3
             // 
@@ -143,95 +143,95 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.comboBoxEdit1);
-            this.panelControl1.Controls.Add(this.textEdit7);
-            this.panelControl1.Controls.Add(this.textEdit1);
-            this.panelControl1.Controls.Add(this.textEdit6);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl6);
             this.panelControl1.Controls.Add(this.labelControl5);
             this.panelControl1.Controls.Add(this.labelControl4);
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Controls.Add(this.labelControl3);
             this.panelControl1.Controls.Add(this.labelControl2);
-            this.panelControl1.Controls.Add(this.checkEdit4);
-            this.panelControl1.Controls.Add(this.checkEdit1);
-            this.panelControl1.Controls.Add(this.checkEdit3);
-            this.panelControl1.Controls.Add(this.checkEdit2);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit);
             this.panelControl1.Location = new System.Drawing.Point(1, 12);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(471, 123);
             this.panelControl1.TabIndex = 63;
             // 
-            // textEdit6
+            // PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(357, 5);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(102, 20);
-            this.textEdit6.TabIndex = 63;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(116, 5);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(102, 20);
-            this.textEdit1.TabIndex = 64;
-            // 
-            // textEdit7
-            // 
-            this.textEdit7.Location = new System.Drawing.Point(357, 40);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Location = new System.Drawing.Point(357, 84);
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit";
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(102, 20);
-            this.textEdit7.TabIndex = 65;
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Size = new System.Drawing.Size(102, 20);
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.TabIndex = 66;
             // 
-            // comboBoxEdit1
+            // PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(357, 84);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Location = new System.Drawing.Point(357, 40);
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit";
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(102, 20);
-            this.comboBoxEdit1.TabIndex = 66;
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Size = new System.Drawing.Size(102, 20);
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.TabIndex = 65;
             // 
-            // simpleButton5
+            // PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(367, 141);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 65;
-            this.simpleButton5.Text = "取消(C)";
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Location = new System.Drawing.Point(116, 5);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit";
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Size = new System.Drawing.Size(102, 20);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.TabIndex = 64;
             // 
-            // simpleButton6
+            // PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(297, 141);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 64;
-            this.simpleButton6.Text = "确定(O)";
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Location = new System.Drawing.Point(357, 5);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit";
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Size = new System.Drawing.Size(102, 20);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.TabIndex = 63;
+            // 
+            // PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton
+            // 
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Location = new System.Drawing.Point(367, 141);
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Name = "PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton";
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.TabIndex = 65;
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Text = "取消(C)";
+            // 
+            // PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton
+            // 
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Location = new System.Drawing.Point(297, 141);
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Name = "PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton";
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.TabIndex = 64;
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Text = "确定(O)";
             // 
             // AddType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 168);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton6);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton);
             this.Controls.Add(this.panelControl1);
             this.Name = "AddType";
             this.Text = "新增类型";
             this.Load += new System.EventHandler(this.AddType_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -241,19 +241,19 @@
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit3;
-        private DevExpress.XtraEditors.CheckEdit checkEdit4;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton;
     }
 }

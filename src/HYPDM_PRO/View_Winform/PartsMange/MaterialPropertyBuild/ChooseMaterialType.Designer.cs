@@ -28,48 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList)).BeginInit();
             this.SuspendLayout();
             // 
-            // textEdit6
+            // PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(3, 3);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(242, 20);
-            this.textEdit6.TabIndex = 53;
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Location = new System.Drawing.Point(3, 3);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit" +
+                "";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Size = new System.Drawing.Size(242, 20);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.TabIndex = 53;
             // 
-            // simpleButton5
+            // PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(251, 0);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 61;
-            this.simpleButton5.Text = "定位(L)";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Location = new System.Drawing.Point(251, 0);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleBu" +
+                "tton";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.TabIndex = 61;
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Text = "定位(L)";
             // 
-            // treeList1
+            // PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.treeList1.Location = new System.Drawing.Point(3, 29);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Location = new System.Drawing.Point(3, 29);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.BeginUnboundLoad();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
             "VB测试,测试B"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
             "测试C"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
             "测试C1"}, 1);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(315, 258);
-            this.treeList1.TabIndex = 68;
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.EndUnboundLoad();
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Size = new System.Drawing.Size(315, 258);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.TabIndex = 68;
             // 
             // treeListColumn1
             // 
@@ -80,47 +82,49 @@
             this.treeListColumn1.Visible = true;
             this.treeListColumn1.VisibleIndex = 0;
             // 
-            // simpleButton4
+            // PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(145, 293);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 69;
-            this.simpleButton4.Text = "确定(O)";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Location = new System.Drawing.Point(145, 293);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleBut" +
+                "ton";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.TabIndex = 69;
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Text = "确定(O)";
             // 
-            // simpleButton1
+            // PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(206, 293);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 70;
-            this.simpleButton1.Text = "取消(C)";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Location = new System.Drawing.Point(206, 293);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButt" +
+                "on";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.TabIndex = 70;
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Text = "取消(C)";
             // 
             // ChooseMaterialType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(318, 320);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.textEdit6);
+            this.Controls.Add(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList);
+            this.Controls.Add(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit);
             this.Name = "ChooseMaterialType";
             this.Text = "选择物料类型";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton;
+        private DevExpress.XtraTreeList.TreeList PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton;
     }
 }

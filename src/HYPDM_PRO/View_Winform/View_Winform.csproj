@@ -113,6 +113,252 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.Designer.cs">
+      <DependentUpon>AddMaterialInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPegging\MaterialPegging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPegging\MaterialPegging.Designer.cs">
+      <DependentUpon>MaterialPegging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPropertyBuild\AddMaterialProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPropertyBuild\AddMaterialProperty.Designer.cs">
+      <DependentUpon>AddMaterialProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPropertyBuild\ChooseMaterialType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPropertyBuild\ChooseMaterialType.Designer.cs">
+      <DependentUpon>ChooseMaterialType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPropertyBuild\MaterialPropertyBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialPropertyBuild\MaterialPropertyBuild.Designer.cs">
+      <DependentUpon>MaterialPropertyBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialReviewRuleManage\AddReviewRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialReviewRuleManage\AddReviewRule.Designer.cs">
+      <DependentUpon>AddReviewRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialReviewRuleManage\CheckResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialReviewRuleManage\CheckResult.Designer.cs">
+      <DependentUpon>CheckResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.Designer.cs">
+      <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.Designer.cs">
+      <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\ProductCategoryManage\ProductCategoryManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\ProductCategoryManage\ProductCategoryManage.Designer.cs">
+      <DependentUpon>ProductCategoryManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\CreateNewProject\CreateProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\CreateNewProject\CreateProject.Designer.cs">
+      <DependentUpon>CreateProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.Designer.cs">
+      <DependentUpon>PersonnelTaskInquire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.Designer.cs">
+      <DependentUpon>ProjectCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectExport\ProjectExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectExport\ProjectExport.Designer.cs">
+      <DependentUpon>ProjectExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.Designer.cs">
+      <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateAddType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateAddType.Designer.cs">
+      <DependentUpon>CreateAddType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .Designer.cs">
+      <DependentUpon>CreateProjectFlow .cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.Designer.cs">
+      <DependentUpon>ProjectFlowDefinition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.Designer.cs">
+      <DependentUpon>ProjectInputCatalogManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.Designer.cs">
+      <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.Designer.cs">
+      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.Designer.cs">
+      <DependentUpon>CreateProjectDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.Designer.cs">
+      <DependentUpon>FlowAndBOMResolveTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.Designer.cs">
+      <DependentUpon>GanttChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\InputMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\InputMessage.Designer.cs">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\OutputType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\OutputType.Designer.cs">
+      <DependentUpon>OutputType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\ProjectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\ProjectList.Designer.cs">
+      <DependentUpon>ProjectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\StoreFileDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\StoreFileDeploy.Designer.cs">
+      <DependentUpon>StoreFileDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.Designer.cs">
+      <DependentUpon>TaskBasicMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.Designer.cs">
+      <DependentUpon>TaskPlanPassAndDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.Designer.cs">
+      <DependentUpon>TaskRelationBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.Designer.cs">
+      <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.Designer.cs">
+      <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.Designer.cs">
+      <DependentUpon>CreateDocPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.Designer.cs">
+      <DependentUpon>CreateOfficeTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.Designer.cs">
+      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.Designer.cs">
+      <DependentUpon>CreateProjectTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.Designer.cs">
+      <DependentUpon>CreateTechnologyTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.Designer.cs">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.Designer.cs">
+      <DependentUpon>ProjectTaskManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.Designer.cs">
+      <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
+    </Compile>
     <Compile Include="CommonTemplet\CommonCheckEdit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -533,41 +779,11 @@
     <Compile Include="MyTaskBox\WriteEmail.Designer.cs">
       <DependentUpon>WriteEmail.cs</DependentUpon>
     </Compile>
-    <Compile Include="PartsMange\ChooseMaterialType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\ChooseMaterialType.Designer.cs">
-      <DependentUpon>ChooseMaterialType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.Designer.cs">
-      <DependentUpon>AddMaterialInfor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\AddMaterialProperty.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\AddMaterialProperty.Designer.cs">
-      <DependentUpon>AddMaterialProperty.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\AddReviewRule.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\AddReviewRule.Designer.cs">
-      <DependentUpon>AddReviewRule.cs</DependentUpon>
-    </Compile>
     <Compile Include="PartsMange\MaterialBankManage\AddType.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PartsMange\MaterialBankManage\AddType.Designer.cs">
       <DependentUpon>AddType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\CheckResult.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\CheckResult.Designer.cs">
-      <DependentUpon>CheckResult.cs</DependentUpon>
     </Compile>
     <Compile Include="PartsMange\MaterialBankManage\CustomExportItem.cs">
       <SubType>Form</SubType>
@@ -586,36 +802,6 @@
     </Compile>
     <Compile Include="PartsMange\MaterialBankManage\MaterialBankManage.Designer.cs">
       <DependentUpon>MaterialBankManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MaterialPegging.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MaterialPegging.Designer.cs">
-      <DependentUpon>MaterialPegging.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MaterialPropertyBuild.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MaterialPropertyBuild.Designer.cs">
-      <DependentUpon>MaterialPropertyBuild.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MaterialReviewRuleManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MaterialReviewRuleManage.Designer.cs">
-      <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MeasurementUnitBuild.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\MeasurementUnitBuild.Designer.cs">
-      <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\ProductCategoryManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PartsMange\MaterialBankManage\ProductCategoryManage.Designer.cs">
-      <DependentUpon>ProductCategoryManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Person.cs" />
     <Compile Include="ProductProcessManage\AddAssemblyProcess.cs">
@@ -913,192 +1099,6 @@
       <DependentUpon>SupplierManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="ProjectManage\CreateNewProject\CreateProject.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\CreateNewProject\CreateProject.Designer.cs">
-      <DependentUpon>CreateProject.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.Designer.cs">
-      <DependentUpon>PersonnelTaskInquire.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.Designer.cs">
-      <DependentUpon>ProjectCalendar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectExport\ProjectExport.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectExport\ProjectExport.Designer.cs">
-      <DependentUpon>ProjectExport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.Designer.cs">
-      <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateAddType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateAddType.Designer.cs">
-      <DependentUpon>CreateAddType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .Designer.cs">
-      <DependentUpon>CreateProjectFlow .cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.Designer.cs">
-      <DependentUpon>ProjectFlowDefinition.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.Designer.cs">
-      <DependentUpon>ProjectInputCatalogManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.Designer.cs">
-      <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.Designer.cs">
-      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.Designer.cs">
-      <DependentUpon>CreateProjectDoc.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.Designer.cs">
-      <DependentUpon>FlowAndBOMResolveTask.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.Designer.cs">
-      <DependentUpon>GanttChart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\InputMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\InputMessage.Designer.cs">
-      <DependentUpon>InputMessage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\OutputType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\OutputType.Designer.cs">
-      <DependentUpon>OutputType.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\ProjectList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\ProjectList.Designer.cs">
-      <DependentUpon>ProjectList.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\StoreFileDeploy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\StoreFileDeploy.Designer.cs">
-      <DependentUpon>StoreFileDeploy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.Designer.cs">
-      <DependentUpon>TaskBasicMessage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.Designer.cs">
-      <DependentUpon>TaskPlanPassAndDelete.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.Designer.cs">
-      <DependentUpon>TaskRelationBuild.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.Designer.cs">
-      <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.Designer.cs">
-      <DependentUpon>CreateDocPackage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.Designer.cs">
-      <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.Designer.cs">
-      <DependentUpon>CreateOfficeTask.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.Designer.cs">
-      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.Designer.cs">
-      <DependentUpon>CreateProjectTask.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.Designer.cs">
-      <DependentUpon>CreateTechnologyTask.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.Designer.cs">
-      <DependentUpon>InputMessage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.Designer.cs">
-      <DependentUpon>ProjectTaskManage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.Designer.cs">
-      <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.cs">
       <SubType>Form</SubType>
@@ -1282,6 +1282,129 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
+      <DependentUpon>AddMaterialInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialPegging\MaterialPegging.resx">
+      <DependentUpon>MaterialPegging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialPropertyBuild\AddMaterialProperty.resx">
+      <DependentUpon>AddMaterialProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialPropertyBuild\ChooseMaterialType.resx">
+      <DependentUpon>ChooseMaterialType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialPropertyBuild\MaterialPropertyBuild.resx">
+      <DependentUpon>MaterialPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialReviewRuleManage\AddReviewRule.resx">
+      <DependentUpon>AddReviewRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialReviewRuleManage\CheckResult.resx">
+      <DependentUpon>CheckResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.resx">
+      <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.resx">
+      <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\ProductCategoryManage\ProductCategoryManage.resx">
+      <DependentUpon>ProductCategoryManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\CreateNewProject\CreateProject.resx">
+      <DependentUpon>CreateProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.resx">
+      <DependentUpon>PersonnelTaskInquire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.resx">
+      <DependentUpon>ProjectCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectExport\ProjectExport.resx">
+      <DependentUpon>ProjectExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.resx">
+      <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateAddType.resx">
+      <DependentUpon>CreateAddType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .resx">
+      <DependentUpon>CreateProjectFlow .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.resx">
+      <DependentUpon>ProjectFlowDefinition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.resx">
+      <DependentUpon>ProjectInputCatalogManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.resx">
+      <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.resx">
+      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.resx">
+      <DependentUpon>CreateProjectDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.resx">
+      <DependentUpon>FlowAndBOMResolveTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\GanttChart.resx">
+      <DependentUpon>GanttChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\InputMessage.resx">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\OutputType.resx">
+      <DependentUpon>OutputType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\ProjectList.resx">
+      <DependentUpon>ProjectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\StoreFileDeploy.resx">
+      <DependentUpon>StoreFileDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.resx">
+      <DependentUpon>TaskBasicMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.resx">
+      <DependentUpon>TaskPlanPassAndDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.resx">
+      <DependentUpon>TaskRelationBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.resx">
+      <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.resx">
+      <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.resx">
+      <DependentUpon>CreateDocPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.resx">
+      <DependentUpon>CreateOfficeTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.resx">
+      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.resx">
+      <DependentUpon>CreateProjectTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.resx">
+      <DependentUpon>CreateTechnologyTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\InputMessage.resx">
+      <DependentUpon>InputMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.resx">
+      <DependentUpon>ProjectTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.resx">
+      <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonTemplet\CommonCheckEdit.resx">
       <DependentUpon>CommonCheckEdit.cs</DependentUpon>
@@ -1494,23 +1617,8 @@
     <EmbeddedResource Include="MyTaskBox\WriteEmail.resx">
       <DependentUpon>WriteEmail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\ChooseMaterialType.resx">
-      <DependentUpon>ChooseMaterialType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
-      <DependentUpon>AddMaterialInfor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialProperty.resx">
-      <DependentUpon>AddMaterialProperty.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\AddReviewRule.resx">
-      <DependentUpon>AddReviewRule.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddType.resx">
       <DependentUpon>AddType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\CheckResult.resx">
-      <DependentUpon>CheckResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\CustomExportItem.resx">
       <DependentUpon>CustomExportItem.cs</DependentUpon>
@@ -1520,21 +1628,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialBankManage.resx">
       <DependentUpon>MaterialBankManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialPegging.resx">
-      <DependentUpon>MaterialPegging.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialPropertyBuild.resx">
-      <DependentUpon>MaterialPropertyBuild.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialReviewRuleManage.resx">
-      <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\MeasurementUnitBuild.resx">
-      <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PartsMange\MaterialBankManage\ProductCategoryManage.resx">
-      <DependentUpon>ProductCategoryManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductProcessManage\AddAssemblyProcess.resx">
       <DependentUpon>AddAssemblyProcess.cs</DependentUpon>
@@ -1683,99 +1776,6 @@
     <EmbeddedResource Include="ProductStructureManage\SupplierManage\SupplierManage.resx">
       <DependentUpon>SupplierManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\CreateNewProject\CreateProject.resx">
-      <DependentUpon>CreateProject.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\PersonnelTaskInquire\PersonnelTaskInquire.resx">
-      <DependentUpon>PersonnelTaskInquire.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectCalendarBuild\ProjectCalendar.resx">
-      <DependentUpon>ProjectCalendar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectExport\ProjectExport.resx">
-      <DependentUpon>ProjectExport.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.resx">
-      <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateAddType.resx">
-      <DependentUpon>CreateAddType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .resx">
-      <DependentUpon>CreateProjectFlow .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.resx">
-      <DependentUpon>ProjectFlowDefinition.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ProjectInputCatalogManage.resx">
-      <DependentUpon>ProjectInputCatalogManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.resx">
-      <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.resx">
-      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.resx">
-      <DependentUpon>CreateProjectDoc.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.resx">
-      <DependentUpon>FlowAndBOMResolveTask.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\GanttChart.resx">
-      <DependentUpon>GanttChart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\InputMessage.resx">
-      <DependentUpon>InputMessage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\OutputType.resx">
-      <DependentUpon>OutputType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\ProjectList.resx">
-      <DependentUpon>ProjectList.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\StoreFileDeploy.resx">
-      <DependentUpon>StoreFileDeploy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.resx">
-      <DependentUpon>TaskBasicMessage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.resx">
-      <DependentUpon>TaskPlanPassAndDelete.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.resx">
-      <DependentUpon>TaskRelationBuild.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.resx">
-      <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.resx">
-      <DependentUpon>CreateDocPackage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.resx">
-      <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.resx">
-      <DependentUpon>CreateOfficeTask.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateProductDeploy.resx">
-      <DependentUpon>CreateProductDeploy.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateProjectTask.resx">
-      <DependentUpon>CreateProjectTask.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateTechnologyTask.resx">
-      <DependentUpon>CreateTechnologyTask.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\InputMessage.resx">
-      <DependentUpon>InputMessage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.resx">
-      <DependentUpon>ProjectTaskManage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\SporadicTaskStatistics\SporadicTaskStatistics.resx">
-      <DependentUpon>SporadicTaskStatistics.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -1872,6 +1872,9 @@
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="bin\Debug\View_Winform.exe.config" />
+    <None Include="bin\Debug\View_Winform.vshost.exe.config" />
+    <None Include="bin\Debug\View_Winform.vshost.exe.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -1897,8 +1900,12 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\View_Winform.vshost.exe" />
+    <Content Include="ProjectManage\ReadMe.txt" />
     <Content Include="DocManage\ApprovalFlowDefinition\ReadMe.txt" />
     <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />
     <Content Include="DocManage\DocTemplateCategoryManage\ReadMe.txt" />

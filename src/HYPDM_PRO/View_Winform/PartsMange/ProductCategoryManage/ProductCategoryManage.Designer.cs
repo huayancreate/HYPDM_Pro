@@ -28,23 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -52,8 +46,14 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -61,53 +61,57 @@
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl)).BeginInit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl)).BeginInit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             this.SuspendLayout();
             // 
-            // simpleButton5
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(1, 1);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(35, 23);
-            this.simpleButton5.TabIndex = 61;
-            this.simpleButton5.Text = "图";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton.Location = new System.Drawing.Point(1, 1);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_Sim" +
+                "pleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton.Size = new System.Drawing.Size(35, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton.TabIndex = 61;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton.Text = "图";
             // 
-            // simpleButton1
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(56, 1);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(35, 23);
-            this.simpleButton1.TabIndex = 62;
-            this.simpleButton1.Text = "图";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton.Location = new System.Drawing.Point(56, 1);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_Sim" +
+                "pleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton.Size = new System.Drawing.Size(35, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton.TabIndex = 62;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton.Text = "图";
             // 
-            // simpleButton2
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(106, 1);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(35, 23);
-            this.simpleButton2.TabIndex = 63;
-            this.simpleButton2.Text = "图";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton.Location = new System.Drawing.Point(106, 1);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_Sim" +
+                "pleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton.Size = new System.Drawing.Size(35, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton.TabIndex = 63;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton.Text = "图";
             // 
-            // simpleButton3
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(162, 1);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(35, 23);
-            this.simpleButton3.TabIndex = 64;
-            this.simpleButton3.Text = "图";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.Location = new System.Drawing.Point(162, 1);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_Sim" +
+                "pleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.Size = new System.Drawing.Size(35, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.TabIndex = 64;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.Text = "图";
             // 
             // labelControl5
             // 
@@ -117,40 +121,40 @@
             this.labelControl5.TabIndex = 65;
             this.labelControl5.Text = "分类:";
             // 
-            // textEdit6
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(36, 27);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(120, 20);
-            this.textEdit6.TabIndex = 66;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Location = new System.Drawing.Point(36, 27);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Size = new System.Drawing.Size(120, 20);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.TabIndex = 66;
             // 
-            // simpleButton4
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(162, 24);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(35, 23);
-            this.simpleButton4.TabIndex = 67;
-            this.simpleButton4.Text = "查";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Location = new System.Drawing.Point(162, 24);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Size = new System.Drawing.Size(35, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.TabIndex = 67;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Text = "查询";
             // 
-            // treeList1
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.treeList1.Location = new System.Drawing.Point(1, 53);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Location = new System.Drawing.Point(1, 53);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.BeginUnboundLoad();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.AppendNode(new object[] {
             "产地"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.AppendNode(new object[] {
             "国外"}, 0);
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.AppendNode(new object[] {
             "类型"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.AppendNode(new object[] {
             "类型1"}, 2);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(196, 497);
-            this.treeList1.TabIndex = 68;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.EndUnboundLoad();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Size = new System.Drawing.Size(196, 497);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.TabIndex = 68;
             // 
             // treeListColumn1
             // 
@@ -161,79 +165,31 @@
             this.treeListColumn1.Visible = true;
             this.treeListColumn1.VisibleIndex = 0;
             // 
-            // groupControl1
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.gridControl1);
-            this.groupControl1.Controls.Add(this.simpleButton7);
-            this.groupControl1.Controls.Add(this.simpleButton6);
-            this.groupControl1.Controls.Add(this.textEdit1);
-            this.groupControl1.Controls.Add(this.comboBoxEdit2);
-            this.groupControl1.Controls.Add(this.comboBoxEdit1);
-            this.groupControl1.Controls.Add(this.textEdit7);
-            this.groupControl1.Location = new System.Drawing.Point(203, 1);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(541, 218);
-            this.groupControl1.TabIndex = 69;
-            this.groupControl1.Text = "产品信息类型";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Location = new System.Drawing.Point(203, 1);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupCo" +
+                "ntrol";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Size = new System.Drawing.Size(541, 218);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.TabIndex = 69;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Text = "产品信息类型";
             // 
-            // textEdit7
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl
             // 
-            this.textEdit7.Location = new System.Drawing.Point(5, 25);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(51, 20);
-            this.textEdit7.TabIndex = 51;
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(73, 26);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(51, 20);
-            this.comboBoxEdit1.TabIndex = 52;
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(139, 25);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(51, 20);
-            this.comboBoxEdit2.TabIndex = 53;
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(213, 25);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(212, 20);
-            this.textEdit1.TabIndex = 54;
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(431, 22);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(50, 23);
-            this.simpleButton6.TabIndex = 61;
-            this.simpleButton6.Text = "查询(Q)";
-            // 
-            // simpleButton7
-            // 
-            this.simpleButton7.Location = new System.Drawing.Point(486, 22);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(50, 23);
-            this.simpleButton7.TabIndex = 62;
-            this.simpleButton7.Text = "关联(I)";
-            // 
-            // gridControl1
-            // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 52);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(536, 166);
-            this.gridControl1.TabIndex = 67;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.Location = new System.Drawing.Point(0, 52);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.MainView = this.gridView1;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridCon" +
+                "trol";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.Size = new System.Drawing.Size(536, 166);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.TabIndex = 67;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -245,7 +201,7 @@
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -290,23 +246,79 @@
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             // 
-            // groupControl2
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton
             // 
-            this.groupControl2.Controls.Add(this.gridControl2);
-            this.groupControl2.Location = new System.Drawing.Point(203, 225);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(536, 325);
-            this.groupControl2.TabIndex = 70;
-            this.groupControl2.Text = "关联产品信息";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Location = new System.Drawing.Point(486, 22);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Size = new System.Drawing.Size(50, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.TabIndex = 62;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Text = "关联(I)";
             // 
-            // gridControl2
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton
             // 
-            this.gridControl2.Location = new System.Drawing.Point(0, 25);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(536, 300);
-            this.gridControl2.TabIndex = 68;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Location = new System.Drawing.Point(431, 22);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Size = new System.Drawing.Size(50, 23);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.TabIndex = 61;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Text = "查询(Q)";
+            // 
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit
+            // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Location = new System.Drawing.Point(213, 25);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdi" +
+                "t";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Size = new System.Drawing.Size(212, 20);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.TabIndex = 54;
+            // 
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn
+            // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Location = new System.Drawing.Point(139, 25);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboB" +
+                "oxEditn";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Size = new System.Drawing.Size(51, 20);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.TabIndex = 53;
+            // 
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn
+            // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Location = new System.Drawing.Point(73, 26);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboB" +
+                "oxEditn";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Size = new System.Drawing.Size(51, 20);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.TabIndex = 52;
+            // 
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn
+            // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Location = new System.Drawing.Point(5, 25);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboB" +
+                "oxEditn";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Size = new System.Drawing.Size(51, 20);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.TabIndex = 51;
+            // 
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl
+            // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Location = new System.Drawing.Point(203, 225);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_Gr" +
+                "oupControl";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Size = new System.Drawing.Size(536, 325);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.TabIndex = 70;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Text = "关联产品信息";
+            // 
+            // PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl
+            // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Location = new System.Drawing.Point(0, 25);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.MainView = this.gridView2;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_Gr" +
+                "idControl";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Size = new System.Drawing.Size(536, 300);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.TabIndex = 68;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -318,7 +330,7 @@
             this.gridColumn10,
             this.gridColumn11,
             this.gridColumn12});
-            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.GridControl = this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl;
             this.gridView2.Name = "gridView2";
             // 
             // gridColumn7
@@ -368,31 +380,31 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 551);
-            this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.textEdit6);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit);
             this.Controls.Add(this.labelControl5);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton5);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton);
+            this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton);
             this.Name = "ProductCategoryManage";
             this.Text = "产品分类管理";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl)).EndInit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl)).EndInit();
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -401,23 +413,23 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraEditors.TextEdit PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton;
+        private DevExpress.XtraTreeList.TreeList PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.GroupControl PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn;
+        private DevExpress.XtraEditors.TextEdit PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton;
+        private DevExpress.XtraGrid.GridControl PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -425,8 +437,8 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraEditors.GroupControl PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl;
+        private DevExpress.XtraGrid.GridControl PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;

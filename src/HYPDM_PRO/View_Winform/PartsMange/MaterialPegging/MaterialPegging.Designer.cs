@@ -28,37 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.comboBoxEdit4 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -67,16 +69,12 @@
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
-            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
-            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridControl4 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -84,23 +82,27 @@
             this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl = new DevExpress.XtraGrid.GridControl();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl5 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn25 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn26 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridControl6 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn27 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -108,86 +110,84 @@
             this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl)).BeginInit();
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.xtraTabPage2.SuspendLayout();
-            this.xtraTabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
+            this.xtraTabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
             this.SuspendLayout();
             // 
-            // textEdit7
+            // PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit
             // 
-            this.textEdit7.Location = new System.Drawing.Point(87, 3);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.Location = new System.Drawing.Point(87, 3);
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit";
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.textEdit7.Size = new System.Drawing.Size(83, 20);
-            this.textEdit7.TabIndex = 51;
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.Size = new System.Drawing.Size(83, 20);
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.TabIndex = 51;
             // 
-            // comboBoxEdit1
+            // PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit
             // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(176, 3);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.Location = new System.Drawing.Point(176, 3);
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit";
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(83, 20);
-            this.comboBoxEdit1.TabIndex = 52;
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.Size = new System.Drawing.Size(83, 20);
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.TabIndex = 52;
             // 
-            // comboBoxEdit2
+            // PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit
             // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(0, 3);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.Location = new System.Drawing.Point(0, 3);
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit";
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(83, 20);
-            this.comboBoxEdit2.TabIndex = 53;
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.Size = new System.Drawing.Size(83, 20);
+            this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.TabIndex = 53;
             // 
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.labelControl2);
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Controls.Add(this.labelControl5);
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Controls.Add(this.simpleButton7);
-            this.panelControl1.Controls.Add(this.simpleButton5);
-            this.panelControl1.Controls.Add(this.simpleButton4);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.comboBoxEdit4);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.groupControl2);
-            this.panelControl1.Controls.Add(this.groupControl1);
-            this.panelControl1.Controls.Add(this.checkEdit2);
-            this.panelControl1.Controls.Add(this.checkEdit1);
-            this.panelControl1.Controls.Add(this.comboBoxEdit2);
-            this.panelControl1.Controls.Add(this.comboBoxEdit1);
-            this.panelControl1.Controls.Add(this.textEdit7);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit);
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(404, 544);
@@ -218,92 +218,108 @@
             this.labelControl5.Text = "共查询出";
             this.labelControl5.Click += new System.EventHandler(this.labelControl5_Click);
             // 
-            // simpleButton1
+            // PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(341, 489);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(56, 23);
-            this.simpleButton1.TabIndex = 91;
-            this.simpleButton1.Text = "反查";
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Location = new System.Drawing.Point(341, 489);
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Size = new System.Drawing.Size(56, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.TabIndex = 91;
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Text = "反查";
             // 
-            // simpleButton7
+            // PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(307, 463);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(34, 23);
-            this.simpleButton7.TabIndex = 88;
-            this.simpleButton7.Text = "尾页";
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Location = new System.Drawing.Point(307, 463);
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton";
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Size = new System.Drawing.Size(34, 23);
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.TabIndex = 88;
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Text = "尾页";
             // 
-            // simpleButton5
+            // PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(267, 463);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(34, 23);
-            this.simpleButton5.TabIndex = 90;
-            this.simpleButton5.Text = "下页";
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Location = new System.Drawing.Point(267, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Size = new System.Drawing.Size(34, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.TabIndex = 90;
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Text = "下页";
             // 
-            // simpleButton4
+            // PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(231, 463);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(32, 23);
-            this.simpleButton4.TabIndex = 89;
-            this.simpleButton4.Text = "上页";
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Location = new System.Drawing.Point(231, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Size = new System.Drawing.Size(32, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.TabIndex = 89;
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Text = "上页";
             // 
-            // simpleButton2
+            // PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(194, 463);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(34, 23);
-            this.simpleButton2.TabIndex = 87;
-            this.simpleButton2.Text = "首页";
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Location = new System.Drawing.Point(194, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Size = new System.Drawing.Size(34, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.TabIndex = 87;
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Text = "首页";
             // 
-            // comboBoxEdit4
+            // PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit
             // 
-            this.comboBoxEdit4.Location = new System.Drawing.Point(346, 463);
-            this.comboBoxEdit4.Name = "comboBoxEdit4";
-            this.comboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Location = new System.Drawing.Point(346, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit";
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit4.Properties.Items.AddRange(new object[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Properties.Items.AddRange(new object[] {
             "第一页"});
-            this.comboBoxEdit4.Size = new System.Drawing.Size(51, 20);
-            this.comboBoxEdit4.TabIndex = 86;
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Size = new System.Drawing.Size(51, 20);
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.TabIndex = 86;
             // 
             // groupControl2
             // 
-            this.groupControl2.Controls.Add(this.listBoxControl2);
+            this.groupControl2.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl);
             this.groupControl2.Location = new System.Drawing.Point(0, 195);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(399, 253);
             this.groupControl2.TabIndex = 67;
             this.groupControl2.Text = "查询条件";
             // 
-            // groupControl1
+            // PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl
             // 
-            this.groupControl1.Controls.Add(this.listBoxControl1);
-            this.groupControl1.Location = new System.Drawing.Point(0, 29);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(399, 160);
-            this.groupControl1.TabIndex = 66;
-            this.groupControl1.Text = "查询条件";
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Location = new System.Drawing.Point(2, 22);
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Name = "PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Size = new System.Drawing.Size(395, 229);
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.TabIndex = 64;
             // 
-            // checkEdit2
+            // PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(321, 4);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "或者";
-            this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit2.Size = new System.Drawing.Size(50, 19);
-            this.checkEdit2.TabIndex = 55;
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl);
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.Location = new System.Drawing.Point(0, 29);
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.Name = "PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl";
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.Size = new System.Drawing.Size(399, 160);
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.TabIndex = 66;
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.Text = "查询条件";
             // 
-            // checkEdit1
+            // PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(265, 4);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "而且";
-            this.checkEdit1.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit1.Size = new System.Drawing.Size(50, 19);
-            this.checkEdit1.TabIndex = 54;
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl.Location = new System.Drawing.Point(2, 22);
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl.Name = "PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl.Size = new System.Drawing.Size(395, 136);
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl.TabIndex = 63;
+            // 
+            // PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit
+            // 
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Location = new System.Drawing.Point(321, 4);
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit";
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Properties.Caption = "或者";
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Size = new System.Drawing.Size(50, 19);
+            this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.TabIndex = 55;
+            // 
+            // PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit
+            // 
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Location = new System.Drawing.Point(265, 4);
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit";
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Properties.Caption = "而且";
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Size = new System.Drawing.Size(50, 19);
+            this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.TabIndex = 54;
             // 
             // xtraTabControl1
             // 
@@ -319,32 +335,32 @@
             // 
             // xtraTabPage1
             // 
-            this.xtraTabPage1.Controls.Add(this.simpleButton6);
-            this.xtraTabPage1.Controls.Add(this.simpleButton3);
+            this.xtraTabPage1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton);
+            this.xtraTabPage1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton);
             this.xtraTabPage1.Controls.Add(this.labelControl6);
             this.xtraTabPage1.Controls.Add(this.labelControl4);
             this.xtraTabPage1.Controls.Add(this.labelControl3);
-            this.xtraTabPage1.Controls.Add(this.gridControl2);
-            this.xtraTabPage1.Controls.Add(this.gridControl1);
+            this.xtraTabPage1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl);
+            this.xtraTabPage1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl);
             this.xtraTabPage1.Name = "xtraTabPage1";
             this.xtraTabPage1.Size = new System.Drawing.Size(408, 495);
             this.xtraTabPage1.Text = "设计BOM区";
             // 
-            // simpleButton6
+            // PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(276, 177);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 73;
-            this.simpleButton6.Text = "输出(V)";
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Location = new System.Drawing.Point(276, 177);
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.TabIndex = 73;
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Text = "输出(V)";
             // 
-            // simpleButton3
+            // PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(205, 177);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 72;
-            this.simpleButton3.Text = "浏览(B)";
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Location = new System.Drawing.Point(205, 177);
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.TabIndex = 72;
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Text = "浏览(B)";
             // 
             // labelControl6
             // 
@@ -370,14 +386,14 @@
             this.labelControl3.TabIndex = 69;
             this.labelControl3.Text = "该零件在BOM中使用了";
             // 
-            // gridControl2
+            // PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl
             // 
-            this.gridControl2.Location = new System.Drawing.Point(0, 233);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(409, 259);
-            this.gridControl2.TabIndex = 68;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.Location = new System.Drawing.Point(0, 233);
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.MainView = this.gridView2;
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.Size = new System.Drawing.Size(409, 259);
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.TabIndex = 68;
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -387,7 +403,7 @@
             this.gridColumn8,
             this.gridColumn9,
             this.gridColumn10});
-            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl;
             this.gridView2.Name = "gridView2";
             // 
             // gridColumn7
@@ -418,14 +434,14 @@
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 3;
             // 
-            // gridControl1
+            // PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(-1, 0);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(409, 163);
-            this.gridControl1.TabIndex = 67;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.Location = new System.Drawing.Point(-1, 0);
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.MainView = this.gridView1;
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.Size = new System.Drawing.Size(409, 163);
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.TabIndex = 67;
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -437,7 +453,7 @@
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -484,102 +500,65 @@
             // 
             // xtraTabPage2
             // 
-            this.xtraTabPage2.Controls.Add(this.simpleButton8);
-            this.xtraTabPage2.Controls.Add(this.simpleButton9);
+            this.xtraTabPage2.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton);
             this.xtraTabPage2.Controls.Add(this.labelControl7);
             this.xtraTabPage2.Controls.Add(this.labelControl8);
             this.xtraTabPage2.Controls.Add(this.labelControl9);
-            this.xtraTabPage2.Controls.Add(this.gridControl4);
-            this.xtraTabPage2.Controls.Add(this.gridControl3);
+            this.xtraTabPage2.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl);
+            this.xtraTabPage2.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl);
             this.xtraTabPage2.Name = "xtraTabPage2";
             this.xtraTabPage2.Size = new System.Drawing.Size(408, 495);
             this.xtraTabPage2.Text = "工作BOM区";
             // 
-            // xtraTabPage3
+            // PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton
             // 
-            this.xtraTabPage3.Controls.Add(this.simpleButton10);
-            this.xtraTabPage3.Controls.Add(this.simpleButton11);
-            this.xtraTabPage3.Controls.Add(this.labelControl10);
-            this.xtraTabPage3.Controls.Add(this.labelControl11);
-            this.xtraTabPage3.Controls.Add(this.labelControl12);
-            this.xtraTabPage3.Controls.Add(this.gridControl5);
-            this.xtraTabPage3.Controls.Add(this.gridControl6);
-            this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(408, 495);
-            this.xtraTabPage3.Text = "装配工作区";
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Location = new System.Drawing.Point(293, 223);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.TabIndex = 78;
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Text = "输出(V)";
             // 
-            // gridControl3
+            // PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton
             // 
-            this.gridControl3.Location = new System.Drawing.Point(0, 332);
-            this.gridControl3.MainView = this.gridView3;
-            this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(409, 163);
-            this.gridControl3.TabIndex = 68;
-            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView3});
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Location = new System.Drawing.Point(222, 223);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.TabIndex = 77;
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Text = "浏览(B)";
             // 
-            // gridView3
+            // labelControl7
             // 
-            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn11,
-            this.gridColumn12,
-            this.gridColumn13,
-            this.gridColumn14,
-            this.gridColumn15,
-            this.gridColumn16});
-            this.gridView3.GridControl = this.gridControl3;
-            this.gridView3.Name = "gridView3";
+            this.labelControl7.Location = new System.Drawing.Point(188, 232);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(12, 14);
+            this.labelControl7.TabIndex = 76;
+            this.labelControl7.Text = "次";
             // 
-            // gridColumn11
+            // labelControl8
             // 
-            this.gridColumn11.Caption = "BOM名称";
-            this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 0;
+            this.labelControl8.Location = new System.Drawing.Point(161, 232);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(21, 14);
+            this.labelControl8.TabIndex = 75;
+            this.labelControl8.Text = "190";
             // 
-            // gridColumn12
+            // labelControl9
             // 
-            this.gridColumn12.Caption = "BOM版本";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 1;
+            this.labelControl9.Location = new System.Drawing.Point(34, 232);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(121, 14);
+            this.labelControl9.TabIndex = 74;
+            this.labelControl9.Text = "该零件在BOM中使用了";
             // 
-            // gridColumn13
+            // PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl
             // 
-            this.gridColumn13.Caption = "父项件";
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 2;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.Caption = "父项版本";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 3;
-            // 
-            // gridColumn15
-            // 
-            this.gridColumn15.Caption = "数量";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 4;
-            // 
-            // gridColumn16
-            // 
-            this.gridColumn16.Caption = "…";
-            this.gridColumn16.Name = "gridColumn16";
-            this.gridColumn16.Visible = true;
-            this.gridColumn16.VisibleIndex = 5;
-            // 
-            // gridControl4
-            // 
-            this.gridControl4.Location = new System.Drawing.Point(0, 0);
-            this.gridControl4.MainView = this.gridView4;
-            this.gridControl4.Name = "gridControl4";
-            this.gridControl4.Size = new System.Drawing.Size(409, 163);
-            this.gridControl4.TabIndex = 69;
-            this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.Location = new System.Drawing.Point(0, 0);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.MainView = this.gridView4;
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.Size = new System.Drawing.Size(409, 163);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.TabIndex = 69;
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4});
             // 
             // gridView4
@@ -591,7 +570,7 @@
             this.gridColumn20,
             this.gridColumn21,
             this.gridColumn22});
-            this.gridView4.GridControl = this.gridControl4;
+            this.gridView4.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl;
             this.gridView4.Name = "gridView4";
             // 
             // gridColumn17
@@ -636,61 +615,98 @@
             this.gridColumn22.Visible = true;
             this.gridColumn22.VisibleIndex = 5;
             // 
-            // simpleButton8
+            // PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl
             // 
-            this.simpleButton8.Location = new System.Drawing.Point(293, 223);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton8.TabIndex = 78;
-            this.simpleButton8.Text = "输出(V)";
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.Location = new System.Drawing.Point(0, 332);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.MainView = this.gridView3;
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.Size = new System.Drawing.Size(409, 163);
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.TabIndex = 68;
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
             // 
-            // simpleButton9
+            // gridView3
             // 
-            this.simpleButton9.Location = new System.Drawing.Point(222, 223);
-            this.simpleButton9.Name = "simpleButton9";
-            this.simpleButton9.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton9.TabIndex = 77;
-            this.simpleButton9.Text = "浏览(B)";
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn11,
+            this.gridColumn12,
+            this.gridColumn13,
+            this.gridColumn14,
+            this.gridColumn15,
+            this.gridColumn16});
+            this.gridView3.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl;
+            this.gridView3.Name = "gridView3";
             // 
-            // labelControl7
+            // gridColumn11
             // 
-            this.labelControl7.Location = new System.Drawing.Point(188, 232);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(12, 14);
-            this.labelControl7.TabIndex = 76;
-            this.labelControl7.Text = "次";
+            this.gridColumn11.Caption = "BOM名称";
+            this.gridColumn11.Name = "gridColumn11";
+            this.gridColumn11.Visible = true;
+            this.gridColumn11.VisibleIndex = 0;
             // 
-            // labelControl8
+            // gridColumn12
             // 
-            this.labelControl8.Location = new System.Drawing.Point(161, 232);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(21, 14);
-            this.labelControl8.TabIndex = 75;
-            this.labelControl8.Text = "190";
+            this.gridColumn12.Caption = "BOM版本";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.Visible = true;
+            this.gridColumn12.VisibleIndex = 1;
             // 
-            // labelControl9
+            // gridColumn13
             // 
-            this.labelControl9.Location = new System.Drawing.Point(34, 232);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(121, 14);
-            this.labelControl9.TabIndex = 74;
-            this.labelControl9.Text = "该零件在BOM中使用了";
+            this.gridColumn13.Caption = "父项件";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 2;
             // 
-            // simpleButton10
+            // gridColumn14
             // 
-            this.simpleButton10.Location = new System.Drawing.Point(276, 178);
-            this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton10.TabIndex = 80;
-            this.simpleButton10.Text = "输出(V)";
+            this.gridColumn14.Caption = "父项版本";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 3;
             // 
-            // simpleButton11
+            // gridColumn15
             // 
-            this.simpleButton11.Location = new System.Drawing.Point(205, 178);
-            this.simpleButton11.Name = "simpleButton11";
-            this.simpleButton11.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton11.TabIndex = 79;
-            this.simpleButton11.Text = "浏览(B)";
+            this.gridColumn15.Caption = "数量";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 4;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.Caption = "…";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 5;
+            // 
+            // xtraTabPage3
+            // 
+            this.xtraTabPage3.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton);
+            this.xtraTabPage3.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton);
+            this.xtraTabPage3.Controls.Add(this.labelControl10);
+            this.xtraTabPage3.Controls.Add(this.labelControl11);
+            this.xtraTabPage3.Controls.Add(this.labelControl12);
+            this.xtraTabPage3.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl);
+            this.xtraTabPage3.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl);
+            this.xtraTabPage3.Name = "xtraTabPage3";
+            this.xtraTabPage3.Size = new System.Drawing.Size(408, 495);
+            this.xtraTabPage3.Text = "装配工作区";
+            // 
+            // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton
+            // 
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Location = new System.Drawing.Point(276, 178);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.TabIndex = 80;
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Text = "输出(V)";
+            // 
+            // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton
+            // 
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Location = new System.Drawing.Point(205, 178);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton";
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.TabIndex = 79;
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Text = "浏览(B)";
             // 
             // labelControl10
             // 
@@ -716,14 +732,14 @@
             this.labelControl12.TabIndex = 76;
             this.labelControl12.Text = "该零件在BOM中使用了";
             // 
-            // gridControl5
+            // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl
             // 
-            this.gridControl5.Location = new System.Drawing.Point(0, 234);
-            this.gridControl5.MainView = this.gridView5;
-            this.gridControl5.Name = "gridControl5";
-            this.gridControl5.Size = new System.Drawing.Size(409, 259);
-            this.gridControl5.TabIndex = 75;
-            this.gridControl5.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Location = new System.Drawing.Point(0, 234);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.MainView = this.gridView5;
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Size = new System.Drawing.Size(409, 259);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.TabIndex = 75;
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
             // 
             // gridView5
@@ -733,7 +749,7 @@
             this.gridColumn24,
             this.gridColumn25,
             this.gridColumn26});
-            this.gridView5.GridControl = this.gridControl5;
+            this.gridView5.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl;
             this.gridView5.Name = "gridView5";
             // 
             // gridColumn23
@@ -764,14 +780,14 @@
             this.gridColumn26.Visible = true;
             this.gridColumn26.VisibleIndex = 3;
             // 
-            // gridControl6
+            // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl
             // 
-            this.gridControl6.Location = new System.Drawing.Point(-1, 1);
-            this.gridControl6.MainView = this.gridView6;
-            this.gridControl6.Name = "gridControl6";
-            this.gridControl6.Size = new System.Drawing.Size(409, 163);
-            this.gridControl6.TabIndex = 74;
-            this.gridControl6.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.Location = new System.Drawing.Point(-1, 1);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.MainView = this.gridView6;
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl";
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.Size = new System.Drawing.Size(409, 163);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.TabIndex = 74;
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView6});
             // 
             // gridView6
@@ -783,7 +799,7 @@
             this.gridColumn30,
             this.gridColumn31,
             this.gridColumn32});
-            this.gridView6.GridControl = this.gridControl6;
+            this.gridView6.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl;
             this.gridView6.Name = "gridView6";
             // 
             // gridColumn27
@@ -828,22 +844,6 @@
             this.gridColumn32.Visible = true;
             this.gridColumn32.VisibleIndex = 5;
             // 
-            // listBoxControl1
-            // 
-            this.listBoxControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(395, 136);
-            this.listBoxControl1.TabIndex = 63;
-            // 
-            // listBoxControl2
-            // 
-            this.listBoxControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxControl2.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(395, 229);
-            this.listBoxControl2.TabIndex = 64;
-            // 
             // MaterialPegging
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -853,61 +853,61 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "MaterialPegging";
             this.Text = "物料反查";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl)).EndInit();
+            this.PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage1.ResumeLayout(false);
             this.xtraTabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.xtraTabPage2.ResumeLayout(false);
             this.xtraTabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.xtraTabPage3.ResumeLayout(false);
             this.xtraTabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialPegging_MaterialPegging_OrMaterialPegging_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialPegging_MaterialPegging_AndMaterialPegging_CheckEdit;
+        private DevExpress.XtraEditors.GroupControl PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit4;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton;
+        private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit;
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
@@ -915,7 +915,7 @@
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage3;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -923,7 +923,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
@@ -932,14 +932,14 @@
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton9;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.LabelControl labelControl9;
-        private DevExpress.XtraGrid.GridControl gridControl4;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn18;
@@ -947,7 +947,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn20;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn21;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn22;
-        private DevExpress.XtraGrid.GridControl gridControl3;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
@@ -955,18 +955,18 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
-        private DevExpress.XtraEditors.SimpleButton simpleButton10;
-        private DevExpress.XtraEditors.SimpleButton simpleButton11;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private DevExpress.XtraEditors.LabelControl labelControl12;
-        private DevExpress.XtraGrid.GridControl gridControl5;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn23;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn24;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn25;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn26;
-        private DevExpress.XtraGrid.GridControl gridControl6;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn27;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
@@ -974,7 +974,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
+        private DevExpress.XtraEditors.ListBoxControl PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl;
+        private DevExpress.XtraEditors.ListBoxControl PartsMange_MaterialPegging_MaterialPegging_QueryCondition_ListBoxControl;
     }
 }

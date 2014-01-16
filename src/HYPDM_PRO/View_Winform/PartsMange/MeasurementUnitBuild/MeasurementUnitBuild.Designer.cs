@@ -28,64 +28,76 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl)).BeginInit();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupControl1
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.treeList1);
-            this.groupControl1.Location = new System.Drawing.Point(0, 1);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(246, 518);
-            this.groupControl1.TabIndex = 66;
-            this.groupControl1.Text = "计量单位组和计量单位";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Location = new System.Drawing.Point(0, 1);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_Grou" +
+                "pControl";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Size = new System.Drawing.Size(246, 518);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.TabIndex = 66;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Text = "计量单位组和计量单位";
             // 
-            // treeList1
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeList1.Location = new System.Drawing.Point(2, 22);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.Location = new System.Drawing.Point(2, 22);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_Tree" +
+                "List";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.BeginUnboundLoad();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.AppendNode(new object[] {
             "数量单位"}, -1);
-            this.treeList1.AppendNode(new object[] {
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.AppendNode(new object[] {
             "长度单位"}, -1);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(242, 494);
-            this.treeList1.TabIndex = 68;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.EndUnboundLoad();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.Size = new System.Drawing.Size(242, 494);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList.TabIndex = 68;
             // 
-            // gridControl1
+            // treeListColumn1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(264, 1);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(458, 251);
-            this.gridControl1.TabIndex = 67;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.treeListColumn1.Caption = "单位计量组";
+            this.treeListColumn1.FieldName = "单位计量组";
+            this.treeListColumn1.MinWidth = 34;
+            this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.Visible = true;
+            this.treeListColumn1.VisibleIndex = 0;
+            // 
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl
+            // 
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Location = new System.Drawing.Point(264, 1);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.MainView = this.gridView1;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridCon" +
+                "trol";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Size = new System.Drawing.Size(458, 251);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.TabIndex = 67;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -94,7 +106,7 @@
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -118,14 +130,14 @@
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
-            // gridControl2
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl
             // 
-            this.gridControl2.Location = new System.Drawing.Point(264, 258);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(458, 259);
-            this.gridControl2.TabIndex = 68;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Location = new System.Drawing.Point(264, 258);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.MainView = this.gridView2;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Size = new System.Drawing.Size(458, 259);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.TabIndex = 68;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -136,7 +148,7 @@
             this.gridColumn6,
             this.gridColumn7,
             this.gridColumn8});
-            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.GridControl = this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl;
             this.gridView2.Name = "gridView2";
             // 
             // gridColumn4
@@ -174,31 +186,22 @@
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 4;
             // 
-            // treeListColumn1
-            // 
-            this.treeListColumn1.Caption = "单位计量组";
-            this.treeListColumn1.FieldName = "单位计量组";
-            this.treeListColumn1.MinWidth = 34;
-            this.treeListColumn1.Name = "treeListColumn1";
-            this.treeListColumn1.Visible = true;
-            this.treeListColumn1.VisibleIndex = 0;
-            // 
             // MeasurementUnitBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(723, 519);
-            this.Controls.Add(this.gridControl2);
-            this.Controls.Add(this.gridControl1);
-            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl);
             this.Name = "MeasurementUnitBuild";
             this.Text = "计量单位设置";
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl)).EndInit();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             this.ResumeLayout(false);
 
@@ -206,14 +209,14 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.GroupControl PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl;
+        private DevExpress.XtraTreeList.TreeList PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList;
+        private DevExpress.XtraGrid.GridControl PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.GridControl PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;

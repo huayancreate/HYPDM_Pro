@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList = new DevExpress.XtraTreeList.TreeList();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl5
@@ -58,12 +58,12 @@
             this.labelControl5.TabIndex = 50;
             this.labelControl5.Text = "规则名称:";
             // 
-            // textEdit6
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(79, 9);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(398, 20);
-            this.textEdit6.TabIndex = 53;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Location = new System.Drawing.Point(79, 9);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Size = new System.Drawing.Size(398, 20);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.TabIndex = 53;
             // 
             // labelControl1
             // 
@@ -73,28 +73,29 @@
             this.labelControl1.TabIndex = 54;
             this.labelControl1.Text = "选择查重属性:";
             // 
-            // gridControl1
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(1, 61);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(241, 253);
-            this.gridControl1.TabIndex = 67;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.Location = new System.Drawing.Point(1, 61);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.MainView = this.gridView1;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridContro" +
+                "l";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.Size = new System.Drawing.Size(241, 253);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.TabIndex = 67;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl;
             this.gridView1.Name = "gridView1";
             // 
-            // treeList1
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList
             // 
-            this.treeList1.Location = new System.Drawing.Point(248, 61);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(259, 253);
-            this.treeList1.TabIndex = 68;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.Location = new System.Drawing.Point(248, 61);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.Size = new System.Drawing.Size(259, 253);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.TabIndex = 68;
             // 
             // labelControl2
             // 
@@ -104,21 +105,21 @@
             this.labelControl2.TabIndex = 69;
             this.labelControl2.Text = "选择规则范围:";
             // 
-            // simpleButton2
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(338, 406);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 73;
-            this.simpleButton2.Text = "保存(C)";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Location = new System.Drawing.Point(338, 406);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.TabIndex = 73;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Text = "保存(C)";
             // 
-            // simpleButton5
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(399, 406);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 75;
-            this.simpleButton5.Text = "取消(C)";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Location = new System.Drawing.Point(399, 406);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.TabIndex = 75;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Text = "取消(C)";
             // 
             // labelControl3
             // 
@@ -128,55 +129,55 @@
             this.labelControl3.TabIndex = 76;
             this.labelControl3.Text = "备注:";
             // 
-            // listBoxControl1
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(55, 320);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(452, 53);
-            this.listBoxControl1.TabIndex = 77;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Location = new System.Drawing.Point(55, 320);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Size = new System.Drawing.Size(452, 53);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.TabIndex = 77;
             // 
-            // checkEdit1
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(19, 379);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "保存前显示查询结果";
-            this.checkEdit1.Size = new System.Drawing.Size(133, 19);
-            this.checkEdit1.TabIndex = 78;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Location = new System.Drawing.Point(19, 379);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Properties.Caption = "保存前显示查询结果";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Size = new System.Drawing.Size(133, 19);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.TabIndex = 78;
             // 
-            // checkEdit2
+            // PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(19, 404);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "严格查重";
-            this.checkEdit2.Size = new System.Drawing.Size(77, 19);
-            this.checkEdit2.TabIndex = 79;
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Location = new System.Drawing.Point(19, 404);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Properties.Caption = "严格查重";
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Size = new System.Drawing.Size(77, 19);
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.TabIndex = 79;
             // 
             // AddReviewRule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 441);
-            this.Controls.Add(this.checkEdit2);
-            this.Controls.Add(this.checkEdit1);
-            this.Controls.Add(this.listBoxControl1);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl);
             this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton2);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton);
             this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl);
             this.Controls.Add(this.labelControl1);
-            this.Controls.Add(this.textEdit6);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit);
             this.Controls.Add(this.labelControl5);
             this.Name = "AddReviewRule";
             this.Text = "新增查重规则";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,17 +186,17 @@
         #endregion
 
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraTreeList.TreeList PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
+        private DevExpress.XtraEditors.ListBoxControl PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit;
     }
 }

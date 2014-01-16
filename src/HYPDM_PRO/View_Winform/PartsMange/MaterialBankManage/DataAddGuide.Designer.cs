@@ -29,14 +29,8 @@
         private void InitializeComponent()
         {
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -44,9 +38,15 @@
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl5
@@ -57,14 +57,14 @@
             this.labelControl5.TabIndex = 50;
             this.labelControl5.Text = "Excel模板对照格式:";
             // 
-            // gridControl1
+            // PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 45);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(447, 163);
-            this.gridControl1.TabIndex = 67;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.Location = new System.Drawing.Point(0, 45);
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.MainView = this.gridView1;
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.Name = "PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl";
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.Size = new System.Drawing.Size(447, 163);
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.TabIndex = 67;
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -77,56 +77,8 @@
             this.gridColumn5,
             this.gridColumn6,
             this.gridColumn7});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl;
             this.gridView1.Name = "gridView1";
-            // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(12, 235);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(88, 14);
-            this.labelControl1.TabIndex = 68;
-            this.labelControl1.Text = "请选择导入文件:";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(240, 293);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton5.TabIndex = 70;
-            this.simpleButton5.Text = "导出模板(O)";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(382, 293);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 71;
-            this.simpleButton1.Text = "取消(C)";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(321, 293);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 72;
-            this.simpleButton2.Text = "导入(I)";
-            // 
-            // textEdit6
-            // 
-            this.textEdit6.Location = new System.Drawing.Point(-2, 255);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(394, 20);
-            this.textEdit6.TabIndex = 73;
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(398, 252);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(39, 23);
-            this.simpleButton3.TabIndex = 74;
-            this.simpleButton3.Text = "…";
             // 
             // gridColumn1
             // 
@@ -177,24 +129,72 @@
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
             // 
+            // labelControl1
+            // 
+            this.labelControl1.Location = new System.Drawing.Point(12, 235);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(88, 14);
+            this.labelControl1.TabIndex = 68;
+            this.labelControl1.Text = "请选择导入文件:";
+            // 
+            // PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton
+            // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Location = new System.Drawing.Point(240, 293);
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton";
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Size = new System.Drawing.Size(75, 23);
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.TabIndex = 70;
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Text = "导出模板(O)";
+            // 
+            // PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton
+            // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Location = new System.Drawing.Point(382, 293);
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton";
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.TabIndex = 71;
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Text = "取消(C)";
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton
+            // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Location = new System.Drawing.Point(321, 293);
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton";
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.TabIndex = 72;
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Text = "导入(I)";
+            // 
+            // PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit
+            // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Location = new System.Drawing.Point(-2, 255);
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Name = "PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit";
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Size = new System.Drawing.Size(394, 20);
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.TabIndex = 73;
+            // 
+            // PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton
+            // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Location = new System.Drawing.Point(398, 252);
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton";
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Size = new System.Drawing.Size(39, 23);
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.TabIndex = 74;
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Text = "…";
+            // 
             // DataAddGuide
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 340);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.textEdit6);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton5);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton);
             this.Controls.Add(this.labelControl1);
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl);
             this.Controls.Add(this.labelControl5);
             this.Name = "DataAddGuide";
             this.Text = "数据导入向导";
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -203,12 +203,12 @@
         #endregion
 
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
@@ -216,7 +216,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton;
     }
 }

@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -37,34 +37,34 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl)).BeginInit();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupControl1
+            // PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.gridControl1);
-            this.groupControl1.Location = new System.Drawing.Point(1, -1);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(446, 232);
-            this.groupControl1.TabIndex = 66;
-            this.groupControl1.Text = "已有物料";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Location = new System.Drawing.Point(1, -1);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Size = new System.Drawing.Size(446, 232);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.TabIndex = 66;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Text = "已有物料";
             // 
-            // gridControl1
+            // PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 25);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(446, 207);
-            this.gridControl1.TabIndex = 67;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.Location = new System.Drawing.Point(0, 25);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.MainView = this.gridView1;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.Size = new System.Drawing.Size(446, 207);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.TabIndex = 67;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -75,7 +75,7 @@
             this.gridColumn3,
             this.gridColumn4,
             this.gridColumn5});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl;
             this.gridView1.Name = "gridView1";
             // 
             // gridColumn1
@@ -121,63 +121,64 @@
             this.labelControl3.TabIndex = 71;
             this.labelControl3.Text = "物料库中有符合查重规则的物料,请选择已有物料或继续保存或修改物料!";
             // 
-            // simpleButton5
+            // PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(372, 271);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 80;
-            this.simpleButton5.Text = "取消(C)";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Location = new System.Drawing.Point(284, 271);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Size = new System.Drawing.Size(82, 23);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.TabIndex = 79;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Text = "自定义导出(I)";
             // 
-            // simpleButton3
+            // PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(284, 271);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(82, 23);
-            this.simpleButton3.TabIndex = 79;
-            this.simpleButton3.Text = "自定义导出(I)";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Location = new System.Drawing.Point(222, 271);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.TabIndex = 78;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Text = "取消(C)";
             // 
-            // simpleButton2
+            // PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(222, 271);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 78;
-            this.simpleButton2.Text = "取消(C)";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Location = new System.Drawing.Point(138, 271);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Size = new System.Drawing.Size(78, 23);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.TabIndex = 77;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Text = "继续保存(S)";
             // 
-            // simpleButton1
+            // PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(138, 271);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(78, 23);
-            this.simpleButton1.TabIndex = 77;
-            this.simpleButton1.Text = "继续保存(S)";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Location = new System.Drawing.Point(27, 271);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButto" +
+                "n";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Size = new System.Drawing.Size(103, 23);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.TabIndex = 76;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Text = "选择已有物料(L)";
             // 
-            // simpleButton4
+            // PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(27, 271);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(103, 23);
-            this.simpleButton4.TabIndex = 76;
-            this.simpleButton4.Text = "选择已有物料(L)";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Location = new System.Drawing.Point(372, 271);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton";
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.TabIndex = 79;
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Text = "导出(U)";
             // 
             // CheckResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 320);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton4);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton);
             this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl);
             this.Name = "CheckResult";
             this.Text = "查重结果";
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl)).EndInit();
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,8 +187,8 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.GroupControl PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl;
+        private DevExpress.XtraGrid.GridControl PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -195,10 +196,10 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton;
     }
 }
