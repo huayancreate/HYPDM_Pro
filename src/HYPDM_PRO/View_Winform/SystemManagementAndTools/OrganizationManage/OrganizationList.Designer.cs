@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.paging1 = new View_Winform.CommonTemplet.paging();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -44,7 +45,6 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.treeList2 = new DevExpress.XtraTreeList.TreeList();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList = new DevExpress.XtraTreeList.TreeList();
-            this.paging1 = new View_Winform.CommonTemplet.paging();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -68,13 +68,24 @@
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl);
-            this.panelControl1.Location = new System.Drawing.Point(-2, 1);
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(653, 505);
+            this.panelControl1.Size = new System.Drawing.Size(652, 500);
             this.panelControl1.TabIndex = 7;
+            // 
+            // paging1
+            // 
+            this.paging1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.paging1.Location = new System.Drawing.Point(99, 470);
+            this.paging1.Name = "paging1";
+            this.paging1.Size = new System.Drawing.Size(381, 25);
+            this.paging1.TabIndex = 15;
             // 
             // panelControl2
             // 
+            this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl2.Controls.Add(this.labelControl4);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit);
             this.panelControl2.Controls.Add(this.labelControl3);
@@ -83,7 +94,7 @@
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit);
             this.panelControl2.Location = new System.Drawing.Point(6, 5);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(642, 67);
+            this.panelControl2.Size = new System.Drawing.Size(641, 67);
             this.panelControl2.TabIndex = 14;
             // 
             // labelControl4
@@ -136,7 +147,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Location = new System.Drawing.Point(586, 475);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Location = new System.Drawing.Point(585, 470);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganizatio" +
                 "n_SimpleButtonl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
@@ -145,7 +157,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Location = new System.Drawing.Point(589, 78);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Location = new System.Drawing.Point(588, 78);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganizatio" +
                 "n_SimpleButtonl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
@@ -154,7 +167,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Location = new System.Drawing.Point(514, 475);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Location = new System.Drawing.Point(513, 470);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganizati" +
                 "on_SimpleButtonl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
@@ -163,7 +177,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Location = new System.Drawing.Point(459, 78);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Location = new System.Drawing.Point(458, 78);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization" +
                 "_SimpleButtonl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
@@ -173,7 +188,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Location = new System.Drawing.Point(524, 78);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Location = new System.Drawing.Point(523, 78);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_S" +
                 "impleButtonl";
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
@@ -182,12 +198,15 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl
             // 
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.treeList2);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Location = new System.Drawing.Point(0, 107);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListM" +
                 "essage_GroupControl";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Size = new System.Drawing.Size(653, 362);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Size = new System.Drawing.Size(652, 357);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Text = "组织结构列表信息";
             // 
@@ -201,20 +220,14 @@
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Location = new System.Drawing.Point(0, 25);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Location = new System.Drawing.Point(2, 22);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListM" +
                 "essage_TreeList";
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.OptionsPrint.UsePrintStyles = true;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Size = new System.Drawing.Size(653, 337);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Size = new System.Drawing.Size(648, 333);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.TabIndex = 0;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
-            // 
-            // paging1
-            // 
-            this.paging1.Location = new System.Drawing.Point(100, 475);
-            this.paging1.Name = "paging1";
-            this.paging1.Size = new System.Drawing.Size(381, 25);
-            this.paging1.TabIndex = 15;
             // 
             // OrganizationList
             // 

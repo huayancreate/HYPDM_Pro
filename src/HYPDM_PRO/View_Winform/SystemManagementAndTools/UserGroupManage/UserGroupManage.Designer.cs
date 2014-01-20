@@ -48,6 +48,9 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl1.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton);
             this.groupControl1.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit);
             this.groupControl1.Controls.Add(this.SystemManagementAndTools_UserGroupManage_Name_TextEdit);
@@ -61,6 +64,7 @@
             // 
             // SystemManagementAndTools_UserGroupManage_Save_SimpleButton
             // 
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Location = new System.Drawing.Point(334, 151);
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Name = "SystemManagementAndTools_UserGroupManage_Save_SimpleButton";
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -69,6 +73,9 @@
             // 
             // SystemManagementAndTools_UserGroupManage_Describe_MemoEdit
             // 
+            this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Location = new System.Drawing.Point(76, 60);
             this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Name = "SystemManagementAndTools_UserGroupManage_Describe_MemoEdit";
             this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Size = new System.Drawing.Size(355, 62);
@@ -76,6 +83,8 @@
             // 
             // SystemManagementAndTools_UserGroupManage_Name_TextEdit
             // 
+            this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Location = new System.Drawing.Point(76, 34);
             this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Name = "SystemManagementAndTools_UserGroupManage_Name_TextEdit";
             this.SystemManagementAndTools_UserGroupManage_Name_TextEdit.Size = new System.Drawing.Size(355, 20);
@@ -123,6 +132,7 @@
             // 
             // conmmonListBoxControl1
             // 
+            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.conmmonListBoxControl1.Location = new System.Drawing.Point(464, 1);
             this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
             this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
@@ -130,6 +140,7 @@
             // 
             // conmmonListBoxControl2
             // 
+            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.conmmonListBoxControl2.Location = new System.Drawing.Point(464, 243);
             this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
             this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 236);
@@ -144,7 +155,7 @@
             this.Controls.Add(this.conmmonListBoxControl1);
             this.Controls.Add(this.groupControl1);
             this.Name = "UserGroupManage";
-            this.Text = "用户信息";
+            this.Text = "用户组信息";
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();

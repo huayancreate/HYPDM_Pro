@@ -46,6 +46,9 @@
             // 
             // groupControl2
             // 
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton);
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit);
             this.groupControl2.Controls.Add(this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit);
@@ -61,6 +64,7 @@
             // 
             // SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton
             // 
+            this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Location = new System.Drawing.Point(366, 139);
             this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Name = "SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton";
             this.SystemManagementAndTools_OperationManagement_SaveManage_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -69,6 +73,8 @@
             // 
             // SystemManagementAndTools_OperationManagement_FunctionID_TextEdit
             // 
+            this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Location = new System.Drawing.Point(105, 98);
             this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Name = "SystemManagementAndTools_OperationManagement_FunctionID_TextEdit";
             this.SystemManagementAndTools_OperationManagement_FunctionID_TextEdit.Size = new System.Drawing.Size(316, 20);
@@ -76,6 +82,8 @@
             // 
             // SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit
             // 
+            this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Location = new System.Drawing.Point(105, 66);
             this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Name = "SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit";
             this.SystemManagementAndTools_OperationManagement_ParentFunctionName_TextEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -85,6 +93,8 @@
             // 
             // SystemManagementAndTools_OperationManagement_FunctionName_TextEdit
             // 
+            this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Location = new System.Drawing.Point(105, 34);
             this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Name = "SystemManagementAndTools_OperationManagement_FunctionName_TextEdit";
             this.SystemManagementAndTools_OperationManagement_FunctionName_TextEdit.Size = new System.Drawing.Size(316, 20);
@@ -116,6 +126,7 @@
             // 
             // conmmonListBoxControl1
             // 
+            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.conmmonListBoxControl1.Location = new System.Drawing.Point(466, 1);
             this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
             this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.paging1 = new View_Winform.CommonTemplet.paging();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -44,7 +45,6 @@
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.paging1 = new View_Winform.CommonTemplet.paging();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -67,18 +67,29 @@
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_RoleList_Choose_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl);
-            this.panelControl1.Location = new System.Drawing.Point(1, 2);
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(744, 468);
+            this.panelControl1.Size = new System.Drawing.Size(746, 471);
             this.panelControl1.TabIndex = 8;
+            // 
+            // paging1
+            // 
+            this.paging1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.paging1.Location = new System.Drawing.Point(131, 443);
+            this.paging1.Name = "paging1";
+            this.paging1.Size = new System.Drawing.Size(381, 25);
+            this.paging1.TabIndex = 15;
             // 
             // panelControl2
             // 
+            this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl2.Controls.Add(this.labelControl2);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit);
             this.panelControl2.Location = new System.Drawing.Point(5, 4);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(734, 50);
+            this.panelControl2.Size = new System.Drawing.Size(736, 50);
             this.panelControl2.TabIndex = 14;
             // 
             // labelControl2
@@ -98,7 +109,8 @@
             // 
             // SystemManagementAndTools_RoleList_QueryRole_SimpleButton
             // 
-            this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Location = new System.Drawing.Point(545, 60);
+            this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Location = new System.Drawing.Point(547, 60);
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Name = "SystemManagementAndTools_RoleList_QueryRole_SimpleButton";
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.TabIndex = 2;
@@ -106,7 +118,8 @@
             // 
             // SystemManagementAndTools_RoleList_AddRole_SimpleButton
             // 
-            this.SystemManagementAndTools_RoleList_AddRole_SimpleButton.Location = new System.Drawing.Point(611, 60);
+            this.SystemManagementAndTools_RoleList_AddRole_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_RoleList_AddRole_SimpleButton.Location = new System.Drawing.Point(613, 60);
             this.SystemManagementAndTools_RoleList_AddRole_SimpleButton.Name = "SystemManagementAndTools_RoleList_AddRole_SimpleButton";
             this.SystemManagementAndTools_RoleList_AddRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_AddRole_SimpleButton.TabIndex = 3;
@@ -114,7 +127,8 @@
             // 
             // SystemManagementAndTools_RoleList_DeleteRole_SimpleButton
             // 
-            this.SystemManagementAndTools_RoleList_DeleteRole_SimpleButton.Location = new System.Drawing.Point(677, 60);
+            this.SystemManagementAndTools_RoleList_DeleteRole_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_RoleList_DeleteRole_SimpleButton.Location = new System.Drawing.Point(679, 60);
             this.SystemManagementAndTools_RoleList_DeleteRole_SimpleButton.Name = "SystemManagementAndTools_RoleList_DeleteRole_SimpleButton";
             this.SystemManagementAndTools_RoleList_DeleteRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_DeleteRole_SimpleButton.TabIndex = 1;
@@ -122,7 +136,8 @@
             // 
             // SystemManagementAndTools_RoleList_Choose_SimpleButton
             // 
-            this.SystemManagementAndTools_RoleList_Choose_SimpleButton.Location = new System.Drawing.Point(594, 440);
+            this.SystemManagementAndTools_RoleList_Choose_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_RoleList_Choose_SimpleButton.Location = new System.Drawing.Point(596, 443);
             this.SystemManagementAndTools_RoleList_Choose_SimpleButton.Name = "SystemManagementAndTools_RoleList_Choose_SimpleButton";
             this.SystemManagementAndTools_RoleList_Choose_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_Choose_SimpleButton.TabIndex = 1;
@@ -130,7 +145,8 @@
             // 
             // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton
             // 
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Location = new System.Drawing.Point(669, 440);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Location = new System.Drawing.Point(671, 443);
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButt" +
                 "on";
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_Cancel_SimpleButton.Size = new System.Drawing.Size(60, 23);
@@ -139,22 +155,26 @@
             // 
             // SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl
             // 
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl);
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Location = new System.Drawing.Point(0, 88);
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_Group" +
                 "Control";
-            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Size = new System.Drawing.Size(744, 346);
+            this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Size = new System.Drawing.Size(746, 349);
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_OrganizationManage_AddRelevanceMessage_UserMessage_GroupControl.Text = "角色列表信息";
             // 
             // SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl
             // 
-            this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.Location = new System.Drawing.Point(0, 21);
+            this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.Location = new System.Drawing.Point(2, 22);
             this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.MainView = this.gridView1;
             this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.Name = "SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl";
             this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.Size = new System.Drawing.Size(744, 380);
+            this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.Size = new System.Drawing.Size(742, 325);
             this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.TabIndex = 0;
             this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -167,6 +187,7 @@
             this.gridColumn4});
             this.gridView1.GridControl = this.SystemManagementAndTools_RoleManage_RoleList_RoleListMessage_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -197,13 +218,6 @@
             // 
             this.repositoryItemCheckEdit1.AutoHeight = false;
             this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-            // 
-            // paging1
-            // 
-            this.paging1.Location = new System.Drawing.Point(129, 440);
-            this.paging1.Name = "paging1";
-            this.paging1.Size = new System.Drawing.Size(381, 25);
-            this.paging1.TabIndex = 15;
             // 
             // RoleList
             // 

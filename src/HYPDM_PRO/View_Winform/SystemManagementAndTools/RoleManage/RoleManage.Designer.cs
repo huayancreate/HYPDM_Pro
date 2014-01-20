@@ -34,10 +34,10 @@
             this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl2 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl3 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             this.conmmonListBoxControl4 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.conmmonListBoxControl3 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.conmmonListBoxControl2 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit.Properties)).BeginInit();
@@ -46,6 +46,8 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl1.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton);
             this.groupControl1.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit);
             this.groupControl1.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt);
@@ -59,6 +61,7 @@
             // 
             // SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton
             // 
+            this.SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton.Location = new System.Drawing.Point(377, 146);
             this.SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton.Name = "SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton";
             this.SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -67,6 +70,7 @@
             // 
             // SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit
             // 
+            this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit.Location = new System.Drawing.Point(76, 60);
             this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit.Name = "SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit";
             this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit.Size = new System.Drawing.Size(356, 62);
@@ -74,6 +78,7 @@
             // 
             // SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt
             // 
+            this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt.Location = new System.Drawing.Point(76, 34);
             this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt.Name = "SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt";
             this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt.Size = new System.Drawing.Size(356, 20);
@@ -95,33 +100,40 @@
             this.labelControl6.TabIndex = 86;
             this.labelControl6.Text = "名称(*):";
             // 
-            // conmmonListBoxControl1
+            // conmmonListBoxControl4
             // 
-            this.conmmonListBoxControl1.Location = new System.Drawing.Point(463, 2);
-            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
-            this.conmmonListBoxControl1.TabIndex = 106;
-            // 
-            // conmmonListBoxControl2
-            // 
-            this.conmmonListBoxControl2.Location = new System.Drawing.Point(463, 244);
-            this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
-            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 236);
-            this.conmmonListBoxControl2.TabIndex = 107;
+            this.conmmonListBoxControl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl4.Location = new System.Drawing.Point(2, 442);
+            this.conmmonListBoxControl4.Name = "conmmonListBoxControl4";
+            this.conmmonListBoxControl4.Size = new System.Drawing.Size(452, 236);
+            this.conmmonListBoxControl4.TabIndex = 109;
             // 
             // conmmonListBoxControl3
             // 
+            this.conmmonListBoxControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.conmmonListBoxControl3.Location = new System.Drawing.Point(2, 200);
             this.conmmonListBoxControl3.Name = "conmmonListBoxControl3";
             this.conmmonListBoxControl3.Size = new System.Drawing.Size(452, 236);
             this.conmmonListBoxControl3.TabIndex = 108;
             // 
-            // conmmonListBoxControl4
+            // conmmonListBoxControl2
             // 
-            this.conmmonListBoxControl4.Location = new System.Drawing.Point(2, 442);
-            this.conmmonListBoxControl4.Name = "conmmonListBoxControl4";
-            this.conmmonListBoxControl4.Size = new System.Drawing.Size(452, 236);
-            this.conmmonListBoxControl4.TabIndex = 109;
+            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl2.Location = new System.Drawing.Point(463, 244);
+            this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
+            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl2.TabIndex = 107;
+            // 
+            // conmmonListBoxControl1
+            // 
+            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl1.Location = new System.Drawing.Point(463, 2);
+            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl1.TabIndex = 106;
             // 
             // RoleManage
             // 

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.paging1 = new View_Winform.CommonTemplet.paging();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
@@ -69,7 +70,6 @@
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.paging1 = new View_Winform.CommonTemplet.paging();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -89,6 +89,9 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.paging1);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton);
             this.panelControl1.Controls.Add(this.panelControl2);
@@ -103,8 +106,17 @@
             this.panelControl1.Size = new System.Drawing.Size(637, 482);
             this.panelControl1.TabIndex = 7;
             // 
+            // paging1
+            // 
+            this.paging1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.paging1.Location = new System.Drawing.Point(77, 452);
+            this.paging1.Name = "paging1";
+            this.paging1.Size = new System.Drawing.Size(381, 25);
+            this.paging1.TabIndex = 16;
+            // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Location = new System.Drawing.Point(562, 72);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton" +
                 "";
@@ -114,6 +126,10 @@
             // 
             // panelControl2
             // 
+            this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panelControl2.Appearance.Options.UseBackColor = true;
             this.panelControl2.Controls.Add(this.labelControl7);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit);
             this.panelControl2.Controls.Add(this.labelControl6);
@@ -133,6 +149,7 @@
             // 
             // labelControl7
             // 
+            this.labelControl7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl7.Location = new System.Drawing.Point(425, 36);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(60, 14);
@@ -141,6 +158,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Location = new System.Drawing.Point(495, 33);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit" +
@@ -152,6 +170,7 @@
             // 
             // labelControl6
             // 
+            this.labelControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl6.Location = new System.Drawing.Point(425, 14);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(60, 14);
@@ -160,6 +179,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit.Location = new System.Drawing.Point(281, 33);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit.Size = new System.Drawing.Size(137, 20);
@@ -167,6 +187,7 @@
             // 
             // labelControl5
             // 
+            this.labelControl5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelControl5.Location = new System.Drawing.Point(215, 36);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(60, 14);
@@ -175,6 +196,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Location = new System.Drawing.Point(495, 11);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdi" +
@@ -190,6 +212,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit.Location = new System.Drawing.Point(281, 8);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit.Size = new System.Drawing.Size(137, 20);
@@ -197,6 +220,7 @@
             // 
             // labelControl4
             // 
+            this.labelControl4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelControl4.Location = new System.Drawing.Point(215, 11);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(60, 14);
@@ -235,6 +259,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Location = new System.Drawing.Point(496, 72);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton" +
                 "";
@@ -244,6 +269,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Location = new System.Drawing.Point(363, 72);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
@@ -252,15 +278,17 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Location = new System.Drawing.Point(562, 454);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Location = new System.Drawing.Point(566, 452);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton" +
                 "";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Size = new System.Drawing.Size(60, 25);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.TabIndex = 5;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton.Text = "取消(C)";
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Location = new System.Drawing.Point(429, 72);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
@@ -269,6 +297,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Location = new System.Drawing.Point(496, 454);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButto" +
                 "n";
@@ -278,6 +307,9 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Location = new System.Drawing.Point(0, 101);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupCo" +
@@ -288,7 +320,10 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Location = new System.Drawing.Point(0, 21);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Location = new System.Drawing.Point(0, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.MainView = this.gridView1;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridCon" +
                 "trol";
@@ -322,6 +357,7 @@
             this.gridView1.GridControl = this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ColumnAutoWidth = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -465,13 +501,6 @@
             // 
             this.repositoryItemCheckEdit1.AutoHeight = false;
             this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
-            // 
-            // paging1
-            // 
-            this.paging1.Location = new System.Drawing.Point(77, 452);
-            this.paging1.Name = "paging1";
-            this.paging1.Size = new System.Drawing.Size(381, 25);
-            this.paging1.TabIndex = 16;
             // 
             // UserList
             // 

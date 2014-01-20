@@ -130,6 +130,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Location = new System.Drawing.Point(120, 14);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit.Size = new System.Drawing.Size(200, 20);
@@ -137,6 +139,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Location = new System.Drawing.Point(120, 45);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ParentMenu_ComBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -153,6 +157,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Location = new System.Drawing.Point(390, 81);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_ControlID_TextEdit.Size = new System.Drawing.Size(158, 20);
@@ -160,6 +166,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Location = new System.Drawing.Point(120, 115);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_TextEdit.Size = new System.Drawing.Size(387, 20);
@@ -167,6 +175,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Location = new System.Drawing.Point(510, 112);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Icon_SimpleButton.Size = new System.Drawing.Size(38, 23);
@@ -175,6 +184,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Location = new System.Drawing.Point(120, 150);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_FormType_TextEdit.Size = new System.Drawing.Size(428, 20);
@@ -182,6 +193,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Location = new System.Drawing.Point(120, 186);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_TextEdit.Size = new System.Drawing.Size(387, 20);
@@ -189,6 +202,8 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Location = new System.Drawing.Point(120, 215);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_UIAddress_TextEdit.Size = new System.Drawing.Size(428, 20);
@@ -196,6 +211,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Location = new System.Drawing.Point(510, 183);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_MenuIcon_SimpleButton.Size = new System.Drawing.Size(38, 23);
@@ -212,6 +228,9 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_Name_TextEdit);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_MenuManagement_FunctionMenu_IsVisible_CheckEidt);
             this.panelControl1.Controls.Add(this.labelControl6);
@@ -238,6 +257,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Location = new System.Drawing.Point(401, 297);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Add_SimpleButton.Size = new System.Drawing.Size(50, 23);
@@ -246,6 +266,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Location = new System.Drawing.Point(457, 297);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Save_SimpleButton.Size = new System.Drawing.Size(50, 23);
@@ -254,6 +275,7 @@
             // 
             // SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton
             // 
+            this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Location = new System.Drawing.Point(513, 297);
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Name = "SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton";
             this.SystemManagementAndTools_MenuManagement_FunctionMenu_Close_SimpleButton.Size = new System.Drawing.Size(50, 23);

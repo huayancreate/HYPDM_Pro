@@ -54,7 +54,7 @@
             this.tlCategoryList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.name,
             this.id});
-            this.tlCategoryList.Location = new System.Drawing.Point(4, 4);
+            this.tlCategoryList.Location = new System.Drawing.Point(14, 13);
             this.tlCategoryList.Margin = new System.Windows.Forms.Padding(4);
             this.tlCategoryList.Name = "tlCategoryList";
             this.tlCategoryList.BeginUnboundLoad();
@@ -139,7 +139,7 @@
             this.tlCategoryList.EndUnboundLoad();
             this.tlCategoryList.OptionsBehavior.PopulateServiceColumns = true;
             this.tlCategoryList.OptionsPrint.UsePrintStyles = true;
-            this.tlCategoryList.Size = new System.Drawing.Size(243, 495);
+            this.tlCategoryList.Size = new System.Drawing.Size(233, 257);
             this.tlCategoryList.TabIndex = 68;
             this.tlCategoryList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             this.tlCategoryList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeList1_MouseDown);
@@ -153,7 +153,7 @@
             this.name.Name = "name";
             this.name.Visible = true;
             this.name.VisibleIndex = 1;
-            this.name.Width = 111;
+            this.name.Width = 108;
             // 
             // id
             // 
@@ -163,14 +163,19 @@
             this.id.Name = "id";
             this.id.Visible = true;
             this.id.VisibleIndex = 0;
-            this.id.Width = 114;
+            this.id.Width = 107;
             // 
             // splitContainerControl1
             // 
             this.splitContainerControl1.Location = new System.Drawing.Point(-1, 0);
             this.splitContainerControl1.Name = "splitContainerControl1";
+            this.splitContainerControl1.Panel1.Appearance.BackColor = System.Drawing.Color.Red;
+            this.splitContainerControl1.Panel1.Appearance.Options.UseBackColor = true;
+            this.splitContainerControl1.Panel1.AppearanceCaption.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.splitContainerControl1.Panel1.AutoScroll = true;
+            this.splitContainerControl1.Panel1.CaptionLocation = DevExpress.Utils.Locations.Bottom;
             this.splitContainerControl1.Panel1.Controls.Add(this.tlCategoryList);
+            this.splitContainerControl1.Panel1.ShowCaption = true;
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.AutoScroll = true;
             this.splitContainerControl1.Panel2.Text = "Panel2";
