@@ -15,5 +15,10 @@ namespace View_Winform.SystemManagementAndTools.CodeRuleSet
         {
             InitializeComponent();
         }
+
+        private void WaterCodeRuleSet_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

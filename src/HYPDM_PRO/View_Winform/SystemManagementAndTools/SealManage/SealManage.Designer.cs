@@ -36,6 +36,7 @@
             // 
             // simpleButton4
             // 
+            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton4.Location = new System.Drawing.Point(408, 404);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(55, 23);
@@ -44,6 +45,9 @@
             // 
             // treeList1
             // 
+            this.treeList1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
             this.treeList1.Location = new System.Drawing.Point(-2, 1);
@@ -65,14 +69,14 @@
             this.treeListColumn1.Visible = true;
             this.treeListColumn1.VisibleIndex = 0;
             // 
-            // SealManange
+            // SealManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(475, 439);
             this.Controls.Add(this.treeList1);
             this.Controls.Add(this.simpleButton4);
-            this.Name = "SealManange";
+            this.Name = "SealManage";
             this.Text = "印章管理";
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             this.ResumeLayout(false);

@@ -29,30 +29,33 @@
         private void InitializeComponent()
         {
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl2
             // 
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl2.Controls.Add(this.textEdit4);
             this.groupControl2.Controls.Add(this.textEdit3);
             this.groupControl2.Controls.Add(this.textEdit2);
@@ -69,37 +72,50 @@
             this.groupControl2.TabIndex = 100;
             this.groupControl2.Text = "FTP设置";
             // 
-            // labelControl6
+            // textEdit4
             // 
-            this.labelControl6.Location = new System.Drawing.Point(11, 25);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(52, 14);
-            this.labelControl6.TabIndex = 86;
-            this.labelControl6.Text = "服务器名:";
+            this.textEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit4.Location = new System.Drawing.Point(69, 160);
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Size = new System.Drawing.Size(355, 20);
+            this.textEdit4.TabIndex = 95;
             // 
-            // labelControl1
+            // textEdit3
             // 
-            this.labelControl1.Location = new System.Drawing.Point(12, 61);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(51, 14);
-            this.labelControl1.TabIndex = 87;
-            this.labelControl1.Text = "服务器IP:";
+            this.textEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit3.Location = new System.Drawing.Point(69, 122);
+            this.textEdit3.Name = "textEdit3";
+            this.textEdit3.Size = new System.Drawing.Size(355, 20);
+            this.textEdit3.TabIndex = 94;
             // 
-            // labelControl2
+            // textEdit2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(23, 94);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(40, 14);
-            this.labelControl2.TabIndex = 88;
-            this.labelControl2.Text = "用户名:";
+            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit2.Location = new System.Drawing.Point(69, 88);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Size = new System.Drawing.Size(355, 20);
+            this.textEdit2.TabIndex = 93;
             // 
-            // labelControl3
+            // textEdit1
             // 
-            this.labelControl3.Location = new System.Drawing.Point(35, 128);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(28, 14);
-            this.labelControl3.TabIndex = 89;
-            this.labelControl3.Text = "密码:";
+            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit1.Location = new System.Drawing.Point(69, 55);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(355, 20);
+            this.textEdit1.TabIndex = 92;
+            // 
+            // textEdit6
+            // 
+            this.textEdit6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit6.Location = new System.Drawing.Point(69, 22);
+            this.textEdit6.Name = "textEdit6";
+            this.textEdit6.Size = new System.Drawing.Size(355, 20);
+            this.textEdit6.TabIndex = 91;
             // 
             // labelControl4
             // 
@@ -109,43 +125,41 @@
             this.labelControl4.TabIndex = 90;
             this.labelControl4.Text = "端口号:";
             // 
-            // textEdit6
+            // labelControl3
             // 
-            this.textEdit6.Location = new System.Drawing.Point(69, 22);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(355, 20);
-            this.textEdit6.TabIndex = 91;
+            this.labelControl3.Location = new System.Drawing.Point(35, 128);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(28, 14);
+            this.labelControl3.TabIndex = 89;
+            this.labelControl3.Text = "密码:";
             // 
-            // textEdit1
+            // labelControl2
             // 
-            this.textEdit1.Location = new System.Drawing.Point(69, 55);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(355, 20);
-            this.textEdit1.TabIndex = 92;
+            this.labelControl2.Location = new System.Drawing.Point(23, 94);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(40, 14);
+            this.labelControl2.TabIndex = 88;
+            this.labelControl2.Text = "用户名:";
             // 
-            // textEdit2
+            // labelControl1
             // 
-            this.textEdit2.Location = new System.Drawing.Point(69, 88);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(355, 20);
-            this.textEdit2.TabIndex = 93;
+            this.labelControl1.Location = new System.Drawing.Point(12, 61);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(51, 14);
+            this.labelControl1.TabIndex = 87;
+            this.labelControl1.Text = "服务器IP:";
             // 
-            // textEdit3
+            // labelControl6
             // 
-            this.textEdit3.Location = new System.Drawing.Point(69, 122);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(355, 20);
-            this.textEdit3.TabIndex = 94;
-            // 
-            // textEdit4
-            // 
-            this.textEdit4.Location = new System.Drawing.Point(69, 160);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(355, 20);
-            this.textEdit4.TabIndex = 95;
+            this.labelControl6.Location = new System.Drawing.Point(11, 25);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(52, 14);
+            this.labelControl6.TabIndex = 86;
+            this.labelControl6.Text = "服务器名:";
             // 
             // simpleButton6
             // 
+            this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton6.Location = new System.Drawing.Point(277, 223);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.Size = new System.Drawing.Size(55, 23);
@@ -154,6 +168,7 @@
             // 
             // simpleButton5
             // 
+            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton5.Location = new System.Drawing.Point(338, 223);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(55, 23);
@@ -162,6 +177,7 @@
             // 
             // simpleButton1
             // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.simpleButton1.Location = new System.Drawing.Point(216, 223);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(55, 23);
@@ -182,11 +198,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

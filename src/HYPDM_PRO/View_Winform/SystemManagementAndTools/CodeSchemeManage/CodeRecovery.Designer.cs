@@ -91,6 +91,9 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.Location = new System.Drawing.Point(1, 38);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.MainView = this.gridView1;
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl";
@@ -107,6 +110,7 @@
             this.gridColumn3});
             this.gridView1.GridControl = this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CodeList_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -131,6 +135,7 @@
             // 
             // labelControl1
             // 
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl1.Location = new System.Drawing.Point(14, 254);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(98, 14);
@@ -139,6 +144,7 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Location = new System.Drawing.Point(351, 262);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleAllCode_SimpleButto" +
                 "n";
@@ -148,6 +154,7 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Location = new System.Drawing.Point(431, 262);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton";
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_RecycleCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -156,6 +163,7 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Location = new System.Drawing.Point(492, 262);
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton";
             this.SystemManagementAndTools_CodeSchemeManage_CodeRecovery_CloseCode_SimpleButton.Size = new System.Drawing.Size(55, 23);

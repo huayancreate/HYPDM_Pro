@@ -53,6 +53,8 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Location = new System.Drawing.Point(70, 9);
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit";
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeName_TextEdit.Size = new System.Drawing.Size(297, 20);
@@ -68,6 +70,8 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Location = new System.Drawing.Point(70, 38);
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit";
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CodeClassify_TextEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -77,6 +81,9 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_MemoEdit);
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Location = new System.Drawing.Point(0, 64);
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupControl.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_SchemeDescribe_GroupContro" +
@@ -95,6 +102,7 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Location = new System.Drawing.Point(229, 204);
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_ConfirmNewScheme_SimpleBut" +
                 "ton";
@@ -104,6 +112,7 @@
             // 
             // SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Location = new System.Drawing.Point(290, 204);
             this.SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButton.Name = "SystemManagementAndTools_CodeSchemeManage_ModifyScheme_CancelNewScheme_SimpleButt" +
                 "on";

@@ -93,15 +93,20 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit
             // 
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Location = new System.Drawing.Point(84, 52);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Location = new System.Drawing.Point(84, 55);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit";
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Size = new System.Drawing.Size(358, 20);
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Size = new System.Drawing.Size(324, 20);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.TabIndex = 99;
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterStartSymbol_TextEdit);
@@ -114,6 +119,11 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro
             // 
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Appearance.BackColor = System.Drawing.Color.Silver;
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Appearance.Options.UseBackColor = true;
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Location = new System.Drawing.Point(5, 172);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GroupContro";
@@ -141,6 +151,7 @@
             this.gridColumn8});
             this.gridView2.GridControl = this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreNumber_GridControl;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn5
             // 
@@ -172,6 +183,8 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl
             // 
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Location = new System.Drawing.Point(5, 36);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GroupControl";
@@ -199,6 +212,7 @@
             this.gridColumn4});
             this.gridView1.GridControl = this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_IgnoreChar_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -253,6 +267,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Location = new System.Drawing.Point(380, 382);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleBu" +
                 "tton";
@@ -262,6 +277,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Location = new System.Drawing.Point(441, 382);
             this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleBut" +
                 "ton";
@@ -273,7 +289,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 422);
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.ClientSize = new System.Drawing.Size(536, 426);
             this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_ConfirmWaterNumber_SimpleButton);
             this.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_CancelWaterNumber_SimpleButton);
             this.Controls.Add(this.panelControl1);
@@ -281,8 +298,10 @@
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.labelControl6);
+            this.Cursor = System.Windows.Forms.Cursors.AppStarting;
             this.Name = "WaterCodeRuleSet";
             this.Text = "流水码规则设置";
+            this.Load += new System.EventHandler(this.WaterCodeRuleSet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_WaterCodeRuleSet_WaterType_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);

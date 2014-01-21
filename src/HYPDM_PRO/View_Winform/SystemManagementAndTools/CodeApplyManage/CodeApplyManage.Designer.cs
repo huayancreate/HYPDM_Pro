@@ -83,6 +83,9 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GroupControl
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GroupControl.Location = new System.Drawing.Point(252, 3);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GroupControl.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GroupCon" +
@@ -94,7 +97,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl
             // 
-            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl.Location = new System.Drawing.Point(2, 22);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl.MainView = this.gridView1;
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridCont" +
@@ -113,6 +117,7 @@
             this.gridColumn4});
             this.gridView1.GridControl = this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -144,6 +149,9 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GroupControl
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GroupControl.Controls.Add(this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GridControl);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GroupControl.Location = new System.Drawing.Point(252, 269);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GroupControl.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_Gro" +
@@ -173,6 +181,7 @@
             this.gridColumn8});
             this.gridView2.GridControl = this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_CodeServiceCondition_GridControl;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn5
             // 
@@ -311,6 +320,8 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton);
@@ -324,6 +335,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton.Location = new System.Drawing.Point(674, 13);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton";
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ExitCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -332,6 +345,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton.Location = new System.Drawing.Point(613, 13);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton";
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_OutputCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -340,6 +355,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton.Location = new System.Drawing.Point(552, 13);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton";
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_DeleteCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -348,6 +365,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_LookCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_LookCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_LookCode_SimpleButton.Location = new System.Drawing.Point(491, 13);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_LookCode_SimpleButton.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_LookCode_SimpleButton";
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_LookCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -356,6 +375,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ModifiCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ModifiCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ModifiCode_SimpleButton.Location = new System.Drawing.Point(430, 13);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ModifiCode_SimpleButton.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ModifiCode_SimpleButton";
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ModifiCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -364,6 +385,8 @@
             // 
             // SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_SimpleButton.Location = new System.Drawing.Point(369, 13);
             this.SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_SimpleButton.Name = "SystemManagementAndTools_CodeApplyManage_CodeApplyManage_ApplicationCode_SimpleBu" +
                 "tton";

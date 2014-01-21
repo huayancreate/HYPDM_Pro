@@ -52,6 +52,8 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl.Location = new System.Drawing.Point(2, 1);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl.MainView = this.gridView1;
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl.Name = "SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl";
@@ -67,6 +69,7 @@
             this.gridColumn2});
             this.gridView1.GridControl = this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RuleCodeList_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -92,6 +95,8 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_TextEdit
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_TextEdit.Location = new System.Drawing.Point(149, 199);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_TextEdit.Name = "SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_TextEdit";
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_TextEdit.Size = new System.Drawing.Size(181, 20);
@@ -99,6 +104,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_SimpleButton.Location = new System.Drawing.Point(336, 196);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_SimpleButton";
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_BatchFill_SimpleButton.Size = new System.Drawing.Size(75, 23);
@@ -107,6 +113,9 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_GroupContro
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_GroupContro.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_GroupContro.Controls.Add(this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_MemoEdit);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_GroupContro.Location = new System.Drawing.Point(2, 238);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_GroupContro.Name = "SystemManagementAndTools_CodeRuleSet_FillCommonCode_RemarkFillRuleCode_GroupContr" +
@@ -125,6 +134,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.Location = new System.Drawing.Point(338, 355);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton";
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -133,6 +143,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Location = new System.Drawing.Point(277, 355);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton";
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -141,6 +152,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Location = new System.Drawing.Point(94, 355);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton";
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -149,6 +161,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Location = new System.Drawing.Point(216, 355);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton";
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -157,6 +170,7 @@
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton
             // 
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.Location = new System.Drawing.Point(155, 355);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.Name = "SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButt" +
                 "on";
