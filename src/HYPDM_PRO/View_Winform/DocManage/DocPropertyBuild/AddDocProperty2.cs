@@ -15,5 +15,25 @@ namespace View_Winform.DocManage.DocPropertyBuild
         {
             InitializeComponent();
         }
+
+        private void AddDocProperty2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
