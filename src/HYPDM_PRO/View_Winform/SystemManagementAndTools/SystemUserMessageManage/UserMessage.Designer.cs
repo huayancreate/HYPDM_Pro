@@ -126,7 +126,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabC" +
                 "ontrol";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.SelectedTabPage = this.xtraTabPage2;
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.Size = new System.Drawing.Size(1011, 765);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.Size = new System.Drawing.Size(711, 536);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.TabIndex = 16;
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2});
@@ -188,15 +188,15 @@
             this.xtraTabPage2.Controls.Add(this.labelControl1);
             this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_Remark_MemoEdit);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1005, 736);
+            this.xtraTabPage2.Size = new System.Drawing.Size(705, 507);
             this.xtraTabPage2.Text = "用户信息";
             // 
             // conmmonListBoxControl1
             // 
             this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl1.Location = new System.Drawing.Point(702, 0);
+            this.conmmonListBoxControl1.Location = new System.Drawing.Point(456, 0);
             this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(303, 236);
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(249, 236);
             this.conmmonListBoxControl1.TabIndex = 64;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit
@@ -207,18 +207,18 @@
                 "it";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Size = new System.Drawing.Size(129, 20);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.TabIndex = 62;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.EditValue = "XX";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Location = new System.Drawing.Point(412, 553);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Location = new System.Drawing.Point(307, 553);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdi" +
                 "t";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Size = new System.Drawing.Size(133, 20);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.TabIndex = 61;
             // 
             // labelControl26
@@ -231,7 +231,7 @@
             // 
             // labelControl25
             // 
-            this.labelControl25.Location = new System.Drawing.Point(354, 556);
+            this.labelControl25.Location = new System.Drawing.Point(249, 556);
             this.labelControl25.Name = "labelControl25";
             this.labelControl25.Size = new System.Drawing.Size(52, 14);
             this.labelControl25.TabIndex = 58;
@@ -240,12 +240,12 @@
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.EditValue = "XX";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Location = new System.Drawing.Point(412, 521);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Location = new System.Drawing.Point(307, 521);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxE" +
                 "dit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.Size = new System.Drawing.Size(133, 20);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyDate_ComboBoxEdit.TabIndex = 55;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_ModifyUserId_TextEdit
@@ -266,7 +266,7 @@
             // 
             // labelControl23
             // 
-            this.labelControl23.Location = new System.Drawing.Point(354, 524);
+            this.labelControl23.Location = new System.Drawing.Point(249, 524);
             this.labelControl23.Name = "labelControl23";
             this.labelControl23.Size = new System.Drawing.Size(52, 14);
             this.labelControl23.TabIndex = 52;
@@ -283,11 +283,11 @@
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.EditValue = "启用";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.Location = new System.Drawing.Point(412, 438);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.Location = new System.Drawing.Point(307, 438);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.Size = new System.Drawing.Size(133, 20);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_State_ComboBoxEdit.TabIndex = 50;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_CompanyId_TextEdit
@@ -318,12 +318,12 @@
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.EditValue = "XX";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.Location = new System.Drawing.Point(412, 481);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.Location = new System.Drawing.Point(307, 481);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxE" +
                 "dit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.Size = new System.Drawing.Size(133, 20);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_CreateDate_ComboBoxEdit.TabIndex = 45;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_SubordinateCompanies_ComboBoxEdit
@@ -411,8 +411,6 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Location = new System.Drawing.Point(307, 6);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Size = new System.Drawing.Size(133, 20);
@@ -456,8 +454,6 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit
             // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit.Location = new System.Drawing.Point(69, 3);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit.Size = new System.Drawing.Size(128, 20);
@@ -497,7 +493,7 @@
             // 
             // labelControl17
             // 
-            this.labelControl17.Location = new System.Drawing.Point(354, 484);
+            this.labelControl17.Location = new System.Drawing.Point(249, 484);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(52, 14);
             this.labelControl17.TabIndex = 22;
@@ -505,7 +501,7 @@
             // 
             // labelControl16
             // 
-            this.labelControl16.Location = new System.Drawing.Point(371, 441);
+            this.labelControl16.Location = new System.Drawing.Point(266, 441);
             this.labelControl16.Name = "labelControl16";
             this.labelControl16.Size = new System.Drawing.Size(35, 14);
             this.labelControl16.TabIndex = 21;
@@ -514,7 +510,6 @@
             // 
             // labelControl15
             // 
-            this.labelControl15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl15.Location = new System.Drawing.Point(242, 9);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(59, 14);
@@ -646,14 +641,14 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1016, 766);
+            this.panelControl1.Size = new System.Drawing.Size(716, 537);
             this.panelControl1.TabIndex = 17;
             // 
             // UserMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 766);
+            this.ClientSize = new System.Drawing.Size(716, 537);
             this.Controls.Add(this.panelControl1);
             this.Name = "UserMessage";
             this.Text = "用户信息";
