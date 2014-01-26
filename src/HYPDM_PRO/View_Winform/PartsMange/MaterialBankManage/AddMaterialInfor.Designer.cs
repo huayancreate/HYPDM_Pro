@@ -102,6 +102,9 @@
             // 
             // xtraTabControl1
             // 
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
@@ -162,6 +165,9 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Location = new System.Drawing.Point(3, 198);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Size = new System.Drawing.Size(592, 256);
@@ -188,6 +194,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Location = new System.Drawing.Point(389, 146);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Size = new System.Drawing.Size(200, 20);
@@ -195,6 +202,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Location = new System.Drawing.Point(389, 122);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Size = new System.Drawing.Size(200, 20);
@@ -216,6 +224,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Location = new System.Drawing.Point(389, 98);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -225,6 +234,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Location = new System.Drawing.Point(389, 74);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Size = new System.Drawing.Size(200, 20);
@@ -241,6 +251,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Location = new System.Drawing.Point(389, 51);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -259,6 +270,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Location = new System.Drawing.Point(389, 28);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Size = new System.Drawing.Size(200, 20);
@@ -275,6 +287,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Location = new System.Drawing.Point(389, 3);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Size = new System.Drawing.Size(200, 20);
@@ -289,6 +302,7 @@
             // 
             // labelControl15
             // 
+            this.labelControl15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl15.Location = new System.Drawing.Point(347, 149);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(36, 14);
@@ -297,6 +311,7 @@
             // 
             // labelControl14
             // 
+            this.labelControl14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl14.Location = new System.Drawing.Point(323, 127);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(60, 14);
@@ -305,6 +320,7 @@
             // 
             // labelControl13
             // 
+            this.labelControl13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl13.Location = new System.Drawing.Point(347, 101);
             this.labelControl13.Name = "labelControl13";
             this.labelControl13.Size = new System.Drawing.Size(36, 14);
@@ -313,6 +329,7 @@
             // 
             // labelControl12
             // 
+            this.labelControl12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl12.Location = new System.Drawing.Point(304, 80);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(79, 14);
@@ -321,6 +338,7 @@
             // 
             // labelControl11
             // 
+            this.labelControl11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl11.Location = new System.Drawing.Point(316, 57);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(67, 14);
@@ -329,6 +347,7 @@
             // 
             // labelControl10
             // 
+            this.labelControl10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl10.Location = new System.Drawing.Point(316, 34);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(67, 14);
@@ -337,6 +356,7 @@
             // 
             // labelControl9
             // 
+            this.labelControl9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl9.Location = new System.Drawing.Point(335, 8);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(48, 14);
@@ -439,6 +459,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Location = new System.Drawing.Point(418, 31);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Size = new System.Drawing.Size(55, 23);
@@ -447,6 +468,8 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Location = new System.Drawing.Point(3, 34);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Size = new System.Drawing.Size(349, 20);
@@ -460,6 +483,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Location = new System.Drawing.Point(2, 497);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Properties.Caption = "使用编码器编码";
@@ -468,6 +492,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Location = new System.Drawing.Point(491, 492);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton" +
                 "";
@@ -477,6 +502,7 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Location = new System.Drawing.Point(419, 493);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButto" +
                 "n";

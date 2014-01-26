@@ -143,6 +143,9 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit);
@@ -196,6 +199,7 @@
             // 
             // PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Location = new System.Drawing.Point(367, 141);
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Name = "PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton";
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -204,6 +208,7 @@
             // 
             // PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Location = new System.Drawing.Point(297, 141);
             this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Name = "PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton";
             this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Size = new System.Drawing.Size(55, 23);

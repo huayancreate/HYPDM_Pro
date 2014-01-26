@@ -331,6 +331,8 @@
             // 
             // listBoxControl1
             // 
+            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.listBoxControl1.Location = new System.Drawing.Point(1, 234);
             this.listBoxControl1.Name = "listBoxControl1";
             this.listBoxControl1.Size = new System.Drawing.Size(238, 412);
@@ -346,6 +348,8 @@
             // 
             // gridControl1
             // 
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gridControl1.Location = new System.Drawing.Point(262, 27);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
@@ -364,6 +368,7 @@
             this.gridColumn5});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -437,6 +442,9 @@
             // 
             // xtraTabControl2
             // 
+            this.xtraTabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl2.Location = new System.Drawing.Point(262, 234);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage3;
@@ -469,7 +477,10 @@
             // 
             // xtraTabControl5
             // 
-            this.xtraTabControl5.Location = new System.Drawing.Point(-1, -1);
+            this.xtraTabControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl5.Location = new System.Drawing.Point(3, 3);
             this.xtraTabControl5.Name = "xtraTabControl5";
             this.xtraTabControl5.SelectedTabPage = this.xtraTabPage11;
             this.xtraTabControl5.Size = new System.Drawing.Size(611, 390);
@@ -492,6 +503,9 @@
             // 
             // xtraTabControl6
             // 
+            this.xtraTabControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl6.Location = new System.Drawing.Point(308, 213);
             this.xtraTabControl6.Name = "xtraTabControl6";
             this.xtraTabControl6.SelectedTabPage = this.xtraTabPage12;
@@ -533,6 +547,9 @@
             // 
             // groupControl6
             // 
+            this.groupControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl6.Controls.Add(this.gridControl7);
             this.groupControl6.Location = new System.Drawing.Point(0, 213);
             this.groupControl6.Name = "groupControl6";
@@ -560,6 +577,7 @@
             this.gridColumn27});
             this.gridView7.GridControl = this.gridControl7;
             this.gridView7.Name = "gridView7";
+            this.gridView7.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn24
             // 
@@ -591,6 +609,8 @@
             // 
             // groupControl7
             // 
+            this.groupControl7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl7.Controls.Add(this.gridControl8);
             this.groupControl7.Location = new System.Drawing.Point(300, 109);
             this.groupControl7.Name = "groupControl7";
@@ -618,6 +638,7 @@
             this.gridColumn31});
             this.gridView8.GridControl = this.gridControl8;
             this.gridView8.Name = "gridView8";
+            this.gridView8.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn28
             // 
@@ -676,6 +697,7 @@
             this.gridColumn35});
             this.gridView9.GridControl = this.gridControl9;
             this.gridView9.Name = "gridView9";
+            this.gridView9.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn32
             // 
@@ -707,6 +729,8 @@
             // 
             // groupControl9
             // 
+            this.groupControl9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl9.Controls.Add(this.gridControl10);
             this.groupControl9.Location = new System.Drawing.Point(230, 3);
             this.groupControl9.Name = "groupControl9";
@@ -734,6 +758,7 @@
             this.gridColumn39});
             this.gridView10.GridControl = this.gridControl10;
             this.gridView10.Name = "gridView10";
+            this.gridView10.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn36
             // 
@@ -790,6 +815,7 @@
             this.gridColumn41});
             this.gridView11.GridControl = this.gridControl11;
             this.gridView11.Name = "gridView11";
+            this.gridView11.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn40
             // 

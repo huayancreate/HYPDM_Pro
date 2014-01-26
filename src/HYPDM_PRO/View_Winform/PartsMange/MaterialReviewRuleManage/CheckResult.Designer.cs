@@ -50,6 +50,9 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Location = new System.Drawing.Point(1, -1);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Material_GroupControl";
@@ -59,6 +62,9 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.Location = new System.Drawing.Point(0, 25);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl";
@@ -77,6 +83,7 @@
             this.gridColumn5});
             this.gridView1.GridControl = this.PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -115,6 +122,7 @@
             // 
             // labelControl3
             // 
+            this.labelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl3.Location = new System.Drawing.Point(1, 251);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(380, 14);
@@ -123,6 +131,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Location = new System.Drawing.Point(284, 271);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_CheckResult_CustomExport_SimpleButton.Size = new System.Drawing.Size(82, 23);
@@ -131,6 +140,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Location = new System.Drawing.Point(222, 271);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Cancel_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -139,6 +149,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Location = new System.Drawing.Point(138, 271);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_CheckResult_SaveContinue_SimpleButton.Size = new System.Drawing.Size(78, 23);
@@ -147,6 +158,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Location = new System.Drawing.Point(27, 271);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_SelectAlreadyMaterial_SimpleButto" +
                 "n";
@@ -156,6 +168,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Location = new System.Drawing.Point(372, 271);
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_CheckResult_Export_SimpleButton.Size = new System.Drawing.Size(55, 23);

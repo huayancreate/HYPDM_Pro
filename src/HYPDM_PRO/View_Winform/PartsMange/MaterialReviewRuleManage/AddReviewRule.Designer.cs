@@ -60,6 +60,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Location = new System.Drawing.Point(79, 9);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_RuleName_TextEdit.Size = new System.Drawing.Size(398, 20);
@@ -75,6 +77,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.Location = new System.Drawing.Point(1, 61);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridContro" +
@@ -88,9 +92,12 @@
             // 
             this.gridView1.GridControl = this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteReviewProperty_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.Location = new System.Drawing.Point(248, 61);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_SeleteRuleScope_TreeList.OptionsPrint.UsePrintStyles = true;
@@ -99,6 +106,7 @@
             // 
             // labelControl2
             // 
+            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl2.Location = new System.Drawing.Point(248, 41);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(76, 14);
@@ -107,6 +115,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Location = new System.Drawing.Point(338, 406);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Save_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -115,6 +124,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Location = new System.Drawing.Point(399, 406);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Cancel_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -123,6 +133,7 @@
             // 
             // labelControl3
             // 
+            this.labelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl3.Location = new System.Drawing.Point(21, 320);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(28, 14);
@@ -131,6 +142,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Location = new System.Drawing.Point(55, 320);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_Remark_ListBoxControl.Size = new System.Drawing.Size(452, 53);
@@ -138,6 +151,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Location = new System.Drawing.Point(19, 379);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_QueryValue_CheckEdit.Properties.Caption = "保存前显示查询结果";
@@ -146,6 +160,7 @@
             // 
             // PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit
             // 
+            this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Location = new System.Drawing.Point(19, 404);
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Name = "PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit";
             this.PartsMange_MaterialReviewRuleManage_AddReviewRule_StrictQuery_CheckEdit.Properties.Caption = "严格查重";

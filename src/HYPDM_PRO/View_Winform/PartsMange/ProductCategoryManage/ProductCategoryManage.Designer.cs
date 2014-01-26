@@ -138,6 +138,8 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Location = new System.Drawing.Point(1, 53);
@@ -167,6 +169,8 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton);
@@ -183,6 +187,9 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.Location = new System.Drawing.Point(0, 52);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.MainView = this.gridView1;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridCon" +
@@ -203,6 +210,7 @@
             this.gridColumn6});
             this.gridView1.GridControl = this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -248,6 +256,7 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Location = new System.Drawing.Point(486, 22);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton";
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Relevance_SimpleButton.Size = new System.Drawing.Size(50, 23);
@@ -256,6 +265,7 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Location = new System.Drawing.Point(431, 22);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton";
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Size = new System.Drawing.Size(50, 23);
@@ -264,6 +274,8 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Location = new System.Drawing.Point(213, 25);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdi" +
                 "t";
@@ -302,6 +314,9 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl
             // 
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Location = new System.Drawing.Point(203, 225);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_Gr" +
@@ -312,11 +327,12 @@
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl
             // 
-            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Location = new System.Drawing.Point(0, 25);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Location = new System.Drawing.Point(2, 22);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.MainView = this.gridView2;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_Gr" +
                 "idControl";
-            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Size = new System.Drawing.Size(536, 300);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.Size = new System.Drawing.Size(532, 301);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.TabIndex = 68;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -332,6 +348,7 @@
             this.gridColumn12});
             this.gridView2.GridControl = this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn7
             // 

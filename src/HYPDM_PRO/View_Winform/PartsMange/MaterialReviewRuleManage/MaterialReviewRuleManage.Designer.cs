@@ -132,23 +132,21 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton);
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton);
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton);
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton);
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton);
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Location = new System.Drawing.Point(0, 73);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupCont" +
                 "rol";
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Size = new System.Drawing.Size(638, 462);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Size = new System.Drawing.Size(638, 421);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.TabIndex = 66;
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl.Text = "查询结果显示区域";
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton.Location = new System.Drawing.Point(582, 434);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton.Location = new System.Drawing.Point(581, 500);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton.TabIndex = 73;
@@ -156,7 +154,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton.Location = new System.Drawing.Point(521, 434);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton.Location = new System.Drawing.Point(520, 500);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_Si" +
                 "mpleButton";
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -165,7 +164,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton.Location = new System.Drawing.Point(460, 434);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton.Location = new System.Drawing.Point(459, 500);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton.TabIndex = 71;
@@ -173,7 +173,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton.Location = new System.Drawing.Point(399, 434);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton.Location = new System.Drawing.Point(398, 500);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton.TabIndex = 70;
@@ -181,7 +182,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton.Location = new System.Drawing.Point(338, 434);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton.Location = new System.Drawing.Point(337, 500);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton.TabIndex = 69;
@@ -189,7 +191,8 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton.Location = new System.Drawing.Point(277, 434);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton.Location = new System.Drawing.Point(276, 500);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton";
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton.TabIndex = 68;
@@ -197,11 +200,12 @@
             // 
             // PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl
             // 
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.Location = new System.Drawing.Point(0, 25);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.Location = new System.Drawing.Point(2, 22);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.Name = "PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridContr" +
                 "ol";
-            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.Size = new System.Drawing.Size(638, 408);
+            this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.Size = new System.Drawing.Size(634, 397);
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.TabIndex = 67;
             this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -218,6 +222,7 @@
             this.gridColumn7});
             this.gridView1.GridControl = this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -273,10 +278,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(637, 535);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Query_SimpleButton);
             this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_QueryValue_GroupControl);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_DuplicateChecking_SimpleButton);
             this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_RuleName_TextEdit);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Delete_SimpleButton);
             this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_RuleScope_ButtonEdit);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Look_SimpleButton);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Modify_SimpleButton);
             this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Creater_ButtonEdit);
+            this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_Add_SimpleButton);
             this.Controls.Add(this.PartsMange_MaterialReviewRuleManage_MaterialReviewRuleManage_ReviewProperty_ButtonEdit);
             this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.labelControl2);

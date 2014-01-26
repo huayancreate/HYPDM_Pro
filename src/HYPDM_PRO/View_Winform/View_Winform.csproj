@@ -906,100 +906,94 @@
       <DependentUpon>MaterialBankManage.cs</DependentUpon>
     </Compile>
     <Compile Include="Person.cs" />
-    <Compile Include="ProductProcessManage\AddAssemblyProcess.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AddAssemblyProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AddAssemblyProcess.Designer.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AddAssemblyProcess.Designer.cs">
       <DependentUpon>AddAssemblyProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\AdditionalPropertySet.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\AdditionalPropertySet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AdditionalPropertySet.Designer.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\AdditionalPropertySet.Designer.cs">
       <DependentUpon>AdditionalPropertySet.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\AddProcessLine.cs">
+    <Compile Include="ProductProcessManage\ProcessLineManage\AddProcessLine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AddProcessLine.Designer.cs">
+    <Compile Include="ProductProcessManage\ProcessLineManage\AddProcessLine.Designer.cs">
       <DependentUpon>AddProcessLine.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\AddProperty.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\AddProperty.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AddProperty.Designer.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\AddProperty.Designer.cs">
       <DependentUpon>AddProperty.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\AssemblyLineSet.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineSet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AssemblyLineSet.Designer.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineSet.Designer.cs">
       <DependentUpon>AssemblyLineSet.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\AssemblyProcess.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\AssemblyProcess.Designer.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyProcess.Designer.cs">
       <DependentUpon>AssemblyProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\ChooseMaterial.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\ModifyProperty.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\ChooseMaterial.Designer.cs">
-      <DependentUpon>ChooseMaterial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProductProcessManage\ModifyProperty.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProductProcessManage\ModifyProperty.Designer.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\ModifyProperty.Designer.cs">
       <DependentUpon>ModifyProperty.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\ModifyStation.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\ModifyStation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\ModifyStation.Designer.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\ModifyStation.Designer.cs">
       <DependentUpon>ModifyStation.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\ProcessTaskEstablish.cs">
+    <Compile Include="ProductProcessManage\ProcessTaskEstablish\ProcessTaskEstablish.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\ProcessTaskEstablish.Designer.cs">
+    <Compile Include="ProductProcessManage\ProcessTaskEstablish\ProcessTaskEstablish.Designer.cs">
       <DependentUpon>ProcessTaskEstablish.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\ProcessTaskManage.cs">
+    <Compile Include="ProductProcessManage\ProcessTaskManage\ProcessTaskManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\ProcessTaskManage.Designer.cs">
+    <Compile Include="ProductProcessManage\ProcessTaskManage\ProcessTaskManage.Designer.cs">
       <DependentUpon>ProcessTaskManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\QueryAssemblyProcess.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\QueryAssemblyProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\QueryAssemblyProcess.Designer.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\QueryAssemblyProcess.Designer.cs">
       <DependentUpon>QueryAssemblyProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\QuoteAssemblyProcess.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\QuoteAssemblyProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\QuoteAssemblyProcess.Designer.cs">
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\QuoteAssemblyProcess.Designer.cs">
       <DependentUpon>QuoteAssemblyProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\ToolingEquipmentManage.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\ToolingEquipmentManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\ToolingEquipmentManage.Designer.cs">
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\ToolingEquipmentManage.Designer.cs">
       <DependentUpon>ToolingEquipmentManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\WorkProcedureManage.cs">
+    <Compile Include="ProductProcessManage\ProcessLineManage\WorkProcedureManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\WorkProcedureManage.Designer.cs">
+    <Compile Include="ProductProcessManage\ProcessLineManage\WorkProcedureManage.Designer.cs">
       <DependentUpon>WorkProcedureManage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductProcessManage\WorkSpaceManage.cs">
+    <Compile Include="ProductProcessManage\ProcessLineManage\WorkSpaceManage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductProcessManage\WorkSpaceManage.Designer.cs">
+    <Compile Include="ProductProcessManage\ProcessLineManage\WorkSpaceManage.Designer.cs">
       <DependentUpon>WorkSpaceManage.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductStructureManage\BOMExplorer\DisplayChangeParts.cs">
@@ -1782,52 +1776,49 @@
     <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialBankManage.resx">
       <DependentUpon>MaterialBankManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\AddAssemblyProcess.resx">
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\AddAssemblyProcess.resx">
       <DependentUpon>AddAssemblyProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\AdditionalPropertySet.resx">
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\AdditionalPropertySet.resx">
       <DependentUpon>AdditionalPropertySet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\AddProcessLine.resx">
+    <EmbeddedResource Include="ProductProcessManage\ProcessLineManage\AddProcessLine.resx">
       <DependentUpon>AddProcessLine.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\AddProperty.resx">
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\AddProperty.resx">
       <DependentUpon>AddProperty.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\AssemblyLineSet.resx">
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineSet.resx">
       <DependentUpon>AssemblyLineSet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\AssemblyProcess.resx">
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\AssemblyProcess.resx">
       <DependentUpon>AssemblyProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\ChooseMaterial.resx">
-      <DependentUpon>ChooseMaterial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\ModifyProperty.resx">
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\ModifyProperty.resx">
       <DependentUpon>ModifyProperty.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\ModifyStation.resx">
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\ModifyStation.resx">
       <DependentUpon>ModifyStation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\ProcessTaskEstablish.resx">
+    <EmbeddedResource Include="ProductProcessManage\ProcessTaskEstablish\ProcessTaskEstablish.resx">
       <DependentUpon>ProcessTaskEstablish.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\ProcessTaskManage.resx">
+    <EmbeddedResource Include="ProductProcessManage\ProcessTaskManage\ProcessTaskManage.resx">
       <DependentUpon>ProcessTaskManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\QueryAssemblyProcess.resx">
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\QueryAssemblyProcess.resx">
       <DependentUpon>QueryAssemblyProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\QuoteAssemblyProcess.resx">
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\QuoteAssemblyProcess.resx">
       <DependentUpon>QuoteAssemblyProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage.resx">
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\ToolingEquipmentManage.resx">
       <DependentUpon>ToolingEquipmentManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\WorkProcedureManage.resx">
+    <EmbeddedResource Include="ProductProcessManage\ProcessLineManage\WorkProcedureManage.resx">
       <DependentUpon>WorkProcedureManage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductProcessManage\WorkSpaceManage.resx">
+    <EmbeddedResource Include="ProductProcessManage\ProcessLineManage\WorkSpaceManage.resx">
       <DependentUpon>WorkSpaceManage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductStructureManage\BOMExplorer\DisplayChangeParts.resx">

@@ -73,6 +73,7 @@
             // 
             // labelControl5
             // 
+            this.labelControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl5.Location = new System.Drawing.Point(199, 68);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(40, 14);
@@ -81,6 +82,7 @@
             // 
             // labelControl2
             // 
+            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelControl2.Location = new System.Drawing.Point(199, 12);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 14);
@@ -113,6 +115,8 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit);
@@ -135,6 +139,8 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit.Location = new System.Drawing.Point(73, 65);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataName_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -144,6 +150,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit.Location = new System.Drawing.Point(197, 98);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ClassifyInherit_CheckEdit.Properties.Caption = "子级分类是否继承";
@@ -152,6 +159,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit.Location = new System.Drawing.Point(245, 65);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DefaultValue_TextEdit.Size = new System.Drawing.Size(144, 20);
@@ -159,6 +167,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_MustEntering_CheckEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MustEntering_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MustEntering_CheckEdit.Location = new System.Drawing.Point(263, 40);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MustEntering_CheckEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_MustEntering_CheckEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MustEntering_CheckEdit.Properties.Caption = "必须录入";
@@ -167,6 +176,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_Listbox_CheckEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Listbox_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Listbox_CheckEdit.Location = new System.Drawing.Point(327, 10);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Listbox_CheckEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_Listbox_CheckEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Listbox_CheckEdit.Properties.Caption = "列表框";
@@ -176,6 +186,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_Textbox_CheckEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Textbox_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Textbox_CheckEdit.Location = new System.Drawing.Point(263, 10);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Textbox_CheckEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_Textbox_CheckEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_Textbox_CheckEdit.Properties.Caption = "文本框";
@@ -185,6 +196,8 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataLength_TextEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataLength_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataLength_TextEdit.Location = new System.Drawing.Point(73, 98);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataLength_TextEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataLength_TextEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DataLength_TextEdit.Size = new System.Drawing.Size(102, 20);
@@ -192,6 +205,8 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_FieldName_TextEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_FieldName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_FieldName_TextEdit.Location = new System.Drawing.Point(73, 35);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_FieldName_TextEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_FieldName_TextEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_FieldName_TextEdit.Size = new System.Drawing.Size(102, 20);
@@ -199,6 +214,8 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_ChnName_TextEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ChnName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ChnName_TextEdit.Location = new System.Drawing.Point(73, 9);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ChnName_TextEdit.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_ChnName_TextEdit";
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_ChnName_TextEdit.Size = new System.Drawing.Size(102, 20);
@@ -214,6 +231,9 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GroupControl
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GroupControl.Controls.Add(this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GridControl);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GroupControl.Location = new System.Drawing.Point(-3, 158);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GroupControl.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GroupContro" +
@@ -242,6 +262,7 @@
             this.gridColumn3});
             this.gridView1.GridControl = this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -266,6 +287,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_SelectMaterialClassify_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_SelectMaterialClassify_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_SelectMaterialClassify_SimpleButton.Location = new System.Drawing.Point(29, 382);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_SelectMaterialClassify_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_SelectMaterialClassify_Simpl" +
                 "eButton";
@@ -275,6 +297,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_DeleteMaterialClassify_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DeleteMaterialClassify_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DeleteMaterialClassify_SimpleButton.Location = new System.Drawing.Point(137, 382);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_DeleteMaterialClassify_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_DeleteMaterialClassify_Simpl" +
                 "eButton";
@@ -284,6 +307,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_CancelMaterialClassify_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_CancelMaterialClassify_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_CancelMaterialClassify_SimpleButton.Location = new System.Drawing.Point(303, 382);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_CancelMaterialClassify_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_CancelMaterialClassify_Simpl" +
                 "eButton";
@@ -293,6 +317,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_AddMaterialProperty_AddMaterialClassify_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_AddMaterialClassify_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_AddMaterialClassify_SimpleButton.Location = new System.Drawing.Point(242, 382);
             this.PartsMange_MaterialPropertyBuild_AddMaterialProperty_AddMaterialClassify_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_AddMaterialProperty_AddMaterialClassify_SimpleBu" +
                 "tton";

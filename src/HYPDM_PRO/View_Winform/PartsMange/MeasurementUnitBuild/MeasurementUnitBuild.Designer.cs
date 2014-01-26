@@ -54,6 +54,8 @@
             // 
             // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl
             // 
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Location = new System.Drawing.Point(0, 1);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_Grou" +
@@ -91,6 +93,8 @@
             // 
             // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl
             // 
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Location = new System.Drawing.Point(264, 1);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.MainView = this.gridView1;
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridCon" +
@@ -108,6 +112,7 @@
             this.gridColumn3});
             this.gridView1.GridControl = this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -132,6 +137,9 @@
             // 
             // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl
             // 
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Location = new System.Drawing.Point(264, 258);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.MainView = this.gridView2;
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl";
@@ -150,6 +158,7 @@
             this.gridColumn8});
             this.gridView2.GridControl = this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn4
             // 

@@ -53,6 +53,9 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl.Location = new System.Drawing.Point(1, -1);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridC" +
@@ -73,6 +76,7 @@
             this.gridColumn6});
             this.gridView1.GridControl = this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -118,6 +122,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton.Location = new System.Drawing.Point(107, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton.Size = new System.Drawing.Size(75, 23);
@@ -126,6 +131,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton.Location = new System.Drawing.Point(269, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButto" +
                 "n";
@@ -135,6 +141,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Location = new System.Drawing.Point(188, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButto" +
                 "n";
@@ -144,6 +151,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton.Location = new System.Drawing.Point(350, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -152,6 +160,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton.Location = new System.Drawing.Point(411, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -160,6 +169,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton.Location = new System.Drawing.Point(472, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -168,6 +178,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ExitProperty_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ExitProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ExitProperty_SimpleButton.Location = new System.Drawing.Point(533, 472);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ExitProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ExitProperty_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ExitProperty_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -176,6 +187,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add1_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add1_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add1_SimpleButton.Location = new System.Drawing.Point(635, 126);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add1_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add1_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add1_SimpleButton.Size = new System.Drawing.Size(33, 37);
@@ -184,6 +196,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add2_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add2_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add2_SimpleButton.Location = new System.Drawing.Point(635, 165);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add2_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add2_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Add2_SimpleButton.Size = new System.Drawing.Size(33, 37);
@@ -192,6 +205,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce1_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce1_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce1_SimpleButton.Location = new System.Drawing.Point(635, 220);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce1_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce1_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce1_SimpleButton.Size = new System.Drawing.Size(33, 37);
@@ -200,6 +214,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce2_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce2_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce2_SimpleButton.Location = new System.Drawing.Point(635, 263);
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce2_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce2_SimpleButton";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_Reduce2_SimpleButton.Size = new System.Drawing.Size(33, 37);

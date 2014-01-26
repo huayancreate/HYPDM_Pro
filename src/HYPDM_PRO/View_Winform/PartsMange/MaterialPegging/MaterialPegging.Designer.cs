@@ -172,6 +172,8 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.panelControl1.Controls.Add(this.labelControl2);
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Controls.Add(this.labelControl5);
@@ -188,14 +190,15 @@
             this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging1_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging3_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_MaterialPegging2_ComboBoxEdit);
-            this.panelControl1.Location = new System.Drawing.Point(0, 0);
+            this.panelControl1.Location = new System.Drawing.Point(-4, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(404, 544);
+            this.panelControl1.Size = new System.Drawing.Size(404, 519);
             this.panelControl1.TabIndex = 62;
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(93, 498);
+            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl2.Location = new System.Drawing.Point(93, 473);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(96, 14);
             this.labelControl2.TabIndex = 50;
@@ -203,7 +206,8 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(59, 498);
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl1.Location = new System.Drawing.Point(59, 473);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(28, 14);
             this.labelControl1.TabIndex = 93;
@@ -211,7 +215,8 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(5, 498);
+            this.labelControl5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl5.Location = new System.Drawing.Point(5, 473);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(48, 14);
             this.labelControl5.TabIndex = 92;
@@ -220,7 +225,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton
             // 
-            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Location = new System.Drawing.Point(341, 489);
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Location = new System.Drawing.Point(341, 464);
             this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.Size = new System.Drawing.Size(56, 23);
             this.PartsMange_MaterialPegging_MaterialPegging_Pegging_SimpleButton.TabIndex = 91;
@@ -228,7 +234,8 @@
             // 
             // PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton
             // 
-            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Location = new System.Drawing.Point(307, 463);
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Location = new System.Drawing.Point(307, 438);
             this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton";
             this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.Size = new System.Drawing.Size(34, 23);
             this.PartsMange_MaterialBankManage_MaterialPegging_LastPage_SimpleButton.TabIndex = 88;
@@ -236,7 +243,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton
             // 
-            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Location = new System.Drawing.Point(267, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Location = new System.Drawing.Point(267, 438);
             this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.Size = new System.Drawing.Size(34, 23);
             this.PartsMange_MaterialPegging_MaterialPegging_NextPage_SimpleButton.TabIndex = 90;
@@ -244,7 +252,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton
             // 
-            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Location = new System.Drawing.Point(231, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Location = new System.Drawing.Point(231, 438);
             this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.Size = new System.Drawing.Size(32, 23);
             this.PartsMange_MaterialPegging_MaterialPegging_PageUp_SimpleButton.TabIndex = 89;
@@ -252,7 +261,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton
             // 
-            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Location = new System.Drawing.Point(194, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Location = new System.Drawing.Point(194, 438);
             this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.Size = new System.Drawing.Size(34, 23);
             this.PartsMange_MaterialPegging_MaterialPegging_HomePage_SimpleButton.TabIndex = 87;
@@ -260,7 +270,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit
             // 
-            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Location = new System.Drawing.Point(346, 463);
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Location = new System.Drawing.Point(346, 438);
             this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Name = "PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit";
             this.PartsMange_MaterialPegging_MaterialPegging_LastPage_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -271,10 +282,12 @@
             // 
             // groupControl2
             // 
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.groupControl2.Controls.Add(this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl);
             this.groupControl2.Location = new System.Drawing.Point(0, 195);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(399, 253);
+            this.groupControl2.Size = new System.Drawing.Size(399, 237);
             this.groupControl2.TabIndex = 67;
             this.groupControl2.Text = "查询条件";
             // 
@@ -283,7 +296,7 @@
             this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Location = new System.Drawing.Point(2, 22);
             this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Name = "PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl";
-            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Size = new System.Drawing.Size(395, 229);
+            this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.Size = new System.Drawing.Size(395, 213);
             this.PartsMange_MaterialPegging_MaterialPegging_QueryCondition2_ListBoxControl.TabIndex = 64;
             // 
             // PartsMange_MaterialBankManage_MaterialPegging_QueryCondition1_GroupControl
@@ -323,6 +336,9 @@
             // 
             // xtraTabControl1
             // 
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(405, 0);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
@@ -348,6 +364,7 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Location = new System.Drawing.Point(276, 177);
             this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_Output_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -356,6 +373,7 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Location = new System.Drawing.Point(205, 177);
             this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_Browse_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -388,6 +406,9 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.Location = new System.Drawing.Point(0, 233);
             this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.MainView = this.gridView2;
             this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl";
@@ -405,6 +426,7 @@
             this.gridColumn10});
             this.gridView2.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_PartList_GridControl;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn7
             // 
@@ -436,6 +458,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.Location = new System.Drawing.Point(-1, 0);
             this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl";
@@ -455,6 +479,7 @@
             this.gridColumn6});
             this.gridView1.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_ProjectBOMList_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -513,6 +538,7 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Location = new System.Drawing.Point(293, 223);
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMOutput_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -521,6 +547,7 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Location = new System.Drawing.Point(222, 223);
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMBrowse_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -553,6 +580,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.Location = new System.Drawing.Point(0, 0);
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.MainView = this.gridView4;
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl";
@@ -572,6 +601,7 @@
             this.gridColumn22});
             this.gridView4.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMList_GridControl;
             this.gridView4.Name = "gridView4";
+            this.gridView4.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn17
             // 
@@ -617,6 +647,9 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.Location = new System.Drawing.Point(0, 332);
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.MainView = this.gridView3;
             this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl";
@@ -636,6 +669,7 @@
             this.gridColumn16});
             this.gridView3.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_WorkBOMPartList_GridControl;
             this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn11
             // 
@@ -694,6 +728,7 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Location = new System.Drawing.Point(276, 178);
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkOutput_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -702,6 +737,7 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Location = new System.Drawing.Point(205, 178);
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton";
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkBrowse_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -734,7 +770,10 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl
             // 
-            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Location = new System.Drawing.Point(0, 234);
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Location = new System.Drawing.Point(3, 228);
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.MainView = this.gridView5;
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl";
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl.Size = new System.Drawing.Size(409, 259);
@@ -751,6 +790,7 @@
             this.gridColumn26});
             this.gridView5.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkPartList_GridControl;
             this.gridView5.Name = "gridView5";
+            this.gridView5.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn23
             // 
@@ -782,6 +822,8 @@
             // 
             // PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl
             // 
+            this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.Location = new System.Drawing.Point(-1, 1);
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.MainView = this.gridView6;
             this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl.Name = "PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl";
@@ -801,6 +843,7 @@
             this.gridColumn32});
             this.gridView6.GridControl = this.PartsMange_MaterialPegging_MaterialPegging_AssembleWorkList_GridControl;
             this.gridView6.Name = "gridView6";
+            this.gridView6.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn27
             // 

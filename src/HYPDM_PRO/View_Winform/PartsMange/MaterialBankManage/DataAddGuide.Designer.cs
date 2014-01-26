@@ -51,6 +51,7 @@
             // 
             // labelControl5
             // 
+            this.labelControl5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelControl5.Location = new System.Drawing.Point(155, 12);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(104, 14);
@@ -59,6 +60,9 @@
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl
             // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.Location = new System.Drawing.Point(0, 45);
             this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl.Name = "PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl";
@@ -79,6 +83,7 @@
             this.gridColumn7});
             this.gridView1.GridControl = this.PartsMange_MaterialBankManage_DataAddGuide_DataList_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -131,6 +136,7 @@
             // 
             // labelControl1
             // 
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl1.Location = new System.Drawing.Point(12, 235);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(88, 14);
@@ -139,6 +145,7 @@
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Location = new System.Drawing.Point(240, 293);
             this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton";
             this.PartsMange_MaterialBankManage_DataAddGuide_ExportTemplate_SimpleButton.Size = new System.Drawing.Size(75, 23);
@@ -147,6 +154,7 @@
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Location = new System.Drawing.Point(382, 293);
             this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton";
             this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -156,6 +164,7 @@
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Location = new System.Drawing.Point(321, 293);
             this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton";
             this.PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton.Size = new System.Drawing.Size(55, 23);
@@ -164,6 +173,8 @@
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Location = new System.Drawing.Point(-2, 255);
             this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Name = "PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit";
             this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_TextEdit.Size = new System.Drawing.Size(394, 20);
@@ -171,6 +182,7 @@
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Location = new System.Drawing.Point(398, 252);
             this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Name = "PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton";
             this.PartsMange_MaterialBankManage_DataAddGuide_SelectFileImport_SimpleButton.Size = new System.Drawing.Size(39, 23);

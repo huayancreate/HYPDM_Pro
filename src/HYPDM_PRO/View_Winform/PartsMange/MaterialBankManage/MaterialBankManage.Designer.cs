@@ -92,6 +92,8 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Location = new System.Drawing.Point(0, 0);
@@ -119,6 +121,9 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging);
             this.panelControl1.Controls.Add(this.labelControl9);
@@ -144,6 +149,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Location = new System.Drawing.Point(700, 26);
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton" +
                 "";
@@ -153,6 +159,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging.Location = new System.Drawing.Point(439, 497);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging";
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_Paging.Size = new System.Drawing.Size(381, 25);
@@ -160,6 +167,7 @@
             // 
             // labelControl9
             // 
+            this.labelControl9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl9.Location = new System.Drawing.Point(365, 526);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(12, 14);
@@ -168,6 +176,7 @@
             // 
             // labelControl8
             // 
+            this.labelControl8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl8.Location = new System.Drawing.Point(331, 526);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(28, 14);
@@ -176,6 +185,7 @@
             // 
             // labelControl7
             // 
+            this.labelControl7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl7.Location = new System.Drawing.Point(229, 526);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(96, 14);
@@ -184,6 +194,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Location = new System.Drawing.Point(723, 526);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton";
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Size = new System.Drawing.Size(85, 23);
@@ -192,6 +203,9 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Location = new System.Drawing.Point(222, 185);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.MainView = this.gridView1;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl";
@@ -215,6 +229,7 @@
             this.gridColumn10});
             this.gridView1.GridControl = this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -296,6 +311,8 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.EditValue = null;
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Location = new System.Drawing.Point(304, 156);
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl";
@@ -312,6 +329,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Location = new System.Drawing.Point(757, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Properties.Caption = "或者";
@@ -321,6 +339,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Location = new System.Drawing.Point(698, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Properties.Caption = "而且";
@@ -330,6 +349,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Location = new System.Drawing.Point(564, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit" +
                 "";
@@ -338,6 +358,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Location = new System.Drawing.Point(448, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBo" +
                 "xEdit";
@@ -459,7 +480,7 @@
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Size = new System.Drawing.Size(842, 53);
+            this.barDockControlTop.Size = new System.Drawing.Size(842, 51);
             // 
             // barDockControlBottom
             // 
@@ -472,15 +493,15 @@
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 53);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 501);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 51);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 503);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(842, 53);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 501);
+            this.barDockControlRight.Location = new System.Drawing.Point(842, 51);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 503);
             // 
             // MaterialBankManage
             // 

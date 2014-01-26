@@ -40,6 +40,8 @@
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit
             // 
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Location = new System.Drawing.Point(3, 3);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit" +
                 "";
@@ -48,6 +50,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Location = new System.Drawing.Point(251, 0);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleBu" +
                 "tton";
@@ -57,6 +60,9 @@
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList
             // 
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Location = new System.Drawing.Point(3, 29);
@@ -84,6 +90,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Location = new System.Drawing.Point(145, 293);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleBut" +
                 "ton";
@@ -93,6 +100,7 @@
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton
             // 
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Location = new System.Drawing.Point(206, 293);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButt" +
                 "on";
