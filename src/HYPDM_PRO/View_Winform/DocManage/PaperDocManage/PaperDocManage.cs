@@ -15,5 +15,15 @@ namespace View_Winform.DocManage.PaperDocManage
         {
             InitializeComponent();
         }
+
+        private void simpleButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelControl3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

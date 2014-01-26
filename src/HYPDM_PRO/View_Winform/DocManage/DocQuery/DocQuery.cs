@@ -35,5 +35,10 @@ namespace View_Winform.DocManage.DocQuery
         {
 
         }
+
+        private void textEdit2_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage.DeployPermissionActivity
+namespace View_Winform.ProductStructureManage.DeployPermissionBuild
 {
     public partial class PersonnelSelection : DevExpress.XtraEditors.XtraForm
     {
@@ -17,6 +17,11 @@ namespace View_Winform.ProductStructureManage.DeployPermissionActivity
         }
 
         private void simpleButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PersonnelSelection_Load(object sender, EventArgs e)
         {
 
         }

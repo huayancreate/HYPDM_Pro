@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage
+namespace View_Winform.ProductStructureManage.DeployPermissionBuild
 {
     public partial class UserPermissionBuild : DevExpress.XtraEditors.XtraForm
     {
@@ -17,6 +17,11 @@ namespace View_Winform.ProductStructureManage
         }
 
         private void commonTree1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserPermissionBuild_Load(object sender, EventArgs e)
         {
 
         }

@@ -113,6 +113,108 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuidefour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuidefour.Designer.cs">
+      <DependentUpon>DataOutputGuidefour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideOne.Designer.cs">
+      <DependentUpon>DataOutputGuideOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideThree.Designer.cs">
+      <DependentUpon>DataOutputGuideThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideTwo.Designer.cs">
+      <DependentUpon>DataOutputGuideTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\AddAsynchronousPortDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\AddAsynchronousPortDeploy.Designer.cs">
+      <DependentUpon>AddAsynchronousPortDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\AddSynchronizationPortDeploy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\AddSynchronizationPortDeploy.Designer.cs">
+      <DependentUpon>AddSynchronizationPortDeploy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\BOMInputPDM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\BOMInputPDM.Designer.cs">
+      <DependentUpon>BOMInputPDM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\BOMPropertyMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\BOMPropertyMap.Designer.cs">
+      <DependentUpon>BOMPropertyMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\ERPPortList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\ERPPortList.Designer.cs">
+      <DependentUpon>ERPPortList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\InputSucceed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\InputSucceed.Designer.cs">
+      <DependentUpon>InputSucceed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\MaterialPropertyMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\MaterialPropertyMap.Designer.cs">
+      <DependentUpon>MaterialPropertyMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\SelectBOMInputERP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\SelectBOMInputERP.Designer.cs">
+      <DependentUpon>SelectBOMInputERP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\SelectERP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\SelectERP.Designer.cs">
+      <DependentUpon>SelectERP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\SelectMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\SelectMaterial.Designer.cs">
+      <DependentUpon>SelectMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\TechnologyInputERP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataPortAndIntegration\ERPPortList\TechnologyInputERP.Designer.cs">
+      <DependentUpon>TechnologyInputERP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowDefinitionTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowDefinitionTool.Designer.cs">
+      <DependentUpon>DocFlowDefinitionTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\DocManageTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\DocManageTool.Designer.cs">
+      <DependentUpon>DocManageTool.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1282,6 +1384,57 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuidefour.resx">
+      <DependentUpon>DataOutputGuidefour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideOne.resx">
+      <DependentUpon>DataOutputGuideOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideThree.resx">
+      <DependentUpon>DataOutputGuideThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuideTwo.resx">
+      <DependentUpon>DataOutputGuideTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\AddAsynchronousPortDeploy.resx">
+      <DependentUpon>AddAsynchronousPortDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\AddSynchronizationPortDeploy.resx">
+      <DependentUpon>AddSynchronizationPortDeploy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\BOMInputPDM.resx">
+      <DependentUpon>BOMInputPDM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\BOMPropertyMap.resx">
+      <DependentUpon>BOMPropertyMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\ERPPortList.resx">
+      <DependentUpon>ERPPortList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\InputSucceed.resx">
+      <DependentUpon>InputSucceed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\MaterialPropertyMap.resx">
+      <DependentUpon>MaterialPropertyMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\SelectBOMInputERP.resx">
+      <DependentUpon>SelectBOMInputERP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\SelectERP.resx">
+      <DependentUpon>SelectERP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\SelectMaterial.resx">
+      <DependentUpon>SelectMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataPortAndIntegration\ERPPortList\TechnologyInputERP.resx">
+      <DependentUpon>TechnologyInputERP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\DocFlowDefinitionTool.resx">
+      <DependentUpon>DocFlowDefinitionTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocManageTool\DocManageTool.resx">
+      <DependentUpon>DocManageTool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
       <DependentUpon>AddMaterialInfor.cs</DependentUpon>

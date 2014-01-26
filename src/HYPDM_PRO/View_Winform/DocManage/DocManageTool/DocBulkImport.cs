@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace View_Winform.Doc_management
+namespace View_Winform.DocManage.DocManageTool
 {
     public partial class DocBulkImport : Form
     {
@@ -22,6 +22,11 @@ namespace View_Winform.Doc_management
         }
 
         private void DocManagement_DocModify_Label_DocNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DocBulkImport_Load(object sender, EventArgs e)
         {
 
         }

@@ -1,4 +1,4 @@
-﻿namespace View_Winform.Doc_management
+﻿namespace View_Winform.DocManage.DocManageTool
 {
     partial class DocEntryExists
     {
@@ -157,9 +157,7 @@
             // 
             // DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete
             // 
-            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete.Location = new System.Drawing.Point(508, 400);
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete.Name = "DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete";
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Delete.Size = new System.Drawing.Size(75, 23);
@@ -168,9 +166,8 @@
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.checkEdit2.Location = new System.Drawing.Point(338, 195);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "自动归档";
@@ -179,9 +176,7 @@
             // 
             // DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add
             // 
-            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Location = new System.Drawing.Point(508, 371);
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Name = "DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add";
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Size = new System.Drawing.Size(75, 23);
@@ -190,9 +185,7 @@
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.simpleButton2.Location = new System.Drawing.Point(569, 505);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 23);
@@ -201,9 +194,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.simpleButton1.Location = new System.Drawing.Point(488, 505);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
@@ -212,9 +203,7 @@
             // 
             // DocManagement_DocModify_GroupControl_PartsRelated
             // 
-            this.DocManagement_DocModify_GroupControl_PartsRelated.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_GroupControl_PartsRelated.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_GroupControl_PartsRelated.Location = new System.Drawing.Point(32, 371);
             this.DocManagement_DocModify_GroupControl_PartsRelated.Name = "DocManagement_DocModify_GroupControl_PartsRelated";
             this.DocManagement_DocModify_GroupControl_PartsRelated.Size = new System.Drawing.Size(470, 130);
@@ -282,9 +271,8 @@
             // 
             // DocManagement_DocModify_ButtonEdit_ValidTime
             // 
-            this.DocManagement_DocModify_ButtonEdit_ValidTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_ButtonEdit_ValidTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_ButtonEdit_ValidTime.Location = new System.Drawing.Point(108, 172);
             this.DocManagement_DocModify_ButtonEdit_ValidTime.Name = "DocManagement_DocModify_ButtonEdit_ValidTime";
             this.DocManagement_DocModify_ButtonEdit_ValidTime.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -294,9 +282,8 @@
             // 
             // DocManagement_DocModify_ButtonEdit_DocUpload
             // 
-            this.DocManagement_DocModify_ButtonEdit_DocUpload.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_ButtonEdit_DocUpload.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_ButtonEdit_DocUpload.Location = new System.Drawing.Point(108, 146);
             this.DocManagement_DocModify_ButtonEdit_DocUpload.Name = "DocManagement_DocModify_ButtonEdit_DocUpload";
             this.DocManagement_DocModify_ButtonEdit_DocUpload.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -306,9 +293,8 @@
             // 
             // DocManagement_DocModify_ButtonEdit_DocFlow
             // 
-            this.DocManagement_DocModify_ButtonEdit_DocFlow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_ButtonEdit_DocFlow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_ButtonEdit_DocFlow.Location = new System.Drawing.Point(108, 117);
             this.DocManagement_DocModify_ButtonEdit_DocFlow.Name = "DocManagement_DocModify_ButtonEdit_DocFlow";
             this.DocManagement_DocModify_ButtonEdit_DocFlow.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -330,9 +316,8 @@
             // 
             // DocManagement_DocModify_BtnEdit_DocNumber
             // 
-            this.DocManagement_DocModify_BtnEdit_DocNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_BtnEdit_DocNumber.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_BtnEdit_DocNumber.Location = new System.Drawing.Point(108, 6);
             this.DocManagement_DocModify_BtnEdit_DocNumber.Name = "DocManagement_DocModify_BtnEdit_DocNumber";
             this.DocManagement_DocModify_BtnEdit_DocNumber.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -342,9 +327,8 @@
             // 
             // DocManagement_DocModify_DropDownBtn_SecurityLevel
             // 
-            this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Location = new System.Drawing.Point(108, 197);
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Name = "DocManagement_DocModify_DropDownBtn_SecurityLevel";
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Size = new System.Drawing.Size(172, 20);
@@ -353,9 +337,8 @@
             // 
             // DocManagement_DocModify_Label_SecurityLevel
             // 
-            this.DocManagement_DocModify_Label_SecurityLevel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_SecurityLevel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_SecurityLevel.Location = new System.Drawing.Point(32, 201);
             this.DocManagement_DocModify_Label_SecurityLevel.Name = "DocManagement_DocModify_Label_SecurityLevel";
             this.DocManagement_DocModify_Label_SecurityLevel.Size = new System.Drawing.Size(52, 14);
@@ -364,9 +347,8 @@
             // 
             // DocManagement_DocModify_Label_InValidTime
             // 
-            this.DocManagement_DocModify_Label_InValidTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_InValidTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_InValidTime.Location = new System.Drawing.Point(348, 173);
             this.DocManagement_DocModify_Label_InValidTime.Name = "DocManagement_DocModify_Label_InValidTime";
             this.DocManagement_DocModify_Label_InValidTime.Size = new System.Drawing.Size(52, 14);
@@ -375,9 +357,8 @@
             // 
             // DocManagement_DocModify_Label_ValidTime
             // 
-            this.DocManagement_DocModify_Label_ValidTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_ValidTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_ValidTime.Location = new System.Drawing.Point(32, 175);
             this.DocManagement_DocModify_Label_ValidTime.Name = "DocManagement_DocModify_Label_ValidTime";
             this.DocManagement_DocModify_Label_ValidTime.Size = new System.Drawing.Size(52, 14);
@@ -386,9 +367,8 @@
             // 
             // DocManagement_DocModify_Label_DocModel
             // 
-            this.DocManagement_DocModify_Label_DocModel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocModel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocModel.Location = new System.Drawing.Point(348, 146);
             this.DocManagement_DocModify_Label_DocModel.Name = "DocManagement_DocModify_Label_DocModel";
             this.DocManagement_DocModify_Label_DocModel.Size = new System.Drawing.Size(52, 14);
@@ -397,9 +377,8 @@
             // 
             // DocManagement_DocModify_Label_DocUpload
             // 
-            this.DocManagement_DocModify_Label_DocUpload.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocUpload.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocUpload.Location = new System.Drawing.Point(32, 149);
             this.DocManagement_DocModify_Label_DocUpload.Name = "DocManagement_DocModify_Label_DocUpload";
             this.DocManagement_DocModify_Label_DocUpload.Size = new System.Drawing.Size(52, 14);
@@ -418,9 +397,8 @@
             // 
             // DocManagement_DocModify_Label_DocPage
             // 
-            this.DocManagement_DocModify_Label_DocPage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocPage.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocPage.Location = new System.Drawing.Point(348, 120);
             this.DocManagement_DocModify_Label_DocPage.Name = "DocManagement_DocModify_Label_DocPage";
             this.DocManagement_DocModify_Label_DocPage.Size = new System.Drawing.Size(52, 14);
@@ -429,9 +407,8 @@
             // 
             // DocManagement_DocModify_Label_DocFlow
             // 
-            this.DocManagement_DocModify_Label_DocFlow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocFlow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocFlow.Location = new System.Drawing.Point(32, 120);
             this.DocManagement_DocModify_Label_DocFlow.Name = "DocManagement_DocModify_Label_DocFlow";
             this.DocManagement_DocModify_Label_DocFlow.Size = new System.Drawing.Size(52, 14);
@@ -440,9 +417,8 @@
             // 
             // DocManagement_DocModify_Label_ModifyTime
             // 
-            this.DocManagement_DocModify_Label_ModifyTime.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_ModifyTime.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_ModifyTime.Location = new System.Drawing.Point(348, 92);
             this.DocManagement_DocModify_Label_ModifyTime.Name = "DocManagement_DocModify_Label_ModifyTime";
             this.DocManagement_DocModify_Label_ModifyTime.Size = new System.Drawing.Size(52, 14);
@@ -461,9 +437,8 @@
             // 
             // DocManagement_DocModify_TextEdit_ModifyCount
             // 
-            this.DocManagement_DocModify_TextEdit_ModifyCount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_TextEdit_ModifyCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_TextEdit_ModifyCount.Location = new System.Drawing.Point(108, 91);
             this.DocManagement_DocModify_TextEdit_ModifyCount.Name = "DocManagement_DocModify_TextEdit_ModifyCount";
             this.DocManagement_DocModify_TextEdit_ModifyCount.Size = new System.Drawing.Size(172, 20);
@@ -471,9 +446,8 @@
             // 
             // DocManagement_DocModify_Label_ModifyCount
             // 
-            this.DocManagement_DocModify_Label_ModifyCount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_ModifyCount.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_ModifyCount.Location = new System.Drawing.Point(32, 94);
             this.DocManagement_DocModify_Label_ModifyCount.Name = "DocManagement_DocModify_Label_ModifyCount";
             this.DocManagement_DocModify_Label_ModifyCount.Size = new System.Drawing.Size(52, 14);
@@ -482,9 +456,8 @@
             // 
             // DocManagement_DocModify_Label_DocCategory
             // 
-            this.DocManagement_DocModify_Label_DocCategory.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocCategory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocCategory.Location = new System.Drawing.Point(348, 63);
             this.DocManagement_DocModify_Label_DocCategory.Name = "DocManagement_DocModify_Label_DocCategory";
             this.DocManagement_DocModify_Label_DocCategory.Size = new System.Drawing.Size(52, 14);
@@ -493,9 +466,8 @@
             // 
             // DocManagement_DocModify_TextEdit_DocFormat
             // 
-            this.DocManagement_DocModify_TextEdit_DocFormat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_TextEdit_DocFormat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_TextEdit_DocFormat.Location = new System.Drawing.Point(108, 63);
             this.DocManagement_DocModify_TextEdit_DocFormat.Name = "DocManagement_DocModify_TextEdit_DocFormat";
             this.DocManagement_DocModify_TextEdit_DocFormat.Size = new System.Drawing.Size(172, 20);
@@ -503,9 +475,8 @@
             // 
             // DocManagement_DocModify_Label_DocFormat
             // 
-            this.DocManagement_DocModify_Label_DocFormat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocFormat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocFormat.Location = new System.Drawing.Point(32, 65);
             this.DocManagement_DocModify_Label_DocFormat.Name = "DocManagement_DocModify_Label_DocFormat";
             this.DocManagement_DocModify_Label_DocFormat.Size = new System.Drawing.Size(52, 14);
@@ -524,9 +495,8 @@
             // 
             // DocManagement_DocModify_Label_EnglishName
             // 
-            this.DocManagement_DocModify_Label_EnglishName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_EnglishName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_EnglishName.Location = new System.Drawing.Point(348, 40);
             this.DocManagement_DocModify_Label_EnglishName.Name = "DocManagement_DocModify_Label_EnglishName";
             this.DocManagement_DocModify_Label_EnglishName.Size = new System.Drawing.Size(52, 14);
@@ -535,9 +505,8 @@
             // 
             // DocManagement_DocModify_Label_DocName
             // 
-            this.DocManagement_DocModify_Label_DocName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocName.Location = new System.Drawing.Point(25, 40);
             this.DocManagement_DocModify_Label_DocName.Name = "DocManagement_DocModify_Label_DocName";
             this.DocManagement_DocModify_Label_DocName.Size = new System.Drawing.Size(59, 14);
@@ -546,9 +515,8 @@
             // 
             // DocManagement_DocModify_TextEdit_
             // 
-            this.DocManagement_DocModify_TextEdit_.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_TextEdit_.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_TextEdit_.Location = new System.Drawing.Point(108, 37);
             this.DocManagement_DocModify_TextEdit_.Name = "DocManagement_DocModify_TextEdit_";
             this.DocManagement_DocModify_TextEdit_.Size = new System.Drawing.Size(172, 20);
@@ -566,9 +534,8 @@
             // 
             // DocManagement_DocModify_Label_DocVersion
             // 
-            this.DocManagement_DocModify_Label_DocVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocVersion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocVersion.Location = new System.Drawing.Point(340, 12);
             this.DocManagement_DocModify_Label_DocVersion.Name = "DocManagement_DocModify_Label_DocVersion";
             this.DocManagement_DocModify_Label_DocVersion.Size = new System.Drawing.Size(67, 14);
@@ -577,9 +544,8 @@
             // 
             // DocManagement_DocModify_Label_DocNumber
             // 
-            this.DocManagement_DocModify_Label_DocNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocNumber.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocNumber.Location = new System.Drawing.Point(25, 10);
             this.DocManagement_DocModify_Label_DocNumber.Name = "DocManagement_DocModify_Label_DocNumber";
             this.DocManagement_DocModify_Label_DocNumber.Size = new System.Drawing.Size(59, 14);
@@ -612,6 +578,7 @@
             this.Controls.Add(this.DocManagement_DocModify_TabContr);
             this.Name = "DocEntryExists";
             this.Text = "录入已有文档";
+            this.Load += new System.EventHandler(this.DocEntryExists_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DocManagement_DocModify_TabContr)).EndInit();
             this.DocManagement_DocModify_TabContr.ResumeLayout(false);
             this.DocManagement_DocModify_TabContr_BasicInfo.ResumeLayout(false);

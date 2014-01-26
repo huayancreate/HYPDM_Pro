@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ChangeManage.ChangeTaskManage
+namespace View_Winform.ChangeManage.ChangeMessageGroupManage
 {
     public partial class ChangeMessageGroupManage : DevExpress.XtraEditors.XtraForm
     {
@@ -22,6 +22,11 @@ namespace View_Winform.ChangeManage.ChangeTaskManage
         }
 
         private void simpleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChangeMessageGroupManage_Load(object sender, EventArgs e)
         {
 
         }

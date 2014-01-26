@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage
+namespace View_Winform.ProductStructureManage.DeployInformationManage
 {
     public partial class BOMInformationMaintion : DevExpress.XtraEditors.XtraForm
     {
@@ -47,6 +47,11 @@ namespace View_Winform.ProductStructureManage
         }
 
         private void textEdit1_EditValueChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BOMInformationMaintion_Load(object sender, EventArgs e)
         {
 
         }

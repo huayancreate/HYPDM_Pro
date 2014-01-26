@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.Doc_management
+namespace View_Winform.DocManage.DocManageTool
 {
     public partial class ChoosDocReviewFlow : DevExpress.XtraEditors.XtraForm
     {

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProjectManage.SporadicTaskCreation
+namespace View_Winform.ProjectManage.SporadicTaskCreate
 {
     public partial class CreateProjectTask : DevExpress.XtraEditors.XtraForm
     {
@@ -17,6 +17,11 @@ namespace View_Winform.ProjectManage.SporadicTaskCreation
         }
 
         private void labelControl3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateProjectTask_Load(object sender, EventArgs e)
         {
 
         }

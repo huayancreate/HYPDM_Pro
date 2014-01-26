@@ -83,6 +83,9 @@
             // 
             // xtraTabControl1
             // 
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(2, 2);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
@@ -107,6 +110,9 @@
             // 
             // groupControl6
             // 
+            this.groupControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl6.Controls.Add(this.gridControl2);
             this.groupControl6.Location = new System.Drawing.Point(417, 3);
             this.groupControl6.Name = "groupControl6";
@@ -116,12 +122,15 @@
             // 
             // gridControl2
             // 
+            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gridControl2.Location = new System.Drawing.Point(0, 25);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
             this.gridControl2.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.gridControl2.Size = new System.Drawing.Size(331, 518);
+            this.gridControl2.Size = new System.Drawing.Size(331, 521);
             this.gridControl2.TabIndex = 0;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -133,6 +142,7 @@
             this.gridColumn2});
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -156,18 +166,21 @@
             // 
             // groupControl5
             // 
+            this.groupControl5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.groupControl5.Controls.Add(this.simpleButton4);
             this.groupControl5.Controls.Add(this.simpleButton3);
             this.groupControl5.Controls.Add(this.listBoxControl1);
-            this.groupControl5.Location = new System.Drawing.Point(9, 319);
+            this.groupControl5.Location = new System.Drawing.Point(0, 319);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(407, 227);
+            this.groupControl5.Size = new System.Drawing.Size(416, 230);
             this.groupControl5.TabIndex = 8;
             this.groupControl5.Text = "添加空白列";
             // 
             // simpleButton4
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(329, 56);
+            this.simpleButton4.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.simpleButton4.Location = new System.Drawing.Point(329, 58);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(63, 23);
             this.simpleButton4.TabIndex = 13;
@@ -176,7 +189,8 @@
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(329, 109);
+            this.simpleButton3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.simpleButton3.Location = new System.Drawing.Point(329, 111);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(63, 23);
             this.simpleButton3.TabIndex = 12;
@@ -184,9 +198,11 @@
             // 
             // listBoxControl1
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(5, 25);
+            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.listBoxControl1.Location = new System.Drawing.Point(1, 22);
             this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(306, 197);
+            this.listBoxControl1.Size = new System.Drawing.Size(306, 208);
             this.listBoxControl1.TabIndex = 11;
             // 
             // groupControl2
@@ -194,9 +210,9 @@
             this.groupControl2.Controls.Add(this.gridControl1);
             this.groupControl2.Controls.Add(this.groupControl4);
             this.groupControl2.Controls.Add(this.groupControl3);
-            this.groupControl2.Location = new System.Drawing.Point(9, 121);
+            this.groupControl2.Location = new System.Drawing.Point(0, 121);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(407, 192);
+            this.groupControl2.Size = new System.Drawing.Size(416, 192);
             this.groupControl2.TabIndex = 9;
             this.groupControl2.Text = "多层条件设置";
             // 
@@ -218,9 +234,9 @@
             // groupControl4
             // 
             this.groupControl4.Controls.Add(this.simpleButton1);
-            this.groupControl4.Location = new System.Drawing.Point(5, 25);
+            this.groupControl4.Location = new System.Drawing.Point(2, 25);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(402, 73);
+            this.groupControl4.Size = new System.Drawing.Size(410, 73);
             this.groupControl4.TabIndex = 8;
             this.groupControl4.Text = "插入条件";
             // 
@@ -235,9 +251,9 @@
             // groupControl3
             // 
             this.groupControl3.Controls.Add(this.simpleButton2);
-            this.groupControl3.Location = new System.Drawing.Point(5, 115);
+            this.groupControl3.Location = new System.Drawing.Point(1, 115);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(402, 73);
+            this.groupControl3.Size = new System.Drawing.Size(411, 73);
             this.groupControl3.TabIndex = 10;
             this.groupControl3.Text = "清空条件";
             // 
@@ -252,9 +268,9 @@
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.buttonEdit2);
-            this.groupControl1.Location = new System.Drawing.Point(9, 42);
+            this.groupControl1.Location = new System.Drawing.Point(0, 42);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(407, 73);
+            this.groupControl1.Size = new System.Drawing.Size(413, 73);
             this.groupControl1.TabIndex = 8;
             this.groupControl1.Text = "关联表";
             // 
@@ -300,6 +316,7 @@
             // 
             // simpleButton5
             // 
+            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.simpleButton5.Location = new System.Drawing.Point(690, 581);
             this.simpleButton5.Name = "simpleButton5";
             this.simpleButton5.Size = new System.Drawing.Size(61, 23);
@@ -308,6 +325,7 @@
             // 
             // simpleButton6
             // 
+            this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.simpleButton6.Location = new System.Drawing.Point(621, 581);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.Size = new System.Drawing.Size(63, 23);

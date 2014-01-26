@@ -1,4 +1,4 @@
-﻿namespace View_Winform.ProductStructureManage
+﻿namespace View_Winform.ProductStructureManage.DeployInformationManage
 {
     partial class BOMInformationMaintion
     {
@@ -108,6 +108,7 @@
             // 
             // checkButton1
             // 
+            this.checkButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.checkButton1.Location = new System.Drawing.Point(909, 0);
             this.checkButton1.Name = "checkButton1";
             this.checkButton1.Size = new System.Drawing.Size(75, 23);
@@ -183,6 +184,9 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl1.Controls.Add(this.listBoxControl2);
             this.groupControl1.Location = new System.Drawing.Point(5, 54);
             this.groupControl1.Name = "groupControl1";
@@ -192,13 +196,19 @@
             // 
             // listBoxControl2
             // 
-            this.listBoxControl2.Location = new System.Drawing.Point(7, 16);
+            this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBoxControl2.Location = new System.Drawing.Point(7, 19);
             this.listBoxControl2.Name = "listBoxControl2";
             this.listBoxControl2.Size = new System.Drawing.Size(979, 79);
             this.listBoxControl2.TabIndex = 15;
             // 
             // groupControl2
             // 
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl2.Controls.Add(this.gridControl1);
             this.groupControl2.Location = new System.Drawing.Point(5, 169);
             this.groupControl2.Name = "groupControl2";
@@ -208,6 +218,9 @@
             // 
             // gridControl1
             // 
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gridControl1.Location = new System.Drawing.Point(5, 19);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
@@ -229,6 +242,7 @@
             this.gridColumn8});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -354,6 +368,7 @@
             // 
             // labelControl1
             // 
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl1.Location = new System.Drawing.Point(5, 436);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(183, 14);
@@ -362,6 +377,7 @@
             // 
             // checkButton2
             // 
+            this.checkButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton2.Location = new System.Drawing.Point(290, 436);
             this.checkButton2.Name = "checkButton2";
             this.checkButton2.Size = new System.Drawing.Size(88, 23);
@@ -371,6 +387,7 @@
             // 
             // checkButton3
             // 
+            this.checkButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton3.Location = new System.Drawing.Point(929, 433);
             this.checkButton3.Name = "checkButton3";
             this.checkButton3.Size = new System.Drawing.Size(55, 23);
@@ -379,6 +396,7 @@
             // 
             // checkButton4
             // 
+            this.checkButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton4.Location = new System.Drawing.Point(817, 434);
             this.checkButton4.Name = "checkButton4";
             this.checkButton4.Size = new System.Drawing.Size(106, 23);
@@ -387,6 +405,7 @@
             // 
             // checkButton6
             // 
+            this.checkButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton6.Location = new System.Drawing.Point(708, 436);
             this.checkButton6.Name = "checkButton6";
             this.checkButton6.Size = new System.Drawing.Size(75, 23);
@@ -395,6 +414,7 @@
             // 
             // checkButton7
             // 
+            this.checkButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton7.Location = new System.Drawing.Point(627, 436);
             this.checkButton7.Name = "checkButton7";
             this.checkButton7.Size = new System.Drawing.Size(75, 23);
@@ -403,6 +423,7 @@
             // 
             // checkButton8
             // 
+            this.checkButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton8.Location = new System.Drawing.Point(546, 436);
             this.checkButton8.Name = "checkButton8";
             this.checkButton8.Size = new System.Drawing.Size(75, 23);
@@ -411,6 +432,7 @@
             // 
             // checkButton5
             // 
+            this.checkButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkButton5.Location = new System.Drawing.Point(384, 436);
             this.checkButton5.Name = "checkButton5";
             this.checkButton5.Size = new System.Drawing.Size(75, 23);
@@ -419,6 +441,7 @@
             // 
             // textEdit1
             // 
+            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.textEdit1.EditValue = "配置BOM(C)";
             this.textEdit1.Location = new System.Drawing.Point(465, 436);
             this.textEdit1.Name = "textEdit1";
@@ -454,6 +477,7 @@
             this.Controls.Add(this.checkEdit1);
             this.Name = "BOMInformationMaintion";
             this.Text = "配置信息管理";
+            this.Load += new System.EventHandler(this.BOMInformationMaintion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();

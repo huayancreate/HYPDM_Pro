@@ -1,4 +1,4 @@
-﻿namespace View_Winform.Doc_management
+﻿namespace View_Winform.DocManage.DocManageTool
 {
     partial class ChooseDocTemplate
     {
@@ -58,8 +58,7 @@
             // 
             // treeList2
             // 
-            this.treeList2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
+            this.treeList2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.treeList2.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn2});
@@ -106,9 +105,7 @@
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.simpleButton1.Location = new System.Drawing.Point(376, 416);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
@@ -117,9 +114,7 @@
             // 
             // DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add
             // 
-            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Location = new System.Drawing.Point(281, 416);
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Name = "DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add";
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Size = new System.Drawing.Size(75, 23);
@@ -128,9 +123,8 @@
             // 
             // DocManagement_DocModify_Label_DocName
             // 
-            this.DocManagement_DocModify_Label_DocName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DocManagement_DocModify_Label_DocName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_Label_DocName.Location = new System.Drawing.Point(38, 385);
             this.DocManagement_DocModify_Label_DocName.Name = "DocManagement_DocModify_Label_DocName";
             this.DocManagement_DocModify_Label_DocName.Size = new System.Drawing.Size(88, 14);
@@ -155,6 +149,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "ChooseDocTemplate";
             this.Text = "选择文档模板";
+            this.Load += new System.EventHandler(this.ChooseDocTemplate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();

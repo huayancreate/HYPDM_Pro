@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage
+namespace View_Winform.ProductStructureManage.DeployPermissionBuild
 {
     public partial class PermissionActivity : DevExpress.XtraEditors.XtraForm
     {
@@ -22,6 +22,11 @@ namespace View_Winform.ProductStructureManage
         }
 
         private void gridControl2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PermissionActivity_Load(object sender, EventArgs e)
         {
 
         }

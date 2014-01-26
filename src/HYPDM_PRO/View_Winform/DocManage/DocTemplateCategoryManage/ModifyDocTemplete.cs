@@ -15,5 +15,10 @@ namespace View_Winform.DocManage.DocTemplateCategoryManage
         {
             InitializeComponent();
         }
+
+        private void ModifyDocTemplete_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

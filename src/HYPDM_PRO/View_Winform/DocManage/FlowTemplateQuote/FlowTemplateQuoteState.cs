@@ -15,5 +15,10 @@ namespace View_Winform.DocManage.FlowTemplateQuote
         {
             InitializeComponent();
         }
+
+        private void gridControl1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductStructureManage
+namespace View_Winform.ProductStructureManage.DeployInformationManage
 {
     public partial class CheckBOMMessage : DevExpress.XtraEditors.XtraForm
     {
@@ -42,6 +42,11 @@ namespace View_Winform.ProductStructureManage
         }
 
         private void textEdit3_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CheckBOMMessage_Load(object sender, EventArgs e)
         {
 
         }

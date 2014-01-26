@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.Doc_management
+namespace View_Winform.DocManage.DocManageTool
 {
     public partial class DocOpen : DevExpress.XtraEditors.XtraForm
     {
@@ -17,6 +17,11 @@ namespace View_Winform.Doc_management
         }
 
         private void listBoxControl1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DocOpen_Load(object sender, EventArgs e)
         {
 
         }

@@ -1,4 +1,4 @@
-﻿namespace View_Winform.DocManagement
+﻿namespace View_Winform.DocManage.DocTemplateCategoryManage
 {
     partial class DocTemplateManage
     {
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.commonTree1 = new View_Winform.CommonTemplet.CommonTree();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.commonTree1 = new View_Winform.CommonTemplet.CommonTree();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             this.SuspendLayout();
@@ -47,6 +47,15 @@
             this.panelControl1.Size = new System.Drawing.Size(410, 317);
             this.panelControl1.TabIndex = 0;
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton1.Location = new System.Drawing.Point(329, 292);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.TabIndex = 3;
+            this.simpleButton1.Text = "退出";
+            // 
             // commonTree1
             // 
             this.commonTree1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
@@ -56,17 +65,6 @@
             this.commonTree1.Name = "commonTree1";
             this.commonTree1.Size = new System.Drawing.Size(418, 285);
             this.commonTree1.TabIndex = 4;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton1.Location = new System.Drawing.Point(329, 292);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton1.TabIndex = 3;
-            this.simpleButton1.Text = "退出";
             // 
             // DocTemplateManage
             // 

@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.DocManagement
+namespace View_Winform.DocManage.DocManageTool
 {
     public partial class AssociatedParts : DevExpress.XtraEditors.XtraForm
     {

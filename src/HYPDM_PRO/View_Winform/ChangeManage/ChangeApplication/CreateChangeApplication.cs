@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ChangeManage
+namespace View_Winform.ChangeManage.ChangeApplication
 {
     public partial class CreateChangeApplication : DevExpress.XtraEditors.XtraForm
     {
@@ -37,6 +37,11 @@ namespace View_Winform.ChangeManage
         }
 
         private void buttonEdit3_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateChangeApplication_Load(object sender, EventArgs e)
         {
 
         }

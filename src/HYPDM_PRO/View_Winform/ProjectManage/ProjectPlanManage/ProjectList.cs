@@ -20,5 +20,10 @@ namespace View_Winform.ProjectManage.ProjectPlanManage
         {
 
         }
+
+        private void ProjectList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

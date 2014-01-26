@@ -235,6 +235,8 @@
             // 
             // groupControl1
             // 
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.groupControl1.Controls.Add(this.listBoxControl1);
             this.groupControl1.Location = new System.Drawing.Point(3, 125);
             this.groupControl1.Name = "groupControl1";
@@ -244,6 +246,8 @@
             // 
             // listBoxControl1
             // 
+            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.listBoxControl1.Location = new System.Drawing.Point(0, 25);
             this.listBoxControl1.Name = "listBoxControl1";
             this.listBoxControl1.Size = new System.Drawing.Size(406, 267);
@@ -267,10 +271,12 @@
             // 
             // gridControl1
             // 
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.gridControl1.Location = new System.Drawing.Point(3, 443);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(407, 186);
+            this.gridControl1.Size = new System.Drawing.Size(407, 210);
             this.gridControl1.TabIndex = 25;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -283,6 +289,7 @@
             this.gridColumn3});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
@@ -307,11 +314,14 @@
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Location = new System.Drawing.Point(416, 79);
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl1.Location = new System.Drawing.Point(416, 96);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
             this.xtraTabControl1.ShowToolTips = DevExpress.Utils.DefaultBoolean.True;
-            this.xtraTabControl1.Size = new System.Drawing.Size(704, 529);
+            this.xtraTabControl1.Size = new System.Drawing.Size(704, 537);
             this.xtraTabControl1.TabIndex = 33;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2,
@@ -324,15 +334,18 @@
             // 
             this.xtraTabPage2.Controls.Add(this.xtraTabControl2);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(698, 500);
+            this.xtraTabPage2.Size = new System.Drawing.Size(698, 508);
             this.xtraTabPage2.Text = "版本信息";
             // 
             // xtraTabControl2
             // 
+            this.xtraTabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl2.Location = new System.Drawing.Point(-2, 3);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl2.Size = new System.Drawing.Size(705, 502);
+            this.xtraTabControl2.Size = new System.Drawing.Size(705, 510);
             this.xtraTabControl2.TabIndex = 33;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -366,12 +379,13 @@
             this.xtraTabPage1.Controls.Add(this.checkEdit1);
             this.xtraTabPage1.Controls.Add(this.galleryControl1);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(699, 473);
+            this.xtraTabPage1.Size = new System.Drawing.Size(699, 481);
             this.xtraTabPage1.Text = "基本属性";
             // 
             // simpleButton19
             // 
-            this.simpleButton19.Location = new System.Drawing.Point(639, 445);
+            this.simpleButton19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton19.Location = new System.Drawing.Point(639, 455);
             this.simpleButton19.Name = "simpleButton19";
             this.simpleButton19.Size = new System.Drawing.Size(57, 22);
             this.simpleButton19.TabIndex = 39;
@@ -379,7 +393,8 @@
             // 
             // simpleButton18
             // 
-            this.simpleButton18.Location = new System.Drawing.Point(538, 446);
+            this.simpleButton18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton18.Location = new System.Drawing.Point(538, 456);
             this.simpleButton18.Name = "simpleButton18";
             this.simpleButton18.Size = new System.Drawing.Size(77, 22);
             this.simpleButton18.TabIndex = 38;
@@ -387,7 +402,8 @@
             // 
             // simpleButton17
             // 
-            this.simpleButton17.Location = new System.Drawing.Point(422, 445);
+            this.simpleButton17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton17.Location = new System.Drawing.Point(422, 455);
             this.simpleButton17.Name = "simpleButton17";
             this.simpleButton17.Size = new System.Drawing.Size(94, 22);
             this.simpleButton17.TabIndex = 37;
@@ -395,7 +411,8 @@
             // 
             // labelControl10
             // 
-            this.labelControl10.Location = new System.Drawing.Point(153, 453);
+            this.labelControl10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl10.Location = new System.Drawing.Point(153, 463);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(165, 14);
             this.labelControl10.TabIndex = 36;
@@ -403,8 +420,9 @@
             // 
             // comboBoxEdit4
             // 
+            this.comboBoxEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBoxEdit4.EditValue = "第1页";
-            this.comboBoxEdit4.Location = new System.Drawing.Point(641, 419);
+            this.comboBoxEdit4.Location = new System.Drawing.Point(641, 431);
             this.comboBoxEdit4.Name = "comboBoxEdit4";
             this.comboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -413,7 +431,8 @@
             // 
             // simpleButton16
             // 
-            this.simpleButton16.Location = new System.Drawing.Point(538, 417);
+            this.simpleButton16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton16.Location = new System.Drawing.Point(538, 429);
             this.simpleButton16.Name = "simpleButton16";
             this.simpleButton16.Size = new System.Drawing.Size(43, 22);
             this.simpleButton16.TabIndex = 34;
@@ -421,7 +440,8 @@
             // 
             // simpleButton15
             // 
-            this.simpleButton15.Location = new System.Drawing.Point(443, 417);
+            this.simpleButton15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton15.Location = new System.Drawing.Point(443, 429);
             this.simpleButton15.Name = "simpleButton15";
             this.simpleButton15.Size = new System.Drawing.Size(43, 22);
             this.simpleButton15.TabIndex = 33;
@@ -429,7 +449,8 @@
             // 
             // simpleButton14
             // 
-            this.simpleButton14.Location = new System.Drawing.Point(594, 417);
+            this.simpleButton14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton14.Location = new System.Drawing.Point(594, 429);
             this.simpleButton14.Name = "simpleButton14";
             this.simpleButton14.Size = new System.Drawing.Size(41, 22);
             this.simpleButton14.TabIndex = 32;
@@ -437,7 +458,8 @@
             // 
             // simpleButton13
             // 
-            this.simpleButton13.Location = new System.Drawing.Point(492, 417);
+            this.simpleButton13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton13.Location = new System.Drawing.Point(492, 429);
             this.simpleButton13.Name = "simpleButton13";
             this.simpleButton13.Size = new System.Drawing.Size(37, 22);
             this.simpleButton13.TabIndex = 31;
@@ -445,7 +467,8 @@
             // 
             // labelControl9
             // 
-            this.labelControl9.Location = new System.Drawing.Point(422, 422);
+            this.labelControl9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl9.Location = new System.Drawing.Point(422, 434);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(12, 14);
             this.labelControl9.TabIndex = 30;
@@ -453,8 +476,9 @@
             // 
             // comboBoxEdit3
             // 
+            this.comboBoxEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.comboBoxEdit3.EditValue = "50";
-            this.comboBoxEdit3.Location = new System.Drawing.Point(366, 419);
+            this.comboBoxEdit3.Location = new System.Drawing.Point(366, 431);
             this.comboBoxEdit3.Name = "comboBoxEdit3";
             this.comboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -463,7 +487,8 @@
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(312, 422);
+            this.labelControl8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl8.Location = new System.Drawing.Point(312, 434);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(48, 14);
             this.labelControl8.TabIndex = 28;
@@ -471,10 +496,13 @@
             // 
             // gridControl2
             // 
-            this.gridControl2.Location = new System.Drawing.Point(153, 140);
+            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl2.Location = new System.Drawing.Point(153, 161);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(543, 266);
+            this.gridControl2.Size = new System.Drawing.Size(543, 262);
             this.gridControl2.TabIndex = 27;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -490,6 +518,7 @@
             this.gridColumn9});
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn4
             // 
@@ -535,6 +564,8 @@
             // 
             // trackBarControl1
             // 
+            this.trackBarControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.trackBarControl1.EditValue = null;
             this.trackBarControl1.Location = new System.Drawing.Point(207, 110);
             this.trackBarControl1.Name = "trackBarControl1";
@@ -543,7 +574,7 @@
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(153, 120);
+            this.labelControl7.Location = new System.Drawing.Point(153, 126);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(48, 14);
             this.labelControl7.TabIndex = 25;
@@ -551,6 +582,8 @@
             // 
             // listBoxControl3
             // 
+            this.listBoxControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxControl3.Location = new System.Drawing.Point(153, 29);
             this.listBoxControl3.Name = "listBoxControl3";
             this.listBoxControl3.Size = new System.Drawing.Size(546, 75);
@@ -609,12 +642,14 @@
             // 
             // galleryControl1
             // 
+            this.galleryControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.galleryControl1.Controls.Add(this.galleryControlClient1);
             this.galleryControl1.DesignGalleryGroupIndex = 0;
             this.galleryControl1.DesignGalleryItemIndex = 0;
             this.galleryControl1.Location = new System.Drawing.Point(4, 3);
             this.galleryControl1.Name = "galleryControl1";
-            this.galleryControl1.Size = new System.Drawing.Size(143, 467);
+            this.galleryControl1.Size = new System.Drawing.Size(143, 475);
             this.galleryControl1.TabIndex = 17;
             this.galleryControl1.Text = "galleryControl1";
             // 
@@ -622,53 +657,54 @@
             // 
             this.galleryControlClient1.GalleryControl = this.galleryControl1;
             this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(122, 463);
+            this.galleryControlClient1.Size = new System.Drawing.Size(122, 471);
             // 
             // xtraTabPage5
             // 
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(699, 473);
+            this.xtraTabPage5.Size = new System.Drawing.Size(699, 481);
             this.xtraTabPage5.Text = "文档简图浏览区";
             // 
             // xtraTabPage8
             // 
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(699, 473);
+            this.xtraTabPage8.Size = new System.Drawing.Size(699, 481);
             this.xtraTabPage8.Text = "零部件列表";
             // 
             // xtraTabPage9
             // 
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(699, 473);
+            this.xtraTabPage9.Size = new System.Drawing.Size(699, 481);
             this.xtraTabPage9.Text = "参考区";
             // 
             // xtraTabPage3
             // 
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(698, 500);
+            this.xtraTabPage3.Size = new System.Drawing.Size(698, 508);
             this.xtraTabPage3.Text = "零部件审签信息";
             // 
             // xtraTabPage4
             // 
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(698, 500);
+            this.xtraTabPage4.Size = new System.Drawing.Size(698, 508);
             this.xtraTabPage4.Text = "零部件引用情况";
             // 
             // xtraTabPage6
             // 
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(698, 500);
+            this.xtraTabPage6.Size = new System.Drawing.Size(698, 508);
             this.xtraTabPage6.Text = "文档清单";
             // 
             // xtraTabPage7
             // 
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(698, 500);
+            this.xtraTabPage7.Size = new System.Drawing.Size(698, 508);
             this.xtraTabPage7.Text = "零部件文档清单";
             // 
             // labelControl11
             // 
-            this.labelControl11.Location = new System.Drawing.Point(415, 615);
+            this.labelControl11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelControl11.Location = new System.Drawing.Point(415, 635);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(48, 14);
             this.labelControl11.TabIndex = 37;
@@ -676,7 +712,8 @@
             // 
             // simpleButton20
             // 
-            this.simpleButton20.Location = new System.Drawing.Point(520, 609);
+            this.simpleButton20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton20.Location = new System.Drawing.Point(519, 631);
             this.simpleButton20.Name = "simpleButton20";
             this.simpleButton20.Size = new System.Drawing.Size(43, 22);
             this.simpleButton20.TabIndex = 38;
@@ -685,7 +722,8 @@
             // 
             // simpleButton21
             // 
-            this.simpleButton21.Location = new System.Drawing.Point(469, 609);
+            this.simpleButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton21.Location = new System.Drawing.Point(469, 631);
             this.simpleButton21.Name = "simpleButton21";
             this.simpleButton21.Size = new System.Drawing.Size(43, 22);
             this.simpleButton21.TabIndex = 39;
@@ -781,7 +819,7 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 618);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 655);
             this.barDockControlBottom.Size = new System.Drawing.Size(1112, 23);
             // 
             // barDockControlLeft
@@ -789,20 +827,20 @@
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 53);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 565);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 602);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(1112, 53);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 565);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 602);
             // 
             // ConsumablesStoreBOMParts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 641);
+            this.ClientSize = new System.Drawing.Size(1112, 678);
             this.Controls.Add(this.simpleButton21);
             this.Controls.Add(this.simpleButton20);
             this.Controls.Add(this.labelControl11);

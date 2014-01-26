@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.commonTree1 = new View_Winform.CommonTemplet.CommonTree();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
@@ -40,6 +39,7 @@
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.commonTree1 = new View_Winform.CommonTemplet.CommonTree();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -60,16 +60,6 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(587, 535);
             this.panelControl1.TabIndex = 0;
-            // 
-            // commonTree1
-            // 
-            this.commonTree1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.commonTree1.AutoSize = true;
-            this.commonTree1.Location = new System.Drawing.Point(1, 1);
-            this.commonTree1.Name = "commonTree1";
-            this.commonTree1.Size = new System.Drawing.Size(241, 542);
-            this.commonTree1.TabIndex = 80;
             // 
             // simpleButton1
             // 
@@ -160,6 +150,15 @@
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
+            // commonTree1
+            // 
+            this.commonTree1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.commonTree1.Location = new System.Drawing.Point(0, 0);
+            this.commonTree1.Name = "commonTree1";
+            this.commonTree1.Size = new System.Drawing.Size(242, 535);
+            this.commonTree1.TabIndex = 80;
+            // 
             // PermissionApproverBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -170,7 +169,6 @@
             this.Text = "权限审批人设置";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
@@ -180,7 +178,6 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private CommonTemplet.CommonTree commonTree1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
@@ -191,6 +188,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private CommonTemplet.CommonTree commonTree1;
 
     }
 }
