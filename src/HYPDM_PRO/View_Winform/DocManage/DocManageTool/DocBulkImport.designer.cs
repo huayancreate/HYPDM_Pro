@@ -256,7 +256,7 @@
             // 
             this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit2.Location = new System.Drawing.Point(306, 121);
+            this.checkEdit2.Location = new System.Drawing.Point(331, 121);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "自动归档";
             this.checkEdit2.Size = new System.Drawing.Size(96, 19);
@@ -268,7 +268,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)));
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Location = new System.Drawing.Point(98, 120);
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Name = "DocManagement_DocModify_DropDownBtn_SecurityLevel";
-            this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Size = new System.Drawing.Size(172, 20);
+            this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Size = new System.Drawing.Size(218, 20);
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.TabIndex = 49;
             this.DocManagement_DocModify_DropDownBtn_SecurityLevel.Text = "结构配置\r\n乱七八糟\r\n加载数据\r\n蛋蛋疼至极";
             // 
@@ -301,7 +301,7 @@
             this.DocManagement_DocModify_ButtonEdit_ValidTime.Name = "DocManagement_DocModify_ButtonEdit_ValidTime";
             this.DocManagement_DocModify_ButtonEdit_ValidTime.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.DocManagement_DocModify_ButtonEdit_ValidTime.Size = new System.Drawing.Size(172, 20);
+            this.DocManagement_DocModify_ButtonEdit_ValidTime.Size = new System.Drawing.Size(218, 20);
             this.DocManagement_DocModify_ButtonEdit_ValidTime.TabIndex = 46;
             this.DocManagement_DocModify_ButtonEdit_ValidTime.EditValueChanged += new System.EventHandler(this.DocManagement_DocModify_ButtonEdit_ValidTime_EditValueChanged);
             // 
@@ -385,7 +385,7 @@
             this.DocManagement_DocModify_BtnEdit_DocNumber.Name = "DocManagement_DocModify_BtnEdit_DocNumber";
             this.DocManagement_DocModify_BtnEdit_DocNumber.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.DocManagement_DocModify_BtnEdit_DocNumber.Size = new System.Drawing.Size(172, 20);
+            this.DocManagement_DocModify_BtnEdit_DocNumber.Size = new System.Drawing.Size(218, 20);
             this.DocManagement_DocModify_BtnEdit_DocNumber.TabIndex = 38;
             // 
             // DocManagement_DocModify_TextEidt_DocVersion

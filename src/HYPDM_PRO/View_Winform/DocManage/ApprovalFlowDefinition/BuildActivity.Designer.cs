@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -55,6 +55,16 @@
             this.panelControl1.Size = new System.Drawing.Size(395, 323);
             this.panelControl1.TabIndex = 9;
             // 
+            // conmmonListBoxControl1
+            // 
+            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl1.Location = new System.Drawing.Point(0, 74);
+            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(395, 249);
+            this.conmmonListBoxControl1.TabIndex = 26;
+            // 
             // panelControl2
             // 
             this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
@@ -71,9 +81,8 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl1.Location = new System.Drawing.Point(13, 7);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(60, 14);
@@ -102,24 +111,13 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl2.Location = new System.Drawing.Point(13, 43);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(60, 14);
             this.labelControl2.TabIndex = 11;
             this.labelControl2.Text = "活动名称：";
-            // 
-            // conmmonListBoxControl1
-            // 
-            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl1.Location = new System.Drawing.Point(0, 74);
-            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(395, 249);
-            this.conmmonListBoxControl1.TabIndex = 26;
             // 
             // BuildActivity
             // 

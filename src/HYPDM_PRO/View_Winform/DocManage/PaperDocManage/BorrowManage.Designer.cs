@@ -1020,7 +1020,7 @@
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(5, 50);
+            this.checkEdit2.Location = new System.Drawing.Point(5, 38);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "借出复印件";
             this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;

@@ -20,5 +20,10 @@ namespace View_Winform.DocManage.ApprovalFlowDefinition
         {
 
         }
+
+        private void textEdit1_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

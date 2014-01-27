@@ -104,9 +104,8 @@
             // 
             // checkEdit4
             // 
-            this.checkEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.checkEdit4.Location = new System.Drawing.Point(42, 136);
             this.checkEdit4.Name = "checkEdit4";
             this.checkEdit4.Properties.Caption = "设为默认";
@@ -115,9 +114,8 @@
             // 
             // checkEdit3
             // 
-            this.checkEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.checkEdit3.Location = new System.Drawing.Point(167, 100);
             this.checkEdit3.Name = "checkEdit3";
             this.checkEdit3.Properties.Caption = "下载";
@@ -127,9 +125,8 @@
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.checkEdit2.Location = new System.Drawing.Point(167, 75);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "浏览";
@@ -139,9 +136,8 @@
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.checkEdit1.Location = new System.Drawing.Point(167, 50);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "控件浏览";

@@ -130,12 +130,12 @@
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(211, 20);
             this.textEdit1.TabIndex = 1;
+            this.textEdit1.EditValueChanged += new System.EventHandler(this.textEdit1_EditValueChanged);
             // 
             // labelControl1
             // 
-            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
             this.labelControl1.Location = new System.Drawing.Point(46, 26);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(36, 14);
