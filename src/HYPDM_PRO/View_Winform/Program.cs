@@ -23,8 +23,8 @@ namespace View_Winform
             //Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserMessage());
             //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
-            //Application.Run(new DocManage.DocPrint.DocPrint());
-             Application.Run(new View_Winform.SystemManagementAndTools.RoleManage.RoleList());
+            //Application.Run(new DocManage.DocPnt.DocPrint());
+             Application.Run(new View_Winform.SystemManagementAndTools.RoleManage.RoleManage());
         }
     }
 }

@@ -44,12 +44,12 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_BelongGrop_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_AddCodeValue_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ModifiCodeValue_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Find_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_TeskReceive_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_Code_GridControl)).BeginInit();
@@ -213,6 +213,14 @@
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_GroupControl.TabIndex = 96;
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_RemarkCodeValue_GroupControl.Text = "备注";
             // 
+            // memoEdit1
+            // 
+            this.memoEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.memoEdit1.Location = new System.Drawing.Point(2, 22);
+            this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Size = new System.Drawing.Size(444, 140);
+            this.memoEdit1.TabIndex = 80;
+            // 
             // SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton
             // 
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -257,14 +265,6 @@
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.TabIndex = 102;
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_CancelCodeValue_SimpleButton.Text = "取消(C)";
-            // 
-            // memoEdit1
-            // 
-            this.memoEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.memoEdit1.Location = new System.Drawing.Point(2, 22);
-            this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(444, 140);
-            this.memoEdit1.TabIndex = 80;
             // 
             // FillGroupCode
             // 

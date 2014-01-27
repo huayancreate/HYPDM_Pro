@@ -1,4 +1,4 @@
-﻿namespace View_Winform.SystemManagementAndTools.RoleManege
+﻿namespace View_Winform.SystemManagementAndTools.RoleManage
 {
     partial class RoleManage
     {
@@ -121,10 +121,11 @@
             // 
             // conmmonListBoxControl2
             // 
-            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl2.Location = new System.Drawing.Point(463, 244);
+            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl2.Location = new System.Drawing.Point(460, 377);
             this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
-            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 301);
             this.conmmonListBoxControl2.TabIndex = 107;
             // 
             // conmmonListBoxControl1
@@ -132,7 +133,7 @@
             this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.conmmonListBoxControl1.Location = new System.Drawing.Point(463, 2);
             this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 369);
             this.conmmonListBoxControl1.TabIndex = 106;
             // 
             // RoleManage
@@ -147,6 +148,7 @@
             this.Controls.Add(this.groupControl1);
             this.Name = "RoleManage";
             this.Text = "角色信息";
+            this.Load += new System.EventHandler(this.RoleManage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();

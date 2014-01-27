@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.conmmonListBoxControl2 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton = new DevExpress.XtraEditors.SimpleButton();
@@ -53,8 +55,6 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
-            this.conmmonListBoxControl2 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl)).BeginInit();
@@ -82,6 +82,23 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(716, 556);
             this.panelControl1.TabIndex = 7;
+            // 
+            // conmmonListBoxControl2
+            // 
+            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl2.Location = new System.Drawing.Point(461, 300);
+            this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
+            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 251);
+            this.conmmonListBoxControl2.TabIndex = 11;
+            // 
+            // conmmonListBoxControl1
+            // 
+            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl1.Location = new System.Drawing.Point(461, 0);
+            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 290);
+            this.conmmonListBoxControl1.TabIndex = 10;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl
             // 
@@ -328,22 +345,6 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Size = new System.Drawing.Size(250, 144);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.TabIndex = 31;
-            // 
-            // conmmonListBoxControl2
-            // 
-            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl2.Location = new System.Drawing.Point(461, 242);
-            this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
-            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 236);
-            this.conmmonListBoxControl2.TabIndex = 11;
-            // 
-            // conmmonListBoxControl1
-            // 
-            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl1.Location = new System.Drawing.Point(461, 0);
-            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
-            this.conmmonListBoxControl1.TabIndex = 10;
             // 
             // OrganizationManage
             // 

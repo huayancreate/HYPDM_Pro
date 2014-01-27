@@ -132,18 +132,19 @@
             // 
             // conmmonListBoxControl1
             // 
-            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.conmmonListBoxControl1.Location = new System.Drawing.Point(464, 1);
             this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 274);
             this.conmmonListBoxControl1.TabIndex = 112;
             // 
             // conmmonListBoxControl2
             // 
             this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl2.Location = new System.Drawing.Point(464, 243);
+            this.conmmonListBoxControl2.Location = new System.Drawing.Point(464, 281);
             this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
-            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 236);
+            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 291);
             this.conmmonListBoxControl2.TabIndex = 113;
             // 
             // UserGroupManage
