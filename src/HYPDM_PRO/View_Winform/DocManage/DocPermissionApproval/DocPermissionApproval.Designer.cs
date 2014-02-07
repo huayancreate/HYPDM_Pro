@@ -192,7 +192,7 @@
             this.groupControl7.Controls.Add(this.labelControl12);
             this.groupControl7.Controls.Add(this.textEdit11);
             this.groupControl7.Controls.Add(this.labelControl11);
-            this.groupControl7.Location = new System.Drawing.Point(7, 422);
+            this.groupControl7.Location = new System.Drawing.Point(6, 422);
             this.groupControl7.Name = "groupControl7";
             this.groupControl7.Size = new System.Drawing.Size(444, 138);
             this.groupControl7.TabIndex = 3;
@@ -203,9 +203,9 @@
             this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxControl2.Location = new System.Drawing.Point(4, 45);
+            this.listBoxControl2.Location = new System.Drawing.Point(1, 45);
             this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(440, 88);
+            this.listBoxControl2.Size = new System.Drawing.Size(443, 93);
             this.listBoxControl2.TabIndex = 24;
             // 
             // checkEdit1
@@ -269,7 +269,7 @@
             this.groupControl6.Controls.Add(this.labelControl4);
             this.groupControl6.Controls.Add(this.textEdit3);
             this.groupControl6.Controls.Add(this.labelControl3);
-            this.groupControl6.Location = new System.Drawing.Point(7, 286);
+            this.groupControl6.Location = new System.Drawing.Point(6, 286);
             this.groupControl6.Name = "groupControl6";
             this.groupControl6.Size = new System.Drawing.Size(444, 129);
             this.groupControl6.TabIndex = 2;
@@ -451,7 +451,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl5.Controls.Add(this.listBoxControl1);
-            this.groupControl5.Location = new System.Drawing.Point(2, 58);
+            this.groupControl5.Location = new System.Drawing.Point(1, 58);
             this.groupControl5.Name = "groupControl5";
             this.groupControl5.Size = new System.Drawing.Size(442, 77);
             this.groupControl5.TabIndex = 10;
@@ -462,9 +462,9 @@
             this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
+            this.listBoxControl1.Location = new System.Drawing.Point(1, 19);
             this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(438, 53);
+            this.listBoxControl1.Size = new System.Drawing.Size(442, 58);
             this.listBoxControl1.TabIndex = 0;
             // 
             // textEdit2
@@ -523,10 +523,10 @@
             this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(2, 22);
+            this.gridControl1.Location = new System.Drawing.Point(1, 21);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(449, 100);
+            this.gridControl1.Size = new System.Drawing.Size(449, 102);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -594,7 +594,7 @@
             // 
             this.listBoxControl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.listBoxControl4.Location = new System.Drawing.Point(2, 22);
+            this.listBoxControl4.Location = new System.Drawing.Point(2, 21);
             this.listBoxControl4.Name = "listBoxControl4";
             this.listBoxControl4.Size = new System.Drawing.Size(254, 275);
             this.listBoxControl4.TabIndex = 11;

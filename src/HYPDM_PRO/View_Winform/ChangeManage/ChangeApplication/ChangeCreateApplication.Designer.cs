@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -48,8 +48,8 @@
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -57,21 +57,21 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl)).BeginInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
-            this.groupControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl)).BeginInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl)).BeginInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
-            this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl)).BeginInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,27 +83,29 @@
             this.labelControl1.TabIndex = 6;
             this.labelControl1.Text = "变更执行人:";
             // 
-            // textEdit1
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit
             // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit1.Location = new System.Drawing.Point(72, 6);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(578, 20);
-            this.textEdit1.TabIndex = 13;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.Location = new System.Drawing.Point(72, 6);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEd" +
+                "it";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.Size = new System.Drawing.Size(578, 20);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.TabIndex = 13;
             // 
-            // groupControl1
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.textEdit2);
-            this.groupControl1.Controls.Add(this.labelControl2);
-            this.groupControl1.Location = new System.Drawing.Point(2, 41);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(654, 69);
-            this.groupControl1.TabIndex = 14;
-            this.groupControl1.Text = "变更申请";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Controls.Add(this.textEdit2);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Controls.Add(this.labelControl2);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Location = new System.Drawing.Point(2, 41);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupCon" +
+                "trol";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Size = new System.Drawing.Size(654, 69);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.TabIndex = 14;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.Text = "变更申请";
             // 
             // textEdit2
             // 
@@ -122,82 +124,84 @@
             this.labelControl2.TabIndex = 6;
             this.labelControl2.Text = "变更申请书:";
             // 
-            // groupControl2
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl
             // 
-            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl2.Controls.Add(this.simpleButton3);
-            this.groupControl2.Controls.Add(this.simpleButton4);
-            this.groupControl2.Controls.Add(this.simpleButton5);
-            this.groupControl2.Controls.Add(this.simpleButton6);
-            this.groupControl2.Controls.Add(this.groupControl4);
-            this.groupControl2.Controls.Add(this.groupControl3);
-            this.groupControl2.Location = new System.Drawing.Point(2, 127);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(654, 366);
-            this.groupControl2.TabIndex = 15;
-            this.groupControl2.Text = "变更对象";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Location = new System.Drawing.Point(2, 127);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Size = new System.Drawing.Size(654, 366);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.TabIndex = 15;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.Text = "变更对象";
             // 
-            // simpleButton3
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton3.Location = new System.Drawing.Point(572, 205);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(76, 23);
-            this.simpleButton3.TabIndex = 20;
-            this.simpleButton3.Text = "删除BOM(L)";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton.Location = new System.Drawing.Point(572, 205);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton.Size = new System.Drawing.Size(76, 23);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton.TabIndex = 20;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton.Text = "删除BOM(L)";
             // 
-            // simpleButton4
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton4.Location = new System.Drawing.Point(573, 176);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(76, 23);
-            this.simpleButton4.TabIndex = 21;
-            this.simpleButton4.Text = "选择BOM(B)";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton.Location = new System.Drawing.Point(573, 176);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton.Size = new System.Drawing.Size(76, 23);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton.TabIndex = 21;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton.Text = "选择BOM(B)";
             // 
-            // simpleButton5
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton
             // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton5.Location = new System.Drawing.Point(573, 54);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton5.TabIndex = 22;
-            this.simpleButton5.Text = "删除文档(D)";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton.Location = new System.Drawing.Point(573, 54);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton.Size = new System.Drawing.Size(75, 23);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton.TabIndex = 22;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton.Text = "删除文档(D)";
             // 
-            // simpleButton6
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton
             // 
-            this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton6.Location = new System.Drawing.Point(572, 25);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(77, 23);
-            this.simpleButton6.TabIndex = 23;
-            this.simpleButton6.Text = "选择文档(U)";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton.Location = new System.Drawing.Point(572, 25);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton.Size = new System.Drawing.Size(77, 23);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton.TabIndex = 23;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton.Text = "选择文档(U)";
             // 
-            // groupControl4
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl
             // 
-            this.groupControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl4.Controls.Add(this.gridControl2);
-            this.groupControl4.Location = new System.Drawing.Point(0, 176);
-            this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(567, 190);
-            this.groupControl4.TabIndex = 8;
-            this.groupControl4.Text = "结构变更";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.Location = new System.Drawing.Point(0, 176);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupContr" +
+                "ol";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.Size = new System.Drawing.Size(567, 190);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.TabIndex = 8;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.Text = "结构变更";
             // 
-            // gridControl2
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl
             // 
-            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl2.Location = new System.Drawing.Point(0, 18);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(566, 172);
-            this.gridControl2.TabIndex = 0;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.Location = new System.Drawing.Point(0, 18);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.MainView = this.gridView2;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridContro" +
+                "l";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.Size = new System.Drawing.Size(566, 172);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.TabIndex = 0;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -210,7 +214,7 @@
             this.gridColumn11,
             this.gridColumn12,
             this.gridColumn13});
-            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.GridControl = this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl;
             this.gridView2.Name = "gridView2";
             this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
@@ -263,27 +267,27 @@
             this.gridColumn13.Visible = true;
             this.gridColumn13.VisibleIndex = 6;
             // 
-            // groupControl3
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl
             // 
-            this.groupControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl3.Controls.Add(this.gridControl1);
-            this.groupControl3.Location = new System.Drawing.Point(0, 25);
-            this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(567, 145);
-            this.groupControl3.TabIndex = 8;
-            this.groupControl3.Text = "文档变更";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.Location = new System.Drawing.Point(0, 25);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.Size = new System.Drawing.Size(567, 145);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.TabIndex = 8;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.Text = "文档变更";
             // 
-            // gridControl1
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(0, 18);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(567, 127);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.Location = new System.Drawing.Point(0, 18);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.MainView = this.gridView1;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.Size = new System.Drawing.Size(567, 127);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.TabIndex = 0;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -295,7 +299,7 @@
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
@@ -341,51 +345,51 @@
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             // 
-            // simpleButton1
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(592, 497);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(52, 23);
-            this.simpleButton1.TabIndex = 18;
-            this.simpleButton1.Text = "取消(C)";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton.Location = new System.Drawing.Point(592, 497);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton.Size = new System.Drawing.Size(52, 23);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton.TabIndex = 18;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton.Text = "取消(C)";
             // 
-            // simpleButton2
+            // ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(534, 497);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(52, 23);
-            this.simpleButton2.TabIndex = 19;
-            this.simpleButton2.Text = "确定(O)";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton.Location = new System.Drawing.Point(534, 497);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton.Size = new System.Drawing.Size(52, 23);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton.TabIndex = 19;
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton.Text = "确定(O)";
             // 
             // ChangeCreateApplication
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(656, 523);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton);
+            this.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton);
+            this.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl);
+            this.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl);
+            this.Controls.Add(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit);
             this.Controls.Add(this.labelControl1);
             this.Name = "ChangeCreateApplication";
             this.Text = "变更申请创建";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl)).EndInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.ResumeLayout(false);
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
-            this.groupControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl)).EndInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl)).EndInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
-            this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl)).EndInit();
+            this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -395,18 +399,18 @@
         #endregion
 
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeExecutePeople_TextEdit;
+        private DevExpress.XtraEditors.GroupControl ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeApplication_GroupControl;
         private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.GroupControl groupControl4;
-        private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraEditors.GroupControl ChangeManage_ChangeApplication_ChangeCreateApplication_ChangeObject_GroupControl;
+        private DevExpress.XtraEditors.GroupControl ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GroupControl;
+        private DevExpress.XtraEditors.GroupControl ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GroupControl;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteBOM_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeCreateApplication_SelectBOM_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeCreateApplication_DeleteDoc_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeCreateApplication_SelectDoc_SimpleButton;
+        private DevExpress.XtraGrid.GridControl ChangeManage_ChangeApplication_ChangeCreateApplication_StructureChange_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
@@ -415,7 +419,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl ChangeManage_ChangeApplication_ChangeCreateApplication_DocChange_GridControl;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -423,7 +427,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeCreateApplication_Cancel_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeCreateApplication_Confirm_SimpleButton;
     }
 }

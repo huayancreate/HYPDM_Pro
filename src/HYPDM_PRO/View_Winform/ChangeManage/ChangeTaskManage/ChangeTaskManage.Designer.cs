@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
@@ -91,17 +91,17 @@
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl)).BeginInit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -119,40 +119,41 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupControl1
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl
             // 
-            this.groupControl1.Controls.Add(this.textEdit3);
-            this.groupControl1.Controls.Add(this.textEdit2);
-            this.groupControl1.Controls.Add(this.textEdit1);
-            this.groupControl1.Controls.Add(this.labelControl3);
-            this.groupControl1.Controls.Add(this.labelControl2);
-            this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(3, 1);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(200, 100);
-            this.groupControl1.TabIndex = 8;
-            this.groupControl1.Text = "申请书信息";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.labelControl3);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.labelControl2);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.labelControl1);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Location = new System.Drawing.Point(3, 1);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupContro" +
+                "l";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Size = new System.Drawing.Size(200, 100);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.TabIndex = 8;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Text = "申请书信息";
             // 
-            // textEdit3
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit
             // 
-            this.textEdit3.Location = new System.Drawing.Point(79, 75);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(116, 20);
-            this.textEdit3.TabIndex = 15;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit.Location = new System.Drawing.Point(79, 75);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit.Size = new System.Drawing.Size(116, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit.TabIndex = 15;
             // 
-            // textEdit2
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit
             // 
-            this.textEdit2.Location = new System.Drawing.Point(79, 22);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(116, 20);
-            this.textEdit2.TabIndex = 14;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit.Location = new System.Drawing.Point(79, 22);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit.Size = new System.Drawing.Size(116, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit.TabIndex = 14;
             // 
-            // textEdit1
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(79, 49);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(116, 20);
-            this.textEdit1.TabIndex = 13;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit.Location = new System.Drawing.Point(79, 49);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit.Size = new System.Drawing.Size(116, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit.TabIndex = 13;
             // 
             // labelControl3
             // 
@@ -178,39 +179,39 @@
             this.labelControl1.TabIndex = 6;
             this.labelControl1.Text = "申请书名称:";
             // 
-            // checkEdit1
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(12, 141);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "执行人:";
-            this.checkEdit1.Size = new System.Drawing.Size(64, 19);
-            this.checkEdit1.TabIndex = 9;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Location = new System.Drawing.Point(12, 141);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Properties.Caption = "执行人:";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Size = new System.Drawing.Size(64, 19);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.TabIndex = 9;
             // 
-            // checkEdit2
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(10, 107);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "创建人:";
-            this.checkEdit2.Size = new System.Drawing.Size(66, 19);
-            this.checkEdit2.TabIndex = 10;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Location = new System.Drawing.Point(10, 107);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Properties.Caption = "创建人:";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Size = new System.Drawing.Size(66, 19);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.TabIndex = 10;
             // 
-            // buttonEdit1
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(82, 140);
-            this.buttonEdit1.Name = "buttonEdit1";
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Location = new System.Drawing.Point(82, 140);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(116, 20);
-            this.buttonEdit1.TabIndex = 11;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Size = new System.Drawing.Size(116, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.TabIndex = 11;
             // 
-            // buttonEdit2
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(82, 107);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Location = new System.Drawing.Point(82, 107);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(116, 20);
-            this.buttonEdit2.TabIndex = 12;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Size = new System.Drawing.Size(116, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.TabIndex = 12;
             // 
             // labelControl4
             // 
@@ -239,15 +240,15 @@
             this.comboBoxEdit1.Size = new System.Drawing.Size(128, 20);
             this.comboBoxEdit1.TabIndex = 15;
             // 
-            // comboBoxEdit2
+            // ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit
             // 
-            this.comboBoxEdit2.EditValue = "全部";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(70, 174);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.EditValue = "全部";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Location = new System.Drawing.Point(70, 174);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit";
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(73, 20);
-            this.comboBoxEdit2.TabIndex = 16;
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Size = new System.Drawing.Size(73, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.TabIndex = 16;
             // 
             // simpleButton1
             // 
@@ -662,29 +663,29 @@
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.comboBoxEdit2);
+            this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit);
             this.Controls.Add(this.comboBoxEdit1);
             this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.labelControl4);
-            this.Controls.Add(this.buttonEdit2);
-            this.Controls.Add(this.buttonEdit1);
-            this.Controls.Add(this.checkEdit2);
-            this.Controls.Add(this.checkEdit1);
-            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit);
+            this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit);
+            this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit);
+            this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit);
+            this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl);
             this.Name = "ChangeTaskManage";
             this.Text = "变更任务管理";
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl)).EndInit();
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.ResumeLayout(false);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -707,21 +708,21 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.GroupControl ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookName_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookNumber_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookRelease_TextEdit;
+        private DevExpress.XtraEditors.CheckEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit;
+        private DevExpress.XtraEditors.CheckEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        private DevExpress.XtraEditors.ComboBoxEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraGrid.GridControl gridControl1;

@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl2 = new DevExpress.XtraEditors.ListBoxControl();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.buttonEdit5 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit4 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit3 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
-            this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl = new DevExpress.XtraEditors.ListBoxControl();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
@@ -69,41 +69,41 @@
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
-            this.xtraTabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl)).BeginInit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl)).BeginInit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
-            // xtraTabControl1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl
             // 
-            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.xtraTabControl1.Location = new System.Drawing.Point(1, 1);
-            this.xtraTabControl1.Name = "xtraTabControl1";
-            this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
-            this.xtraTabControl1.Size = new System.Drawing.Size(789, 484);
-            this.xtraTabControl1.TabIndex = 16;
-            this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.Location = new System.Drawing.Point(1, 1);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.SelectedTabPage = this.xtraTabPage2;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.Size = new System.Drawing.Size(789, 484);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.TabIndex = 16;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2,
             this.xtraTabPage1,
             this.xtraTabPage3,
@@ -112,25 +112,25 @@
             // 
             // xtraTabPage2
             // 
-            this.xtraTabPage2.Controls.Add(this.checkEdit1);
-            this.xtraTabPage2.Controls.Add(this.simpleButton1);
-            this.xtraTabPage2.Controls.Add(this.simpleButton2);
-            this.xtraTabPage2.Controls.Add(this.groupControl1);
-            this.xtraTabPage2.Controls.Add(this.comboBoxEdit2);
-            this.xtraTabPage2.Controls.Add(this.comboBoxEdit1);
-            this.xtraTabPage2.Controls.Add(this.buttonEdit5);
-            this.xtraTabPage2.Controls.Add(this.buttonEdit4);
-            this.xtraTabPage2.Controls.Add(this.buttonEdit3);
-            this.xtraTabPage2.Controls.Add(this.buttonEdit1);
-            this.xtraTabPage2.Controls.Add(this.buttonEdit2);
-            this.xtraTabPage2.Controls.Add(this.textEdit8);
-            this.xtraTabPage2.Controls.Add(this.textEdit7);
-            this.xtraTabPage2.Controls.Add(this.textEdit6);
-            this.xtraTabPage2.Controls.Add(this.textEdit5);
-            this.xtraTabPage2.Controls.Add(this.textEdit4);
-            this.xtraTabPage2.Controls.Add(this.textEdit3);
-            this.xtraTabPage2.Controls.Add(this.textEdit2);
-            this.xtraTabPage2.Controls.Add(this.textEdit1);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit);
+            this.xtraTabPage2.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit);
             this.xtraTabPage2.Controls.Add(this.labelControl15);
             this.xtraTabPage2.Controls.Add(this.labelControl14);
             this.xtraTabPage2.Controls.Add(this.labelControl13);
@@ -150,198 +150,199 @@
             this.xtraTabPage2.Size = new System.Drawing.Size(783, 455);
             this.xtraTabPage2.Text = "基本信息";
             // 
-            // checkEdit1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit
             // 
-            this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit1.Location = new System.Drawing.Point(1, 433);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "使用编辑器编码";
-            this.checkEdit1.Size = new System.Drawing.Size(110, 19);
-            this.checkEdit1.TabIndex = 16;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Location = new System.Drawing.Point(1, 433);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Properties.Caption = "使用编辑器编码";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Size = new System.Drawing.Size(110, 19);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.TabIndex = 16;
             // 
-            // simpleButton1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(723, 429);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 17;
-            this.simpleButton1.Text = "取消(C)";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.Location = new System.Drawing.Point(723, 429);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.TabIndex = 17;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.Text = "取消(C)";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
-            // simpleButton2
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(663, 429);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(54, 23);
-            this.simpleButton2.TabIndex = 18;
-            this.simpleButton2.Text = "确定(O)";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton.Location = new System.Drawing.Point(663, 429);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton.Size = new System.Drawing.Size(54, 23);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton.TabIndex = 18;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton.Text = "确定(O)";
             // 
-            // groupControl1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.listBoxControl2);
-            this.groupControl1.Location = new System.Drawing.Point(3, 244);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(780, 182);
-            this.groupControl1.TabIndex = 36;
-            this.groupControl1.Text = "备注信息";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.Location = new System.Drawing.Point(3, 244);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.Size = new System.Drawing.Size(780, 182);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.TabIndex = 36;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.Text = "备注信息";
             // 
-            // listBoxControl2
+            // ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl
             // 
-            this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxControl2.Location = new System.Drawing.Point(0, 18);
-            this.listBoxControl2.Name = "listBoxControl2";
-            this.listBoxControl2.Size = new System.Drawing.Size(780, 164);
-            this.listBoxControl2.TabIndex = 15;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl.Location = new System.Drawing.Point(0, 18);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl" +
+                "";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl.Size = new System.Drawing.Size(780, 164);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl.TabIndex = 15;
             // 
-            // comboBoxEdit2
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit
             // 
-            this.comboBoxEdit2.EditValue = "ComboBoxEdit";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(68, 55);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.EditValue = "ComboBoxEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.Location = new System.Drawing.Point(68, 55);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(274, 20);
-            this.comboBoxEdit2.TabIndex = 35;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.TabIndex = 35;
             // 
-            // comboBoxEdit1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit
             // 
-            this.comboBoxEdit1.EditValue = "ComboBoxEdit";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(68, 87);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.EditValue = "ComboBoxEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.Location = new System.Drawing.Point(68, 87);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(274, 20);
-            this.comboBoxEdit1.TabIndex = 34;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.TabIndex = 34;
             // 
-            // buttonEdit5
+            // ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit
             // 
-            this.buttonEdit5.Location = new System.Drawing.Point(68, 3);
-            this.buttonEdit5.Name = "buttonEdit5";
-            this.buttonEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.Location = new System.Drawing.Point(68, 3);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit5.Size = new System.Drawing.Size(274, 20);
-            this.buttonEdit5.TabIndex = 33;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.TabIndex = 33;
             // 
-            // buttonEdit4
+            // ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit
             // 
-            this.buttonEdit4.Location = new System.Drawing.Point(68, 184);
-            this.buttonEdit4.Name = "buttonEdit4";
-            this.buttonEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.Location = new System.Drawing.Point(68, 184);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit4.Size = new System.Drawing.Size(274, 20);
-            this.buttonEdit4.TabIndex = 32;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.TabIndex = 32;
             // 
-            // buttonEdit3
+            // ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit
             // 
-            this.buttonEdit3.Location = new System.Drawing.Point(68, 218);
-            this.buttonEdit3.Name = "buttonEdit3";
-            this.buttonEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.Location = new System.Drawing.Point(68, 218);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit3.Size = new System.Drawing.Size(274, 20);
-            this.buttonEdit3.TabIndex = 31;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.TabIndex = 31;
             // 
-            // buttonEdit1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit
             // 
-            this.buttonEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEdit1.Location = new System.Drawing.Point(426, 116);
-            this.buttonEdit1.Name = "buttonEdit1";
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Location = new System.Drawing.Point(426, 116);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(339, 20);
-            this.buttonEdit1.TabIndex = 30;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.TabIndex = 30;
             // 
-            // buttonEdit2
+            // ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit
             // 
-            this.buttonEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEdit2.Location = new System.Drawing.Point(426, 55);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Location = new System.Drawing.Point(426, 55);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(339, 20);
-            this.buttonEdit2.TabIndex = 29;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.TabIndex = 29;
             // 
-            // textEdit8
+            // ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit
             // 
-            this.textEdit8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit8.Location = new System.Drawing.Point(426, 87);
-            this.textEdit8.Name = "textEdit8";
-            this.textEdit8.Size = new System.Drawing.Size(339, 20);
-            this.textEdit8.TabIndex = 28;
-            this.textEdit8.EditValueChanged += new System.EventHandler(this.textEdit8_EditValueChanged);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.Location = new System.Drawing.Point(426, 87);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.TabIndex = 28;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.EditValueChanged += new System.EventHandler(this.textEdit8_EditValueChanged);
             // 
-            // textEdit7
+            // ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit
             // 
-            this.textEdit7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit7.Location = new System.Drawing.Point(426, 149);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(339, 20);
-            this.textEdit7.TabIndex = 27;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.Location = new System.Drawing.Point(426, 149);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.TabIndex = 27;
             // 
-            // textEdit6
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit
             // 
-            this.textEdit6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit6.Location = new System.Drawing.Point(426, 184);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(339, 20);
-            this.textEdit6.TabIndex = 26;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.Location = new System.Drawing.Point(426, 184);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.TabIndex = 26;
             // 
-            // textEdit5
+            // ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit
             // 
-            this.textEdit5.Location = new System.Drawing.Point(68, 29);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(274, 20);
-            this.textEdit5.TabIndex = 25;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit.Location = new System.Drawing.Point(68, 29);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit.TabIndex = 25;
             // 
-            // textEdit4
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit
             // 
-            this.textEdit4.Location = new System.Drawing.Point(68, 116);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(274, 20);
-            this.textEdit4.TabIndex = 24;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit.Location = new System.Drawing.Point(68, 116);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit.TabIndex = 24;
             // 
-            // textEdit3
+            // ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit
             // 
-            this.textEdit3.Location = new System.Drawing.Point(68, 149);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(274, 20);
-            this.textEdit3.TabIndex = 23;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit.Location = new System.Drawing.Point(68, 149);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit.Size = new System.Drawing.Size(274, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit.TabIndex = 23;
             // 
-            // textEdit2
+            // ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit
             // 
-            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit2.Location = new System.Drawing.Point(426, 3);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(339, 20);
-            this.textEdit2.TabIndex = 22;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.Location = new System.Drawing.Point(426, 3);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.TabIndex = 22;
             // 
-            // textEdit1
+            // ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit
             // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit1.Location = new System.Drawing.Point(426, 29);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(339, 20);
-            this.textEdit1.TabIndex = 21;
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.Location = new System.Drawing.Point(426, 29);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.Name = "ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit";
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.Size = new System.Drawing.Size(339, 20);
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.TabIndex = 21;
             // 
             // labelControl15
             // 
@@ -493,39 +494,39 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(792, 487);
-            this.Controls.Add(this.xtraTabControl1);
+            this.Controls.Add(this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl);
             this.Name = "ChangeManageInterface";
             this.Text = "更换物料";
-            ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
-            this.xtraTabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl)).EndInit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl.ResumeLayout(false);
             this.xtraTabPage2.ResumeLayout(false);
             this.xtraTabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl)).EndInit();
+            this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
+        private DevExpress.XtraTab.XtraTabControl ChangeManage_ChangeApplication_ChangeManageInterface_BasicMessage_XtraTabControl;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage3;
@@ -546,25 +547,25 @@
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit8;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit5;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit4;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit3;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnitGroup_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_CostPrice_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_Norms_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_PartName_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_Weight_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_Model_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_OriginalNumber_TextEdit;
+        private DevExpress.XtraEditors.TextEdit ChangeManage_ChangeApplication_ChangeManageInterface_PartsVersion_TextEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeApplication_ChangeManageInterface_PartNumber_ButtonEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeApplication_ChangeManageInterface_BelongType_ButtonEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeApplication_ChangeManageInterface_ProductType_ButtonEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeApplication_ChangeManageInterface_Material_ButtonEdit;
+        private DevExpress.XtraEditors.ButtonEdit ChangeManage_ChangeApplication_ChangeManageInterface_MeasureUnit_ButtonEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit ChangeManage_ChangeApplication_ChangeManageInterface_Property_ComboBoxEdit;
+        private DevExpress.XtraEditors.ComboBoxEdit ChangeManage_ChangeApplication_ChangeManageInterface_Type_ComboBoxEdit;
+        private DevExpress.XtraEditors.GroupControl ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_GroupControl;
+        private DevExpress.XtraEditors.ListBoxControl ChangeManage_ChangeApplication_ChangeManageInterface_RemarkMessage_ListBoxControl;
+        private DevExpress.XtraEditors.CheckEdit ChangeManage_ChangeApplication_ChangeManageInterface_UseEncoderCoding_CheckEdit;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeManageInterface_Cancel_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton ChangeManage_ChangeApplication_ChangeManageInterface_Confirm_SimpleButton;
     }
 }
