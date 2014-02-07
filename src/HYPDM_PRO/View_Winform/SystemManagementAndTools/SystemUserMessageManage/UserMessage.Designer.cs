@@ -84,6 +84,7 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_Remark_MemoEdit = new DevExpress.XtraEditors.MemoEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl)).BeginInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_UserMessage_xtraTabControl.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
@@ -134,6 +135,7 @@
             // 
             // xtraTabPage2
             // 
+            this.xtraTabPage2.Controls.Add(this.tableLayoutPanel1);
             this.xtraTabPage2.Controls.Add(this.conmmonListBoxControl1);
             this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit);
             this.xtraTabPage2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit);
@@ -411,6 +413,7 @@
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit
             // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Location = new System.Drawing.Point(307, 6);
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit";
             this.SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Size = new System.Drawing.Size(133, 20);
@@ -644,6 +647,19 @@
             this.panelControl1.Size = new System.Drawing.Size(716, 537);
             this.panelControl1.TabIndex = 17;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(469, 247);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel1.TabIndex = 65;
+            // 
             // UserMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -747,5 +763,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl25;
         private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_SystemUserMessageManage_UserMessage_Remark_MemoEdit;
         private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
