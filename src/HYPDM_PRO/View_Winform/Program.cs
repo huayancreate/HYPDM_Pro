@@ -24,7 +24,7 @@ namespace View_Winform
             //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
-             Application.Run(new View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserMessage());
+             Application.Run(new View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserList());
         }
     }
 }
