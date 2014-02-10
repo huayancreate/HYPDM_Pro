@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WcfConfig" Class="WcfConfigDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.140.33;Initial Catalog=WcfConfig;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WcfConfigConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Binding" Member="Bindings">
+    <Type Name="Binding">
+      <Column Name="BindingName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BindingType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BindingPriority" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BindingXml" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="BindingProtocol" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Binding_ServiceEndpoint" Member="ServiceEndpoints" ThisKey="BindingName" OtherKey="ServiceEndpointBindingName" Type="ServiceEndpoint" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ServiceEndpoint" Member="ServiceEndpoints">
+    <Type Name="ServiceEndpoint">
+      <Column Name="ServiceContractType" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceContractVersion" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServerMachineIP" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceType" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="ServiceEndpointBehaviorXml" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ServiceEndpointBindingName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ServiceEndpointPort" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ServiceEndpointName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Binding_ServiceEndpoint" Member="Binding" ThisKey="ServiceEndpointBindingName" OtherKey="BindingName" Type="Binding" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClientAccess" Member="ClientAccesses">
+    <Type Name="ClientAccess">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClientMachineIP" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AccessServerFarmName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="ServerFarm_ClientAccess" Member="ServerFarm" ThisKey="AccessServerFarmName" OtherKey="ServerFarmName" Type="ServerFarm" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClientEndpoint" Member="ClientEndpoints">
+    <Type Name="ClientEndpoint">
+      <Column Name="ServiceContractType" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClientMachineIP" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClientEndpointBehaviorXml" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ServiceConfig" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ServerFarm" Member="ServerFarms">
+    <Type Name="ServerFarm">
+      <Column Name="ServerFarmName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServerFarmAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="ServerFarm_ClientAccess" Member="ClientAccesses" ThisKey="ServerFarmName" OtherKey="AccessServerFarmName" Type="ClientAccess" />
+      <Association Name="ServerFarm_Service" Member="Services" ThisKey="ServerFarmName" OtherKey="ServerFarmName" Type="Service" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Service" Member="Services">
+    <Type Name="Service">
+      <Column Name="ServiceType" Type="System.String" DbType="VarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceBehaviorXml" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ServerFarmName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ServiceConfig" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ServerMachineIP" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="ServerFarm_Service" Member="ServerFarm" ThisKey="ServerFarmName" OtherKey="ServerFarmName" Type="ServerFarm" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

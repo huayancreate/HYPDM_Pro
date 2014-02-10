@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View_Winform", "View_Winform\View_Winform.csproj", "{0E7115DC-39AD-42FE-BD8A-E30D5EDB4D0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYHTTPRequestLib", "HYHTTPRequestLib\HYHTTPRequestLib.csproj", "{5AAB9F8A-4498-48B9-8B2C-AF94961BC6B1}"
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYLoadingLib", "HYLoadingLib\HYLoadingLib.csproj", "{C30A75AF-3D44-4FE5-9C71-CA25E7ED85DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYAppInitLib", "HYAppInitLib\HYAppInitLib.csproj", "{19150777-C9DC-49D7-A376-447E78C766F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfExtension.ConfigCenter", "..\..\..\..\..\Desktop\wcf\WcfExtension.ConfigCenter\WcfExtension.ConfigCenter.csproj", "{96591F43-FE61-46C9-8FD6-8177B6BDEBBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{19150777-C9DC-49D7-A376-447E78C766F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19150777-C9DC-49D7-A376-447E78C766F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19150777-C9DC-49D7-A376-447E78C766F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96591F43-FE61-46C9-8FD6-8177B6BDEBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96591F43-FE61-46C9-8FD6-8177B6BDEBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96591F43-FE61-46C9-8FD6-8177B6BDEBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96591F43-FE61-46C9-8FD6-8177B6BDEBBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
