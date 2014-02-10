@@ -1,4 +1,4 @@
-﻿namespace HYCoreLib.WcfExtension.ConfigCenter
+﻿namespace WcfExtension.ConfigCenter
 {
     using System;
     using System.Linq;

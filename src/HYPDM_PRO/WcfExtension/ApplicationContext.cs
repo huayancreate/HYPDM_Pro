@@ -1,4 +1,4 @@
-﻿namespace HYCoreLib.WcfExtension
+﻿namespace WcfExtension
 {
     using System.Collections.Generic;
     using System.Runtime.Serialization;

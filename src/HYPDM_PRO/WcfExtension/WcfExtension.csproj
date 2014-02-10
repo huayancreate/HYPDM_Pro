@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3E0A3E3-0BC2-4A2A-BD89-BA8DC8626CAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WcfExtension</RootNamespace>
+    <AssemblyName>WcfExtension</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\HYCore\Libs\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\HYCore\Libs\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\HYCore\Libs\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\HYCore\Libs\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Configuration">
+      <HintPath>..\HYCore\Libs\Microsoft.Practices.Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\HYCore\Libs\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\HYCore\Libs\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Client">
+      <HintPath>..\HYCore\Libs\ServiceStack.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\HYCore\Libs\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\HYCore\Libs\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Messaging">
+      <HintPath>..\HYCore\Libs\ServiceStack.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\HYCore\Libs\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\HYCore\Libs\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationContext.cs" />
+    <Compile Include="Client\ClientApplicationContext.cs" />
+    <Compile Include="Client\ClientMessageInspector.cs" />
+    <Compile Include="Client\LogServiceRealProxy.cs" />
+    <Compile Include="Client\ServiceLocator.cs" />
+    <Compile Include="Client\ServiceRealProxy.cs" />
+    <Compile Include="Client\WcfChannelWrapper.cs" />
+    <Compile Include="Client\WcfServiceClientFactory.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="Config\ClientLogConfig.cs" />
+    <Compile Include="Config\ConfigUpdateManager.cs" />
+    <Compile Include="Config\IWcfConfigService.cs" />
+    <Compile Include="Config\LogConfig.cs" />
+    <Compile Include="Config\ServerLogConfig.cs" />
+    <Compile Include="Config\WcfBinding.cs" />
+    <Compile Include="Config\WcfClientEndpoint.cs" />
+    <Compile Include="Config\WcfEndpoint.cs" />
+    <Compile Include="Config\WcfService.cs" />
+    <Compile Include="Config\WcfServiceEndpoint.cs" />
+    <Compile Include="ExtensionMethods.cs" />
+    <Compile Include="Log\AbstractLogInfo.cs" />
+    <Compile Include="Log\CientStartInfo.cs" />
+    <Compile Include="Log\ClientExceptionInfo.cs" />
+    <Compile Include="Log\ClientInvokeInfo.cs" />
+    <Compile Include="Log\ClientMessageInfo.cs" />
+    <Compile Include="Log\ExceptionInfo.cs" />
+    <Compile Include="Log\IClientInfo.cs" />
+    <Compile Include="Log\InvokeInfo.cs" />
+    <Compile Include="Log\IServerInfo.cs" />
+    <Compile Include="Log\IWcfLogService.cs" />
+    <Compile Include="Log\LocalLogService.cs" />
+    <Compile Include="Log\MessageDirection.cs" />
+    <Compile Include="Log\MessageInfo.cs" />
+    <Compile Include="Log\PersistenceColumnAttribute.cs" />
+    <Compile Include="Log\ServerExceptionInfo.cs" />
+    <Compile Include="Log\ServerInvokeInfo.cs" />
+    <Compile Include="Log\ServerMessageInfo.cs" />
+    <Compile Include="Log\ServerStartInfo.cs" />
+    <Compile Include="Log\StartInfo.cs" />
+    <Compile Include="Log\WcfLogProvider.cs" />
+    <Compile Include="MessageInspectorEndpointBehavior.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Server\ActionInerceptBehavior.cs" />
+    <Compile Include="Server\ErrorHandler.cs" />
+    <Compile Include="Server\OperationBehavior.cs" />
+    <Compile Include="Server\OperationInvoker.cs" />
+    <Compile Include="Server\ServerApplicationContext.cs" />
+    <Compile Include="Server\ServerManager.cs" />
+    <Compile Include="Server\ServerMessageInspector.cs" />
+    <Compile Include="Server\ServiceErrorBehavior.cs" />
+    <Compile Include="Server\UnityInstanceProvider.cs" />
+    <Compile Include="Server\UnityServiceBehavior.cs" />
+    <Compile Include="Server\WcfServiceHostFactory.cs" />
+    <Compile Include="Setting\ExceptionInfoSetting.cs" />
+    <Compile Include="Setting\InvokeInfoSetting.cs" />
+    <Compile Include="Setting\MessageInfoSetting.cs" />
+    <Compile Include="Setting\OperationDirection.cs" />
+    <Compile Include="Setting\PasswordCheck.cs" />
+    <Compile Include="Setting\StartInfoSetting.cs" />
+    <Compile Include="Setting\WcfClientSetting.cs" />
+    <Compile Include="Setting\WcfCoreSetting.cs" />
+    <Compile Include="Setting\WcfLogSetting.cs" />
+    <Compile Include="Setting\WcfSecuritySetting.cs" />
+    <Compile Include="Setting\WcfServerSetting.cs" />
+    <Compile Include="Setting\WcfSetting.cs" />
+    <Compile Include="Setting\WcfSettingManager.cs" />
+    <Compile Include="WcfSecurityException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Unity.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
