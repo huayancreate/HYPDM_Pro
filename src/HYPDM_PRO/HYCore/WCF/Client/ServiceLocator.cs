@@ -1,4 +1,4 @@
-﻿namespace WcfExtension
+﻿namespace HYCoreLib.WcfExtension
 {
     using System;
     using System.Threading;

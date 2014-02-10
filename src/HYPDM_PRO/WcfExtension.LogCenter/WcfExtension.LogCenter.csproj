@@ -211,12 +211,6 @@
     <Compile Include="WcfLogService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
-      <Project>{FE9FE3A9-E056-4538-B76D-93EFD593ABA4}</Project>
-      <Name>WcfExtension</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Config\Memcached.config" />
     <Content Include="Config\WcfLogServer.config" />
     <None Include="images\Thumbs.db" />

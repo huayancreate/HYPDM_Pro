@@ -1,4 +1,4 @@
-﻿namespace WcfExtension
+﻿namespace HYCoreLib.WcfExtension
 {
     using System.Runtime.Remoting.Messaging;
     using System.Runtime.Serialization;

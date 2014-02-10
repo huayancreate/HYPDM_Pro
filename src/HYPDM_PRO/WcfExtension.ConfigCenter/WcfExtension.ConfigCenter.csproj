@@ -43,6 +43,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HYCoreLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\HYCore\bin\Debug\HYCoreLib.dll</HintPath>
+    </Reference>
     <Reference Include="ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libs\ServiceStack.Interfaces.dll</HintPath>
@@ -106,12 +110,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="WFWcfConfig.aspx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
-      <Project>{FE9FE3A9-E056-4538-B76D-93EFD593ABA4}</Project>
-      <Name>WcfExtension</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
