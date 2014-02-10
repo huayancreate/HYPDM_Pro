@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.625" name="WcfConfig">
+  <DataContextMoniker Name="/WcfConfigDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e3980f03-4457-4cde-89e2-458f21c821ff" absoluteBounds="0.75, 6.25, 2, 1.7625655110677077">
+      <DataClassMoniker Name="/WcfConfigDataContext/Binding" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1826ac0-4bc9-4ade-97cf-7ce78724d0cc" absoluteBounds="0.765, 6.71, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="60451c68-d6cc-407d-867c-81611f16e2aa" absoluteBounds="3.5, 6, 2, 2.3356245930989594">
+      <DataClassMoniker Name="/WcfConfigDataContext/ServiceEndpoint" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77d7ff1a-78e3-4bc0-a3e4-b24db5a618c5" absoluteBounds="3.515, 6.46, 1.9700000000000002, 1.7756245930989585" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="38875a91-f8c8-4d11-9afe-35949e16c947" absoluteBounds="3.5, 1, 2, 1.3805261230468751">
+      <DataClassMoniker Name="/WcfConfigDataContext/ClientAccess" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83f79ca6-6c3c-41ee-b36f-7be6555350ab" absoluteBounds="3.515, 1.46, 1.9700000000000002, 0.820526123046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4692a1f5-1d07-43db-a44a-55523e784a4c" absoluteBounds="6.75, 0.75, 2, 1.5715458170572916">
+      <DataClassMoniker Name="/WcfConfigDataContext/ClientEndpoint" />
+      <nestedChildShapes>
+        <elementListCompartment Id="575fa0ff-6119-4340-88e5-dbd2f6c3099b" absoluteBounds="6.765, 1.21, 1.9700000000000002, 1.0115458170572915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3cdb96b3-8929-41cf-8030-418c7b472fb4" absoluteBounds="0.75, 2.375, 2, 1.1895064290364585">
+      <DataClassMoniker Name="/WcfConfigDataContext/ServerFarm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7510806-f4cb-4cf9-8a57-78d4aaa80ea4" absoluteBounds="0.765, 2.835, 1.9700000000000002, 0.62950642903645826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="53708bc0-646a-47fa-93ff-896337cf0a0a" absoluteBounds="3.5, 3.125, 2, 1.7625655110677077">
+      <DataClassMoniker Name="/WcfConfigDataContext/Service" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8844418-c166-436f-ac5f-59dc3d674b4d" absoluteBounds="3.515, 3.585, 1.9700000000000002, 1.2025655110677083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.13128275553385); (3.5 : 7.13128275553385)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WcfConfigDataContext/Binding/Binding_ServiceEndpoint" />
+      <nodes>
+        <classShapeMoniker Id="e3980f03-4457-4cde-89e2-458f21c821ff" />
+        <classShapeMoniker Id="60451c68-d6cc-407d-867c-81611f16e2aa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 2.375); (1.75 : 1.6874995); (3.5 : 1.6874995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WcfConfigDataContext/ServerFarm/ServerFarm_ClientAccess" />
+      <nodes>
+        <classShapeMoniker Id="3cdb96b3-8929-41cf-8030-418c7b472fb4" />
+        <classShapeMoniker Id="38875a91-f8c8-4d11-9afe-35949e16c947" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.34475321451823); (3.5 : 3.34475321451823)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/WcfConfigDataContext/ServerFarm/ServerFarm_Service" />
+      <nodes>
+        <classShapeMoniker Id="3cdb96b3-8929-41cf-8030-418c7b472fb4" />
+        <classShapeMoniker Id="53708bc0-646a-47fa-93ff-896337cf0a0a" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

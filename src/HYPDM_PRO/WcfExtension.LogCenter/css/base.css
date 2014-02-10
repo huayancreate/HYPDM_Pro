@@ -1,0 +1,159 @@
+/* 全局性基本修饰 */
+body, th, td { font:normal 12px/20px Tahoma,Arial,Verdana,sans-serif;  color:#222222; line-height:20px;}
+body  { margin:0px; background:#fff; font:normal 12px 宋体;}
+img {border:0}
+table {border:0}
+br {height:10px; line-height: 10px}
+/* 常规链接修饰 */
+a:link {color: #003F7B;text-decoration: none;}
+a:visited {color: #003F7B;text-decoration: none;}
+a:hover {color: #FF4800;text-decoration: none;}
+a.af1{ font-weight:normal; color:red;} a.af2{ font-weight:normal; color:blue;} a.af3{ font-weight:normal; color:gray;}
+a.abf1{ font-weight:bold; color:red;} a.abf2{ font-weight:bold; color:blue;} a.abf3{ font-weight:bold; color:gray;}
+
+/* 高亮背景修饰 */
+.bghighlight { background:#fafafa; }
+
+/* 文字段落修饰 */
+p { padding:5px; line-height:23px; }
+
+/*页面内容部分修饰*/
+.pagemain {margin: 10px;}
+.margin5_10 {margin: 5px 10px}
+.margin5_0 {margin: 5px 0px}
+.floatleft {float:left}
+.floatright {float:right}
+/* 表格修饰 */
+.maindiv, .maintable {padding:0px; border:0px; border-collapse:collapse;margin:0;}/* 表格外框修饰 */ 
+.maintable th, .maintable td.title { height:23px; line-height:23px; background:#EEF7FD; color:#135294; font-weight:bold; border:1px solid #C4D8ED;  text-align:center;white-space:nowrap;}/* 表格头标题修饰 */ 
+.maintable th span {font-weight:normal; color:#666}
+.maintable td { line-height:16px; background:#fff; font-size:12px; border:1px solid #C4D8ED; color:#444; padding:2px 2px;white-space:nowrap; }/* 表格普通单元格修饰 */
+.maintable td.left { background:#fff; color:#135294; font-weight:normal; text-align:right;}/* 表格左单元格修饰 */ 
+.maintable td.right { background:#fff; color:#135294; text-align:left;}/* 表格右单元格修饰 */
+.maintable td.bottom {height:35px; text-align:center; line-height: 35px}/* 表格底部格修饰 */
+.maintable td span, .comment{color:gray; font-weight:normal;} /* 表格内说明性文字修饰 */ 
+
+/* 数据表格修饰 */
+.GridView { width:100%; padding:0px; border:0px; border-collapse:collapse;}/* 表格外框修饰 */ 
+.GridView th, .GridView td.title { height:25px; line-height:25px; background:#fff; color:#135294; font-weight:bold; border:1px solid #C4D8ED; text-align:center; padding:2px 2px;}/* 表格头标题修饰 */ 
+.GridView td { line-height:20px; height:20px; background:#fff; font-size:12px; border:1px solid #C4D8ED; color:#444; padding:2px 2px; }/* 表格普通单元格修饰 */
+.GridView td.left { background:#fff; color:#135294; font-weight:normal; text-align:right;}/* 表格左单元格修饰 */ 
+.GridView td.right { background:#fff; color:#135294; text-align:left;}/* 表格右单元格修饰 */
+.GridView td.bottom {height:35px;}/* 表格底部格修饰 */
+.GridView td span {color:gray; font-weight:normal;} /* 表格内说明性文字修饰 */ 
+.hidden { display:none;}
+
+/*分页导航*/
+.Pager { line-height:25px; height:25px; padding:0px; margin:0px; border:0px; border-collapse:separate; float: left}/* 表格外框修饰 */ 
+.Pager td {background-color:Transparent; border:0px; padding:0px; }/* 表格普通单元格修饰 */
+.Pager td span {color:gray; font-weight:normal;} /* 表格内说明性文字修饰 */ 
+
+/* Tab选项卡修饰 */
+.tabox {height:23px; line-height:21px; background:#f1f1f1; color:#135294; padding:0px; border:0px solid gray;} /* Tab选项卡外框 */
+.tabon {background:#299EDE; color:#fff; font-weight:bold; padding-left:15px; float:left;text-align:center;border:1px solid #299EDE;margin:1px;} /* Tab选项卡选中修饰 */
+.taboff {background:#f1f1f1; color:gray; font-weight:normal; padding-left:15px; float:left;text-align:center;border:1px solid gray;margin:1px;} /* Tab选项卡未选修饰 */
+
+/* 手形光标 */
+.hand{cursor:hand;}
+/* 常用字体修饰3类，6种 */
+.nf1{ font-weight:normal; color:red;} .nf2{ font-weight:normal; color:blue;} .nf3{ font-weight:normal; color:green;}
+.bf1{ font-weight:bold; color:red;} .bf2{ font-weight:bold; color:blue;} .bf3{ font-weight:bold; color:green;}
+/* 下划线修饰 */
+.underline{text-decoration:underline;}
+
+/***************************************start update by Yollie**************************************/
+/* 按钮修饰 */
+/*.button { color: #135294; border:1px solid #666; height:21px; line-height:21px; background:url("images/button_bg.gif"); }*/
+.button { word-spacing:3px; border:1px solid #BED1DF; background:url('../images/button_bg.gif'); font-size:12px;
+           padding:3px 2px 0 2px;
+          }
+.button:hover { word-spacing:3px; border:1px solid #c3a336; background:url('../images/button_bg2.gif'); 
+font-size:12px;
+}
+/***************************************end update by Yollie***************************************/
+
+/* 文本框修饰 */
+.text { border:1px solid #c4c9fd;background: white url('../images/input-text.png') repeat-x left top;
+color: #333; height:18px; line-height: 18px
+}
+.textblur { border:1px solid #c4c9fd;background: white url('../images/input-text.png') repeat-x left top;
+color: #333; height:18px; line-height: 18px
+}
+.textfoucs { border:1px solid #f5caa0;background: white url('../images/input-text-h.png') repeat-x left top;
+color: #666; height:18px; line-height: 18px
+}
+.text:hover { border:1px solid #f5caa0;background: white url('../images/input-text-h.png') repeat-x left top;
+color: #666; height:18px; line-height: 18px
+}
+textarea { border:1px solid #c4c9fd;background: white url('../images/input-text.png') repeat-x left top;
+color: #333; height:18px; line-height: 18px
+}
+textarea:hover { border:1px solid #f5caa0;background: white url('../images/input-text-h.png') repeat-x left top;
+color: #666; height:18px; line-height: 18px
+}
+
+/* 单选多选样式 */
+.radio, .checkbox, .smallbox, selectlist { border:none; }
+
+/* 文框录入框 */
+.input_off { border:1px solid #9ea6ab;padding:2px;}
+.input_on { border:1px solid #FFA200; background:#F3F6FA; padding:2px;}
+/* 文框录入框 */
+
+/***************************************start update by Yollie**************************************/
+/* 按钮 */
+/*.button_off { border:1px solid #D5E3ED; background:#D5E3ED;}
+.button_on { border:1px solid #c3a336; background:#EEF4F7;}*/
+.button_off { height:24px; border:1px solid #BED1DF; background:url('../images/button_bg.gif'); 
+font-size:12px; }
+.button_on { height:24px; background:url('../images/button_bg2.gif'); 
+border:1px solid #c3a336; }
+/* 按钮 */
+/***************************************end update by Yollie***************************************/
+
+/* 单选或多选按钮组合样式 */
+.checkbox_list input {border:none;}
+.radio_list input {border:none;}
+/* 单选或多选按钮组合样式 */
+
+/*系统提示框*/
+.systip {margin: 10px; border:solid 1px #e3edf5}
+.systip legend {font-weight: bold}
+.systip div{ margin: 0px 3px 3px 3px} 
+/*系统提示框*/
+
+/*页面标题*/
+.PageTitle { height: 32px; line-height:32px; white-space:nowrap; vertical-align: middle;background:url('../images/pagetitlebg.gif') repeat-x; }
+.PageTitle div{white-space:nowrap;}
+.PageTitle img{ vertical-align:middle;}
+.PageTitle span {font-size: 12px; font-weight: bold}
+/*页面标题*/
+
+/*下拉列表框*/
+.spanselect
+{
+    border: solid 1px #ccc; overflow: hidden; position: absolute
+}
+.spanselect:hover,.spanselect:focus{border-color:#999;background:#FFF}
+
+.spanselect select
+{
+    margin: -2px
+}
+
+/*下拉列表框*/
+/* 如果需要其它特殊修饰，请接在此下面添加，大家使用时，尽可能使用上面的共同样式 */
+.search
+{
+    margin:5px;
+    border: 1px solid #C4D8ED;
+    background-color:#EEF7FD;
+    color:#000000;
+}
+
+.liebiao
+{
+  margin:5px;
+  white-space:nowrap;
+}
+.sortable{}

@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F2A303C6-CC4B-4239-841F-14EDA38905EC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WcfExtension.LogCenter</RootNamespace>
+    <AssemblyName>WcfExtension.LogCenter</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager">
+      <HintPath>..\Libs\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\Libs\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>..\Libs\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\base.css" />
+    <Content Include="css\calendar.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\022.gif" />
+    <Content Include="images\24_back.png" />
+    <Content Include="images\a.gif" />
+    <Content Include="images\add.png" />
+    <Content Include="images\admin-ico.gif" />
+    <Content Include="images\admin-top2.gif" />
+    <Content Include="images\bg1.gif" />
+    <Content Include="images\bg2.gif" />
+    <Content Include="images\bg2.jpg" />
+    <Content Include="images\bg3.gif" />
+    <Content Include="images\btn_hide_sidebar.png" />
+    <Content Include="images\btn_show_sidebar.png" />
+    <Content Include="images\bt_bg.gif" />
+    <Content Include="images\bullet_wrench.png" />
+    <Content Include="images\button_bg.gif" />
+    <Content Include="images\button_bg2.gif" />
+    <Content Include="images\cms-ico1.gif" />
+    <Content Include="images\cms-ico2.gif" />
+    <Content Include="images\cms-ico3.gif" />
+    <Content Include="images\cms-ico6.gif" />
+    <Content Include="images\cms-ico7.gif" />
+    <Content Include="images\compress.png" />
+    <Content Include="images\database_save.png" />
+    <Content Include="images\Desktop.png" />
+    <Content Include="images\dl.gif" />
+    <Content Include="images\drive_user.png" />
+    <Content Include="images\file.gif" />
+    <Content Include="images\file.png" />
+    <Content Include="images\folder.png" />
+    <Content Include="images\folders.gif" />
+    <Content Include="images\gc.gif" />
+    <Content Include="images\headbg.png" />
+    <Content Include="images\header_back.gif" />
+    <Content Include="images\help-bt.gif" />
+    <Content Include="images\help.png" />
+    <Content Include="images\ico_sun.gif" />
+    <Content Include="images\in1.gif" />
+    <Content Include="images\in2.gif" />
+    <Content Include="images\in3.gif" />
+    <Content Include="images\input-text-h.png" />
+    <Content Include="images\input-text.png" />
+    <Content Include="images\left_top.gif" />
+    <Content Include="images\login-2.gif" />
+    <Content Include="images\login-3.gif" />
+    <Content Include="images\login-4.gif" />
+    <Content Include="images\login-5.gif" />
+    <Content Include="images\login-6.gif" />
+    <Content Include="images\login-bt.gif" />
+    <Content Include="images\login-quit.gif" />
+    <Content Include="images\main_12.gif" />
+    <Content Include="images\main_123.gif" />
+    <Content Include="images\main_18.gif" />
+    <Content Include="images\main_24.gif" />
+    <Content Include="images\main_25.gif" />
+    <Content Include="images\main_27.gif" />
+    <Content Include="images\menuico.gif" />
+    <Content Include="images\menuitem.gif" />
+    <Content Include="images\money_yen.png" />
+    <Content Include="images\next.gif" />
+    <Content Include="images\openfolder.gif" />
+    <Content Include="images\page.gif" />
+    <Content Include="images\pagetitlebg.gif" />
+    <Content Include="images\page_white_go.png" />
+    <Content Include="images\page_white_swoosh.png" />
+    <Content Include="images\pencil_add.png" />
+    <Content Include="images\plugin.png" />
+    <Content Include="images\plus-.gif" />
+    <Content Include="images\prev.gif" />
+    <Content Include="images\qu-bt.gif" />
+    <Content Include="images\quit-bt.gif" />
+    <Content Include="images\root.gif" />
+    <Content Include="images\server_connect.png" />
+    <Content Include="images\shape_rotate_clockwise.png" />
+    <Content Include="images\t.gif" />
+    <Content Include="images\tick.png" />
+    <Content Include="images\tree.gif" />
+    <Content Include="images\up.png" />
+    <Content Include="images\vblog_card_icon.gif" />
+    <Content Include="Info\LogDetail.aspx" />
+    <Content Include="Info\LogList.aspx" />
+    <Content Include="Info\NewHttpRequest.aspx" />
+    <Content Include="js\ajax.js" />
+    <Content Include="js\calendar.js" />
+    <Content Include="js\common.js" />
+    <Content Include="js\jsClass.js" />
+    <Content Include="js\selectDateTime.js" />
+    <Content Include="js\sorttable.js" />
+    <Content Include="WcfLogService.svc" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\CommonService.cs" />
+    <Compile Include="Core\ConfigProvider.cs" />
+    <Compile Include="Core\LogService.cs" />
+    <Compile Include="Core\MemoryQueue.cs" />
+    <Compile Include="Core\MongoDBUtil.cs" />
+    <Compile Include="Core\NoSqlMongoDB.cs" />
+    <Compile Include="Core\PerformanceCounterItem.cs" />
+    <Compile Include="Core\WcfLogService.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Info\LogDetail.aspx.cs">
+      <DependentUpon>LogDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info\LogDetail.aspx.designer.cs">
+      <DependentUpon>LogDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Info\LogList.aspx.cs">
+      <DependentUpon>LogList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info\LogList.aspx.designer.cs">
+      <DependentUpon>LogList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Info\NewHttpRequest.aspx.cs">
+      <DependentUpon>NewHttpRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Info\NewHttpRequest.aspx.designer.cs">
+      <DependentUpon>NewHttpRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WcfLogService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
+      <Project>{FE9FE3A9-E056-4538-B76D-93EFD593ABA4}</Project>
+      <Name>WcfExtension</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Memcached.config" />
+    <Content Include="Config\WcfLogServer.config" />
+    <None Include="images\Thumbs.db" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34012</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
