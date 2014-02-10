@@ -66,9 +66,23 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App\Implement\" />
-    <Folder Include="Libs\" />
     <Folder Include="ORM\Ibatis\" />
     <Folder Include="UI\Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\AspNetPager.dll" />
+    <Content Include="Libs\log4net.dll" />
+    <Content Include="Libs\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="Libs\Microsoft.Practices.Unity.Configuration.dll" />
+    <Content Include="Libs\Microsoft.Practices.Unity.dll" />
+    <Content Include="Libs\MongoDB.Bson.dll" />
+    <Content Include="Libs\MongoDB.Driver.dll" />
+    <Content Include="Libs\ServiceStack.Client.dll" />
+    <Content Include="Libs\ServiceStack.Common.dll" />
+    <Content Include="Libs\ServiceStack.Interfaces.dll" />
+    <Content Include="Libs\ServiceStack.Messaging.dll" />
+    <Content Include="Libs\ServiceStack.Redis.dll" />
+    <Content Include="Libs\ServiceStack.Text.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

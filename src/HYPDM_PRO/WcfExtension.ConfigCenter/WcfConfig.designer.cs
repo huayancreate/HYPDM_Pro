@@ -229,7 +229,7 @@ namespace WcfExtension.ConfigCenter
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BindingXml", DbType="Xml", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BindingXml", DbType="Xml", UpdateCheck=UpdateCheck.Never)]
 		public System.Xml.Linq.XElement BindingXml
 		{
 			get
@@ -447,7 +447,7 @@ namespace WcfExtension.ConfigCenter
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceEndpointBehaviorXml", DbType="Xml", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceEndpointBehaviorXml", DbType="Xml", UpdateCheck=UpdateCheck.Never)]
 		public System.Xml.Linq.XElement ServiceEndpointBehaviorXml
 		{
 			get
@@ -810,7 +810,7 @@ namespace WcfExtension.ConfigCenter
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ClientEndpointBehaviorXml", DbType="Xml", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ClientEndpointBehaviorXml", DbType="Xml", UpdateCheck=UpdateCheck.Never)]
 		public System.Xml.Linq.XElement ClientEndpointBehaviorXml
 		{
 			get
@@ -830,7 +830,7 @@ namespace WcfExtension.ConfigCenter
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceConfig", DbType="Xml", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceConfig", DbType="Xml", UpdateCheck=UpdateCheck.Never)]
 		public System.Xml.Linq.XElement ServiceConfig
 		{
 			get
@@ -1073,7 +1073,7 @@ namespace WcfExtension.ConfigCenter
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceBehaviorXml", DbType="Xml", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceBehaviorXml", DbType="Xml", UpdateCheck=UpdateCheck.Never)]
 		public System.Xml.Linq.XElement ServiceBehaviorXml
 		{
 			get
@@ -1117,7 +1117,7 @@ namespace WcfExtension.ConfigCenter
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceConfig", DbType="Xml", CanBeNull=true, UpdateCheck=UpdateCheck.Never)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ServiceConfig", DbType="Xml", UpdateCheck=UpdateCheck.Never)]
 		public System.Xml.Linq.XElement ServiceConfig
 		{
 			get
