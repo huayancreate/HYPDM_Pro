@@ -113,6 +113,12 @@
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommonTemplet\CommonMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonTemplet\CommonMenu.Designer.cs">
+      <DependentUpon>CommonMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuidefour.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1378,6 +1384,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonTemplet\CommonMenu.resx">
+      <DependentUpon>CommonMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DataPortAndIntegration\BOMDataOutput\DataOutputGuidefour.resx">
       <DependentUpon>DataOutputGuidefour.cs</DependentUpon>

@@ -48,6 +48,7 @@
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.ssss = new DevExpress.XtraTab.XtraTabPage();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar1 = new DevExpress.XtraBars.Bar();
@@ -60,7 +61,6 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
@@ -72,9 +72,9 @@
             this.xtraTabControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             this.SuspendLayout();
             // 
             // simpleButton1
@@ -237,7 +237,15 @@
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(302, 190);
             this.groupControl2.TabIndex = 85;
-            this.groupControl2.Text = "工装配置区";
+            this.groupControl2.Text = "工序配置区";
+            // 
+            // listBoxControl1
+            // 
+            this.listBoxControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
+            this.listBoxControl1.Name = "listBoxControl1";
+            this.listBoxControl1.Size = new System.Drawing.Size(298, 166);
+            this.listBoxControl1.TabIndex = 63;
             // 
             // groupControl3
             // 
@@ -347,14 +355,6 @@
             this.barDockControlRight.Location = new System.Drawing.Point(855, 51);
             this.barDockControlRight.Size = new System.Drawing.Size(0, 546);
             // 
-            // listBoxControl1
-            // 
-            this.listBoxControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxControl1.Location = new System.Drawing.Point(2, 22);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(298, 166);
-            this.listBoxControl1.TabIndex = 63;
-            // 
             // AssemblyProcess
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -391,9 +391,9 @@
             this.xtraTabControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             this.ResumeLayout(false);
 
         }
