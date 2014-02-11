@@ -1394,6 +1394,12 @@
     <Compile Include="Templete.Designer.cs">
       <DependentUpon>Templete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChangeManage\ChangeApplication\ChangeCreateApplication.resx">
       <DependentUpon>ChangeCreateApplication.cs</DependentUpon>
     </EmbeddedResource>
@@ -2060,6 +2066,9 @@
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Test\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="bin\Debug\View_Winform.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.config" />
@@ -2132,6 +2141,16 @@
     <Content Include="Images\Tasks_16x16.png" />
     <Content Include="Images\Trash_16x16.png" />
     <Content Include="ProductStructureManage\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PDM_Services_Interface\PDM_Services_Interface.csproj">
+      <Project>{06ece8d4-f2a8-45df-b6ab-51a890528c3e}</Project>
+      <Name>PDM_Services_Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
+      <Project>{a3e0a3e3-0bc2-4a2a-bd89-ba8dc8626caa}</Project>
+      <Name>WcfExtension</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
