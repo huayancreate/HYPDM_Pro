@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>View_Winform</RootNamespace>
     <AssemblyName>View_Winform</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>2.0</OldToolsVersion>
@@ -30,6 +30,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -2143,6 +2144,10 @@
     <Content Include="ProductStructureManage\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PDM_Entity\PDM_Entity.csproj">
+      <Project>{0057ecfd-dee0-4ae5-b38a-65943746de72}</Project>
+      <Name>PDM_Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PDM_Services_Interface\PDM_Services_Interface.csproj">
       <Project>{06ece8d4-f2a8-45df-b6ab-51a890528c3e}</Project>
       <Name>PDM_Services_Interface</Name>
