@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfExtension.LogCenter", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfExtension", "WcfExtension\WcfExtension.csproj", "{A3E0A3E3-0BC2-4A2A-BD89-BA8DC8626CAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfConfigCenterConsole", "WcfConfigCenterConsole\WcfConfigCenterConsole.csproj", "{11A64632-FA7B-4088-A1CF-221760C69963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLogCenterConsole", "WcfLogCenterConsole\WcfLogCenterConsole.csproj", "{2A6EDDC6-B83F-49D4-8133-512CD125F530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +95,14 @@ Global
 		{A3E0A3E3-0BC2-4A2A-BD89-BA8DC8626CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E0A3E3-0BC2-4A2A-BD89-BA8DC8626CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E0A3E3-0BC2-4A2A-BD89-BA8DC8626CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A64632-FA7B-4088-A1CF-221760C69963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A64632-FA7B-4088-A1CF-221760C69963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A64632-FA7B-4088-A1CF-221760C69963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A64632-FA7B-4088-A1CF-221760C69963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
