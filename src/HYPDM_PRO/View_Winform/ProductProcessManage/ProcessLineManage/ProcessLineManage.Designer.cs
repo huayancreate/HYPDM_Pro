@@ -253,7 +253,7 @@
             // 
             this.xtraTabPage2.Controls.Add(this.panelControl3);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(515, 267);
+            this.xtraTabPage2.Size = new System.Drawing.Size(626, 267);
             this.xtraTabPage2.Text = "工艺路线2";
             // 
             // panelControl2
@@ -283,7 +283,7 @@
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl3.Location = new System.Drawing.Point(0, 0);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(515, 267);
+            this.panelControl3.Size = new System.Drawing.Size(626, 267);
             this.panelControl3.TabIndex = 101;
             // 
             // labelControl6

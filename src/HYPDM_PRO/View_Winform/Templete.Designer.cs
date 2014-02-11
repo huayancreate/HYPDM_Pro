@@ -39,8 +39,6 @@
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.trackBarControl1 = new DevExpress.XtraEditors.TrackBarControl();
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
@@ -55,8 +53,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).BeginInit();
@@ -155,22 +151,6 @@
             this.xtraTabPage2.Size = new System.Drawing.Size(238, 66);
             this.xtraTabPage2.Text = "xtraTabPage2";
             // 
-            // gridControl1
-            // 
-            this.gridControl1.Location = new System.Drawing.Point(12, 186);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(227, 50);
-            this.gridControl1.TabIndex = 66;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            this.gridControl1.Click += new System.EventHandler(this.gridControl1_Click);
-            // 
-            // gridView1
-            // 
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            // 
             // treeList1
             // 
             this.treeList1.Location = new System.Drawing.Point(38, 373);
@@ -247,7 +227,6 @@
             this.Controls.Add(this.simpleButton6);
             this.Controls.Add(this.trackBarControl1);
             this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.textEdit4);
@@ -265,8 +244,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarControl1)).EndInit();
@@ -293,8 +270,6 @@
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraTreeList.TreeList treeList1;
         private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
         private DevExpress.XtraEditors.MemoEdit memoEdit1;

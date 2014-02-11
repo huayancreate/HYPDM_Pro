@@ -7,18 +7,13 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProjectManage.ProjectPlanManage
+namespace View_Winform.ProjectManage.CreateNewProject
 {
-    public partial class OutputType : DevExpress.XtraEditors.XtraForm
+    public partial class AddProduct : DevExpress.XtraEditors.XtraForm
     {
-        public OutputType()
+        public AddProduct()
         {
             InitializeComponent();
-        }
-
-        private void OutputType_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
