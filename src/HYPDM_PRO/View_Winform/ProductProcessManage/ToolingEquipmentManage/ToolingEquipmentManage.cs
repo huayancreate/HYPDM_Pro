@@ -7,7 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProductProcessManage
+namespace View_Winform.ProductProcessManage.ToolingEquipmentManage
 {
     public partial class ToolingEquipmentManage : DevExpress.XtraEditors.XtraForm
     {
