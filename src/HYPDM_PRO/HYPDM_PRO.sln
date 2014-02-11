@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfConfigCenterConsole", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLogCenterConsole", "WcfLogCenterConsole\WcfLogCenterConsole.csproj", "{2A6EDDC6-B83F-49D4-8133-512CD125F530}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDM_Entity", "PDM_Entity\PDM_Entity.csproj", "{0057ECFD-DEE0-4AE5-B38A-65943746DE72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6EDDC6-B83F-49D4-8133-512CD125F530}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0057ECFD-DEE0-4AE5-B38A-65943746DE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0057ECFD-DEE0-4AE5-B38A-65943746DE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0057ECFD-DEE0-4AE5-B38A-65943746DE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0057ECFD-DEE0-4AE5-B38A-65943746DE72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

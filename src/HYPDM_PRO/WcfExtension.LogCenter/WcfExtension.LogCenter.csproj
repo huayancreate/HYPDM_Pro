@@ -217,7 +217,9 @@
     <Content Include="Config\Memcached.config" />
     <Content Include="Config\WcfLogServer.config" />
     <None Include="images\Thumbs.db" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
