@@ -63,6 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,7 +101,7 @@
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(364, 62);
+            this.textEdit6.Location = new System.Drawing.Point(364, 72);
             this.textEdit6.Name = "textEdit6";
             this.textEdit6.Size = new System.Drawing.Size(102, 20);
             this.textEdit6.TabIndex = 52;
@@ -126,14 +127,14 @@
             // 
             // listBoxControl1
             // 
-            this.listBoxControl1.Location = new System.Drawing.Point(238, 65);
+            this.listBoxControl1.Location = new System.Drawing.Point(42, 39);
             this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(120, 95);
+            this.listBoxControl1.Size = new System.Drawing.Size(53, 58);
             this.listBoxControl1.TabIndex = 62;
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Location = new System.Drawing.Point(382, 90);
+            this.xtraTabControl1.Location = new System.Drawing.Point(399, 124);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
             this.xtraTabControl1.Size = new System.Drawing.Size(244, 95);
@@ -156,10 +157,10 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(315, 191);
+            this.gridControl1.Location = new System.Drawing.Point(12, 186);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(227, 70);
+            this.gridControl1.Size = new System.Drawing.Size(227, 50);
             this.gridControl1.TabIndex = 66;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -172,10 +173,10 @@
             // 
             // treeList1
             // 
-            this.treeList1.Location = new System.Drawing.Point(38, 369);
+            this.treeList1.Location = new System.Drawing.Point(38, 373);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(221, 123);
+            this.treeList1.Size = new System.Drawing.Size(200, 119);
             this.treeList1.TabIndex = 67;
             // 
             // trackBarControl1
@@ -188,7 +189,7 @@
             // 
             // memoEdit1
             // 
-            this.memoEdit1.Location = new System.Drawing.Point(536, 377);
+            this.memoEdit1.Location = new System.Drawing.Point(543, 303);
             this.memoEdit1.Name = "memoEdit1";
             this.memoEdit1.Size = new System.Drawing.Size(100, 100);
             this.memoEdit1.TabIndex = 79;
@@ -204,7 +205,7 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Location = new System.Drawing.Point(38, 249);
+            this.groupControl1.Location = new System.Drawing.Point(77, 253);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(200, 100);
             this.groupControl1.TabIndex = 82;
@@ -212,7 +213,8 @@
             // 
             // groupControl2
             // 
-            this.groupControl2.Location = new System.Drawing.Point(324, 314);
+            this.groupControl2.Controls.Add(this.listBoxControl1);
+            this.groupControl2.Location = new System.Drawing.Point(324, 301);
             this.groupControl2.Name = "groupControl2";
             this.groupControl2.Size = new System.Drawing.Size(200, 102);
             this.groupControl2.TabIndex = 99;
@@ -220,7 +222,7 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Location = new System.Drawing.Point(77, 178);
+            this.panelControl1.Location = new System.Drawing.Point(22, 124);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(155, 56);
             this.panelControl1.TabIndex = 100;
@@ -247,7 +249,6 @@
             this.Controls.Add(this.treeList1);
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.xtraTabControl1);
-            this.Controls.Add(this.listBoxControl1);
             this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.textEdit4);
             this.Controls.Add(this.textEdit6);
@@ -272,6 +273,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -281,6 +281,30 @@
     <Compile Include="PartsMange\ProductCategoryManage\ProductCategoryManage.Designer.cs">
       <DependentUpon>ProductCategoryManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineAdditionalPropertySet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineAdditionalPropertySet.Designer.cs">
+      <DependentUpon>AssemblyLineAdditionalPropertySet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessLineManage\ProcessLineManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessLineManage\ProcessLineManage.Designer.cs">
+      <DependentUpon>ProcessLineManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\AddTooling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\AddTooling.Designer.cs">
+      <DependentUpon>AddTooling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.Designer.cs">
+      <DependentUpon>ModifyTooling.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManage\CreateNewProject\CreateProject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1468,6 +1492,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\ProductCategoryManage\ProductCategoryManage.resx">
       <DependentUpon>ProductCategoryManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineAdditionalPropertySet.resx">
+      <DependentUpon>AssemblyLineAdditionalPropertySet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ProcessLineManage\ProcessLineManage.resx">
+      <DependentUpon>ProcessLineManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\AddTooling.resx">
+      <DependentUpon>AddTooling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.resx">
+      <DependentUpon>ModifyTooling.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\CreateNewProject\CreateProject.resx">
       <DependentUpon>CreateProject.cs</DependentUpon>
