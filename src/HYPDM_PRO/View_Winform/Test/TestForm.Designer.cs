@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.login_btn = new System.Windows.Forms.Button();
+            this.cal = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // login_btn
@@ -41,11 +42,22 @@
             this.login_btn.UseVisualStyleBackColor = true;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
+            // cal
+            // 
+            this.cal.Location = new System.Drawing.Point(250, 122);
+            this.cal.Name = "cal";
+            this.cal.Size = new System.Drawing.Size(75, 23);
+            this.cal.TabIndex = 1;
+            this.cal.Text = "计算";
+            this.cal.UseVisualStyleBackColor = true;
+            this.cal.Click += new System.EventHandler(this.cal_Click);
+            // 
             // TestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(562, 386);
+            this.Controls.Add(this.cal);
             this.Controls.Add(this.login_btn);
             this.Name = "TestForm";
             this.Text = "TestForm";
@@ -56,5 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Button login_btn;
+        private System.Windows.Forms.Button cal;
     }
 }

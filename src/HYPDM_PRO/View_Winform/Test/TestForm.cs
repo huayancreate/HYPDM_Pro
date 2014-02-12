@@ -1,4 +1,4 @@
-﻿using PDM_Services_Interface.Test;
+﻿using PDM_Services_Interface;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +27,20 @@ namespace View_Winform.Test
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void cal_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double name = WcfServiceLocator.Create<ITestService2>().Add2(2.2, 2.1);
+                MessageBox.Show(name.ToString());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
     }

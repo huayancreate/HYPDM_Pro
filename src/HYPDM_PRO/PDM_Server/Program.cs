@@ -1,4 +1,4 @@
-﻿using PDM_Services_Implementation.Test;
+﻿using PDM_Services_Implementation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +14,7 @@ namespace PDM_Server
         {
             Thread.Sleep(1000);
             ServerManager.StartService(typeof(TestService));
+            ServerManager.StartService(typeof(TestService2));
             Console.WriteLine("TestService Started...");
             Console.ReadLine();
         }
