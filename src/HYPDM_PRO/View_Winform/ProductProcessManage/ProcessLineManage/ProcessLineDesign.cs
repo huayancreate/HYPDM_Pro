@@ -7,11 +7,11 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProjectManage.ProjectPlanManage
+namespace View_Winform.ProductProcessManage.ProcessLineManage
 {
-    public partial class InputMessage : DevExpress.XtraEditors.XtraForm
+    public partial class ProcessLineDesign : DevExpress.XtraEditors.XtraForm
     {
-        public InputMessage()
+        public ProcessLineDesign()
         {
             InitializeComponent();
         }
