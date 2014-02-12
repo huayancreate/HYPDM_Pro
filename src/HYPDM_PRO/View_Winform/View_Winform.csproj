@@ -378,29 +378,11 @@
     <Compile Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.Designer.cs">
       <DependentUpon>CreateProjectDoc.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.Designer.cs">
-      <DependentUpon>FlowAndBOMResolveTask.cs</DependentUpon>
-    </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.Designer.cs">
       <DependentUpon>GanttChart.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\InputMessage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\InputMessage.Designer.cs">
-      <DependentUpon>InputMessage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\OutputType.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\OutputType.Designer.cs">
-      <DependentUpon>OutputType.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\ProjectList.cs">
       <SubType>Form</SubType>
@@ -1548,17 +1530,8 @@
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProjectDoc.resx">
       <DependentUpon>CreateProjectDoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\FlowAndBOMResolveTask.resx">
-      <DependentUpon>FlowAndBOMResolveTask.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\GanttChart.resx">
       <DependentUpon>GanttChart.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\InputMessage.resx">
-      <DependentUpon>InputMessage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\OutputType.resx">
-      <DependentUpon>OutputType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\ProjectList.resx">
       <DependentUpon>ProjectList.cs</DependentUpon>
