@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>View_Winform</RootNamespace>
     <AssemblyName>View_Winform</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>2.0</OldToolsVersion>
@@ -30,7 +30,6 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -288,11 +287,23 @@
     <Compile Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineAdditionalPropertySet.Designer.cs">
       <DependentUpon>AssemblyLineAdditionalPropertySet.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductProcessManage\ProcessLineManage\ProcessLineDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessLineManage\ProcessLineDesign.Designer.cs">
+      <DependentUpon>ProcessLineDesign.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProductProcessManage\ProcessLineManage\ProcessLineManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProductProcessManage\ProcessLineManage\ProcessLineManage.Designer.cs">
       <DependentUpon>ProcessLineManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessTaskEstablish\ProcessTaskEstablishDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductProcessManage\ProcessTaskEstablish\ProcessTaskEstablishDialog.Designer.cs">
+      <DependentUpon>ProcessTaskEstablishDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="ProductProcessManage\ToolingEquipmentManage\AddTooling.cs">
       <SubType>Form</SubType>
@@ -305,6 +316,12 @@
     </Compile>
     <Compile Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.Designer.cs">
       <DependentUpon>ModifyTooling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\CreateNewProject\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\CreateNewProject\AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\CreateNewProject\CreateProject.cs">
       <SubType>Form</SubType>
@@ -335,6 +352,12 @@
     </Compile>
     <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.Designer.cs">
       <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyQuery.Designer.cs">
+      <DependentUpon>ActivityPropertyQuery.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\ProjectFlowDefinition\CreateAddType.cs">
       <SubType>Form</SubType>
@@ -402,12 +425,6 @@
     <Compile Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.Designer.cs">
       <DependentUpon>TaskBasicMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.Designer.cs">
-      <DependentUpon>TaskPlanPassAndDelete.cs</DependentUpon>
-    </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -419,6 +436,18 @@
     </Compile>
     <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.Designer.cs">
       <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\AddPartsDesignPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\AddPartsDesignPackage.Designer.cs">
+      <DependentUpon>AddPartsDesignPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\AddTaskOutPut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\AddTaskOutPut.Designer.cs">
+      <DependentUpon>AddTaskOutPut.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.cs">
       <SubType>Form</SubType>
@@ -461,6 +490,12 @@
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.Designer.cs">
       <DependentUpon>InputMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\SporadicTaskCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\SporadicTaskCreate.Designer.cs">
+      <DependentUpon>SporadicTaskCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.cs">
       <SubType>Form</SubType>
@@ -1377,12 +1412,6 @@
     <Compile Include="Templete.Designer.cs">
       <DependentUpon>Templete.cs</DependentUpon>
     </Compile>
-    <Compile Include="Test\TestForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Test\TestForm.Designer.cs">
-      <DependentUpon>TestForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="ChangeManage\ChangeApplication\ChangeCreateApplication.resx">
       <DependentUpon>ChangeCreateApplication.cs</DependentUpon>
     </EmbeddedResource>
@@ -1485,14 +1514,23 @@
     <EmbeddedResource Include="ProductProcessManage\AssemblyProcessDesign\AssemblyLineAdditionalPropertySet.resx">
       <DependentUpon>AssemblyLineAdditionalPropertySet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ProcessLineManage\ProcessLineDesign.resx">
+      <DependentUpon>ProcessLineDesign.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProductProcessManage\ProcessLineManage\ProcessLineManage.resx">
       <DependentUpon>ProcessLineManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductProcessManage\ProcessTaskEstablish\ProcessTaskEstablishDialog.resx">
+      <DependentUpon>ProcessTaskEstablishDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\AddTooling.resx">
       <DependentUpon>AddTooling.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.resx">
       <DependentUpon>ModifyTooling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\CreateNewProject\AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\CreateNewProject\CreateProject.resx">
       <DependentUpon>CreateProject.cs</DependentUpon>
@@ -1508,6 +1546,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyBuild.resx">
       <DependentUpon>ActivityPropertyBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ActivityPropertyQuery.resx">
+      <DependentUpon>ActivityPropertyQuery.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateAddType.resx">
       <DependentUpon>CreateAddType.cs</DependentUpon>
@@ -1542,14 +1583,17 @@
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskBasicMessage.resx">
       <DependentUpon>TaskBasicMessage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskPlanPassAndDelete.resx">
-      <DependentUpon>TaskPlanPassAndDelete.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.resx">
       <DependentUpon>TaskRelationBuild.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.resx">
       <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\AddPartsDesignPackage.resx">
+      <DependentUpon>AddPartsDesignPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\AddTaskOutPut.resx">
+      <DependentUpon>AddTaskOutPut.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.resx">
       <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
@@ -1571,6 +1615,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\InputMessage.resx">
       <DependentUpon>InputMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\SporadicTaskCreate.resx">
+      <DependentUpon>SporadicTaskCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskManage\ProjectTaskManage.resx">
       <DependentUpon>ProjectTaskManage.cs</DependentUpon>
@@ -2040,9 +2087,6 @@
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Test\TestForm.resx">
-      <DependentUpon>TestForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="bin\Debug\View_Winform.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.config" />
@@ -2115,20 +2159,6 @@
     <Content Include="Images\Tasks_16x16.png" />
     <Content Include="Images\Trash_16x16.png" />
     <Content Include="ProductStructureManage\ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PDM_Entity\PDM_Entity.csproj">
-      <Project>{0057ecfd-dee0-4ae5-b38a-65943746de72}</Project>
-      <Name>PDM_Entity</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PDM_Services_Interface\PDM_Services_Interface.csproj">
-      <Project>{06ece8d4-f2a8-45df-b6ab-51a890528c3e}</Project>
-      <Name>PDM_Services_Interface</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
-      <Project>{a3e0a3e3-0bc2-4a2a-bd89-ba8dc8626caa}</Project>
-      <Name>WcfExtension</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

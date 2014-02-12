@@ -1708,7 +1708,7 @@
             this.xtraTabControl3.Location = new System.Drawing.Point(3, 3);
             this.xtraTabControl3.Name = "xtraTabControl3";
             this.xtraTabControl3.SelectedTabPage = this.xtraTabPage8;
-            this.xtraTabControl3.Size = new System.Drawing.Size(267, 193);
+            this.xtraTabControl3.Size = new System.Drawing.Size(205, 158);
             this.xtraTabControl3.TabIndex = 16;
             this.xtraTabControl3.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage8,
@@ -1729,7 +1729,7 @@
             this.xtraTabPage8.Controls.Add(this.checkEdit7);
             this.xtraTabPage8.Controls.Add(this.checkEdit6);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(261, 164);
+            this.xtraTabPage8.Size = new System.Drawing.Size(199, 129);
             this.xtraTabPage8.Text = "一般";
             // 
             // imageComboBoxEdit1

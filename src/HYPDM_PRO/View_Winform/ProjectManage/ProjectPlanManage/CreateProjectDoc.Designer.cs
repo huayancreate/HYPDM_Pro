@@ -73,7 +73,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit1.Location = new System.Drawing.Point(77, 9);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(452, 20);
+            this.textEdit1.Size = new System.Drawing.Size(503, 20);
             this.textEdit1.TabIndex = 13;
             // 
             // buttonEdit2
@@ -84,7 +84,7 @@
             this.buttonEdit2.Name = "buttonEdit2";
             this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(452, 20);
+            this.buttonEdit2.Size = new System.Drawing.Size(503, 20);
             this.buttonEdit2.TabIndex = 19;
             // 
             // buttonEdit1
@@ -95,7 +95,7 @@
             this.buttonEdit1.Name = "buttonEdit1";
             this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(452, 20);
+            this.buttonEdit1.Size = new System.Drawing.Size(503, 20);
             this.buttonEdit1.TabIndex = 20;
             // 
             // checkEdit1
@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(534, 219);
+            this.ClientSize = new System.Drawing.Size(585, 219);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.checkEdit1);

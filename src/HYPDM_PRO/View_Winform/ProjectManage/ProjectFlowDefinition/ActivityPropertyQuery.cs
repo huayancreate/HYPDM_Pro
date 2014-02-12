@@ -7,11 +7,11 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace View_Winform.ProjectManage.ProjectPlanManage
+namespace View_Winform.ProjectManage.ProjectFlowDefinition
 {
-    public partial class TaskPlanPassAndDelete : DevExpress.XtraEditors.XtraForm
+    public partial class ActivityPropertyQuery : DevExpress.XtraEditors.XtraForm
     {
-        public TaskPlanPassAndDelete()
+        public ActivityPropertyQuery()
         {
             InitializeComponent();
         }

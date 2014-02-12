@@ -312,7 +312,7 @@
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.labelControl5);
             this.Name = "CopyPigeonholeBOM";
-            this.Text = "新建产品配置";
+            this.Text = "复制归档BOM";
             this.Load += new System.EventHandler(this.CreateProductConstruction_Load);
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();

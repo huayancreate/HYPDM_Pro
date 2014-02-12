@@ -133,7 +133,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit2.Location = new System.Drawing.Point(64, 9);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(527, 20);
+            this.textEdit2.Size = new System.Drawing.Size(548, 20);
             this.textEdit2.TabIndex = 21;
             // 
             // textEdit1
@@ -142,7 +142,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit1.Location = new System.Drawing.Point(64, 39);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(527, 20);
+            this.textEdit1.Size = new System.Drawing.Size(548, 20);
             this.textEdit1.TabIndex = 22;
             // 
             // textEdit3
@@ -160,7 +160,7 @@
             this.imageComboBoxEdit1.Name = "imageComboBoxEdit1";
             this.imageComboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.imageComboBoxEdit1.Size = new System.Drawing.Size(527, 20);
+            this.imageComboBoxEdit1.Size = new System.Drawing.Size(548, 20);
             this.imageComboBoxEdit1.TabIndex = 24;
             // 
             // buttonEdit1
@@ -171,7 +171,7 @@
             this.buttonEdit1.Name = "buttonEdit1";
             this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(527, 20);
+            this.buttonEdit1.Size = new System.Drawing.Size(548, 20);
             this.buttonEdit1.TabIndex = 25;
             // 
             // buttonEdit2
@@ -199,7 +199,7 @@
             this.groupControl1.Controls.Add(this.listBoxControl1);
             this.groupControl1.Location = new System.Drawing.Point(-1, 248);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(592, 182);
+            this.groupControl1.Size = new System.Drawing.Size(613, 182);
             this.groupControl1.TabIndex = 31;
             this.groupControl1.Text = "产品配置描述";
             // 
@@ -210,7 +210,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxControl1.Location = new System.Drawing.Point(0, 19);
             this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(592, 196);
+            this.listBoxControl1.Size = new System.Drawing.Size(613, 196);
             this.listBoxControl1.TabIndex = 11;
             // 
             // labelControl9
@@ -267,7 +267,7 @@
             this.buttonEdit4.Name = "buttonEdit4";
             this.buttonEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit4.Size = new System.Drawing.Size(527, 20);
+            this.buttonEdit4.Size = new System.Drawing.Size(548, 20);
             this.buttonEdit4.TabIndex = 33;
             // 
             // labelControl1
@@ -284,7 +284,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit4.Location = new System.Drawing.Point(64, 162);
             this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(527, 20);
+            this.textEdit4.Size = new System.Drawing.Size(548, 20);
             this.textEdit4.TabIndex = 35;
             // 
             // labelControl10
@@ -301,14 +301,14 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit5.Location = new System.Drawing.Point(369, 196);
             this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(222, 20);
+            this.textEdit5.Size = new System.Drawing.Size(243, 20);
             this.textEdit5.TabIndex = 24;
             // 
             // StoreFileDeploy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 467);
+            this.ClientSize = new System.Drawing.Size(613, 467);
             this.Controls.Add(this.textEdit5);
             this.Controls.Add(this.labelControl10);
             this.Controls.Add(this.textEdit4);
