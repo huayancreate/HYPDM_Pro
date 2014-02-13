@@ -1,4 +1,4 @@
-﻿namespace View_Winform.ProductProcessManage
+﻿namespace View_Winform.ProductProcessManage.ProcessTaskEstablish
 {
     partial class ProcessTaskEstablish
     {
