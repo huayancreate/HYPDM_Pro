@@ -358,65 +358,6 @@ namespace WcfExtension.ConfigCenter
             //this.PublisherToRedisMessageChannel(REDISMESSAGESERVERCHANNEL, bindingname);
         }
 
-        protected void BtnAddServiceEndPoint_Click(object sender, EventArgs e)
-        {
-            var servicecontracttype = this.TBSEPServiceContractType.Text.Trim();
-            var serviceContractversion = this.TBSEPServiceContractVersion.Text.Trim();
-            var servicetype = this.TBSEPServiceType.Text.Trim();
-            var serviceendpointbehaviorxml = this.TBSEPServiceEndPointBehaviorXml.Text.Trim();
-            var serviceendpointbindingname = this.DDLSEPServiceEndPointBindingName.SelectedValue;
-            var serviceendpointport = int.Parse(this.TBSEPServiceEndPointPort.Text.Trim());
-            var serviceendpointname = this.TBSEPServiceEndPointName.Text.Trim();
-
-            var context = new WcfConfigDataContext();
-
-            var query =
-                (from serviceendpoint in context.ServiceEndpoints
-                 where serviceendpoint.ServiceContractType == servicecontracttype &&
-                       serviceendpoint.ServiceContractVersion == serviceContractversion
-                 select serviceendpoint);
-
-            if (query.Count() < 1)
-            {
-                this.OnAddSubmit<ServiceEndpoint>(
-                    new ServiceEndpoint()
-                    {
-                        ServiceContractType = servicecontracttype,
-                        ServiceContractVersion = serviceContractversion,
-                        ServiceType = servicetype,
-                        ServiceEndpointBehaviorXml =
-                            string.IsNullOrEmpty(serviceendpointbehaviorxml) ?
-                                null : XElement.Parse(serviceendpointbehaviorxml),
-                        ServiceEndpointBindingName = serviceendpointbindingname,
-                        ServiceEndpointName = serviceendpointname,
-                        ServiceEndpointPort = serviceendpointport
-                    },
-                    this.LabelSEPServiceEndPointErrorMessage,
-                    new Action[] { 
-                    this.InitServiceEndPoint }
-                    );
-            }
-            else
-            {
-                var obj = query.First<ServiceEndpoint>();
-                obj.ServiceContractType = servicecontracttype;
-                obj.ServiceContractVersion = serviceContractversion;
-                obj.ServiceType = servicetype;
-                obj.ServiceEndpointBehaviorXml =
-                            string.IsNullOrEmpty(serviceendpointbehaviorxml) ?
-                                null : XElement.Parse(serviceendpointbehaviorxml);
-                obj.ServiceEndpointBindingName = serviceendpointbindingname;
-                obj.ServiceEndpointName = serviceendpointname;
-                obj.ServiceEndpointPort = serviceendpointport;
-
-                context.SubmitChanges();
-                this.LabelSEPServiceEndPointErrorMessage.Text = "修改成功";
-                this.InitServiceEndPoint();
-            }
-
-            this.LabelSEPServiceEndPointErrorMessage.Focus();
-        }
-
         protected void GVServerFarm_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
             var gv = sender as GridView;
@@ -720,5 +661,72 @@ namespace WcfExtension.ConfigCenter
             this.TBServiceContractType.Focus();
             this.TBClientEndpointBehaviorXml.Text = query.ClientEndpointBehaviorXml.ToString();
         }
+
+        protected void BtnAddServiceEndPoint_Click1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void BtnAddServiceEndPoint_Click(object sender, EventArgs e)
+        {
+            var servicecontracttype = this.TBSEPServiceContractType.Text.Trim();
+            var serviceContractversion = this.TBSEPServiceContractVersion.Text.Trim();
+            var servicetype = this.TBSEPServiceType.Text.Trim();
+            var serviceendpointbehaviorxml = this.TBSEPServiceEndPointBehaviorXml.Text.Trim();
+            var serviceendpointbindingname = this.DDLSEPServiceEndPointBindingName.SelectedValue;
+            var serviceendpointport = int.Parse(this.TBSEPServiceEndPointPort.Text.Trim());
+            var serviceendpointname = this.TBSEPServiceEndPointName.Text.Trim();
+
+            var context = new WcfConfigDataContext();
+
+            var query =
+                (from serviceendpoint in context.ServiceEndpoints
+                 where serviceendpoint.ServiceContractType == servicecontracttype &&
+                       serviceendpoint.ServiceContractVersion == serviceContractversion
+                 select serviceendpoint);
+
+            if (query.Count() < 1)
+            {
+                this.OnAddSubmit<ServiceEndpoint>(
+                    new ServiceEndpoint()
+                    {
+                        ServiceContractType = servicecontracttype,
+                        ServiceContractVersion = serviceContractversion,
+                        ServiceType = servicetype,
+                        ServiceEndpointBehaviorXml =
+                            string.IsNullOrEmpty(serviceendpointbehaviorxml) ?
+                                null : XElement.Parse(serviceendpointbehaviorxml),
+                        ServiceEndpointBindingName = serviceendpointbindingname,
+                        ServiceEndpointName = serviceendpointname,
+                        ServerMachineIP = "*",
+                        ServiceEndpointPort = serviceendpointport
+                    },
+                    this.LabelSEPServiceEndPointErrorMessage,
+                    new Action[] { 
+                    this.InitServiceEndPoint }
+                    );
+            }
+            else
+            {
+                var obj = query.First<ServiceEndpoint>();
+                obj.ServiceContractType = servicecontracttype;
+                obj.ServiceContractVersion = serviceContractversion;
+                obj.ServiceType = servicetype;
+                obj.ServiceEndpointBehaviorXml =
+                            string.IsNullOrEmpty(serviceendpointbehaviorxml) ?
+                                null : XElement.Parse(serviceendpointbehaviorxml);
+                obj.ServiceEndpointBindingName = serviceendpointbindingname;
+                obj.ServiceEndpointName = serviceendpointname;
+                obj.ServiceEndpointPort = serviceendpointport;
+                obj.ServerMachineIP = "*";
+
+                context.SubmitChanges();
+                this.LabelSEPServiceEndPointErrorMessage.Text = "修改成功";
+                this.InitServiceEndPoint();
+            }
+
+            this.LabelSEPServiceEndPointErrorMessage.Focus();
+        }
+
     }
 }

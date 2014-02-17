@@ -195,8 +195,7 @@
                     </td>
                 </tr>
             </table>
-            <asp:Button ID="BtnAddServiceEndPoint" runat="server" Text="Submit" 
-                OnClick="BtnAddServiceEndPoint_Click" />
+            <asp:Button ID="BtnAddServiceEndPoint" runat="server" Text="Submit" OnClick="BtnAddServiceEndPoint_Click" />
             <asp:GridView ID="GVSEPServiceEndPoint" runat="server" AutoGenerateColumns="False"
                 EnableModelValidation="True" OnRowDeleting="GVSEPServiceEndPoint_RowDeleting"
                 CellPadding="4" ForeColor="#333333" GridLines="None" 
