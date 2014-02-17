@@ -34,7 +34,6 @@
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit4 = new DevExpress.XtraEditors.ButtonEdit();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
@@ -116,15 +115,6 @@
             this.textEdit4.Size = new System.Drawing.Size(116, 20);
             this.textEdit4.TabIndex = 53;
             // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(364, 12);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 60;
-            this.simpleButton5.Text = "取消(C)";
-            this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
-            // 
             // listBoxControl1
             // 
             this.listBoxControl1.Location = new System.Drawing.Point(42, 39);
@@ -152,7 +142,7 @@
             // xtraTabPage2
             // 
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(238, 66);
+            this.xtraTabPage2.Size = new System.Drawing.Size(203, 66);
             this.xtraTabPage2.Text = "xtraTabPage2";
             // 
             // treeList1
@@ -248,7 +238,6 @@
             this.Controls.Add(this.trackBarControl1);
             this.Controls.Add(this.treeList1);
             this.Controls.Add(this.xtraTabControl1);
-            this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.textEdit4);
             this.Controls.Add(this.textEdit6);
             this.Controls.Add(this.checkEdit1);
@@ -287,7 +276,6 @@
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit6;
         private DevExpress.XtraEditors.ButtonEdit textEdit4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;

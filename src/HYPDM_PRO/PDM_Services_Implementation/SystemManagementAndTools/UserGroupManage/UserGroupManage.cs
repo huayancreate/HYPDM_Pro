@@ -1,24 +1,21 @@
-﻿using PDM_Entity.Test;
-using PDM_Services_Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.ServiceModel;
 using System.Text;
+using System.ServiceModel;
+using PDM_Entity.SystemManagementAndTools;
+using PDM_Services_Interface;
+
 
 namespace PDM_Services_Implementation
 {
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.PerCall, Namespace = "PDM_Services_Implementation")]
-     public class TestService : ITestService
+    public class UserGroupManage : IUserGroupManage
     {
-
-        public User GetUser(string name, int age)
+        public Group getAllGroups(int id, String name, String remark)
         {
-            return new User
-            {
-                Age = age,
-                Name = name,
-            };
+            Group g = new Group();
+            return g;
         }
     }
 }

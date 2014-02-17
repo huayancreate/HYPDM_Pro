@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>View_Winform</RootNamespace>
     <AssemblyName>View_Winform</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>2.0</OldToolsVersion>
@@ -30,6 +30,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -268,6 +269,12 @@
     </Compile>
     <Compile Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.Designer.cs">
       <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\MeasurementUnitBuild\AddUnitGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MeasurementUnitBuild\AddUnitGroup.Designer.cs">
+      <DependentUpon>AddUnitGroup.cs</DependentUpon>
     </Compile>
     <Compile Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.cs">
       <SubType>Form</SubType>
@@ -1412,6 +1419,12 @@
     <Compile Include="Templete.Designer.cs">
       <DependentUpon>Templete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChangeManage\ChangeApplication\ChangeCreateApplication.resx">
       <DependentUpon>ChangeCreateApplication.cs</DependentUpon>
     </EmbeddedResource>
@@ -1504,6 +1517,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.resx">
       <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MeasurementUnitBuild\AddUnitGroup.resx">
+      <DependentUpon>AddUnitGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.resx">
       <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
@@ -2087,6 +2103,9 @@
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Test\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="bin\Debug\View_Winform.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.config" />
@@ -2159,6 +2178,20 @@
     <Content Include="Images\Tasks_16x16.png" />
     <Content Include="Images\Trash_16x16.png" />
     <Content Include="ProductStructureManage\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PDM_Entity\PDM_Entity.csproj">
+      <Project>{0057ECFD-DEE0-4AE5-B38A-65943746DE72}</Project>
+      <Name>PDM_Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDM_Services_Interface\PDM_Services_Interface.csproj">
+      <Project>{06ECE8D4-F2A8-45DF-B6AB-51A890528C3E}</Project>
+      <Name>PDM_Services_Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WcfExtension\WcfExtension.csproj">
+      <Project>{A3E0A3E3-0BC2-4A2A-BD89-BA8DC8626CAA}</Project>
+      <Name>WcfExtension</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -43,5 +43,18 @@ namespace View_Winform.Test
                 Console.WriteLine(ex.Message);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PDM_Entity.SystemManagementAndTools.Group group = WcfServiceLocator.Create<IUserGroupManage>().getAllGroups(1, "", "");
+                MessageBox.Show(group.Name);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
     }
 }

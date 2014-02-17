@@ -15,6 +15,7 @@ namespace PDM_Server
             Thread.Sleep(1000);
             ServerManager.StartService(typeof(TestService));
             ServerManager.StartService(typeof(TestService2));
+            ServerManager.StartService(typeof(UserGroupManage));
             Console.WriteLine("TestService Started...");
             Console.ReadLine();
         }

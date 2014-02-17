@@ -228,6 +228,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "UserGroupList";
             this.Text = "用户组列表";
+            this.Load += new System.EventHandler(this.UserGroupList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();

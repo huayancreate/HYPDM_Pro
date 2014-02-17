@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using DevExpress.LookAndFeel;
 
+
 namespace View_Winform
 {
     static class Program
@@ -24,7 +25,7 @@ namespace View_Winform
             //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
-             //Application.Run(new Test.TestForm());
+            Application.Run(new Test.TestForm());
         }
     }
 }
