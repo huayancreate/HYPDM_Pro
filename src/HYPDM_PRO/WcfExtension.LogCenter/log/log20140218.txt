@@ -1,0 +1,22 @@
+Info 2014/2/18 16:04:17 启动WcfLogService...
+Info 2014/2/18 16:04:18 载入配置文件:H:\Users\xcj\Documents\GitHub\HYPDM_Pro\src\HYPDM_PRO\WcfExtension.LogCenter\Config\WcfLogServer.config
+Info 2014/2/18 16:04:28 创建索引...
+Error 2014/2/18 16:04:32 MongoDB.Driver.MongoConnectionException: Unable to connect to server ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 192.168.0.8:27017
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 MongoDB.Driver.Internal.MongoConnection..ctor(MongoConnectionPool connectionPool, IPEndPoint endPoint)
+   在 MongoDB.Driver.Internal.DirectConnector.Connect(IPEndPoint endPoint, TimeSpan timeout)
+   在 MongoDB.Driver.Internal.DirectConnector.Connect(TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MongoDB.Driver.Internal.DirectConnector.Connect(TimeSpan timeout)
+   在 MongoDB.Driver.MongoServer.Connect(TimeSpan timeout)
+   在 MongoDB.Driver.MongoServer.Connect()
+   在 MongoDB.Driver.MongoServer.GetConnectionPool(Boolean slaveOk)
+   在 MongoDB.Driver.MongoServer.GetConnection(MongoDatabase database, Boolean slaveOk)
+   在 MongoDB.Driver.MongoCursor`1.MongoCursorEnumerator.GetFirst()
+   在 MongoDB.Driver.MongoCursor`1.MongoCursorEnumerator.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 MongoDB.Driver.MongoCollection.GetIndexes()
+   在 WcfExtension.LogCenter.Core.NoSqlMongoDB.CreateIndex() 位置 H:\Users\xcj\Documents\GitHub\HYPDM_Pro\src\HYPDM_PRO\WcfExtension.LogCenter\Core\NoSqlMongoDB.cs:行号 101

@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PartsMange\MaterialBankManage\IAddMaterialInfor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\UserGroupManage\IUserGroupManage.cs" />
     <Compile Include="Test\ITestService.cs" />

@@ -1413,6 +1413,36 @@
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.Designer.cs">
       <DependentUpon>UserGroupManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\AddVirtualGroup.Designer.cs">
+      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\DataImportGuit.Designer.cs">
+      <DependentUpon>DataImportGuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UserRoleSet.Designer.cs">
+      <DependentUpon>UserRoleSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UsersManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserManage\UsersManage.Designer.cs">
+      <DependentUpon>UsersManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.Designer.cs">
+      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Templete.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1494,6 +1524,230 @@
     <EmbeddedResource Include="DocManage\DocManageTool\DocManageTool.resx">
       <DependentUpon>DocManageTool.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\View_Winform.ChangeManage.ChangeApplication.ChangeCreateApplication.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ChangeManage.ChangeApplication.ChangeManageInterface.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ChangeManage.ChangeApplication.CreateChangeApplication.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ChangeManage.ChangeMessageGroupManage.ChangeMessageGroupManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ChangeManage.ChangeTaskManage.ChangeTaskManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.CommonCheckEdit.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.CommonGalleryControl.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.CommonMemoEdit.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.CommonMenu.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.CommonTree.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.ConmmonListBoxControl.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.EditInfo.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.EditRelevanceInfo.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.CommonTemplet.paging.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataInput.DataInputGuidefour.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataInput.DataInputGuideOne.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataInput.DataInputGuideThree.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataInput.DataInputGuideTwo.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataInput.TemplateSelect.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataOutput.DataOutputGuidefour.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataOutput.DataOutputGuideOne.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataOutput.DataOutputGuideThree.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.BOMDataOutput.DataOutputGuideTwo.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.AddAsynchronousPortDeploy.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.AddSynchronizationPortDeploy.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.BOMInputPDM.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.BOMPropertyMap.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.ERPPortList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.InputSucceed.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.MaterialPropertyMap.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.SelectBOMInputERP.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.SelectERP.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.SelectMaterial.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DataPortAndIntegration.ERPPortList.TechnologyInputERP.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowDefinition.BuildActivity.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowDefinition.DocFlowActivityManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowDefinition.DocFlowDefinitionTool.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowDefinition.SetActivity.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowPractice.ApprovalFlowPractice.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowPractice.FlowPractice.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowPractice.PersonnelSelection.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.ApprovalFlowPractice.TaskGroupManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocGrantManage.DocGrantHistoryQuery.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocGrantManage.DocGrantManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocGrantManage.GrantInfoBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocGrantManage.QueryDoc.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.AssociatedParts.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.CheckChangeHistory.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.ChoosDocReviewFlow.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.ChooseDocTemplate.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.DocBulkImport.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.DocEntryExists.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.DocManageTool.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.DocModify.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocManageTool.DocOpen.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPermissionApproval.ApplyHistoryMaintain.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPermissionApproval.DocPermissionApproval.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPrint.DocPrint.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPrint.PrintAffirm.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPropertyBuild.AddDocProperty.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPropertyBuild.AddDocProperty2.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPropertyBuild.DocPropertyBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocPropertyBuild.UpdateDocProperty.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocQuery.DocQuery.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocQuery.PermissionApply.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocSecurityLevelBuild.AddDocSecurityLevel.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocSecurityLevelBuild.DocSecurityLevelBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocTemplateCategoryManage.BuildDocTemplate.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocTemplateCategoryManage.BuildDocTemplateCategory.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocTemplateCategoryManage.CheckDocCategory.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocTemplateCategoryManage.DocTemplateManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocTemplateCategoryManage.ModifyDocTemplateCategory.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.DocTemplateCategoryManage.ModifyDocTemplete.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.FlowTemplateQuote.FlowTemplateQuoteState.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.PaperDocManage.BorrowManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.PaperDocManage.ClassifyManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.PaperDocManage.PaperDocManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.DocManage.PermissionApproverBuild.PermissionApproverBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.HYPDM.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.ApplyCode.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.ApprovalTaskExecute.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.BBS.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.DocSendBack.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.EmailAddress.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.ModificatoryMessage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.MyCode.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.MyDoc.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.MyTask.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.PersonalInforSet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.SetDocCategory.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.TaskTranspond.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.MyTaskBox.WriteEmail.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.ChooseMaterialType.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.AddMaterialInfor.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.AddMaterialProperty.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.AddReviewRule.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.AddType.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.CheckResult.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.CustomExportItem.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.DataAddGuide.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.MaterialBankManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.MaterialPegging.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.MaterialPropertyBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.MaterialReviewRuleManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.MeasurementUnitBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MaterialBankManage.ProductCategoryManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.PartsMange.MeasurementUnitBuild.AddUnitGroup.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AddAssemblyProcess.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AdditionalPropertySet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AddProcessLine.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AddProperty.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AssemblyLineSet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AssemblyProcess.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.AssemblyProcessDesign.AssemblyLineAdditionalPropertySet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ModifyProperty.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ModifyStation.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ProcessLineManage.ProcessLineDesign.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ProcessLineManage.ProcessLineManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ProcessTaskEstablish.ProcessTaskEstablish.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ProcessTaskEstablish.ProcessTaskEstablishDialog.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ProcessTaskManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.QueryAssemblyProcess.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.QuoteAssemblyProcess.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ToolingEquipmentManage.AddTooling.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ToolingEquipmentManage.ModifyTooling.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.ToolingEquipmentManage.ToolingEquipmentManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.WorkProcedureManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductProcessManage.WorkSpaceManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.BOMExplorer.DisplayChangeParts.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.BOMExplorer.PartsLocation.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.BOMPropertyBuild.AddBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.BOMPropertyBuild.BOMAddProperty.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.BOMPropertyBuild.BOMPropertyBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.changyongyangshi.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.DeployInformationManage.BOMInformationMaintion.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.DeployInformationManage.CheckBOMMessage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.DeployPermissionBuild.PartsPermissionActivity.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.DeployPermissionBuild.PermissionActivity.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.DeployPermissionBuild.PersonnelSelection.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.DeployPermissionBuild.UserPermissionBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProductStructureDifferenceAnalysis.BuildCondition.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProductStructureDifferenceAnalysis.CompareResult.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProductStructureDifferenceAnalysis.SelectCompareProduct.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.BOMDeploy.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.BOMNodeMessage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.ConsultBOMParts.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.ConsumablesStoreBOMParts.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.CreateProjtctBOM.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.NewProjtctBOM.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.RelevanceNativeplaceDoc.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.RelevanceOldDoc.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.SelectBOMApprovalFlow.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.SelectConsultBOM.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ProjectBOMDeploy.SelectExistingFile.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ReportCreateTools.CreateReport.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ReportCreateTools.MasterTablePropertyBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ReportCreateTools.ReportOperate.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ReportCreateTools.SelectProduct.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.ReportMmaintainTools.ReportMmaintainTools.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.SupplierManage.AddSupplier.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProductStructureManage.SupplierManage.SupplierManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.CreateNewProject.AddProduct.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.CreateNewProject.CreateProject.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.PersonnelTaskInquire.PersonnelTaskInquire.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectCalendarBuild.ProjectCalendar.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectExport.ProjectExport.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.ActivityPropertyBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.ActivityPropertyQuery.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.CreateAddType.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.CreateProjectFlow.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.ProjectFlowDefinition.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.ProjectInputCatalogManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectFlowDefinition.ReviewActivityPropertyBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.CreateProductDeploy.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.CreateProjectDoc.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.GanttChart.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.ProjectList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.StoreFileDeploy.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.TaskBasicMessage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectPlanManage.TaskRelationBuild.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.ProjectTaskStatistics.ProjectTaskStatistics.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.AddPartsDesignPackage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.AddTaskOutPut.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.CopyPigeonholeBOM.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.CreateDocPackage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.CreateOfficeTask.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.CreateProductDeploy.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.CreateProjectTask.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.CreateTechnologyTask.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.InputMessage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskCreate.SporadicTaskCreate.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskManage.ProjectTaskManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.ProjectManage.SporadicTaskStatistics.SporadicTaskStatistics.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.ApplicationIntegration.ApplicationIntegration.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.ApplicationIntegration.DocFormatMaintain.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeApplyManage.CodeApplyManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeRuleSet.BatchFillCommonCode.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeRuleSet.FillCommonCode.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeRuleSet.FillGroupCode.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeRuleSet.WaterCodeRuleSet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeSchemeManage.CodeRecovery.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeSchemeManage.CodeTool.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.CodeSchemeManage.ModifyScheme.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.FTPSet.FTPSet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.LogManage.LogManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.MenuManagement.FunctionMenu.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.MenuManagement.MenuManagement.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.MessageSet.MessageSet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.OperationManagement.OperationList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.OperationManagement.OperationManagement.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.RoleManage.RoleList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.RoleManage.RoleManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.SealManange.SealManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.SystemParameterSet.SystemParameterSet.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserMessage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupList.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupManage.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.Templete.resources" />
+    <EmbeddedResource Include="obj\Debug\View_Winform.Test.TestForm.resources" />
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
       <DependentUpon>AddMaterialInfor.cs</DependentUpon>
     </EmbeddedResource>
@@ -2100,6 +2354,21 @@
     <EmbeddedResource Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.resx">
       <DependentUpon>UserGroupManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\AddVirtualGroup.resx">
+      <DependentUpon>AddVirtualGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\DataImportGuit.resx">
+      <DependentUpon>DataImportGuit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UserRoleSet.resx">
+      <DependentUpon>UserRoleSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserManage\UsersManage.resx">
+      <DependentUpon>UsersManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\UserRoleBrowse\UserRoleBrowse.resx">
+      <DependentUpon>UserRoleBrowse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
     </EmbeddedResource>
@@ -2110,6 +2379,13 @@
     <None Include="bin\Debug\View_Winform.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GenerateResource-ResGen.read.1.tlog" />
+    <None Include="obj\Debug\GenerateResource-ResGen.write.1.tlog" />
+    <None Include="obj\Debug\GenerateResource.read.1.tlog" />
+    <None Include="obj\Debug\GenerateResource.write.1.tlog" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -2140,6 +2416,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\View_Winform.vshost.exe" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\View_Winform.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\View_Winform.exe" />
+    <Content Include="obj\Debug\view_winform.exe.licenses" />
+    <Content Include="obj\Debug\View_Winform.pdb" />
     <Content Include="ProjectManage\ReadMe.txt" />
     <Content Include="DocManage\ApprovalFlowDefinition\ReadMe.txt" />
     <Content Include="DocManage\ApprovalFlowPractice\ReadMe.txt" />

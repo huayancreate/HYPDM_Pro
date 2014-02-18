@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Log\ILogService.cs" />
     <Compile Include="Log\LogService.cs" />
+    <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.cs" />
     <Compile Include="Test\TestService.cs" />

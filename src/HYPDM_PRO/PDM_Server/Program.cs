@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 using WcfExtension;
 
+
 namespace PDM_Server
 {
     class Program
@@ -16,6 +17,7 @@ namespace PDM_Server
             ServerManager.StartService(typeof(TestService));
             ServerManager.StartService(typeof(TestService2));
             ServerManager.StartService(typeof(UserGroupManage));
+            ServerManager.StartService(typeof(AddMaterialInfor));
             Console.WriteLine("TestService Started...");
             Console.ReadLine();
         }
