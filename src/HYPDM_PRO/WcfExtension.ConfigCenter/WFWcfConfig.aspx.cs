@@ -285,6 +285,7 @@ namespace WcfExtension.ConfigCenter
                     new ClientEndpoint()
                     {
                         ServiceContractType = servicecontracttype,
+                        ClientMachineIP = "*",
                         ClientEndpointBehaviorXml =
                             string.IsNullOrEmpty(clientendpointbehaviorxml) ?
                                 null : XElement.Parse(clientendpointbehaviorxml)
@@ -298,6 +299,7 @@ namespace WcfExtension.ConfigCenter
             {
                 var obj = query.First<ClientEndpoint>();
                 obj.ServiceContractType = servicecontracttype;
+                obj.ClientMachineIP = "*";
                 obj.ClientEndpointBehaviorXml =
                     string.IsNullOrEmpty(clientendpointbehaviorxml) ?
                         null : XElement.Parse(clientendpointbehaviorxml);
@@ -389,6 +391,7 @@ namespace WcfExtension.ConfigCenter
                                 null : XElement.Parse(serviceendpointbehaviorxml),
                         ServiceEndpointBindingName = serviceendpointbindingname,
                         ServiceEndpointName = serviceendpointname,
+                        ServerMachineIP = "*",
                         ServiceEndpointPort = serviceendpointport
                     },
                     this.LabelSEPServiceEndPointErrorMessage,
@@ -408,6 +411,7 @@ namespace WcfExtension.ConfigCenter
                 obj.ServiceEndpointBindingName = serviceendpointbindingname;
                 obj.ServiceEndpointName = serviceendpointname;
                 obj.ServiceEndpointPort = serviceendpointport;
+                obj.ServerMachineIP = "*";
 
                 context.SubmitChanges();
                 this.LabelSEPServiceEndPointErrorMessage.Text = "修改成功";
