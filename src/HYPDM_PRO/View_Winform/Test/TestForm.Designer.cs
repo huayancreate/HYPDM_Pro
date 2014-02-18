@@ -67,12 +67,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 386);
+            this.ClientSize = new System.Drawing.Size(513, 283);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cal);
             this.Controls.Add(this.login_btn);
             this.Name = "TestForm";
             this.Text = "TestForm";
+            this.Load += new System.EventHandler(this.TestForm_Load);
             this.ResumeLayout(false);
 
         }

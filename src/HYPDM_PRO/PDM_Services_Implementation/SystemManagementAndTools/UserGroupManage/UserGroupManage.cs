@@ -9,7 +9,9 @@ using PDM_Services_Interface;
 
 namespace PDM_Services_Implementation
 {
-    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, InstanceContextMode = InstanceContextMode.PerCall, Namespace = "PDM_Services_Implementation")]
+    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple, 
+        InstanceContextMode = InstanceContextMode.PerCall,
+        Namespace = "PDM_Services_Implementation")]
     public class UserGroupManage : IUserGroupManage
     {
         public Group getAllGroups(int id, String name, String remark)

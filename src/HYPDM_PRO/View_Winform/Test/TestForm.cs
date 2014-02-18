@@ -48,13 +48,19 @@ namespace View_Winform.Test
         {
             try
             {
-                PDM_Entity.SystemManagementAndTools.Group group = WcfServiceLocator.Create<IUserGroupManage>().getAllGroups(1, "", "");
+                PDM_Entity.SystemManagementAndTools.Group group 
+                    = WcfServiceLocator.Create<IUserGroupManage>().getAllGroups(1, "", "");
                 MessageBox.Show(group.Name);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
+        }
+
+        private void TestForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
