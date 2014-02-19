@@ -22,7 +22,6 @@ namespace PDM_Server
             ServerManager.StartService(typeof(CustomExportItem));
             ServerManager.StartService(typeof(DataAddGuide));
             ServerManager.StartService(typeof(MaterialBankManage));
-            ServerManager.StartService(typeof(MaterialPegging));
             Console.WriteLine("TestService Started...");
             Console.ReadLine();
         }
