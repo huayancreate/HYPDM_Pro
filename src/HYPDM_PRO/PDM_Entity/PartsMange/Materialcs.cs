@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 namespace PDM_Entity.PartsMange
 {
     [DataContract]
-    class Materialcs
+    public class Materialcs
     {
         [DataMember(Order = 1)]
         public int ID {get; set;}

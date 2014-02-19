@@ -48,9 +48,9 @@ namespace View_Winform.Test
         {
             try
             {
-                PDM_Entity.SystemManagementAndTools.Group group 
-                    = WcfServiceLocator.Create<IUserGroupManage>().getAllGroups(1, "", "");
-                MessageBox.Show(group.Name);
+                PDM_Entity.PartsMange.Materialcs m
+                    = WcfServiceLocator.Create<IAddMaterialInfor>().GetAllMaterialcs("xj", "2", "3","4");
+                MessageBox.Show(m.name);
             }
             catch (Exception ex)
             {

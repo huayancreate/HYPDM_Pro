@@ -2,18 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.ServiceModel;
 using PDM_Entity.PartsMange;
-
-
+using System.ServiceModel;
 
 namespace PDM_Services_Interface
 {
     [ServiceContract(Namespace = "PDM_Services_Interface")]
-    public interface IAddMaterialInfor
+    public interface ICustomExportItem
     {
-        [OperationContract]
-        Materialcs GetAllMaterialcs(string name, string versions, string number, string type);  //得到物料信息
+
     }
 }
- 
