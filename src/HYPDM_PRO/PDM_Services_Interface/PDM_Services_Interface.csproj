@@ -52,6 +52,7 @@
     <Compile Include="PartsMange\MaterialBankManage\ICustomExportItem.cs" />
     <Compile Include="PartsMange\MaterialBankManage\IAddType.cs" />
     <Compile Include="PartsMange\MaterialBankManage\IAddMaterialInfor.cs" />
+    <Compile Include="PartsMange\MaterialBankManage\IMaterialBankManage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\UserGroupManage\IUserGroupManage.cs" />
     <Compile Include="Test\ITestService.cs" />
@@ -63,7 +64,9 @@
       <Name>PDM_Entity</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="PartsMange\MaterialPegging\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

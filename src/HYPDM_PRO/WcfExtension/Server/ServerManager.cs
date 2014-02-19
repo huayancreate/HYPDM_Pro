@@ -29,7 +29,7 @@ namespace WcfExtension
             catch (Exception ex)
             {
                 LocalLogService.Log(ex.ToString());
-                throw;
+                throw ex;
             }
         }
     }
