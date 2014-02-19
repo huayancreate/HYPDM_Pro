@@ -48,9 +48,9 @@ namespace View_Winform.Test
         {
             try
             {
-                PDM_Entity.PartsMange.Materialcs m
+                PDM_Entity.PartsMange.Materialcs M
                     = WcfServiceLocator.Create<IAddMaterialInfor>().GetAllMaterialcs("xj", "2", "3","4");
-                MessageBox.Show(m.name);
+                MessageBox.Show(M.name);
             }
             catch (Exception ex)
             {

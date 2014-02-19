@@ -12,5 +12,6 @@ namespace PDM_Services_Interface
     {
         [OperationContract]
         Materialcs GetAllMaterialcs(string name, string versions, string number, string type);  //得到物料信息
+        
     }
 }

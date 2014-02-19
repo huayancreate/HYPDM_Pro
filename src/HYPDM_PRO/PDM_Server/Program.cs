@@ -19,8 +19,6 @@ namespace PDM_Server
             ServerManager.StartService(typeof(UserGroupManage));
             ServerManager.StartService(typeof(AddMaterialInfor));
             ServerManager.StartService(typeof(AddType));
-            ServerManager.StartService(typeof(CustomExportItem));
-            ServerManager.StartService(typeof(DataAddGuide));
             ServerManager.StartService(typeof(MaterialBankManage));
             Console.WriteLine("TestService Started...");
             Console.ReadLine();

@@ -10,5 +10,7 @@ namespace PDM_Services_Interface
     [ServiceContract(Namespace = "PDM_Services_Interface")]
     public interface IAddType
     {
+        [OperationContract]
+        Materialcs GetAllMaterialcs(string name, string versions, string number, string type);  //得到物料信息
     }
 }
