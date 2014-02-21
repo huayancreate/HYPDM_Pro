@@ -6,6 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PDM_Entity.PartsMange;
+using WcfExtension;
+using PDM_Services_Interface;
+
 
 namespace View_Winform.PartsMange.MaterialBankManage
 {
@@ -15,5 +19,20 @@ namespace View_Winform.PartsMange.MaterialBankManage
         {
             InitializeComponent();
         }
+
+        private void MaterialPropertyBuild_Load(object sender, EventArgs e)
+        {
+            IList<Materialcs> list = new BindingList<Materialcs>();
+
+             list = WcfServiceLocator.Create<IMaterialPropertyBuild>().Mate();
+
+              PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl.DataSource = list;
+
+             
+
+
+
+        }
+
     }
 }

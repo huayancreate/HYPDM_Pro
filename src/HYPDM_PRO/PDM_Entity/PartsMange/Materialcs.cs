@@ -68,6 +68,18 @@ namespace PDM_Entity.PartsMange
 
          [DataMember(Order = 20)]
          public int material_box_id {get; set;}
-         
+
+
+         public IList<Materialcs> Mate()
+         {
+             throw new NotImplementedException();
+         }
+
+
+         [DataMember(Order = 21)]
+         public string cn_name { get; set;}
+
+         [DataMember(Order = 22)]
+         public string widgh { get; set; }
     }
 }
