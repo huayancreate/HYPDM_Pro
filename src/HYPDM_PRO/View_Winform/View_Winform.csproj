@@ -2155,6 +2155,18 @@
     <None Include="bin\Debug\View_Winform.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+    <None Include="ClassDiagram5.cd" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\GenerateResource-ResGen.read.1.tlog" />
+    <None Include="obj\Debug\GenerateResource-ResGen.write.1.tlog" />
+    <None Include="obj\Debug\GenerateResource.read.1.tlog" />
+    <None Include="obj\Debug\GenerateResource.write.1.tlog" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -47,8 +47,10 @@
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs" />
     <Compile Include="PartsMange\MaterialBankManage\AddType.cs" />
     <Compile Include="PartsMange\MaterialBankManage\CustomExportItem.cs" />
-    <Compile Include="PartsMange\MaterialBankManage\DataAddGuide.cs" />
     <Compile Include="PartsMange\MaterialBankManage\MaterialBankManage.cs" />
+    <Compile Include="PartsMange\MaterialPegging\MaterialPegging.cs" />
+    <Compile Include="PartsMange\MaterialPropertyBuild\AddMaterialProperty.cs" />
+    <Compile Include="PartsMange\MaterialPropertyBuild\MaterialPropertyBuild.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeApplyManage.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeDictionaryFill.cs" />

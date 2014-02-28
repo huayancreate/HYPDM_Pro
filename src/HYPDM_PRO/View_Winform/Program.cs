@@ -26,6 +26,10 @@ namespace View_Winform
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
             //Application.Run(new Test.TestForm());
+<<<<<<< HEAD
+=======
+            Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
+>>>>>>> 2bf830868e149497282d718b317ab8255628228e
         }
     }
 }
