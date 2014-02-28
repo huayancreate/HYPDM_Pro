@@ -1,6 +1,6 @@
 ﻿namespace View_Winform.SystemManagementAndTools.MenuManagement
 {
-    partial class MenuManagement
+    partial class MenuList
     {
         /// <summary>
         /// Required designer variable.
@@ -128,7 +128,6 @@
             this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.TabIndex = 107;
             this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Text = "导出(I)";
-            this.SystemManagementAndTools_MenuManagement_Export_SimpleButton.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // SystemManagementAndTools_MenuManagement_UIAddress_TextEdit
             // 
@@ -320,6 +319,7 @@
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.TabIndex = 2;
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Text = "查询(Q)";
+            this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton_Click);
             // 
             // SystemManagementAndTools_RoleList_AddRole_SimpleButton
             // 

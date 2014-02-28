@@ -11,9 +11,11 @@ namespace View_Winform.CommonTemplet
 {
     public partial class ConmmonListBoxControl : DevExpress.XtraEditors.XtraUserControl
     {
+        public String value { get;set ;}
         public ConmmonListBoxControl()
         {
             InitializeComponent();
+            listBoxControl1.Text = value;
         }
     }
 }

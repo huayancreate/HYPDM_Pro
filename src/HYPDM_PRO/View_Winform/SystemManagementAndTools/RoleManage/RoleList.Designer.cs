@@ -115,6 +115,7 @@
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.TabIndex = 2;
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Text = "查询(Q)";
+            this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton_Click);
             // 
             // SystemManagementAndTools_RoleList_AddRole_SimpleButton
             // 
@@ -227,6 +228,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "RoleList";
             this.Text = "角色列表";
+            this.Load += new System.EventHandler(this.RoleList_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();

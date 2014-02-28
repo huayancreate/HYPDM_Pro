@@ -149,6 +149,7 @@
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.TabIndex = 106;
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Text = "确定(O)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton_Click);
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton
             // 
@@ -158,6 +159,7 @@
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.TabIndex = 105;
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Text = "添加(A)";
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_AddFillRuleCode_SimpleButton_Click);
             // 
             // SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton
             // 
@@ -167,6 +169,7 @@
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.TabIndex = 104;
             this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Text = "删除(D)";
+            this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton_Click);
             // 
             // SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton
             // 
@@ -177,6 +180,7 @@
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.TabIndex = 103;
             this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.Text = "修改(M)";
+            this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_CodeRuleSet_FillCommonCode_ModifiFillRuleCode_SimpleButton_Click);
             // 
             // FillCommonCode
             // 

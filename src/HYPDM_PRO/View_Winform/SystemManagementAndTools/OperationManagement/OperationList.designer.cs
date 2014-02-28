@@ -115,6 +115,7 @@
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.TabIndex = 2;
             this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Text = "查询(Q)";
+            this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_RoleList_QueryRole_SimpleButton_Click);
             // 
             // SystemManagementAndTools_RoleList_AddRole_SimpleButton
             // 

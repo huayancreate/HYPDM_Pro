@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.paging1 = new View_Winform.CommonTemplet.paging();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
@@ -51,7 +52,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -68,8 +69,22 @@
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.isChecked = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem_Add = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Modify = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Delete = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Details = new DevExpress.XtraBars.BarButtonItem();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.bar1 = new DevExpress.XtraBars.Bar();
+            this.bar2 = new DevExpress.XtraBars.Bar();
+            this.bar3 = new DevExpress.XtraBars.Bar();
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -83,8 +98,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).BeginInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -160,7 +177,7 @@
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Location = new System.Drawing.Point(495, 33);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Location = new System.Drawing.Point(496, 33);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit" +
                 "";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -171,7 +188,7 @@
             // labelControl6
             // 
             this.labelControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl6.Location = new System.Drawing.Point(425, 14);
+            this.labelControl6.Location = new System.Drawing.Point(425, 10);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(60, 14);
             this.labelControl6.TabIndex = 21;
@@ -198,7 +215,7 @@
             // 
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Location = new System.Drawing.Point(495, 11);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Location = new System.Drawing.Point(496, 7);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdi" +
                 "t";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -266,6 +283,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.TabIndex = 1;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Text = "删除(D)";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton_Click);
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton
             // 
@@ -275,6 +293,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.TabIndex = 4;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Text = "查询(Q)";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_SystemUserMessageManage_UserList_QueryUser_SimpleButton_Click);
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_CancelUser_SimpleButton
             // 
@@ -294,6 +313,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.TabIndex = 2;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Text = "添加(A)";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton_Click);
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton
             // 
@@ -324,7 +344,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Location = new System.Drawing.Point(0, 23);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.MainView = this.gridView1;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.MainView = this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridCon" +
                 "trol";
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
@@ -332,11 +352,12 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.Size = new System.Drawing.Size(632, 318);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.TabIndex = 0;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView});
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl_MouseUp);
             // 
-            // gridView1
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
@@ -353,15 +374,19 @@
             this.gridColumn14,
             this.gridColumn15,
             this.gridColumn16,
+            this.isChecked,
             this.gridColumn17});
-            this.gridView1.GridControl = this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ColumnAutoWidth = false;
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GridControl = this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridVie" +
+                "w";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.OptionsView.ColumnAutoWidth = false;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.OptionsView.ShowGroupPanel = false;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.PopupMenuShowing += new DevExpress.XtraGrid.Views.Grid.PopupMenuShowingEventHandler(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView_PopupMenuShowing);
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "登录名";
+            this.gridColumn1.FieldName = "login_name";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 1;
@@ -370,6 +395,7 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "真实姓名";
+            this.gridColumn2.FieldName = "real_name";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 2;
@@ -378,6 +404,7 @@
             // gridColumn3
             // 
             this.gridColumn3.Caption = "所属公司";
+            this.gridColumn3.FieldName = "company_id";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 3;
@@ -386,6 +413,7 @@
             // gridColumn4
             // 
             this.gridColumn4.Caption = "默认部门";
+            this.gridColumn4.FieldName = "default_department";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 4;
@@ -394,6 +422,7 @@
             // gridColumn5
             // 
             this.gridColumn5.Caption = "直属经理";
+            this.gridColumn5.FieldName = "immediate_manager";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 5;
@@ -410,6 +439,7 @@
             // gridColumn7
             // 
             this.gridColumn7.Caption = "用户编码";
+            this.gridColumn7.FieldName = "user_number";
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 7;
@@ -418,6 +448,7 @@
             // gridColumn8
             // 
             this.gridColumn8.Caption = "专业";
+            this.gridColumn8.FieldName = "major";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 8;
@@ -434,6 +465,7 @@
             // gridColumn11
             // 
             this.gridColumn11.Caption = "性别";
+            this.gridColumn11.FieldName = "sex";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.Visible = true;
             this.gridColumn11.VisibleIndex = 10;
@@ -442,6 +474,7 @@
             // gridColumn12
             // 
             this.gridColumn12.Caption = "出身日期";
+            this.gridColumn12.FieldName = "birthday";
             this.gridColumn12.Name = "gridColumn12";
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 11;
@@ -450,6 +483,7 @@
             // gridColumn13
             // 
             this.gridColumn13.Caption = "移动电话";
+            this.gridColumn13.FieldName = "mobile_phone";
             this.gridColumn13.Name = "gridColumn13";
             this.gridColumn13.Visible = true;
             this.gridColumn13.VisibleIndex = 12;
@@ -458,6 +492,7 @@
             // gridColumn10
             // 
             this.gridColumn10.Caption = "办公电话";
+            this.gridColumn10.FieldName = "office_phone";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 13;
@@ -474,6 +509,7 @@
             // gridColumn15
             // 
             this.gridColumn15.Caption = "排序码";
+            this.gridColumn15.FieldName = "stor_key";
             this.gridColumn15.Name = "gridColumn15";
             this.gridColumn15.Visible = true;
             this.gridColumn15.VisibleIndex = 15;
@@ -487,20 +523,145 @@
             this.gridColumn16.VisibleIndex = 16;
             this.gridColumn16.Width = 90;
             // 
-            // gridColumn17
+            // isChecked
             // 
-            this.gridColumn17.Caption = "选择";
-            this.gridColumn17.ColumnEdit = this.repositoryItemCheckEdit1;
-            this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.OptionsColumn.AllowSize = false;
-            this.gridColumn17.Visible = true;
-            this.gridColumn17.VisibleIndex = 0;
-            this.gridColumn17.Width = 40;
+            this.isChecked.Caption = "选择";
+            this.isChecked.ColumnEdit = this.repositoryItemCheckEdit1;
+            this.isChecked.FieldName = "isChecked";
+            this.isChecked.Name = "isChecked";
+            this.isChecked.OptionsColumn.AllowSize = false;
+            this.isChecked.Visible = true;
+            this.isChecked.VisibleIndex = 0;
+            this.isChecked.Width = 40;
             // 
             // repositoryItemCheckEdit1
             // 
             this.repositoryItemCheckEdit1.AutoHeight = false;
             this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+            // 
+            // gridColumn17
+            // 
+            this.gridColumn17.Caption = "ID";
+            this.gridColumn17.FieldName = "id";
+            this.gridColumn17.Name = "gridColumn17";
+            // 
+            // popupMenu1
+            // 
+            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Add),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Modify),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Delete),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Details)});
+            this.popupMenu1.Manager = this.barManager1;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
+            // barButtonItem_Add
+            // 
+            this.barButtonItem_Add.Caption = "添加";
+            this.barButtonItem_Add.Id = 3;
+            this.barButtonItem_Add.Name = "barButtonItem_Add";
+            this.barButtonItem_Add.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Add_ItemClick);
+            // 
+            // barButtonItem_Modify
+            // 
+            this.barButtonItem_Modify.Caption = "修改";
+            this.barButtonItem_Modify.Id = 1;
+            this.barButtonItem_Modify.Name = "barButtonItem_Modify";
+            this.barButtonItem_Modify.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Modify_ItemClick);
+            // 
+            // barButtonItem_Delete
+            // 
+            this.barButtonItem_Delete.Caption = "删除";
+            this.barButtonItem_Delete.Id = 2;
+            this.barButtonItem_Delete.Name = "barButtonItem_Delete";
+            this.barButtonItem_Delete.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Delete_ItemClick);
+            // 
+            // barButtonItem_Details
+            // 
+            this.barButtonItem_Details.Caption = "详细信息";
+            this.barButtonItem_Details.Id = 4;
+            this.barButtonItem_Details.Name = "barButtonItem_Details";
+            this.barButtonItem_Details.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Details_ItemClick);
+            // 
+            // barManager1
+            // 
+            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
+            this.bar1,
+            this.bar2,
+            this.bar3});
+            this.barManager1.DockControls.Add(this.barDockControlTop);
+            this.barManager1.DockControls.Add(this.barDockControlBottom);
+            this.barManager1.DockControls.Add(this.barDockControlLeft);
+            this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.Form = this;
+            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.barButtonItem_Modify,
+            this.barButtonItem_Delete,
+            this.barButtonItem_Add,
+            this.barButtonItem_Details});
+            this.barManager1.MainMenu = this.bar2;
+            this.barManager1.MaxItemId = 5;
+            this.barManager1.StatusBar = this.bar3;
+            // 
+            // bar1
+            // 
+            this.bar1.BarName = "Tools";
+            this.bar1.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Right;
+            this.bar1.DockCol = 0;
+            this.bar1.DockRow = 1;
+            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Right;
+            this.bar1.Text = "Tools";
+            // 
+            // bar2
+            // 
+            this.bar2.BarName = "Main menu";
+            this.bar2.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Right;
+            this.bar2.DockCol = 0;
+            this.bar2.DockRow = 0;
+            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Right;
+            this.bar2.OptionsBar.MultiLine = true;
+            this.bar2.OptionsBar.UseWholeRow = true;
+            this.bar2.Text = "Main menu";
+            // 
+            // bar3
+            // 
+            this.bar3.BarName = "Status bar";
+            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
+            this.bar3.DockCol = 0;
+            this.bar3.DockRow = 0;
+            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
+            this.bar3.OptionsBar.AllowQuickCustomization = false;
+            this.bar3.OptionsBar.DrawDragBorder = false;
+            this.bar3.OptionsBar.UseWholeRow = true;
+            this.bar3.Text = "Status bar";
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(635, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 459);
+            this.barDockControlBottom.Size = new System.Drawing.Size(635, 23);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 459);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(584, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(51, 459);
             // 
             // UserList
             // 
@@ -508,8 +669,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(635, 482);
             this.Controls.Add(this.panelControl1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
             this.Name = "UserList";
             this.Text = "用户列表";
+            this.Load += new System.EventHandler(this.UserList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
@@ -524,8 +690,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl)).EndInit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -540,7 +708,7 @@
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_AddUser_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton;
         private DevExpress.XtraGrid.GridControl SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Views.Grid.GridView SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
@@ -571,9 +739,23 @@
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
+        private DevExpress.XtraGrid.Columns.GridColumn isChecked;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private CommonTemplet.paging paging1;
+        private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraBars.BarManager barManager1;
+        private DevExpress.XtraBars.Bar bar1;
+        private DevExpress.XtraBars.Bar bar2;
+        private DevExpress.XtraBars.Bar bar3;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Modify;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Delete;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Add;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Details;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
 
     }
 }

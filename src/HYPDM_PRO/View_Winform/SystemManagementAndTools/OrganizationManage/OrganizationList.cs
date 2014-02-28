@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
+using WcfExtension;
+using PDM_Services_Interface;
 
 namespace View_Winform.SystemManagementAndTools.OrganizationManage
 {
@@ -16,14 +18,11 @@ namespace View_Winform.SystemManagementAndTools.OrganizationManage
             InitializeComponent();
         }
 
-        private void simpleButton4_Click(object sender, EventArgs e)
+        private void SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl_Click(object sender, EventArgs e)
         {
-
+            bool ok=WcfServiceLocator.Create<IOrganizationManage>().AddOrganization();
+            MessageBox.Show(ok.ToString());
         }
 
-        private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
-        {
-
-        }
     }
 }

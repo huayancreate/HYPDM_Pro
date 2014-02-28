@@ -184,7 +184,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.TabIndex = 4;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Text = "查询(Q)";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Click += new System.EventHandler(this.simpleButton4_Click);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Click += new System.EventHandler(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl_Click);
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl
             // 
@@ -227,7 +227,6 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.OptionsPrint.UsePrintStyles = true;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Size = new System.Drawing.Size(648, 333);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.TabIndex = 0;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 
             // OrganizationList
             // 

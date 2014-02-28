@@ -51,6 +51,8 @@
     <Compile Include="PartsMange\Materialcs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\Group.cs" />
+    <Compile Include="SystemManagementAndTools\Role.cs" />
+    <Compile Include="SystemManagementAndTools\Users.cs" />
     <Compile Include="Test\User.cs" />
   </ItemGroup>
   <ItemGroup />

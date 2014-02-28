@@ -50,6 +50,15 @@
     <Compile Include="PartsMange\MaterialBankManage\DataAddGuide.cs" />
     <Compile Include="PartsMange\MaterialBankManage\MaterialBankManage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemManagementAndTools\CodeManage\CodeApplyManage.cs" />
+    <Compile Include="SystemManagementAndTools\CodeManage\CodeDictionaryFill.cs" />
+    <Compile Include="SystemManagementAndTools\CodeManage\CodeRuleSet.cs" />
+    <Compile Include="SystemManagementAndTools\CodeManage\CodeSchemeManage.cs" />
+    <Compile Include="SystemManagementAndTools\MenuManagement\MenuManagement.cs" />
+    <Compile Include="SystemManagementAndTools\OperationManagement\OperationManagement.cs" />
+    <Compile Include="SystemManagementAndTools\OrganizationManage\OrganizationManage.cs" />
+    <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs" />
+    <Compile Include="SystemManagementAndTools\SystemUserMessageManage\UsersManage.cs" />
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.cs" />
     <Compile Include="Test\TestService.cs" />
     <Compile Include="Test\TestService2.cs" />
