@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using DevExpress.LookAndFeel;
-
+using HYBPMLib;
 
 namespace View_Winform
 {
@@ -21,15 +21,22 @@ namespace View_Winform
             DevExpress.UserSkins.BonusSkins.Register();
             UserLookAndFeel.Default.SetSkinStyle("Office 2010 Blue");
 
-            Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
+            //Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
             //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
             //Application.Run(new Test.TestForm());
-<<<<<<< HEAD
-=======
-            Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
->>>>>>> 2bf830868e149497282d718b317ab8255628228e
+
+            string path = Application.ExecutablePath + ".config";
+            BP.DA.ClassFactory.LoadConfig(path);
+            BP.SystemConfig.IsBSsystem = false;
+            FlowCommon common = new FlowCommon();
+            common.Login("zhoushengyu");
+
+            Application.Run(new BPM.TestForm());
+
+            //Application.Run(new LoginForm());
+            //Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
         }
     }
 }

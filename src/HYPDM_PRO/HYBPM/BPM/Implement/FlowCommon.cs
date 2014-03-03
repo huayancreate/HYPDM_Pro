@@ -67,5 +67,17 @@ namespace HYBPMLib
             ClassFactory.LoadConfig(path);
             SystemConfig.IsBSsystem = false;
         }
+
+        /// <summary>
+        /// 获取流程的状态
+        /// </summary>
+        /// <param name="fk_flow">流程编号</param>
+        /// <param name="work_id">工作编号</param>
+        /// <returns>流程状态</returns>
+        public int WF_State(string fk_flow, long work_id)
+        {
+            var strSql = "select WFState from ND" + int.Parse(fk_flow) + "Rpt where OID=" + work_id + " and WFState=" + (int)BP.WF.WFState.Complete + "";
+            return DBAccess.RunSQLReturnValInt(strSql);
+        }
     }
 }

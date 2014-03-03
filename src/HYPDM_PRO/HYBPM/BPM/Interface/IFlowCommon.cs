@@ -48,5 +48,13 @@ namespace HYBPMLib
         void CreateAndSendWork(string flowNo, Hashtable htWork, DataSet workDtls,
             string flowStarter, string title, Int64 parentWorkID, string parentFlowNo);
 
+        /// <summary>
+        /// 获取流程的状态
+        /// </summary>
+        /// <param name="fk_flow">流程编号</param>
+        /// <param name="work_id">工作编号</param>
+        /// <returns>流程状态</returns>
+        int WF_State(string fk_flow, Int64 work_id);
+
     }
 }
