@@ -29,5 +29,8 @@ namespace PDM_Entity.SystemManagementAndTools
         
         [DataMember(Order = 7)]
         public DateTime Modify_date {get; set;}
+
+        [DataMember(Order = 8)]
+        public bool isChecked { get; set; }
     }
 }

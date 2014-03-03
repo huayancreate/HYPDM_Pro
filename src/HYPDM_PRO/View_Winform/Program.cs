@@ -21,15 +21,14 @@ namespace View_Winform
             DevExpress.UserSkins.BonusSkins.Register();
             UserLookAndFeel.Default.SetSkinStyle("Office 2010 Blue");
 
-            Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
+            Application.Run(new SystemManagementAndTools.UserGroupManage.UserGroupList());
             //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
             //Application.Run(new Test.TestForm());
-<<<<<<< HEAD
-=======
-            Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
->>>>>>> 2bf830868e149497282d718b317ab8255628228e
+
+           // Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
+
         }
     }
 }

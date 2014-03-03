@@ -20,7 +20,7 @@ namespace PDM_Services_Interface
        [OperationContract]
         bool ModifyUser(Users user);//修改用户
        [OperationContract]
-       Role FindRole(int id);//查找所属角色
+        Role FindRole(int id);//查找所属角色
        
          
        

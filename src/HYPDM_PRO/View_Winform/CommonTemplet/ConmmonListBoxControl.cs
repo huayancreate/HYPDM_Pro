@@ -12,10 +12,24 @@ namespace View_Winform.CommonTemplet
     public partial class ConmmonListBoxControl : DevExpress.XtraEditors.XtraUserControl
     {
         public String value { get;set ;}
+        public String controlText { get; set; }
+        List<String>item = new List<String>();
         public ConmmonListBoxControl()
         {
             InitializeComponent();
-            listBoxControl1.Text = value;
+           
+        }
+
+        private void groupControl1_Paint(object sender, PaintEventArgs e)
+        {
+            if (value != null)
+            {
+                listBoxControl1.Items.Add(value);
+            }
+            if(controlText!=null)
+            {
+                groupControl1.Text=controlText;
+            }
         }
     }
 }

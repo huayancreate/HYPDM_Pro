@@ -388,6 +388,7 @@
             this.gridColumn1.Caption = "登录名";
             this.gridColumn1.FieldName = "login_name";
             this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.OptionsColumn.AllowEdit = false;
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 1;
             this.gridColumn1.Width = 90;
@@ -397,6 +398,7 @@
             this.gridColumn2.Caption = "真实姓名";
             this.gridColumn2.FieldName = "real_name";
             this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 2;
             this.gridColumn2.Width = 90;
@@ -406,6 +408,7 @@
             this.gridColumn3.Caption = "所属公司";
             this.gridColumn3.FieldName = "company_id";
             this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.OptionsColumn.AllowEdit = false;
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 3;
             this.gridColumn3.Width = 90;
@@ -415,6 +418,7 @@
             this.gridColumn4.Caption = "默认部门";
             this.gridColumn4.FieldName = "default_department";
             this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.OptionsColumn.AllowEdit = false;
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 4;
             this.gridColumn4.Width = 90;
@@ -424,6 +428,7 @@
             this.gridColumn5.Caption = "直属经理";
             this.gridColumn5.FieldName = "immediate_manager";
             this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.OptionsColumn.AllowEdit = false;
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 5;
             this.gridColumn5.Width = 90;
@@ -432,6 +437,7 @@
             // 
             this.gridColumn6.Caption = "职务";
             this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.OptionsColumn.AllowEdit = false;
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 6;
             this.gridColumn6.Width = 90;
@@ -441,6 +447,7 @@
             this.gridColumn7.Caption = "用户编码";
             this.gridColumn7.FieldName = "user_number";
             this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.OptionsColumn.AllowEdit = false;
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 7;
             this.gridColumn7.Width = 90;
@@ -450,6 +457,7 @@
             this.gridColumn8.Caption = "专业";
             this.gridColumn8.FieldName = "major";
             this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.OptionsColumn.AllowEdit = false;
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 8;
             this.gridColumn8.Width = 90;
@@ -458,6 +466,7 @@
             // 
             this.gridColumn9.Caption = "身份证号";
             this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.OptionsColumn.AllowEdit = false;
             this.gridColumn9.Visible = true;
             this.gridColumn9.VisibleIndex = 9;
             this.gridColumn9.Width = 90;
@@ -467,6 +476,7 @@
             this.gridColumn11.Caption = "性别";
             this.gridColumn11.FieldName = "sex";
             this.gridColumn11.Name = "gridColumn11";
+            this.gridColumn11.OptionsColumn.AllowEdit = false;
             this.gridColumn11.Visible = true;
             this.gridColumn11.VisibleIndex = 10;
             this.gridColumn11.Width = 90;
@@ -476,6 +486,7 @@
             this.gridColumn12.Caption = "出身日期";
             this.gridColumn12.FieldName = "birthday";
             this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.OptionsColumn.AllowEdit = false;
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 11;
             this.gridColumn12.Width = 90;
@@ -485,6 +496,7 @@
             this.gridColumn13.Caption = "移动电话";
             this.gridColumn13.FieldName = "mobile_phone";
             this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.OptionsColumn.AllowEdit = false;
             this.gridColumn13.Visible = true;
             this.gridColumn13.VisibleIndex = 12;
             this.gridColumn13.Width = 90;
@@ -494,6 +506,7 @@
             this.gridColumn10.Caption = "办公电话";
             this.gridColumn10.FieldName = "office_phone";
             this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.OptionsColumn.AllowEdit = false;
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 13;
             this.gridColumn10.Width = 90;
@@ -502,6 +515,7 @@
             // 
             this.gridColumn14.Caption = "家庭住址";
             this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.OptionsColumn.AllowEdit = false;
             this.gridColumn14.Visible = true;
             this.gridColumn14.VisibleIndex = 14;
             this.gridColumn14.Width = 90;
@@ -511,6 +525,7 @@
             this.gridColumn15.Caption = "排序码";
             this.gridColumn15.FieldName = "stor_key";
             this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.OptionsColumn.AllowEdit = false;
             this.gridColumn15.Visible = true;
             this.gridColumn15.VisibleIndex = 15;
             this.gridColumn15.Width = 90;
@@ -519,6 +534,7 @@
             // 
             this.gridColumn16.Caption = "邮箱";
             this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.OptionsColumn.AllowEdit = false;
             this.gridColumn16.Visible = true;
             this.gridColumn16.VisibleIndex = 16;
             this.gridColumn16.Width = 90;

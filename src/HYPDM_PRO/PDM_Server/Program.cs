@@ -14,7 +14,7 @@ namespace PDM_Server
         static void Main(string[] args)
         {
             Thread.Sleep(1000);
-<<<<<<< HEAD
+
  //         ServerManager.StartService(typeof(TestService));
             ServerManager.StartService(typeof(TestService2));
             //ServerManager.StartService(typeof(AddMaterialInfor));
@@ -34,16 +34,16 @@ namespace PDM_Server
             ServerManager.StartService(typeof(CodeRuleSet));
 
            
-=======
+
             //ServerManager.StartService(typeof(TestService));
             //ServerManager.StartService(typeof(TestService2));
             //ServerManager.StartService(typeof(UserGroupManage));
             //ServerManager.StartService(typeof(AddMaterialInfor));
-            ServerManager.StartService(typeof(MaterialBankManage));
-            ServerManager.StartService(typeof(MaterialPegging));
-           // ServerManager.StartService(typeof(AddMaterialProperty));
-            ServerManager.StartService(typeof(MaterialPropertyBuild));
->>>>>>> 2bf830868e149497282d718b317ab8255628228e
+            //ServerManager.StartService(typeof(MaterialBankManage));
+            //ServerManager.StartService(typeof(MaterialPegging));
+            // ServerManager.StartService(typeof(AddMaterialProperty));
+            //ServerManager.StartService(typeof(MaterialPropertyBuild));
+
             Console.WriteLine("TestService Started...");
             Console.ReadLine();
         }

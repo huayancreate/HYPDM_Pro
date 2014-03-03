@@ -11,7 +11,13 @@ namespace PDM_Services_Interface
     public interface IUserGroupManage
     {
         [OperationContract]
-        Group getAllGroups(int id, String name, String remark); //获取所有用户信息
+        IList<Group> findGroup(String condition); //查找用户组
+        [OperationContract]
+         bool AddGroup(Group group);//添加用户
+        [OperationContract]
+        bool DeleteGroup(int groupID);
 
+
+        
     }
 }

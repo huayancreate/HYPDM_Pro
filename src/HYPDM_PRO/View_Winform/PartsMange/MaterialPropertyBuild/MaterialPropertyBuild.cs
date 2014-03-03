@@ -22,15 +22,11 @@ namespace View_Winform.PartsMange.MaterialBankManage
 
         private void MaterialPropertyBuild_Load(object sender, EventArgs e)
         {
-            IList<Materialcs> list = new BindingList<Materialcs>();
+              IList<Materialcs> list = new BindingList<Materialcs>();
 
-             list = WcfServiceLocator.Create<IMaterialPropertyBuild>().Mate();
+              list = WcfServiceLocator.Create<IMaterialPropertyBuild>().Mate();
 
               PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl.DataSource = list;
-
-             
-
-
 
         }
 

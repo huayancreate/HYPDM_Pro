@@ -1257,6 +1257,11 @@
     <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.Designer.cs">
       <DependentUpon>ApplicationIntegration.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegrationRex.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ApplicationIntegrationRex.resx</DependentUpon>
+    </Compile>
     <Compile Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -2052,6 +2057,10 @@
     <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegration.resx">
       <DependentUpon>ApplicationIntegration.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\ApplicationIntegrationRex.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ApplicationIntegrationRex.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="SystemManagementAndTools\ApplicationIntegration\DocFormatMaintain.resx">
       <DependentUpon>DocFormatMaintain.cs</DependentUpon>
     </EmbeddedResource>
@@ -2235,6 +2244,7 @@
     <Content Include="Images\Tasks_16x16.png" />
     <Content Include="Images\Trash_16x16.png" />
     <Content Include="ProductStructureManage\ReadMe.txt" />
+    <None Include="Resources\Image1.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PDM_Entity\PDM_Entity.csproj">

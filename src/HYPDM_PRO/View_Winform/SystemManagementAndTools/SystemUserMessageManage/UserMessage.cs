@@ -29,8 +29,8 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
        
      private void UserMessage_Load(object sender, EventArgs e)
         {
-            
-            if (this.Tag == "Modify")
+
+            if ("Modify" == this.Tag)
             {
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginName_TextEdit.Text = user.login_name;
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_RealName_TextEdit.Text = user.real_name;
@@ -59,10 +59,13 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Text = user.logout_time.ToString();
 
                 Role role = WcfServiceLocator.Create<IUsersManage>().FindRole(user.id);
-                MessageBox.Show(role.name);
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_RelatedRole_ConmmonListBoxControl.value = role.name;
-                
+                SystemManagementAndTools_SystemUserMessageManage_UserMessage_RelatedRole_ConmmonListBoxControl.controlText = "所属角色";
 
+
+            }
+            else {
+                SystemManagementAndTools_SystemUserMessageManage_UserMessage_RelatedRole_ConmmonListBoxControl.controlText = "所属角色"; 
             }
             
            

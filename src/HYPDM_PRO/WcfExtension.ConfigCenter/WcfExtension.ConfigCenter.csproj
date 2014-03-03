@@ -140,7 +140,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>57746</DevelopmentServerPort>
+          <DevelopmentServerPort>7096</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost/WcfExtension.ConfigCenter</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

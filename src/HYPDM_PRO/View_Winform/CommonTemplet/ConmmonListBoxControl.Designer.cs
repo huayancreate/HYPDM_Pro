@@ -50,6 +50,7 @@
             this.groupControl1.Size = new System.Drawing.Size(250, 202);
             this.groupControl1.TabIndex = 8;
             this.groupControl1.Text = "groupControl1";
+            this.groupControl1.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl1_Paint);
             // 
             // listBoxControl1
             // 

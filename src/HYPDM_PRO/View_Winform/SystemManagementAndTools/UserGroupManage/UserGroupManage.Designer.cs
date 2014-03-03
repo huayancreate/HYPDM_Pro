@@ -37,8 +37,8 @@
             this.SystemManagementAndTools_UserGroupManage_Delete_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_UserGroupManage_Add_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList = new DevExpress.XtraTreeList.TreeList();
-            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl2 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Properties)).BeginInit();
@@ -70,6 +70,7 @@
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.TabIndex = 106;
             this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Text = "保存(S)";
+            this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_UserGroupManage_Save_SimpleButton_Click);
             // 
             // SystemManagementAndTools_UserGroupManage_Describe_MemoEdit
             // 
@@ -130,33 +131,38 @@
             this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.Size = new System.Drawing.Size(400, 200);
             this.SystemManagementAndTools_UserGroupManage_RoleList_TreeList.TabIndex = 0;
             // 
-            // conmmonListBoxControl1
+            // SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl
             // 
-            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl1.Location = new System.Drawing.Point(464, 1);
-            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 274);
-            this.conmmonListBoxControl1.TabIndex = 112;
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.controlText = null;
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.Location = new System.Drawing.Point(464, 1);
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.Name = "SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl";
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.Size = new System.Drawing.Size(250, 274);
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.TabIndex = 112;
+            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.value = null;
             // 
-            // conmmonListBoxControl2
+            // SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl
             // 
-            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl2.Location = new System.Drawing.Point(464, 281);
-            this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
-            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 291);
-            this.conmmonListBoxControl2.TabIndex = 113;
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.controlText = null;
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.Location = new System.Drawing.Point(464, 281);
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.Name = "SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl";
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.Size = new System.Drawing.Size(250, 291);
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.TabIndex = 113;
+            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.value = null;
             // 
             // UserGroupManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 575);
-            this.Controls.Add(this.conmmonListBoxControl2);
-            this.Controls.Add(this.conmmonListBoxControl1);
+            this.Controls.Add(this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl);
+            this.Controls.Add(this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl);
             this.Controls.Add(this.groupControl1);
             this.Name = "UserGroupManage";
             this.Text = "用户组信息";
+            this.Load += new System.EventHandler(this.UserGroupManage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
@@ -185,8 +191,8 @@
         private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_UserGroupManage_RoleList_TreeList;
         private DevExpress.XtraEditors.GroupControl SystemManagementAndTools_UserGroupManage_dd_SimpleButton;
 
-        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl1;
-        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl2;
+        private CommonTemplet.ConmmonListBoxControl SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl;
+        private CommonTemplet.ConmmonListBoxControl SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl;
 
     }
 }
