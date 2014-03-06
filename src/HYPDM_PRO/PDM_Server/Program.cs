@@ -14,16 +14,13 @@ namespace PDM_Server
         static void Main(string[] args)
         {
             Thread.Sleep(1000);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
 
 
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
+
+
+
  //         ServerManager.StartService(typeof(TestService));
             //ServerManager.StartService(typeof(TestService2));
             //ServerManager.StartService(typeof(AddMaterialInfor));
@@ -41,35 +38,25 @@ namespace PDM_Server
             ServerManager.StartService(typeof(CodeSchemeManage));
             ServerManager.StartService(typeof(CodeDictionaryFill));
             ServerManager.StartService(typeof(CodeRuleSet));
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
            
 
 
 
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
+
             //ServerManager.StartService(typeof(TestService));
             //ServerManager.StartService(typeof(TestService2));
             //ServerManager.StartService(typeof(UserGroupManage));
             //ServerManager.StartService(typeof(AddMaterialInfor));
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
+
+
             //ServerManager.StartService(typeof(MaterialBankManage));
             //ServerManager.StartService(typeof(MaterialPegging));
             // ServerManager.StartService(typeof(AddMaterialProperty));
             //ServerManager.StartService(typeof(MaterialPropertyBuild));
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
            // ServerManager.StartService(typeof(MaterialBankManage));
@@ -77,9 +64,6 @@ namespace PDM_Server
            // ServerManager.StartService(typeof(AddMaterialProperty));
            // ServerManager.StartService(typeof(MaterialPropertyBuild));
 
-=======
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
             ServerManager.StartService(typeof(MaterialBankManage));
             ServerManager.StartService(typeof(MaterialPegging));
            // ServerManager.StartService(typeof(AddMaterialProperty));
@@ -91,10 +75,7 @@ namespace PDM_Server
             ServerManager.StartService(typeof(DocTemplateCategoryManage));
             SocketServer socket = new SocketServer("127.0.0.1", 7775);
             socket.start();
-<<<<<<< HEAD
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
-=======
->>>>>>> 28b55c19b8fae5933a1b3f1eb227f5f3b2feaada
+
             Console.WriteLine("TestService Started...");
             Console.ReadLine();
         }
