@@ -17,7 +17,9 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
     public partial class UserList : DevExpress.XtraEditors.XtraForm
     {
         public Users user;
-
+        public int userGroupID;
+        
+       
         public UserList()
         {
             InitializeComponent();
@@ -58,16 +60,40 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
                 condition += "and  state=" + SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Text.Trim();
             }
 
-            //select * from user were 1=1
-            //select * from user where 1=1 and username="zhangsan" and real_name="zhangsan"
             findUser(condition);
         }
         private void UserList_Load(object sender, EventArgs e)
         {
+            findUser("");//查询所有用户
+            if ("EditRelatedUsers" == this.Tag)
+            {
+
+                IList<Users> listRelated = new BindingList<Users>();
+                listRelated = WcfServiceLocator.Create<IUsersManage>().FindRelatedUsersForUserGroup(userGroupID); //找出和指定用户组关联的用户
+                for (int i = 0; i < listRelated.Count; i++)
+                {
+                    
+                    for (int j = 0; j < SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.RowCount; j++)
+                    {
+
+                        {
+                            int id = (int)SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GetRowCellValue(j, "id");
+                            if (listRelated[i].id == id)
+                            {
+                                SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.SetRowCellValue(i, "isChecked", true);
+                            }
+
+                        }
+
+                    }
+                }
+
+            }
+            CommonPaging.gridView = SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView;
+           
             SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Text = null;
             SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Text = null;
-            //findUser("where 1=1");
-            // listAllUsers();
+            
         }
 
        
@@ -119,13 +145,13 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
             {
                 barButtonItem_Delete.Enabled = true;
                 barButtonItem_Modify.Enabled = true;
-                barButtonItem_Add.Enabled = false;
+                barButtonItem_Add.Enabled = true;
                 barButtonItem_Details.Enabled = true;
             }
             if (select > 1)
             {
                 barButtonItem_Delete.Enabled = true;
-                barButtonItem_Add.Enabled = false;
+                barButtonItem_Add.Enabled = true;
                 barButtonItem_Modify.Enabled = false;
             }
 
@@ -177,7 +203,6 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
         /// <param name="e"></param>
         private void barButtonItem_Add_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-          
             UserMessage messageForm = new UserMessage();
             messageForm.Tag = "Add";
 
@@ -193,24 +218,62 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
             DeleteUser();
         }
         
+       
+        /// <summary>
+        /// 确定按钮单击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton_Click(object sender, EventArgs e)
+        {
+            if (this.Tag == "EditRelatedUsers")
+            {
+                //将用选中用户与指定用户组关联
+                connectWithUserGroup();
+
+            }
+            
+
+        }
+
+        /// <summary>
+        /// 添加用户与用户组关联
+        /// </summary>
+        public void connectWithUserGroup()
+        {
+            String value = "";
+            int id;
+            for (int i = 0; i < SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.RowCount; i++)
+            {
+                value = SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GetRowCellValue(i, "isChecked").ToString();
+                if (value == "True")
+                {
+                    id = (int)SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GetRowCellValue(i, "id");
+                    WcfServiceLocator.Create<IUsersManage>().AddRelatedGroup(id ,userGroupID);
+
+                }
+
+            }
+
+        }
+
         /// <summary>
         /// 删除用户
         /// </summary>
         public void DeleteUser()
         {
-           
             String value = "";
-            int  id;
+            int id;
             for (int i = 0; i < SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.RowCount; i++)
             {
                 value = SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GetRowCellValue(i, "isChecked").ToString();
-                if(value=="True")
+                if (value == "True")
                 {
-                    id=(int)SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GetRowCellValue(i, "id");
+                    id = (int)SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GridView.GetRowCellValue(i, "id");
                     WcfServiceLocator.Create<IUsersManage>().DeleteUser(id);
 
                 }
-                
+
             }
         }
      }

@@ -142,11 +142,79 @@ namespace PDM_Services_Implementation
 
             return list;
         }
-        public Role FindRole(int id) 
+        public IList<Role> FindRole(int id) 
         {
+            IList<Role> list = new BindingList<Role>();
             Role role = new Role();
             role.name = "系统管理员";
-            return role; 
+            list.Add(role);
+            return list; 
+        }
+        public bool AddRelatedGroup(int userID, int groupID)
+        {
+            return false;
+        }
+        public IList<Users> FindRelatedUsersForUserGroup(int groupID)
+        {
+            
+            IList<Users> list = new BindingList<Users>();
+            Users user = new Users();
+            Users user1 = new Users();
+            
+            user.login_name = "小徐";
+            user.real_name = "查到了";
+            user.isChecked = false;
+            user.birthday = new DateTime();
+            user.sex = "男";
+            user.age = 18;
+            user.remark = "我是小徐,大家好";
+            user.major = "本科（买的）";
+            user.email = "119@.com";
+            user.birthday = new DateTime();
+            user.company_id = 1;
+            user.audit_state = "0";
+            user.stor_key = "123";
+            user.mobile_phone = "119";
+            user.office_phone = "120";
+            user.immediate_manager = "威哥";
+            user.user_number = "1234567usernumber";
+            user.default_department = "酱油部门";
+            user.create_user_id = 123;
+            user.create_date = new DateTime();
+            user.modify_user_id = 1234;
+            user.modify_date = new DateTime();
+            user.is_delete = "1";
+
+
+            user1.login_name = "小宫";
+            user1.real_name = "很高兴";
+            user1.isChecked = false;
+            user1.birthday = new DateTime();
+            user1.sex = "男";
+            user1.age = 18;
+            user1.remark = "我是小宫,大家好";
+            user1.major = "专科";
+            user1.email = "119@.com";
+            user1.birthday = new DateTime();
+            user1.company_id = 1;
+            user1.audit_state = "0";
+            user1.stor_key = "123";
+            user1.mobile_phone = "119";
+            user1.office_phone = "120";
+            user1.immediate_manager = "威哥";
+            user1.user_number = "123456usernumber";
+            user1.default_department = "酱油部门";
+            user1.create_user_id = 123;
+            user1.create_date = new DateTime();
+            user1.modify_user_id = 1234;
+            user1.modify_date = new DateTime();
+            user1.is_delete = "1";
+
+            list.Add(user);
+            list.Add(user1);
+
+            return list;
+
         }
     }
 }

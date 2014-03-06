@@ -140,7 +140,7 @@
             this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.Name = "SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl";
             this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.Size = new System.Drawing.Size(250, 274);
             this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.TabIndex = 112;
-            this.SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.value = null;
+          
             // 
             // SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl
             // 
@@ -150,7 +150,7 @@
             this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.Name = "SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl";
             this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.Size = new System.Drawing.Size(250, 291);
             this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.TabIndex = 113;
-            this.SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.value = null;
+           
             // 
             // UserGroupManage
             // 

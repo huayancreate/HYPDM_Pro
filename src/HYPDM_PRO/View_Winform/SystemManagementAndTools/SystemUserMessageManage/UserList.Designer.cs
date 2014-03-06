@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.paging1 = new View_Winform.CommonTemplet.paging();
+            this.CommonPaging = new View_Winform.CommonTemplet.paging();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
@@ -109,7 +109,7 @@
             this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.paging1);
+            this.panelControl1.Controls.Add(this.CommonPaging);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton);
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_DeleteUser_SimpleButton);
@@ -123,13 +123,13 @@
             this.panelControl1.Size = new System.Drawing.Size(637, 482);
             this.panelControl1.TabIndex = 7;
             // 
-            // paging1
+            // CommonPaging
             // 
-            this.paging1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.paging1.Location = new System.Drawing.Point(77, 452);
-            this.paging1.Name = "paging1";
-            this.paging1.Size = new System.Drawing.Size(381, 25);
-            this.paging1.TabIndex = 16;
+            this.CommonPaging.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.CommonPaging.Location = new System.Drawing.Point(86, 452);
+            this.CommonPaging.Name = "CommonPaging";
+            this.CommonPaging.Size = new System.Drawing.Size(381, 25);
+            this.CommonPaging.TabIndex = 16;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton
             // 
@@ -324,6 +324,7 @@
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Size = new System.Drawing.Size(60, 23);
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.TabIndex = 3;
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Text = "确定(O)";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton.Click += new System.EventHandler(this.SystemManagementAndTools_SystemUserMessageManage_UserList_ConfirmUser_SimpleButton_Click);
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_UserListMessage_GroupControl
             // 
@@ -757,7 +758,7 @@
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_SystemUserMessageManage_UserList_ImportUser_SimpleButton;
         private DevExpress.XtraGrid.Columns.GridColumn isChecked;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
-        private CommonTemplet.paging paging1;
+        private CommonTemplet.paging CommonPaging;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.Bar bar1;

@@ -58,8 +58,8 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_LoginTime_ComboBoxEdit.Text = user.logout_time.ToString();
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_ExitTime_ComboBoxEdit.Text = user.logout_time.ToString();
 
-                Role role = WcfServiceLocator.Create<IUsersManage>().FindRole(user.id);
-                SystemManagementAndTools_SystemUserMessageManage_UserMessage_RelatedRole_ConmmonListBoxControl.value = role.name;
+
+                SystemManagementAndTools_SystemUserMessageManage_UserMessage_RelatedRole_ConmmonListBoxControl.roleList = WcfServiceLocator.Create<IUsersManage>().FindRole(user.id);
                 SystemManagementAndTools_SystemUserMessageManage_UserMessage_RelatedRole_ConmmonListBoxControl.controlText = "所属角色";
 
 

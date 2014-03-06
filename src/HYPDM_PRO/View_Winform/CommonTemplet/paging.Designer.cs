@@ -34,8 +34,8 @@
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.comboBoxEdit4 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.CancelAll = new DevExpress.XtraEditors.SimpleButton();
+            this.SelectAll = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).BeginInit();
             this.SuspendLayout();
@@ -94,21 +94,23 @@
             this.comboBoxEdit3.Size = new System.Drawing.Size(44, 20);
             this.comboBoxEdit3.TabIndex = 127;
             // 
-            // simpleButton1
+            // CancelAll
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(63, 0);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 126;
-            this.simpleButton1.Text = "全消(R)";
+            this.CancelAll.Location = new System.Drawing.Point(63, 0);
+            this.CancelAll.Name = "CancelAll";
+            this.CancelAll.Size = new System.Drawing.Size(55, 23);
+            this.CancelAll.TabIndex = 126;
+            this.CancelAll.Text = "全消(R)";
+            this.CancelAll.Click += new System.EventHandler(this.CancelAll_Click);
             // 
-            // simpleButton3
+            // SelectAll
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(5, 0);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 125;
-            this.simpleButton3.Text = "全选(S)";
+            this.SelectAll.Location = new System.Drawing.Point(5, 0);
+            this.SelectAll.Name = "SelectAll";
+            this.SelectAll.Size = new System.Drawing.Size(55, 23);
+            this.SelectAll.TabIndex = 125;
+            this.SelectAll.Text = "全选(S)";
+            this.SelectAll.Click += new System.EventHandler(this.SelectAll_Click);
             // 
             // paging
             // 
@@ -120,8 +122,8 @@
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.comboBoxEdit4);
             this.Controls.Add(this.comboBoxEdit3);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton3);
+            this.Controls.Add(this.CancelAll);
+            this.Controls.Add(this.SelectAll);
             this.Name = "paging";
             this.Size = new System.Drawing.Size(381, 25);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).EndInit();
@@ -138,7 +140,7 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit4;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton CancelAll;
+        private DevExpress.XtraEditors.SimpleButton SelectAll;
     }
 }

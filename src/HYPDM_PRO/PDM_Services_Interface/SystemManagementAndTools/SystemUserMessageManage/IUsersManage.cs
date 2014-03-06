@@ -20,9 +20,12 @@ namespace PDM_Services_Interface
        [OperationContract]
         bool ModifyUser(Users user);//修改用户
        [OperationContract]
-        Role FindRole(int id);//查找所属角色
+        IList<Role> FindRole(int id);//查找所属角色
+       [OperationContract]
+        bool AddRelatedGroup(int userID,int groupID);//添加用户与用户组关联
+       [OperationContract]
+       IList<Users> FindRelatedUsersForUserGroup(int groupID);//查询和指定用户组关联的用户
        
-         
        
-    }
+     }
 }

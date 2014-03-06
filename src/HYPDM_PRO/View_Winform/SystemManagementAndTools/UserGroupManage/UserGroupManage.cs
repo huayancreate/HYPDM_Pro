@@ -18,14 +18,19 @@ namespace View_Winform.SystemManagementAndTools.UserGroupManage
         public UserGroupManage()
         {
             InitializeComponent();
+
         }
 
         private void UserGroupManage_Load(object sender, EventArgs e)
         {
+            SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.controlText= "包含用户";
+            SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.controlText ="包含角色";
             if (this.Tag == "Modify")
             {
                 SystemManagementAndTools_UserGroupManage_Name_TextEdit.Text = group.Name;
                 SystemManagementAndTools_UserGroupManage_Describe_MemoEdit.Text = group.Remark;
+                SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.usersList = WcfServiceLocator.Create<IUserGroupManage>().findRelatedUsers(group.Id);
+                SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.roleList  = WcfServiceLocator.Create<IUserGroupManage>().findRelatedRoles(group.Id);
             }
             if (this.Tag =="Add")
             {

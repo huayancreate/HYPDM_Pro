@@ -23,8 +23,8 @@ namespace View_Winform.SystemManagementAndTools.UserGroupManage
 
         private void UserGroupList_Load(object sender, EventArgs e)
         {
-           //  String condition = SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Text;
-           // WcfServiceLocator.Create<IUserGroupManage>().findGroup(condition);
+            String condition = SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Text;
+            SystemManagementAndTools_UserGroupManage_UserGroupList_UserGroupList_GridControl.DataSource = WcfServiceLocator.Create<IUserGroupManage>().findGroup(condition);
         }
 
         //加载用户组信息
@@ -140,6 +140,11 @@ namespace View_Winform.SystemManagementAndTools.UserGroupManage
         /// <param name="e"></param>
         private void barButtonItem_Details_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            group = (Group)SystemManagementAndTools_UserGroupManage_UserGroupList_UserGroupList_GridView.GetFocusedRow();
+            UserGroupManage userGroup = new UserGroupManage();
+            userGroup.Tag = "Modify";
+            userGroup.group = group;
+            userGroup.ShowDialog();
 
         }
 

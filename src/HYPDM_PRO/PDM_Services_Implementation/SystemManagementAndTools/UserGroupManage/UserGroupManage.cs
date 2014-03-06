@@ -44,7 +44,9 @@ namespace PDM_Services_Implementation
             g2.Create_date = new DateTime();
             g2.Modify_user_id = 1234566;
             g2.Modify_date = new DateTime();
-            g2.Remark = "我们天天干事，干的都是乱七八糟的事，在老总眼里我们没有利用价值。关键的是赚的钱都不够吃的，我们学不到东西，我们是最卑微的码农";
+            g2.Remark = "we are busy working everday, we are busy doing with trifles,"+
+            "we are the most humble yards farmers";
+            
             list.Add(g);
             list.Add(g1);
             list.Add(g2);
@@ -59,5 +61,37 @@ namespace PDM_Services_Implementation
         {
             return false;
         }
+
+        public IList<Role> findRelatedRoles(int groupID) 
+        {
+            IList<Role> list = new List<Role>();
+            Role role1 = new Role();
+            role1.name = "系统管理员";
+            Role role2 = new Role();
+            role2.name = "文档管理员";
+            Role role3 = new Role();
+            role3.name = "图纸管理员";
+            list.Add(role1);
+            list.Add(role2);
+            list.Add(role3);
+            return list;
+
+         }
+        public IList<Users> findRelatedUsers(int groupID)
+        {
+            IList<Users> list = new List<Users>();
+            Users user1 = new Users();
+            user1.login_name = "用户甲";
+            Users user2 = new Users();
+            user2.login_name = "用户乙";
+            Users user3 = new Users();
+            user3.login_name = "用户丙";
+
+            list.Add(user1);
+            list.Add(user2);
+            list.Add(user3);
+
+            return list;
+       }
     }
 }
