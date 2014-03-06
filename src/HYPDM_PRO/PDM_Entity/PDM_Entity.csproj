@@ -48,6 +48,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocManage\dense.cs" />
+    <Compile Include="DocManage\dense_role.cs" />
+    <Compile Include="DocManage\department.cs" />
+    <Compile Include="DocManage\document.cs" />
+    <Compile Include="DocManage\DocumentType.cs" />
+    <Compile Include="DocManage\document_tree.cs" />
+    <Compile Include="DocManage\document_type.cs" />
+    <Compile Include="DocManage\doc_attached_property.cs" />
+    <Compile Include="DocManage\doc_combobox_value.cs" />
+    <Compile Include="DocManage\doc_grant_setting.cs" />
+    <Compile Include="DocManage\doc_query.cs" />
+    <Compile Include="DocManage\doc_template.cs" />
+    <Compile Include="DocManage\doc_template_tree.cs" />
+    <Compile Include="DocManage\user.cs" />
     <Compile Include="PartsMange\Materialcs.cs" />
     <Compile Include="PartsMange\material_attached_property.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

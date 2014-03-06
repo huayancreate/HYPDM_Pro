@@ -31,6 +31,7 @@
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.treeList2 = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add = new DevExpress.XtraEditors.SimpleButton();
             this.DocManagement_DocModify_Label_DocName = new DevExpress.XtraEditors.LabelControl();
@@ -61,47 +62,30 @@
             this.treeList2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.treeList2.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
-            this.treeListColumn2});
+            this.treeListColumn2,
+            this.treeListColumn3});
             this.treeList2.Location = new System.Drawing.Point(2, 7);
             this.treeList2.Name = "treeList2";
-            this.treeList2.BeginUnboundLoad();
-            this.treeList2.AppendNode(new object[] {
-            "办公模板"}, -1);
-            this.treeList2.AppendNode(new object[] {
-            "办公模板1"}, 0);
-            this.treeList2.AppendNode(new object[] {
-            "办公模板2"}, 0);
-            this.treeList2.AppendNode(new object[] {
-            "变更模板"}, -1);
-            this.treeList2.AppendNode(new object[] {
-            "变更模板1"}, 3);
-            this.treeList2.AppendNode(new object[] {
-            "变更模板2"}, 3);
-            this.treeList2.AppendNode(new object[] {
-            "工艺模板"}, -1);
-            this.treeList2.AppendNode(new object[] {
-            "工艺模板1"}, 6);
-            this.treeList2.AppendNode(new object[] {
-            "工艺模板2"}, 6);
-            this.treeList2.AppendNode(new object[] {
-            "设计模板"}, -1);
-            this.treeList2.AppendNode(new object[] {
-            "设计模板1"}, 9);
-            this.treeList2.AppendNode(new object[] {
-            "设计模板2"}, 9);
-            this.treeList2.EndUnboundLoad();
             this.treeList2.OptionsPrint.UsePrintStyles = true;
             this.treeList2.Size = new System.Drawing.Size(495, 357);
             this.treeList2.TabIndex = 15;
+            this.treeList2.Click += new System.EventHandler(this.treeList2_Click);
+            this.treeList2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.treeList2_MouseUp);
             // 
             // treeListColumn2
             // 
             this.treeListColumn2.Caption = "文档模板";
-            this.treeListColumn2.FieldName = "文档模板";
+            this.treeListColumn2.FieldName = "name";
             this.treeListColumn2.MinWidth = 52;
             this.treeListColumn2.Name = "treeListColumn2";
             this.treeListColumn2.Visible = true;
             this.treeListColumn2.VisibleIndex = 0;
+            // 
+            // treeListColumn3
+            // 
+            this.treeListColumn3.Caption = "Id";
+            this.treeListColumn3.FieldName = "id";
+            this.treeListColumn3.Name = "treeListColumn3";
             // 
             // simpleButton1
             // 
@@ -110,7 +94,8 @@
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 14;
-            this.simpleButton1.Text = "添加";
+            this.simpleButton1.Text = "取消";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add
             // 
@@ -120,6 +105,7 @@
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Size = new System.Drawing.Size(75, 23);
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.TabIndex = 13;
             this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Text = "添加";
+            this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add.Click += new System.EventHandler(this.DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add_Click);
             // 
             // DocManagement_DocModify_Label_DocName
             // 
@@ -170,6 +156,7 @@
         private DevExpress.XtraEditors.SimpleButton DocManagement_DocModify_GroupControl_PartsRelated_Btn_Add;
         private DevExpress.XtraEditors.LabelControl DocManagement_DocModify_Label_DocName;
         private DevExpress.XtraEditors.TextEdit DocManagement_DocModify_TextEdit_;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn3;
 
     }
 }

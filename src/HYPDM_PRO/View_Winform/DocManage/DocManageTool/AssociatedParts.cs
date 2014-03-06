@@ -14,21 +14,8 @@ namespace View_Winform.DocManage.DocManageTool
         public AssociatedParts()
         {
             InitializeComponent();
-        }
 
-        private void listBoxControl1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textEdit2_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            //this.conmmonListBoxControl1.ResetText
         }
     }
 }

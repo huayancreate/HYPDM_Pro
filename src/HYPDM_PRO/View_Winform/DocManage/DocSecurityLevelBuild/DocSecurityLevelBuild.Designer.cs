@@ -30,11 +30,11 @@
         {
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.commonTree1 = new View_Winform.CommonTemplet.CommonTree();
+            this.treeDense = new View_Winform.CommonTemplet.CommonTree();
+            this.btnEsc = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnUpdate = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAdd = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
@@ -54,61 +54,65 @@
             this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.commonTree1);
-            this.panelControl1.Controls.Add(this.simpleButton4);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Controls.Add(this.simpleButton3);
+            this.panelControl1.Controls.Add(this.treeDense);
+            this.panelControl1.Controls.Add(this.btnEsc);
+            this.panelControl1.Controls.Add(this.btnDel);
+            this.panelControl1.Controls.Add(this.btnUpdate);
+            this.panelControl1.Controls.Add(this.btnAdd);
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(412, 311);
             this.panelControl1.TabIndex = 41;
             // 
-            // simpleButton4
+            // treeDense
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(319, 288);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton4.TabIndex = 49;
-            this.simpleButton4.Text = "退出(X)";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(258, 288);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton2.TabIndex = 48;
-            this.simpleButton2.Text = "删除(D)";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(197, 288);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 47;
-            this.simpleButton1.Text = "修改(M)";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(136, 288);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton3.TabIndex = 46;
-            this.simpleButton3.Text = "添加(A)";
-            // 
-            // commonTree1
-            // 
-            this.commonTree1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.treeDense.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.commonTree1.Location = new System.Drawing.Point(0, -1);
-            this.commonTree1.Name = "commonTree1";
-            this.commonTree1.Size = new System.Drawing.Size(412, 283);
-            this.commonTree1.TabIndex = 50;
+            this.treeDense.Location = new System.Drawing.Point(0, -1);
+            this.treeDense.Name = "treeDense";
+            this.treeDense.Size = new System.Drawing.Size(412, 283);
+            this.treeDense.TabIndex = 50;
+            // 
+            // btnEsc
+            // 
+            this.btnEsc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEsc.Location = new System.Drawing.Point(319, 288);
+            this.btnEsc.Name = "btnEsc";
+            this.btnEsc.Size = new System.Drawing.Size(55, 23);
+            this.btnEsc.TabIndex = 49;
+            this.btnEsc.Text = "退出(X)";
+            this.btnEsc.Click += new System.EventHandler(this.btnEsc_Click);
+            // 
+            // btnDel
+            // 
+            this.btnDel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnDel.Location = new System.Drawing.Point(258, 288);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(55, 23);
+            this.btnDel.TabIndex = 48;
+            this.btnDel.Text = "删除(D)";
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnUpdate.Location = new System.Drawing.Point(197, 288);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(55, 23);
+            this.btnUpdate.TabIndex = 47;
+            this.btnUpdate.Text = "修改(M)";
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAdd.Location = new System.Drawing.Point(136, 288);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(55, 23);
+            this.btnAdd.TabIndex = 46;
+            this.btnAdd.Text = "添加(A)";
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // DocSecurityLevelBuild
             // 
@@ -119,6 +123,7 @@
             this.Controls.Add(this.comboBoxEdit1);
             this.Name = "DocSecurityLevelBuild";
             this.Text = "文档密级设置";
+            this.Load += new System.EventHandler(this.DocSecurityLevelBuild_Load);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
@@ -130,10 +135,10 @@
 
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private CommonTemplet.CommonTree commonTree1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private CommonTemplet.CommonTree treeDense;
+        private DevExpress.XtraEditors.SimpleButton btnEsc;
+        private DevExpress.XtraEditors.SimpleButton btnDel;
+        private DevExpress.XtraEditors.SimpleButton btnUpdate;
+        private DevExpress.XtraEditors.SimpleButton btnAdd;
     }
 }

@@ -29,27 +29,34 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.btnEsc = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
+            this.btnRev = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAll = new DevExpress.XtraEditors.SimpleButton();
+            this.btnUpdateProp = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDelProp = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAddProp = new DevExpress.XtraEditors.SimpleButton();
+            this.btnEnd = new DevExpress.XtraEditors.SimpleButton();
+            this.btnNext = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPre = new DevExpress.XtraEditors.SimpleButton();
+            this.btnHome = new DevExpress.XtraEditors.SimpleButton();
+            this.gridDocProperty = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.EnName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.CnName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.Width = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.IsDisplay = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.IsUserDefine = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.repositoryItemCheckEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridDocProperty)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -57,177 +64,220 @@
             this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.simpleButton11);
-            this.panelControl1.Controls.Add(this.simpleButton10);
-            this.panelControl1.Controls.Add(this.simpleButton9);
-            this.panelControl1.Controls.Add(this.simpleButton8);
-            this.panelControl1.Controls.Add(this.simpleButton7);
-            this.panelControl1.Controls.Add(this.simpleButton6);
-            this.panelControl1.Controls.Add(this.simpleButton5);
-            this.panelControl1.Controls.Add(this.simpleButton4);
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Controls.Add(this.gridControl1);
+            this.panelControl1.Controls.Add(this.btnEsc);
+            this.panelControl1.Controls.Add(this.btnSave);
+            this.panelControl1.Controls.Add(this.btnRev);
+            this.panelControl1.Controls.Add(this.btnAll);
+            this.panelControl1.Controls.Add(this.btnUpdateProp);
+            this.panelControl1.Controls.Add(this.btnDelProp);
+            this.panelControl1.Controls.Add(this.btnAddProp);
+            this.panelControl1.Controls.Add(this.btnEnd);
+            this.panelControl1.Controls.Add(this.btnNext);
+            this.panelControl1.Controls.Add(this.btnPre);
+            this.panelControl1.Controls.Add(this.btnHome);
+            this.panelControl1.Controls.Add(this.gridDocProperty);
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(792, 548);
             this.panelControl1.TabIndex = 0;
             // 
-            // simpleButton11
+            // btnEsc
             // 
-            this.simpleButton11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton11.Location = new System.Drawing.Point(687, 515);
-            this.simpleButton11.Name = "simpleButton11";
-            this.simpleButton11.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton11.TabIndex = 23;
-            this.simpleButton11.Text = "退出(X)";
+            this.btnEsc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEsc.Location = new System.Drawing.Point(687, 515);
+            this.btnEsc.Name = "btnEsc";
+            this.btnEsc.Size = new System.Drawing.Size(55, 23);
+            this.btnEsc.TabIndex = 23;
+            this.btnEsc.Text = "退出(X)";
+            this.btnEsc.Click += new System.EventHandler(this.btnEsc_Click);
             // 
-            // simpleButton10
+            // btnSave
             // 
-            this.simpleButton10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton10.Location = new System.Drawing.Point(626, 515);
-            this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton10.TabIndex = 22;
-            this.simpleButton10.Text = "保存(S)";
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSave.Location = new System.Drawing.Point(626, 515);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(55, 23);
+            this.btnSave.TabIndex = 22;
+            this.btnSave.Text = "保存(S)";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // simpleButton9
+            // btnRev
             // 
-            this.simpleButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton9.Location = new System.Drawing.Point(565, 516);
-            this.simpleButton9.Name = "simpleButton9";
-            this.simpleButton9.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton9.TabIndex = 21;
-            this.simpleButton9.Text = "反选(R)";
+            this.btnRev.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRev.Location = new System.Drawing.Point(565, 516);
+            this.btnRev.Name = "btnRev";
+            this.btnRev.Size = new System.Drawing.Size(55, 23);
+            this.btnRev.TabIndex = 21;
+            this.btnRev.Text = "反选(R)";
+            this.btnRev.Click += new System.EventHandler(this.btnRev_Click);
             // 
-            // simpleButton8
+            // btnAll
             // 
-            this.simpleButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton8.Location = new System.Drawing.Point(504, 516);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton8.TabIndex = 20;
-            this.simpleButton8.Text = "全选(A)";
+            this.btnAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAll.Location = new System.Drawing.Point(504, 516);
+            this.btnAll.Name = "btnAll";
+            this.btnAll.Size = new System.Drawing.Size(55, 23);
+            this.btnAll.TabIndex = 20;
+            this.btnAll.Text = "全选(A)";
+            this.btnAll.Click += new System.EventHandler(this.btnAll_Click);
             // 
-            // simpleButton7
+            // btnUpdateProp
             // 
-            this.simpleButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton7.Location = new System.Drawing.Point(423, 516);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton7.TabIndex = 19;
-            this.simpleButton7.Text = "修改属性(M)";
+            this.btnUpdateProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnUpdateProp.Location = new System.Drawing.Point(423, 516);
+            this.btnUpdateProp.Name = "btnUpdateProp";
+            this.btnUpdateProp.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdateProp.TabIndex = 19;
+            this.btnUpdateProp.Text = "修改属性(M)";
+            this.btnUpdateProp.Click += new System.EventHandler(this.btnUpdateProp_Click);
             // 
-            // simpleButton6
+            // btnDelProp
             // 
-            this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton6.Location = new System.Drawing.Point(342, 515);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton6.TabIndex = 18;
-            this.simpleButton6.Text = "删除属性(D)";
+            this.btnDelProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnDelProp.Location = new System.Drawing.Point(342, 515);
+            this.btnDelProp.Name = "btnDelProp";
+            this.btnDelProp.Size = new System.Drawing.Size(75, 23);
+            this.btnDelProp.TabIndex = 18;
+            this.btnDelProp.Text = "删除属性(D)";
+            this.btnDelProp.Click += new System.EventHandler(this.btnDelProp_Click);
             // 
-            // simpleButton5
+            // btnAddProp
             // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton5.Location = new System.Drawing.Point(261, 516);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton5.TabIndex = 17;
-            this.simpleButton5.Text = "添加属性(I)";
+            this.btnAddProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddProp.Location = new System.Drawing.Point(261, 516);
+            this.btnAddProp.Name = "btnAddProp";
+            this.btnAddProp.Size = new System.Drawing.Size(75, 23);
+            this.btnAddProp.TabIndex = 17;
+            this.btnAddProp.Text = "添加属性(I)";
+            this.btnAddProp.Click += new System.EventHandler(this.btnAddProp_Click);
             // 
-            // simpleButton4
+            // btnEnd
             // 
-            this.simpleButton4.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.simpleButton4.Location = new System.Drawing.Point(743, 234);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(43, 23);
-            this.simpleButton4.TabIndex = 16;
-            this.simpleButton4.Text = "图标";
+            this.btnEnd.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnEnd.Location = new System.Drawing.Point(743, 234);
+            this.btnEnd.Name = "btnEnd";
+            this.btnEnd.Size = new System.Drawing.Size(43, 23);
+            this.btnEnd.TabIndex = 16;
+            this.btnEnd.Text = "最末行";
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
-            // simpleButton3
+            // btnNext
             // 
-            this.simpleButton3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.simpleButton3.Location = new System.Drawing.Point(743, 194);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(43, 23);
-            this.simpleButton3.TabIndex = 15;
-            this.simpleButton3.Text = "图标";
+            this.btnNext.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnNext.Location = new System.Drawing.Point(743, 194);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(43, 23);
+            this.btnNext.TabIndex = 15;
+            this.btnNext.Text = "下一行";
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // simpleButton2
+            // btnPre
             // 
-            this.simpleButton2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.simpleButton2.Location = new System.Drawing.Point(743, 153);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(43, 23);
-            this.simpleButton2.TabIndex = 14;
-            this.simpleButton2.Text = "图标";
+            this.btnPre.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnPre.Location = new System.Drawing.Point(743, 153);
+            this.btnPre.Name = "btnPre";
+            this.btnPre.Size = new System.Drawing.Size(43, 23);
+            this.btnPre.TabIndex = 14;
+            this.btnPre.Text = "上一行";
+            this.btnPre.Click += new System.EventHandler(this.btnPre_Click);
             // 
-            // simpleButton1
+            // btnHome
             // 
-            this.simpleButton1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.simpleButton1.Location = new System.Drawing.Point(743, 115);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(43, 23);
-            this.simpleButton1.TabIndex = 13;
-            this.simpleButton1.Text = "图标";
+            this.btnHome.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnHome.Location = new System.Drawing.Point(743, 115);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(43, 23);
+            this.btnHome.TabIndex = 13;
+            this.btnHome.Text = "第一行";
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // gridControl1
+            // gridDocProperty
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gridDocProperty.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(6, 10);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(720, 499);
-            this.gridControl1.TabIndex = 12;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridDocProperty.Location = new System.Drawing.Point(6, 10);
+            this.gridDocProperty.MainView = this.gridView1;
+            this.gridDocProperty.Name = "gridDocProperty";
+            this.gridDocProperty.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemCheckEdit1,
+            this.repositoryItemCheckEdit2,
+            this.repositoryItemCheckEdit3});
+            this.gridDocProperty.Size = new System.Drawing.Size(720, 499);
+            this.gridDocProperty.TabIndex = 12;
+            this.gridDocProperty.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4});
-            this.gridView1.GridControl = this.gridControl1;
+            this.EnName,
+            this.CnName,
+            this.Width,
+            this.IsDisplay,
+            this.IsUserDefine});
+            this.gridView1.GridControl = this.gridDocProperty;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
-            // gridColumn1
+            // EnName
             // 
-            this.gridColumn1.Caption = "中文列名";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
-            this.gridColumn1.Width = 307;
+            this.EnName.FieldName = "en_name";
+            this.EnName.Name = "EnName";
+            this.EnName.Width = 40;
             // 
-            // gridColumn2
+            // CnName
             // 
-            this.gridColumn2.Caption = "显示宽度(像素)";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
-            this.gridColumn2.Width = 130;
+            this.CnName.Caption = "中文列名";
+            this.CnName.FieldName = "cn_name";
+            this.CnName.Name = "CnName";
+            this.CnName.Visible = true;
+            this.CnName.VisibleIndex = 0;
+            this.CnName.Width = 249;
             // 
-            // gridColumn3
+            // Width
             // 
-            this.gridColumn3.Caption = "是否显示";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
-            this.gridColumn3.Width = 130;
+            this.Width.Caption = "显示宽度(像素)";
+            this.Width.FieldName = "display_width";
+            this.Width.Name = "Width";
+            this.Width.Visible = true;
+            this.Width.VisibleIndex = 1;
+            this.Width.Width = 132;
             // 
-            // gridColumn4
+            // IsDisplay
             // 
-            this.gridColumn4.Caption = "是否自定义属性";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
-            this.gridColumn4.Width = 135;
+            this.IsDisplay.Caption = "是否显示";
+            this.IsDisplay.ColumnEdit = this.repositoryItemCheckEdit1;
+            this.IsDisplay.FieldName = "is_display";
+            this.IsDisplay.Name = "IsDisplay";
+            this.IsDisplay.Visible = true;
+            this.IsDisplay.VisibleIndex = 2;
+            this.IsDisplay.Width = 132;
+            // 
+            // repositoryItemCheckEdit1
+            // 
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+            // 
+            // IsUserDefine
+            // 
+            this.IsUserDefine.Caption = "是否自定义属性";
+            this.IsUserDefine.FieldName = "is_user_define";
+            this.IsUserDefine.Name = "IsUserDefine";
+            this.IsUserDefine.Visible = true;
+            this.IsUserDefine.VisibleIndex = 3;
+            this.IsUserDefine.Width = 149;
+            // 
+            // repositoryItemCheckEdit2
+            // 
+            this.repositoryItemCheckEdit2.AutoHeight = false;
+            this.repositoryItemCheckEdit2.Name = "repositoryItemCheckEdit2";
+            // 
+            // repositoryItemCheckEdit3
+            // 
+            this.repositoryItemCheckEdit3.AutoHeight = false;
+            this.repositoryItemCheckEdit3.Name = "repositoryItemCheckEdit3";
             // 
             // DocPropertyBuild
             // 
@@ -237,10 +287,14 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "DocPropertyBuild";
             this.Text = "文档属性设置";
+            this.Load += new System.EventHandler(this.DocPropertyBuild_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridDocProperty)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -248,23 +302,27 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton11;
-        private DevExpress.XtraEditors.SimpleButton simpleButton10;
-        private DevExpress.XtraEditors.SimpleButton simpleButton9;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.SimpleButton btnEsc;
+        private DevExpress.XtraEditors.SimpleButton btnSave;
+        private DevExpress.XtraEditors.SimpleButton btnRev;
+        private DevExpress.XtraEditors.SimpleButton btnAll;
+        private DevExpress.XtraEditors.SimpleButton btnUpdateProp;
+        private DevExpress.XtraEditors.SimpleButton btnDelProp;
+        private DevExpress.XtraEditors.SimpleButton btnAddProp;
+        private DevExpress.XtraEditors.SimpleButton btnEnd;
+        private DevExpress.XtraEditors.SimpleButton btnNext;
+        private DevExpress.XtraEditors.SimpleButton btnPre;
+        private DevExpress.XtraEditors.SimpleButton btnHome;
+        private DevExpress.XtraGrid.GridControl gridDocProperty;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraGrid.Columns.GridColumn CnName;
+        private DevExpress.XtraGrid.Columns.GridColumn Width;
+        private DevExpress.XtraGrid.Columns.GridColumn IsDisplay;
+        private DevExpress.XtraGrid.Columns.GridColumn IsUserDefine;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit2;
+        private DevExpress.XtraGrid.Columns.GridColumn EnName;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit3;
 
     }
 }

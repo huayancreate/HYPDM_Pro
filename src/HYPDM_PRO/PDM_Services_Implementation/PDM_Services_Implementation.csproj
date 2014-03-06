@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocManage\DocGrantManage.cs" />
+    <Compile Include="DocManage\DocManageTool.cs" />
+    <Compile Include="DocManage\DocPropertyBuild.cs" />
+    <Compile Include="DocManage\DocSecurityLevelBuild.cs" />
+    <Compile Include="DocManage\DocTemplateCategoryManage.cs" />
+    <Compile Include="DocManage\SocketServer.cs" />
     <Compile Include="Log\ILogService.cs" />
     <Compile Include="Log\LogService.cs" />
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs" />

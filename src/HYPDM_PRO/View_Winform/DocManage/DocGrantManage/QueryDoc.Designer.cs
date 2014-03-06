@@ -30,18 +30,20 @@
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCannel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSelCannel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnRev = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.checkEdit18 = new DevExpress.XtraEditors.CheckEdit();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSelAll = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridControlCheck = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -61,7 +63,7 @@
             this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnScan = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
             this.checkEdit15 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit14 = new DevExpress.XtraEditors.CheckEdit();
@@ -102,6 +104,7 @@
             this.checkEdit19 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
+            this.repositoryItemPictureEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -111,6 +114,7 @@
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).BeginInit();
             this.xtraTabControl2.SuspendLayout();
             this.xtraTabPage3.SuspendLayout();
@@ -162,6 +166,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit19.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -178,15 +183,15 @@
             this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl2.Controls.Add(this.simpleButton7);
-            this.panelControl2.Controls.Add(this.simpleButton6);
-            this.panelControl2.Controls.Add(this.simpleButton5);
+            this.panelControl2.Controls.Add(this.btnCannel);
+            this.panelControl2.Controls.Add(this.btnSelCannel);
+            this.panelControl2.Controls.Add(this.btnRev);
             this.panelControl2.Controls.Add(this.labelControl12);
             this.panelControl2.Controls.Add(this.labelControl13);
             this.panelControl2.Controls.Add(this.labelControl11);
             this.panelControl2.Controls.Add(this.checkEdit18);
-            this.panelControl2.Controls.Add(this.simpleButton4);
-            this.panelControl2.Controls.Add(this.simpleButton3);
+            this.panelControl2.Controls.Add(this.btnSelAll);
+            this.panelControl2.Controls.Add(this.btnSave);
             this.panelControl2.Controls.Add(this.groupControl4);
             this.panelControl2.Controls.Add(this.xtraTabControl2);
             this.panelControl2.Controls.Add(this.panelControl3);
@@ -195,32 +200,35 @@
             this.panelControl2.Size = new System.Drawing.Size(869, 631);
             this.panelControl2.TabIndex = 1;
             // 
-            // simpleButton7
+            // btnCannel
             // 
-            this.simpleButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton7.Location = new System.Drawing.Point(735, 591);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton7.TabIndex = 51;
-            this.simpleButton7.Text = "取消(C)";
+            this.btnCannel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCannel.Location = new System.Drawing.Point(735, 591);
+            this.btnCannel.Name = "btnCannel";
+            this.btnCannel.Size = new System.Drawing.Size(75, 23);
+            this.btnCannel.TabIndex = 51;
+            this.btnCannel.Text = "取消(C)";
+            this.btnCannel.Click += new System.EventHandler(this.btnCannel_Click);
             // 
-            // simpleButton6
+            // btnSelCannel
             // 
-            this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton6.Location = new System.Drawing.Point(560, 591);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(88, 23);
-            this.simpleButton6.TabIndex = 50;
-            this.simpleButton6.Text = "取消选择(Q)";
+            this.btnSelCannel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSelCannel.Location = new System.Drawing.Point(560, 591);
+            this.btnSelCannel.Name = "btnSelCannel";
+            this.btnSelCannel.Size = new System.Drawing.Size(88, 23);
+            this.btnSelCannel.TabIndex = 50;
+            this.btnSelCannel.Text = "取消选择(Q)";
+            this.btnSelCannel.Click += new System.EventHandler(this.btnSelCannel_Click);
             // 
-            // simpleButton5
+            // btnRev
             // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton5.Location = new System.Drawing.Point(441, 591);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(113, 23);
-            this.simpleButton5.TabIndex = 49;
-            this.simpleButton5.Text = "选择选中的文档(S)";
+            this.btnRev.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnRev.Location = new System.Drawing.Point(441, 591);
+            this.btnRev.Name = "btnRev";
+            this.btnRev.Size = new System.Drawing.Size(113, 23);
+            this.btnRev.TabIndex = 49;
+            this.btnRev.Text = "选择选中的文档(S)";
+            this.btnRev.Click += new System.EventHandler(this.btnRev_Click);
             // 
             // labelControl12
             // 
@@ -261,23 +269,25 @@
             this.checkEdit18.Size = new System.Drawing.Size(108, 19);
             this.checkEdit18.TabIndex = 45;
             // 
-            // simpleButton4
+            // btnSelAll
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(347, 591);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(88, 23);
-            this.simpleButton4.TabIndex = 44;
-            this.simpleButton4.Text = "全部选择(A)";
+            this.btnSelAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSelAll.Location = new System.Drawing.Point(347, 591);
+            this.btnSelAll.Name = "btnSelAll";
+            this.btnSelAll.Size = new System.Drawing.Size(88, 23);
+            this.btnSelAll.TabIndex = 44;
+            this.btnSelAll.Text = "全部选择(A)";
+            this.btnSelAll.Click += new System.EventHandler(this.btnSelAll_Click);
             // 
-            // simpleButton3
+            // btnSave
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(654, 591);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton3.TabIndex = 43;
-            this.simpleButton3.Text = "确定(O)";
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSave.Location = new System.Drawing.Point(654, 591);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 43;
+            this.btnSave.Text = "确定(O)";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // groupControl4
             // 
@@ -299,6 +309,9 @@
             this.gridControl1.Location = new System.Drawing.Point(1, 22);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
+            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemCheckEdit1,
+            this.repositoryItemPictureEdit1});
             this.gridControl1.Size = new System.Drawing.Size(551, 375);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -307,6 +320,7 @@
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridControlCheck,
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
@@ -316,40 +330,66 @@
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
+            // gridControlCheck
+            // 
+            this.gridControlCheck.Caption = "选择";
+            this.gridControlCheck.ColumnEdit = this.repositoryItemCheckEdit1;
+            this.gridControlCheck.FieldName = "gridControlCheck";
+            this.gridControlCheck.Name = "gridControlCheck";
+            this.gridControlCheck.Visible = true;
+            this.gridControlCheck.VisibleIndex = 0;
+            this.gridControlCheck.Width = 40;
+            // 
+            // repositoryItemCheckEdit1
+            // 
+            this.repositoryItemCheckEdit1.AutoHeight = false;
+            this.repositoryItemCheckEdit1.Name = "repositoryItemCheckEdit1";
+            // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "类型";
+            this.gridColumn1.ColumnEdit = this.repositoryItemPictureEdit1;
+            this.gridColumn1.FieldName = "format_pic";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.gridColumn1.VisibleIndex = 1;
+            this.gridColumn1.Width = 97;
             // 
             // gridColumn2
             // 
             this.gridColumn2.Caption = "文档分类";
+            this.gridColumn2.FieldName = "document_type_name";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
+            this.gridColumn2.VisibleIndex = 2;
+            this.gridColumn2.Width = 97;
             // 
             // gridColumn3
             // 
             this.gridColumn3.Caption = "文档编号";
+            this.gridColumn3.FieldName = "number";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
+            this.gridColumn3.VisibleIndex = 3;
+            this.gridColumn3.Width = 97;
             // 
             // gridColumn4
             // 
-            this.gridColumn4.Caption = "文档编号";
+            this.gridColumn4.Caption = "文档名称";
+            this.gridColumn4.FieldName = "cn_name";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
+            this.gridColumn4.VisibleIndex = 4;
+            this.gridColumn4.Width = 97;
             // 
             // gridColumn5
             // 
-            this.gridColumn5.Caption = "文档格式";
+            this.gridColumn5.Caption = "文档版本";
+            this.gridColumn5.FieldName = "version";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
+            this.gridColumn5.VisibleIndex = 5;
+            this.gridColumn5.Width = 105;
             // 
             // xtraTabControl2
             // 
@@ -492,7 +532,7 @@
             // 
             this.panelControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelControl3.Controls.Add(this.simpleButton1);
+            this.panelControl3.Controls.Add(this.btnScan);
             this.panelControl3.Controls.Add(this.groupControl3);
             this.panelControl3.Controls.Add(this.checkEdit17);
             this.panelControl3.Controls.Add(this.groupControl2);
@@ -502,14 +542,15 @@
             this.panelControl3.Size = new System.Drawing.Size(310, 628);
             this.panelControl3.TabIndex = 41;
             // 
-            // simpleButton1
+            // btnScan
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(105, 590);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton1.TabIndex = 23;
-            this.simpleButton1.Text = "查询";
+            this.btnScan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnScan.Location = new System.Drawing.Point(105, 590);
+            this.btnScan.Name = "btnScan";
+            this.btnScan.Size = new System.Drawing.Size(75, 23);
+            this.btnScan.TabIndex = 23;
+            this.btnScan.Text = "查询";
+            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
             // 
             // groupControl3
             // 
@@ -935,6 +976,10 @@
             this.memoEdit1.Size = new System.Drawing.Size(295, 111);
             this.memoEdit1.TabIndex = 26;
             // 
+            // repositoryItemPictureEdit1
+            // 
+            this.repositoryItemPictureEdit1.Name = "repositoryItemPictureEdit1";
+            // 
             // QueryDoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -953,6 +998,7 @@
             this.groupControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl2)).EndInit();
             this.xtraTabControl2.ResumeLayout(false);
             this.xtraTabPage3.ResumeLayout(false);
@@ -1006,6 +1052,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit19.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1014,15 +1061,15 @@
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton btnCannel;
+        private DevExpress.XtraEditors.SimpleButton btnSelCannel;
+        private DevExpress.XtraEditors.SimpleButton btnRev;
         private DevExpress.XtraEditors.LabelControl labelControl12;
         private DevExpress.XtraEditors.LabelControl labelControl13;
         private DevExpress.XtraEditors.LabelControl labelControl11;
         private DevExpress.XtraEditors.CheckEdit checkEdit18;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton btnSelAll;
+        private DevExpress.XtraEditors.SimpleButton btnSave;
         private DevExpress.XtraEditors.GroupControl groupControl4;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
@@ -1045,7 +1092,7 @@
         private DevExpress.XtraEditors.ComboBoxEdit textEdit7;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage4;
         private DevExpress.XtraEditors.PanelControl panelControl3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnScan;
         private DevExpress.XtraEditors.GroupControl groupControl3;
         private DevExpress.XtraEditors.CheckEdit checkEdit15;
         private DevExpress.XtraEditors.CheckEdit checkEdit14;
@@ -1086,6 +1133,9 @@
         private DevExpress.XtraEditors.CheckEdit checkEdit19;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
         private DevExpress.XtraEditors.MemoEdit memoEdit1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridControlCheck;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit1;
 
 
     }

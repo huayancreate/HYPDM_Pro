@@ -35,6 +35,7 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemPictureEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -92,12 +93,11 @@
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
-            this.checkEdit20 = new DevExpress.XtraEditors.CheckEdit();
             this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
             this.comboBoxEdit4 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.checkEdit19 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
+            this.checkEdit19 = new DevExpress.XtraEditors.RadioGroup();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit18.Properties)).BeginInit();
@@ -105,6 +105,7 @@
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit17.Properties)).BeginInit();
@@ -151,12 +152,11 @@
             this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit20.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit19.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit19.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -215,6 +215,8 @@
             this.gridControl1.Location = new System.Drawing.Point(2, 22);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
+            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemPictureEdit1});
             this.gridControl1.Size = new System.Drawing.Size(546, 375);
             this.gridControl1.TabIndex = 1;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -230,18 +232,28 @@
             this.gridColumn5});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.gridColumn5, DevExpress.Data.ColumnSortOrder.Descending)});
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "类型";
+            this.gridColumn1.ColumnEdit = this.repositoryItemPictureEdit1;
+            this.gridColumn1.FieldName = "format_pic";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
             // 
+            // repositoryItemPictureEdit1
+            // 
+            this.repositoryItemPictureEdit1.Name = "repositoryItemPictureEdit1";
+            // 
             // gridColumn2
             // 
             this.gridColumn2.Caption = "文档分类";
+            this.gridColumn2.FieldName = "doc_template_name";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
@@ -249,20 +261,23 @@
             // gridColumn3
             // 
             this.gridColumn3.Caption = "文档编号";
+            this.gridColumn3.FieldName = "number";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
             // gridColumn4
             // 
-            this.gridColumn4.Caption = "文档编号";
+            this.gridColumn4.Caption = "文档名称";
+            this.gridColumn4.FieldName = "cn_name";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
             // gridColumn5
             // 
-            this.gridColumn5.Caption = "文档格式";
+            this.gridColumn5.Caption = "文档分类";
+            this.gridColumn5.FieldName = "document_type_name";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 4;
@@ -316,6 +331,7 @@
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 2;
             this.simpleButton1.Text = "查询";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // checkEdit17
             // 
@@ -831,26 +847,16 @@
             // 
             // panelControl4
             // 
-            this.panelControl4.Controls.Add(this.checkEdit20);
             this.panelControl4.Controls.Add(this.textEdit8);
             this.panelControl4.Controls.Add(this.comboBoxEdit4);
-            this.panelControl4.Controls.Add(this.checkEdit19);
             this.panelControl4.Controls.Add(this.comboBoxEdit3);
             this.panelControl4.Controls.Add(this.memoEdit1);
+            this.panelControl4.Controls.Add(this.checkEdit19);
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl4.Location = new System.Drawing.Point(0, 0);
             this.panelControl4.Name = "panelControl4";
             this.panelControl4.Size = new System.Drawing.Size(295, 199);
             this.panelControl4.TabIndex = 0;
-            // 
-            // checkEdit20
-            // 
-            this.checkEdit20.Location = new System.Drawing.Point(228, 58);
-            this.checkEdit20.Name = "checkEdit20";
-            this.checkEdit20.Properties.Caption = "并且";
-            this.checkEdit20.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit20.Size = new System.Drawing.Size(55, 19);
-            this.checkEdit20.TabIndex = 25;
             // 
             // textEdit8
             // 
@@ -866,18 +872,13 @@
             this.comboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comboBoxEdit4.Properties.Items.AddRange(new object[] {
-            "文档编号"});
+            "大于",
+            "小于",
+            "等于",
+            "不等于",
+            "包含"});
             this.comboBoxEdit4.Size = new System.Drawing.Size(217, 20);
             this.comboBoxEdit4.TabIndex = 23;
-            // 
-            // checkEdit19
-            // 
-            this.checkEdit19.Location = new System.Drawing.Point(228, 21);
-            this.checkEdit19.Name = "checkEdit19";
-            this.checkEdit19.Properties.Caption = "或者";
-            this.checkEdit19.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit19.Size = new System.Drawing.Size(55, 19);
-            this.checkEdit19.TabIndex = 21;
             // 
             // comboBoxEdit3
             // 
@@ -886,7 +887,14 @@
             this.comboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comboBoxEdit3.Properties.Items.AddRange(new object[] {
-            "文档编号"});
+            "文档编号",
+            "文档版本",
+            "文档名称",
+            "文档分类",
+            "文档状态",
+            "创建人",
+            "关键字",
+            "摘要"});
             this.comboBoxEdit3.Size = new System.Drawing.Size(217, 20);
             this.comboBoxEdit3.TabIndex = 22;
             // 
@@ -897,6 +905,18 @@
             this.memoEdit1.Size = new System.Drawing.Size(295, 111);
             this.memoEdit1.TabIndex = 26;
             // 
+            // checkEdit19
+            // 
+            this.checkEdit19.EditValue = false;
+            this.checkEdit19.Location = new System.Drawing.Point(228, 8);
+            this.checkEdit19.Name = "checkEdit19";
+            this.checkEdit19.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.checkEdit19.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "或者"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "并且")});
+            this.checkEdit19.Size = new System.Drawing.Size(62, 69);
+            this.checkEdit19.TabIndex = 21;
+            // 
             // DocQuery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -905,6 +925,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "DocQuery";
             this.Text = "文档查询";
+            this.Load += new System.EventHandler(this.DocQuery_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -913,6 +934,7 @@
             this.groupControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit17.Properties)).EndInit();
@@ -961,12 +983,11 @@
             this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit20.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit19.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit19.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1037,11 +1058,11 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.CheckEdit checkEdit18;
         private DevExpress.XtraEditors.PanelControl panelControl4;
-        private DevExpress.XtraEditors.CheckEdit checkEdit19;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
-        private DevExpress.XtraEditors.CheckEdit checkEdit20;
         private DevExpress.XtraEditors.TextEdit textEdit8;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit4;
         private DevExpress.XtraEditors.MemoEdit memoEdit1;
+        private DevExpress.XtraEditors.RadioGroup checkEdit19;
+        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit1;
     }
 }
