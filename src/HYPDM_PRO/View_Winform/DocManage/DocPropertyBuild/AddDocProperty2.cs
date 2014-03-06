@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
+
 namespace View_Winform.DocManage.DocPropertyBuild
 {
     public partial class AddDocProperty2 : DevExpress.XtraEditors.XtraForm
@@ -33,6 +34,7 @@ namespace View_Winform.DocManage.DocPropertyBuild
 
         private void simpleButton7_Click(object sender, EventArgs e)
         {
+            
 
         }
     }

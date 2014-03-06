@@ -29,21 +29,18 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.btnEsc = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExportUserDefine = new DevExpress.XtraEditors.SimpleButton();
+            this.btnExportGrant = new DevExpress.XtraEditors.SimpleButton();
+            this.dgcDocument = new DevExpress.XtraGrid.GridControl();
+            this.dgvDocument = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.dgcGrant = new DevExpress.XtraGrid.GridControl();
+            this.dgvGrant = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -52,7 +49,7 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnScan = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
@@ -65,6 +62,8 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.checkEdit7 = new DevExpress.XtraEditors.CheckEdit();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
+            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
             this.textEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
@@ -73,17 +72,15 @@
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgcDocument)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDocument)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgcGrant)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGrant)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
@@ -96,13 +93,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             this.SuspendLayout();
@@ -112,75 +109,76 @@
             this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.simpleButton7);
-            this.panelControl1.Controls.Add(this.simpleButton6);
-            this.panelControl1.Controls.Add(this.simpleButton5);
-            this.panelControl1.Controls.Add(this.gridControl2);
-            this.panelControl1.Controls.Add(this.gridControl1);
+            this.panelControl1.Controls.Add(this.btnEsc);
+            this.panelControl1.Controls.Add(this.btnExportUserDefine);
+            this.panelControl1.Controls.Add(this.btnExportGrant);
+            this.panelControl1.Controls.Add(this.dgcDocument);
+            this.panelControl1.Controls.Add(this.dgcGrant);
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(864, 628);
             this.panelControl1.TabIndex = 0;
             // 
-            // simpleButton7
+            // btnEsc
             // 
-            this.simpleButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton7.Location = new System.Drawing.Point(616, 533);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(53, 23);
-            this.simpleButton7.TabIndex = 56;
-            this.simpleButton7.Text = "退出(X)";
+            this.btnEsc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnEsc.Location = new System.Drawing.Point(616, 533);
+            this.btnEsc.Name = "btnEsc";
+            this.btnEsc.Size = new System.Drawing.Size(53, 23);
+            this.btnEsc.TabIndex = 56;
+            this.btnEsc.Text = "退出(X)";
+            this.btnEsc.Click += new System.EventHandler(this.btnEsc_Click);
             // 
-            // simpleButton6
+            // btnExportUserDefine
             // 
-            this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton6.Location = new System.Drawing.Point(511, 533);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(88, 23);
-            this.simpleButton6.TabIndex = 55;
-            this.simpleButton6.Text = "自定义输出(D)";
+            this.btnExportUserDefine.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnExportUserDefine.Location = new System.Drawing.Point(511, 533);
+            this.btnExportUserDefine.Name = "btnExportUserDefine";
+            this.btnExportUserDefine.Size = new System.Drawing.Size(88, 23);
+            this.btnExportUserDefine.TabIndex = 55;
+            this.btnExportUserDefine.Text = "自定义输出(D)";
+            this.btnExportUserDefine.Click += new System.EventHandler(this.btnExportUserDefine_Click);
             // 
-            // simpleButton5
+            // btnExportGrant
             // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton5.Location = new System.Drawing.Point(392, 533);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(104, 23);
-            this.simpleButton5.TabIndex = 54;
-            this.simpleButton5.Text = "输出发放记录(O)";
+            this.btnExportGrant.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnExportGrant.Location = new System.Drawing.Point(392, 533);
+            this.btnExportGrant.Name = "btnExportGrant";
+            this.btnExportGrant.Size = new System.Drawing.Size(104, 23);
+            this.btnExportGrant.TabIndex = 54;
+            this.btnExportGrant.Text = "输出发放记录(O)";
+            this.btnExportGrant.Click += new System.EventHandler(this.btnExportGrant_Click);
             // 
-            // gridControl2
+            // dgcDocument
             // 
-            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dgcDocument.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl2.Location = new System.Drawing.Point(273, 304);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(589, 200);
-            this.gridControl2.TabIndex = 53;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2});
+            this.dgcDocument.Location = new System.Drawing.Point(273, 304);
+            this.dgcDocument.MainView = this.dgvDocument;
+            this.dgcDocument.Name = "dgcDocument";
+            this.dgcDocument.Size = new System.Drawing.Size(589, 200);
+            this.dgcDocument.TabIndex = 53;
+            this.dgcDocument.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.dgvDocument});
             // 
-            // gridView2
+            // dgvDocument
             // 
-            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.dgvDocument.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn8,
             this.gridColumn9,
             this.gridColumn10,
             this.gridColumn11,
-            this.gridColumn12,
-            this.gridColumn13,
-            this.gridColumn14,
-            this.gridColumn15});
-            this.gridView2.GridControl = this.gridControl2;
-            this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsView.ShowGroupPanel = false;
+            this.gridColumn12});
+            this.dgvDocument.GridControl = this.dgcDocument;
+            this.dgvDocument.Name = "dgvDocument";
+            this.dgvDocument.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn8
             // 
             this.gridColumn8.Caption = "文档编码";
+            this.gridColumn8.FieldName = "number";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 0;
@@ -188,6 +186,7 @@
             // gridColumn9
             // 
             this.gridColumn9.Caption = "文档版本";
+            this.gridColumn9.FieldName = "version";
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.Visible = true;
             this.gridColumn9.VisibleIndex = 1;
@@ -195,6 +194,7 @@
             // gridColumn10
             // 
             this.gridColumn10.Caption = "文档名称";
+            this.gridColumn10.FieldName = "cn_name";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 2;
@@ -202,6 +202,7 @@
             // gridColumn11
             // 
             this.gridColumn11.Caption = "文档状态";
+            this.gridColumn11.FieldName = "status";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.Visible = true;
             this.gridColumn11.VisibleIndex = 3;
@@ -209,47 +210,27 @@
             // gridColumn12
             // 
             this.gridColumn12.Caption = "创建人";
+            this.gridColumn12.FieldName = "create_user_name";
             this.gridColumn12.Name = "gridColumn12";
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 4;
             // 
-            // gridColumn13
+            // dgcGrant
             // 
-            this.gridColumn13.Caption = "****";
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 5;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.Caption = "****";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 6;
-            // 
-            // gridColumn15
-            // 
-            this.gridColumn15.Caption = "****";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 7;
-            // 
-            // gridControl1
-            // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.dgcGrant.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(273, 4);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(589, 294);
-            this.gridControl1.TabIndex = 52;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.dgcGrant.Location = new System.Drawing.Point(273, 4);
+            this.dgcGrant.MainView = this.dgvGrant;
+            this.dgcGrant.Name = "dgcGrant";
+            this.dgcGrant.Size = new System.Drawing.Size(589, 294);
+            this.dgcGrant.TabIndex = 52;
+            this.dgcGrant.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.dgvGrant});
             // 
-            // gridView1
+            // dgvGrant
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.dgvGrant.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
@@ -257,13 +238,16 @@
             this.gridColumn5,
             this.gridColumn6,
             this.gridColumn7});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.dgvGrant.GridControl = this.dgcGrant;
+            this.dgvGrant.Name = "dgvGrant";
+            this.dgvGrant.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.Click;
+            this.dgvGrant.OptionsView.ShowGroupPanel = false;
+            this.dgvGrant.RowCellClick += new DevExpress.XtraGrid.Views.Grid.RowCellClickEventHandler(this.dgvGrant_RowCellClick);
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "发放序号";
+            this.gridColumn1.FieldName = "id";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
@@ -271,6 +255,7 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "发放目的地";
+            this.gridColumn2.FieldName = "grant_user";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
@@ -278,6 +263,7 @@
             // gridColumn3
             // 
             this.gridColumn3.Caption = "类型";
+            this.gridColumn3.FieldName = "grant_type";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
@@ -285,6 +271,7 @@
             // gridColumn4
             // 
             this.gridColumn4.Caption = "生效时间";
+            this.gridColumn4.FieldName = "valid_time";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
@@ -292,20 +279,23 @@
             // gridColumn5
             // 
             this.gridColumn5.Caption = "失效时间";
+            this.gridColumn5.FieldName = "in_valid_time";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 4;
             // 
             // gridColumn6
             // 
-            this.gridColumn6.Caption = "*****";
+            this.gridColumn6.Caption = "权限";
+            this.gridColumn6.FieldName = "permission_type_name";
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             // 
             // gridColumn7
             // 
-            this.gridColumn7.Caption = "………";
+            this.gridColumn7.Caption = "发放人";
+            this.gridColumn7.FieldName = "grant_by_user";
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
@@ -314,7 +304,7 @@
             // 
             this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.panelControl2.Controls.Add(this.simpleButton4);
+            this.panelControl2.Controls.Add(this.btnScan);
             this.panelControl2.Controls.Add(this.panelControl3);
             this.panelControl2.Controls.Add(this.checkEdit7);
             this.panelControl2.Controls.Add(this.panelControl4);
@@ -324,14 +314,15 @@
             this.panelControl2.Size = new System.Drawing.Size(267, 627);
             this.panelControl2.TabIndex = 51;
             // 
-            // simpleButton4
+            // btnScan
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(210, 336);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(53, 23);
-            this.simpleButton4.TabIndex = 47;
-            this.simpleButton4.Text = "查询";
+            this.btnScan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnScan.Location = new System.Drawing.Point(210, 336);
+            this.btnScan.Name = "btnScan";
+            this.btnScan.Size = new System.Drawing.Size(53, 23);
+            this.btnScan.TabIndex = 47;
+            this.btnScan.Text = "查询";
+            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
             // 
             // panelControl3
             // 
@@ -444,13 +435,17 @@
             this.checkEdit7.Name = "checkEdit7";
             this.checkEdit7.Properties.Caption = "按文档属信息查询";
             this.checkEdit7.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.checkEdit7.Properties.RadioGroupIndex = 10;
             this.checkEdit7.Size = new System.Drawing.Size(136, 19);
             this.checkEdit7.TabIndex = 2;
+            this.checkEdit7.TabStop = false;
             // 
             // panelControl4
             // 
             this.panelControl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
+            this.panelControl4.Controls.Add(this.checkEdit4);
+            this.panelControl4.Controls.Add(this.checkEdit3);
             this.panelControl4.Controls.Add(this.textEdit7);
             this.panelControl4.Controls.Add(this.labelControl1);
             this.panelControl4.Controls.Add(this.simpleButton1);
@@ -459,14 +454,40 @@
             this.panelControl4.Controls.Add(this.simpleButton3);
             this.panelControl4.Controls.Add(this.textEdit1);
             this.panelControl4.Controls.Add(this.checkEdit5);
-            this.panelControl4.Controls.Add(this.checkEdit4);
-            this.panelControl4.Controls.Add(this.checkEdit3);
-            this.panelControl4.Controls.Add(this.checkEdit2);
             this.panelControl4.Controls.Add(this.labelControl11);
+            this.panelControl4.Controls.Add(this.checkEdit2);
             this.panelControl4.Location = new System.Drawing.Point(0, 34);
             this.panelControl4.Name = "panelControl4";
             this.panelControl4.Size = new System.Drawing.Size(267, 137);
             this.panelControl4.TabIndex = 1;
+            // 
+            // checkEdit4
+            // 
+            this.checkEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.checkEdit4.EditValue = true;
+            this.checkEdit4.Location = new System.Drawing.Point(201, 6);
+            this.checkEdit4.Name = "checkEdit4";
+            this.checkEdit4.Properties.AutoHeight = false;
+            this.checkEdit4.Properties.Caption = "全部";
+            this.checkEdit4.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.checkEdit4.Properties.RadioGroupIndex = 2;
+            this.checkEdit4.Size = new System.Drawing.Size(61, 30);
+            this.checkEdit4.TabIndex = 48;
+            // 
+            // checkEdit3
+            // 
+            this.checkEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.checkEdit3.Location = new System.Drawing.Point(137, 6);
+            this.checkEdit3.Name = "checkEdit3";
+            this.checkEdit3.Properties.AutoHeight = false;
+            this.checkEdit3.Properties.Caption = "已失效";
+            this.checkEdit3.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.checkEdit3.Properties.RadioGroupIndex = 2;
+            this.checkEdit3.Size = new System.Drawing.Size(61, 30);
+            this.checkEdit3.TabIndex = 47;
+            this.checkEdit3.TabStop = false;
             // 
             // textEdit7
             // 
@@ -545,39 +566,6 @@
             this.checkEdit5.Size = new System.Drawing.Size(89, 19);
             this.checkEdit5.TabIndex = 39;
             // 
-            // checkEdit4
-            // 
-            this.checkEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit4.Location = new System.Drawing.Point(207, 16);
-            this.checkEdit4.Name = "checkEdit4";
-            this.checkEdit4.Properties.Caption = "全部";
-            this.checkEdit4.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit4.Size = new System.Drawing.Size(52, 19);
-            this.checkEdit4.TabIndex = 38;
-            // 
-            // checkEdit3
-            // 
-            this.checkEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit3.Location = new System.Drawing.Point(142, 16);
-            this.checkEdit3.Name = "checkEdit3";
-            this.checkEdit3.Properties.Caption = "失效";
-            this.checkEdit3.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit3.Size = new System.Drawing.Size(57, 19);
-            this.checkEdit3.TabIndex = 37;
-            // 
-            // checkEdit2
-            // 
-            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit2.Location = new System.Drawing.Point(70, 16);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "已生效";
-            this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit2.Size = new System.Drawing.Size(57, 19);
-            this.checkEdit2.TabIndex = 36;
-            // 
             // labelControl11
             // 
             this.labelControl11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
@@ -588,14 +576,30 @@
             this.labelControl11.TabIndex = 35;
             this.labelControl11.Text = "发放状态:";
             // 
+            // checkEdit2
+            // 
+            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.checkEdit2.Location = new System.Drawing.Point(70, 6);
+            this.checkEdit2.Name = "checkEdit2";
+            this.checkEdit2.Properties.AutoHeight = false;
+            this.checkEdit2.Properties.Caption = "已生效";
+            this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.checkEdit2.Properties.RadioGroupIndex = 2;
+            this.checkEdit2.Size = new System.Drawing.Size(61, 30);
+            this.checkEdit2.TabIndex = 36;
+            this.checkEdit2.TabStop = false;
+            // 
             // checkEdit1
             // 
             this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
+            this.checkEdit1.EditValue = true;
             this.checkEdit1.Location = new System.Drawing.Point(11, 9);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "按文档发放记录查询";
             this.checkEdit1.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
+            this.checkEdit1.Properties.RadioGroupIndex = 10;
             this.checkEdit1.Size = new System.Drawing.Size(136, 19);
             this.checkEdit1.TabIndex = 0;
             // 
@@ -609,10 +613,10 @@
             this.Text = "文档发放记录查询";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgcDocument)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDocument)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgcGrant)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvGrant)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
@@ -627,13 +631,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
             this.panelControl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
@@ -643,21 +647,18 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraGrid.GridControl gridControl2;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraEditors.SimpleButton btnEsc;
+        private DevExpress.XtraEditors.SimpleButton btnExportUserDefine;
+        private DevExpress.XtraEditors.SimpleButton btnExportGrant;
+        private DevExpress.XtraGrid.GridControl dgcDocument;
+        private DevExpress.XtraGrid.Views.Grid.GridView dgvDocument;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.GridControl dgcGrant;
+        private DevExpress.XtraGrid.Views.Grid.GridView dgvGrant;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
@@ -666,7 +667,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton btnScan;
         private DevExpress.XtraEditors.PanelControl panelControl3;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.TextEdit textEdit6;
@@ -687,11 +688,11 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.CheckEdit checkEdit5;
+        private DevExpress.XtraEditors.LabelControl labelControl11;
+        private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.CheckEdit checkEdit4;
         private DevExpress.XtraEditors.CheckEdit checkEdit3;
         private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.LabelControl labelControl11;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
 
     }
 }

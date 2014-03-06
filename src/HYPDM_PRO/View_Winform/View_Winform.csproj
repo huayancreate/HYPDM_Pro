@@ -246,11 +246,25 @@
     <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowDefinitionTool.Designer.cs">
       <DependentUpon>DocFlowDefinitionTool.cs</DependentUpon>
     </Compile>
+    <Compile Include="DocManage\DocManageTool\BuildDocCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\BuildDocCategory.Designer.cs">
+      <DependentUpon>BuildDocCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\DocManageRes.Designer.cs" />
     <Compile Include="DocManage\DocManageTool\DocManageTool.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DocManage\DocManageTool\DocManageTool.Designer.cs">
       <DependentUpon>DocManageTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocManage\DocManageTool\SocketTool.cs" />
+    <Compile Include="DocManage\DocPropertyBuild\AddSelectValue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocManage\DocPropertyBuild\AddSelectValue.Designer.cs">
+      <DependentUpon>AddSelectValue.cs</DependentUpon>
     </Compile>
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
       <SubType>Form</SubType>
@@ -1568,8 +1582,15 @@
     <EmbeddedResource Include="DocManage\ApprovalFlowDefinition\DocFlowDefinitionTool.resx">
       <DependentUpon>DocFlowDefinitionTool.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocManageTool\BuildDocCategory.resx">
+      <DependentUpon>BuildDocCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocManageTool\DocManageRes.resx" />
     <EmbeddedResource Include="DocManage\DocManageTool\DocManageTool.resx">
       <DependentUpon>DocManageTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocManage\DocPropertyBuild\AddSelectValue.resx">
+      <DependentUpon>AddSelectValue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
       <DependentUpon>AddMaterialInfor.cs</DependentUpon>

@@ -62,18 +62,41 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemComboBox1 = new DevExpress.XtraEditors.Repository.RepositoryItemComboBox();
+            this.repositoryItemPictureEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
+            this.repositoryItemPictureEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.checkEdit6 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.DocName = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.DocID = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.DocType = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnScan = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.contextMenuFile = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cutItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.controlBrowseItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.browseItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.downItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterDocumentItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.delDocumentItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pigeonholeItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openWithItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateDocStatusItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.permissionApplyItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prinApplyItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grantItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grantHistoryItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.docPropertyItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateHistoryItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.relationDocItem = new System.Windows.Forms.ToolStripMenuItem();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
             this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
             this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
@@ -95,12 +118,36 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
+            this.contextMenuFiles = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cutFileItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasteItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyDocClassItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.expandAllItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.collapseAllItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadingItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addDocItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.downDocItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateDocTreeStatusItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.grantDocItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.permissionApplyDocItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scanDocGrantRItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addDocTreeItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updatedocTreeItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.delDocTreeItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scanDocTypeItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.execlEmportItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.userImportItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.docCountStaItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
@@ -109,7 +156,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            this.contextMenuFile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            this.contextMenuFiles.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -148,7 +197,7 @@
             this.panelControl1.Controls.Add(this.checkEdit3);
             this.panelControl1.Controls.Add(this.checkEdit2);
             this.panelControl1.Controls.Add(this.checkEdit1);
-            this.panelControl1.Controls.Add(this.simpleButton2);
+            this.panelControl1.Controls.Add(this.btnScan);
             this.panelControl1.Controls.Add(this.simpleButton1);
             this.panelControl1.Controls.Add(this.textEdit1);
             this.panelControl1.Controls.Add(this.labelControl1);
@@ -367,6 +416,10 @@
             this.gridControl1.Location = new System.Drawing.Point(226, 51);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
+            this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemComboBox1,
+            this.repositoryItemPictureEdit1,
+            this.repositoryItemPictureEdit2});
             this.gridControl1.Size = new System.Drawing.Size(556, 424);
             this.gridControl1.TabIndex = 24;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
@@ -385,63 +438,96 @@
             this.gridColumn8});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.Click;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "文档名称";
+            this.gridColumn1.FieldName = "cn_name";
             this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.OptionsColumn.AllowEdit = false;
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
             // 
             // gridColumn2
             // 
             this.gridColumn2.Caption = "文档格式";
+            this.gridColumn2.FieldName = "format_name";
             this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
             // 
             // gridColumn3
             // 
             this.gridColumn3.Caption = "文档版本";
+            this.gridColumn3.FieldName = "version";
             this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.OptionsColumn.AllowEdit = false;
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             // 
             // gridColumn4
             // 
             this.gridColumn4.Caption = "生效时间";
+            this.gridColumn4.FieldName = "valid_time";
             this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.OptionsColumn.AllowEdit = false;
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
             // gridColumn5
             // 
             this.gridColumn5.Caption = "文档状态";
+            this.gridColumn5.FieldName = "status";
             this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.OptionsColumn.AllowEdit = false;
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 4;
             // 
             // gridColumn6
             // 
             this.gridColumn6.Caption = "文档密级";
+            this.gridColumn6.FieldName = "dense_name";
             this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.OptionsColumn.AllowEdit = false;
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             // 
             // gridColumn7
             // 
             this.gridColumn7.Caption = "创建人";
+            this.gridColumn7.FieldName = "create_user_name";
             this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.OptionsColumn.AllowEdit = false;
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
             // 
             // gridColumn8
             // 
             this.gridColumn8.Caption = "备注";
+            this.gridColumn8.FieldName = "remark";
             this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.OptionsColumn.AllowEdit = false;
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 7;
+            // 
+            // repositoryItemComboBox1
+            // 
+            this.repositoryItemComboBox1.AutoHeight = false;
+            this.repositoryItemComboBox1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.repositoryItemComboBox1.Name = "repositoryItemComboBox1";
+            // 
+            // repositoryItemPictureEdit1
+            // 
+            this.repositoryItemPictureEdit1.Name = "repositoryItemPictureEdit1";
+            // 
+            // repositoryItemPictureEdit2
+            // 
+            this.repositoryItemPictureEdit2.Name = "repositoryItemPictureEdit2";
             // 
             // labelControl2
             // 
@@ -453,6 +539,7 @@
             // 
             // checkEdit6
             // 
+            this.checkEdit6.EditValue = true;
             this.checkEdit6.Location = new System.Drawing.Point(229, 29);
             this.checkEdit6.Name = "checkEdit6";
             this.checkEdit6.Properties.Caption = "隐藏失效文档";
@@ -461,6 +548,7 @@
             // 
             // checkEdit5
             // 
+            this.checkEdit5.EditValue = true;
             this.checkEdit5.Location = new System.Drawing.Point(335, 29);
             this.checkEdit5.Name = "checkEdit5";
             this.checkEdit5.Properties.Caption = "隐藏无操作权限文档";
@@ -479,11 +567,40 @@
             // 
             this.treeList1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
+            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.DocName,
+            this.DocID,
+            this.DocType});
             this.treeList1.Location = new System.Drawing.Point(0, 25);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;
             this.treeList1.Size = new System.Drawing.Size(223, 477);
             this.treeList1.TabIndex = 19;
+            this.treeList1.CustomDrawNodeImages += new DevExpress.XtraTreeList.CustomDrawNodeImagesEventHandler(this.treeList1_CustomDrawNodeImages);
+            this.treeList1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeList1_MouseDown);
+            // 
+            // DocName
+            // 
+            this.DocName.Caption = "名称";
+            this.DocName.FieldName = "Name";
+            this.DocName.ImageAlignment = System.Drawing.StringAlignment.Center;
+            this.DocName.MinWidth = 49;
+            this.DocName.Name = "DocName";
+            this.DocName.OptionsColumn.AllowEdit = false;
+            this.DocName.Visible = true;
+            this.DocName.VisibleIndex = 0;
+            // 
+            // DocID
+            // 
+            this.DocID.Caption = "ID";
+            this.DocID.FieldName = "ID";
+            this.DocID.Name = "DocID";
+            // 
+            // DocType
+            // 
+            this.DocType.Caption = "TYPE";
+            this.DocType.FieldName = "TYPE";
+            this.DocType.Name = "DocType";
             // 
             // checkEdit3
             // 
@@ -509,13 +626,14 @@
             this.checkEdit1.Size = new System.Drawing.Size(87, 19);
             this.checkEdit1.TabIndex = 16;
             // 
-            // simpleButton2
+            // btnScan
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(366, 3);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton2.TabIndex = 15;
-            this.simpleButton2.Text = "->";
+            this.btnScan.Location = new System.Drawing.Point(366, 3);
+            this.btnScan.Name = "btnScan";
+            this.btnScan.Size = new System.Drawing.Size(37, 20);
+            this.btnScan.TabIndex = 15;
+            this.btnScan.Text = "->";
+            this.btnScan.Click += new System.EventHandler(this.btnScan_Click);
             // 
             // simpleButton1
             // 
@@ -540,6 +658,125 @@
             this.labelControl1.Size = new System.Drawing.Size(28, 14);
             this.labelControl1.TabIndex = 6;
             this.labelControl1.Text = "查找:";
+            // 
+            // contextMenuFile
+            // 
+            this.contextMenuFile.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cutItem,
+            this.controlBrowseItem,
+            this.browseItem,
+            this.downItem,
+            this.alterDocumentItem,
+            this.delDocumentItem,
+            this.pigeonholeItem,
+            this.openWithItem,
+            this.updateDocStatusItem,
+            this.permissionApplyItem,
+            this.prinApplyItem,
+            this.grantItem,
+            this.grantHistoryItem,
+            this.docPropertyItem,
+            this.updateHistoryItem,
+            this.relationDocItem});
+            this.contextMenuFile.Name = "contextMenuStrip1";
+            this.contextMenuFile.Size = new System.Drawing.Size(149, 356);
+            this.contextMenuFile.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuFile_ItemClicked);
+            // 
+            // cutItem
+            // 
+            this.cutItem.Name = "cutItem";
+            this.cutItem.Size = new System.Drawing.Size(148, 22);
+            this.cutItem.Text = "剪切";
+            // 
+            // controlBrowseItem
+            // 
+            this.controlBrowseItem.Name = "controlBrowseItem";
+            this.controlBrowseItem.Size = new System.Drawing.Size(148, 22);
+            this.controlBrowseItem.Text = "控件浏览";
+            // 
+            // browseItem
+            // 
+            this.browseItem.Name = "browseItem";
+            this.browseItem.Size = new System.Drawing.Size(148, 22);
+            this.browseItem.Text = "浏览";
+            // 
+            // downItem
+            // 
+            this.downItem.Name = "downItem";
+            this.downItem.Size = new System.Drawing.Size(148, 22);
+            this.downItem.Text = "下载";
+            // 
+            // alterDocumentItem
+            // 
+            this.alterDocumentItem.Name = "alterDocumentItem";
+            this.alterDocumentItem.Size = new System.Drawing.Size(148, 22);
+            this.alterDocumentItem.Text = "修改文档";
+            // 
+            // delDocumentItem
+            // 
+            this.delDocumentItem.Name = "delDocumentItem";
+            this.delDocumentItem.Size = new System.Drawing.Size(148, 22);
+            this.delDocumentItem.Text = "删除文档";
+            // 
+            // pigeonholeItem
+            // 
+            this.pigeonholeItem.Name = "pigeonholeItem";
+            this.pigeonholeItem.Size = new System.Drawing.Size(148, 22);
+            this.pigeonholeItem.Text = "归档文档";
+            // 
+            // openWithItem
+            // 
+            this.openWithItem.Name = "openWithItem";
+            this.openWithItem.Size = new System.Drawing.Size(148, 22);
+            this.openWithItem.Text = "打开方式";
+            // 
+            // updateDocStatusItem
+            // 
+            this.updateDocStatusItem.Name = "updateDocStatusItem";
+            this.updateDocStatusItem.Size = new System.Drawing.Size(148, 22);
+            this.updateDocStatusItem.Text = "更新文档状态";
+            // 
+            // permissionApplyItem
+            // 
+            this.permissionApplyItem.Name = "permissionApplyItem";
+            this.permissionApplyItem.Size = new System.Drawing.Size(148, 22);
+            this.permissionApplyItem.Text = "申请权限";
+            // 
+            // prinApplyItem
+            // 
+            this.prinApplyItem.Name = "prinApplyItem";
+            this.prinApplyItem.Size = new System.Drawing.Size(148, 22);
+            this.prinApplyItem.Text = "申请打印";
+            // 
+            // grantItem
+            // 
+            this.grantItem.Name = "grantItem";
+            this.grantItem.Size = new System.Drawing.Size(148, 22);
+            this.grantItem.Text = "发放文档";
+            // 
+            // grantHistoryItem
+            // 
+            this.grantHistoryItem.Name = "grantHistoryItem";
+            this.grantHistoryItem.Size = new System.Drawing.Size(148, 22);
+            this.grantHistoryItem.Text = "文档发放情况";
+            // 
+            // docPropertyItem
+            // 
+            this.docPropertyItem.Name = "docPropertyItem";
+            this.docPropertyItem.Size = new System.Drawing.Size(148, 22);
+            this.docPropertyItem.Text = "文档属性";
+            // 
+            // updateHistoryItem
+            // 
+            this.updateHistoryItem.Name = "updateHistoryItem";
+            this.updateHistoryItem.Size = new System.Drawing.Size(148, 22);
+            this.updateHistoryItem.Text = "文档变更历史";
+            // 
+            // relationDocItem
+            // 
+            this.relationDocItem.Name = "relationDocItem";
+            this.relationDocItem.Size = new System.Drawing.Size(148, 22);
+            this.relationDocItem.Text = "关联文档";
             // 
             // barSubItem1
             // 
@@ -702,6 +939,153 @@
             this.barDockControl2.Location = new System.Drawing.Point(784, 53);
             this.barDockControl2.Size = new System.Drawing.Size(0, 507);
             // 
+            // contextMenuFiles
+            // 
+            this.contextMenuFiles.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cutFileItem,
+            this.pasteItem,
+            this.copyDocClassItem,
+            this.expandAllItem,
+            this.collapseAllItem,
+            this.loadingItem,
+            this.addDocItem,
+            this.importItem,
+            this.downDocItem,
+            this.updateDocTreeStatusItem,
+            this.grantDocItem,
+            this.permissionApplyDocItem,
+            this.scanDocGrantRItem,
+            this.addDocTreeItem,
+            this.updatedocTreeItem,
+            this.delDocTreeItem,
+            this.scanDocTypeItem,
+            this.execlEmportItem,
+            this.userImportItem,
+            this.docCountStaItem});
+            this.contextMenuFiles.Name = "contextMenuStrip1";
+            this.contextMenuFiles.Size = new System.Drawing.Size(173, 444);
+            this.contextMenuFiles.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuFiles_ItemClicked);
+            // 
+            // cutFileItem
+            // 
+            this.cutFileItem.Name = "cutFileItem";
+            this.cutFileItem.Size = new System.Drawing.Size(172, 22);
+            this.cutFileItem.Text = "剪切";
+            // 
+            // pasteItem
+            // 
+            this.pasteItem.Name = "pasteItem";
+            this.pasteItem.Size = new System.Drawing.Size(172, 22);
+            this.pasteItem.Text = "粘贴";
+            // 
+            // copyDocClassItem
+            // 
+            this.copyDocClassItem.Name = "copyDocClassItem";
+            this.copyDocClassItem.Size = new System.Drawing.Size(172, 22);
+            this.copyDocClassItem.Text = "复制文档分类";
+            // 
+            // expandAllItem
+            // 
+            this.expandAllItem.Name = "expandAllItem";
+            this.expandAllItem.Size = new System.Drawing.Size(172, 22);
+            this.expandAllItem.Text = "展开";
+            // 
+            // collapseAllItem
+            // 
+            this.collapseAllItem.Name = "collapseAllItem";
+            this.collapseAllItem.Size = new System.Drawing.Size(172, 22);
+            this.collapseAllItem.Text = "折叠";
+            // 
+            // loadingItem
+            // 
+            this.loadingItem.Name = "loadingItem";
+            this.loadingItem.Size = new System.Drawing.Size(172, 22);
+            this.loadingItem.Text = "加载文档";
+            // 
+            // addDocItem
+            // 
+            this.addDocItem.Name = "addDocItem";
+            this.addDocItem.Size = new System.Drawing.Size(172, 22);
+            this.addDocItem.Text = "录入已有文档";
+            // 
+            // importItem
+            // 
+            this.importItem.Name = "importItem";
+            this.importItem.Size = new System.Drawing.Size(172, 22);
+            this.importItem.Text = "文档批量导入";
+            // 
+            // downDocItem
+            // 
+            this.downDocItem.Name = "downDocItem";
+            this.downDocItem.Size = new System.Drawing.Size(172, 22);
+            this.downDocItem.Text = "下载";
+            // 
+            // updateDocTreeStatusItem
+            // 
+            this.updateDocTreeStatusItem.Name = "updateDocTreeStatusItem";
+            this.updateDocTreeStatusItem.Size = new System.Drawing.Size(172, 22);
+            this.updateDocTreeStatusItem.Text = "更新文档状态";
+            // 
+            // grantDocItem
+            // 
+            this.grantDocItem.Name = "grantDocItem";
+            this.grantDocItem.Size = new System.Drawing.Size(172, 22);
+            this.grantDocItem.Text = "发放文档";
+            // 
+            // permissionApplyDocItem
+            // 
+            this.permissionApplyDocItem.Name = "permissionApplyDocItem";
+            this.permissionApplyDocItem.Size = new System.Drawing.Size(172, 22);
+            this.permissionApplyDocItem.Text = "权限申请";
+            // 
+            // scanDocGrantRItem
+            // 
+            this.scanDocGrantRItem.Name = "scanDocGrantRItem";
+            this.scanDocGrantRItem.Size = new System.Drawing.Size(172, 22);
+            this.scanDocGrantRItem.Text = "查看关联发放规则";
+            // 
+            // addDocTreeItem
+            // 
+            this.addDocTreeItem.Name = "addDocTreeItem";
+            this.addDocTreeItem.Size = new System.Drawing.Size(172, 22);
+            this.addDocTreeItem.Text = "增加文档分类";
+            // 
+            // updatedocTreeItem
+            // 
+            this.updatedocTreeItem.Name = "updatedocTreeItem";
+            this.updatedocTreeItem.Size = new System.Drawing.Size(172, 22);
+            this.updatedocTreeItem.Text = "修改文档分类";
+            // 
+            // delDocTreeItem
+            // 
+            this.delDocTreeItem.Name = "delDocTreeItem";
+            this.delDocTreeItem.Size = new System.Drawing.Size(172, 22);
+            this.delDocTreeItem.Text = "删除文档分类";
+            // 
+            // scanDocTypeItem
+            // 
+            this.scanDocTypeItem.Name = "scanDocTypeItem";
+            this.scanDocTypeItem.Size = new System.Drawing.Size(172, 22);
+            this.scanDocTypeItem.Text = "查看文档分类";
+            // 
+            // execlEmportItem
+            // 
+            this.execlEmportItem.Name = "execlEmportItem";
+            this.execlEmportItem.Size = new System.Drawing.Size(172, 22);
+            this.execlEmportItem.Text = "Excel导出";
+            // 
+            // userImportItem
+            // 
+            this.userImportItem.Name = "userImportItem";
+            this.userImportItem.Size = new System.Drawing.Size(172, 22);
+            this.userImportItem.Text = "自定义导出";
+            // 
+            // docCountStaItem
+            // 
+            this.docCountStaItem.Name = "docCountStaItem";
+            this.docCountStaItem.Size = new System.Drawing.Size(172, 22);
+            this.docCountStaItem.Text = "文档统计";
+            // 
             // DocManageTool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -716,6 +1100,7 @@
             this.Controls.Add(this.barDockControlTop);
             this.Name = "DocManageTool";
             this.Text = "文档管理器";
+            this.Load += new System.EventHandler(this.DocManageTool_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -723,6 +1108,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemComboBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPictureEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
@@ -731,7 +1119,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            this.contextMenuFile.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            this.contextMenuFiles.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -796,13 +1186,57 @@
         private DevExpress.XtraEditors.CheckEdit checkEdit6;
         private DevExpress.XtraEditors.CheckEdit checkEdit5;
         private DevExpress.XtraEditors.CheckEdit checkEdit4;
-        private DevExpress.XtraTreeList.TreeList treeList1;
         private DevExpress.XtraEditors.CheckEdit checkEdit3;
         private DevExpress.XtraEditors.CheckEdit checkEdit2;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton btnScan;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraTreeList.TreeList treeList1;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn DocName;
+        private System.Windows.Forms.ContextMenuStrip contextMenuFile;
+        private System.Windows.Forms.ToolStripMenuItem cutItem;
+        private System.Windows.Forms.ToolStripMenuItem controlBrowseItem;
+        private System.Windows.Forms.ToolStripMenuItem browseItem;
+        private System.Windows.Forms.ToolStripMenuItem downItem;
+        private System.Windows.Forms.ToolStripMenuItem alterDocumentItem;
+        private System.Windows.Forms.ToolStripMenuItem delDocumentItem;
+        private System.Windows.Forms.ToolStripMenuItem pigeonholeItem;
+        private System.Windows.Forms.ToolStripMenuItem openWithItem;
+        private System.Windows.Forms.ToolStripMenuItem updateDocStatusItem;
+        private System.Windows.Forms.ToolStripMenuItem permissionApplyItem;
+        private System.Windows.Forms.ToolStripMenuItem prinApplyItem;
+        private System.Windows.Forms.ToolStripMenuItem grantItem;
+        private System.Windows.Forms.ToolStripMenuItem grantHistoryItem;
+        private System.Windows.Forms.ToolStripMenuItem docPropertyItem;
+        private System.Windows.Forms.ToolStripMenuItem updateHistoryItem;
+        private System.Windows.Forms.ToolStripMenuItem relationDocItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuFiles;
+        private System.Windows.Forms.ToolStripMenuItem cutFileItem;
+        private System.Windows.Forms.ToolStripMenuItem pasteItem;
+        private System.Windows.Forms.ToolStripMenuItem copyDocClassItem;
+        private System.Windows.Forms.ToolStripMenuItem expandAllItem;
+        private System.Windows.Forms.ToolStripMenuItem collapseAllItem;
+        private System.Windows.Forms.ToolStripMenuItem loadingItem;
+        private System.Windows.Forms.ToolStripMenuItem addDocItem;
+        private System.Windows.Forms.ToolStripMenuItem importItem;
+        private System.Windows.Forms.ToolStripMenuItem downDocItem;
+        private System.Windows.Forms.ToolStripMenuItem updateDocTreeStatusItem;
+        private System.Windows.Forms.ToolStripMenuItem grantDocItem;
+        private System.Windows.Forms.ToolStripMenuItem permissionApplyDocItem;
+        private System.Windows.Forms.ToolStripMenuItem scanDocGrantRItem;
+        private System.Windows.Forms.ToolStripMenuItem addDocTreeItem;
+        private System.Windows.Forms.ToolStripMenuItem updatedocTreeItem;
+        private System.Windows.Forms.ToolStripMenuItem delDocTreeItem;
+        private System.Windows.Forms.ToolStripMenuItem scanDocTypeItem;
+        private System.Windows.Forms.ToolStripMenuItem execlEmportItem;
+        private System.Windows.Forms.ToolStripMenuItem userImportItem;
+        private System.Windows.Forms.ToolStripMenuItem docCountStaItem;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn DocID;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn DocType;
+        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemComboBox repositoryItemComboBox1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEdit2;
     }
 }

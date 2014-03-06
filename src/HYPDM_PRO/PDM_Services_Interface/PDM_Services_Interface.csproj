@@ -48,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DocManage\IDocGrantManage.cs" />
+    <Compile Include="DocManage\IDocManageTool.cs" />
+    <Compile Include="DocManage\IDocPropertyBuild.cs" />
+    <Compile Include="DocManage\IDocSecurityLevelBuild.cs" />
+    <Compile Include="DocManage\IDocTemplateCategoryManage.cs" />
     <Compile Include="PartsMange\MaterialBankManage\ICustomExportItem.cs" />
     <Compile Include="PartsMange\MaterialBankManage\IAddType.cs" />
     <Compile Include="PartsMange\MaterialBankManage\IAddMaterialInfor.cs" />

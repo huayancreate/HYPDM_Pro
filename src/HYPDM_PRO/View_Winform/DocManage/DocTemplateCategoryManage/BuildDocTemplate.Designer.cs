@@ -29,44 +29,44 @@
         private void InitializeComponent()
         {
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCannel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.textEdit9 = new DevExpress.XtraEditors.TextEdit();
+            this.txtTemplateStatus = new DevExpress.XtraEditors.TextEdit();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit8 = new DevExpress.XtraEditors.TextEdit();
+            this.txtModifyCount = new DevExpress.XtraEditors.TextEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
+            this.txtModifyDate = new DevExpress.XtraEditors.TextEdit();
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
+            this.txtCreateUser = new DevExpress.XtraEditors.TextEdit();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
+            this.txtTemplateType = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.txtTemplateId = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.btnBrown = new DevExpress.XtraEditors.SimpleButton();
+            this.txtFilePath = new DevExpress.XtraEditors.TextEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.txtBreadth = new DevExpress.XtraEditors.TextEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.txtTemplateName = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateStatus.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtModifyCount.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtModifyDate.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreateUser.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateType.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateId.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtFilePath.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBreadth.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateName.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -74,8 +74,8 @@
             this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.simpleButton2);
+            this.panelControl1.Controls.Add(this.btnCannel);
+            this.panelControl1.Controls.Add(this.btnSave);
             this.panelControl1.Controls.Add(this.groupControl2);
             this.panelControl1.Controls.Add(this.groupControl1);
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
@@ -83,40 +83,42 @@
             this.panelControl1.Size = new System.Drawing.Size(388, 412);
             this.panelControl1.TabIndex = 0;
             // 
-            // simpleButton3
+            // btnCannel
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(311, 382);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton3.TabIndex = 7;
-            this.simpleButton3.Text = "取消";
+            this.btnCannel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCannel.Location = new System.Drawing.Point(311, 382);
+            this.btnCannel.Name = "btnCannel";
+            this.btnCannel.Size = new System.Drawing.Size(75, 23);
+            this.btnCannel.TabIndex = 7;
+            this.btnCannel.Text = "取消";
+            this.btnCannel.Click += new System.EventHandler(this.btnCannel_Click);
             // 
-            // simpleButton2
+            // btnSave
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(222, 382);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
-            this.simpleButton2.TabIndex = 6;
-            this.simpleButton2.Text = "确定";
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSave.Location = new System.Drawing.Point(222, 382);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.TabIndex = 6;
+            this.btnSave.Text = "确定";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // groupControl2
             // 
             this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl2.Controls.Add(this.textEdit9);
+            this.groupControl2.Controls.Add(this.txtTemplateStatus);
             this.groupControl2.Controls.Add(this.labelControl9);
-            this.groupControl2.Controls.Add(this.textEdit8);
+            this.groupControl2.Controls.Add(this.txtModifyCount);
             this.groupControl2.Controls.Add(this.labelControl8);
-            this.groupControl2.Controls.Add(this.textEdit7);
+            this.groupControl2.Controls.Add(this.txtModifyDate);
             this.groupControl2.Controls.Add(this.labelControl7);
-            this.groupControl2.Controls.Add(this.textEdit6);
+            this.groupControl2.Controls.Add(this.txtCreateUser);
             this.groupControl2.Controls.Add(this.labelControl6);
-            this.groupControl2.Controls.Add(this.textEdit5);
+            this.groupControl2.Controls.Add(this.txtTemplateType);
             this.groupControl2.Controls.Add(this.labelControl5);
-            this.groupControl2.Controls.Add(this.textEdit4);
+            this.groupControl2.Controls.Add(this.txtTemplateId);
             this.groupControl2.Controls.Add(this.labelControl4);
             this.groupControl2.Location = new System.Drawing.Point(2, 146);
             this.groupControl2.Name = "groupControl2";
@@ -124,15 +126,15 @@
             this.groupControl2.TabIndex = 5;
             this.groupControl2.Text = "相关属性";
             // 
-            // textEdit9
+            // txtTemplateStatus
             // 
-            this.textEdit9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtTemplateStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit9.Location = new System.Drawing.Point(79, 181);
-            this.textEdit9.Name = "textEdit9";
-            this.textEdit9.Size = new System.Drawing.Size(297, 20);
-            this.textEdit9.TabIndex = 15;
+            this.txtTemplateStatus.Location = new System.Drawing.Point(79, 181);
+            this.txtTemplateStatus.Name = "txtTemplateStatus";
+            this.txtTemplateStatus.Size = new System.Drawing.Size(297, 20);
+            this.txtTemplateStatus.TabIndex = 15;
             // 
             // labelControl9
             // 
@@ -144,15 +146,15 @@
             this.labelControl9.TabIndex = 14;
             this.labelControl9.Text = "模板状态：";
             // 
-            // textEdit8
+            // txtModifyCount
             // 
-            this.textEdit8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtModifyCount.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit8.Location = new System.Drawing.Point(79, 155);
-            this.textEdit8.Name = "textEdit8";
-            this.textEdit8.Size = new System.Drawing.Size(297, 20);
-            this.textEdit8.TabIndex = 13;
+            this.txtModifyCount.Location = new System.Drawing.Point(79, 155);
+            this.txtModifyCount.Name = "txtModifyCount";
+            this.txtModifyCount.Size = new System.Drawing.Size(297, 20);
+            this.txtModifyCount.TabIndex = 13;
             // 
             // labelControl8
             // 
@@ -164,15 +166,15 @@
             this.labelControl8.TabIndex = 12;
             this.labelControl8.Text = "修改次数：";
             // 
-            // textEdit7
+            // txtModifyDate
             // 
-            this.textEdit7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtModifyDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit7.Location = new System.Drawing.Point(80, 128);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(298, 20);
-            this.textEdit7.TabIndex = 11;
+            this.txtModifyDate.Location = new System.Drawing.Point(80, 128);
+            this.txtModifyDate.Name = "txtModifyDate";
+            this.txtModifyDate.Size = new System.Drawing.Size(298, 20);
+            this.txtModifyDate.TabIndex = 11;
             // 
             // labelControl7
             // 
@@ -184,15 +186,15 @@
             this.labelControl7.TabIndex = 10;
             this.labelControl7.Text = "修改时间：";
             // 
-            // textEdit6
+            // txtCreateUser
             // 
-            this.textEdit6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtCreateUser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit6.Location = new System.Drawing.Point(80, 99);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(297, 20);
-            this.textEdit6.TabIndex = 9;
+            this.txtCreateUser.Location = new System.Drawing.Point(80, 99);
+            this.txtCreateUser.Name = "txtCreateUser";
+            this.txtCreateUser.Size = new System.Drawing.Size(297, 20);
+            this.txtCreateUser.TabIndex = 9;
             // 
             // labelControl6
             // 
@@ -204,15 +206,15 @@
             this.labelControl6.TabIndex = 8;
             this.labelControl6.Text = "创建者：";
             // 
-            // textEdit5
+            // txtTemplateType
             // 
-            this.textEdit5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtTemplateType.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit5.Location = new System.Drawing.Point(80, 71);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(297, 20);
-            this.textEdit5.TabIndex = 7;
+            this.txtTemplateType.Location = new System.Drawing.Point(80, 71);
+            this.txtTemplateType.Name = "txtTemplateType";
+            this.txtTemplateType.Size = new System.Drawing.Size(297, 20);
+            this.txtTemplateType.TabIndex = 7;
             // 
             // labelControl5
             // 
@@ -224,15 +226,15 @@
             this.labelControl5.TabIndex = 6;
             this.labelControl5.Text = "模板分类：";
             // 
-            // textEdit4
+            // txtTemplateId
             // 
-            this.textEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtTemplateId.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit4.Location = new System.Drawing.Point(81, 45);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(297, 20);
-            this.textEdit4.TabIndex = 5;
+            this.txtTemplateId.Location = new System.Drawing.Point(81, 45);
+            this.txtTemplateId.Name = "txtTemplateId";
+            this.txtTemplateId.Size = new System.Drawing.Size(297, 20);
+            this.txtTemplateId.TabIndex = 5;
             // 
             // labelControl4
             // 
@@ -249,12 +251,12 @@
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.simpleButton1);
-            this.groupControl1.Controls.Add(this.textEdit3);
+            this.groupControl1.Controls.Add(this.btnBrown);
+            this.groupControl1.Controls.Add(this.txtFilePath);
             this.groupControl1.Controls.Add(this.labelControl3);
-            this.groupControl1.Controls.Add(this.textEdit2);
+            this.groupControl1.Controls.Add(this.txtBreadth);
             this.groupControl1.Controls.Add(this.labelControl2);
-            this.groupControl1.Controls.Add(this.textEdit1);
+            this.groupControl1.Controls.Add(this.txtTemplateName);
             this.groupControl1.Controls.Add(this.labelControl1);
             this.groupControl1.Location = new System.Drawing.Point(2, 7);
             this.groupControl1.Name = "groupControl1";
@@ -262,23 +264,24 @@
             this.groupControl1.TabIndex = 4;
             this.groupControl1.Text = "输入信息";
             // 
-            // simpleButton1
+            // btnBrown
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(316, 82);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "浏览";
+            this.btnBrown.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnBrown.Location = new System.Drawing.Point(316, 82);
+            this.btnBrown.Name = "btnBrown";
+            this.btnBrown.Size = new System.Drawing.Size(59, 23);
+            this.btnBrown.TabIndex = 1;
+            this.btnBrown.Text = "浏览";
+            this.btnBrown.Click += new System.EventHandler(this.btnBrown_Click);
             // 
-            // textEdit3
+            // txtFilePath
             // 
-            this.textEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtFilePath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.textEdit3.Location = new System.Drawing.Point(78, 85);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(223, 20);
-            this.textEdit3.TabIndex = 5;
+            this.txtFilePath.Location = new System.Drawing.Point(78, 85);
+            this.txtFilePath.Name = "txtFilePath";
+            this.txtFilePath.Size = new System.Drawing.Size(223, 20);
+            this.txtFilePath.TabIndex = 5;
             // 
             // labelControl3
             // 
@@ -288,17 +291,14 @@
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(67, 14);
             this.labelControl3.TabIndex = 4;
-            this.labelControl3.Text = "*模板幅面：";
+            this.labelControl3.Text = "*上传文件：";
             // 
-            // textEdit2
+            // txtBreadth
             // 
-            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit2.Location = new System.Drawing.Point(78, 59);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(297, 20);
-            this.textEdit2.TabIndex = 3;
+            this.txtBreadth.Location = new System.Drawing.Point(78, 59);
+            this.txtBreadth.Name = "txtBreadth";
+            this.txtBreadth.Size = new System.Drawing.Size(297, 20);
+            this.txtBreadth.TabIndex = 3;
             // 
             // labelControl2
             // 
@@ -310,15 +310,15 @@
             this.labelControl2.TabIndex = 2;
             this.labelControl2.Text = "*模板幅面：";
             // 
-            // textEdit1
+            // txtTemplateName
             // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.txtTemplateName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit1.Location = new System.Drawing.Point(78, 33);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(297, 20);
-            this.textEdit1.TabIndex = 1;
+            this.txtTemplateName.Location = new System.Drawing.Point(78, 33);
+            this.txtTemplateName.Name = "txtTemplateName";
+            this.txtTemplateName.Size = new System.Drawing.Size(297, 20);
+            this.txtTemplateName.TabIndex = 1;
             // 
             // labelControl1
             // 
@@ -338,23 +338,24 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "BuildDocTemplate";
             this.Text = "创建文档模板";
+            this.Load += new System.EventHandler(this.BuildDocTemplate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit8.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateStatus.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtModifyCount.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtModifyDate.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreateUser.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateType.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateId.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtFilePath.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBreadth.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtTemplateName.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -362,28 +363,28 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton btnCannel;
+        private DevExpress.XtraEditors.SimpleButton btnSave;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit9;
+        private DevExpress.XtraEditors.TextEdit txtTemplateStatus;
         private DevExpress.XtraEditors.LabelControl labelControl9;
-        private DevExpress.XtraEditors.TextEdit textEdit8;
+        private DevExpress.XtraEditors.TextEdit txtModifyCount;
         private DevExpress.XtraEditors.LabelControl labelControl8;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
+        private DevExpress.XtraEditors.TextEdit txtModifyDate;
         private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
+        private DevExpress.XtraEditors.TextEdit txtCreateUser;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
+        private DevExpress.XtraEditors.TextEdit txtTemplateType;
         private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit txtTemplateId;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.SimpleButton btnBrown;
+        private DevExpress.XtraEditors.TextEdit txtFilePath;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit txtBreadth;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtTemplateName;
         private DevExpress.XtraEditors.LabelControl labelControl1;
 
     }
