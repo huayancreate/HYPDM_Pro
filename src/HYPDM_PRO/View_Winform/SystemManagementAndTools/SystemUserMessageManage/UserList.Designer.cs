@@ -38,7 +38,6 @@
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealName_TextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -85,13 +84,13 @@
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit = new DevExpress.XtraEditors.LookUpEdit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealName_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit.Properties)).BeginInit();
@@ -102,6 +101,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -152,13 +152,13 @@
             this.panelControl2.Controls.Add(this.labelControl6);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit);
             this.panelControl2.Controls.Add(this.labelControl5);
-            this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit);
             this.panelControl2.Controls.Add(this.labelControl4);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealName_TextEdit);
             this.panelControl2.Controls.Add(this.labelControl3);
             this.panelControl2.Controls.Add(this.labelControl2);
             this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit);
+            this.panelControl2.Controls.Add(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit);
             this.panelControl2.Location = new System.Drawing.Point(5, 5);
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(627, 61);
@@ -210,22 +210,6 @@
             this.labelControl5.Size = new System.Drawing.Size(60, 14);
             this.labelControl5.TabIndex = 19;
             this.labelControl5.Text = "邮箱地址：";
-            // 
-            // SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit
-            // 
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Location = new System.Drawing.Point(496, 7);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdi" +
-                "t";
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.Items.AddRange(new object[] {
-            "全部",
-            "未审核",
-            "审核通过"});
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Size = new System.Drawing.Size(126, 20);
-            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.TabIndex = 9;
             // 
             // SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit
             // 
@@ -680,6 +664,21 @@
             this.barDockControlRight.Location = new System.Drawing.Point(584, 0);
             this.barDockControlRight.Size = new System.Drawing.Size(51, 459);
             // 
+            // SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit
+            // 
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.EditValue = "ComboBoxEdit";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Location = new System.Drawing.Point(496, 7);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Name = "SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdi" +
+                "t";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.NullText = "null";
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.PopupSizeable = false;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Size = new System.Drawing.Size(126, 20);
+            this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.TabIndex = 9;
+            // 
             // UserList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -700,7 +699,6 @@
             this.panelControl2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserStatus_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_Email_TextEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_MobPhone_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_RealName_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit.Properties)).EndInit();
@@ -711,6 +709,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -742,7 +741,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
-        private DevExpress.XtraEditors.ComboBoxEdit SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_SystemUserMessageManage_UserList_UserCode_TextEdit;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl2;
@@ -773,6 +771,7 @@
         private DevExpress.XtraBars.BarButtonItem barButtonItem_Add;
         private DevExpress.XtraBars.BarButtonItem barButtonItem_Details;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn17;
+        private DevExpress.XtraEditors.LookUpEdit SystemManagementAndTools_SystemUserMessageManage_UserList_AuditStatus_ComboBoxEdit;
 
     }
 }

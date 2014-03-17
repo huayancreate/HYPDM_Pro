@@ -1360,6 +1360,7 @@
     <Compile Include="SystemManagementAndTools\CodeSchemeManage\ModifyScheme.Designer.cs">
       <DependentUpon>ModifyScheme.cs</DependentUpon>
     </Compile>
+    <Compile Include="SystemManagementAndTools\CommonMethod.cs" />
     <Compile Include="SystemManagementAndTools\FTPSet\FTPSet.cs">
       <SubType>Form</SubType>
     </Compile>

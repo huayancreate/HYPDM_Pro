@@ -87,6 +87,9 @@
             // 
             this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl2.commonMark = null;
+            this.conmmonListBoxControl2.conmmonID = 0;
+            this.conmmonListBoxControl2.controlText = null;
             this.conmmonListBoxControl2.Location = new System.Drawing.Point(461, 300);
             this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
             this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 251);
@@ -95,6 +98,9 @@
             // conmmonListBoxControl1
             // 
             this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.conmmonListBoxControl1.commonMark = null;
+            this.conmmonListBoxControl1.conmmonID = 0;
+            this.conmmonListBoxControl1.controlText = null;
             this.conmmonListBoxControl1.Location = new System.Drawing.Point(461, 0);
             this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
             this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 290);
@@ -131,7 +137,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Location = new System.Drawing.Point(1, 0);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetail" +
                 "s_GroupControl";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Size = new System.Drawing.Size(408, 551);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Size = new System.Drawing.Size(439, 551);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.TabIndex = 9;
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationDetails_GroupControl.Text = "组织机构详细信息";
             // 
@@ -145,13 +151,13 @@
                 "omboBoxEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Size = new System.Drawing.Size(251, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.Size = new System.Drawing.Size(282, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationType_ComboBoxEdit.TabIndex = 30;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Location = new System.Drawing.Point(269, 525);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Location = new System.Drawing.Point(300, 525);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.Size = new System.Drawing.Size(59, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Save_simpleButton.TabIndex = 29;
@@ -175,7 +181,7 @@
                 "ComboBoxEdit";
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Size = new System.Drawing.Size(251, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.Size = new System.Drawing.Size(282, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_SuperOrganization_ComboBoxEdit.TabIndex = 26;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit
@@ -185,7 +191,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Location = new System.Drawing.Point(80, 339);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddres" +
                 "s_TextEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationAddress_TextEdit.TabIndex = 24;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit
@@ -195,7 +201,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Location = new System.Drawing.Point(80, 306);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdi" +
                 "t";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyTime_TextEdit.TabIndex = 23;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit
@@ -205,7 +211,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Location = new System.Drawing.Point(80, 270);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdi" +
                 "t";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_ModifyUser_TextEdit.TabIndex = 22;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit
@@ -215,7 +221,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Location = new System.Drawing.Point(80, 239);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdi" +
                 "t";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateTime_TextEdit.TabIndex = 21;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit
@@ -225,7 +231,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Location = new System.Drawing.Point(80, 206);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdi" +
                 "t";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_CreateUser_TextEdit.TabIndex = 20;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit
@@ -234,7 +240,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.Location = new System.Drawing.Point(80, 135);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_StorKey_TextEdit.TabIndex = 19;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit
@@ -244,7 +250,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Location = new System.Drawing.Point(80, 98);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber" +
                 "_TextEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationNumber_TextEdit.TabIndex = 18;
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit
@@ -254,7 +260,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Location = new System.Drawing.Point(80, 26);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_T" +
                 "extEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Size = new System.Drawing.Size(250, 20);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.Size = new System.Drawing.Size(281, 20);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_OrganizationName_TextEdit.TabIndex = 17;
             // 
             // labelControl11
@@ -343,7 +349,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Location = new System.Drawing.Point(80, 375);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Name = "SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Size = new System.Drawing.Size(250, 144);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.Size = new System.Drawing.Size(281, 144);
             this.SystemManagementAndTools_OrganizationManage_OrganizationManage_Remark_MemoEdit.TabIndex = 31;
             // 
             // OrganizationManage

@@ -43,8 +43,11 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl = new DevExpress.XtraEditors.SimpleButton();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl = new DevExpress.XtraEditors.GroupControl();
-            this.treeList2 = new DevExpress.XtraTreeList.TreeList();
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.Coding = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -54,8 +57,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -184,7 +186,6 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Size = new System.Drawing.Size(59, 23);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.TabIndex = 4;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Text = "查询(Q)";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Click += new System.EventHandler(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl_Click);
             // 
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_AddOrganization_SimpleButtonl
             // 
@@ -201,8 +202,7 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.treeList2);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Controls.Add(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Location = new System.Drawing.Point(0, 107);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListM" +
                 "essage_GroupControl";
@@ -210,23 +210,52 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.TabIndex = 8;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.Text = "组织结构列表信息";
             // 
-            // treeList2
+            // SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList
             // 
-            this.treeList2.Location = new System.Drawing.Point(353, 130);
-            this.treeList2.Name = "treeList2";
-            this.treeList2.OptionsPrint.UsePrintStyles = true;
-            this.treeList2.Size = new System.Drawing.Size(8, 8);
-            this.treeList2.TabIndex = 1;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.name,
+            this.Coding,
+            this.treeListColumn3,
+            this.treeListColumn4});
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.KeyFieldName = "Id";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Location = new System.Drawing.Point(2, 22);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Name = "SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_Tre" +
+                "eList";
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsBehavior.AllowIndeterminateCheckState = true;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsView.ShowCheckBoxes = true;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Size = new System.Drawing.Size(648, 333);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.TabIndex = 0;
             // 
-            // SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList
+            // name
             // 
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Location = new System.Drawing.Point(2, 22);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListM" +
-                "essage_TreeList";
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.OptionsPrint.UsePrintStyles = true;
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.Size = new System.Drawing.Size(648, 333);
-            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList.TabIndex = 0;
+            this.name.Caption = "机构名称";
+            this.name.FieldName = "name";
+            this.name.MinWidth = 32;
+            this.name.Name = "name";
+            this.name.Visible = true;
+            this.name.VisibleIndex = 0;
+            // 
+            // Coding
+            // 
+            this.Coding.Caption = "机构编码";
+            this.Coding.FieldName = "Coding";
+            this.Coding.Name = "Coding";
+            this.Coding.Visible = true;
+            this.Coding.VisibleIndex = 1;
+            // 
+            // treeListColumn3
+            // 
+            this.treeListColumn3.Caption = "ID";
+            this.treeListColumn3.FieldName = "ID";
+            this.treeListColumn3.Name = "treeListColumn3";
+            // 
+            // treeListColumn4
+            // 
+            this.treeListColumn4.Caption = "ParentID";
+            this.treeListColumn4.FieldName = "ParentID";
+            this.treeListColumn4.Name = "treeListColumn4";
             // 
             // OrganizationList
             // 
@@ -236,6 +265,7 @@
             this.Controls.Add(this.panelControl1);
             this.Name = "OrganizationList";
             this.Text = "组织机构列表";
+            this.Load += new System.EventHandler(this.OrganizationList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
@@ -246,8 +276,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.treeList2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -261,8 +290,6 @@
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_DeleteOrganization_SimpleButtonl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_CancelOrganization_SimpleButtonl;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_OrganizationManage_OrganizationMessage_ConfirmOrganization_SimpleButtonl;
-        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_TreeList;
-        private DevExpress.XtraTreeList.TreeList treeList2;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationName_TextEdit;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl2;
@@ -271,5 +298,10 @@
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationCode_TextEdit;
         private CommonTemplet.paging paging1;
+        private DevExpress.XtraTreeList.TreeList SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn name;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Coding;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn3;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn4;
     }
 }

@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using WcfExtension;
 using PDM_Services_Interface;
+using PDM_Entity.SystemManagementAndTools;
 
 namespace View_Winform.SystemManagementAndTools.OrganizationManage
 {
@@ -18,11 +19,12 @@ namespace View_Winform.SystemManagementAndTools.OrganizationManage
             InitializeComponent();
         }
 
-        private void SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl_Click(object sender, EventArgs e)
-        {
-            bool ok=WcfServiceLocator.Create<IOrganizationManage>().AddOrganization();
-            MessageBox.Show(ok.ToString());
-        }
-
+       private void OrganizationList_Load(object sender, EventArgs e)
+       {
+           SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.DataSource = WcfServiceLocator.Create<IOrganizationManage>().findOrganization("");
+       }
+       
+        
+     
     }
 }

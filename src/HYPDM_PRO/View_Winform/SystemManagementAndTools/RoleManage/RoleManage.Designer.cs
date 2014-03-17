@@ -34,10 +34,10 @@
             this.SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.conmmonListBoxControl4 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl3 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl2 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
-            this.conmmonListBoxControl1 = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl = new View_Winform.CommonTemplet.ConmmonListBoxControl();
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl = new View_Winform.CommonTemplet.ConmmonListBoxControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit.Properties)).BeginInit();
@@ -100,51 +100,55 @@
             this.labelControl6.TabIndex = 86;
             this.labelControl6.Text = "名称(*):";
             // 
-            // conmmonListBoxControl4
+            // SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl
             // 
-            this.conmmonListBoxControl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl4.Location = new System.Drawing.Point(2, 442);
-            this.conmmonListBoxControl4.Name = "conmmonListBoxControl4";
-            this.conmmonListBoxControl4.Size = new System.Drawing.Size(452, 236);
-            this.conmmonListBoxControl4.TabIndex = 109;
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl.controlText = null;
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl.Location = new System.Drawing.Point(2, 442);
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl.Size = new System.Drawing.Size(452, 236);
+            this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl.TabIndex = 109;
             // 
-            // conmmonListBoxControl3
+            // SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl
             // 
-            this.conmmonListBoxControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl3.Location = new System.Drawing.Point(2, 200);
-            this.conmmonListBoxControl3.Name = "conmmonListBoxControl3";
-            this.conmmonListBoxControl3.Size = new System.Drawing.Size(452, 236);
-            this.conmmonListBoxControl3.TabIndex = 108;
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl.controlText = null;
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl.Location = new System.Drawing.Point(2, 200);
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl.Size = new System.Drawing.Size(452, 236);
+            this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl.TabIndex = 108;
             // 
-            // conmmonListBoxControl2
+            // SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl
             // 
-            this.conmmonListBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl2.Location = new System.Drawing.Point(460, 377);
-            this.conmmonListBoxControl2.Name = "conmmonListBoxControl2";
-            this.conmmonListBoxControl2.Size = new System.Drawing.Size(250, 301);
-            this.conmmonListBoxControl2.TabIndex = 107;
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl.controlText = null;
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl.Location = new System.Drawing.Point(460, 377);
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl.Size = new System.Drawing.Size(250, 301);
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl.TabIndex = 107;
             // 
-            // conmmonListBoxControl1
+            // SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl
             // 
-            this.conmmonListBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.conmmonListBoxControl1.Location = new System.Drawing.Point(463, 2);
-            this.conmmonListBoxControl1.Name = "conmmonListBoxControl1";
-            this.conmmonListBoxControl1.Size = new System.Drawing.Size(250, 369);
-            this.conmmonListBoxControl1.TabIndex = 106;
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl.controlText = null;
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl.Location = new System.Drawing.Point(463, 2);
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl.Name = "SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl";
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl.Size = new System.Drawing.Size(250, 369);
+            this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl.TabIndex = 106;
             // 
             // RoleManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 672);
-            this.Controls.Add(this.conmmonListBoxControl4);
-            this.Controls.Add(this.conmmonListBoxControl3);
-            this.Controls.Add(this.conmmonListBoxControl2);
-            this.Controls.Add(this.conmmonListBoxControl1);
+            this.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl);
+            this.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl);
+            this.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl);
+            this.Controls.Add(this.SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl);
             this.Controls.Add(this.groupControl1);
             this.Name = "RoleManage";
             this.Text = "角色信息";
@@ -166,9 +170,9 @@
         private DevExpress.XtraEditors.TextEdit SystemManagementAndTools_RoleManage_RoleManage_Name_TextEidt;
         private DevExpress.XtraEditors.MemoEdit SystemManagementAndTools_RoleManage_RoleManage_Describe_MemoEdit;
         private DevExpress.XtraEditors.SimpleButton SystemManagementAndTools_RoleManage_RoleManage_Save_SimpleButton;
-        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl1;
-        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl2;
-        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl3;
-        private CommonTemplet.ConmmonListBoxControl conmmonListBoxControl4;
+        private CommonTemplet.ConmmonListBoxControl SystemManagementAndTools_RoleManage_RoleList_RelatedUser_conmmonListBoxControl;
+        private CommonTemplet.ConmmonListBoxControl SystemManagementAndTools_RoleManage_RoleList_RelatedGroup_conmmonListBoxControl;
+        private CommonTemplet.ConmmonListBoxControl SystemManagementAndTools_RoleManage_RoleList_OperationList_conmmonListBoxControl;
+        private CommonTemplet.ConmmonListBoxControl SystemManagementAndTools_RoleManage_RoleList_MenuList_conmmonListBoxControl;
     }
 }

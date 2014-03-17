@@ -15,7 +15,9 @@ namespace View_Winform.SystemManagementAndTools.UserGroupManage
 {
     public partial class UserGroupList : DevExpress.XtraEditors.XtraForm
     {
+        public CommonMethod commonMethod = new CommonMethod();
         public Group group;
+        public int roleID;
         public UserGroupList()
         {
             InitializeComponent();
@@ -25,6 +27,14 @@ namespace View_Winform.SystemManagementAndTools.UserGroupManage
         {
             String condition = SystemManagementAndTools_RoleManage_RoleList_RoleName_TextEdit.Text;
             SystemManagementAndTools_UserGroupManage_UserGroupList_UserGroupList_GridControl.DataSource = WcfServiceLocator.Create<IUserGroupManage>().findGroup(condition);
+            if (this.Tag == "EditRelatedUserGroupWithRole")
+            {
+                MessageBox.Show("s");
+                commonMethod.GridViewCheck(SystemManagementAndTools_UserGroupManage_UserGroupList_UserGroupList_GridView, "rolewithgroup", roleID);
+            
+            }
+            
+
         }
 
         //加载用户组信息

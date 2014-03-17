@@ -35,6 +35,7 @@ namespace PDM_Services_Implementation
             Users user2 = new Users();
             Users user3 = new Users();
 
+            user.id = 1;
             user.login_name = "小徐";
             user.real_name = "查到了";
             user.isChecked = false;
@@ -59,7 +60,7 @@ namespace PDM_Services_Implementation
             user.modify_date = new DateTime();
             user.is_delete = "1";
 
-
+            user1.id = 2;
             user1.login_name = "小宫";
             user1.real_name = "很高兴";
             user1.isChecked = false;
@@ -84,9 +85,9 @@ namespace PDM_Services_Implementation
             user1.modify_date = new DateTime();
             user1.is_delete = "1";
 
-            
-            
-            
+
+
+            user2.id = 3;
             user2.login_name = "威哥";
             user2.real_name = "很吊啊";
             user2.isChecked = false;
@@ -111,6 +112,7 @@ namespace PDM_Services_Implementation
             user2.modify_date = new DateTime();
             user2.is_delete = "1";
 
+            user3.id = 4;
             user3.login_name = "总监";
             user3.real_name = "不满意";
             user3.isChecked = false;
@@ -154,7 +156,7 @@ namespace PDM_Services_Implementation
         {
             return false;
         }
-        public IList<Users> FindRelatedUsersForUserGroup(int groupID)
+        public List<Users> FindRelatedUsersForUserGroup(int groupID)
         {
             
             IList<Users> list = new BindingList<Users>();
@@ -184,6 +186,7 @@ namespace PDM_Services_Implementation
             user.modify_user_id = 1234;
             user.modify_date = new DateTime();
             user.is_delete = "1";
+            user.id = 1;
 
 
             user1.login_name = "小宫";
@@ -209,11 +212,11 @@ namespace PDM_Services_Implementation
             user1.modify_user_id = 1234;
             user1.modify_date = new DateTime();
             user1.is_delete = "1";
-
+            user1.id = 2;
             list.Add(user);
             list.Add(user1);
 
-            return list;
+            return list.ToList();
 
         }
     }

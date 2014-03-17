@@ -226,6 +226,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(746, 482);
             this.Controls.Add(this.panelControl1);
+            this.IsMdiContainer = true;
             this.Name = "OperationList";
             this.Text = "操作列表";
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();

@@ -22,27 +22,28 @@ namespace View_Winform
             UserLookAndFeel.Default.SetSkinStyle("Office 2010 Blue");
 
 
-            Application.Run(new SystemManagementAndTools.UserGroupManage.UserGroupList());
+            //Application.Run(new SystemManagementAndTools.UserGroupManage.UserGroupList());
             
 
-            Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
+            //Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
 
-            //Application.Run(new SystemManagementAndTools.RoleManege.RoleManage());
-            //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationManage()); 
+             //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
+             //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
+               Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationList()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
             //Application.Run(new Test.TestForm());
 
 
-           // Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
+            // Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
 
 
-          //  string path = Application.ExecutablePath + ".config";
-          //  BP.DA.ClassFactory.LoadConfig(path);
-          // BP.SystemConfig.IsBSsystem = false;
-           // FlowCommon common = new FlowCommon();
-           // common.Login("zhoushengyu");
+            //  string path = Application.ExecutablePath + ".config";
+            //  BP.DA.ClassFactory.LoadConfig(path);
+            // BP.SystemConfig.IsBSsystem = false;
+            // FlowCommon common = new FlowCommon();
+            // common.Login("zhoushengyu");
 
-           // Application.Run(new BPM.TestForm());
+            // Application.Run(new BPM.TestForm());
 
             //Application.Run(new LoginForm());
             //Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());

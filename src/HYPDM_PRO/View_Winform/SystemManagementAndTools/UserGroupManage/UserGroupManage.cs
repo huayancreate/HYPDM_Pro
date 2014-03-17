@@ -25,6 +25,7 @@ namespace View_Winform.SystemManagementAndTools.UserGroupManage
         {
             SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.controlText= "包含用户";
             SystemManagementAndTools_UserGroupManage_containedRole_ConmmonListBoxControl.controlText ="包含角色";
+            SystemManagementAndTools_UserGroupManage_containedUser_ConmmonListBoxControl.commonMark = "EditRelatedUsersWithUserGroup";
             if (this.Tag == "Modify")
             {
                 SystemManagementAndTools_UserGroupManage_Name_TextEdit.Text = group.Name;

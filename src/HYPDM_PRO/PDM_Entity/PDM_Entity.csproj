@@ -66,6 +66,10 @@
     <Compile Include="PartsMange\material_attached_property.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\Group.cs" />
+    <Compile Include="SystemManagementAndTools\Menus.cs" />
+    <Compile Include="SystemManagementAndTools\Operate.cs" />
+    <Compile Include="SystemManagementAndTools\Operation.cs" />
+    <Compile Include="SystemManagementAndTools\Organization.cs" />
     <Compile Include="SystemManagementAndTools\Role.cs" />
     <Compile Include="SystemManagementAndTools\Users.cs" />
     <Compile Include="Test\User.cs" />

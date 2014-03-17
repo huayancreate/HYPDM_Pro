@@ -64,15 +64,15 @@ namespace PDM_Server
            // ServerManager.StartService(typeof(AddMaterialProperty));
            // ServerManager.StartService(typeof(MaterialPropertyBuild));
 
-            ServerManager.StartService(typeof(MaterialBankManage));
-            ServerManager.StartService(typeof(MaterialPegging));
+           // ServerManager.StartService(typeof(MaterialBankManage));
+            //ServerManager.StartService(typeof(MaterialPegging));
            // ServerManager.StartService(typeof(AddMaterialProperty));
-            ServerManager.StartService(typeof(MaterialPropertyBuild));
-            ServerManager.StartService(typeof(DocManageTool));
-            ServerManager.StartService(typeof(DocGrantManage));
-            ServerManager.StartService(typeof(DocPropertyBuild));
-            ServerManager.StartService(typeof(DocSecurityLevelBuild));
-            ServerManager.StartService(typeof(DocTemplateCategoryManage));
+            //ServerManager.StartService(typeof(MaterialPropertyBuild));
+           // ServerManager.StartService(typeof(DocManageTool));
+           // ServerManager.StartService(typeof(DocGrantManage));
+           // ServerManager.StartService(typeof(DocPropertyBuild));
+            //ServerManager.StartService(typeof(DocSecurityLevelBuild));
+           // ServerManager.StartService(typeof(DocTemplateCategoryManage));
             SocketServer socket = new SocketServer("127.0.0.1", 7775);
             socket.start();
 

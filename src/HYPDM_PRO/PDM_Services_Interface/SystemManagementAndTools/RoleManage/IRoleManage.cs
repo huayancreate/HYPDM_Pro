@@ -11,6 +11,21 @@ namespace PDM_Services_Interface
     public interface IRoleManage
     {
         [OperationContract]
-        bool AddRole(Role role);// 添加用户
+        bool AddRole(Role role);// 添加角色
+        [OperationContract]
+        IList<Role> findRole(String condition); //查找角色
+        [OperationContract]
+        bool DeleteRole(int roleId);
+        [OperationContract]
+        List<Users> findRelatedUser(int roleId);
+        [OperationContract]
+        List<Group> findRelatedGroup(int roleId);
+        [OperationContract]
+        IList<Operation> findRelatedOperation(int roleId);
+        [OperationContract]
+        IList<Menus> findRelatedMenu(int roleId);
+      
+    
+
     }
 }

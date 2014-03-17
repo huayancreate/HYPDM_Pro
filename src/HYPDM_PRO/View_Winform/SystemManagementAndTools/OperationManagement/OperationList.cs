@@ -23,5 +23,6 @@ namespace View_Winform.SystemManagementAndTools.OperationManagement
             bool ok = WcfServiceLocator.Create<IOperationManagement>().addOperation();
             MessageBox.Show(ok.ToString());
         }
+       
     }
 }

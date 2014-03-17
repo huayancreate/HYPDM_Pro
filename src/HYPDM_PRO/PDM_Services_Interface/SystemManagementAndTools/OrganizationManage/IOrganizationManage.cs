@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ServiceModel;
+using PDM_Entity.SystemManagementAndTools;
 namespace PDM_Services_Interface
 {
     [ServiceContract(Namespace = "PDM_Services_Interface")]
@@ -10,5 +11,8 @@ namespace PDM_Services_Interface
     {
         [OperationContract]
          bool AddOrganization();
+        [OperationContract]
+        List<Organization> findOrganization(String condition);
+        
     }
 }
