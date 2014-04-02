@@ -29,60 +29,58 @@
         private void InitializeComponent()
         {
             this.galleryControlGallery1 = new DevExpress.XtraBars.Ribbon.Gallery.GalleryControlGallery();
-            this.checkButton1 = new DevExpress.XtraEditors.CheckButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.txtBOMName = new DevExpress.XtraEditors.TextEdit();
             this.label1 = new System.Windows.Forms.Label();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
-            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
             this.label2 = new System.Windows.Forms.Label();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
+            this.txtCreateDate = new DevExpress.XtraEditors.TextEdit();
             this.label7 = new System.Windows.Forms.Label();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
+            this.txtBOMVersion = new DevExpress.XtraEditors.TextEdit();
+            this.txtBOMStatus = new DevExpress.XtraEditors.TextEdit();
             this.label6 = new System.Windows.Forms.Label();
-            this.textEdit7 = new DevExpress.XtraEditors.TextEdit();
+            this.txtBOMType = new DevExpress.XtraEditors.TextEdit();
             this.label5 = new System.Windows.Forms.Label();
-            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
+            this.txtCreateUser = new DevExpress.XtraEditors.TextEdit();
             this.label4 = new System.Windows.Forms.Label();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.txtBelongTask = new DevExpress.XtraEditors.TextEdit();
             this.label3 = new System.Windows.Forms.Label();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
+            this.txtDescription = new DevExpress.XtraEditors.MemoEdit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
-            this.galleryControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreateDate.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMVersion.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMStatus.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMType.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreateUser.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBelongTask.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDescription.Properties)).BeginInit();
             this.SuspendLayout();
             // 
-            // checkButton1
+            // simpleButton1
             // 
-            this.checkButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkButton1.Location = new System.Drawing.Point(531, 415);
-            this.checkButton1.Name = "checkButton1";
-            this.checkButton1.Size = new System.Drawing.Size(65, 23);
-            this.checkButton1.TabIndex = 28;
-            this.checkButton1.Text = "关闭(C)";
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Location = new System.Drawing.Point(526, 412);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(65, 23);
+            this.simpleButton1.TabIndex = 28;
+            this.simpleButton1.Text = "关闭(C)";
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(1, 3);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
@@ -101,35 +99,35 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.textEdit1);
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl1.Controls.Add(this.txtBOMName);
             this.panelControl1.Controls.Add(this.label1);
             this.panelControl1.Controls.Add(this.groupControl1);
             this.panelControl1.Controls.Add(this.label2);
-            this.panelControl1.Controls.Add(this.textEdit3);
+            this.panelControl1.Controls.Add(this.txtCreateDate);
             this.panelControl1.Controls.Add(this.label7);
-            this.panelControl1.Controls.Add(this.textEdit6);
-            this.panelControl1.Controls.Add(this.textEdit4);
+            this.panelControl1.Controls.Add(this.txtBOMVersion);
+            this.panelControl1.Controls.Add(this.txtBOMStatus);
             this.panelControl1.Controls.Add(this.label6);
-            this.panelControl1.Controls.Add(this.textEdit7);
+            this.panelControl1.Controls.Add(this.txtBOMType);
             this.panelControl1.Controls.Add(this.label5);
-            this.panelControl1.Controls.Add(this.textEdit5);
+            this.panelControl1.Controls.Add(this.txtCreateUser);
             this.panelControl1.Controls.Add(this.label4);
-            this.panelControl1.Controls.Add(this.textEdit2);
+            this.panelControl1.Controls.Add(this.txtBelongTask);
             this.panelControl1.Controls.Add(this.label3);
             this.panelControl1.Location = new System.Drawing.Point(-1, -2);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(595, 380);
             this.panelControl1.TabIndex = 30;
             // 
-            // textEdit1
+            // txtBOMName
             // 
-            this.textEdit1.Location = new System.Drawing.Point(67, 4);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(178, 20);
-            this.textEdit1.TabIndex = 13;
+            this.txtBOMName.Location = new System.Drawing.Point(67, 4);
+            this.txtBOMName.Name = "txtBOMName";
+            this.txtBOMName.Size = new System.Drawing.Size(178, 20);
+            this.txtBOMName.TabIndex = 13;
             // 
             // label1
             // 
@@ -142,35 +140,15 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.galleryControl1);
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Controls.Add(this.txtDescription);
             this.groupControl1.Location = new System.Drawing.Point(2, 108);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(589, 272);
             this.groupControl1.TabIndex = 26;
             this.groupControl1.Text = "描述信息";
-            // 
-            // galleryControl1
-            // 
-            this.galleryControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.galleryControl1.Controls.Add(this.galleryControlClient1);
-            this.galleryControl1.DesignGalleryGroupIndex = 0;
-            this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(-1, 23);
-            this.galleryControl1.Name = "galleryControl1";
-            this.galleryControl1.Size = new System.Drawing.Size(590, 246);
-            this.galleryControl1.TabIndex = 17;
-            this.galleryControl1.Text = "galleryControl1";
-            // 
-            // galleryControlClient1
-            // 
-            this.galleryControlClient1.GalleryControl = this.galleryControl1;
-            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(569, 242);
             // 
             // label2
             // 
@@ -181,15 +159,16 @@
             this.label2.TabIndex = 14;
             this.label2.Text = "BOM版本";
             // 
-            // textEdit3
+            // txtCreateDate
             // 
-            this.textEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit3.Location = new System.Drawing.Point(396, 59);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(184, 20);
-            this.textEdit3.TabIndex = 16;
+            this.txtCreateDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtCreateDate.Enabled = false;
+            this.txtCreateDate.Location = new System.Drawing.Point(396, 59);
+            this.txtCreateDate.Name = "txtCreateDate";
+            this.txtCreateDate.Size = new System.Drawing.Size(184, 20);
+            this.txtCreateDate.TabIndex = 16;
             // 
             // label7
             // 
@@ -200,25 +179,25 @@
             this.label7.TabIndex = 25;
             this.label7.Text = "创建时间";
             // 
-            // textEdit6
+            // txtBOMVersion
             // 
-            this.textEdit6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit6.Location = new System.Drawing.Point(396, 7);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(184, 20);
-            this.textEdit6.TabIndex = 19;
+            this.txtBOMVersion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBOMVersion.Location = new System.Drawing.Point(396, 7);
+            this.txtBOMVersion.Name = "txtBOMVersion";
+            this.txtBOMVersion.Size = new System.Drawing.Size(184, 20);
+            this.txtBOMVersion.TabIndex = 19;
             // 
-            // textEdit4
+            // txtBOMStatus
             // 
-            this.textEdit4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit4.Location = new System.Drawing.Point(396, 33);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(184, 20);
-            this.textEdit4.TabIndex = 17;
+            this.txtBOMStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtBOMStatus.Location = new System.Drawing.Point(396, 33);
+            this.txtBOMStatus.Name = "txtBOMStatus";
+            this.txtBOMStatus.Size = new System.Drawing.Size(184, 20);
+            this.txtBOMStatus.TabIndex = 17;
             // 
             // label6
             // 
@@ -229,12 +208,12 @@
             this.label6.TabIndex = 24;
             this.label6.Text = "BOM状态";
             // 
-            // textEdit7
+            // txtBOMType
             // 
-            this.textEdit7.Location = new System.Drawing.Point(68, 29);
-            this.textEdit7.Name = "textEdit7";
-            this.textEdit7.Size = new System.Drawing.Size(178, 20);
-            this.textEdit7.TabIndex = 20;
+            this.txtBOMType.Location = new System.Drawing.Point(68, 29);
+            this.txtBOMType.Name = "txtBOMType";
+            this.txtBOMType.Size = new System.Drawing.Size(178, 20);
+            this.txtBOMType.TabIndex = 20;
             // 
             // label5
             // 
@@ -245,12 +224,13 @@
             this.label5.TabIndex = 23;
             this.label5.Text = "所属任务";
             // 
-            // textEdit5
+            // txtCreateUser
             // 
-            this.textEdit5.Location = new System.Drawing.Point(68, 55);
-            this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(178, 20);
-            this.textEdit5.TabIndex = 18;
+            this.txtCreateUser.Enabled = false;
+            this.txtCreateUser.Location = new System.Drawing.Point(68, 55);
+            this.txtCreateUser.Name = "txtCreateUser";
+            this.txtCreateUser.Size = new System.Drawing.Size(178, 20);
+            this.txtCreateUser.TabIndex = 18;
             // 
             // label4
             // 
@@ -261,12 +241,12 @@
             this.label4.TabIndex = 22;
             this.label4.Text = "创建者";
             // 
-            // textEdit2
+            // txtBelongTask
             // 
-            this.textEdit2.Location = new System.Drawing.Point(67, 82);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(178, 20);
-            this.textEdit2.TabIndex = 15;
+            this.txtBelongTask.Location = new System.Drawing.Point(67, 82);
+            this.txtBelongTask.Name = "txtBelongTask";
+            this.txtBelongTask.Size = new System.Drawing.Size(178, 20);
+            this.txtBelongTask.TabIndex = 15;
             // 
             // label3
             // 
@@ -283,14 +263,23 @@
             this.xtraTabPage1.Size = new System.Drawing.Size(589, 377);
             this.xtraTabPage1.Text = "BOM审签信息";
             // 
+            // txtDescription
+            // 
+            this.txtDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtDescription.Location = new System.Drawing.Point(2, 22);
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(585, 248);
+            this.txtDescription.TabIndex = 0;
+            // 
             // CheckBOMMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 441);
             this.Controls.Add(this.xtraTabControl1);
-            this.Controls.Add(this.checkButton1);
+            this.Controls.Add(this.simpleButton1);
             this.Name = "CheckBOMMessage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "查看BOM属性";
             this.Load += new System.EventHandler(this.CheckBOMMessage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
@@ -299,45 +288,43 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
-            this.galleryControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreateDate.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMVersion.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMStatus.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBOMType.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreateUser.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtBelongTask.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDescription.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.CheckButton checkButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraBars.Ribbon.Gallery.GalleryControlGallery galleryControlGallery1;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit txtBOMName;
         private System.Windows.Forms.Label label1;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private System.Windows.Forms.Label label2;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.TextEdit txtCreateDate;
         private System.Windows.Forms.Label label7;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
+        private DevExpress.XtraEditors.TextEdit txtBOMVersion;
+        private DevExpress.XtraEditors.TextEdit txtBOMStatus;
         private System.Windows.Forms.Label label6;
-        private DevExpress.XtraEditors.TextEdit textEdit7;
+        private DevExpress.XtraEditors.TextEdit txtBOMType;
         private System.Windows.Forms.Label label5;
-        private DevExpress.XtraEditors.TextEdit textEdit5;
+        private DevExpress.XtraEditors.TextEdit txtCreateUser;
         private System.Windows.Forms.Label label4;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
+        private DevExpress.XtraEditors.TextEdit txtBelongTask;
         private System.Windows.Forms.Label label3;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
-        private DevExpress.XtraBars.Ribbon.GalleryControl galleryControl1;
-        private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient1;
+        private DevExpress.XtraEditors.MemoEdit txtDescription;
     }
 }

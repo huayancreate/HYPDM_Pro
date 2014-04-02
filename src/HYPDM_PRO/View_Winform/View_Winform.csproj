@@ -90,6 +90,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseControls\BaseGridControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaseControls\BaseGridViewControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BPM\FlowBrowserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,6 +272,12 @@
     <Compile Include="DocManage\DocPropertyBuild\AddSelectValue.Designer.cs">
       <DependentUpon>AddSelectValue.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoadWaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadWaitForm.designer.cs">
+      <DependentUpon>LoadWaitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -367,6 +379,36 @@
     </Compile>
     <Compile Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.Designer.cs">
       <DependentUpon>ModifyTooling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\CreateProjectBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\ProjectBOMDeploy\CreateProjectBOM.Designer.cs">
+      <DependentUpon>CreateProjectBOM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucBOMReferTabPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucBOMReferTabPage.Designer.cs">
+      <DependentUpon>ucBOMReferTabPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucBOMStructTabs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucBOMStructTabs.Designer.cs">
+      <DependentUpon>ucBOMStructTabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucBOMStructTreeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucBOMStructTreeList.Designer.cs">
+      <DependentUpon>ucBOMStructTreeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucMaterialBaseProperty.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductStructureManage\StructUC\ucMaterialBaseProperty.Designer.cs">
+      <DependentUpon>ucMaterialBaseProperty.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\CreateNewProject\AddProduct.cs">
       <SubType>Form</SubType>
@@ -1499,6 +1541,7 @@
     <Compile Include="Templete.Designer.cs">
       <DependentUpon>Templete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test\BOMData.cs" />
     <Compile Include="Test\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1593,6 +1636,9 @@
     <EmbeddedResource Include="DocManage\DocPropertyBuild\AddSelectValue.resx">
       <DependentUpon>AddSelectValue.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoadWaitForm.resx">
+      <DependentUpon>LoadWaitForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
       <DependentUpon>AddMaterialInfor.cs</DependentUpon>
     </EmbeddedResource>
@@ -1643,6 +1689,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProductProcessManage\ToolingEquipmentManage\ModifyTooling.resx">
       <DependentUpon>ModifyTooling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\ProjectBOMDeploy\CreateProjectBOM.resx">
+      <DependentUpon>CreateProjectBOM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\StructUC\ucBOMReferTabPage.resx">
+      <DependentUpon>ucBOMReferTabPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\StructUC\ucBOMStructTabs.resx">
+      <DependentUpon>ucBOMStructTabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\StructUC\ucBOMStructTreeList.resx">
+      <DependentUpon>ucBOMStructTreeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductStructureManage\StructUC\ucMaterialBaseProperty.resx">
+      <DependentUpon>ucMaterialBaseProperty.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\CreateNewProject\AddProduct.resx">
       <DependentUpon>AddProduct.cs</DependentUpon>

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
@@ -72,7 +71,7 @@
             this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton15 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton16 = new DevExpress.XtraEditors.SimpleButton();
-            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barManager1 = new DevExpress.XtraBars.BarManager();
             this.bar1 = new DevExpress.XtraBars.Bar();
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
@@ -207,22 +206,22 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupControl1.Controls.Add(this.listBoxControl3);
             this.groupControl1.Location = new System.Drawing.Point(1, 128);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(427, 326);
+            this.groupControl1.Size = new System.Drawing.Size(427, 312);
             this.groupControl1.TabIndex = 22;
             this.groupControl1.Text = "工作区";
             // 
             // listBoxControl3
             // 
-            this.listBoxControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.listBoxControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.listBoxControl3.Location = new System.Drawing.Point(-1, 25);
             this.listBoxControl3.Name = "listBoxControl3";
-            this.listBoxControl3.Size = new System.Drawing.Size(428, 301);
+            this.listBoxControl3.Size = new System.Drawing.Size(428, 287);
             this.listBoxControl3.TabIndex = 13;
             // 
             // labelControl5
@@ -243,12 +242,12 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.gridControl1.Location = new System.Drawing.Point(1, 483);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(427, 268);
+            this.gridControl1.Size = new System.Drawing.Size(427, 254);
             this.gridControl1.TabIndex = 25;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -286,14 +285,14 @@
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(434, 88);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
             this.xtraTabControl1.ShowToolTips = DevExpress.Utils.DefaultBoolean.True;
-            this.xtraTabControl1.Size = new System.Drawing.Size(535, 595);
+            this.xtraTabControl1.Size = new System.Drawing.Size(535, 581);
             this.xtraTabControl1.TabIndex = 33;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2,
@@ -306,18 +305,18 @@
             // 
             this.xtraTabPage2.Controls.Add(this.xtraTabControl2);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(529, 566);
+            this.xtraTabPage2.Size = new System.Drawing.Size(529, 552);
             this.xtraTabPage2.Text = "版本信息";
             // 
             // xtraTabControl2
             // 
-            this.xtraTabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl2.Location = new System.Drawing.Point(-3, -2);
             this.xtraTabControl2.Name = "xtraTabControl2";
             this.xtraTabControl2.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl2.Size = new System.Drawing.Size(546, 573);
+            this.xtraTabControl2.Size = new System.Drawing.Size(546, 559);
             this.xtraTabControl2.TabIndex = 33;
             this.xtraTabControl2.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -329,18 +328,18 @@
             // 
             this.xtraTabPage1.Controls.Add(this.xtraTabControl6);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(540, 544);
+            this.xtraTabPage1.Size = new System.Drawing.Size(540, 530);
             this.xtraTabPage1.Text = "基本属性";
             // 
             // xtraTabControl6
             // 
-            this.xtraTabControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl6.Location = new System.Drawing.Point(-1, 0);
             this.xtraTabControl6.Name = "xtraTabControl6";
             this.xtraTabControl6.SelectedTabPage = this.xtraTabPage13;
-            this.xtraTabControl6.Size = new System.Drawing.Size(540, 549);
+            this.xtraTabControl6.Size = new System.Drawing.Size(540, 535);
             this.xtraTabControl6.TabIndex = 1;
             this.xtraTabControl6.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage13});
@@ -348,14 +347,14 @@
             // xtraTabPage13
             // 
             this.xtraTabPage13.Name = "xtraTabPage13";
-            this.xtraTabPage13.Size = new System.Drawing.Size(534, 520);
+            this.xtraTabPage13.Size = new System.Drawing.Size(534, 506);
             this.xtraTabPage13.Text = "BOM02";
             // 
             // xtraTabPage5
             // 
             this.xtraTabPage5.Controls.Add(this.xtraTabControl5);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(561, 539);
+            this.xtraTabPage5.Size = new System.Drawing.Size(540, 544);
             this.xtraTabPage5.Text = "文档简图浏览区";
             // 
             // xtraTabControl5
@@ -378,7 +377,7 @@
             // 
             this.xtraTabPage8.Controls.Add(this.xtraTabControl4);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(561, 539);
+            this.xtraTabPage8.Size = new System.Drawing.Size(540, 544);
             this.xtraTabPage8.Text = "零部件列表";
             // 
             // xtraTabControl4
@@ -401,7 +400,7 @@
             // 
             this.xtraTabPage9.Controls.Add(this.xtraTabControl3);
             this.xtraTabPage9.Name = "xtraTabPage9";
-            this.xtraTabPage9.Size = new System.Drawing.Size(561, 539);
+            this.xtraTabPage9.Size = new System.Drawing.Size(540, 544);
             this.xtraTabPage9.Text = "参考区";
             // 
             // xtraTabControl3
@@ -423,31 +422,31 @@
             // xtraTabPage3
             // 
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(518, 566);
+            this.xtraTabPage3.Size = new System.Drawing.Size(529, 566);
             this.xtraTabPage3.Text = "零部件审签信息";
             // 
             // xtraTabPage4
             // 
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(518, 566);
+            this.xtraTabPage4.Size = new System.Drawing.Size(529, 566);
             this.xtraTabPage4.Text = "零部件引用情况";
             // 
             // xtraTabPage6
             // 
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(518, 566);
+            this.xtraTabPage6.Size = new System.Drawing.Size(529, 566);
             this.xtraTabPage6.Text = "文档清单";
             // 
             // xtraTabPage7
             // 
             this.xtraTabPage7.Name = "xtraTabPage7";
-            this.xtraTabPage7.Size = new System.Drawing.Size(518, 566);
+            this.xtraTabPage7.Size = new System.Drawing.Size(529, 566);
             this.xtraTabPage7.Text = "零部件文档清单";
             // 
             // simpleButton14
             // 
             this.simpleButton14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton14.Location = new System.Drawing.Point(567, 698);
+            this.simpleButton14.Location = new System.Drawing.Point(567, 684);
             this.simpleButton14.Name = "simpleButton14";
             this.simpleButton14.Size = new System.Drawing.Size(42, 22);
             this.simpleButton14.TabIndex = 35;
@@ -456,7 +455,7 @@
             // simpleButton15
             // 
             this.simpleButton15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton15.Location = new System.Drawing.Point(514, 698);
+            this.simpleButton15.Location = new System.Drawing.Point(514, 684);
             this.simpleButton15.Name = "simpleButton15";
             this.simpleButton15.Size = new System.Drawing.Size(43, 22);
             this.simpleButton15.TabIndex = 36;
@@ -465,7 +464,7 @@
             // simpleButton16
             // 
             this.simpleButton16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton16.Location = new System.Drawing.Point(435, 698);
+            this.simpleButton16.Location = new System.Drawing.Point(435, 684);
             this.simpleButton16.Name = "simpleButton16";
             this.simpleButton16.Size = new System.Drawing.Size(73, 22);
             this.simpleButton16.TabIndex = 37;
@@ -561,7 +560,7 @@
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 724);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 710);
             this.barDockControlBottom.Size = new System.Drawing.Size(961, 23);
             // 
             // barDockControlLeft
@@ -569,20 +568,20 @@
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 53);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 671);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 657);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(961, 53);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 671);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 657);
             // 
             // ConsultBOMParts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(961, 747);
+            this.ClientSize = new System.Drawing.Size(961, 733);
             this.Controls.Add(this.simpleButton16);
             this.Controls.Add(this.simpleButton15);
             this.Controls.Add(this.simpleButton14);

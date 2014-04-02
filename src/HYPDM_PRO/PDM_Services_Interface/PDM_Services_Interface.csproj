@@ -60,6 +60,9 @@
     <Compile Include="PartsMange\MaterialPegging\IMaterialPegging.cs" />
     <Compile Include="PartsMange\MaterialPropertyBuild\IAddMaterialProperty.cs" />
     <Compile Include="PartsMange\MaterialPropertyBuild\IMaterialPropertyBuild.cs" />
+    <Compile Include="ProductStruct\IProductStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\ICodeApplyManage.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\ICodeRuleSet.cs" />

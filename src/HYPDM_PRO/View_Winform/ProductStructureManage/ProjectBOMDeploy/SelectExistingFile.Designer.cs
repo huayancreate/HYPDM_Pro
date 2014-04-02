@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -41,14 +41,15 @@
             this.trackBarControl1 = new DevExpress.XtraEditors.TrackBarControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.Id = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.MaterialNo = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.MaterialName = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
@@ -62,6 +63,22 @@
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.bmReferMaterial = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControl5 = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControl6 = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControl7 = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControl8 = new DevExpress.XtraBars.BarDockControl();
+            this.btnCopyMaterial = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem12 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem13 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnMaterialReverse = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnShowMaterial = new DevExpress.XtraBars.BarButtonItem();
+            this.pmReferMaterial = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -77,37 +94,34 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bmReferMaterial)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pmReferMaterial)).BeginInit();
             this.SuspendLayout();
             // 
             // treeList1
             // 
-            this.treeList1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.treeList1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
-            this.treeListColumn1});
+            this.treeListColumn1,
+            this.treeListColumn2});
             this.treeList1.Location = new System.Drawing.Point(1, 1);
             this.treeList1.Name = "treeList1";
             this.treeList1.BeginUnboundLoad();
             this.treeList1.AppendNode(new object[] {
-            "测试C"}, -1);
+            null,
+            null}, -1);
             this.treeList1.AppendNode(new object[] {
-            "原料Y"}, -1);
+            null,
+            null}, -1);
             this.treeList1.AppendNode(new object[] {
-            "部件"}, 1);
+            null,
+            null}, 1);
             this.treeList1.EndUnboundLoad();
+            this.treeList1.OptionsBehavior.Editable = false;
             this.treeList1.OptionsPrint.UsePrintStyles = true;
             this.treeList1.Size = new System.Drawing.Size(258, 553);
             this.treeList1.TabIndex = 0;
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
-            // 
-            // treeListColumn1
-            // 
-            this.treeListColumn1.Caption = "物料类型";
-            this.treeListColumn1.FieldName = "物料类型";
-            this.treeListColumn1.MinWidth = 52;
-            this.treeListColumn1.Name = "treeListColumn1";
-            this.treeListColumn1.Visible = true;
-            this.treeListColumn1.VisibleIndex = 0;
             // 
             // checkEdit1
             // 
@@ -126,7 +140,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comboBoxEdit1.Size = new System.Drawing.Size(192, 20);
             this.comboBoxEdit1.TabIndex = 9;
-            this.comboBoxEdit1.SelectedIndexChanged += new System.EventHandler(this.comboBoxEdit1_SelectedIndexChanged);
             // 
             // comboBoxEdit2
             // 
@@ -162,12 +175,11 @@
             this.checkEdit3.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
             this.checkEdit3.Size = new System.Drawing.Size(75, 19);
             this.checkEdit3.TabIndex = 15;
-            this.checkEdit3.CheckedChanged += new System.EventHandler(this.checkEdit3_CheckedChanged);
             // 
             // listBoxControl2
             // 
-            this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxControl2.Location = new System.Drawing.Point(265, 23);
             this.listBoxControl2.Name = "listBoxControl2";
             this.listBoxControl2.Size = new System.Drawing.Size(847, 95);
@@ -180,24 +192,22 @@
             this.labelControl1.Size = new System.Drawing.Size(48, 14);
             this.labelControl1.TabIndex = 17;
             this.labelControl1.Text = "调整行高";
-            this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
             // 
             // trackBarControl1
             // 
-            this.trackBarControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.trackBarControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.trackBarControl1.EditValue = null;
             this.trackBarControl1.Location = new System.Drawing.Point(319, 124);
             this.trackBarControl1.Name = "trackBarControl1";
             this.trackBarControl1.Size = new System.Drawing.Size(579, 45);
             this.trackBarControl1.TabIndex = 18;
-            this.trackBarControl1.EditValueChanged += new System.EventHandler(this.trackBarControl1_EditValueChanged);
             // 
             // gridControl1
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridControl1.Location = new System.Drawing.Point(264, 175);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
@@ -209,23 +219,32 @@
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.Id,
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
             this.gridColumn4,
-            this.gridColumn5,
+            this.MaterialNo,
             this.gridColumn6,
             this.gridColumn7,
-            this.gridColumn8,
+            this.MaterialName,
             this.gridColumn9,
             this.gridColumn10});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // Id
+            // 
+            this.Id.Caption = "gridColumn11";
+            this.Id.FieldName = "ID";
+            this.Id.Name = "Id";
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "序号";
+            this.gridColumn1.FieldName = "ID";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
@@ -251,12 +270,13 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
-            // gridColumn5
+            // MaterialNo
             // 
-            this.gridColumn5.Caption = "物料编号";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
+            this.MaterialNo.Caption = "物料编号";
+            this.MaterialNo.FieldName = "number";
+            this.MaterialNo.Name = "MaterialNo";
+            this.MaterialNo.Visible = true;
+            this.MaterialNo.VisibleIndex = 4;
             // 
             // gridColumn6
             // 
@@ -272,12 +292,13 @@
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
             // 
-            // gridColumn8
+            // MaterialName
             // 
-            this.gridColumn8.Caption = "物料名称";
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 7;
+            this.MaterialName.Caption = "物料名称";
+            this.MaterialName.FieldName = "name";
+            this.MaterialName.Name = "MaterialName";
+            this.MaterialName.Visible = true;
+            this.MaterialName.VisibleIndex = 7;
             // 
             // gridColumn9
             // 
@@ -323,7 +344,6 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.comboBoxEdit4.Size = new System.Drawing.Size(56, 20);
             this.comboBoxEdit4.TabIndex = 22;
-            this.comboBoxEdit4.SelectedIndexChanged += new System.EventHandler(this.comboBoxEdit4_SelectedIndexChanged);
             // 
             // simpleButton1
             // 
@@ -396,7 +416,124 @@
             this.labelControl2.Size = new System.Drawing.Size(48, 14);
             this.labelControl2.TabIndex = 30;
             this.labelControl2.Text = "每页显示";
-            this.labelControl2.Click += new System.EventHandler(this.labelControl2_Click);
+            // 
+            // bmReferMaterial
+            // 
+            this.bmReferMaterial.DockControls.Add(this.barDockControl5);
+            this.bmReferMaterial.DockControls.Add(this.barDockControl6);
+            this.bmReferMaterial.DockControls.Add(this.barDockControl7);
+            this.bmReferMaterial.DockControls.Add(this.barDockControl8);
+            this.bmReferMaterial.Form = this;
+            this.bmReferMaterial.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.btnCopyMaterial,
+            this.barButtonItem11,
+            this.barButtonItem12,
+            this.barButtonItem13,
+            this.barButtonItem14,
+            this.btnMaterialReverse,
+            this.barButtonItem16,
+            this.btnShowMaterial});
+            this.bmReferMaterial.MaxItemId = 8;
+            // 
+            // barDockControl5
+            // 
+            this.barDockControl5.CausesValidation = false;
+            this.barDockControl5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControl5.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl5.Size = new System.Drawing.Size(1109, 0);
+            // 
+            // barDockControl6
+            // 
+            this.barDockControl6.CausesValidation = false;
+            this.barDockControl6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControl6.Location = new System.Drawing.Point(0, 556);
+            this.barDockControl6.Size = new System.Drawing.Size(1109, 0);
+            // 
+            // barDockControl7
+            // 
+            this.barDockControl7.CausesValidation = false;
+            this.barDockControl7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControl7.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl7.Size = new System.Drawing.Size(0, 556);
+            // 
+            // barDockControl8
+            // 
+            this.barDockControl8.CausesValidation = false;
+            this.barDockControl8.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControl8.Location = new System.Drawing.Point(1109, 0);
+            this.barDockControl8.Size = new System.Drawing.Size(0, 556);
+            // 
+            // btnCopyMaterial
+            // 
+            this.btnCopyMaterial.Caption = "复制";
+            this.btnCopyMaterial.Id = 0;
+            this.btnCopyMaterial.Name = "btnCopyMaterial";
+            // 
+            // barButtonItem11
+            // 
+            this.barButtonItem11.Caption = "展开";
+            this.barButtonItem11.Id = 1;
+            this.barButtonItem11.Name = "barButtonItem11";
+            // 
+            // barButtonItem12
+            // 
+            this.barButtonItem12.Caption = "折叠";
+            this.barButtonItem12.Id = 2;
+            this.barButtonItem12.Name = "barButtonItem12";
+            // 
+            // barButtonItem13
+            // 
+            this.barButtonItem13.Caption = "零件属性";
+            this.barButtonItem13.Id = 3;
+            this.barButtonItem13.Name = "barButtonItem13";
+            // 
+            // barButtonItem14
+            // 
+            this.barButtonItem14.Caption = "零件列表";
+            this.barButtonItem14.Id = 4;
+            this.barButtonItem14.Name = "barButtonItem14";
+            // 
+            // btnMaterialReverse
+            // 
+            this.btnMaterialReverse.Caption = "物料反查";
+            this.btnMaterialReverse.Id = 5;
+            this.btnMaterialReverse.Name = "btnMaterialReverse";
+            // 
+            // barButtonItem16
+            // 
+            this.barButtonItem16.Caption = "零件定位";
+            this.barButtonItem16.Id = 6;
+            this.barButtonItem16.Name = "barButtonItem16";
+            // 
+            // btnShowMaterial
+            // 
+            this.btnShowMaterial.Caption = "查看物料";
+            this.btnShowMaterial.Id = 7;
+            this.btnShowMaterial.Name = "btnShowMaterial";
+            // 
+            // pmReferMaterial
+            // 
+            this.pmReferMaterial.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnCopyMaterial),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnShowMaterial),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnMaterialReverse)});
+            this.pmReferMaterial.Manager = this.bmReferMaterial;
+            this.pmReferMaterial.Name = "pmReferMaterial";
+            // 
+            // treeListColumn1
+            // 
+            this.treeListColumn1.FieldName = "Id";
+            this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.Width = 111;
+            // 
+            // treeListColumn2
+            // 
+            this.treeListColumn2.Caption = "物料类型";
+            this.treeListColumn2.FieldName = "Name";
+            this.treeListColumn2.MinWidth = 52;
+            this.treeListColumn2.Name = "treeListColumn2";
+            this.treeListColumn2.Visible = true;
+            this.treeListColumn2.VisibleIndex = 0;
             // 
             // SelectExistingFile
             // 
@@ -425,8 +562,14 @@
             this.Controls.Add(this.checkEdit1);
             this.Controls.Add(this.treeList1);
             this.Controls.Add(this.trackBarControl1);
+            this.Controls.Add(this.barDockControl7);
+            this.Controls.Add(this.barDockControl8);
+            this.Controls.Add(this.barDockControl6);
+            this.Controls.Add(this.barDockControl5);
             this.Name = "SelectExistingFile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "选择物料";
+            this.Load += new System.EventHandler(this.SelectExistingFile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
@@ -442,6 +585,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit4.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bmReferMaterial)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pmReferMaterial)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -450,7 +595,6 @@
         #endregion
 
         private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
@@ -460,16 +604,15 @@
         private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
-        private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn MaterialNo;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraGrid.Columns.GridColumn MaterialName;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraEditors.CheckEdit checkEdit4;
@@ -483,5 +626,23 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.LabelControl labelControl2;
+        private DevExpress.XtraGrid.Columns.GridColumn Id;
+        private DevExpress.XtraBars.BarManager bmReferMaterial;
+        private DevExpress.XtraBars.BarDockControl barDockControl5;
+        private DevExpress.XtraBars.BarDockControl barDockControl6;
+        private DevExpress.XtraBars.BarDockControl barDockControl7;
+        private DevExpress.XtraBars.BarDockControl barDockControl8;
+        private DevExpress.XtraBars.BarButtonItem btnCopyMaterial;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem11;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem12;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem13;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem14;
+        private DevExpress.XtraBars.BarButtonItem btnMaterialReverse;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem16;
+        private DevExpress.XtraBars.PopupMenu pmReferMaterial;
+        private DevExpress.XtraBars.BarButtonItem btnShowMaterial;
+        public DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn2;
     }
 }

@@ -23,30 +23,28 @@ namespace View_Winform
 
 
             //Application.Run(new SystemManagementAndTools.UserGroupManage.UserGroupList());
-            
 
             //Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
 
-             //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
-             //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
-               Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationList()); 
+            //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
+            //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
+            //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationList()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
             //Application.Run(new Test.TestForm());
 
+            //Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
+            //string path = Application.ExecutablePath + ".config";
+            //BP.DA.ClassFactory.LoadConfig(path);
+            //BP.SystemConfig.IsBSsystem = false;
+            //FlowCommon common = new FlowCommon();
+            //common.Login("zhoushengyu");
 
-            // Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
-
-
-            //  string path = Application.ExecutablePath + ".config";
-            //  BP.DA.ClassFactory.LoadConfig(path);
-            // BP.SystemConfig.IsBSsystem = false;
-            // FlowCommon common = new FlowCommon();
-            // common.Login("zhoushengyu");
-
-            // Application.Run(new BPM.TestForm());
+            //Application.Run(new BPM.TestForm());
 
             //Application.Run(new LoginForm());
             //Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
+            Application.Run(new ProductStructureManage.DeployInformationManage.BOMInformationMaintion());
+            //Application.Run(new BPM.TestForm());
 
         }
     }

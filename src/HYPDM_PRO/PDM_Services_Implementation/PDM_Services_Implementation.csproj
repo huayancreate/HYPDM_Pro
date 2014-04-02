@@ -57,6 +57,9 @@
     <Compile Include="PartsMange\MaterialPegging\MaterialPegging.cs" />
     <Compile Include="PartsMange\MaterialPropertyBuild\AddMaterialProperty.cs" />
     <Compile Include="PartsMange\MaterialPropertyBuild\MaterialPropertyBuild.cs" />
+    <Compile Include="ProductStruct\ProductStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeApplyManage.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeDictionaryFill.cs" />
@@ -68,6 +71,9 @@
     <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs" />
     <Compile Include="SystemManagementAndTools\SystemUserMessageManage\UsersManage.cs" />
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.cs" />
+    <Compile Include="Test\BOMData.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test\TestService.cs" />
     <Compile Include="Test\TestService2.cs" />
     <Compile Include="Test\TestService3.cs" />

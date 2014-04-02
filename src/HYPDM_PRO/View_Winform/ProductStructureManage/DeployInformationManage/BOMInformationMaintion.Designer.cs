@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkButton1 = new DevExpress.XtraEditors.CheckButton();
+            this.SimpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -43,31 +44,36 @@
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.Id = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.checkButton2 = new DevExpress.XtraEditors.CheckButton();
-            this.checkButton3 = new DevExpress.XtraEditors.CheckButton();
-            this.checkButton4 = new DevExpress.XtraEditors.CheckButton();
-            this.checkButton6 = new DevExpress.XtraEditors.CheckButton();
-            this.checkButton7 = new DevExpress.XtraEditors.CheckButton();
-            this.checkButton8 = new DevExpress.XtraEditors.CheckButton();
-            this.checkButton5 = new DevExpress.XtraEditors.CheckButton();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.SimpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.SimpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.SimpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.SimpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.SimpleButton7 = new DevExpress.XtraEditors.SimpleButton();
+            this.SimpleButton8 = new DevExpress.XtraEditors.SimpleButton();
+            this.SimpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.btnViewBOMItem = new DevExpress.XtraBars.BarButtonItem();
+            this.btnConfigBOMItem = new DevExpress.XtraBars.BarButtonItem();
+            this.btnBrowseBOMItem = new DevExpress.XtraBars.BarButtonItem();
+            this.btnEditBOMItem = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDelBOMItem = new DevExpress.XtraBars.BarButtonItem();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -84,7 +90,8 @@
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             this.SuspendLayout();
             // 
             // checkEdit1
@@ -95,7 +102,6 @@
             this.checkEdit1.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
             this.checkEdit1.Size = new System.Drawing.Size(75, 19);
             this.checkEdit1.TabIndex = 5;
-            this.checkEdit1.CheckedChanged += new System.EventHandler(this.checkEdit1_CheckedChanged);
             // 
             // checkEdit2
             // 
@@ -106,14 +112,14 @@
             this.checkEdit2.Size = new System.Drawing.Size(75, 19);
             this.checkEdit2.TabIndex = 6;
             // 
-            // checkButton1
+            // SimpleButton1
             // 
-            this.checkButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkButton1.Location = new System.Drawing.Point(909, 0);
-            this.checkButton1.Name = "checkButton1";
-            this.checkButton1.Size = new System.Drawing.Size(75, 23);
-            this.checkButton1.TabIndex = 7;
-            this.checkButton1.Text = "查询(Q)";
+            this.SimpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SimpleButton1.Location = new System.Drawing.Point(909, 0);
+            this.SimpleButton1.Name = "SimpleButton1";
+            this.SimpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.SimpleButton1.TabIndex = 7;
+            this.SimpleButton1.Text = "查询(Q)";
             // 
             // comboBoxEdit1
             // 
@@ -184,9 +190,9 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl1.Controls.Add(this.listBoxControl2);
             this.groupControl1.Location = new System.Drawing.Point(5, 54);
             this.groupControl1.Name = "groupControl1";
@@ -196,9 +202,9 @@
             // 
             // listBoxControl2
             // 
-            this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBoxControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxControl2.Location = new System.Drawing.Point(7, 19);
             this.listBoxControl2.Name = "listBoxControl2";
             this.listBoxControl2.Size = new System.Drawing.Size(979, 79);
@@ -206,9 +212,9 @@
             // 
             // groupControl2
             // 
-            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl2.Controls.Add(this.gridControl1);
             this.groupControl2.Location = new System.Drawing.Point(5, 169);
             this.groupControl2.Name = "groupControl2";
@@ -218,9 +224,9 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridControl1.Location = new System.Drawing.Point(5, 19);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
@@ -232,21 +238,32 @@
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.Id,
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6,
+            this.gridColumn9,
             this.gridColumn7,
             this.gridColumn8});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // Id
+            // 
+            this.Id.Caption = "gridColumn9";
+            this.Id.FieldName = "Id";
+            this.Id.Name = "Id";
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "BOM名称";
+            this.gridColumn1.FieldName = "Name";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
@@ -254,6 +271,7 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "BOM版本";
+            this.gridColumn2.FieldName = "Version";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
@@ -261,6 +279,7 @@
             // gridColumn3
             // 
             this.gridColumn3.Caption = "BOM状态";
+            this.gridColumn3.FieldName = "Status";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
@@ -268,23 +287,16 @@
             // gridColumn4
             // 
             this.gridColumn4.Caption = "BOM类型";
+            this.gridColumn4.FieldName = "Type";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
-            // gridColumn5
+            // gridColumn9
             // 
-            this.gridColumn5.Caption = "根件件号";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
-            // 
-            // gridColumn6
-            // 
-            this.gridColumn6.Caption = "根件版本";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 5;
+            this.gridColumn9.Caption = "Parent_Id";
+            this.gridColumn9.FieldName = "Parent_Id";
+            this.gridColumn9.Name = "gridColumn9";
             // 
             // gridColumn7
             // 
@@ -296,75 +308,10 @@
             // gridColumn8
             // 
             this.gridColumn8.Caption = "BOM创建者";
+            this.gridColumn8.FieldName = "UserName";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 7;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(0, -2);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(198, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "BOM名称";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(639, -2);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "根件版本";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(495, -2);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(148, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "根件件号";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(401, -2);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "BOM类型";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Location = new System.Drawing.Point(289, -2);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(117, 23);
-            this.simpleButton5.TabIndex = 5;
-            this.simpleButton5.Text = "BOM状态";
-            this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(192, -2);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton6.TabIndex = 6;
-            this.simpleButton6.Text = "BOM版本";
-            // 
-            // simpleButton7
-            // 
-            this.simpleButton7.Location = new System.Drawing.Point(840, -2);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton7.TabIndex = 7;
-            this.simpleButton7.Text = "BOM创建者";
-            // 
-            // simpleButton8
-            // 
-            this.simpleButton8.Location = new System.Drawing.Point(734, -2);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(110, 23);
-            this.simpleButton8.TabIndex = 8;
-            this.simpleButton8.Text = "BOM导入ERP状态";
-            this.simpleButton8.Click += new System.EventHandler(this.simpleButton8_Click);
             // 
             // labelControl1
             // 
@@ -375,107 +322,211 @@
             this.labelControl1.TabIndex = 9;
             this.labelControl1.Text = "共查询出75个符合条件的BOM结构";
             // 
-            // checkButton2
+            // SimpleButton2
             // 
-            this.checkButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton2.Location = new System.Drawing.Point(290, 436);
-            this.checkButton2.Name = "checkButton2";
-            this.checkButton2.Size = new System.Drawing.Size(88, 23);
-            this.checkButton2.TabIndex = 9;
-            this.checkButton2.Text = "自定义导出(S)";
-            this.checkButton2.CheckedChanged += new System.EventHandler(this.checkButton2_CheckedChanged);
+            this.SimpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton2.Location = new System.Drawing.Point(290, 433);
+            this.SimpleButton2.Name = "SimpleButton2";
+            this.SimpleButton2.Size = new System.Drawing.Size(88, 23);
+            this.SimpleButton2.TabIndex = 9;
+            this.SimpleButton2.Text = "自定义导出(S)";
             // 
-            // checkButton3
+            // SimpleButton3
             // 
-            this.checkButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton3.Location = new System.Drawing.Point(929, 433);
-            this.checkButton3.Name = "checkButton3";
-            this.checkButton3.Size = new System.Drawing.Size(55, 23);
-            this.checkButton3.TabIndex = 10;
-            this.checkButton3.Text = "退出(X)";
+            this.SimpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton3.Location = new System.Drawing.Point(919, 433);
+            this.SimpleButton3.Name = "SimpleButton3";
+            this.SimpleButton3.Size = new System.Drawing.Size(55, 23);
+            this.SimpleButton3.TabIndex = 10;
+            this.SimpleButton3.Text = "退出(X)";
             // 
-            // checkButton4
+            // SimpleButton4
             // 
-            this.checkButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton4.Location = new System.Drawing.Point(817, 434);
-            this.checkButton4.Name = "checkButton4";
-            this.checkButton4.Size = new System.Drawing.Size(106, 23);
-            this.checkButton4.TabIndex = 18;
-            this.checkButton4.Text = "导出BOM到ERP(I)";
+            this.SimpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton4.Location = new System.Drawing.Point(807, 433);
+            this.SimpleButton4.Name = "SimpleButton4";
+            this.SimpleButton4.Size = new System.Drawing.Size(106, 23);
+            this.SimpleButton4.TabIndex = 18;
+            this.SimpleButton4.Text = "导出BOM到ERP(I)";
             // 
-            // checkButton6
+            // SimpleButton6
             // 
-            this.checkButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton6.Location = new System.Drawing.Point(708, 436);
-            this.checkButton6.Name = "checkButton6";
-            this.checkButton6.Size = new System.Drawing.Size(75, 23);
-            this.checkButton6.TabIndex = 20;
-            this.checkButton6.Text = "删除BOM(D)";
+            this.SimpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton6.Location = new System.Drawing.Point(708, 433);
+            this.SimpleButton6.Name = "SimpleButton6";
+            this.SimpleButton6.Size = new System.Drawing.Size(75, 23);
+            this.SimpleButton6.TabIndex = 20;
+            this.SimpleButton6.Text = "删除BOM(D)";
             // 
-            // checkButton7
+            // SimpleButton7
             // 
-            this.checkButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton7.Location = new System.Drawing.Point(627, 436);
-            this.checkButton7.Name = "checkButton7";
-            this.checkButton7.Size = new System.Drawing.Size(75, 23);
-            this.checkButton7.TabIndex = 19;
-            this.checkButton7.Text = "编辑BOM(P)";
+            this.SimpleButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton7.Location = new System.Drawing.Point(627, 433);
+            this.SimpleButton7.Name = "SimpleButton7";
+            this.SimpleButton7.Size = new System.Drawing.Size(75, 23);
+            this.SimpleButton7.TabIndex = 19;
+            this.SimpleButton7.Text = "编辑BOM(P)";
             // 
-            // checkButton8
+            // SimpleButton8
             // 
-            this.checkButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton8.Location = new System.Drawing.Point(546, 436);
-            this.checkButton8.Name = "checkButton8";
-            this.checkButton8.Size = new System.Drawing.Size(75, 23);
-            this.checkButton8.TabIndex = 20;
-            this.checkButton8.Text = "浏览BOM(L)";
+            this.SimpleButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton8.Location = new System.Drawing.Point(546, 433);
+            this.SimpleButton8.Name = "SimpleButton8";
+            this.SimpleButton8.Size = new System.Drawing.Size(75, 23);
+            this.SimpleButton8.TabIndex = 20;
+            this.SimpleButton8.Text = "浏览BOM(L)";
             // 
-            // checkButton5
+            // SimpleButton5
             // 
-            this.checkButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkButton5.Location = new System.Drawing.Point(384, 436);
-            this.checkButton5.Name = "checkButton5";
-            this.checkButton5.Size = new System.Drawing.Size(75, 23);
-            this.checkButton5.TabIndex = 18;
-            this.checkButton5.Text = "Excel导出(E)";
+            this.SimpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.SimpleButton5.Location = new System.Drawing.Point(384, 433);
+            this.SimpleButton5.Name = "SimpleButton5";
+            this.SimpleButton5.Size = new System.Drawing.Size(75, 23);
+            this.SimpleButton5.TabIndex = 18;
+            this.SimpleButton5.Text = "Excel导出(E)";
             // 
-            // textEdit1
+            // simpleButton9
             // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.textEdit1.EditValue = "配置BOM(C)";
-            this.textEdit1.Location = new System.Drawing.Point(465, 436);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(73, 20);
-            this.textEdit1.TabIndex = 18;
-            this.textEdit1.EditValueChanged += new System.EventHandler(this.textEdit1_EditValueChanged_1);
+            this.simpleButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton9.Location = new System.Drawing.Point(465, 433);
+            this.simpleButton9.Name = "simpleButton9";
+            this.simpleButton9.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton9.TabIndex = 21;
+            this.simpleButton9.Text = "配置BOM";
+            // 
+            // barManager1
+            // 
+            this.barManager1.DockControls.Add(this.barDockControlTop);
+            this.barManager1.DockControls.Add(this.barDockControlBottom);
+            this.barManager1.DockControls.Add(this.barDockControlLeft);
+            this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.Form = this;
+            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.btnViewBOMItem,
+            this.btnConfigBOMItem,
+            this.btnBrowseBOMItem,
+            this.btnEditBOMItem,
+            this.btnDelBOMItem});
+            this.barManager1.MaxItemId = 6;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(986, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 459);
+            this.barDockControlBottom.Size = new System.Drawing.Size(986, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 459);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(986, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 459);
+            // 
+            // btnViewBOMItem
+            // 
+            this.btnViewBOMItem.Caption = "查看属性";
+            this.btnViewBOMItem.Id = 5;
+            this.btnViewBOMItem.Name = "btnViewBOMItem";
+            // 
+            // btnConfigBOMItem
+            // 
+            this.btnConfigBOMItem.Caption = "配置BOM";
+            this.btnConfigBOMItem.Id = 1;
+            this.btnConfigBOMItem.Name = "btnConfigBOMItem";
+            // 
+            // btnBrowseBOMItem
+            // 
+            this.btnBrowseBOMItem.Caption = "浏览BOM";
+            this.btnBrowseBOMItem.Id = 2;
+            this.btnBrowseBOMItem.Name = "btnBrowseBOMItem";
+            // 
+            // btnEditBOMItem
+            // 
+            this.btnEditBOMItem.Caption = "编辑BOM";
+            this.btnEditBOMItem.Id = 3;
+            this.btnEditBOMItem.Name = "btnEditBOMItem";
+            // 
+            // btnDelBOMItem
+            // 
+            this.btnDelBOMItem.Caption = "删除BOM";
+            this.btnDelBOMItem.Id = 4;
+            this.btnDelBOMItem.Name = "btnDelBOMItem";
+            // 
+            // popupMenu1
+            // 
+            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnViewBOMItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnConfigBOMItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnBrowseBOMItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnEditBOMItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnDelBOMItem)});
+            this.popupMenu1.Manager = this.barManager1;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "根件件号";
+            this.gridColumn5.FieldName = "RootNo";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 4;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "根件版本";
+            this.gridColumn6.FieldName = "RootVersion";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 5;
             // 
             // BOMInformationMaintion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(986, 459);
-            this.Controls.Add(this.textEdit1);
-            this.Controls.Add(this.checkButton3);
-            this.Controls.Add(this.checkButton4);
-            this.Controls.Add(this.checkButton6);
-            this.Controls.Add(this.checkButton7);
-            this.Controls.Add(this.checkButton5);
-            this.Controls.Add(this.checkButton8);
+            this.Controls.Add(this.simpleButton9);
+            this.Controls.Add(this.SimpleButton3);
+            this.Controls.Add(this.SimpleButton4);
+            this.Controls.Add(this.SimpleButton6);
+            this.Controls.Add(this.SimpleButton7);
+            this.Controls.Add(this.SimpleButton5);
+            this.Controls.Add(this.SimpleButton8);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.comboBoxEdit6);
             this.Controls.Add(this.checkEdit3);
             this.Controls.Add(this.comboBoxEdit5);
-            this.Controls.Add(this.checkButton2);
+            this.Controls.Add(this.SimpleButton2);
             this.Controls.Add(this.comboBoxEdit4);
             this.Controls.Add(this.comboBoxEdit3);
             this.Controls.Add(this.comboBoxEdit2);
             this.Controls.Add(this.comboBoxEdit1);
-            this.Controls.Add(this.checkButton1);
+            this.Controls.Add(this.SimpleButton1);
             this.Controls.Add(this.checkEdit2);
             this.Controls.Add(this.checkEdit1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
+            this.KeyPreview = true;
             this.Name = "BOMInformationMaintion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "配置信息管理";
             this.Load += new System.EventHandler(this.BOMInformationMaintion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
@@ -494,7 +545,8 @@
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -504,7 +556,6 @@
 
         private DevExpress.XtraEditors.CheckEdit checkEdit2;
         protected DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckButton checkButton1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
@@ -514,33 +565,39 @@
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit6;
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.ListBoxControl listBoxControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.CheckButton checkButton2;
-        private DevExpress.XtraEditors.CheckButton checkButton3;
-        private DevExpress.XtraEditors.CheckButton checkButton4;
-        private DevExpress.XtraEditors.CheckButton checkButton6;
-        private DevExpress.XtraEditors.CheckButton checkButton7;
-        private DevExpress.XtraEditors.CheckButton checkButton8;
-        private DevExpress.XtraEditors.CheckButton checkButton5;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraEditors.SimpleButton simpleButton9;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton1;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton2;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton3;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton4;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton6;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton7;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton8;
+        private DevExpress.XtraEditors.SimpleButton SimpleButton5;
+        private DevExpress.XtraGrid.Columns.GridColumn Id;
+        private DevExpress.XtraBars.BarManager barManager1;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraBars.BarButtonItem btnViewBOMItem;
+        private DevExpress.XtraBars.BarButtonItem btnConfigBOMItem;
+        private DevExpress.XtraBars.BarButtonItem btnBrowseBOMItem;
+        private DevExpress.XtraBars.BarButtonItem btnEditBOMItem;
+        private DevExpress.XtraBars.BarButtonItem btnDelBOMItem;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
     }
 }
