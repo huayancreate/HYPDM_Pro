@@ -12,11 +12,14 @@ using DevExpress.XtraTreeList.Nodes;
 using DevExpress.XtraTreeList;
 using PDM_Entity.ProductStruct;
 using PDM_Entity.PartsMange;
+using PDM_Services_Interface;
+using WcfExtension;
 
 namespace View_Winform.ProductStructureManage.BOMExplorer
 {
     public partial class DisplayChangeParts : DevExpress.XtraEditors.XtraForm
     {
+        IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
         private int MaterialId { get; set; }
         private List<BOM_Struct> structList;
         private List<string> MaterialIds;
@@ -32,6 +35,7 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         }
         private void DisplayChangeParts_Load(object sender, EventArgs e)
         {
+            bomId = 1;
             simpleButton4.Click += ShowChangeParts;
             btnLocationMaterial.Click += LocationMaterial;
             btnOpenBOM.Click += OpenBOM;
@@ -39,30 +43,37 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
             treeList1.AfterFocusNode += TreeListFocusNode;
             RefreshData();
             MaterialIds = new List<string>();
-            bomId = 1;
+            gridView5.OptionsBehavior.AutoExpandAllGroups = true;
         }
         private void TreeListFocusNode(object sender, NodeEventArgs e)
         {
             if (e.Node.GetValue("Material_Id") == null) return;
-            var id = Convert.ToInt32(e.Node.GetValue("Material_Id"));
-            var m = GetMaterial(id);
+            var material_id = Convert.ToInt32(e.Node.GetValue("Material_Id"));
+            var id = Convert.ToInt32(e.Node.GetValue("Id"));
+            var m = GetMaterial(material_id);
+            if (m == null) return;
             MaterialDataLoad(m);
             DocumentDataLoad(m);
+            MaterialDocListDataBind(m);
+            MaterialQuoteListDataBind(m);
+            MaterialListDataBind(id);
+            DocListDataBind(m);
         }
         private void DocumentDataLoad(Materialcs m)
         {
-            var docList = new Test.BOMData().GetDocumentByPartId(m.ID);
-            gridControl1.DataSource = docList;
+            //var docList = new Test.BOMData().GetDocumentByPartId(m.ID);
+            gridControl1.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
         }
         private void MaterialDataLoad(Materialcs m)
         {
+            if (m == null) return;
             txtMaterialNo.Text = m.number;
             txtMaterialName.Text = m.name;
             txtMaterialVersion.Text = m.versions;
         }
         private Materialcs GetMaterial(object id)
         {
-            var m = new Test.BOMData().GetMaterialById(Convert.ToInt32(id));
+            var m = productStructService.GetMaterialById(Convert.ToInt32(id)); //new Test.BOMData().GetMaterialById(Convert.ToInt32(id));
             return m;
         }
         private void OpenBOM(object sender, EventArgs e)
@@ -77,6 +88,7 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         }
         private void LocationMaterial(object sender, EventArgs e)
         {
+            MaterialIds.Clear();
             var partsForm = new PartsLocation();
             partsForm.ShowDialog();
             if (partsForm.DialogResult == DialogResult.OK)
@@ -88,11 +100,13 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         }
         private void RefreshData()
         {
-            structList = new Test.BOMData().GetAllStructByBOMId(bomId);
+            structList = productStructService.GetBOMStructListByBOMId(bomId);
+            //new Test.BOMData().GetAllStructByBOMId(bomId);
             TreeDataBind(structList, treeList1);
         }
         private void ShowChangeParts(object sender, EventArgs e)
         {
+            MaterialId = 0;
             MaterialIds.Add("1");
             MaterialIds.Add("2");
             RefreshData();
@@ -103,11 +117,22 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         }
         private void TreeDataBind(List<BOM_Struct> list, TreeList treeList)
         {
-            treeList.ClearNodes();
-            treeList.BeginInit();
-            treeList.DataSource = list;
-            treeList.EndInit();
+            treeList.Nodes.Clear();
+            TreeListNode parentNode = null;
+            var parentList = list.FindAll(s => s.Parent_Id == 0);
+            foreach (var p in parentList)
+            {
+                var m = productStructService.GetMaterialById(p.Material_Id);
+                parentNode = treeList.AppendNode(new object[] { p.Material_Id, p.Id, p.BOM_Id, p.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, 0);
+                GetChildNode(parentNode, p.Id, list);
+            }
             treeList.ExpandAll();
+
+            if (treeList.FocusedNode == null) return;
+            var _materialId = Convert.ToInt32(treeList.FocusedNode.GetValue("Material_Id"));
+            var material = productStructService.GetMaterialById(_materialId);
+            MaterialDataLoad(material);
+            DocumentDataLoad(material);
         }
         private void CustomDrawNodelCell(object sender, CustomDrawNodeCellEventArgs e)
         {
@@ -125,39 +150,50 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
                     if (e.Node.GetValue("Material_Id").ToString() == MaterialId.ToString())
                         e.Appearance.BackColor = Color.Green;
             }
-
-            if (!e.Column.FieldName.Equals("Material_Id")) return;
-            var m = new Test.BOMData().GetMaterialById(Convert.ToInt32(e.CellValue));
-            if (m == null) return;
-            e.CellText = m.number + "," + m.versions + "," + m.name + "," + "1000";
         }
         /// <summary>
         /// 零部件列表
         /// </summary>
-        private void MaterialListDataBind()
+        private void MaterialListDataBind(int id)
         {
-            gridControl2.DataSource = null;
+            gridControl2.DataSource = productStructService.GetAllMaterialList(id, bomId);
         }
         /// <summary>
         /// 零部件引用列表
         /// </summary>
-        private void MaterialQuoteListDataBind()
+        private void MaterialQuoteListDataBind(Materialcs m)
         {
-            gridControl3.DataSource = null;
+            gridControl3.DataSource = productStructService.GetAllBOMList();
         }
         /// <summary>
         /// 文档清单
         /// </summary>
-        private void DocListDataBind()
+        private void DocListDataBind(Materialcs m)
         {
-            gridControl4.DataSource = null;
+            gridControl4.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
         }
         /// <summary>
         /// 零部件文档列表
         /// </summary>
-        private void MaterialDocListDataBind()
+        private void MaterialDocListDataBind(Materialcs m)
         {
-            gridControl5.DataSource = null;
+            gridControl5.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
+        }
+        /// <summary>
+        /// 递归绑定子节点数据
+        /// </summary>
+        /// <param name="parentNode">父节点</param>
+        /// <param name="p">父节点Id</param>
+        /// <param name="structList">数据集合</param>
+        private void GetChildNode(TreeListNode parentNode, int p, List<BOM_Struct> structList)
+        {
+            var childList = structList.FindAll(s => s.Parent_Id == p);
+            foreach (var c in childList)
+            {
+                var m = productStructService.GetMaterialById(c.Material_Id);
+                TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, parentNode);
+                GetChildNode(tns, c.Id, structList);
+            }
         }
     }
 }

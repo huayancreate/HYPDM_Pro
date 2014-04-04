@@ -44,6 +44,7 @@ namespace View_Winform
             //Application.Run(new LoginForm());
             //Application.Run(new PartsMange.MaterialBankManage.MaterialPropertyBuild());
             Application.Run(new ProductStructureManage.DeployInformationManage.BOMInformationMaintion());
+            //Application.Run(new DocManage.DocManageTool.DocManageTool());
             //Application.Run(new BPM.TestForm());
 
         }

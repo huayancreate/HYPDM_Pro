@@ -49,6 +49,7 @@
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.lblTips = new DevExpress.XtraEditors.LabelControl();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
@@ -160,6 +161,7 @@
             this.gridColumn1,
             this.gridColumn2,
             this.gridColumn3,
+            this.gridColumn7,
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6});
@@ -191,11 +193,9 @@
             // 
             // gridColumn3
             // 
-            this.gridColumn3.Caption = "根件件号";
+            this.gridColumn3.Caption = "parent_id";
             this.gridColumn3.FieldName = "Parent_Id";
             this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
             // 
             // gridColumn4
             // 
@@ -254,6 +254,14 @@
             this.lblTips.Size = new System.Drawing.Size(171, 14);
             this.lblTips.TabIndex = 20;
             this.lblTips.Text = "共查出42个符合条件的BOM结构";
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "根件件号";
+            this.gridColumn7.FieldName = "RootNo";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 2;
             // 
             // SelectConsultBOM
             // 
@@ -315,5 +323,6 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.LabelControl lblTips;
         private DevExpress.XtraGrid.Columns.GridColumn Id;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
     }
 }

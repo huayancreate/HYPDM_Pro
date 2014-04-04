@@ -40,8 +40,6 @@ namespace View_Winform.ProductStructureManage.DeployInformationManage
             //gridView1.CustomColumnDisplayText += new DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventHandler(GridViewDisplayText);
             ReLoad();
             _id = bomId.ToString();
-
-
         }
         private void BOMItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {

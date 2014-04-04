@@ -138,7 +138,7 @@ namespace PDM_Services_Interface
         /// <param name="id"></param>
         /// <returns></returns>
         [OperationContract]
-        List<document> GetDocWithMaterailByMaterialId(int id);
+        List<DocumentDto> GetDocWithMaterailByMaterialId(int id);
         /// <summary>
         /// 根据物料Id和BOMId获取BOM结构对象
         /// </summary>
@@ -151,5 +151,7 @@ namespace PDM_Services_Interface
         BOM GetBOMById(int bomId);
         [OperationContract]
         List<BOMDto> GetAllBOMDtoList();
+        [OperationContract]
+        List<Materialcs> GetAllMaterialList(int id, int bomId);
     }
 }

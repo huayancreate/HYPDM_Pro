@@ -125,11 +125,6 @@
             this.number = new DevExpress.XtraGrid.Columns.GridColumn();
             this.versions = new DevExpress.XtraGrid.Columns.GridColumn();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
-            this.Material_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.BOM_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.DocId = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -142,6 +137,14 @@
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.Material_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.BOM_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
+            this.Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.Parent_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.Material_Name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -188,12 +191,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnOpenBOM
@@ -686,13 +689,11 @@
             // 
             // gridControl3
             // 
-            this.gridControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl3.Location = new System.Drawing.Point(0, 0);
             this.gridControl3.MainView = this.gridView3;
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(649, 433);
+            this.gridControl3.Size = new System.Drawing.Size(647, 433);
             this.gridControl3.TabIndex = 1;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
@@ -743,8 +744,6 @@
             this.gridColumn11.Caption = "根件件号";
             this.gridColumn11.FieldName = "Parent_Id";
             this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 2;
             this.gridColumn11.Width = 100;
             // 
             // gridColumn12
@@ -753,7 +752,7 @@
             this.gridColumn12.FieldName = "RootVersion";
             this.gridColumn12.Name = "gridColumn12";
             this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 4;
+            this.gridColumn12.VisibleIndex = 3;
             this.gridColumn12.Width = 65;
             // 
             // gridColumn14
@@ -762,7 +761,7 @@
             this.gridColumn14.FieldName = "RootName";
             this.gridColumn14.Name = "gridColumn14";
             this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 6;
+            this.gridColumn14.VisibleIndex = 5;
             this.gridColumn14.Width = 52;
             // 
             // gridColumn13
@@ -771,7 +770,7 @@
             this.gridColumn13.FieldName = "Count";
             this.gridColumn13.Name = "gridColumn13";
             this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 7;
+            this.gridColumn13.VisibleIndex = 6;
             this.gridColumn13.Width = 25;
             // 
             // gridColumn9
@@ -780,7 +779,7 @@
             this.gridColumn9.FieldName = "Status";
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 3;
+            this.gridColumn9.VisibleIndex = 2;
             // 
             // gridColumn10
             // 
@@ -788,7 +787,7 @@
             this.gridColumn10.FieldName = "Type";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 5;
+            this.gridColumn10.VisibleIndex = 4;
             // 
             // xtraTabPage13
             // 
@@ -811,12 +810,11 @@
             // 
             // gridControl4
             // 
-            this.gridControl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gridControl4.Location = new System.Drawing.Point(3, 3);
+            this.gridControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl4.Location = new System.Drawing.Point(0, 0);
             this.gridControl4.MainView = this.gridView4;
             this.gridControl4.Name = "gridControl4";
-            this.gridControl4.Size = new System.Drawing.Size(632, 456);
+            this.gridControl4.Size = new System.Drawing.Size(653, 462);
             this.gridControl4.TabIndex = 1;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4});
@@ -824,8 +822,8 @@
             // gridView4
             // 
             this.gridView4.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn15,
             this.gridColumn17,
+            this.gridColumn15,
             this.gridColumn16,
             this.gridColumn18,
             this.gridColumn19,
@@ -841,7 +839,7 @@
             // gridColumn15
             // 
             this.gridColumn15.Caption = "文档编码";
-            this.gridColumn15.FieldName = "number";
+            this.gridColumn15.FieldName = "Doc_No";
             this.gridColumn15.Name = "gridColumn15";
             this.gridColumn15.Visible = true;
             this.gridColumn15.VisibleIndex = 0;
@@ -849,7 +847,7 @@
             // gridColumn17
             // 
             this.gridColumn17.Caption = "文档名称";
-            this.gridColumn17.FieldName = "cn_name";
+            this.gridColumn17.FieldName = "Doc_Name";
             this.gridColumn17.Name = "gridColumn17";
             this.gridColumn17.Visible = true;
             this.gridColumn17.VisibleIndex = 1;
@@ -857,7 +855,7 @@
             // gridColumn16
             // 
             this.gridColumn16.Caption = "文档版本";
-            this.gridColumn16.FieldName = "version";
+            this.gridColumn16.FieldName = "Doc_Version";
             this.gridColumn16.Name = "gridColumn16";
             this.gridColumn16.Visible = true;
             this.gridColumn16.VisibleIndex = 2;
@@ -865,12 +863,13 @@
             // gridColumn18
             // 
             this.gridColumn18.Caption = "id";
-            this.gridColumn18.FieldName = "id";
+            this.gridColumn18.FieldName = "Id";
             this.gridColumn18.Name = "gridColumn18";
             // 
             // gridColumn19
             // 
-            this.gridColumn19.Caption = "文档类型";
+            this.gridColumn19.Caption = "文档分类";
+            this.gridColumn19.FieldName = "Doc_Category";
             this.gridColumn19.Name = "gridColumn19";
             this.gridColumn19.Visible = true;
             this.gridColumn19.VisibleIndex = 3;
@@ -878,6 +877,7 @@
             // gridColumn20
             // 
             this.gridColumn20.Caption = "文档状态";
+            this.gridColumn20.FieldName = "Doc_Status";
             this.gridColumn20.Name = "gridColumn20";
             this.gridColumn20.Visible = true;
             this.gridColumn20.VisibleIndex = 4;
@@ -892,12 +892,11 @@
             // 
             // gridControl5
             // 
-            this.gridControl5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.gridControl5.Location = new System.Drawing.Point(3, 3);
+            this.gridControl5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl5.Location = new System.Drawing.Point(0, 0);
             this.gridControl5.MainView = this.gridView5;
             this.gridControl5.Name = "gridControl5";
-            this.gridControl5.Size = new System.Drawing.Size(632, 456);
+            this.gridControl5.Size = new System.Drawing.Size(653, 462);
             this.gridControl5.TabIndex = 2;
             this.gridControl5.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
@@ -906,55 +905,57 @@
             // 
             this.gridView5.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn24,
-            this.gridColumn21,
             this.gridColumn22,
+            this.gridColumn21,
             this.gridColumn23,
             this.gridColumn25,
             this.gridColumn26,
             this.gridColumn27});
             this.gridView5.GridControl = this.gridControl5;
+            this.gridView5.GroupCount = 1;
             this.gridView5.Name = "gridView5";
             this.gridView5.OptionsBehavior.Editable = false;
             this.gridView5.OptionsDetail.EnableMasterViewMode = false;
             this.gridView5.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView5.OptionsView.ShowGroupPanel = false;
             this.gridView5.OptionsView.ShowIndicator = false;
+            this.gridView5.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.gridColumn27, DevExpress.Data.ColumnSortOrder.Ascending)});
             // 
             // gridColumn24
             // 
             this.gridColumn24.Caption = "Doc_Id";
-            this.gridColumn24.FieldName = "Doc_Id";
+            this.gridColumn24.FieldName = "Id";
             this.gridColumn24.Name = "gridColumn24";
-            this.gridColumn24.Visible = true;
-            this.gridColumn24.VisibleIndex = 6;
             // 
             // gridColumn21
             // 
             this.gridColumn21.Caption = "文档编码";
-            this.gridColumn21.FieldName = "number";
+            this.gridColumn21.FieldName = "Doc_No";
             this.gridColumn21.Name = "gridColumn21";
             this.gridColumn21.Visible = true;
-            this.gridColumn21.VisibleIndex = 0;
+            this.gridColumn21.VisibleIndex = 1;
             // 
             // gridColumn22
             // 
             this.gridColumn22.Caption = "文档名称";
-            this.gridColumn22.FieldName = "cn_name";
+            this.gridColumn22.FieldName = "Doc_Name";
             this.gridColumn22.Name = "gridColumn22";
             this.gridColumn22.Visible = true;
-            this.gridColumn22.VisibleIndex = 1;
+            this.gridColumn22.VisibleIndex = 0;
             // 
             // gridColumn23
             // 
             this.gridColumn23.Caption = "文档版本";
-            this.gridColumn23.FieldName = "version";
+            this.gridColumn23.FieldName = "Doc_Version";
             this.gridColumn23.Name = "gridColumn23";
             this.gridColumn23.Visible = true;
             this.gridColumn23.VisibleIndex = 2;
             // 
             // gridColumn25
             // 
-            this.gridColumn25.Caption = "文档类型";
+            this.gridColumn25.Caption = "文档分类";
+            this.gridColumn25.FieldName = "Doc_Category";
             this.gridColumn25.Name = "gridColumn25";
             this.gridColumn25.Visible = true;
             this.gridColumn25.VisibleIndex = 3;
@@ -962,6 +963,7 @@
             // gridColumn26
             // 
             this.gridColumn26.Caption = "文档状态";
+            this.gridColumn26.FieldName = "Doc_Status";
             this.gridColumn26.Name = "gridColumn26";
             this.gridColumn26.Visible = true;
             this.gridColumn26.VisibleIndex = 4;
@@ -969,7 +971,7 @@
             // gridColumn27
             // 
             this.gridColumn27.Caption = "所关联的零部件";
-            this.gridColumn27.FieldName = "Material_Id";
+            this.gridColumn27.FieldName = "Material_Name";
             this.gridColumn27.Name = "gridColumn27";
             this.gridColumn27.Visible = true;
             this.gridColumn27.VisibleIndex = 5;
@@ -1014,8 +1016,6 @@
             this.gridColumn5.Caption = "序列号";
             this.gridColumn5.FieldName = "ID";
             this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 0;
             // 
             // name
             // 
@@ -1023,7 +1023,7 @@
             this.name.FieldName = "name";
             this.name.Name = "name";
             this.name.Visible = true;
-            this.name.VisibleIndex = 1;
+            this.name.VisibleIndex = 0;
             // 
             // number
             // 
@@ -1031,7 +1031,7 @@
             this.number.FieldName = "number";
             this.number.Name = "number";
             this.number.Visible = true;
-            this.number.VisibleIndex = 2;
+            this.number.VisibleIndex = 1;
             // 
             // versions
             // 
@@ -1039,7 +1039,7 @@
             this.versions.FieldName = "versions";
             this.versions.Name = "versions";
             this.versions.Visible = true;
-            this.versions.VisibleIndex = 3;
+            this.versions.VisibleIndex = 2;
             // 
             // groupControl3
             // 
@@ -1049,6 +1049,118 @@
             this.groupControl3.Size = new System.Drawing.Size(372, 189);
             this.groupControl3.TabIndex = 17;
             this.groupControl3.Text = "关联文件";
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl1.Location = new System.Drawing.Point(2, 22);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(368, 165);
+            this.gridControl1.TabIndex = 21;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.DocId,
+            this.DocName,
+            this.DocNo,
+            this.DocVersion,
+            this.DocType,
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn4,
+            this.gridColumn28});
+            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.None;
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsDetail.EnableMasterViewMode = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // DocId
+            // 
+            this.DocId.FieldName = "Id";
+            this.DocId.Name = "DocId";
+            // 
+            // DocName
+            // 
+            this.DocName.Caption = "文档名称";
+            this.DocName.FieldName = "Doc_Name";
+            this.DocName.Name = "DocName";
+            this.DocName.Visible = true;
+            this.DocName.VisibleIndex = 0;
+            this.DocName.Width = 100;
+            // 
+            // DocNo
+            // 
+            this.DocNo.Caption = "文档编号";
+            this.DocNo.FieldName = "Doc_No";
+            this.DocNo.Name = "DocNo";
+            this.DocNo.Visible = true;
+            this.DocNo.VisibleIndex = 1;
+            this.DocNo.Width = 100;
+            // 
+            // DocVersion
+            // 
+            this.DocVersion.Caption = "文档版本";
+            this.DocVersion.FieldName = "Doc_Version";
+            this.DocVersion.Name = "DocVersion";
+            this.DocVersion.Visible = true;
+            this.DocVersion.VisibleIndex = 2;
+            // 
+            // DocType
+            // 
+            this.DocType.Caption = "文档分类";
+            this.DocType.FieldName = "Doc_Category";
+            this.DocType.Name = "DocType";
+            this.DocType.Visible = true;
+            this.DocType.VisibleIndex = 3;
+            this.DocType.Width = 100;
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "文档密级";
+            this.gridColumn1.FieldName = "Doc_Dense_Name";
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 4;
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.Caption = "文档状态";
+            this.gridColumn2.FieldName = "Doc_Status";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 5;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "生效时间";
+            this.gridColumn3.FieldName = "Valid_Time";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 6;
+            this.gridColumn3.Width = 100;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "失效时间";
+            this.gridColumn4.FieldName = "In_Valid_Time";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 7;
+            this.gridColumn4.Width = 100;
+            // 
+            // gridColumn28
+            // 
+            this.gridColumn28.Caption = "文档格式";
+            this.gridColumn28.Name = "gridColumn28";
+            this.gridColumn28.Visible = true;
+            this.gridColumn28.VisibleIndex = 8;
             // 
             // groupControl1
             // 
@@ -1063,7 +1175,10 @@
             // 
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.Material_Id,
-            this.BOM_Id});
+            this.Id,
+            this.BOM_Id,
+            this.Parent_Id,
+            this.Material_Name});
             this.treeList1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeList1.KeyFieldName = "Id";
             this.treeList1.Location = new System.Drawing.Point(2, 22);
@@ -1099,8 +1214,6 @@
             this.Material_Id.Caption = "treeListColumn1";
             this.Material_Id.FieldName = "Material_Id";
             this.Material_Id.Name = "Material_Id";
-            this.Material_Id.Visible = true;
-            this.Material_Id.VisibleIndex = 0;
             // 
             // BOM_Id
             // 
@@ -1144,116 +1257,25 @@
             this.imageCollection1.Images.SetKeyName(30, "Tasks_16x16.png");
             this.imageCollection1.Images.SetKeyName(31, "Trash_16x16.png");
             // 
-            // gridControl1
+            // Id
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(2, 22);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(368, 165);
-            this.gridControl1.TabIndex = 21;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.Id.Caption = "treeListColumn1";
+            this.Id.FieldName = "Id";
+            this.Id.Name = "Id";
             // 
-            // gridView1
+            // Parent_Id
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.DocId,
-            this.DocName,
-            this.DocNo,
-            this.DocVersion,
-            this.DocType,
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn28});
-            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.None;
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsBehavior.Editable = false;
-            this.gridView1.OptionsDetail.EnableMasterViewMode = false;
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.Parent_Id.Caption = "treeListColumn1";
+            this.Parent_Id.FieldName = "Parent_Id";
+            this.Parent_Id.Name = "Parent_Id";
             // 
-            // DocId
+            // Material_Name
             // 
-            this.DocId.FieldName = "Id";
-            this.DocId.Name = "DocId";
-            // 
-            // DocName
-            // 
-            this.DocName.Caption = "文档名称";
-            this.DocName.FieldName = "cn_name";
-            this.DocName.Name = "DocName";
-            this.DocName.Visible = true;
-            this.DocName.VisibleIndex = 0;
-            this.DocName.Width = 100;
-            // 
-            // DocNo
-            // 
-            this.DocNo.Caption = "文档编号";
-            this.DocNo.FieldName = "number";
-            this.DocNo.Name = "DocNo";
-            this.DocNo.Visible = true;
-            this.DocNo.VisibleIndex = 1;
-            this.DocNo.Width = 100;
-            // 
-            // DocVersion
-            // 
-            this.DocVersion.Caption = "文档版本";
-            this.DocVersion.FieldName = "version";
-            this.DocVersion.Name = "DocVersion";
-            this.DocVersion.Visible = true;
-            this.DocVersion.VisibleIndex = 2;
-            // 
-            // DocType
-            // 
-            this.DocType.Caption = "文档分类";
-            this.DocType.Name = "DocType";
-            this.DocType.Visible = true;
-            this.DocType.VisibleIndex = 3;
-            this.DocType.Width = 100;
-            // 
-            // gridColumn1
-            // 
-            this.gridColumn1.Caption = "文档密级";
-            this.gridColumn1.FieldName = "dense_name";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 4;
-            // 
-            // gridColumn2
-            // 
-            this.gridColumn2.Caption = "文档状态";
-            this.gridColumn2.FieldName = "status";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 5;
-            // 
-            // gridColumn3
-            // 
-            this.gridColumn3.Caption = "生效时间";
-            this.gridColumn3.FieldName = "valid_time";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 6;
-            this.gridColumn3.Width = 100;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.Caption = "失效时间";
-            this.gridColumn4.FieldName = "in_valid_time";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 7;
-            this.gridColumn4.Width = 100;
-            // 
-            // gridColumn28
-            // 
-            this.gridColumn28.Caption = "文档格式";
-            this.gridColumn28.Name = "gridColumn28";
-            this.gridColumn28.Visible = true;
-            this.gridColumn28.VisibleIndex = 8;
+            this.Material_Name.Caption = "treeListColumn1";
+            this.Material_Name.FieldName = "Material_Name";
+            this.Material_Name.Name = "Material_Name";
+            this.Material_Name.Visible = true;
+            this.Material_Name.VisibleIndex = 0;
             // 
             // DisplayChangeParts
             // 
@@ -1316,12 +1338,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1440,5 +1462,8 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Material_Name;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Parent_Id;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Id;
     }
 }

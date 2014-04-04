@@ -8,11 +8,13 @@ using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using PDM_Entity.PartsMange;
 using View_Winform.ProductStructureManage.DeployInformationManage;
-
+using PDM_Services_Interface;
+using WcfExtension;
 namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
 {
     public partial class SelectExistingFile : DevExpress.XtraEditors.XtraForm
     {
+        IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
         public string[] parts = new string[3];
         public SelectExistingFile()
         {

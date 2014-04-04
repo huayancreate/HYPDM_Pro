@@ -136,17 +136,39 @@ namespace PDM_Services_Implementation.Test
             };
             structList.Add(structs);
 
+            structs = new BOM_Struct
+            {
+                Id = 4,
+                BOM_Id = 2,
+                Is_Delete = "0",
+                Material_Id = 1,
+                Parent_Id = 0,
+                Create_Date = DateTime.Now
+            };
+            structList.Add(structs);
+
+            structs = new BOM_Struct
+            {
+                Id = 5,
+                BOM_Id = 1,
+                Is_Delete = "0",
+                Material_Id = 2,
+                Parent_Id = 1,
+                Create_Date = DateTime.Now
+            };
+            structList.Add(structs);
+
             return structList;
         }
         public BOM_Struct GetStructByMaterialId(int material_id)
         {
-            var structList = GetAllStructByBOMId(0);
+            var structList = GetAllStructByBOMId(1);
             var structs = structList.Find(s => s.Material_Id == material_id);
             return structs;
         }
         public BOM_Struct GetStructById(int id)
         {
-            var structList = GetAllStructByBOMId(0);
+            var structList = GetAllStructByBOMId(1);
             return structList.Find(s => s.Id == id);
         }
         public List<document> GetAllDocument()
@@ -157,6 +179,18 @@ namespace PDM_Services_Implementation.Test
             docList.Add(doc);
 
             doc = new document { id = 2, cn_name = "文档测试数据2", version = "1.1", number = "201403131602", status = "已归档", dense_name = "测试", valid_time = "2014-03-22", in_valid_time = "2014-03-31" };
+            docList.Add(doc);
+            return docList;
+        }
+
+        public List<DocumentDto> GetAllDocumentDto()
+        {
+            var docList = new List<DocumentDto>();
+
+            var doc = new DocumentDto { Id = 1, Doc_Name = "文档测试数据1", Doc_Version = "1.0", Doc_No = "201403131601", Doc_Status = "未归档", Doc_Dense_Name = "测试", Valid_Time = "2014-03-25", In_Valid_Time = "2014-03-28", Material_Name = "测试零部件1", Doc_Category = "分类1" };
+            docList.Add(doc);
+
+            doc = new DocumentDto { Id = 2, Doc_Name = "文档测试数据2", Doc_Version = "1.1", Doc_No = "201403131602", Doc_Status = "已归档", Doc_Dense_Name = "测试", Valid_Time = "2014-03-22", In_Valid_Time = "2014-03-31", Material_Name = "测试零部件2", Doc_Category = "分类2" };
             docList.Add(doc);
             return docList;
         }
@@ -185,6 +219,12 @@ namespace PDM_Services_Implementation.Test
             var partsList = GetDocPartsByPartId(part_id);
             var docList = GetAllDocument();
             return partsList.Select(part => docList.Find(doc => doc.id == part.Doc_Id)).ToList();
+        }
+        public List<DocumentDto> GetDocumentDtoByPartId(int part_id)
+        {
+            var partsList = GetDocPartsByPartId(part_id);
+            var docList = GetAllDocumentDto();
+            return partsList.Select(part => docList.Find(doc => doc.Id == part.Doc_Id)).ToList();
         }
         public List<Doc_Material> GetDocPartsByPartId(int material_id)
         {

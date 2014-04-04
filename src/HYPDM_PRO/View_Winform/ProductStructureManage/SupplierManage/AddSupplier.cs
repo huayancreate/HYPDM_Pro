@@ -7,11 +7,14 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using PDM_Entity.ProductStruct;
+using PDM_Services_Interface;
+using WcfExtension;
 
 namespace View_Winform.ProductStructureManage.SupplierManage
 {
     public partial class AddSupplier : DevExpress.XtraEditors.XtraForm
     {
+        IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
         private int Id { get; set; }
         public AddSupplier()
         {

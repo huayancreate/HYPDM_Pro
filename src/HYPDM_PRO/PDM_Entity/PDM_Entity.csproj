@@ -52,6 +52,7 @@
     <Compile Include="DocManage\dense_role.cs" />
     <Compile Include="DocManage\department.cs" />
     <Compile Include="DocManage\document.cs" />
+    <Compile Include="DocManage\DocumentDto.cs" />
     <Compile Include="DocManage\DocumentType.cs" />
     <Compile Include="DocManage\document_tree.cs" />
     <Compile Include="DocManage\document_type.cs" />

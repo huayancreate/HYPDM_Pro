@@ -49,13 +49,10 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             simpleButton5.Click += FormClose;
             bmReferTreeList.ItemClick += ReferBomItemClick;
             gridView1.RowClick += GridViewRowClick;
-            gridView5.CustomColumnDisplayText += CustomColumnDisplay;
-            gridView5.CustomDrawCell += DocMaterialCustomDrawCell;
-            //xtraTabControl1.SelectedPageChanged += TabPageSelect;
             #endregion
+            gridView5.OptionsBehavior.AutoExpandAllGroups = true;
             structList = productStructService.GetBOMStructListByBOMId(bom_id);
-            //var structDtoList = productStructService.GetBOMStructDtoListByBOMId(bom_id);
-            //new Test.BOMData().GetAllStructByBOMId(bom_id);
+
             TreeDataBind(structList, treeList1);
             CreateTabControl();
             DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();
@@ -79,6 +76,11 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void TreeListFocusNode(object sender, NodeEventArgs e)
         {
+            btnAddParent.Enabled = e.Node.Level != 0;
+            btnParentPaste.Enabled = e.Node.Level != 0;
+            focus_node = e.Node;
+
+            if (is_right == true) return;
             if (e.Node.GetValue("Material_Id") == null) return;
             if (e.Node.GetValue("Id") == null) return;
             MaterialId = Convert.ToInt32(e.Node.GetValue("Material_Id"));
@@ -92,32 +94,25 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             MaterialQuoteList(MaterialId);
             DocListDataBind(m);
             DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();
-
-            btnAddParent.Enabled = e.Node.Level != 0;
-            btnParentPaste.Enabled = e.Node.Level != 0;
-            focus_node = e.Node;
         }
         private void MaterialListLoad(int id)
         {
-            gridControl2.DataSource = productStructService.GetBOMStructListByParentId(id, bom_id);
+            gridControl2.DataSource = productStructService.GetAllMaterialList(id, bom_id);
         }
         private void TreeDataBind(List<BOM_Struct> list, TreeList treeList)
         {
-            treeList.DataSource = null;
+            treeList.Nodes.Clear();
             TreeListNode parentNode = null;
-            treeList.BeginUnboundLoad();
-            treeList.ClearNodes();
-            foreach (var s in list)
+            var parentList = list.FindAll(s => s.Parent_Id == 0);
+            foreach (var p in parentList)
             {
-                var m = productStructService.GetMaterialById(s.Material_Id);
-                if (parentNode == null)
-                    parentNode = treeList.AppendNode(new object[] { s.Material_Id, s.Id, s.BOM_Id, s.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, 0);
-                else
-                    parentNode = treeList.AppendNode(new object[] { s.Material_Id, s.Id, s.BOM_Id, s.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, parentNode.Id);
+                var m = productStructService.GetMaterialById(p.Material_Id);
+                parentNode = treeList.AppendNode(new object[] { p.Material_Id, p.Id, p.BOM_Id, p.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, 0);
+                GetChildNode(parentNode, p.Id, list);
             }
-            treeList.EndUnboundLoad();
             treeList.ExpandAll();
 
+            if (treeList.FocusedNode == null) return;
             MaterialId = Convert.ToInt32(treeList.FocusedNode.GetValue("Material_Id"));
             var material = Material(MaterialId);
             MaterialDataLoad(material);
@@ -156,7 +151,6 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                 case "btnMaterialReverse":
                     break;
             }
-            //throw new NotImplementedException();
         }
         private void MaterialListRowClik(object sender, RowClickEventArgs e)
         {
@@ -169,7 +163,6 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             var no = MaterialGridView.GetRowCellValue(e.RowHandle, "number");
             var name = MaterialGridView.GetRowCellValue(e.RowHandle, "name");
             if (id == null || no == null || name == null) return;
-            //MessageBox.Show(id + "--" + name + "--" + number);
         }
         private void PartsItemsClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -202,24 +195,25 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                     break;
             }
         }
+        bool is_right = false;
         private void MouseUpClick(object sender, MouseEventArgs e)
         {
             var tree = sender as TreeList;
+            var hitInfo = tree.CalcHitInfo(e.Location);
             if (e.Button != MouseButtons.Right || ModifierKeys != Keys.None || treeList1.State != TreeListState.Regular)
-                return;
-            var p = new Point(Cursor.Position.X, Cursor.Position.Y);
-            if (tree != null)
+            { is_right = false; return; }
+            else
             {
-                var hitInfo = tree.CalcHitInfo(e.Location);
-                if (hitInfo.HitInfoType == HitInfoType.Cell)
+                var p = new Point(Cursor.Position.X, Cursor.Position.Y);
+                if (tree != null)
                 {
-                    tree.SetFocusedNode(hitInfo.Node);
+                    is_right = true;
+                    if (hitInfo.HitInfoType == HitInfoType.Cell)
+                    {
+                        tree.SetFocusedNode(hitInfo.Node);
+                        pmTreeList.ShowPopup(p);
+                    }
                 }
-            }
-
-            if (tree != null && tree.FocusedNode != null)
-            {
-                pmTreeList.ShowPopup(p);
             }
         }
         private void RefreshData(object sender, EventArgs e)
@@ -280,7 +274,6 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         private void BindPageTab(XtraTabPage tabPage, List<BOM_Struct> structList)
         {
             var m = productStructService.GetBOMById(bom_id);
-            //new Test.BOMData().GetBOMById(1);
             var _tabPage = CreateTabPageControl("[归档结构] " + m.Name);
             var treeList = CreateTreeListControl(structList);
             _tabPage.Controls.Add(treeList);
@@ -296,8 +289,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         private Materialcs Material(object id)
         {
             var m = productStructService.GetMaterialById(Convert.ToInt32(id));
-            //new Test.BOMData().GetMaterialById(Convert.ToInt32(id));
-            return m ?? null;
+            return m;
         }
         private int MaterialId { get; set; }
         /// <summary>
@@ -423,20 +415,16 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             var id = Convert.ToInt32(focus_node.GetValue("Id"));
             if (bmReferMaterial.Items["btnCopyMaterial"].Tag == "ReferMaterialCopy")
             {
-                var bomStruct = productStructService.GetBOMStructByMaterialId(referMaterialId, bom_id);
-                //new Test.BOMData().GetStructByMaterialId(referMaterialId);
-                var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = bomStruct.Material_Id, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = 0 };
+                //var bomStruct = productStructService.GetBOMStructByMaterialId(referMaterialId, bom_id);
+                var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = referMaterialId, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = 0 };
                 structList.Add(m);
-                //MessageBox.Show("零部件粘贴"); return;
             }
             else
             {
-                var bomStruct = productStructService.GetBOMStructByMaterialId(referMaterialId, bom_id);
-                //new Test.BOMData().GetStructByMaterialId(referMaterialId);
-                var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = bomStruct.Material_Id, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = bom_id };
+                //var bomStruct = productStructService.GetBOMStructByMaterialId(referMaterialId, bom_id);
+                var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = referMaterialId, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = bom_id };
                 var new_id = m.Id;
                 var _structList = productStructService.GetBOMStructListByMaterialId(referMaterialId, bom_id);
-                //new Test.BOMData().GetStructListByMaterialId(referMaterialId);
                 structList.Add(m);
                 if (_structList.Count > 0)
                     foreach (var obj in _structList)
@@ -457,7 +445,6 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             if (materialForm.DialogResult == DialogResult.OK)
             {
                 var id = Convert.ToInt32(focus_node.GetValue("Id"));
-                //parent_id = Convert.ToInt32(focus_node.ParentNode.GetValue("Id"));
                 var parts = materialForm.parts;
                 var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = Convert.ToInt32(parts[0]) };
                 structList.Add(m);
@@ -493,27 +480,6 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         private void MaterialQuoteList(int id)
         {
             gridControl3.DataSource = productStructService.GetAllBOMList();
-            //new Test.BOMData().GetAllBOM();
-            gridView3.CustomColumnDisplayText += GridViewCustomColumnDisplayText;
-            //new Test.BOMData().GetBOMByIsRefer(id);
-        }
-        private void GridViewCustomColumnDisplayText(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs e)
-        {
-            //if(e.)
-            //var parent_id = gridView3.GetRowCellValue(e.RowHandle, "Parent_Id");
-            ////new Test.BOMData().GetMaterialById(Convert.ToInt32(parent_id));
-            //if (e.Column.FieldName == "Parent_Id")
-            //{
-            //    var m = productStructService.GetMaterialById(Convert.ToInt32(parent_id));
-            //    if (m == null) return;
-            //    e.DisplayText = m.number;
-            //}
-            //if (e.Column.FieldName == "RootVersion")
-            //{
-            //    var m = productStructService.GetMaterialById(Convert.ToInt32(parent_id));
-            //    if (m == null) return;
-            //    e.DisplayText = m.versions;
-            //}
         }
         /// <summary>
         /// 文档清单列表
@@ -523,46 +489,22 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             gridControl4.DataSource = null;
             if (m == null) return;
             gridControl4.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
-            //new Test.BOMData().GetDocumentByPartId(m.ID);
         }
-        private void DocMaterialCustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+        /// <summary>
+        /// 递归绑定子节点数据
+        /// </summary>
+        /// <param name="parentNode">父节点</param>
+        /// <param name="p">父节点Id</param>
+        /// <param name="structList">数据集合</param>
+        private void GetChildNode(TreeListNode parentNode, int p, List<BOM_Struct> structList)
         {
-            GridView gv = sender as GridView;
-            var id = gv.GetRowCellValue(e.RowHandle, "Doc_Id");
-            var document = GetDoc(Convert.ToInt32(id));
-            if (document == null) return;
-            if (e.Column.FieldName == "cn_name")
-                e.DisplayText = document.cn_name;
-            if (e.Column.FieldName == "number")
-                e.DisplayText = document.number;
-            if (e.Column.FieldName == "version")
-                e.DisplayText = document.version;
-        }
-        private document GetDoc(int id)
-        {
-            var docList = productStructService.GetDocWithMaterailByMaterialId(id);
-            if (docList.Count > 0)
-                return docList[0];
-            return null;
-            //new Test.BOMData().GetDocumentByDocId(id);
-        }
-        private void CustomColumnDisplay(object sender, DevExpress.XtraGrid.Views.Base.CustomColumnDisplayTextEventArgs e)
-        {
-            GridView gv = sender as GridView;
-            if (e.Column.FieldName == "Material_Id")
+            var childList = structList.FindAll(s => s.Parent_Id == p);
+            foreach (var c in childList)
             {
-                var m = productStructService.GetMaterialById(Convert.ToInt32(e.Value));
-                if (m == null) return;
-                e.DisplayText = m.name; //new Test.BOMData().GetMaterialById(Convert.ToInt32(e.Value)).name;
+                var m = productStructService.GetMaterialById(c.Material_Id);
+                TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, parentNode);
+                GetChildNode(tns, c.Id, structList);
             }
         }
-        //void TabPageSelect(object sender, TabPageChangedEventArgs e)
-        //{
-        //    if (e.Page.Name == "xtraTabPage6")
-        //    {
-        //        var m = WcfServiceLocator.Create<IProjectStruct>().GetMaterialById(MaterialId);
-        //        DocListDataBind(m);
-        //    }
-        //}
     }
 }

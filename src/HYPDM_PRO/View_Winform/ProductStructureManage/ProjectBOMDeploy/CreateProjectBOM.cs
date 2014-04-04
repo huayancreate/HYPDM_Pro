@@ -17,6 +17,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
 {
     public partial class CreateProjectBOM : DevExpress.XtraEditors.XtraForm
     {
+        IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
         public BOM bom { get; set; }
         public CreateProjectBOM()
         {
@@ -95,9 +96,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                     Create_Date = Convert.ToDateTime(txtCreateDate.Text)
                 };
             }
-            //bom.Parent_Id = 2;
-            var result = true;
-            //var result = WcfServiceLocator.Create<IProjectStruct>().AddORUpdateBOM(bom);
+            var result = productStructService.AddORUpdateBOM(bom);
             if (result)
             {
                 this.Hide();
@@ -115,7 +114,8 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             txtDescription.Text = bom.Description;
             cboProductType.Text = bom.Type;
 
-            var m = new Test.BOMData().GetMaterialById(Convert.ToInt32(bom.Parent_Id));
+            var m = productStructService.GetMaterialById(Convert.ToInt32(bom.Parent_Id));
+            //new Test.BOMData().GetMaterialById(Convert.ToInt32(bom.Parent_Id));
             if (m == null) return;
             txtRootPartName.Text = m.name;
             txtRootPartNo.Text = m.number;

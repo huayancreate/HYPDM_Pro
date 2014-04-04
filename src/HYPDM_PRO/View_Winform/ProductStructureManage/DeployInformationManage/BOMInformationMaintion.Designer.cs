@@ -49,6 +49,8 @@
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -72,8 +74,6 @@
             this.btnEditBOMItem = new DevExpress.XtraBars.BarButtonItem();
             this.btnDelBOMItem = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -292,6 +292,22 @@
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "根件件号";
+            this.gridColumn5.FieldName = "RootNo";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 4;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "根件版本";
+            this.gridColumn6.FieldName = "RootVersion";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 5;
+            // 
             // gridColumn9
             // 
             this.gridColumn9.Caption = "Parent_Id";
@@ -302,8 +318,6 @@
             // 
             this.gridColumn7.Caption = "BOM导入ERP状态";
             this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 6;
             // 
             // gridColumn8
             // 
@@ -311,7 +325,7 @@
             this.gridColumn8.FieldName = "UserName";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 7;
+            this.gridColumn8.VisibleIndex = 6;
             // 
             // labelControl1
             // 
@@ -477,22 +491,6 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.btnDelBOMItem)});
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
-            // 
-            // gridColumn5
-            // 
-            this.gridColumn5.Caption = "根件件号";
-            this.gridColumn5.FieldName = "RootNo";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
-            // 
-            // gridColumn6
-            // 
-            this.gridColumn6.Caption = "根件版本";
-            this.gridColumn6.FieldName = "RootVersion";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 5;
             // 
             // BOMInformationMaintion
             // 

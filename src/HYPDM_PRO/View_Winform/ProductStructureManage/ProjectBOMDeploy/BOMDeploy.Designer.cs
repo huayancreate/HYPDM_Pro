@@ -495,7 +495,7 @@
             // DocName
             // 
             this.DocName.Caption = "文档名称";
-            this.DocName.FieldName = "cn_name";
+            this.DocName.FieldName = "Doc_Name";
             this.DocName.Name = "DocName";
             this.DocName.Visible = true;
             this.DocName.VisibleIndex = 0;
@@ -504,7 +504,7 @@
             // DocNo
             // 
             this.DocNo.Caption = "文档编号";
-            this.DocNo.FieldName = "number";
+            this.DocNo.FieldName = "Doc_No";
             this.DocNo.Name = "DocNo";
             this.DocNo.Visible = true;
             this.DocNo.VisibleIndex = 1;
@@ -513,7 +513,7 @@
             // DocVersion
             // 
             this.DocVersion.Caption = "文档版本";
-            this.DocVersion.FieldName = "version";
+            this.DocVersion.FieldName = "Doc_Version";
             this.DocVersion.Name = "DocVersion";
             this.DocVersion.Visible = true;
             this.DocVersion.VisibleIndex = 2;
@@ -521,6 +521,7 @@
             // DocType
             // 
             this.DocType.Caption = "文档分类";
+            this.DocType.FieldName = "Doc_Category";
             this.DocType.Name = "DocType";
             this.DocType.Visible = true;
             this.DocType.VisibleIndex = 3;
@@ -529,7 +530,7 @@
             // gridColumn1
             // 
             this.gridColumn1.Caption = "文档密级";
-            this.gridColumn1.FieldName = "dense_name";
+            this.gridColumn1.FieldName = "Doc_Dense_Name";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 4;
@@ -537,7 +538,7 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "文档状态";
-            this.gridColumn2.FieldName = "status";
+            this.gridColumn2.FieldName = "Doc_Status";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 5;
@@ -545,7 +546,7 @@
             // gridColumn3
             // 
             this.gridColumn3.Caption = "生效时间";
-            this.gridColumn3.FieldName = "valid_time";
+            this.gridColumn3.FieldName = "Valid_Time";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 6;
@@ -554,7 +555,7 @@
             // gridColumn4
             // 
             this.gridColumn4.Caption = "失效时间";
-            this.gridColumn4.FieldName = "in_valid_time";
+            this.gridColumn4.FieldName = "In_Valid_Time";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 7;
@@ -1035,12 +1036,12 @@
             this.gridColumn6,
             this.gridColumn7,
             this.gridColumn8,
-            this.gridColumn11,
-            this.gridColumn12,
-            this.gridColumn14,
-            this.gridColumn13,
             this.gridColumn9,
-            this.gridColumn10});
+            this.gridColumn10,
+            this.gridColumn11,
+            this.gridColumn14,
+            this.gridColumn12,
+            this.gridColumn13});
             this.gridView3.GridControl = this.gridControl3;
             this.gridView3.Name = "gridView3";
             this.gridView3.OptionsBehavior.Editable = false;
@@ -1072,11 +1073,9 @@
             // 
             // gridColumn11
             // 
-            this.gridColumn11.Caption = "根件件号";
+            this.gridColumn11.Caption = "parent_id";
             this.gridColumn11.FieldName = "Parent_Id";
             this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 2;
             this.gridColumn11.Width = 100;
             // 
             // gridColumn12
@@ -1094,7 +1093,7 @@
             this.gridColumn14.FieldName = "RootName";
             this.gridColumn14.Name = "gridColumn14";
             this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 6;
+            this.gridColumn14.VisibleIndex = 4;
             this.gridColumn14.Width = 52;
             // 
             // gridColumn13
@@ -1120,7 +1119,7 @@
             this.gridColumn10.FieldName = "Type";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 5;
+            this.gridColumn10.VisibleIndex = 3;
             // 
             // xtraTabPage13
             // 
@@ -1280,7 +1279,7 @@
             // gridColumn15
             // 
             this.gridColumn15.Caption = "文档编码";
-            this.gridColumn15.FieldName = "number";
+            this.gridColumn15.FieldName = "Doc_No";
             this.gridColumn15.Name = "gridColumn15";
             this.gridColumn15.Visible = true;
             this.gridColumn15.VisibleIndex = 0;
@@ -1288,7 +1287,7 @@
             // gridColumn17
             // 
             this.gridColumn17.Caption = "文档名称";
-            this.gridColumn17.FieldName = "cn_name";
+            this.gridColumn17.FieldName = "Doc_Name";
             this.gridColumn17.Name = "gridColumn17";
             this.gridColumn17.Visible = true;
             this.gridColumn17.VisibleIndex = 1;
@@ -1296,7 +1295,7 @@
             // gridColumn16
             // 
             this.gridColumn16.Caption = "文档版本";
-            this.gridColumn16.FieldName = "version";
+            this.gridColumn16.FieldName = "Doc_Version";
             this.gridColumn16.Name = "gridColumn16";
             this.gridColumn16.Visible = true;
             this.gridColumn16.VisibleIndex = 2;
@@ -1304,12 +1303,13 @@
             // gridColumn18
             // 
             this.gridColumn18.Caption = "id";
-            this.gridColumn18.FieldName = "id";
+            this.gridColumn18.FieldName = "Id";
             this.gridColumn18.Name = "gridColumn18";
             // 
             // gridColumn19
             // 
-            this.gridColumn19.Caption = "文档类型";
+            this.gridColumn19.Caption = "文档分类";
+            this.gridColumn19.FieldName = "Doc_Category";
             this.gridColumn19.Name = "gridColumn19";
             this.gridColumn19.Visible = true;
             this.gridColumn19.VisibleIndex = 3;
@@ -1317,6 +1317,7 @@
             // gridColumn20
             // 
             this.gridColumn20.Caption = "文档状态";
+            this.gridColumn20.FieldName = "Doc_Status";
             this.gridColumn20.Name = "gridColumn20";
             this.gridColumn20.Visible = true;
             this.gridColumn20.VisibleIndex = 4;
@@ -1352,23 +1353,26 @@
             this.gridColumn26,
             this.gridColumn27});
             this.gridView5.GridControl = this.gridControl5;
+            this.gridView5.GroupCount = 1;
             this.gridView5.Name = "gridView5";
             this.gridView5.OptionsBehavior.Editable = false;
             this.gridView5.OptionsDetail.EnableMasterViewMode = false;
             this.gridView5.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView5.OptionsView.ShowGroupPanel = false;
             this.gridView5.OptionsView.ShowIndicator = false;
+            this.gridView5.SortInfo.AddRange(new DevExpress.XtraGrid.Columns.GridColumnSortInfo[] {
+            new DevExpress.XtraGrid.Columns.GridColumnSortInfo(this.gridColumn27, DevExpress.Data.ColumnSortOrder.Ascending)});
             // 
             // gridColumn24
             // 
             this.gridColumn24.Caption = "Doc_Id";
-            this.gridColumn24.FieldName = "Doc_Id";
+            this.gridColumn24.FieldName = "Id";
             this.gridColumn24.Name = "gridColumn24";
             // 
             // gridColumn21
             // 
             this.gridColumn21.Caption = "文档编码";
-            this.gridColumn21.FieldName = "number";
+            this.gridColumn21.FieldName = "Doc_No";
             this.gridColumn21.Name = "gridColumn21";
             this.gridColumn21.Visible = true;
             this.gridColumn21.VisibleIndex = 0;
@@ -1376,7 +1380,7 @@
             // gridColumn22
             // 
             this.gridColumn22.Caption = "文档名称";
-            this.gridColumn22.FieldName = "cn_name";
+            this.gridColumn22.FieldName = "Doc_Name";
             this.gridColumn22.Name = "gridColumn22";
             this.gridColumn22.Visible = true;
             this.gridColumn22.VisibleIndex = 1;
@@ -1384,14 +1388,15 @@
             // gridColumn23
             // 
             this.gridColumn23.Caption = "文档版本";
-            this.gridColumn23.FieldName = "version";
+            this.gridColumn23.FieldName = "Doc_Version";
             this.gridColumn23.Name = "gridColumn23";
             this.gridColumn23.Visible = true;
             this.gridColumn23.VisibleIndex = 2;
             // 
             // gridColumn25
             // 
-            this.gridColumn25.Caption = "文档类型";
+            this.gridColumn25.Caption = "文档分类";
+            this.gridColumn25.FieldName = "Doc_Category";
             this.gridColumn25.Name = "gridColumn25";
             this.gridColumn25.Visible = true;
             this.gridColumn25.VisibleIndex = 3;
@@ -1399,6 +1404,7 @@
             // gridColumn26
             // 
             this.gridColumn26.Caption = "文档状态";
+            this.gridColumn26.FieldName = "Doc_Status";
             this.gridColumn26.Name = "gridColumn26";
             this.gridColumn26.Visible = true;
             this.gridColumn26.VisibleIndex = 4;
@@ -1406,7 +1412,7 @@
             // gridColumn27
             // 
             this.gridColumn27.Caption = "所关联的零部件";
-            this.gridColumn27.FieldName = "Material_Id";
+            this.gridColumn27.FieldName = "Material_Name";
             this.gridColumn27.Name = "gridColumn27";
             this.gridColumn27.Visible = true;
             this.gridColumn27.VisibleIndex = 5;
@@ -1451,8 +1457,6 @@
             this.gridColumn5.Caption = "序列号";
             this.gridColumn5.FieldName = "ID";
             this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 0;
             // 
             // name
             // 
@@ -1460,7 +1464,7 @@
             this.name.FieldName = "name";
             this.name.Name = "name";
             this.name.Visible = true;
-            this.name.VisibleIndex = 1;
+            this.name.VisibleIndex = 0;
             // 
             // number
             // 
@@ -1468,7 +1472,7 @@
             this.number.FieldName = "number";
             this.number.Name = "number";
             this.number.Visible = true;
-            this.number.VisibleIndex = 2;
+            this.number.VisibleIndex = 1;
             // 
             // versions
             // 
@@ -1476,7 +1480,7 @@
             this.versions.FieldName = "versions";
             this.versions.Name = "versions";
             this.versions.Visible = true;
-            this.versions.VisibleIndex = 3;
+            this.versions.VisibleIndex = 2;
             // 
             // pmTreeList
             // 

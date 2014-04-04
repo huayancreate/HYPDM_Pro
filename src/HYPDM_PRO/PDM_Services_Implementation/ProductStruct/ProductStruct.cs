@@ -6,6 +6,7 @@ using PDM_Services_Interface;
 using PDM_Entity.ProductStruct;
 using System.ServiceModel;
 using PDM_Entity.PartsMange;
+using PDM_Entity.DocManage;
 
 namespace PDM_Services_Implementation
 {
@@ -100,7 +101,12 @@ namespace PDM_Services_Implementation
         public List<BOM_Struct> GetBOMStructListByParentId(int id, int bomId)
         {
             var sql = "select * from bom_struct where parent_id=" + id + " and bom_id=" + bomId + " and is_delete='0'";
-            return new Test.BOMData().GetStructListByParentId(id, bomId);
+
+            var structList = new Test.BOMData().GetAllStruct().FindAll(s => s.Id == id);
+            //structList.Add(GetBOMStructListByMaterialId)
+            GetAllChildBOMStruct(id, ref structList);
+            return structList;
+            //return new Test.BOMData().GetStructListByParentId(id, bomId);
         }
         /// <summary>
         /// 根据BOM结构列表添加结构数据
@@ -162,11 +168,11 @@ namespace PDM_Services_Implementation
         {
             return new Test.BOMData().GetMaterialById(id);
         }
-        public List<PDM_Entity.DocManage.document> GetDocWithMaterailByMaterialId(int id)
+        public List<DocumentDto> GetDocWithMaterailByMaterialId(int id)
         {
             var docMaterialList = new Test.BOMData().GetDocPartsByPartId(id);
-            var docList = new Test.BOMData().GetAllDocument();
-            return docMaterialList.Select(doc_m => docList.Find(doc => doc.id == doc_m.Doc_Id)).ToList();
+            var docList = new Test.BOMData().GetAllDocumentDto();
+            return docMaterialList.Select(doc_m => docList.Find(doc => doc.Id == doc_m.Doc_Id)).ToList();
         }
         public BOM_Struct GetBOMStructByMaterialId(int materialId, int bomId)
         {
@@ -183,6 +189,30 @@ namespace PDM_Services_Implementation
         public List<BOMDto> GetAllBOMDtoList()
         {
             return new Test.BOMData().GetAllBOMDto();
+        }
+        /// <summary>
+        /// 根据父节点获取所有子节点数据
+        /// </summary>
+        /// <param name="id">父节点</param>
+        /// <param name="strucList">返回的集合</param>
+        private void GetAllChildBOMStruct(int id, ref List<BOM_Struct> strucList)
+        {
+            var list = new Test.BOMData().GetAllStruct().FindAll(s => s.Parent_Id == id);
+            foreach (var s in list)
+            {
+                strucList.Add(s);
+                GetAllChildBOMStruct(s.Id, ref strucList);
+            }
+        }
+        public List<Materialcs> GetAllMaterialList(int id, int bomId)
+        {
+            var materialList = new List<Materialcs>();
+            var structList = GetBOMStructListByParentId(id, bomId);
+            foreach (var item in structList)
+            {
+                materialList.Add(GetMaterialById(item.Material_Id));
+            }
+            return materialList;
         }
     }
 }
