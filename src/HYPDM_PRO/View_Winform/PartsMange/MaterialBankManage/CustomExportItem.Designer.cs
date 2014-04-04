@@ -1,4 +1,4 @@
-﻿namespace View_Winform.PartsMange.MaterialBankManage
+﻿namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     partial class CustomExportItem
     {
@@ -104,6 +104,7 @@
             this.simpleButton6.Size = new System.Drawing.Size(55, 23);
             this.simpleButton6.TabIndex = 74;
             this.simpleButton6.Text = "取消(C)";
+            this.simpleButton6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.simpleButton6_MouseDown);
             // 
             // simpleButton5
             // 

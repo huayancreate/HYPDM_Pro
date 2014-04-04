@@ -1,4 +1,4 @@
-﻿namespace View_Winform.PartsMange.MaterialBankManage
+﻿namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     partial class DataAddGuide
     {
@@ -161,6 +161,7 @@
             this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.TabIndex = 71;
             this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Text = "取消(C)";
             this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.Click += new System.EventHandler(this.simpleButton1_Click);
+            this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_DataAddGuide_CancelData_SimpleButton_MouseDown);
             // 
             // PartsMange_MaterialBankManage_DataAddGuide_ImportData_SimpleButton
             // 

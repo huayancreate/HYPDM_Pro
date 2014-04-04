@@ -11,7 +11,18 @@ namespace PDM_Services_Interface
     public interface IMaterialBankManage
     {
         [OperationContract]
-        Materialcs GetAllMaterialcs(string name, string versions, string number, string type);  //得到物料信息
+        IList<MaterialBaseProperty> MB();  //物料信息
+
+        [OperationContract]
+        IList<MaterialBaseProperty> QueryMaterial(); //查询
+
+        [OperationContract]
+        bool DeleteMaterialMessage(int id); //删除物料信息
+
+        [OperationContract]
+        IList<MaterialBaseProperty> ModifyMaterialMessage();  //修改信息
+       
+
         
     }
 }

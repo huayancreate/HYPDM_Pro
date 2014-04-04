@@ -13,9 +13,9 @@ namespace PDM_Services_Implementation
         Namespace = "PDM_Services_Implementation")]
     public class AddType : IAddType
     {
-         public Materialcs GetAllMaterialcs(string name, string versions, string number, string type)
+         public Material GetAllMaterialcs(string name, string versions, string number, string type)
          {
-             Materialcs M = new Materialcs();
+             Material M = new Material();
              return M;
          } 
     }

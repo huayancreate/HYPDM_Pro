@@ -31,14 +31,14 @@
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit6 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit = new DevExpress.XtraEditors.TextEdit();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl6
@@ -65,61 +65,64 @@
             this.labelControl2.TabIndex = 88;
             this.labelControl2.Text = "描述信息:";
             // 
-            // textEdit6
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit
             // 
-            this.textEdit6.Location = new System.Drawing.Point(109, 9);
-            this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(167, 20);
-            this.textEdit6.TabIndex = 89;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Location = new System.Drawing.Point(109, 9);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Size = new System.Drawing.Size(167, 20);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.TabIndex = 89;
             // 
-            // textEdit1
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit
             // 
-            this.textEdit1.Location = new System.Drawing.Point(109, 44);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(167, 20);
-            this.textEdit1.TabIndex = 90;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Location = new System.Drawing.Point(109, 44);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Size = new System.Drawing.Size(167, 20);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.TabIndex = 90;
             // 
-            // textEdit2
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit
             // 
-            this.textEdit2.Location = new System.Drawing.Point(109, 82);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(167, 20);
-            this.textEdit2.TabIndex = 91;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Location = new System.Drawing.Point(109, 82);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Size = new System.Drawing.Size(167, 20);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.TabIndex = 91;
             // 
-            // simpleButton6
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(149, 108);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton6.TabIndex = 92;
-            this.simpleButton6.Text = "确定(O)";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton.Location = new System.Drawing.Point(149, 108);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton.TabIndex = 92;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton.Text = "确定(O)";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton.Click += new System.EventHandler(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton_Click);
             // 
-            // simpleButton5
+            // PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(221, 108);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton5.TabIndex = 93;
-            this.simpleButton5.Text = "取消(C)";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton.Location = new System.Drawing.Point(221, 108);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton.Size = new System.Drawing.Size(55, 23);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton.TabIndex = 93;
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton.Text = "取消(C)";
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton_MouseDown);
             // 
             // AddUnitGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(301, 142);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton6);
-            this.Controls.Add(this.textEdit2);
-            this.Controls.Add(this.textEdit1);
-            this.Controls.Add(this.textEdit6);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit);
+            this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.labelControl6);
             this.Name = "AddUnitGroup";
             this.Text = "添加计量单位组";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            this.Load += new System.EventHandler(this.AddUnitGroup_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -130,10 +133,10 @@
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit6;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton;
     }
 }
