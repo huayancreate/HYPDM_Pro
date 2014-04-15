@@ -1,4 +1,4 @@
-﻿namespace View_Winform.PartsMange.MaterialBankManage
+﻿namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     partial class AddMaterialInfor
     {
@@ -499,6 +499,7 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.TabIndex = 63;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Text = "取消(C)";
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton_MouseDown);
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton
             // 
@@ -509,6 +510,7 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.TabIndex = 62;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Text = "确定(O)";
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton_Click);
             // 
             // AddMaterialInfor
             // 
@@ -521,6 +523,7 @@
             this.Controls.Add(this.xtraTabControl1);
             this.Name = "AddMaterialInfor";
             this.Text = "添加物料信息";
+            this.Load += new System.EventHandler(this.AddMaterialInfor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage1.ResumeLayout(false);

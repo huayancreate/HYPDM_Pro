@@ -1,4 +1,4 @@
-﻿namespace View_Winform.PartsMange.MaterialBankManage
+﻿namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     partial class AddType
     {
@@ -173,6 +173,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Size = new System.Drawing.Size(102, 20);
             this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.TabIndex = 66;
+            this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Tag = "code_length";
             // 
             // PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit
             // 
@@ -182,6 +183,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Size = new System.Drawing.Size(102, 20);
             this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.TabIndex = 65;
+            this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Tag = "child_mark_length";
             // 
             // PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit
             // 
@@ -189,6 +191,7 @@
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit";
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Size = new System.Drawing.Size(102, 20);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.TabIndex = 64;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Tag = "name";
             // 
             // PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit
             // 
@@ -205,6 +208,7 @@
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.TabIndex = 65;
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Text = "取消(C)";
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton_MouseDown);
             // 
             // PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton
             // 

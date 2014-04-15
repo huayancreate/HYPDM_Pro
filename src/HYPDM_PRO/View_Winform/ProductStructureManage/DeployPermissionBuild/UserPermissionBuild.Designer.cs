@@ -105,9 +105,9 @@
             // 
             // gridControl2
             // 
-            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gridControl2.Location = new System.Drawing.Point(0, 2);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
@@ -156,6 +156,7 @@
             this.Controls.Add(this.simpleButton5);
             this.Controls.Add(this.simpleButton4);
             this.Name = "UserPermissionBuild";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BOM用户权限设定";
             this.Load += new System.EventHandler(this.UserPermissionBuild_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();

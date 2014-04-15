@@ -52,18 +52,51 @@
     <Compile Include="DocManage\dense_role.cs" />
     <Compile Include="DocManage\department.cs" />
     <Compile Include="DocManage\document.cs" />
+    <Compile Include="DocManage\DocumentDto.cs" />
     <Compile Include="DocManage\DocumentType.cs" />
     <Compile Include="DocManage\document_tree.cs" />
     <Compile Include="DocManage\document_type.cs" />
     <Compile Include="DocManage\doc_attached_property.cs" />
     <Compile Include="DocManage\doc_combobox_value.cs" />
     <Compile Include="DocManage\doc_grant_setting.cs" />
+    <Compile Include="DocManage\Doc_Material.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DocManage\doc_query.cs" />
     <Compile Include="DocManage\doc_template.cs" />
     <Compile Include="DocManage\doc_template_tree.cs" />
     <Compile Include="DocManage\user.cs" />
+    <Compile Include="PartsMange\Material.cs" />
+    <Compile Include="PartsMange\MaterialAttachedProperty.cs" />
+    <Compile Include="PartsMange\MaterialBaseProperty.cs" />
     <Compile Include="PartsMange\Materialcs.cs" />
+    <Compile Include="PartsMange\MaterialType.cs" />
     <Compile Include="PartsMange\material_attached_property.cs" />
+    <Compile Include="PartsMange\Material_Type.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PartsMange\ProductCategory.cs" />
+    <Compile Include="PartsMange\RepeatRule.cs" />
+    <Compile Include="PartsMange\Unit.cs" />
+    <Compile Include="PartsMange\UnitGroup.cs" />
+    <Compile Include="ProductStruct\BOM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductStruct\BOMDto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductStruct\BOM_Attached_Property.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductStruct\BOM_ComboBox_Value.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductStruct\BOM_Struct.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProductStruct\Supplier.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeRule.cs" />
     <Compile Include="SystemManagementAndTools\CodeRuleCodes.cs" />

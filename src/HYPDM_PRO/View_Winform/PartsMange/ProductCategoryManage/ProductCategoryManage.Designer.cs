@@ -1,4 +1,4 @@
-﻿namespace View_Winform.PartsMange.MaterialBankManage
+﻿namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     partial class ProductCategoryManage
     {
@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList = new DevExpress.XtraTreeList.TreeList();
@@ -61,6 +61,17 @@
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.barButtonItem_Add = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Delete = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Modify = new DevExpress.XtraBars.BarButtonItem();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.repositoryItemTextEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl)).BeginInit();
@@ -75,6 +86,9 @@
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).BeginInit();
             this.SuspendLayout();
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton
@@ -113,20 +127,13 @@
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.TabIndex = 64;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton.Text = "图";
             // 
-            // labelControl5
-            // 
-            this.labelControl5.Location = new System.Drawing.Point(3, 30);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(28, 14);
-            this.labelControl5.TabIndex = 65;
-            this.labelControl5.Text = "分类:";
-            // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit
             // 
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Location = new System.Drawing.Point(36, 27);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Name = "PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit";
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Size = new System.Drawing.Size(120, 20);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.TabIndex = 66;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Tag = "name";
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton
             // 
@@ -135,6 +142,7 @@
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Size = new System.Drawing.Size(35, 23);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.TabIndex = 67;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Text = "查询";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton.Click += new System.EventHandler(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton_Click);
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList
             // 
@@ -157,6 +165,10 @@
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.OptionsPrint.UsePrintStyles = true;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Size = new System.Drawing.Size(196, 497);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.TabIndex = 68;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.Tag = "name";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList_FocusedNodeChanged);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.DoubleClick += new System.EventHandler(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList_DoubleClick);
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList_MouseDown);
             // 
             // treeListColumn1
             // 
@@ -215,6 +227,7 @@
             // gridColumn1
             // 
             this.gridColumn1.Caption = "产品件号";
+            this.gridColumn1.FieldName = "number";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
@@ -222,6 +235,7 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "产品版本";
+            this.gridColumn2.FieldName = "versions";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
@@ -236,6 +250,7 @@
             // gridColumn4
             // 
             this.gridColumn4.Caption = "产品名称";
+            this.gridColumn4.FieldName = "cn_name";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
@@ -243,6 +258,7 @@
             // gridColumn5
             // 
             this.gridColumn5.Caption = "设计状态";
+            this.gridColumn5.FieldName = "status";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 4;
@@ -250,6 +266,7 @@
             // gridColumn6
             // 
             this.gridColumn6.Caption = "产品分类";
+            this.gridColumn6.FieldName = "type";
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
@@ -271,6 +288,7 @@
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Size = new System.Drawing.Size(50, 23);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.TabIndex = 61;
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Text = "查询(Q)";
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton.Click += new System.EventHandler(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Query_SimpleButton_Click);
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit
             // 
@@ -281,6 +299,7 @@
                 "t";
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Size = new System.Drawing.Size(212, 20);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.TabIndex = 54;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_TextEdit.Tag = "name";
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn
             // 
@@ -291,6 +310,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Size = new System.Drawing.Size(51, 20);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.TabIndex = 53;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType3_ComboBoxEditn.Tag = "versions";
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn
             // 
@@ -301,6 +321,7 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Size = new System.Drawing.Size(51, 20);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.TabIndex = 52;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType2_ComboBoxEditn.Tag = "type";
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn
             // 
@@ -309,8 +330,12 @@
                 "oxEditn";
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Properties.Items.AddRange(new object[] {
+            "设计状态",
+            "归档状态"});
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Size = new System.Drawing.Size(51, 20);
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.TabIndex = 51;
+            this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType1_ComboBoxEditn.Tag = "status";
             // 
             // PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl
             // 
@@ -353,6 +378,7 @@
             // gridColumn7
             // 
             this.gridColumn7.Caption = "产品件号";
+            this.gridColumn7.FieldName = "number";
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 0;
@@ -374,6 +400,7 @@
             // gridColumn10
             // 
             this.gridColumn10.Caption = "产品名称";
+            this.gridColumn10.FieldName = "cn_name";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
             this.gridColumn10.VisibleIndex = 3;
@@ -381,6 +408,7 @@
             // gridColumn11
             // 
             this.gridColumn11.Caption = "设计状态";
+            this.gridColumn11.FieldName = "status";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.Visible = true;
             this.gridColumn11.VisibleIndex = 4;
@@ -388,9 +416,94 @@
             // gridColumn12
             // 
             this.gridColumn12.Caption = "产品分类";
+            this.gridColumn12.FieldName = "type";
             this.gridColumn12.Name = "gridColumn12";
             this.gridColumn12.Visible = true;
             this.gridColumn12.VisibleIndex = 5;
+            // 
+            // barManager1
+            // 
+            this.barManager1.DockControls.Add(this.barDockControlTop);
+            this.barManager1.DockControls.Add(this.barDockControlBottom);
+            this.barManager1.DockControls.Add(this.barDockControlLeft);
+            this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.Form = this;
+            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.barButtonItem_Add,
+            this.barButtonItem_Delete,
+            this.barButtonItem_Modify});
+            this.barManager1.MaxItemId = 3;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(743, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 551);
+            this.barDockControlBottom.Size = new System.Drawing.Size(743, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 551);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(743, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 551);
+            // 
+            // barButtonItem_Add
+            // 
+            this.barButtonItem_Add.Caption = "添加";
+            this.barButtonItem_Add.Id = 0;
+            this.barButtonItem_Add.Name = "barButtonItem_Add";
+            this.barButtonItem_Add.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Add_ItemClick);
+            // 
+            // barButtonItem_Delete
+            // 
+            this.barButtonItem_Delete.Caption = "删除";
+            this.barButtonItem_Delete.Id = 1;
+            this.barButtonItem_Delete.Name = "barButtonItem_Delete";
+            this.barButtonItem_Delete.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Delete_ItemClick);
+            // 
+            // barButtonItem_Modify
+            // 
+            this.barButtonItem_Modify.Caption = "修改";
+            this.barButtonItem_Modify.Id = 2;
+            this.barButtonItem_Modify.Name = "barButtonItem_Modify";
+            this.barButtonItem_Modify.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem_Modify_ItemClick);
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Location = new System.Drawing.Point(3, 30);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(28, 14);
+            this.labelControl5.TabIndex = 65;
+            this.labelControl5.Text = "分类:";
+            // 
+            // popupMenu1
+            // 
+            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Add),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Delete),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Modify)});
+            this.popupMenu1.Manager = this.barManager1;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
+            // repositoryItemTextEdit1
+            // 
+            this.repositoryItemTextEdit1.AutoHeight = false;
+            this.repositoryItemTextEdit1.Name = "repositoryItemTextEdit1";
             // 
             // ProductCategoryManage
             // 
@@ -407,8 +520,13 @@
             this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton);
             this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton);
             this.Controls.Add(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage1_SimpleButton);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
             this.Name = "ProductCategoryManage";
             this.Text = "产品分类管理";
+            this.Load += new System.EventHandler(this.ProductCategoryManage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_ProductMessageType_GroupControl)).EndInit();
@@ -423,6 +541,9 @@
             this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_ProductCategoryManage_ProductCategoryManage_RelevanceProductMessage_GridControl)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemTextEdit1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -434,7 +555,6 @@
         private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage2_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage3_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_ProductCategoryManage4_SimpleButton;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.TextEdit PartsMange_ProductCategoryManage_ProductCategoryManage_Classify_TextEdit;
         private DevExpress.XtraEditors.SimpleButton PartsMange_ProductCategoryManage_ProductCategoryManage_Find_SimpleButton;
         private DevExpress.XtraTreeList.TreeList PartsMange_ProductCategoryManage_ProductCategoryManage_ProductClassify_TreeList;
@@ -463,5 +583,16 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
+        private DevExpress.XtraBars.BarManager barManager1;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Delete;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Modify;
+        private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemTextEdit repositoryItemTextEdit1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Add;
     }
 }

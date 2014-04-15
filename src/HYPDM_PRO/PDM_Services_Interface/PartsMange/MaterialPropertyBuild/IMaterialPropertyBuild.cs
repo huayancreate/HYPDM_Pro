@@ -12,21 +12,26 @@ namespace PDM_Services_Interface
     public interface IMaterialPropertyBuild
     {
         [OperationContract]
-        Materialcs GetMaterialcsBuild(string name, string type);
+        Material GetMaterialcsBuild(string name, string type);
 
         [OperationContract]
-        int  AddMaterialcsBuild(int x, int y);
+        int  AddBuild(int x, int y);
 
-        //[OperationContract]
-       // string DeleteMaterialcsBuild(int id);
+       //[OperationContract]
+       //string DeleteMaterialcsBuild(int id);
 
-        //[OperationContract]
-       // string ModifyMaterialcsBuild(int id);
+       //[OperationContract]
+       //string ModifyMaterialcsBuild(int id);
 
         [OperationContract]
-        IList<Materialcs> Mate(); //物料属性
+        IList<MaterialBaseProperty> Mate(); //物料属性
+
+        [OperationContract]
+        bool  DeleteMaterialBuild(int id);  //删除属性
+
 
         
+
 
     }
 }

@@ -10,7 +10,7 @@ namespace PDM_Entity.PartsMange
     public class Materialcs
     {
         [DataMember(Order = 1)]
-        public int ID {get; set;}
+        public int id {get; set;}
 
         [DataMember(Order = 2)]
         public int unit_id {get; set;}
@@ -81,5 +81,20 @@ namespace PDM_Entity.PartsMange
 
          [DataMember(Order = 22)]
          public string widgh { get; set; }
+        
+         [DataMember(Order = 23)]
+         public string Material_Type{get; set;}
+
+         [DataMember(Order = 24)]
+         public string property_type{ get; set;}
+
+         [DataMember(Order = 25)]
+         public string is_property { get; set;}
+
+         [DataMember(Order = 26)]
+         public string is_show {get; set;}
+
+
+
     }
 }

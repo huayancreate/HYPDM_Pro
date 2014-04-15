@@ -56,7 +56,20 @@
     <Compile Include="PartsMange\MaterialBankManage\MaterialBankManage.cs" />
     <Compile Include="PartsMange\MaterialPegging\MaterialPegging.cs" />
     <Compile Include="PartsMange\MaterialPropertyBuild\AddMaterialProperty.cs" />
+    <Compile Include="PartsMange\MaterialPropertyBuild\ChooseMaterialType.cs" />
+    <Compile Include="PartsMange\MaterialPropertyBuild\DeleteMaterialBuild.cs" />
+    <Compile Include="PartsMange\MaterialPropertyBuild\EventHandle.cs" />
     <Compile Include="PartsMange\MaterialPropertyBuild\MaterialPropertyBuild.cs" />
+    <Compile Include="PartsMange\MaterialReviewRuleManage\AddReviewRule.cs" />
+    <Compile Include="PartsMange\MaterialReviewRuleManage\CheckResult.cs" />
+    <Compile Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.cs" />
+    <Compile Include="PartsMange\MeasurementUnitBuild\AddUnitGroup.cs" />
+    <Compile Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.cs" />
+    <Compile Include="PartsMange\ProductCategoryManage\AddProductCategory.cs" />
+    <Compile Include="PartsMange\ProductCategoryManage\ProductCategoryManage.cs" />
+    <Compile Include="ProductStruct\ProductStruct.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeApplyManage.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeDictionaryFill.cs" />
@@ -68,6 +81,9 @@
     <Compile Include="SystemManagementAndTools\RoleManage\RoleManage.cs" />
     <Compile Include="SystemManagementAndTools\SystemUserMessageManage\UsersManage.cs" />
     <Compile Include="SystemManagementAndTools\UserGroupManage\UserGroupManage.cs" />
+    <Compile Include="Test\BOMData.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Test\TestService.cs" />
     <Compile Include="Test\TestService2.cs" />
     <Compile Include="Test\TestService3.cs" />

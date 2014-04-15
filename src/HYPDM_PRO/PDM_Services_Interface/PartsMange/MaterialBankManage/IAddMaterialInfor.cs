@@ -13,7 +13,10 @@ namespace PDM_Services_Interface
     public interface IAddMaterialInfor
     {
         [OperationContract]
-        Materialcs GetAllMaterialcs(string name, string versions, string number, string type);  //得到物料信息
-    }
+        IList<MaterialBaseProperty> MaterialMessage(int id);  //  物料信息
+
+        [OperationContract]
+        bool SaveMaterial(int id);  //保存物料信息
+    }  
 }
  
