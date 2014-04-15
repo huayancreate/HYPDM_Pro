@@ -5,12 +5,23 @@ using System.Text;
 using PDM_Entity.SystemManagementAndTools;
 using WcfExtension;
 using PDM_Services_Interface;
+using DevExpress.XtraTreeList.Nodes;
+using DevExpress.XtraEditors;
+using System.Windows.Forms;
+
+
+
+
+
+
+
+
 
 namespace View_Winform.SystemManagementAndTools
 {
-    public class CommonMethod 
+    public class CommonMethod
     {
-        public void GridViewCheck(DevExpress.XtraGrid.Views.Grid.GridView gridView,string p, int id)
+        public void GridViewCheck(DevExpress.XtraGrid.Views.Grid.GridView gridView, string p, int id)
         {
             if (p == "user")
             {
@@ -40,9 +51,9 @@ namespace View_Winform.SystemManagementAndTools
                     });
                     gridView.SetRowCellValue(i, "isChecked", check);
                 }
-            
+
             }
-            if (p =="rolewithgroup")
+            if (p == "rolewithgroup")
             {
                 List<Group> listRelated = new List<Group>();
                 listRelated = WcfServiceLocator.Create<IRoleManage>().findRelatedGroup(id); //找出和指定角色关联的用户
@@ -57,8 +68,40 @@ namespace View_Winform.SystemManagementAndTools
                 }
             }
 
-         }
+        }
 
-     }
+
+        public void afterCheckNode(object sender, DevExpress.XtraTreeList.NodeEventArgs e, DevExpress.XtraTreeList.TreeList treeList)
+        {
+
+        }
+       
+        
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="node"></param>
+        /// <returns></returns>
+        public Boolean IsChildsChecked(TreeListNode node)
+        {
+
+            for (int i = 0; i < node.Nodes.Count; i++)
+            {
+
+                if (node.Nodes[i].CheckState == CheckState.Unchecked)
+
+                    return false;
+
+                if (node.Nodes[i].HasChildren)
+
+                    IsChildsChecked(node.Nodes[i]);
+
+            }
+
+            return true;
+
+        }
+    }
 }
 

@@ -22,14 +22,15 @@ namespace View_Winform
             UserLookAndFeel.Default.SetSkinStyle("Office 2010 Blue");
 
 
-            //Application.Run(new SystemManagementAndTools.UserGroupManage.UserGroupList());
-            
+             //Application.Run(new SystemManagementAndTools.UserGroupManage.UserGroupList());
+            //Application.Run(new SystemManagementAndTools.CodeSchemeManage.CodeTool());
+              Application.Run(new SystemManagementAndTools.CodeRuleSet.FillGroupCode());
 
-            //Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
+             //Application.Run(new SystemManagementAndTools.SystemUserMessageManage.UserList());
 
              //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
              //Application.Run(new SystemManagementAndTools.RoleManage.RoleList());
-               Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationList()); 
+             //Application.Run(new SystemManagementAndTools.OrganizationManage.OrganizationList()); 
             //Application.Run(new DocManage.DocPnt.DocPrint());
             //Application.Run(new Test.TestForm());
 

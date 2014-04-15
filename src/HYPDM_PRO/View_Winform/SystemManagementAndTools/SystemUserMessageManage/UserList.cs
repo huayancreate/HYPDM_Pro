@@ -199,7 +199,6 @@ namespace View_Winform.SystemManagementAndTools.SystemUserMessageManage
         {
             UserMessage messageForm = new UserMessage();
             messageForm.Tag = "Add";
-
             messageForm.ShowDialog();
         }
         /// <summary>

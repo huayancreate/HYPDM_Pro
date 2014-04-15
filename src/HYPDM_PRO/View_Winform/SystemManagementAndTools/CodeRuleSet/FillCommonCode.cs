@@ -33,9 +33,7 @@ namespace View_Winform.SystemManagementAndTools.CodeRuleSet
 
         private void SystemManagementAndTools_CodeRuleSet_FillGroupCode_DeleteCodeValue_SimpleButton_Click(object sender, EventArgs e)
         {
-            bool ok = true;
-            ok = WcfServiceLocator.Create<ICodeRuleSet>().AddCodeRule();
-            MessageBox.Show(ok.ToString());
+           
         }
 
         private void SystemManagementAndTools_CodeRuleSet_FillGroupCode_ConfirmCodeValue_SimpleButton_Click(object sender, EventArgs e)

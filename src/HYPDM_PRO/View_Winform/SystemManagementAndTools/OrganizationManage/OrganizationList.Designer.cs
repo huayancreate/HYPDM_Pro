@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.paging1 = new View_Winform.CommonTemplet.paging();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
@@ -48,6 +49,16 @@
             this.Coding = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.barButtonItem_Add = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Modify = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Delete = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem_Detail = new DevExpress.XtraBars.BarButtonItem();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
@@ -58,6 +69,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl)).BeginInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -180,6 +193,7 @@
             // SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl
             // 
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Location = new System.Drawing.Point(458, 78);
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization_SimpleButtonl.Name = "SystemManagementAndTools_OrganizationManage_OrganizationMessage_QueryOrganization" +
                 "_SimpleButtonl";
@@ -223,10 +237,15 @@
             this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Name = "SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_Tre" +
                 "eList";
             this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsBehavior.AllowIndeterminateCheckState = true;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsBehavior.Editable = false;
             this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsPrint.UsePrintStyles = true;
             this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.OptionsView.ShowCheckBoxes = true;
             this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.Size = new System.Drawing.Size(648, 333);
             this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.TabIndex = 0;
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.PopupMenuShowing += new DevExpress.XtraTreeList.PopupMenuShowingEventHandler(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList_PopupMenuShowing);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.MouseClick += new System.Windows.Forms.MouseEventHandler(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList_MouseClick);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList_MouseDown);
+            this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList_MouseUp);
             // 
             // name
             // 
@@ -257,12 +276,92 @@
             this.treeListColumn4.FieldName = "ParentID";
             this.treeListColumn4.Name = "treeListColumn4";
             // 
+            // barManager1
+            // 
+            this.barManager1.DockControls.Add(this.barDockControlTop);
+            this.barManager1.DockControls.Add(this.barDockControlBottom);
+            this.barManager1.DockControls.Add(this.barDockControlLeft);
+            this.barManager1.DockControls.Add(this.barDockControlRight);
+            this.barManager1.Form = this;
+            this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.barButtonItem_Add,
+            this.barButtonItem_Modify,
+            this.barButtonItem_Delete,
+            this.barButtonItem_Detail});
+            this.barManager1.MaxItemId = 4;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(652, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 500);
+            this.barDockControlBottom.Size = new System.Drawing.Size(652, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 500);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(652, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 500);
+            // 
+            // barButtonItem_Add
+            // 
+            this.barButtonItem_Add.Caption = "添加";
+            this.barButtonItem_Add.Id = 0;
+            this.barButtonItem_Add.Name = "barButtonItem_Add";
+            // 
+            // barButtonItem_Modify
+            // 
+            this.barButtonItem_Modify.Caption = "修改";
+            this.barButtonItem_Modify.Id = 1;
+            this.barButtonItem_Modify.Name = "barButtonItem_Modify";
+            // 
+            // barButtonItem_Delete
+            // 
+            this.barButtonItem_Delete.Caption = "删除";
+            this.barButtonItem_Delete.Id = 2;
+            this.barButtonItem_Delete.Name = "barButtonItem_Delete";
+            // 
+            // barButtonItem_Detail
+            // 
+            this.barButtonItem_Detail.Caption = "详细信息";
+            this.barButtonItem_Detail.Id = 3;
+            this.barButtonItem_Detail.Name = "barButtonItem_Detail";
+            // 
+            // popupMenu1
+            // 
+            this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Add),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Modify),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Delete),
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem_Detail)});
+            this.popupMenu1.Manager = this.barManager1;
+            this.popupMenu1.Name = "popupMenu1";
+            // 
             // OrganizationList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 500);
             this.Controls.Add(this.panelControl1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
             this.Name = "OrganizationList";
             this.Text = "组织机构列表";
             this.Load += new System.EventHandler(this.OrganizationList_Load);
@@ -277,6 +376,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl)).EndInit();
             this.SystemManagementAndTools_OrganizationManage_OrganizationMessage_OrganizationListMessage_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SystemManagementAndTools_OrganizationManage_OrganizationList_OrganizationList_TreeList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -303,5 +404,15 @@
         private DevExpress.XtraTreeList.Columns.TreeListColumn Coding;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn3;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn4;
+        private DevExpress.XtraBars.BarManager barManager1;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Add;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Modify;
+        private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Delete;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem_Detail;
     }
 }
