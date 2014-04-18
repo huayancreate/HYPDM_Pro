@@ -70,8 +70,8 @@
     <Compile Include="PartsMange\MaterialAttachedProperty.cs" />
     <Compile Include="PartsMange\MaterialBaseProperty.cs" />
     <Compile Include="PartsMange\Materialcs.cs" />
-    <Compile Include="PartsMange\MaterialType.cs" />
     <Compile Include="PartsMange\material_attached_property.cs" />
+    <Compile Include="PartsMange\Material_ComboBox_Value.cs" />
     <Compile Include="PartsMange\Material_Type.cs">
       <SubType>Code</SubType>
     </Compile>

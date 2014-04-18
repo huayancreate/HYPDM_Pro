@@ -14,44 +14,42 @@ namespace PDM_Services_Implementation
         Namespace = "PDM_Services_Implementation")]
     public class ChooseMaterialType : IChooseMaterialType
     {
-        public IList<MaterialType> MaterType()
-    {
-            IList<MaterialType> Mat = new BindingList<MaterialType>();
-            MaterialType M = new MaterialType();
-            MaterialType M1 = new MaterialType();
+        public IList<Material_Type> MaterType()
+        {
+            IList<Material_Type> Mat = new BindingList<Material_Type>();
+            Material_Type M = new Material_Type();
 
-            M.child_mark_length = "20";
-            M.code_length = "15";
-            M.code_start = "10";
-            M.create_date = new DateTime();
-            M.create_user_id = 1;
-            M.id = 1;
-            M.is_delete = "是";
-            M.is_last = "是";
-            M.modify_date = new DateTime();
-            M.modify_user_id = 1;
-            M.name = "物料编号";
-            M.parent_id = 1;
-            M.remark = "用于物料的";
-
-            M1.child_mark_length = "10";
-            M1.code_length = "25";
-            M1.code_start = "100";
-            M1.create_date = new DateTime();
-            M1.create_user_id = 1;
-            M1.id = 1;
-            M1.is_delete = "否";
-            M1.is_last = "是";
-            M1.modify_date = new DateTime();
-            M1.modify_user_id = 1;
-            M1.name = "文档编号";
-            M1.parent_id = 1;
-            M1.remark = "";
-
+            M.Child_Mark_Length = "20";
+            M.Code_Length = "15";
+            M.Code_Start = "10";
+            M.Create_Date = new DateTime();
+            M.Create_User_Id = 1;
+            M.Id = 1;
+            M.Is_Delete = "是";
+            M.Is_Last = "是";
+            M.Modify_Date = new DateTime();
+            M.Modify_User_Id = 1;
+            M.Name = "物料编号";
+            M.Parent_Id = 1;
+            M.Mark = "用于物料的";
             Mat.Add(M);
-            Mat.Add(M1);
 
-            return Mat;             
-    }
+            M = new Material_Type();
+            M.Child_Mark_Length = "10";
+            M.Code_Length = "25";
+            M.Code_Start = "100";
+            M.Create_Date = new DateTime();
+            M.Create_User_Id = 1;
+            M.Id = 1;
+            M.Is_Delete = "否";
+            M.Is_Last = "是";
+            M.Modify_Date = new DateTime();
+            M.Modify_User_Id = 1;
+            M.Name = "文档编号";
+            M.Parent_Id = 1;
+            M.Mark = "";
+            Mat.Add(M);
+            return Mat;
+        }
     }
 }

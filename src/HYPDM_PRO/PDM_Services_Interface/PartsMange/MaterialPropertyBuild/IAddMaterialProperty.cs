@@ -20,7 +20,7 @@ namespace PDM_Services_Interface
         bool DeleteMaterialType(int id);  //删除物料分类
 
         [OperationContract]
-        IList<MaterialType> MT();  
+        IList<Material_Type> MT();
 
     }
 }

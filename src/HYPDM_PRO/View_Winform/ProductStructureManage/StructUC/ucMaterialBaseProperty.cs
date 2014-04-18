@@ -33,9 +33,9 @@ namespace View_Winform.ProductStructureManage.StructUC
         {
             var m = new Test.BOMData().GetMaterialById(materialId);
             if (m == null) return;
-            txtMaterialNo.Text = m.number;
-            txtMaterialName.Text = m.name;
-            txtMaterialVersion.Text = m.versions;
+            txtMaterialNo.Text = m.No;
+            txtMaterialName.Text = m.Name;
+            txtMaterialVersion.Text = m.Version;
         }
     }
 }

@@ -31,26 +31,22 @@
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup = new DevExpress.XtraEditors.RadioGroup();
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup = new DevExpress.XtraEditors.RadioGroup();
             this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Properties)).BeginInit();
@@ -59,7 +55,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(27, 8);
+            this.labelControl5.Location = new System.Drawing.Point(27, 11);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(83, 14);
             this.labelControl5.TabIndex = 50;
@@ -81,45 +77,9 @@
             this.labelControl2.TabIndex = 55;
             this.labelControl2.Text = "流水码起始值:";
             // 
-            // PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit
-            // 
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Location = new System.Drawing.Point(127, 44);
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit";
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties.Caption = "是";
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Size = new System.Drawing.Size(55, 19);
-            this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.TabIndex = 56;
-            // 
-            // PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit
-            // 
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Location = new System.Drawing.Point(180, 44);
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit";
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties.Caption = "否";
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Size = new System.Drawing.Size(55, 19);
-            this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.TabIndex = 57;
-            // 
-            // PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit
-            // 
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Location = new System.Drawing.Point(127, 84);
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit";
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties.Caption = "0";
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Size = new System.Drawing.Size(55, 19);
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.TabIndex = 58;
-            // 
-            // PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit
-            // 
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Location = new System.Drawing.Point(180, 83);
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Name = "PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit";
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties.Caption = "1";
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Size = new System.Drawing.Size(55, 19);
-            this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.TabIndex = 59;
-            // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(260, 8);
+            this.labelControl3.Location = new System.Drawing.Point(260, 11);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(91, 14);
             this.labelControl3.TabIndex = 60;
@@ -143,9 +103,11 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup);
+            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit);
@@ -156,14 +118,36 @@
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Controls.Add(this.labelControl3);
             this.panelControl1.Controls.Add(this.labelControl2);
-            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit);
-            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit);
-            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit);
-            this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit);
             this.panelControl1.Location = new System.Drawing.Point(1, 12);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(471, 123);
             this.panelControl1.TabIndex = 63;
+            // 
+            // PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup
+            // 
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Location = new System.Drawing.Point(116, 83);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup";
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Properties.Appearance.Options.UseBackColor = true;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "0"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "1")});
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Size = new System.Drawing.Size(102, 22);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.TabIndex = 67;
+            // 
+            // PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup
+            // 
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Location = new System.Drawing.Point(116, 42);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup";
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.Appearance.Options.UseBackColor = true;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "是"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "否")});
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Size = new System.Drawing.Size(102, 22);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.TabIndex = 66;
             // 
             // PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit
             // 
@@ -187,7 +171,7 @@
             // 
             // PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit
             // 
-            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Location = new System.Drawing.Point(116, 5);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Location = new System.Drawing.Point(116, 8);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit";
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Size = new System.Drawing.Size(102, 20);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.TabIndex = 64;
@@ -195,7 +179,7 @@
             // 
             // PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit
             // 
-            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Location = new System.Drawing.Point(357, 5);
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Location = new System.Drawing.Point(357, 8);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Name = "PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit";
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.Size = new System.Drawing.Size(102, 20);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicIdentification_TextEdit.TabIndex = 63;
@@ -208,7 +192,7 @@
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.TabIndex = 65;
             this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Text = "取消(C)";
-            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton_MouseDown);
+            this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton_Click);
             // 
             // PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton
             // 
@@ -228,15 +212,14 @@
             this.Controls.Add(this.PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton);
             this.Controls.Add(this.panelControl1);
             this.Name = "AddType";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "新增类型";
             this.Load += new System.EventHandler(this.AddType_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_TextEdit.Properties)).EndInit();
@@ -250,10 +233,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_YesMin_CheckEdit;
-        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_NoMin_CheckEdit;
-        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_WaterCodeValue0_CheckEdit;
-        private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_AddType_WaterCodeValue1_CheckEdit;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl6;
@@ -264,5 +243,7 @@
         private DevExpress.XtraEditors.ComboBoxEdit PartsMange_MaterialBankManage_AddType_IdentificationLength_ComboBoxEdit;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton;
+        private DevExpress.XtraEditors.RadioGroup PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup;
+        private DevExpress.XtraEditors.RadioGroup PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup;
     }
 }

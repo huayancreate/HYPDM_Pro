@@ -16,7 +16,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
     {
         private List<document> _docList = new List<document>();
         public List<document> _docChangeList = new List<document>();
-        public Materialcs Material { get; set; }
+        public Material Material { get; set; }
         public RelevanceOldDoc()
         {
             InitializeComponent();
@@ -78,17 +78,17 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         private void BindData()
         {
             if (Material == null) return;
-            txtMaterialName.Text = Material.name;
-            txtMaterialNo.Text = Material.number;
-            txtMaterialVer.Text = Material.versions;
+            txtMaterialNo.Text = Material.No;
+            txtMaterialName.Text = Material.Name;
+            txtMaterialVer.Text = Material.Version;
             gridControl1.DataSource = _docList;
         }
         private void BindData(List<document> docList)
         {
             if (Material == null) return;
-            txtMaterialName.Text = Material.name;
-            txtMaterialNo.Text = Material.number;
-            txtMaterialVer.Text = Material.versions;
+            txtMaterialName.Text = Material.Name;
+            txtMaterialNo.Text = Material.No;
+            txtMaterialVer.Text = Material.Version;
             gridControl2.DataSource = docList;
         }
     }

@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList = new DevExpress.XtraTreeList.TreeList();
-            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
@@ -41,15 +39,14 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl = new DevExpress.XtraEditors.TrackBarControl();
@@ -61,6 +58,11 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_CkeckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList = new DevExpress.XtraTreeList.TreeList();
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.Type_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar1 = new DevExpress.XtraBars.Bar();
             this.bar2 = new DevExpress.XtraBars.Bar();
@@ -86,12 +88,14 @@
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl4 = new DevExpress.XtraBars.BarDockControl();
-            this.MaterialType_Add_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
+            this.MaterialType_Add_Parent_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialType_Delete_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
-            this.MatrialType_Modify_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
+            this.MaterialType_Modify_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnMaterialAdd = new DevExpress.XtraBars.BarButtonItem();
+            this.btnAnalogyMaterialAdd = new DevExpress.XtraBars.BarButtonItem();
+            this.MaterialType_Add_Child_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu2 = new DevExpress.XtraBars.PopupMenu(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl)).BeginInit();
@@ -107,47 +111,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_CkeckEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu2)).BeginInit();
             this.SuspendLayout();
             // 
-            // PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList
-            // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
-            this.treeListColumn1});
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Location = new System.Drawing.Point(0, 0);
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList";
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.BeginUnboundLoad();
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.AppendNode(new object[] {
-            "支持件K"}, -1);
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.AppendNode(new object[] {
-            "导入标准健R"}, -1);
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.AppendNode(new object[] {
-            "测试C"}, -1);
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.AppendNode(new object[] {
-            "UB测试B"}, -1);
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.EndUnboundLoad();
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsPrint.UsePrintStyles = true;
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Size = new System.Drawing.Size(221, 554);
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.TabIndex = 68;
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList_MouseDown);
-            // 
-            // treeListColumn1
-            // 
-            this.treeListColumn1.MinWidth = 34;
-            this.treeListColumn1.Name = "treeListColumn1";
-            this.treeListColumn1.Visible = true;
-            this.treeListColumn1.VisibleIndex = 0;
-            // 
             // panelControl1
             // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton);
             this.panelControl1.Controls.Add(this.labelControl9);
             this.panelControl1.Controls.Add(this.labelControl8);
@@ -175,7 +150,7 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Location = new System.Drawing.Point(700, 26);
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton" +
-                "";
+    "";
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Size = new System.Drawing.Size(58, 23);
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.TabIndex = 94;
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Text = "查询(Q)";
@@ -219,9 +194,9 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Location = new System.Drawing.Point(222, 185);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.MainView = this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl";
@@ -238,23 +213,23 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.gridColumn1,
             this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5,
-            this.gridColumn6,
-            this.gridColumn7,
-            this.gridColumn8,
             this.gridColumn9,
+            this.gridColumn6,
+            this.gridColumn8,
+            this.gridColumn5,
+            this.gridColumn7,
             this.gridColumn10,
-            this.gridColumn11});
+            this.gridColumn3,
+            this.gridColumn4});
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GridControl = this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView";
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.OptionsBehavior.Editable = false;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
             // 
             this.gridColumn1.Caption = "序号";
-            this.gridColumn1.FieldName = "number";
+            this.gridColumn1.FieldName = "Id";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
@@ -262,81 +237,70 @@
             // gridColumn2
             // 
             this.gridColumn2.Caption = "物料简图";
-            this.gridColumn2.FieldName = "image";
+            this.gridColumn2.FieldName = "Image";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
             // 
+            // gridColumn9
+            // 
+            this.gridColumn9.Caption = "物料名称 ";
+            this.gridColumn9.FieldName = "Name";
+            this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.Visible = true;
+            this.gridColumn9.VisibleIndex = 2;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "物料编号";
+            this.gridColumn6.FieldName = "No";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 3;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.Caption = "物料版本";
+            this.gridColumn8.FieldName = "Version";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 4;
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "状态";
+            this.gridColumn5.FieldName = "Status";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 5;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "属性";
+            this.gridColumn7.FieldName = "Property";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 6;
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "物料备注";
+            this.gridColumn10.FieldName = "Remark";
+            this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.Visible = true;
+            this.gridColumn10.VisibleIndex = 7;
+            // 
             // gridColumn3
             // 
             this.gridColumn3.Caption = "有效性";
-            this.gridColumn3.FieldName = "is_enable";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
+            this.gridColumn3.VisibleIndex = 8;
             // 
             // gridColumn4
             // 
             this.gridColumn4.Caption = "物料导入ERP状态";
             this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
-            // 
-            // gridColumn5
-            // 
-            this.gridColumn5.Caption = "状态";
-            this.gridColumn5.FieldName = "status";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
-            // 
-            // gridColumn6
-            // 
-            this.gridColumn6.Caption = "物料编号";
-            this.gridColumn6.FieldName = "original_number";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 5;
-            // 
-            // gridColumn7
-            // 
-            this.gridColumn7.Caption = "属性";
-            this.gridColumn7.FieldName = "property";
-            this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 6;
-            // 
-            // gridColumn8
-            // 
-            this.gridColumn8.Caption = "物料版本";
-            this.gridColumn8.FieldName = "type";
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 7;
-            // 
-            // gridColumn9
-            // 
-            this.gridColumn9.Caption = "物料名称 ";
-            this.gridColumn9.FieldName = "cn_name";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 8;
-            // 
-            // gridColumn10
-            // 
-            this.gridColumn10.Caption = "物料备注";
-            this.gridColumn10.FieldName = "remark";
-            this.gridColumn10.Name = "gridColumn10";
-            this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 9;
-            // 
-            // gridColumn11
-            // 
-            this.gridColumn11.Caption = "选择";
-            this.gridColumn11.ColumnEdit = this.repositoryItemCheckEdit1;
-            this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 10;
             // 
             // repositoryItemCheckEdit1
             // 
@@ -353,8 +317,8 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.EditValue = null;
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Location = new System.Drawing.Point(304, 156);
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl";
@@ -365,7 +329,7 @@
             // 
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Location = new System.Drawing.Point(227, 55);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxCont" +
-                "rol";
+    "rol";
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Size = new System.Drawing.Size(609, 95);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.TabIndex = 76;
             // 
@@ -394,7 +358,7 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Location = new System.Drawing.Point(564, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit" +
-                "";
+    "";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Size = new System.Drawing.Size(110, 20);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.TabIndex = 73;
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Tag = "name";
@@ -404,7 +368,7 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Location = new System.Drawing.Point(448, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBo" +
-                "xEdit";
+    "xEdit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Properties.Items.AddRange(new object[] {
@@ -417,7 +381,7 @@
             // 
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Location = new System.Drawing.Point(332, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBox" +
-                "Edit";
+    "Edit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Size = new System.Drawing.Size(110, 20);
@@ -436,10 +400,58 @@
             // 
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.Location = new System.Drawing.Point(227, 5);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdi" +
-                "t";
+    "t";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.Properties.Caption = "按类型查询";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.Size = new System.Drawing.Size(85, 19);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.TabIndex = 69;
+            // 
+            // PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList
+            // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.treeListColumn1,
+            this.Type_Id,
+            this.treeListColumn3,
+            this.treeListColumn4});
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Location = new System.Drawing.Point(1, 2);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.LookAndFeel.UseWindowsXPTheme = true;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList";
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsBehavior.Editable = false;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsPrint.UsePrintStyles = true;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsView.ShowColumns = false;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsView.ShowHorzLines = false;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsView.ShowIndicator = false;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Size = new System.Drawing.Size(220, 549);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.TabIndex = 68;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList_MouseDown);
+            // 
+            // treeListColumn1
+            // 
+            this.treeListColumn1.FieldName = "Name";
+            this.treeListColumn1.MinWidth = 52;
+            this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.Visible = true;
+            this.treeListColumn1.VisibleIndex = 0;
+            // 
+            // Type_Id
+            // 
+            this.Type_Id.Caption = "treeListColumn2";
+            this.Type_Id.FieldName = "Id";
+            this.Type_Id.Name = "Type_Id";
+            // 
+            // treeListColumn3
+            // 
+            this.treeListColumn3.Caption = "treeListColumn3";
+            this.treeListColumn3.FieldName = "Is_Last";
+            this.treeListColumn3.Name = "treeListColumn3";
+            // 
+            // treeListColumn4
+            // 
+            this.treeListColumn4.Caption = "treeListColumn4";
+            this.treeListColumn4.FieldName = "Parent_Id";
+            this.treeListColumn4.Name = "treeListColumn4";
             // 
             // barManager1
             // 
@@ -576,7 +588,6 @@
             this.MaterialMessage_AnalogyAdd_BarButtonItem.Caption = "类似新增";
             this.MaterialMessage_AnalogyAdd_BarButtonItem.Id = 13;
             this.MaterialMessage_AnalogyAdd_BarButtonItem.Name = "MaterialMessage_AnalogyAdd_BarButtonItem";
-            this.MaterialMessage_AnalogyAdd_BarButtonItem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.MaterialMessage_AnalogyAdd_BarButtonItem_ItemClick);
             // 
             // popupMenu1
             // 
@@ -600,12 +611,15 @@
             this.barManager2.DockControls.Add(this.barDockControl4);
             this.barManager2.Form = this;
             this.barManager2.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
-            this.MaterialType_Add_BarButtonItem,
+            this.MaterialType_Add_Parent_BarButtonItem,
             this.MaterialType_Delete_BarButtonItem,
-            this.MatrialType_Modify_BarButtonItem,
-            this.barButtonItem5});
+            this.MaterialType_Modify_BarButtonItem,
+            this.barButtonItem5,
+            this.btnMaterialAdd,
+            this.btnAnalogyMaterialAdd,
+            this.MaterialType_Add_Child_BarButtonItem});
             this.barManager2.MainMenu = this.bar5;
-            this.barManager2.MaxItemId = 6;
+            this.barManager2.MaxItemId = 9;
             this.barManager2.StatusBar = this.bar6;
             // 
             // bar4
@@ -666,11 +680,11 @@
             this.barDockControl4.Location = new System.Drawing.Point(842, 51);
             this.barDockControl4.Size = new System.Drawing.Size(0, 503);
             // 
-            // MaterialType_Add_BarButtonItem
+            // MaterialType_Add_Parent_BarButtonItem
             // 
-            this.MaterialType_Add_BarButtonItem.Caption = "添加";
-            this.MaterialType_Add_BarButtonItem.Id = 0;
-            this.MaterialType_Add_BarButtonItem.Name = "MaterialType_Add_BarButtonItem";
+            this.MaterialType_Add_Parent_BarButtonItem.Caption = "添加同级";
+            this.MaterialType_Add_Parent_BarButtonItem.Id = 0;
+            this.MaterialType_Add_Parent_BarButtonItem.Name = "MaterialType_Add_Parent_BarButtonItem";
             // 
             // MaterialType_Delete_BarButtonItem
             // 
@@ -678,23 +692,44 @@
             this.MaterialType_Delete_BarButtonItem.Id = 2;
             this.MaterialType_Delete_BarButtonItem.Name = "MaterialType_Delete_BarButtonItem";
             // 
-            // MatrialType_Modify_BarButtonItem
+            // MaterialType_Modify_BarButtonItem
             // 
-            this.MatrialType_Modify_BarButtonItem.Caption = "修改";
-            this.MatrialType_Modify_BarButtonItem.Id = 4;
-            this.MatrialType_Modify_BarButtonItem.Name = "MatrialType_Modify_BarButtonItem";
+            this.MaterialType_Modify_BarButtonItem.Caption = "修改";
+            this.MaterialType_Modify_BarButtonItem.Id = 4;
+            this.MaterialType_Modify_BarButtonItem.Name = "MaterialType_Modify_BarButtonItem";
             // 
             // barButtonItem5
             // 
             this.barButtonItem5.Id = 5;
             this.barButtonItem5.Name = "barButtonItem5";
             // 
+            // btnMaterialAdd
+            // 
+            this.btnMaterialAdd.Caption = "直接新增";
+            this.btnMaterialAdd.Id = 6;
+            this.btnMaterialAdd.Name = "btnMaterialAdd";
+            // 
+            // btnAnalogyMaterialAdd
+            // 
+            this.btnAnalogyMaterialAdd.Caption = "类似新增";
+            this.btnAnalogyMaterialAdd.Id = 7;
+            this.btnAnalogyMaterialAdd.Name = "btnAnalogyMaterialAdd";
+            // 
+            // MaterialType_Add_Child_BarButtonItem
+            // 
+            this.MaterialType_Add_Child_BarButtonItem.Caption = "添加下级";
+            this.MaterialType_Add_Child_BarButtonItem.Id = 8;
+            this.MaterialType_Add_Child_BarButtonItem.Name = "MaterialType_Add_Child_BarButtonItem";
+            // 
             // popupMenu2
             // 
             this.popupMenu2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Add_BarButtonItem),
-            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Delete_BarButtonItem),
-            new DevExpress.XtraBars.LinkPersistInfo(this.MatrialType_Modify_BarButtonItem)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Add_Parent_BarButtonItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Add_Child_BarButtonItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnMaterialAdd),
+            new DevExpress.XtraBars.LinkPersistInfo(this.btnAnalogyMaterialAdd),
+            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Modify_BarButtonItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Delete_BarButtonItem)});
             this.popupMenu2.Manager = this.barManager2;
             this.popupMenu2.Name = "popupMenu2";
             // 
@@ -713,9 +748,9 @@
             this.Controls.Add(this.barDockControl2);
             this.Controls.Add(this.barDockControl1);
             this.Name = "MaterialBankManage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "物料管理";
             this.Load += new System.EventHandler(this.MaterialBankManage_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -732,6 +767,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_CkeckEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager2)).EndInit();
@@ -742,7 +778,6 @@
 
         #endregion
 
-        private DevExpress.XtraTreeList.TreeList PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit;
         private DevExpress.XtraEditors.CheckEdit PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_CkeckEdit;
@@ -770,7 +805,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.LabelControl labelControl9;
         private DevExpress.XtraEditors.LabelControl labelControl8;
-        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.Bar bar1;
         private DevExpress.XtraBars.Bar bar2;
@@ -798,12 +832,19 @@
         private DevExpress.XtraBars.Bar bar5;
         private DevExpress.XtraBars.Bar bar6;
         private DevExpress.XtraBars.PopupMenu popupMenu2;
-        private DevExpress.XtraBars.BarButtonItem MaterialType_Add_BarButtonItem;
+        private DevExpress.XtraBars.BarButtonItem MaterialType_Add_Parent_BarButtonItem;
         private DevExpress.XtraBars.BarButtonItem MaterialType_Delete_BarButtonItem;
-        private DevExpress.XtraBars.BarButtonItem MatrialType_Modify_BarButtonItem;
+        private DevExpress.XtraBars.BarButtonItem MaterialType_Modify_BarButtonItem;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private DevExpress.XtraBars.BarButtonItem MaterialMessage_AnalogyAdd_BarButtonItem;
+        private DevExpress.XtraTreeList.TreeList PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Type_Id;
+        private DevExpress.XtraBars.BarButtonItem btnMaterialAdd;
+        private DevExpress.XtraBars.BarButtonItem btnAnalogyMaterialAdd;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn3;
+        private DevExpress.XtraBars.BarButtonItem MaterialType_Add_Child_BarButtonItem;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn4;
     }
 }

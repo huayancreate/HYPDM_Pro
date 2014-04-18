@@ -32,13 +32,13 @@
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList = new DevExpress.XtraTreeList.TreeList();
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.MaterialType_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.MaterialType_Name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.Parent_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.MaterialType_Mark = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
-            this.bar1 = new DevExpress.XtraBars.Bar();
-            this.bar2 = new DevExpress.XtraBars.Bar();
-            this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -46,8 +46,8 @@
             this.MaterialType_Add_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialType_Delete_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialType_Modify_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
-            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.MaterialType_Look_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
+            this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
@@ -56,11 +56,11 @@
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit
             // 
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Location = new System.Drawing.Point(3, 3);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit" +
-                "";
+    "";
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Size = new System.Drawing.Size(242, 20);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.TabIndex = 53;
             // 
@@ -69,67 +69,101 @@
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Location = new System.Drawing.Point(251, 0);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleBu" +
-                "tton";
+    "tton";
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.TabIndex = 61;
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton.Text = "定位(L)";
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList
             // 
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn});
+            this.MaterialType_Id,
+            this.MaterialType_Name,
+            this.Parent_Id,
+            this.MaterialType_Mark});
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Location = new System.Drawing.Point(3, 29);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList";
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.BeginUnboundLoad();
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
-            "辅料"}, -1);
+            "1",
+            "辅料",
+            null,
+            "fl"}, -1);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
-            "胶水"}, 0);
+            "2",
+            "胶水",
+            null,
+            "js"}, 0);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
-            "塑料薄膜"}, 0);
+            "3",
+            "塑料薄膜",
+            null,
+            "slbm"}, 0);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
-            "零部件"}, -1);
+            "4",
+            "零部件",
+            null,
+            "lbj"}, -1);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
-            "轮胎"}, 3);
+            "5",
+            "轮胎",
+            null,
+            "lt"}, 3);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.AppendNode(new object[] {
-            "轴承"}, 3);
+            "6",
+            "轴承",
+            null,
+            "zc"}, 3);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.EndUnboundLoad();
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.OptionsBehavior.PopulateServiceColumns = true;
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.OptionsPrint.UsePrintStyles = true;
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.Size = new System.Drawing.Size(315, 265);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList.TabIndex = 68;
             // 
-            // PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn
+            // MaterialType_Id
             // 
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.Caption = "物料分类";
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.FieldName = "物料分类";
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.MinWidth = 52;
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColu" +
-                "mn";
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.SortOrder = System.Windows.Forms.SortOrder.Ascending;
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.Visible = true;
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.VisibleIndex = 0;
-            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn.Width = 261;
+            this.MaterialType_Id.FieldName = "Id";
+            this.MaterialType_Id.Name = "MaterialType_Id";
+            // 
+            // MaterialType_Name
+            // 
+            this.MaterialType_Name.Caption = "物料类型";
+            this.MaterialType_Name.FieldName = "Name";
+            this.MaterialType_Name.MinWidth = 52;
+            this.MaterialType_Name.Name = "MaterialType_Name";
+            this.MaterialType_Name.Visible = true;
+            this.MaterialType_Name.VisibleIndex = 0;
+            // 
+            // Parent_Id
+            // 
+            this.Parent_Id.FieldName = "Parent_Id";
+            this.Parent_Id.Name = "Parent_Id";
+            // 
+            // MaterialType_Mark
+            // 
+            this.MaterialType_Mark.FieldName = "Mark";
+            this.MaterialType_Mark.Name = "MaterialType_Mark";
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton
             // 
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Location = new System.Drawing.Point(145, 300);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleBut" +
-                "ton";
+    "ton";
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.TabIndex = 69;
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Text = "确定(O)";
+            this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton_Click);
             // 
             // PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton
             // 
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Location = new System.Drawing.Point(206, 300);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButt" +
-                "on";
+    "on";
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.TabIndex = 70;
             this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton.Text = "取消(C)";
@@ -137,10 +171,6 @@
             // 
             // barManager1
             // 
-            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar1,
-            this.bar2,
-            this.bar3});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
@@ -151,67 +181,35 @@
             this.MaterialType_Delete_BarButtonItem,
             this.MaterialType_Modify_BarButtonItem,
             this.MaterialType_Look_BarButtonItem});
-            this.barManager1.MainMenu = this.bar2;
             this.barManager1.MaxItemId = 4;
-            this.barManager1.StatusBar = this.bar3;
-            // 
-            // bar1
-            // 
-            this.bar1.BarName = "Tools";
-            this.bar1.DockCol = 0;
-            this.bar1.DockRow = 1;
-            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar1.Text = "Tools";
-            // 
-            // bar2
-            // 
-            this.bar2.BarName = "Main menu";
-            this.bar2.DockCol = 0;
-            this.bar2.DockRow = 0;
-            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar2.OptionsBar.MultiLine = true;
-            this.bar2.OptionsBar.UseWholeRow = true;
-            this.bar2.Text = "Main menu";
-            // 
-            // bar3
-            // 
-            this.bar3.BarName = "Status bar";
-            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar3.DockCol = 0;
-            this.bar3.DockRow = 0;
-            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar3.OptionsBar.AllowQuickCustomization = false;
-            this.bar3.OptionsBar.DrawDragBorder = false;
-            this.bar3.OptionsBar.UseWholeRow = true;
-            this.bar3.Text = "Status bar";
             // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Size = new System.Drawing.Size(318, 51);
+            this.barDockControlTop.Size = new System.Drawing.Size(318, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 304);
-            this.barDockControlBottom.Size = new System.Drawing.Size(318, 23);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 327);
+            this.barDockControlBottom.Size = new System.Drawing.Size(318, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 51);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 253);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 327);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(318, 51);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 253);
+            this.barDockControlRight.Location = new System.Drawing.Point(318, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 327);
             // 
             // MaterialType_Add_BarButtonItem
             // 
@@ -231,6 +229,12 @@
             this.MaterialType_Modify_BarButtonItem.Id = 2;
             this.MaterialType_Modify_BarButtonItem.Name = "MaterialType_Modify_BarButtonItem";
             // 
+            // MaterialType_Look_BarButtonItem
+            // 
+            this.MaterialType_Look_BarButtonItem.Caption = "查看";
+            this.MaterialType_Look_BarButtonItem.Id = 3;
+            this.MaterialType_Look_BarButtonItem.Name = "MaterialType_Look_BarButtonItem";
+            // 
             // popupMenu1
             // 
             this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
@@ -240,12 +244,6 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Look_BarButtonItem)});
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
-            // 
-            // MaterialType_Look_BarButtonItem
-            // 
-            this.MaterialType_Look_BarButtonItem.Caption = "查看";
-            this.MaterialType_Look_BarButtonItem.Id = 3;
-            this.MaterialType_Look_BarButtonItem.Name = "MaterialType_Look_BarButtonItem";
             // 
             // ChooseMaterialType
             // 
@@ -262,7 +260,9 @@
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Name = "ChooseMaterialType";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "选择物料类型";
+            this.Load += new System.EventHandler(this.ChooseMaterialType_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();
@@ -276,13 +276,9 @@
         private DevExpress.XtraEditors.TextEdit PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_TextEdit;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_ChooseMaterialType_LocationMaterialType_SimpleButton;
         private DevExpress.XtraTreeList.TreeList PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeList;
-        private DevExpress.XtraTreeList.Columns.TreeListColumn PartsMange_MaterialPropertyBuild_ChooseMaterialType_MaterialClassify_TreeListColumn;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_ChooseMaterialType_ConfirmMaterialType_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_ChooseMaterialType_CancelMaterialType_SimpleButton;
         private DevExpress.XtraBars.BarManager barManager1;
-        private DevExpress.XtraBars.Bar bar1;
-        private DevExpress.XtraBars.Bar bar2;
-        private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
@@ -292,5 +288,9 @@
         private DevExpress.XtraBars.BarButtonItem MaterialType_Modify_BarButtonItem;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
         private DevExpress.XtraBars.BarButtonItem MaterialType_Look_BarButtonItem;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn MaterialType_Id;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn MaterialType_Name;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Parent_Id;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn MaterialType_Mark;
     }
 }

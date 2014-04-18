@@ -1,4 +1,4 @@
-﻿      using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,7 @@ namespace PDM_Services_Implementation
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple,
         InstanceContextMode = InstanceContextMode.PerCall,
         Namespace = "PDM_Services_Implementation")]
-    public class AddMaterialProperty :IAddMaterialProperty
+    public class AddMaterialProperty : IAddMaterialProperty
     {
         //public IList<MaterialBaseProperty> AddMaterialcs() 
         //{
@@ -65,7 +65,7 @@ namespace PDM_Services_Implementation
         //    return MP;
         //}
 
-        public IList<MaterialBaseProperty> Mat() 
+        public IList<MaterialBaseProperty> Mat()
         {
             IList<MaterialBaseProperty> M = new BindingList<MaterialBaseProperty>();
             MaterialBaseProperty mab = new MaterialBaseProperty();
@@ -116,68 +116,65 @@ namespace PDM_Services_Implementation
             return M;
         }
 
-        public bool AddMaterial(int id) 
+        public bool AddMaterial(int id)
         {
             return false;
         }
 
-        public bool DeleteMaterialType(int id) 
+        public bool DeleteMaterialType(int id)
         {
             return true;
         }
 
-        public IList<MaterialType> MT() 
+        public IList<Material_Type> MT()
         {
-            IList<MaterialType> Ma = new BindingList<MaterialType>();
-            MaterialType ma = new MaterialType();
-            MaterialType mb = new MaterialType();
-            MaterialType mc = new MaterialType();
+            IList<Material_Type> Ma = new BindingList<Material_Type>();
+            var materialType = new Material_Type();
 
-            ma.child_mark_length = "10";
-            ma.code_length = "8";
-            ma.code_start = "10";
-            ma.create_date = new DateTime(); 
-            ma.create_user_id = 1001;
-            ma.id = 001;
-            ma.is_delete = "是";
-            ma.is_last = "是";
-            ma.modify_date = new DateTime();
-            ma.modify_user_id = 10001;
-            ma.name = "气囊";
-            ma.parent_id = 1;
-            ma.remark = "保命用具";
+            materialType.Child_Mark_Length = "10";
+            materialType.Code_Length = "8";
+            materialType.Code_Start = "10";
+            materialType.Create_Date = new DateTime();
+            materialType.Create_User_Id = 1001;
+            materialType.Id = 001;
+            materialType.Is_Delete = "是";
+            materialType.Is_Last = "是";
+            materialType.Modify_Date = new DateTime();
+            materialType.Modify_User_Id = 10001;
+            materialType.Name = "气囊";
+            materialType.Parent_Id = 1;
+            materialType.Mark = "保命用具";
+            Ma.Add(materialType);
 
-            mb.child_mark_length = "12";
-            mb.code_length = "8";
-            mb.code_start = "10";
-            mb.create_date = new DateTime();
-            mb.create_user_id = 1002;
-            mb.id = 002;
-            mb.is_delete = "否";
-            mb.is_last = "是";
-            mb.modify_date = new DateTime();
-            mb.modify_user_id = 10002;
-            mb.name = "油箱";
-            mb.parent_id = 2;
-            mb.remark = "汽车命脉";
+            materialType.Child_Mark_Length = "12";
+            materialType.Code_Length = "8";
+            materialType.Code_Start = "10";
+            materialType.Create_Date = new DateTime();
+            materialType.Create_User_Id = 1002;
+            materialType.Id = 002;
+            materialType.Is_Delete = "否";
+            materialType.Is_Last = "是";
+            materialType.Modify_Date = new DateTime();
+            materialType.Modify_User_Id = 10002;
+            materialType.Name = "油箱";
+            materialType.Parent_Id = 2;
+            materialType.Mark = "汽车命脉";
+            Ma.Add(materialType);
 
-            mc.child_mark_length = "15";
-            mc.code_length = "8";
-            mc.code_start = "10";
-            mc.create_date = new DateTime();
-            mc.create_user_id = 1003;
-            mc.id =003;
-            mc.is_delete = "否";
-            mc.is_last = "否";
-            mc.modify_date = new DateTime();
-            mc.modify_user_id = 10003;
-            mc.name = "方向盘";
-            mc.parent_id = 3;
-            mc.remark = "汽车眼睛";
-
-            Ma.Add(ma);
-            Ma.Add(mb);
-            Ma.Add(mc);
+            materialType.Child_Mark_Length = "15";
+            materialType.Code_Length = "8";
+            materialType.Code_Start = "10";
+            materialType.Create_Date = new DateTime();
+            materialType.Create_User_Id = 1003;
+            materialType.Id = 003;
+            materialType.Is_Delete = "否";
+            materialType.Is_Last = "否";
+            materialType.Modify_Date = new DateTime();
+            materialType.Modify_User_Id = 10003;
+            materialType.Name = "方向盘";
+            materialType.Parent_Id = 3;
+            materialType.Mark = "汽车眼睛";
+            Ma.Add(materialType);
             return Ma;
         }
     }

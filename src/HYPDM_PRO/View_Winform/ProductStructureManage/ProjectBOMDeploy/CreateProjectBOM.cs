@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
-using View_Winform.PartsMange.MaterialBankManage;
+//using View_Winform.PartsMange.MaterialBankManage;
 using PDM_Entity.ProductStruct;
 using WcfExtension;
 using PDM_Services_Interface;
@@ -72,8 +72,8 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             }
             else
             {
-                var materialForm = new AddMaterialInfor();
-                materialForm.ShowDialog();
+                //var materialForm = new AddMaterialInfor();
+                //materialForm.ShowDialog();
             }
         }
         /// <summary>
@@ -117,8 +117,8 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             var m = productStructService.GetMaterialById(Convert.ToInt32(bom.Parent_Id));
             //new Test.BOMData().GetMaterialById(Convert.ToInt32(bom.Parent_Id));
             if (m == null) return;
-            txtRootPartName.Text = m.name;
-            txtRootPartNo.Text = m.number;
+            txtRootPartName.Text = m.Name;
+            txtRootPartNo.Text = m.No;
         }
     }
 }

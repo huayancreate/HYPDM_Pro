@@ -63,7 +63,7 @@ namespace View_Winform.ProductStructureManage.StructUC
             if (!e.Column.FieldName.Equals("Material_Id")) return;
             var m = new Test.BOMData().GetMaterialById(Convert.ToInt32(e.CellValue));
             if (m == null) return;
-            e.CellText = m.number + "," + m.versions + "," + m.name + "," + "1000";
+            e.CellText = m.No + "," + m.Version + "," + m.Name + "," + "1000";
         }
         /// <summary>
         /// 数据加载

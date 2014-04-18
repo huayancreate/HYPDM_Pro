@@ -35,18 +35,10 @@ namespace PDM_Server
             //ServerManager.StartService(typeof(TestService2));
             //ServerManager.StartService(typeof(UserGroupManage));
             //ServerManager.StartService(typeof(AddMaterialInfor));
-            //ServerManager.StartService(typeof(MaterialBankManage));
-            //ServerManager.StartService(typeof(MaterialPegging));
-            //ServerManager.StartService(typeof(AddMaterialProperty));
-            //ServerManager.StartService(typeof(MaterialPropertyBuild));
-            //ServerManager.StartService(typeof(MaterialBankManage));
-            //ServerManager.StartService(typeof(MaterialPegging));
-            //ServerManager.StartService(typeof(AddMaterialProperty));
-            //ServerManager.StartService(typeof(MaterialPropertyBuild));
-            //ServerManager.StartService(typeof(MaterialBankManage));
-            //ServerManager.StartService(typeof(MaterialPegging));
-            //ServerManager.StartService(typeof(AddMaterialProperty));
-            //ServerManager.StartService(typeof(MaterialPropertyBuild));
+            ServerManager.StartService(typeof(MaterialPropertyBuild));
+            ServerManager.StartService(typeof(MaterialBankManage));
+            ServerManager.StartService(typeof(MaterialPegging));
+            ServerManager.StartService(typeof(AddMaterialProperty));
             //ServerManager.StartService(typeof(DocManageTool));
             //ServerManager.StartService(typeof(DocGrantManage));
             //ServerManager.StartService(typeof(DocPropertyBuild));
@@ -54,7 +46,7 @@ namespace PDM_Server
             //ServerManager.StartService(typeof(DocTemplateCategoryManage));
             //SocketServer socket = new SocketServer("127.0.0.1", 7775);
             //socket.start();
-            ServerManager.StartService(typeof(ProductStruct));
+            //ServerManager.StartService(typeof(ProductStruct));
 
             Console.WriteLine("TestService Started...");
             Console.ReadLine();

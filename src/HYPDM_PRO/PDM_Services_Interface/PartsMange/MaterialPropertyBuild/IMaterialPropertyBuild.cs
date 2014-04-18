@@ -5,33 +5,32 @@ using System.Text;
 using System.ServiceModel;
 using PDM_Entity.PartsMange;
 using System.Collections;
+using System.Data;
 
 namespace PDM_Services_Interface
 {
     [ServiceContract(Namespace = "PDM_Services_Interface")]
     public interface IMaterialPropertyBuild
     {
+        /// <summary>
+        /// 获取所有物料属性集合[基础属性和附加属性]
+        /// </summary>
+        /// <returns></returns>
         [OperationContract]
-        Material GetMaterialcsBuild(string name, string type);
-
+        List<MaterialBaseProperty> GetAllMaterialProperty();
         [OperationContract]
-        int  AddBuild(int x, int y);
-
-       //[OperationContract]
-       //string DeleteMaterialcsBuild(int id);
-
-       //[OperationContract]
-       //string ModifyMaterialcsBuild(int id);
-
+        bool UpdateProperty(string table, Dictionary<string, object> columns, int id);
         [OperationContract]
-        IList<MaterialBaseProperty> Mate(); //物料属性
-
+        bool AddORUpdateProperty(MaterialBaseProperty baseProperty);
         [OperationContract]
-        bool  DeleteMaterialBuild(int id);  //删除属性
-
-
-        
-
-
+        bool DeletePropertyById(int id);
+        [OperationContract]
+        List<Material_ComboBox_Value> GetComboBoxValueByPropertyId(int propertyId);
+        [OperationContract]
+        DataTable GetListToDataTable(int propertyId);
+        [OperationContract]
+        bool AddORUpdateComboBoxValue(Material_ComboBox_Value comboBoxValue);
+        [OperationContract]
+        DataTable ToDataTable(IList list, string tableName);
     }
 }

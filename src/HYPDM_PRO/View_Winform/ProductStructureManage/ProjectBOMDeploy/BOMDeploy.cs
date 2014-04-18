@@ -107,7 +107,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             foreach (var p in parentList)
             {
                 var m = productStructService.GetMaterialById(p.Material_Id);
-                parentNode = treeList.AppendNode(new object[] { p.Material_Id, p.Id, p.BOM_Id, p.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, 0);
+                parentNode = treeList.AppendNode(new object[] { p.Material_Id, p.Id, p.BOM_Id, p.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, 0);
                 GetChildNode(parentNode, p.Id, list);
             }
             treeList.ExpandAll();
@@ -233,26 +233,26 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         /// 零部件基本信息加载
         /// </summary>
         /// <param name="m"></param>
-        private void MaterialDataLoad(Materialcs m)
+        private void MaterialDataLoad(Material m)
         {
             if (m == null) return;
-            txtMaterialNo.Text = m.number;
-            txtMaterialName.Text = m.name;
-            txtMaterialVersion.Text = m.versions;
+            txtMaterialNo.Text = m.No;
+            txtMaterialName.Text = m.Name;
+            txtMaterialVersion.Text = m.Version;
         }
         /// <summary>
         /// 关联文档数据加载
         /// </summary>
         /// <param name="m"></param>gridControl1
-        private void DocumentDataLoad(Materialcs m)
+        private void DocumentDataLoad(Material m)
         {
             gridControl1.DataSource = null;
             gridControl4.DataSource = null;
             gridControl5.DataSource = null;
             if (m == null) return;
-            var docList = productStructService.GetDocWithMaterailByMaterialId(m.ID);
-            var docList1 = productStructService.GetDocWithMaterailByMaterialId(m.ID);
-            var docMaterailList = productStructService.GetDocWithMaterailByMaterialId(m.ID);
+            var docList = productStructService.GetDocWithMaterailByMaterialId(m.Id);
+            var docList1 = productStructService.GetDocWithMaterailByMaterialId(m.Id);
+            var docMaterailList = productStructService.GetDocWithMaterailByMaterialId(m.Id);
             gridControl1.DataSource = docList;
             gridControl4.DataSource = docList1;
             gridControl5.DataSource = docMaterailList;
@@ -286,7 +286,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             var tabControl = (XtraTabControl)sender;
             tabControl.TabPages.Remove(tabControl.SelectedTabPage);
         }
-        private Materialcs Material(object id)
+        private Material Material(object id)
         {
             var m = productStructService.GetMaterialById(Convert.ToInt32(id));
             return m;
@@ -484,11 +484,11 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         /// <summary>
         /// 文档清单列表
         /// </summary>
-        private void DocListDataBind(Materialcs m)
+        private void DocListDataBind(Material m)
         {
             gridControl4.DataSource = null;
             if (m == null) return;
-            gridControl4.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
+            gridControl4.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.Id);
         }
         /// <summary>
         /// 递归绑定子节点数据
@@ -502,7 +502,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             foreach (var c in childList)
             {
                 var m = productStructService.GetMaterialById(c.Material_Id);
-                TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, parentNode);
+                TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, parentNode);
                 GetChildNode(tns, c.Id, structList);
             }
         }

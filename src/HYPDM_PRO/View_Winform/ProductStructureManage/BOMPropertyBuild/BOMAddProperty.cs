@@ -26,7 +26,7 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
         {
             if (this.Tag == "edit") BindData();
 
-            radioGroup1.SelectedIndexChanged += new EventHandler(RadioChang);
+            radioGroup1.SelectedIndexChanged += new EventHandler(RadioChange);
             simpleButton6.Click += new EventHandler(AddProperty);
             simpleButton4.Click += new EventHandler(AddItem);
             simpleButton3.Click += new EventHandler(DelItem);
@@ -69,7 +69,7 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
             gridView1.AddNewRow();
         }
 
-        private void RadioChang(object sender, EventArgs e)
+        private void RadioChange(object sender, EventArgs e)
         {
 			groupControl1.Visible = radioGroup1.SelectedIndex != 0;
         }

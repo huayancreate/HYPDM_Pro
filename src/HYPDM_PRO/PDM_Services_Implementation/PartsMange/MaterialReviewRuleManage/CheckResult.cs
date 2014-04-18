@@ -20,9 +20,9 @@ namespace PDM_Services_Implementation
             Material M = new Material();
             Material Ma = new Material();
             Material Mb = new Material();
-            M.number = "1";
-            Ma.number = "2";
-            Mb.number = "3";
+            //M.number = "1";
+            //Ma.number = "2";
+            //Mb.number = "3";
 
 
             list.Add(M);

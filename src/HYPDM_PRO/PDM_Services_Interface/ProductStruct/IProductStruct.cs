@@ -131,7 +131,7 @@ namespace PDM_Services_Interface
         /// <param name="id"></param>
         /// <returns></returns>
         [OperationContract]
-        Materialcs GetMaterialById(int id);
+        Material GetMaterialById(int id);
         /// <summary>
         /// 根据物料Id获取与物料相关的文档集合
         /// </summary>
@@ -152,6 +152,6 @@ namespace PDM_Services_Interface
         [OperationContract]
         List<BOMDto> GetAllBOMDtoList();
         [OperationContract]
-        List<Materialcs> GetAllMaterialList(int id, int bomId);
+        List<Material> GetAllMaterialList(int id, int bomId);
     }
 }

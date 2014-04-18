@@ -164,7 +164,7 @@ namespace PDM_Services_Implementation
             //var supplierList = new List<Supplier>();
             return new Test.BOMData().GetAllSupplier();
         }
-        public Materialcs GetMaterialById(int id)
+        public Material GetMaterialById(int id)
         {
             return new Test.BOMData().GetMaterialById(id);
         }
@@ -204,9 +204,9 @@ namespace PDM_Services_Implementation
                 GetAllChildBOMStruct(s.Id, ref strucList);
             }
         }
-        public List<Materialcs> GetAllMaterialList(int id, int bomId)
+        public List<Material> GetAllMaterialList(int id, int bomId)
         {
-            var materialList = new List<Materialcs>();
+            var materialList = new List<Material>();
             var structList = GetBOMStructListByParentId(id, bomId);
             foreach (var item in structList)
             {

@@ -96,6 +96,9 @@
     <Compile Include="BaseControls\BaseGridViewControl.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="BaseControls\BaseTreeListControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="BPM\FlowBrowserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -326,6 +329,12 @@
     <Compile Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.Designer.cs">
       <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PartsMange\MeasurementUnitBuild\AddUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MeasurementUnitBuild\AddUnit.Designer.cs">
+      <DependentUpon>AddUnit.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartsMange\MeasurementUnitBuild\AddUnitGroup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -337,6 +346,12 @@
     </Compile>
     <Compile Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.Designer.cs">
       <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PartsMange\ProductCategoryManage\AddProductCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\ProductCategoryManage\AddProductCategory.Designer.cs">
+      <DependentUpon>AddProductCategory.cs</DependentUpon>
     </Compile>
     <Compile Include="PartsMange\ProductCategoryManage\ProductCategoryManage.cs">
       <SubType>Form</SubType>
@@ -1500,6 +1515,12 @@
       <DependentUpon>Templete.cs</DependentUpon>
     </Compile>
     <Compile Include="Test\BOMData.cs" />
+    <Compile Include="Test\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Test\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1621,11 +1642,17 @@
     <EmbeddedResource Include="PartsMange\MaterialReviewRuleManage\MaterialReviewRuleManage.resx">
       <DependentUpon>MaterialReviewRuleManage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MeasurementUnitBuild\AddUnit.resx">
+      <DependentUpon>AddUnit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MeasurementUnitBuild\AddUnitGroup.resx">
       <DependentUpon>AddUnitGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MeasurementUnitBuild\MeasurementUnitBuild.resx">
       <DependentUpon>MeasurementUnitBuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\ProductCategoryManage\AddProductCategory.resx">
+      <DependentUpon>AddProductCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\ProductCategoryManage\ProductCategoryManage.resx">
       <DependentUpon>ProductCategoryManage.cs</DependentUpon>
@@ -2218,6 +2245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Templete.resx">
       <DependentUpon>Templete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test\TestForm.resx">
       <DependentUpon>TestForm.cs</DependentUpon>

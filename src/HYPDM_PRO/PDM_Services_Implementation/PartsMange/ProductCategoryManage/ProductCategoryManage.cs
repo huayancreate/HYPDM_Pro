@@ -14,63 +14,42 @@ namespace PDM_Services_Implementation
         Namespace = "PDM_Services_Implementation")]
     public class ProductCategoryManage : IProductCategoryManage
     {
-        public IList<Material> product() 
+        public IList<Material> product()
         {
             IList<Material> p = new BindingList<Material>();
             Material m = new Material();
             Material m1 = new Material();
             Material m2 = new Material();
 
-            m.cn_name = "去年买了个表";
-            m.number = "1001";
-            m.status = "设计";
-            m.type = "通用";
+            //m.cn_name = "去年买了个表";
+            //m.number = "1001";
+            //m.status = "设计";
+            //m.type = "通用";
 
-            m1.cn_name = "快到碗里来";
-            m1.number = "1002";
-            m1.status = "外购";
-            m1.type = "外协";
+            //m1.cn_name = "快到碗里来";
+            //m1.number = "1002";
+            //m1.status = "外购";
+            //m1.type = "外协";
 
-            m2.cn_name = "打酱油";
-            m2.number = "1003";
-            m2.status = "外购";
-            m2.type = "通用";
+            //m2.cn_name = "打酱油";
+            //m2.number = "1003";
+            //m2.status = "外购";
+            //m2.type = "通用";
 
-            p.Add(m);
-            p.Add(m1);
-            p.Add(m2);
+            //p.Add(m);
+            //p.Add(m1);
+            //p.Add(m2);
             return p;
         }
 
-        public  IList<Material> QueryProductMessage(string type, string name, string status, string versions) 
+        public IList<Material> QueryProductMessage(string type, string name, string status, string versions)
         {
             IList<Material> m = new BindingList<Material>();
-            Material ma = new Material();
-            Material mb = new Material();
-            Material mc = new Material();
-
-            ma.cn_name = "喜羊羊";
-            ma.type = "聪明羊";
-            ma.versions = "设计";
-            ma.status = "外购";
-
-            mb.cn_name = "美羊羊";
-            mb.type = "漂亮羊";
-            mb.versions = "设计";
-            mb.status = "外购";
-
-            mc.cn_name = "懒羊羊";
-            mc.type = "懒惰羊";
-            mc.versions = "设计";
-            mc.status = "外购";
-
-            m.Add(ma);
-            m.Add(mb);
-            m.Add(mc);
+            Material material = new Material();
             return m;
         }
 
-        public IList<ProductCategory> ClassifyMessage(string name) 
+        public IList<ProductCategory> ClassifyMessage(string name)
         {
             IList<ProductCategory> P = new BindingList<ProductCategory>();
             ProductCategory p = new ProductCategory();
@@ -96,13 +75,13 @@ namespace PDM_Services_Implementation
 
         }
 
-        public bool AddClassify(string name) 
+        public bool AddClassify(string name)
         {
-            
+
             return true;
         }
 
-        public IList<ProductCategory> QueryClassify(string name) 
+        public IList<ProductCategory> QueryClassify(string name)
         {
             IList<ProductCategory> PC = new BindingList<ProductCategory>();
             ProductCategory p = new ProductCategory();
@@ -123,7 +102,7 @@ namespace PDM_Services_Implementation
             return PC;
         }
 
-        public bool DeleteClassify(int id) 
+        public bool DeleteClassify(int id)
         {
             return true;
         }

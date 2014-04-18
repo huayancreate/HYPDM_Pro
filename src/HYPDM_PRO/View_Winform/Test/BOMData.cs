@@ -45,16 +45,16 @@ namespace View_Winform.Test
             bomList.Add(bom1);
             return bomList;
         }
-        public Materialcs GetMaterialById(int id)
+        public Material GetMaterialById(int id)
         {
-            return GetAllMaterial().Find(m => m.ID == id);
+            return GetAllMaterial().Find(m => m.Id == id);
         }
-        public List<Materialcs> GetAllMaterial()
+        public List<Material> GetAllMaterial()
         {
-            var materialList = new List<Materialcs>();
-            var m = new Materialcs { ID = 1, name = "测试零部件1", number = "201403121111", versions = "1.1" };
+            var materialList = new List<Material>();
+            var m = new Material { Id = 1, Name = "测试零部件1", No = "201403121111", Version = "1.1" };
 
-            var m1 = new Materialcs { ID = 2, name = "测试零部件2", number = "201403121112", versions = "1.2" };
+            var m1 = new Material { Id = 2, Name = "测试零部件2", No = "201403121112", Version = "1.2" };
 
             materialList.Add(m);
             materialList.Add(m1);
@@ -183,9 +183,9 @@ namespace View_Winform.Test
         {
             return GetAllDocument().Find(d => d.id == doc_id);
         }
-        public List<Materialcs> GetMaterialByParentId(int id)
+        public List<Material> GetMaterialByParentId(int id)
         {
-            var materialList = new List<Materialcs>();
+            var materialList = new List<Material>();
             var structBOM = GetStructById(id);
             if (structBOM != null)
             {

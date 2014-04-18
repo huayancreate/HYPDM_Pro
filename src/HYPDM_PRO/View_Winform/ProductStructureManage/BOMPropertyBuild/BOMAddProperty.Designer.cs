@@ -169,9 +169,6 @@
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.radioGroup1);
-            this.panelControl1.Controls.Add(this.simpleButton2);
-            this.panelControl1.Controls.Add(this.simpleButton4);
-            this.panelControl1.Controls.Add(this.simpleButton3);
             this.panelControl1.Controls.Add(this.groupControl1);
             this.panelControl1.Controls.Add(this.labelControl5);
             this.panelControl1.Controls.Add(this.cboDefaultVal);
@@ -206,7 +203,7 @@
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(537, 159);
+            this.simpleButton2.Location = new System.Drawing.Point(105, 144);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(39, 23);
             this.simpleButton2.TabIndex = 22;
@@ -214,7 +211,7 @@
             // 
             // simpleButton4
             // 
-            this.simpleButton4.Location = new System.Drawing.Point(427, 159);
+            this.simpleButton4.Location = new System.Drawing.Point(5, 144);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(39, 23);
             this.simpleButton4.TabIndex = 24;
@@ -222,7 +219,7 @@
             // 
             // simpleButton3
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(483, 159);
+            this.simpleButton3.Location = new System.Drawing.Point(55, 144);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(39, 23);
             this.simpleButton3.TabIndex = 23;
@@ -231,15 +228,17 @@
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.gridControl1);
+            this.groupControl1.Controls.Add(this.simpleButton3);
+            this.groupControl1.Controls.Add(this.simpleButton4);
+            this.groupControl1.Controls.Add(this.simpleButton2);
             this.groupControl1.Location = new System.Drawing.Point(427, 15);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(149, 141);
+            this.groupControl1.Size = new System.Drawing.Size(149, 172);
             this.groupControl1.TabIndex = 25;
             this.groupControl1.Text = "列表框值";
             // 
             // gridControl1
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl1.Location = new System.Drawing.Point(2, 22);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";

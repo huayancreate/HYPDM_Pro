@@ -14,6 +14,7 @@ namespace View_Winform.PartsMange.MeasurementUnitBuild
 {
     public partial class AddUnitGroup : DevExpress.XtraEditors.XtraForm
     {
+        public UnitGroup group { get; set; }
         public AddUnitGroup()
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace View_Winform.PartsMange.MeasurementUnitBuild
 
         private void PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton_MouseDown(object sender, MouseEventArgs e)
         {
-            if(e.Button == MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 this.Close();
             }
@@ -34,18 +35,16 @@ namespace View_Winform.PartsMange.MeasurementUnitBuild
 
         private void PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton_Click(object sender, EventArgs e)
         {
-            UnitGroup UG = new UnitGroup();
             bool ok = false;
+            group.Id = group.Id + 1;
+            group.name = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Text;
+            group.number = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Text;
+            group.description = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Text;
 
-            UG.name = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Text;
-            UG.number = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Text;
-            UG.description = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Text;
-
-            ok = WcfServiceLocator.Create<IAddUnitGroup>().SaveUnitGroup(UG);
+            ok = WcfServiceLocator.Create<IMeasurementUnitBuild>().AddORUpdateUnitGroup(group);
             MessageBox.Show(ok.ToString());
-             
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
-
-        
     }
 }

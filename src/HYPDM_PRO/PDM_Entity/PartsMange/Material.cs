@@ -9,92 +9,87 @@ namespace PDM_Entity.PartsMange
     [DataContract]
     public class Material
     {
-        [DataMember(Order = 1)]
-        public int id {get; set;}
-
-        [DataMember(Order = 2)]
-        public int unit_id {get; set;}
-
-        [DataMember(Order = 3)]
-        public int supplied_id { get; set;}
-
-        [DataMember(Order = 4)]
-        public string image {get; set;}
-
-        [DataMember(Order = 5)]
-        public string is_encode {get; set;}
-
-        [DataMember(Order = 6)]
-        public string status {get;set;}
-
-        [DataMember(Order = 7)]
-        public string is_enable {get; set;}
-
-        [DataMember(Order = 8)]
-        public int product_category_id {get; set;}
-
-        [DataMember(Order = 9)]
-        public int material_type_id {get; set;}
-
-        [DataMember(Order = 10)]
-        public int create_user_id {get; set;}
-
-         [DataMember(Order = 11)]
-        public DateTime create_date {get; set;}
-
-         [DataMember(Order = 12)]
-        public int modify_user_id {get; set;}
-
-         [DataMember(Order = 13)]
-        public DateTime modify_date {get; set;}
-
-         [DataMember(Order = 14)]
-        public string is_delete {get; set;}
-
-         [DataMember(Order = 15)]
-         public string name { get; set;}
-
-         [DataMember(Order = 16)]
-         public string versions {get; set;}
-
-         [DataMember(Order = 17)]
-         public String number {get; set;}
-
-         [DataMember(Order = 18)]
-         public string type {get; set;}
-
-         [DataMember(Order = 19)]
-         public string property {get; set;}
-
-         [DataMember(Order = 20)]
-         public int material_box_id {get; set;}
-
-
-         public IList<Material> Mate()
-         {
-             throw new NotImplementedException();
-         }
-
-
-         [DataMember(Order = 21)]
-         public string cn_name { get; set;}
-
-         [DataMember(Order = 22)]
-         public string widgh { get; set; }
-        
-         [DataMember(Order = 23)]
-         public string Material_Type{get; set;}
-
-         [DataMember(Order = 24)]
-         public string property_type{ get; set;}
-
-         [DataMember(Order = 25)]
-         public string is_property { get; set;}
-
-         [DataMember(Order = 26)]
-         public string is_show {get; set;}
-
-
-
+        [DataMember]
+        public int Id { get; set; }
+        [DataMember]
+        public string No { get; set; }
+        [DataMember]
+        public string Name { get; set; }
+        /// <summary>
+        /// 原件号
+        /// </summary>
+        [DataMember]
+        public string Original_No { get; set; }
+        [DataMember]
+        public string Version { get; set; }
+        /// <summary>
+        /// 属性
+        /// </summary>
+        [DataMember]
+        public string Property_Type { get; set; }
+        [DataMember]
+        public string Unit_Id { get; set; }
+        /// <summary>
+        /// 种类
+        /// </summary>
+        [DataMember]
+        public string Species { get; set; }
+        [DataMember]
+        public string Unit_Group_Id { get; set; }
+        [DataMember]
+        public string Weight { get; set; }
+        /// <summary>
+        /// 材料
+        /// </summary>
+        [DataMember]
+        public int Material_Id { get; set; }
+        [DataMember]
+        public string Image { get; set; }
+        [DataMember]
+        public string Is_Encode { get; set; }
+        /// <summary>
+        /// 物料类型
+        /// </summary>
+        [DataMember]
+        public int Material_Type_Id { get; set; }
+        /// <summary>
+        /// 型号
+        /// </summary>
+        [DataMember]
+        public string Model_No { get; set; }
+        /// <summary>
+        /// 物料状态
+        /// </summary>
+        [DataMember]
+        public string Status { get; set; }
+        [DataMember]
+        public string Price { get; set; }
+        /// <summary>
+        /// 所属分类
+        /// </summary>
+        [DataMember]
+        public string Category { get; set; }
+        /// <summary>
+        /// 备注
+        /// </summary>
+        [DataMember]
+        public string Remark { get; set; }
+        /// <summary>
+        /// 规格
+        /// </summary>
+        [DataMember]
+        public string Standard { get; set; }
+        [DataMember]
+        public string Product_Type { get; set; }
+        [DataMember]
+        public string Is_Delete { get; set; }
+        [DataMember]
+        public int Create_User_Id { get; set; }
+        [DataMember]
+        public DateTime Create_Date { get; set; }
+        [DataMember]
+        public int Modify_User_Id { get; set; }
+        [DataMember]
+        public DateTime Modify_Date { get; set; }
     }
 }

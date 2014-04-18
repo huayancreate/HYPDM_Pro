@@ -118,6 +118,7 @@
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.labelControl6);
             this.Name = "AddUnitGroup";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "添加计量单位组";
             this.Load += new System.EventHandler(this.AddUnitGroup_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Properties)).EndInit();

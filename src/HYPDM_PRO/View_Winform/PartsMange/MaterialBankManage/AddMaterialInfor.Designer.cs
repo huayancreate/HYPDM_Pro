@@ -72,12 +72,14 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
+            this.textEdit1 = new DevExpress.XtraEditors.MemoEdit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl)).BeginInit();
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Properties)).BeginInit();
@@ -98,13 +100,14 @@
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
@@ -165,9 +168,10 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl
             // 
-            this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Controls.Add(this.textEdit1);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Location = new System.Drawing.Point(3, 198);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Size = new System.Drawing.Size(592, 256);
@@ -468,8 +472,8 @@
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit
             // 
-            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Location = new System.Drawing.Point(3, 34);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Size = new System.Drawing.Size(349, 20);
@@ -495,7 +499,7 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Location = new System.Drawing.Point(491, 492);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton" +
-                "";
+    "";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.TabIndex = 63;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton.Text = "取消(C)";
@@ -506,11 +510,18 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Location = new System.Drawing.Point(419, 493);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButto" +
-                "n";
+    "n";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.TabIndex = 62;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Text = "确定(O)";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton_Click);
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(0, 24);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(592, 235);
+            this.textEdit1.TabIndex = 0;
             // 
             // AddMaterialInfor
             // 
@@ -522,6 +533,7 @@
             this.Controls.Add(this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit);
             this.Controls.Add(this.xtraTabControl1);
             this.Name = "AddMaterialInfor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "添加物料信息";
             this.Load += new System.EventHandler(this.AddMaterialInfor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
@@ -531,6 +543,7 @@
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl)).EndInit();
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Properties)).EndInit();
@@ -551,6 +564,7 @@
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -601,5 +615,6 @@
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.TextEdit PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton;
+        private DevExpress.XtraEditors.MemoEdit textEdit1;
     }
 }

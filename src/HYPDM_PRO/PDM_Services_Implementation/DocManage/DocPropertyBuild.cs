@@ -8,7 +8,7 @@ using PDM_Entity.DocManage;
 using System.Net.Sockets;
 using System.Net;
 using System.IO;
-using System.Threading; 
+using System.Threading;
 
 namespace PDM_Services_Implementation
 {
@@ -56,25 +56,24 @@ namespace PDM_Services_Implementation
             dp2.en_name = "wordsize";
             dp2.cn_name = "文档大小";
             dp2.is_user_define = "";
-            dp2.is_display = true;
+            dp2.is_display = false;
             dp2.display_width = "100";
             dp2.data_type = "数值型";
             dp2.default_value = "测试002";
             dp2.data_length = "80";
             dp2.order = "2";
             docProList.Add(dp2);
-            /***
-            DocProperty dp3 = new DocProperty();
-            dp3.EnName = "column3";
-            dp3.CnName = "文档名称";
-            dp3.IsUserDefine = "";
-            dp3.IsDisplay = true;
-            dp3.Width = "100";
-            dp3.DataType = "日期型";
-            dp3.Default = "测试003";
-            dp3.DataLength = "120";
-            dp3.Order = 3;
-            doc.Add(dp3);**/
+            doc_attached_property dp3 = new doc_attached_property();
+            dp3.en_name = "wordsize";
+            dp3.cn_name = "文档大小";
+            dp3.is_user_define = "";
+            dp3.is_display = true;
+            dp3.display_width = "100";
+            dp3.data_type = "数值型";
+            dp3.default_value = "测试002";
+            dp3.data_length = "80";
+            dp3.order = "2";
+            docProList.Add(dp3);
             doc_attached_property dp4 = new doc_attached_property();
             dp4.en_name = "column4";
             dp4.cn_name = "文档扩展属性1";
@@ -107,6 +106,6 @@ namespace PDM_Services_Implementation
             // 根据docType中属性集合，插入更新到数据库。
             return true;
         }
-        #endregion 
+        #endregion
     }
 }

@@ -59,19 +59,23 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
             MaterialListDataBind(id);
             DocListDataBind(m);
         }
-        private void DocumentDataLoad(Materialcs m)
+        private void DocumentDataLoad(Material m)
         {
             //var docList = new Test.BOMData().GetDocumentByPartId(m.ID);
-            gridControl1.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
+            gridControl1.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.Id);
         }
-        private void MaterialDataLoad(Materialcs m)
+        /// <summary>
+        /// 零部件基本信息
+        /// </summary>
+        /// <param name="m"></param>
+        private void MaterialDataLoad(Material m)
         {
             if (m == null) return;
-            txtMaterialNo.Text = m.number;
-            txtMaterialName.Text = m.name;
-            txtMaterialVersion.Text = m.versions;
+            txtMaterialNo.Text = m.No;
+            txtMaterialName.Text = m.Name;
+            txtMaterialVersion.Text = m.Version;
         }
-        private Materialcs GetMaterial(object id)
+        private Material GetMaterial(object id)
         {
             var m = productStructService.GetMaterialById(Convert.ToInt32(id)); //new Test.BOMData().GetMaterialById(Convert.ToInt32(id));
             return m;
@@ -123,7 +127,7 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
             foreach (var p in parentList)
             {
                 var m = productStructService.GetMaterialById(p.Material_Id);
-                parentNode = treeList.AppendNode(new object[] { p.Material_Id, p.Id, p.BOM_Id, p.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, 0);
+                parentNode = treeList.AppendNode(new object[] { p.Material_Id, p.Id, p.BOM_Id, p.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, 0);
                 GetChildNode(parentNode, p.Id, list);
             }
             treeList.ExpandAll();
@@ -161,23 +165,23 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         /// <summary>
         /// 零部件引用列表
         /// </summary>
-        private void MaterialQuoteListDataBind(Materialcs m)
+        private void MaterialQuoteListDataBind(Material m)
         {
             gridControl3.DataSource = productStructService.GetAllBOMList();
         }
         /// <summary>
         /// 文档清单
         /// </summary>
-        private void DocListDataBind(Materialcs m)
+        private void DocListDataBind(Material m)
         {
-            gridControl4.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
+            gridControl4.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.Id);
         }
         /// <summary>
         /// 零部件文档列表
         /// </summary>
-        private void MaterialDocListDataBind(Materialcs m)
+        private void MaterialDocListDataBind(Material m)
         {
-            gridControl5.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.ID);
+            gridControl5.DataSource = productStructService.GetDocWithMaterailByMaterialId(m.Id);
         }
         /// <summary>
         /// 递归绑定子节点数据
@@ -191,7 +195,7 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
             foreach (var c in childList)
             {
                 var m = productStructService.GetMaterialById(c.Material_Id);
-                TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.number + "," + m.versions + "," + m.name + "," + "1000" }, parentNode);
+                TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, parentNode);
                 GetChildNode(tns, c.Id, structList);
             }
         }

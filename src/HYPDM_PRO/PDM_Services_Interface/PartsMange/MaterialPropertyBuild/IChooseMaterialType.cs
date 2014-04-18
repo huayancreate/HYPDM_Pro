@@ -11,6 +11,6 @@ namespace PDM_Services_Interface
     public interface IChooseMaterialType
     {
         [OperationContract]
-        IList<MaterialType> MaterType();
+        IList<Material_Type> MaterType();
     }
 }
