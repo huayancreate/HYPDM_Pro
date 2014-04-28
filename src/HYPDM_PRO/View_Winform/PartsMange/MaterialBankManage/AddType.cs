@@ -20,13 +20,11 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         {
             InitializeComponent();
         }
-
         private void AddType_Load(object sender, EventArgs e)
         {
             PartsMange_MaterialBankManage_AddType_ConfirmType_SimpleButton.Click += SaveORUpdateClick;
             DataBind();
         }
-
         private void SaveORUpdateClick(object sender, EventArgs e)
         {
             type = MaterialType();
@@ -44,7 +42,6 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.SelectedIndex = Convert.ToInt32(type.Code_Start);
             PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.SelectedIndex = Convert.ToInt32(type.Code_Length);
         }
-
         private Material_Type MaterialType()
         {
             var index = PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.SelectedIndex;
@@ -63,10 +60,16 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             };
             return materialType;
         }
-
         private void PartsMange_MaterialBankManage_AddType_CancelType_SimpleButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var index = PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.SelectedIndex;
+            PartsMange_MaterialBankManage_AddType_MaterialBasicType_CodeStart_RadioGroup.Enabled = index == 0 ? true : false;
+            PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit.Enabled = index == 0 ? true : false;
         }
     }
 }

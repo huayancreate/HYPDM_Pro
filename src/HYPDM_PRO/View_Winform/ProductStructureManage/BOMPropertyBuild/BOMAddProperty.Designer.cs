@@ -38,23 +38,25 @@
             this.txtDataLength = new DevExpress.XtraEditors.TextEdit();
             this.txtEnName = new DevExpress.XtraEditors.TextEdit();
             this.txtCnName = new DevExpress.XtraEditors.TextEdit();
-            this.cboDefaultVal = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cboDataType = new DevExpress.XtraEditors.ComboBoxEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.txtDefaultValue = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.chkRequired.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDataLength.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEnName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCnName.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cboDefaultVal.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboDataType.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
@@ -63,6 +65,7 @@
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDefaultValue.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
@@ -142,16 +145,6 @@
             this.txtCnName.Size = new System.Drawing.Size(127, 20);
             this.txtCnName.TabIndex = 17;
             // 
-            // cboDefaultVal
-            // 
-            this.cboDefaultVal.EditValue = "是";
-            this.cboDefaultVal.Location = new System.Drawing.Point(277, 90);
-            this.cboDefaultVal.Name = "cboDefaultVal";
-            this.cboDefaultVal.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.cboDefaultVal.Size = new System.Drawing.Size(144, 20);
-            this.cboDefaultVal.TabIndex = 18;
-            // 
             // cboDataType
             // 
             this.cboDataType.EditValue = "字符型";
@@ -171,7 +164,6 @@
             this.panelControl1.Controls.Add(this.radioGroup1);
             this.panelControl1.Controls.Add(this.groupControl1);
             this.panelControl1.Controls.Add(this.labelControl5);
-            this.panelControl1.Controls.Add(this.cboDefaultVal);
             this.panelControl1.Controls.Add(this.cboDataType);
             this.panelControl1.Controls.Add(this.labelControl6);
             this.panelControl1.Controls.Add(this.txtDataLength);
@@ -182,6 +174,7 @@
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Controls.Add(this.labelControl3);
             this.panelControl1.Controls.Add(this.labelControl2);
+            this.panelControl1.Controls.Add(this.txtDefaultValue);
             this.panelControl1.Location = new System.Drawing.Point(2, 3);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(581, 196);
@@ -201,30 +194,6 @@
             this.radioGroup1.Size = new System.Drawing.Size(141, 23);
             this.radioGroup1.TabIndex = 26;
             // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(105, 144);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(39, 23);
-            this.simpleButton2.TabIndex = 22;
-            this.simpleButton2.Text = "√";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(5, 144);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(39, 23);
-            this.simpleButton4.TabIndex = 24;
-            this.simpleButton4.Text = "+";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(55, 144);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(39, 23);
-            this.simpleButton3.TabIndex = 23;
-            this.simpleButton3.Text = "-";
-            // 
             // groupControl1
             // 
             this.groupControl1.Controls.Add(this.gridControl1);
@@ -236,6 +205,7 @@
             this.groupControl1.Size = new System.Drawing.Size(149, 172);
             this.groupControl1.TabIndex = 25;
             this.groupControl1.Text = "列表框值";
+            this.groupControl1.Visible = false;
             // 
             // gridControl1
             // 
@@ -249,11 +219,67 @@
             // 
             // gridView1
             // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowColumnHeaders = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             this.gridView1.OptionsView.ShowIndicator = false;
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "gridColumn1";
+            this.gridColumn1.FieldName = "Id";
+            this.gridColumn1.Name = "gridColumn1";
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.Caption = "gridColumn2";
+            this.gridColumn2.FieldName = "Value";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 0;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "gridColumn3";
+            this.gridColumn3.FieldName = "Extend_Id";
+            this.gridColumn3.Name = "gridColumn3";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Location = new System.Drawing.Point(55, 144);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(39, 23);
+            this.simpleButton3.TabIndex = 23;
+            this.simpleButton3.Text = "-";
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Location = new System.Drawing.Point(5, 144);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(39, 23);
+            this.simpleButton4.TabIndex = 24;
+            this.simpleButton4.Text = "+";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Location = new System.Drawing.Point(105, 144);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(39, 23);
+            this.simpleButton2.TabIndex = 22;
+            this.simpleButton2.Text = "√";
+            // 
+            // txtDefaultValue
+            // 
+            this.txtDefaultValue.EditValue = "是";
+            this.txtDefaultValue.Location = new System.Drawing.Point(277, 90);
+            this.txtDefaultValue.Name = "txtDefaultValue";
+            this.txtDefaultValue.Size = new System.Drawing.Size(144, 20);
+            this.txtDefaultValue.TabIndex = 18;
             // 
             // simpleButton5
             // 
@@ -289,7 +315,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtDataLength.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtEnName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtCnName.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cboDefaultVal.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboDataType.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
@@ -299,6 +324,7 @@
             this.groupControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtDefaultValue.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -315,7 +341,6 @@
         private DevExpress.XtraEditors.TextEdit txtDataLength;
         private DevExpress.XtraEditors.TextEdit txtEnName;
         private DevExpress.XtraEditors.TextEdit txtCnName;
-        private DevExpress.XtraEditors.ComboBoxEdit cboDefaultVal;
         private DevExpress.XtraEditors.ComboBoxEdit cboDataType;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
@@ -327,5 +352,9 @@
         private DevExpress.XtraEditors.RadioGroup radioGroup1;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraEditors.TextEdit txtDefaultValue;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
     }
 }

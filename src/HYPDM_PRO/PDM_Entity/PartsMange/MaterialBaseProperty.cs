@@ -66,51 +66,6 @@ namespace PDM_Entity.PartsMange
         [DataMember]
         public bool is_show { get; set; }
 
-        [DataMember(Order = 18)]
-        public int number { get; set; }
-
-        [DataMember(Order = 19)]
-        public string property { get; set; }
-
-        [DataMember(Order = 20)]
-        public string variety { get; set; }
-
-        [DataMember(Order = 21)]
-        public string weight { get; set; }
-
-        [DataMember(Order = 22)]
-        public string type { get; set; }
-
-        [DataMember(Order = 23)]
-        public string belong_classify { get; set; }
-
-        [DataMember(Order = 24)]
-        public string product_type { get; set; }
-
-        [DataMember(Order = 25)]
-        public int original_number { get; set; }
-
-        [DataMember(Order = 26)]
-        public string version { get; set; }
-
-        [DataMember(Order = 27)]
-        public string unit_measure { get; set; }
-
-        [DataMember(Order = 28)]
-        public string unit_measure_group { get; set; }
-
-        [DataMember(Order = 29)]
-        public string material { get; set; }
-
-        [DataMember(Order = 30)]
-        public string cost_price { get; set; }
-
-        [DataMember(Order = 31)]
-        public string norms { get; set; }
-
-        [DataMember(Order = 32)]
-        public string remark { set; get; }
-
         [DataMember]
         public bool checkStatus { get; set; }
 

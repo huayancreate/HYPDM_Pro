@@ -44,8 +44,8 @@
             this.xtraTabPage10 = new DevExpress.XtraTab.XtraTabPage();
             this.btnUnit = new DevExpress.XtraEditors.ButtonEdit();
             this.btnStuff = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.cboCategory = new DevExpress.XtraEditors.ButtonEdit();
+            this.cboProduct = new DevExpress.XtraEditors.ButtonEdit();
             this.cboSpecies = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cboProperty = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -100,8 +100,8 @@
             this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl4 = new DevExpress.XtraGrid.GridControl();
             this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -110,8 +110,8 @@
             this.gridControl5 = new DevExpress.XtraGrid.GridControl();
             this.gridView5 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn25 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn26 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -140,11 +140,11 @@
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.Material_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.BOM_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             this.Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.BOM_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.Parent_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.Material_Name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -158,8 +158,8 @@
             this.xtraTabPage10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnUnit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStuff.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboCategory.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboProduct.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboSpecies.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboProperty.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -316,8 +316,8 @@
             // 
             this.xtraTabPage10.Controls.Add(this.btnUnit);
             this.xtraTabPage10.Controls.Add(this.btnStuff);
-            this.xtraTabPage10.Controls.Add(this.buttonEdit1);
-            this.xtraTabPage10.Controls.Add(this.buttonEdit2);
+            this.xtraTabPage10.Controls.Add(this.cboCategory);
+            this.xtraTabPage10.Controls.Add(this.cboProduct);
             this.xtraTabPage10.Controls.Add(this.cboSpecies);
             this.xtraTabPage10.Controls.Add(this.cboProperty);
             this.xtraTabPage10.Controls.Add(this.comboBoxEdit1);
@@ -372,23 +372,23 @@
             this.btnStuff.Size = new System.Drawing.Size(163, 20);
             this.btnStuff.TabIndex = 34;
             // 
-            // buttonEdit1
+            // cboCategory
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(360, 195);
-            this.buttonEdit1.Name = "buttonEdit1";
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cboCategory.Location = new System.Drawing.Point(360, 195);
+            this.cboCategory.Name = "cboCategory";
+            this.cboCategory.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(165, 20);
-            this.buttonEdit1.TabIndex = 33;
+            this.cboCategory.Size = new System.Drawing.Size(165, 20);
+            this.cboCategory.TabIndex = 33;
             // 
-            // buttonEdit2
+            // cboProduct
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(360, 221);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cboProduct.Location = new System.Drawing.Point(360, 221);
+            this.cboProduct.Name = "cboProduct";
+            this.cboProduct.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(165, 20);
-            this.buttonEdit2.TabIndex = 32;
+            this.cboProduct.Size = new System.Drawing.Size(165, 20);
+            this.cboProduct.TabIndex = 32;
             // 
             // cboSpecies
             // 
@@ -836,14 +836,6 @@
             this.gridView4.OptionsView.ShowGroupPanel = false;
             this.gridView4.OptionsView.ShowIndicator = false;
             // 
-            // gridColumn15
-            // 
-            this.gridColumn15.Caption = "文档编码";
-            this.gridColumn15.FieldName = "Doc_No";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 0;
-            // 
             // gridColumn17
             // 
             this.gridColumn17.Caption = "文档名称";
@@ -851,6 +843,14 @@
             this.gridColumn17.Name = "gridColumn17";
             this.gridColumn17.Visible = true;
             this.gridColumn17.VisibleIndex = 1;
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.Caption = "文档编码";
+            this.gridColumn15.FieldName = "Doc_No";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 0;
             // 
             // gridColumn16
             // 
@@ -928,14 +928,6 @@
             this.gridColumn24.FieldName = "Id";
             this.gridColumn24.Name = "gridColumn24";
             // 
-            // gridColumn21
-            // 
-            this.gridColumn21.Caption = "文档编码";
-            this.gridColumn21.FieldName = "Doc_No";
-            this.gridColumn21.Name = "gridColumn21";
-            this.gridColumn21.Visible = true;
-            this.gridColumn21.VisibleIndex = 1;
-            // 
             // gridColumn22
             // 
             this.gridColumn22.Caption = "文档名称";
@@ -943,6 +935,14 @@
             this.gridColumn22.Name = "gridColumn22";
             this.gridColumn22.Visible = true;
             this.gridColumn22.VisibleIndex = 0;
+            // 
+            // gridColumn21
+            // 
+            this.gridColumn21.Caption = "文档编码";
+            this.gridColumn21.FieldName = "Doc_No";
+            this.gridColumn21.Name = "gridColumn21";
+            this.gridColumn21.Visible = true;
+            this.gridColumn21.VisibleIndex = 1;
             // 
             // gridColumn23
             // 
@@ -1215,11 +1215,31 @@
             this.Material_Id.FieldName = "Material_Id";
             this.Material_Id.Name = "Material_Id";
             // 
+            // Id
+            // 
+            this.Id.Caption = "treeListColumn1";
+            this.Id.FieldName = "Id";
+            this.Id.Name = "Id";
+            // 
             // BOM_Id
             // 
             this.BOM_Id.Caption = "treeListColumn3";
             this.BOM_Id.FieldName = "BOM_Id";
             this.BOM_Id.Name = "BOM_Id";
+            // 
+            // Parent_Id
+            // 
+            this.Parent_Id.Caption = "treeListColumn1";
+            this.Parent_Id.FieldName = "Parent_Id";
+            this.Parent_Id.Name = "Parent_Id";
+            // 
+            // Material_Name
+            // 
+            this.Material_Name.Caption = "treeListColumn1";
+            this.Material_Name.FieldName = "Material_Name";
+            this.Material_Name.Name = "Material_Name";
+            this.Material_Name.Visible = true;
+            this.Material_Name.VisibleIndex = 0;
             // 
             // imageCollection1
             // 
@@ -1257,26 +1277,6 @@
             this.imageCollection1.Images.SetKeyName(30, "Tasks_16x16.png");
             this.imageCollection1.Images.SetKeyName(31, "Trash_16x16.png");
             // 
-            // Id
-            // 
-            this.Id.Caption = "treeListColumn1";
-            this.Id.FieldName = "Id";
-            this.Id.Name = "Id";
-            // 
-            // Parent_Id
-            // 
-            this.Parent_Id.Caption = "treeListColumn1";
-            this.Parent_Id.FieldName = "Parent_Id";
-            this.Parent_Id.Name = "Parent_Id";
-            // 
-            // Material_Name
-            // 
-            this.Material_Name.Caption = "treeListColumn1";
-            this.Material_Name.FieldName = "Material_Name";
-            this.Material_Name.Name = "Material_Name";
-            this.Material_Name.Visible = true;
-            this.Material_Name.VisibleIndex = 0;
-            // 
             // DisplayChangeParts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -1305,8 +1305,8 @@
             this.xtraTabPage10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnUnit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStuff.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboCategory.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboProduct.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboSpecies.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboProperty.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
@@ -1369,8 +1369,8 @@
         private DevExpress.XtraTab.XtraTabPage xtraTabPage10;
         private DevExpress.XtraEditors.ButtonEdit btnUnit;
         private DevExpress.XtraEditors.ButtonEdit btnStuff;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
+        private DevExpress.XtraEditors.ButtonEdit cboCategory;
+        private DevExpress.XtraEditors.ButtonEdit cboProduct;
         private DevExpress.XtraEditors.ComboBoxEdit cboSpecies;
         private DevExpress.XtraEditors.ComboBoxEdit cboProperty;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;

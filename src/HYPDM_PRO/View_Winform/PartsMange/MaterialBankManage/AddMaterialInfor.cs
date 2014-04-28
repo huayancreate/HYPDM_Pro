@@ -11,18 +11,23 @@ using PDM_Services_Interface;
 using WcfExtension;
 using System.Collections;
 using System.Reflection;
+using View_Winform.PartsMange.ProductCategoryManage;
+using View_Winform.PartsMange.MaterialBankManage;
+using PDM_Entity.ProductStruct;
 
 namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     public partial class AddMaterialInfor : DevExpress.XtraEditors.XtraForm
     {
-        private IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
-        public MaterialBaseProperty MaterBase;
+        IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
         public Material material { get; set; }
+        IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
+        IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
         List<MaterialBaseProperty> propertyList = new List<MaterialBaseProperty>();
         public AddMaterialInfor()
         {
             InitializeComponent();
+            gridView1 = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(gridView1, false);
         }
         private void PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton_MouseDown(object sender, MouseEventArgs e)
         {
@@ -33,8 +38,18 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         }
         private void AddMaterialInfor_Load(object sender, EventArgs e)
         {
+            DesignerForm();
+            simpleButton1.Click += SupplyQuotaClick;
+            #region 下拉框数据绑定
+            ComboBoxDataBind(PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit, 2);
+            PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.SelectedIndex = 0;
+            ComboBoxDataBind(PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit, 3);
+            PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.SelectedIndex = 0;
+            #endregion
+            #region 页面数据绑定
             if (this.Tag == "Modify")
             {
+                PropertyDataBind();
                 PartsMange_MaterialBankManage_AddMaterialInfor_PartNumber_ButtonEdit.Text = material.No;
                 PartsMange_MaterialBankManage_AddMaterialInfor_PartName_TextEdit.Text = material.Name;
                 PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text = material.Property_Type;
@@ -51,70 +66,86 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text = material.Price;
                 PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text = material.Standard;
                 textEdit1.Text = material.Remark;
-                //WcfServiceLocator.Create<IAddMaterialInfor>().MaterialMessage(MaterBase.id);
             }
             if (this.Tag == "AnalogyAdd")
             {
-                PartsMange_MaterialBankManage_AddMaterialInfor_PartNumber_ButtonEdit.Text = MaterBase.number.ToString();
-                PartsMange_MaterialBankManage_AddMaterialInfor_PartName_TextEdit.Text = MaterBase.en_name;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text = MaterBase.material_property_type_id.ToString();
-                PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Text = MaterBase.variety;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Weight_TextEdit.Text = MaterBase.weight;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text = MaterBase.type;
-                PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = MaterBase.belong_classify;
-                PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = MaterBase.product_type;
-                PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text = MaterBase.original_number.ToString();
-                PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Text = MaterBase.version;
-                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = MaterBase.unit_measure;
-                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text = MaterBase.unit_measure_group;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = MaterBase.material;
-                PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text = MaterBase.cost_price;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text = MaterBase.norms;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Text = MaterBase.remark;
-                //WcfServiceLocator.Create<IAddMaterialInfor>().MaterialMessage(MaterBase.id);
+                PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text = material.Property_Type;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Text = material.Species;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Weight_TextEdit.Text = material.Weight;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text = material.Property_Type;
+                PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = material.Category;
+                PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = material.Product_Type;
+                PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text = material.Original_No;
+                PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Text = material.Version;
+                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = material.Unit_Id;
+                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text = material.Unit_Group_Id;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = material.Material_Id.ToString();
+                PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text = material.Price;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text = material.Standard;
+                textEdit1.Text = material.Remark;
+                material.Id = 0;
             }
-            DesignerForm();
+            #endregion
+
+            SupplierDataBind();
+            //PropertyDataBind();
         }
         private void PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton_Click(object sender, EventArgs e)
         {
-            #region 扩展属性赋值
-            var dt = CreateDataTable();
-            var value = "";
-            foreach (var item in propertyList)
-            {
-                if (!item.is_show) continue;
-                if (item.input_type == "0")
-                {
-                    var txt = (TextEdit)xtraTabPage3.Controls.Find("txt" + item.en_name, true)[0];
-                    value = txt.Text;
-                }
-                else
-                {
-                    var cbo = (ComboBoxEdit)xtraTabPage3.Controls.Find("cbo" + item.en_name, true)[0];
-                    value = cbo.SelectedIndex.ToString();
-                }
-                var row = dt.NewRow();
-                row["en_name"] = item.en_name;
-                row["value"] = value;
-                dt.Rows.Add(row);
-            }
+            #region
+            //var dt = CreateDataTable();
+            //var value = "";
+            //foreach (var item in propertyList)
+            //{
+            //    if (!item.is_show) continue;
+            //    if (item.input_type == "0")
+            //    {
+            //        var txt = (TextEdit)xtraTabPage3.Controls.Find("txt" + item.en_name, true)[0];
+            //        value = txt.Text;
+            //    }
+            //    else
+            //    {
+            //        var cbo = (ComboBoxEdit)xtraTabPage3.Controls.Find("cbo" + item.en_name, true)[0];
+            //        value = cbo.SelectedIndex.ToString();
+            //    }
+            //    var row = dt.NewRow();
+            //    row["en_name"] = item.en_name;
+            //    row["value"] = value;
+            //    dt.Rows.Add(row);
+            //}
             #endregion
             #region 基础属性赋值
             material.No = PartsMange_MaterialBankManage_AddMaterialInfor_PartNumber_ButtonEdit.Text;
-            //material = PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text;
+            material.Name = PartsMange_MaterialBankManage_AddMaterialInfor_PartName_TextEdit.Text;
+            material.Property_Type = PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text;
+            material.Species = PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Text;
+            material.Weight = PartsMange_MaterialBankManage_AddMaterialInfor_Weight_TextEdit.Text;
+            material.Property_Type = PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text;
+            material.Category = PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text;
+            //material.Product_Type = PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text;
+            material.Original_No = PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text;
+            material.Version = PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Text;
+            //material.Unit_Id = PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text;
+            //material.Unit_Group_Id = PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text;
+            //material.Material_Id = Convert.ToInt32(PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text);
+            material.Price = PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text;
+            material.Standard = PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text;
+
+            bool result = materialService.AddORUpdateMaterial(material);
+            MessageBox.Show(result.ToString());
             #endregion
         }
-        #region 扩展属性
+        #region 设计扩展属性控件
         private void DesignerForm()
         {
             propertyList = propertyService.GetAllMaterialProperty();
             #region 创建控件
             var y = 15;
             var j = 0;
-            for (int i = 0; i < propertyList.Count; i++)
+            foreach (var property in propertyList)
             {
-                var property = propertyList[i];
-                if (!property.is_show) continue;
+                if (!property.is_show)
+                    continue;
                 if (j % 2 == 0)
                 {
                     var lbl = CreateLabel(25, y, property.cn_name, property.en_name);
@@ -155,8 +186,8 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         {
             var txt = new TextEdit();
             txt.Name = "txt" + en_name;
-            txt.Size = new System.Drawing.Size(180, 20);
-            txt.Location = new System.Drawing.Point(x, y - 4);
+            txt.Size = new Size(180, 20);
+            txt.Location = new Point(x, y - 4);
             return txt;
         }
         private LabelControl CreateLabel(int x, int y, string cn_name, string en_name)
@@ -164,8 +195,8 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             var lbl = new LabelControl();
             lbl.Name = "lbl" + en_name;
             lbl.Text = cn_name + ":";
-            lbl.Size = new System.Drawing.Size(60, 15);
-            lbl.Location = new System.Drawing.Point(x, y);
+            lbl.Size = new Size(60, 15);
+            lbl.Location = new Point(x, y);
             return lbl;
         }
         private ComboBoxEdit CreateComboBox(int x, int y, int id, string en_name)
@@ -178,8 +209,8 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 cbo.Properties.Items.Add(boxvalue.Value);
             }
             cbo.Name = "cbo" + en_name;
-            cbo.Size = new System.Drawing.Size(180, 20);
-            cbo.Location = new System.Drawing.Point(x, y - 4);
+            cbo.Size = new Size(180, 20);
+            cbo.Location = new Point(x, y - 4);
             return cbo;
         }
         #endregion
@@ -189,6 +220,147 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             dt.Columns.Add("en_name", typeof(string));
             dt.Columns.Add("value", typeof(string));
             return dt;
+        }
+        /// <summary>
+        /// 下拉框数据绑定
+        /// </summary>
+        /// <param name="cbo">下拉框控件</param>
+        /// <param name="propertyId">属性Id</param>
+        private void ComboBoxDataBind(ComboBoxEdit cbo, int propertyId)
+        {
+            cbo.Properties.Items.Clear();
+            var cboValueList = propertyService.GetComboBoxValueByPropertyId(propertyId);
+            foreach (var item in cboValueList)
+            {
+                cbo.Properties.Items.Add(item.Value);
+            }
+        }
+        /// <summary>
+        /// 单位选择
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            var unitForm = new MeasurementUnitBuild();
+            unitForm.Tag = "choose";
+            unitForm.ShowDialog();
+            if (unitForm.DialogResult == DialogResult.OK)
+            {
+                if (unitForm.unit == null) return;
+                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = unitForm.unit.name;
+                material.Unit_Id = unitForm.unit.id.ToString();
+                material.Unit_Group_Id = unitForm.unit.unit_group_id.ToString();
+            }
+        }
+        /// <summary>
+        /// 材料选择
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            var materialForm = new MaterialBankManage();
+            materialForm.Tag = "choose";
+            materialForm.ShowDialog();
+            if (materialForm.DialogResult == DialogResult.OK)
+            {
+                if (materialForm.material == null) return;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = materialForm.material.Name;
+                material.Material_Id = materialForm.material.Id;
+            }
+        }
+        /// <summary>
+        /// 产品类型选择
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            var categoryForm = new ProductCategoryTreeList();
+            categoryForm.ShowDialog();
+            if (categoryForm.DialogResult == DialogResult.OK)
+            {
+                if (categoryForm.productCategory == null) return;
+                PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = categoryForm.productCategory.name;
+                material.Product_Type = categoryForm.productCategory.id.ToString();
+            }
+        }
+        /// <summary>
+        /// 供应配额
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void SupplyQuotaClick(object sender, EventArgs e)
+        {
+            var addSupplyQuota = new AddSupplyQuota();
+            var supplierQuota = new SupplierQuota();
+            supplierQuota.Supplier_Id = Convert.ToInt32(gridView1.GetFocusedRowCellValue("Id"));
+            addSupplyQuota.supplierQuota = supplierQuota;
+            addSupplyQuota.ShowDialog();
+        }
+        /// <summary>
+        /// 供应商数据绑定
+        /// </summary>
+        void SupplierDataBind()
+        {
+            var supplierList = productStructService.GetAllSupplierList();
+            gridControl1.DataSource = supplierList;
+        }
+        private void PropertyDataBind()
+        {
+            var dt = materialService.GetMaterialById(material.Id);
+            #region 扩展属性赋值
+            foreach (Control control in xtraTabPage3.Controls)
+            {
+                if (control is LabelControl) continue;
+                Type type = control.GetType();
+                if (type.Name.Equals("TextEdit"))
+                {
+                    var txt = (TextEdit)control;
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                        try
+                        {
+                            txt.Text = dt.Rows[i][txt.Name.Remove(0, 3)].ToString();
+                        }
+                        catch
+                        {
+                            continue;
+                        }
+                    }
+                }
+                if (type.Name.Equals("ComboBoxEdit"))
+                {
+                    var cbo = (ComboBoxEdit)control;
+                    for (int j = 0; j < dt.Rows.Count; j++)
+                    {
+                        try
+                        {
+                            cbo.SelectedIndex = Convert.ToInt32(dt.Rows[j][cbo.Name.Remove(0, 3)]);
+                        }
+                        catch
+                        {
+                            continue;
+                        }
+                    }
+                }
+            }
+            //foreach (var item in propertyList)
+            //{
+            //    if (!item.is_show) continue;
+            //    if (item.input_type == "0")
+            //    {
+            //        var txt = (TextEdit)xtraTabPage3.Controls.Find("txt" + item.en_name, true)[0];
+            //        txt.Text = "测试数据";
+            //    }
+            //    else
+            //    {
+            //        var cbo = (ComboBoxEdit)xtraTabPage3.Controls.Find("cbo" + item.en_name, true)[0];
+            //        cbo.SelectedIndex = 1;
+            //    }
+            //}
+            #endregion
         }
     }
 }

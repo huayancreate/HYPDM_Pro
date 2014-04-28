@@ -85,6 +85,7 @@
     <Compile Include="ProductStruct\BOMDto.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ProductStruct\BOMProperty.cs" />
     <Compile Include="ProductStruct\BOM_Attached_Property.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -97,6 +98,7 @@
     <Compile Include="ProductStruct\Supplier.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ProductStruct\SupplierQuota.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeRule.cs" />
     <Compile Include="SystemManagementAndTools\CodeRuleCodes.cs" />

@@ -61,6 +61,7 @@ namespace View_Winform.ProductStructureManage.DeployInformationManage
                 case "btnBrowseBOMItem":
                     //DevExpress.XtraSplashScreen.SplashScreenManager.ShowForm(typeof(LoadWaitForm));
                     var displayForm = new DisplayChangeParts();
+                    displayForm.bomId = bomId;
                     displayForm.ShowDialog();
                     //DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();
                     break;
@@ -110,7 +111,6 @@ namespace View_Winform.ProductStructureManage.DeployInformationManage
         {
             _list = productStructService.GetAllBOMDtoList();
             EnableButton();
-            //_list = new Test.BOMData().GetAllBOM();
             labelControl1.Text = @"共查询出" + _list.Count + @"个符合条件的BOM结构";
             gridControl1.DataSource = _list;
             gridView1.RefreshData();

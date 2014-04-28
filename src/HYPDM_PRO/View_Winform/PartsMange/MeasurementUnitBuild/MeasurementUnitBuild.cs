@@ -21,13 +21,21 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         IMeasurementUnitBuild unitService = WcfServiceLocator.Create<IMeasurementUnitBuild>();
         private List<UnitGroup> groupList = new List<UnitGroup>();
         private List<Unit> unitList = new List<Unit>();
+        public Unit unit { get; set; }
         public MeasurementUnitBuild()
         {
             InitializeComponent();
         }
         private void MeasurementUnitBuild_Load(object sender, EventArgs e)
         {
+            if (this.Tag == "choose")
+            {
+                simpleButton1.Visible = true;
+                simpleButton2.Visible = true;
+            }
             barManager1.ItemClick += UnitGroupItemClick;
+            simpleButton1.Click += ChooseUnitClick;
+            simpleButton2.Click += FormClose;
             unitList = unitService.GetAllUnit();
             PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.DataSource = unitList;
 
@@ -150,6 +158,16 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 case "btnDeleteUnit":
                     break;
             }
+        }
+        private void ChooseUnitClick(object sender, EventArgs e)
+        {
+            var id = Convert.ToInt32(gridView2.GetFocusedRowCellValue("Id"));
+            unit = unitList.Find(u => u.id == id);
+            this.DialogResult = DialogResult.OK;
+        }
+        private void FormClose(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

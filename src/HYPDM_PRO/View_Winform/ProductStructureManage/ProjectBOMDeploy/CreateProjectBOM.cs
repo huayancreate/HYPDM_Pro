@@ -31,12 +31,11 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         private void CreateProjtctBOM_Load(object sender, EventArgs e)
         {
             FormLoad();
-            txtRootPartNo.Click += new EventHandler(SelectRootParts);
+            txtRootPartNo.ButtonClick += SelectRootParts;
             ProductStructureManage_ProjectBOMDeploy_CreateProjtctBOM_Submit_SimpleButton.Click += new EventHandler(AddProjectBOM);
             ProductStructureManage_ProjectBOMDeploy_CreateProjtctBOM_NoSelectFlow_CheckEdit.CheckedChanged += new EventHandler(SelectFlowChange);
             txtCreateDate.Text = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss");
         }
-
         private void SelectFlowChange(object sender, EventArgs e)
         {
             var edit = ProductStructureManage_ProjectBOMDeploy_CreateProjtctBOM_NoSelectFlow_CheckEdit;
@@ -58,7 +57,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void SelectRootParts(object sender, EventArgs e)
+        private void SelectRootParts(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
         {
             if (ProductStructureManage_ProjectBOMDeploy_CreateProjtctBOM_SelectParts_CheckEdit.Checked)
             {

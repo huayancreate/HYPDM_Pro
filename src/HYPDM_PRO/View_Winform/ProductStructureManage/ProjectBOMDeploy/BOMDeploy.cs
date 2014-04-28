@@ -19,6 +19,8 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
     public partial class BOMDeploy : DevExpress.XtraEditors.XtraForm
     {
         IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
+        IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
+        IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
         public int bom_id { get; set; }
         private TreeListNode focus_node;
         private List<BOM_Struct> structList = new List<BOM_Struct>();
@@ -36,6 +38,8 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void BOMDeploy_Load(object sender, EventArgs e)
         {
+            ComboBoxDataBind(cboProperty, 2);
+            ComboBoxDataBind(cboSpecies, 3);
             #region 按钮事件
             simpleButton1.Click += new EventHandler(OpenProjectBOM);
             simpleButton2.Click += new EventHandler(RefreshData);
@@ -52,10 +56,10 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             #endregion
             gridView5.OptionsBehavior.AutoExpandAllGroups = true;
             structList = productStructService.GetBOMStructListByBOMId(bom_id);
-
             TreeDataBind(structList, treeList1);
             CreateTabControl();
-            DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();
+            if (DevExpress.XtraSplashScreen.SplashScreenManager.Default != null)
+                DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();
         }
         private void FormClose(object sender, EventArgs e)
         {
@@ -63,7 +67,6 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void SaveBOMAndStruct(object sender, EventArgs e)
         {
-            MessageBox.Show("数据保存成功");
             #region 1.保存BOM结构
             //structList
             #endregion
@@ -73,6 +76,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             #region 3.保存引用的零部件（添加新的零部件）
 
             #endregion
+            MessageBox.Show("数据保存成功");
         }
         private void TreeListFocusNode(object sender, NodeEventArgs e)
         {
@@ -235,10 +239,24 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         /// <param name="m"></param>
         private void MaterialDataLoad(Material m)
         {
+            DesignerForm();
             if (m == null) return;
             txtMaterialNo.Text = m.No;
             txtMaterialName.Text = m.Name;
             txtMaterialVersion.Text = m.Version;
+            txtOriginalNo.Text = m.Original_No;
+            cboSpecies.SelectedIndex = Convert.ToInt32(m.Species);
+            cboProperty.SelectedIndex = Convert.ToInt32(m.Property_Type);
+            btnUnit.Text = m.Unit_Id;
+            txtUnitGroup.Text = m.Unit_Group_Id;
+            txtgg.Text = m.Standard;
+            txtModel.Text = m.Model_No;
+            btnStuff.Text = "";
+            txtWeight.Text = m.Weight;
+            //txtAllWeight.Text = (Convert.ToDouble(m.Weight) * 1).ToString();
+            txtStatus.Text = m.Status;
+            cboCategory.Text = m.Category;
+            cboProduct.Text = m.Product_Type;
         }
         /// <summary>
         /// 关联文档数据加载
@@ -504,6 +522,99 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                 var m = productStructService.GetMaterialById(c.Material_Id);
                 TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, parentNode);
                 GetChildNode(tns, c.Id, structList);
+            }
+        }
+        #region 扩展属性
+        private void DesignerForm()
+        {
+            var propertyList = propertyService.GetAllMaterialProperty();
+            #region 创建控件
+            var y = 15;
+            var j = 0;
+            for (int i = 0; i < propertyList.Count; i++)
+            {
+                var property = propertyList[i];
+                if (!property.is_show) continue;
+                if (j % 2 == 0)
+                {
+                    var lbl = CreateLabel(25, y, property.cn_name, property.en_name);
+                    xtraTabPage11.Controls.Add(lbl);
+                    if (property.input_type == "0")
+                    {
+                        var txt = CreateTextEdit(88, y, property.en_name);
+                        xtraTabPage11.Controls.Add(txt);
+                    }
+                    else
+                    {
+                        var comboBox = CreateComboBox(88, y, property.id, property.en_name);
+                        xtraTabPage11.Controls.Add(comboBox);
+                    }
+                }
+                else
+                {
+                    var lbl = CreateLabel(330, y, property.cn_name, property.en_name);
+                    xtraTabPage11.Controls.Add(lbl);
+                    if (property.input_type == "0")
+                    {
+                        var txt = CreateTextEdit(395, y, property.en_name);
+                        xtraTabPage11.Controls.Add(txt);
+                    }
+                    else
+                    {
+                        var comboBox = CreateComboBox(395, y, property.id, property.en_name);
+                        xtraTabPage11.Controls.Add(comboBox);
+                    }
+                    y += 30;
+                }
+                j++;
+            }
+
+            #endregion
+        }
+        private TextEdit CreateTextEdit(int x, int y, string en_name)
+        {
+            var txt = new TextEdit();
+            txt.Name = "txt" + en_name;
+            txt.Size = new System.Drawing.Size(180, 20);
+            txt.Location = new System.Drawing.Point(x, y - 4);
+            return txt;
+        }
+        private LabelControl CreateLabel(int x, int y, string cn_name, string en_name)
+        {
+            var lbl = new LabelControl();
+            lbl.Name = "lbl" + en_name;
+            lbl.Text = cn_name + ":";
+            lbl.Size = new System.Drawing.Size(60, 15);
+            lbl.Location = new System.Drawing.Point(x, y);
+            return lbl;
+        }
+        private ComboBoxEdit CreateComboBox(int x, int y, int id, string en_name)
+        {
+            var comboBoxValueList = propertyService.GetComboBoxValueByPropertyId(id);
+            var cbo = new ComboBoxEdit();
+            // 添加下拉框的值
+            foreach (var boxvalue in comboBoxValueList)
+            {
+                cbo.Properties.Items.Add(boxvalue.Value);
+            }
+            cbo.Name = "cbo" + en_name;
+            cbo.Size = new System.Drawing.Size(180, 20);
+            cbo.Location = new System.Drawing.Point(x, y - 4);
+            return cbo;
+        }
+        #endregion
+        /// <summary>
+        /// 下拉框数据绑定
+        /// </summary>
+        /// <param name="cbo">下拉框控件</param>
+        /// <param name="propertyId">属性Id</param>
+        private void ComboBoxDataBind(ComboBoxEdit cbo, int propertyId)
+        {
+            cbo.Properties.Items.Clear();
+            var cboValueList = propertyService.GetComboBoxValueByPropertyId(propertyId);
+            foreach (var item in cboValueList)
+            {
+                cbo.Properties.Items.Add(item.Value);
             }
         }
     }

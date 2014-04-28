@@ -49,7 +49,7 @@ namespace View_Winform
             //FlowCommon common = new FlowCommon();
             //common.Login("zhoushengyu");
 
-            //Application.Run(new BPM.TestForm());
+            //Application.Run(new BPM.FlowListForm());
 
             //Application.Run(new LoginForm());
             Application.Run(new PartsMange.MaterialReviewRuleManage.MaterialBankManage());
@@ -58,6 +58,10 @@ namespace View_Winform
             //Application.Run(new DocManage.DocManageTool.DocManageTool());
             //Application.Run(new BPM.TestForm());
             //Application.Run(new Test.Form1());
+
+            //Application.Run(new PartsMange.ProductCategoryManage.ProductCategoryManage());
+
+            //Application.Run(new ProductStructureManage.BOMPropertyBuild.BOMPropertyBuild());
         }
     }
 }

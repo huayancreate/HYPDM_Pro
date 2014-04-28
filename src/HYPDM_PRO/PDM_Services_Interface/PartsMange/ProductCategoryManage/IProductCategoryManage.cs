@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ServiceModel;
 using PDM_Entity.PartsMange;
+using System.Data;
 
 namespace PDM_Services_Interface
 {
@@ -11,27 +12,15 @@ namespace PDM_Services_Interface
     public interface IProductCategoryManage
     {
         [OperationContract]
-        IList<Material> product();  
+        bool AddORUpdateCategory(ProductCategory category);
 
         [OperationContract]
-        IList<Material> QueryProductMessage(string name, string type, string status, string versions);   //查询产品信息
+        List<ProductCategory> GetAllProductCategory();
 
         [OperationContract]
-        IList<ProductCategory> QueryClassify(string name);  //查询分类
+        bool DeleteCategory(int id);
 
         [OperationContract]
-        IList<ProductCategory> ClassifyMessage(string name); //分类信息
-
-        [OperationContract]
-        bool AddClassify(string name);  //添加分类
-
-        [OperationContract]
-        bool DeleteClassify(int id);  //删除分类
-
-
-
-
-
-
+        DataTable GetProductByCategoryId(int categoryId);
     }
 }

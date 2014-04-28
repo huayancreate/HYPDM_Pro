@@ -42,7 +42,6 @@
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
@@ -60,6 +59,7 @@
             this.MaterialProperty_Delete_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialProperty_Modify_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
@@ -113,7 +113,7 @@
             // 
             // gridColumn2
             // 
-            this.gridColumn2.Caption = "现实宽度(像素)";
+            this.gridColumn2.Caption = "显示宽度(像素)";
             this.gridColumn2.FieldName = "width";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
@@ -194,17 +194,6 @@
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton.TabIndex = 69;
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton.Text = "修改属性(M)";
             this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton_Click);
-            // 
-            // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton
-            // 
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Location = new System.Drawing.Point(221, 466);
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButto" +
-    "n";
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Size = new System.Drawing.Size(87, 27);
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.TabIndex = 70;
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Text = "删除属性(D)";
-            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton_Click);
             // 
             // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton
             // 
@@ -356,6 +345,17 @@
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
             // 
+            // PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton
+            // 
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Location = new System.Drawing.Point(221, 466);
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Name = "PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButto" +
+    "n";
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Size = new System.Drawing.Size(87, 27);
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.TabIndex = 70;
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Text = "删除属性(D)";
+            this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton_Click);
+            // 
             // MaterialPropertyBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -402,7 +402,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_AddProperty_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_ModifyProperty_SimpleButton;
-        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckAll_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_CheckInvert_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_SaveProperty_SimpleButton;
@@ -423,5 +422,6 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_DeleteProperty_SimpleButton;
     }
 }

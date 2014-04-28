@@ -39,6 +39,8 @@ namespace PDM_Server
             ServerManager.StartService(typeof(MaterialBankManage));
             ServerManager.StartService(typeof(MaterialPegging));
             ServerManager.StartService(typeof(AddMaterialProperty));
+            ServerManager.StartService(typeof(ProductStruct));
+            ServerManager.StartService(typeof(ProductCategoryManage));
             //ServerManager.StartService(typeof(DocManageTool));
             //ServerManager.StartService(typeof(DocGrantManage));
             //ServerManager.StartService(typeof(DocPropertyBuild));

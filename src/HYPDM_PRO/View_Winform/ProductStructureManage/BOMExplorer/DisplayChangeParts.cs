@@ -20,10 +20,12 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
     public partial class DisplayChangeParts : DevExpress.XtraEditors.XtraForm
     {
         IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
+        IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
+        IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
         private int MaterialId { get; set; }
         private List<BOM_Struct> structList;
         private List<string> MaterialIds;
-        private int bomId { get; set; }
+        public int bomId { get; set; }
         public DisplayChangeParts()
         {
             InitializeComponent();
@@ -35,7 +37,8 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         }
         private void DisplayChangeParts_Load(object sender, EventArgs e)
         {
-            bomId = 1;
+            ComboBoxDataBind(cboSpecies, 3);
+            ComboBoxDataBind(cboProperty, 2);
             simpleButton4.Click += ShowChangeParts;
             btnLocationMaterial.Click += LocationMaterial;
             btnOpenBOM.Click += OpenBOM;
@@ -70,10 +73,24 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
         /// <param name="m"></param>
         private void MaterialDataLoad(Material m)
         {
+            DesignerForm();
             if (m == null) return;
             txtMaterialNo.Text = m.No;
             txtMaterialName.Text = m.Name;
             txtMaterialVersion.Text = m.Version;
+            txtOriginalNo.Text = m.Original_No;
+            cboSpecies.SelectedIndex = Convert.ToInt32(m.Species);
+            cboProperty.SelectedIndex = Convert.ToInt32(m.Property_Type);
+            btnUnit.Text = m.Unit_Id;
+            txtUnitGroup.Text = m.Unit_Group_Id;
+            txtgg.Text = m.Standard;
+            txtModel.Text = m.Model_No;
+            btnStuff.Text = "";
+            txtWeight.Text = m.Weight;
+            //txtAllWeight.Text = (Convert.ToDouble(m.Weight) * 1).ToString();
+            txtStatus.Text = m.Status;
+            cboCategory.Text = m.Category;
+            cboProduct.Text = m.Product_Type;
         }
         private Material GetMaterial(object id)
         {
@@ -197,6 +214,94 @@ namespace View_Winform.ProductStructureManage.BOMExplorer
                 var m = productStructService.GetMaterialById(c.Material_Id);
                 TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, parentNode);
                 GetChildNode(tns, c.Id, structList);
+            }
+        }
+        #region 扩展属性
+        private void DesignerForm()
+        {
+            var propertyList = propertyService.GetAllMaterialProperty();
+            #region 创建控件
+            var y = 15;
+            var j = 0;
+            for (int i = 0; i < propertyList.Count; i++)
+            {
+                var property = propertyList[i];
+                if (!property.is_show) continue;
+                if (j % 2 == 0)
+                {
+                    var lbl = CreateLabel(25, y, property.cn_name, property.en_name);
+                    xtraTabPage11.Controls.Add(lbl);
+                    if (property.input_type == "0")
+                    {
+                        var txt = CreateTextEdit(88, y, property.en_name);
+                        xtraTabPage11.Controls.Add(txt);
+                    }
+                    else
+                    {
+                        var comboBox = CreateComboBox(88, y, property.id, property.en_name);
+                        xtraTabPage11.Controls.Add(comboBox);
+                    }
+                }
+                else
+                {
+                    var lbl = CreateLabel(330, y, property.cn_name, property.en_name);
+                    xtraTabPage11.Controls.Add(lbl);
+                    if (property.input_type == "0")
+                    {
+                        var txt = CreateTextEdit(395, y, property.en_name);
+                        xtraTabPage11.Controls.Add(txt);
+                    }
+                    else
+                    {
+                        var comboBox = CreateComboBox(395, y, property.id, property.en_name);
+                        xtraTabPage11.Controls.Add(comboBox);
+                    }
+                    y += 30;
+                }
+                j++;
+            }
+
+            #endregion
+        }
+        private TextEdit CreateTextEdit(int x, int y, string en_name)
+        {
+            var txt = new TextEdit();
+            txt.Name = "txt" + en_name;
+            txt.Size = new System.Drawing.Size(180, 20);
+            txt.Location = new System.Drawing.Point(x, y - 4);
+            return txt;
+        }
+        private LabelControl CreateLabel(int x, int y, string cn_name, string en_name)
+        {
+            var lbl = new LabelControl();
+            lbl.Name = "lbl" + en_name;
+            lbl.Text = cn_name + ":";
+            lbl.Size = new System.Drawing.Size(60, 15);
+            lbl.Location = new System.Drawing.Point(x, y);
+            return lbl;
+        }
+        private ComboBoxEdit CreateComboBox(int x, int y, int id, string en_name)
+        {
+            var comboBoxValueList = propertyService.GetComboBoxValueByPropertyId(id);
+            var cbo = new ComboBoxEdit();
+            // 添加下拉框的值
+            foreach (var boxvalue in comboBoxValueList)
+            {
+                cbo.Properties.Items.Add(boxvalue.Value);
+            }
+            cbo.Name = "cbo" + en_name;
+            cbo.Size = new System.Drawing.Size(180, 20);
+            cbo.Location = new System.Drawing.Point(x, y - 4);
+            return cbo;
+        }
+        #endregion
+        private void ComboBoxDataBind(ComboBoxEdit cbo, int propertyId)
+        {
+            cbo.Properties.Items.Clear();
+            var cboValueList = propertyService.GetComboBoxValueByPropertyId(propertyId);
+            foreach (var item in cboValueList)
+            {
+                cbo.Properties.Items.Add(item.Value);
             }
         }
     }

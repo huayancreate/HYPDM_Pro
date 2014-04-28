@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.ServiceModel;
 using PDM_Entity.PartsMange;
+using System.Data;
 
 namespace PDM_Services_Interface
 {
@@ -18,5 +19,13 @@ namespace PDM_Services_Interface
         List<Material_Type> GetAllMaterialType();
         [OperationContract]
         List<Material> GetMaterialByTypeId(int typeId);
+        [OperationContract]
+        bool AddORUpdateMaterial(Material material);
+        [OperationContract]
+        bool DeleteMaterialType(int id);
+        [OperationContract]
+        bool DeleteMaterial(int id);
+        [OperationContract]
+        DataTable GetMaterialById(int id);
     }
 }

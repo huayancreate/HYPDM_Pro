@@ -15,8 +15,9 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
     public partial class BOMAddProperty : DevExpress.XtraEditors.XtraForm
     {
         private DataTable dtCboValue = new DataTable();
-        public BOM_Attached_Property property;
-        private List<BOM_ComboBox_Value> _list = new List<BOM_ComboBox_Value>();
+        public BOMProperty property { get; set; }
+        IProductStruct structService = WcfServiceLocator.Create<IProductStruct>();
+        List<BOM_ComboBox_Value> comboBoxValueList = new List<BOM_ComboBox_Value>();
         public BOMAddProperty()
         {
             InitializeComponent();
@@ -24,17 +25,13 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
 
         private void BOMAddProperty_Load(object sender, EventArgs e)
         {
-            if (this.Tag == "edit") BindData();
-
-            radioGroup1.SelectedIndexChanged += new EventHandler(RadioChange);
+            radioGroup1.SelectedIndexChanged += RadioSelectChange;
+            if (this.Tag == "modify") BindData();
             simpleButton6.Click += new EventHandler(AddProperty);
             simpleButton4.Click += new EventHandler(AddItem);
             simpleButton3.Click += new EventHandler(DelItem);
             simpleButton2.Click += new EventHandler(SubmitItem);
             simpleButton5.Click += new EventHandler(FormClose);
-            dtCboValue.Columns.Add("Value", typeof(string));
-            gridControl1.DataSource = dtCboValue;
-            groupControl1.Visible = false;
         }
 
         private void FormClose(object sender, EventArgs e)
@@ -59,8 +56,8 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
                 obj.Create_User_Id = 1;
                 obj.Is_Delete = "0";
                 obj.Extend_Id = 1;
-                //WcfServiceLocator.Create<IProjectStruct>().AddORUpdateComboBoxValue(obj);
-                _list.Add(obj);
+                comboBoxValueList.Add(obj);
+                structService.AddORUpdateComboBoxValue(obj);
             }
         }
 
@@ -69,20 +66,20 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
             gridView1.AddNewRow();
         }
 
-        private void RadioChange(object sender, EventArgs e)
+        private void RadioSelectChange(object sender, EventArgs e)
         {
-			groupControl1.Visible = radioGroup1.SelectedIndex != 0;
+            groupControl1.Visible = radioGroup1.SelectedIndex != 0;
         }
 
         private void AddProperty(object sender, EventArgs e)
         {
-            property = new BOM_Attached_Property();
-            property.Id = 1;
+            property = new BOMProperty();
+            //property.Id = 1;
             property.CN_Name = txtCnName.Text;
             property.EN_Name = txtEnName.Text;
             property.DataType = cboDataType.Text;
             property.DataLength = txtDataLength.Text;
-            property.DefaultValue = cboDefaultVal.Text;
+            property.DefaultValue = txtDefaultValue.Text;
             property.InputType = radioGroup1.SelectedIndex.ToString();
             property.Required = chkRequired.Checked.ToString();
             property.Is_Delete = "0";
@@ -90,32 +87,28 @@ namespace View_Winform.ProductStructureManage.BOMPropertyBuild
             property.Width = "100";
             property.Create_Date = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
             property.Create_User_Id = 1;
-            //WcfServiceLocator.Create<IProjectStruct>().AddORUpdatePorperty(property);
+            structService.AddORUpdatePorperty(property);
             this.DialogResult = DialogResult.OK;
         }
 
         private void BindData()
         {
+            if (property == null) return;
             txtCnName.Text = property.CN_Name;
-            //property.Id = 1;
-            //property.CN_Name = txtCnName.Text;
-            //property.EN_Name = txtEnName.Text;
-            //property.DataType = cboDataType.Text;
-            //property.DataLength = txtDataLength.Text;
-            //property.DefaultValue = cboDefaultVal.Text;
-            //property.InputType = radioGroup1.SelectedIndex.ToString();
-            //property.Required = chkRequired.Checked.ToString();
-            //property.Is_Delete = "0";
-            //property.Is_Query = "0";
-            //property.Width = "100";
-            //property.Create_Date = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss"));
-            //property.Create_User_Id = 1;
-            //this.DialogResult = DialogResult.OK;
+            txtEnName.Text = property.EN_Name;
+            cboDataType.SelectedIndex = Convert.ToInt32(property.DataType);
+            txtDataLength.Text = property.DataLength;
+            txtDefaultValue.Text = property.DefaultValue;
+            radioGroup1.SelectedIndex = Convert.ToInt32(property.InputType);
+            chkRequired.Checked = Convert.ToBoolean(property.Required);
+            var dt = structService.GetListToDataTable(property.Id);
+            ComboBoxDataBind(dt);
         }
 
-        private void ComboBoxDataBind()
+        private void ComboBoxDataBind(DataTable dt)
         {
-            cboDataType.Properties.Items.Add("1");
+            gridControl1.DataSource = dt;
+            gridControl1.RefreshDataSource();
         }
     }
 }

@@ -14,38 +14,31 @@ namespace View_Winform.PartsMange.ProductCategoryManage
 {
     public partial class AddProductCategory : DevExpress.XtraEditors.XtraForm
     {
-        public ProductCategory PC;
+        public ProductCategory productCategory { get; set; }
         public AddProductCategory()
         {
             InitializeComponent();
         }
 
-        private void PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton_MouseDown(object sender, MouseEventArgs e)
+
+        private void AddProductCategory_Load(object sender, EventArgs e)
         {
 
-            if(e.Button == MouseButtons.Left)
-            {
-                this.Close();
-            }
         }
 
         private void PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton_Click(object sender, EventArgs e)
-        {   
-
-            /*if(PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Tag == "name")
-            {
-                IList<ProductCategory> AD = new BindingList<ProductCategory>();
-                ProductCategory p = new ProductCategory();
-
-                //string name = PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Tag.ToString();  
-            }
-
-            else
-            {
-                MessageBox.Show("类名不能为空，请添加类名！", "提示信息", MessageBoxButtons.OK, MessageBoxIcon.None);
-            }*/
+        {
+            productCategory.id = 10;
+            productCategory.name = PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Text;
+            productCategory.is_delete = "0";
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
+        private void PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
 
     }
 }

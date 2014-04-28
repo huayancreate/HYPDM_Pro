@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Collections;
 using DevExpress.XtraEditors;
 using PDM_Entity.PartsMange;
 using PDM_Services_Interface;
@@ -17,26 +18,28 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
     public partial class MaterialBankManage : DevExpress.XtraEditors.XtraForm
     {
         IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
-        public Material Mod;
-        public MaterialBaseProperty MaterBasePro;
         private List<Material_Type> materialTypeList = new List<Material_Type>();
+        public Material material { get; set; }
+        private List<Material> materialList = new List<Material>();
         public MaterialBankManage()
         {
             InitializeComponent();
+            PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView, false);
         }
         private void MaterialBankManage_Load(object sender, EventArgs e)
         {
-            PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView, false);
+            simpleButton1.Visible |= this.Tag == "choose";
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsSelection.EnableAppearanceFocusedCell = false;
             barManager1.ItemClick += MaterialItemClick;
             barManager2.ItemClick += MaterialTypeItemClick;
+            simpleButton1.Click += ChooseMaterialClick;
             materialTypeList = materialService.GetAllMaterialType();
             TreeDataBind(materialTypeList);
             labelControl8.Text = materialService.GetAllMaterial().Count.ToString();
             if (PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Nodes.Count > 0)
             {
                 var id = PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Nodes[0].GetValue(Type_Id);
-                var materialList = materialService.GetMaterialByTypeId(Convert.ToInt32(id));
+                materialList = materialService.GetMaterialByTypeId(Convert.ToInt32(id));
                 RefreshDataBind(materialList);
             }
         }
@@ -45,31 +48,32 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             switch (e.Item.Name)
             {
                 case "MaterialType_Add_Parent_BarButtonItem":
-                    object parent_id;
-                    if (PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode == null) parent_id = 0;
-                    else
-                        parent_id = PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode.GetValue("Parent_Id");
-                    TreeAddParnetORChild(Convert.ToInt32(parent_id));
+                    TreeAddParnetORChild(Convert.ToInt32(parent_Id));
                     break;
                 case "MaterialType_Add_Child_BarButtonItem":
-                    if (PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode == null) return;
-                    var id = PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode.GetValue("Id");
-                    TreeAddParnetORChild(Convert.ToInt32(id));
+                    TreeAddParnetORChild(Convert.ToInt32(material_Type_Id));
                     break;
                 case "MaterialType_Delete_BarButtonItem":
+                    DeleteMaterialType();
                     break;
                 case "MaterialType_Modify_BarButtonItem":
+                    var materialType = materialTypeList.Find(t => t.Id == Convert.ToInt32(material_Type_Id));
+                    var modifyType = new AddType();
+                    modifyType.Text = "修改物料类型";
+                    modifyType.type = materialType;
+                    modifyType.ShowDialog();
+                    if (modifyType.DialogResult == DialogResult.OK)
+                    {
+                        materialTypeList.Remove(materialType);
+                        materialTypeList.Add(modifyType.type);
+                        TreeDataBind(materialTypeList);
+                    }
                     break;
                 case "btnMaterialAdd":
-                    AddMaterialInfor addMaterial = new AddMaterialInfor();
+                    var addMaterial = new AddMaterialInfor();
+                    var material = new Material();
+                    addMaterial.material = material;
                     addMaterial.Show();
-                    break;
-                case "btnAnalogyMaterialAdd":
-                    MaterBasePro = (MaterialBaseProperty)PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GetFocusedRow();
-                    AddMaterialInfor analogyAdd = new AddMaterialInfor();
-                    analogyAdd.Tag = "AnalogyAdd";
-                    analogyAdd.MaterBase = MaterBasePro;
-                    analogyAdd.ShowDialog();
                     break;
             }
         }
@@ -78,26 +82,27 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             switch (e.Item.Name)
             {
                 case "MaterialMessage_DirectAdd_BarButtonItem":
-                    AddMaterialInfor addMaterial = new AddMaterialInfor();
+                    var addMaterial = new AddMaterialInfor();
+                    var material = new Material();
+                    addMaterial.material = material;
                     addMaterial.Show();
                     break;
                 case "MaterialMessage_AnalogyAdd_BarButtonItem":
-                    MaterBasePro = (MaterialBaseProperty)PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GetFocusedRow();
-                    AddMaterialInfor analogyAdd = new AddMaterialInfor();
+                    material = materialService.GetAllMaterial().Find(m => m.Id == Convert.ToInt32(material_Id));
+                    var analogyAdd = new AddMaterialInfor();
                     analogyAdd.Tag = "AnalogyAdd";
-                    analogyAdd.MaterBase = MaterBasePro;
+                    analogyAdd.material = material;
                     analogyAdd.ShowDialog();
                     break;
                 case "MaterialMessage_Delete_BarButtonItem":
-                    DeleteMaterialMessage();
+                    DeleteMaterial();
                     break;
                 case "MaterialMessage_Modify_BarButtonItem":
-                    var id = PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode.GetValue(Type_Id);
-                    var material = materialService.GetAllMaterial().Find(m => m.Id == Convert.ToInt32(id));
-                    //MaterBasePro = (MaterialBaseProperty)PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GetFocusedRow();
-                    AddMaterialInfor modifyMaterial = new AddMaterialInfor();
+                    material = materialService.GetAllMaterial().Find(m => m.Id == Convert.ToInt32(material_Id));
+                    var modifyMaterial = new AddMaterialInfor();
                     modifyMaterial.material = material;
                     modifyMaterial.Tag = "Modify";
+                    modifyMaterial.Text = "修改物料信息";
                     modifyMaterial.ShowDialog();
                     break;
             }
@@ -110,6 +115,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             {
                 if (hitInfo.Node == null)
                 {
+                    if (materialTypeList.Count > 0) return;
                     btnAnalogyMaterialAdd.Enabled = false;
                     btnMaterialAdd.Enabled = false;
                     MaterialType_Add_Child_BarButtonItem.Enabled = false;
@@ -130,9 +136,10 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             }
             else
             {
-                if (hitInfo.Node == null) return;
+                if (hitInfo.Node == null)
+                    return;
                 var id = hitInfo.Node.GetValue(Type_Id);
-                var materialList = materialService.GetMaterialByTypeId(Convert.ToInt32(id));
+                materialList = materialService.GetMaterialByTypeId(Convert.ToInt32(id));
                 RefreshDataBind(materialList);
             }
         }
@@ -140,6 +147,12 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         {
             if ((e.Button == MouseButtons.Right) && (ModifierKeys == Keys.None))
             {
+                if (materialList.Count == 0)
+                {
+                    MaterialMessage_Delete_BarButtonItem.Enabled = false;
+                    MaterialMessage_AnalogyAdd_BarButtonItem.Enabled = false;
+                    MaterialMessage_Modify_BarButtonItem.Enabled = false;
+                }
                 popupMenu1.ShowPopup(Control.MousePosition);
             }
         }
@@ -152,23 +165,20 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.DataSource = materialService.GetAllMaterial();
             //WcfServiceLocator.Create<IMaterialBankManage>().QueryMaterial();
         }
-        public void DeleteMaterialMessage()
-        {
-            var id = PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GetFocusedRowCellValue("id");
-            //WcfServiceLocator.Create<IMaterialBankManage>().DeleteMaterialMessage(Convert.ToInt32(id));
-        }
         private void TreeDataBind(List<Material_Type> typeList)
         {
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.DataSource = null;
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.DataSource = typeList;
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.KeyFieldName = "Id";
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.ParentFieldName = "Parent_Id";
+            PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.RefreshDataSource();
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.ExpandAll();
         }
         private void TreeAddParnetORChild(int parent_id)
         {
             var type = new Material_Type();
-            type.Id = materialTypeList[materialTypeList.Count - 1].Id;
+            if (materialTypeList.Count > 0)
+                type.Id = materialTypeList[materialTypeList.Count - 1].Id;
             type.Parent_Id = Convert.ToInt32(parent_id);
             var addType = new AddType();
             addType.type = type;
@@ -183,6 +193,53 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         {
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.DataSource = materialList;
             PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.RefreshDataSource();
+        }
+        private void DeleteMaterialType()
+        {
+            materialService.DeleteMaterialType(Convert.ToInt32(material_Type_Id));
+            var typeList = materialService.GetAllMaterialType();
+            TreeDataBind(typeList);
+        }
+        private void DeleteMaterial()
+        {
+            materialService.DeleteMaterialType(Convert.ToInt32(material_Id));
+            materialList = materialService.GetAllMaterial();
+            RefreshDataBind(materialList);
+        }
+        private object parent_Id
+        {
+            get
+            {
+                if (PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode == null)
+                    return null;
+                return PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode.GetValue(Parent_Id);
+            }
+        }
+        private object material_Type_Id
+        {
+            get
+            {
+                if (PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode == null)
+                    return null;
+                return PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.FocusedNode.GetValue(Type_Id);
+            }
+        }
+        private object material_Id
+        {
+            get
+            {
+                return PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GetFocusedRowCellValue("Id");
+            }
+        }
+        /// <summary>
+        /// 选择材料
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ChooseMaterialClick(object sender, EventArgs e)
+        {
+            material = materialList.Find(m => m.Id == Convert.ToInt32(material_Id));
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

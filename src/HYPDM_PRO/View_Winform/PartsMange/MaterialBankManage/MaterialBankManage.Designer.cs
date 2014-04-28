@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
@@ -62,28 +63,22 @@
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.Type_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.treeListColumn3 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.treeListColumn4 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.Parent_Id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
-            this.bar1 = new DevExpress.XtraBars.Bar();
-            this.bar2 = new DevExpress.XtraBars.Bar();
-            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
-            this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
+            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
+            this.barSubItem4 = new DevExpress.XtraBars.BarSubItem();
             this.MaterialMessage_DirectAdd_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialMessage_Delete_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialMessage_Modify_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.MaterialMessage_AnalogyAdd_BarButtonItem = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             this.barManager2 = new DevExpress.XtraBars.BarManager(this.components);
-            this.bar4 = new DevExpress.XtraBars.Bar();
-            this.bar5 = new DevExpress.XtraBars.Bar();
-            this.bar6 = new DevExpress.XtraBars.Bar();
             this.barDockControl1 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl2 = new DevExpress.XtraBars.BarDockControl();
             this.barDockControl3 = new DevExpress.XtraBars.BarDockControl();
@@ -123,6 +118,7 @@
             this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl1.Controls.Add(this.simpleButton1);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton);
             this.panelControl1.Controls.Add(this.labelControl9);
             this.panelControl1.Controls.Add(this.labelControl8);
@@ -140,15 +136,25 @@
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_CkeckEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_CheckEdit);
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList);
-            this.panelControl1.Location = new System.Drawing.Point(-1, 22);
+            this.panelControl1.Location = new System.Drawing.Point(0, 22);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(841, 555);
+            this.panelControl1.Size = new System.Drawing.Size(861, 555);
             this.panelControl1.TabIndex = 69;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Location = new System.Drawing.Point(676, 526);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.TabIndex = 95;
+            this.simpleButton1.Text = "确定";
+            this.simpleButton1.Visible = false;
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton
             // 
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Location = new System.Drawing.Point(700, 26);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Location = new System.Drawing.Point(750, 27);
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton" +
     "";
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Size = new System.Drawing.Size(58, 23);
@@ -186,7 +192,7 @@
             // PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton
             // 
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Location = new System.Drawing.Point(723, 526);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Location = new System.Drawing.Point(759, 526);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton";
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Size = new System.Drawing.Size(85, 23);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.TabIndex = 88;
@@ -197,12 +203,12 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Location = new System.Drawing.Point(222, 185);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Location = new System.Drawing.Point(221, 185);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.MainView = this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl";
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Size = new System.Drawing.Size(619, 306);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Size = new System.Drawing.Size(640, 335);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.TabIndex = 79;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView});
@@ -224,6 +230,7 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.GridControl = this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView";
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.OptionsBehavior.Editable = false;
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.OptionsView.ColumnAutoWidth = false;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView.OptionsView.ShowGroupPanel = false;
             // 
             // gridColumn1
@@ -249,6 +256,7 @@
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.Visible = true;
             this.gridColumn9.VisibleIndex = 2;
+            this.gridColumn9.Width = 120;
             // 
             // gridColumn6
             // 
@@ -257,6 +265,7 @@
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 3;
+            this.gridColumn6.Width = 120;
             // 
             // gridColumn8
             // 
@@ -320,9 +329,9 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.EditValue = null;
-            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Location = new System.Drawing.Point(304, 156);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Location = new System.Drawing.Point(286, 156);
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl";
-            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Size = new System.Drawing.Size(532, 45);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Size = new System.Drawing.Size(550, 45);
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.TabIndex = 77;
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl
@@ -413,22 +422,22 @@
             this.treeListColumn1,
             this.Type_Id,
             this.treeListColumn3,
-            this.treeListColumn4});
+            this.Parent_Id});
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Location = new System.Drawing.Point(1, 2);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.LookAndFeel.UseDefaultLookAndFeel = false;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.LookAndFeel.UseWindowsXPTheme = true;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList";
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsBehavior.Editable = false;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsPrint.UsePrintStyles = true;
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsView.ShowColumns = false;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsView.ShowHorzLines = false;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.OptionsView.ShowIndicator = false;
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Size = new System.Drawing.Size(220, 549);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.Size = new System.Drawing.Size(220, 553);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.TabIndex = 68;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList_MouseDown);
             // 
             // treeListColumn1
             // 
+            this.treeListColumn1.Caption = "物料类型";
             this.treeListColumn1.FieldName = "Name";
             this.treeListColumn1.MinWidth = 52;
             this.treeListColumn1.Name = "treeListColumn1";
@@ -447,18 +456,14 @@
             this.treeListColumn3.FieldName = "Is_Last";
             this.treeListColumn3.Name = "treeListColumn3";
             // 
-            // treeListColumn4
+            // Parent_Id
             // 
-            this.treeListColumn4.Caption = "treeListColumn4";
-            this.treeListColumn4.FieldName = "Parent_Id";
-            this.treeListColumn4.Name = "treeListColumn4";
+            this.Parent_Id.Caption = "treeListColumn4";
+            this.Parent_Id.FieldName = "Parent_Id";
+            this.Parent_Id.Name = "Parent_Id";
             // 
             // barManager1
             // 
-            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar1,
-            this.bar2,
-            this.bar3});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
@@ -473,33 +478,35 @@
             this.MaterialMessage_Delete_BarButtonItem,
             this.MaterialMessage_Modify_BarButtonItem,
             this.MaterialMessage_AnalogyAdd_BarButtonItem});
-            this.barManager1.MainMenu = this.bar2;
             this.barManager1.MaxItemId = 14;
-            this.barManager1.StatusBar = this.bar3;
             // 
-            // bar1
+            // barDockControlTop
             // 
-            this.bar1.BarName = "Tools";
-            this.bar1.DockCol = 0;
-            this.bar1.DockRow = 1;
-            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar1.Text = "Tools";
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(862, 0);
             // 
-            // bar2
+            // barDockControlBottom
             // 
-            this.bar2.BarName = "Main menu";
-            this.bar2.DockCol = 0;
-            this.bar2.DockRow = 0;
-            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar2.FloatLocation = new System.Drawing.Point(124, 158);
-            this.bar2.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem4)});
-            this.bar2.OptionsBar.MultiLine = true;
-            this.bar2.OptionsBar.UseWholeRow = true;
-            this.bar2.Text = "Main menu";
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 577);
+            this.barDockControlBottom.Size = new System.Drawing.Size(862, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 577);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(862, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 577);
             // 
             // barSubItem1
             // 
@@ -524,46 +531,6 @@
             this.barSubItem4.Caption = "工具";
             this.barSubItem4.Id = 3;
             this.barSubItem4.Name = "barSubItem4";
-            // 
-            // bar3
-            // 
-            this.bar3.BarName = "Status bar";
-            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar3.DockCol = 0;
-            this.bar3.DockRow = 0;
-            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar3.OptionsBar.AllowQuickCustomization = false;
-            this.bar3.OptionsBar.DrawDragBorder = false;
-            this.bar3.OptionsBar.UseWholeRow = true;
-            this.bar3.Text = "Status bar";
-            // 
-            // barDockControlTop
-            // 
-            this.barDockControlTop.CausesValidation = false;
-            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
-            this.barDockControlTop.Location = new System.Drawing.Point(0, 51);
-            this.barDockControlTop.Size = new System.Drawing.Size(842, 53);
-            // 
-            // barDockControlBottom
-            // 
-            this.barDockControlBottom.CausesValidation = false;
-            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 531);
-            this.barDockControlBottom.Size = new System.Drawing.Size(842, 23);
-            // 
-            // barDockControlLeft
-            // 
-            this.barDockControlLeft.CausesValidation = false;
-            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 104);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 427);
-            // 
-            // barDockControlRight
-            // 
-            this.barDockControlRight.CausesValidation = false;
-            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(842, 104);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 427);
             // 
             // MaterialMessage_DirectAdd_BarButtonItem
             // 
@@ -594,17 +561,13 @@
             this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialMessage_DirectAdd_BarButtonItem),
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialMessage_AnalogyAdd_BarButtonItem),
-            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialMessage_Delete_BarButtonItem),
-            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialMessage_Modify_BarButtonItem)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialMessage_Modify_BarButtonItem),
+            new DevExpress.XtraBars.LinkPersistInfo(this.MaterialMessage_Delete_BarButtonItem)});
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
             // 
             // barManager2
             // 
-            this.barManager2.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar4,
-            this.bar5,
-            this.bar6});
             this.barManager2.DockControls.Add(this.barDockControl1);
             this.barManager2.DockControls.Add(this.barDockControl2);
             this.barManager2.DockControls.Add(this.barDockControl3);
@@ -618,67 +581,35 @@
             this.btnMaterialAdd,
             this.btnAnalogyMaterialAdd,
             this.MaterialType_Add_Child_BarButtonItem});
-            this.barManager2.MainMenu = this.bar5;
             this.barManager2.MaxItemId = 9;
-            this.barManager2.StatusBar = this.bar6;
-            // 
-            // bar4
-            // 
-            this.bar4.BarName = "Tools";
-            this.bar4.DockCol = 0;
-            this.bar4.DockRow = 1;
-            this.bar4.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar4.Text = "Tools";
-            // 
-            // bar5
-            // 
-            this.bar5.BarName = "Main menu";
-            this.bar5.DockCol = 0;
-            this.bar5.DockRow = 0;
-            this.bar5.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar5.OptionsBar.MultiLine = true;
-            this.bar5.OptionsBar.UseWholeRow = true;
-            this.bar5.Text = "Main menu";
-            // 
-            // bar6
-            // 
-            this.bar6.BarName = "Status bar";
-            this.bar6.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar6.DockCol = 0;
-            this.bar6.DockRow = 0;
-            this.bar6.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar6.OptionsBar.AllowQuickCustomization = false;
-            this.bar6.OptionsBar.DrawDragBorder = false;
-            this.bar6.OptionsBar.UseWholeRow = true;
-            this.bar6.Text = "Status bar";
             // 
             // barDockControl1
             // 
             this.barDockControl1.CausesValidation = false;
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControl1.Location = new System.Drawing.Point(0, 0);
-            this.barDockControl1.Size = new System.Drawing.Size(842, 51);
+            this.barDockControl1.Size = new System.Drawing.Size(862, 0);
             // 
             // barDockControl2
             // 
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControl2.Location = new System.Drawing.Point(0, 554);
-            this.barDockControl2.Size = new System.Drawing.Size(842, 23);
+            this.barDockControl2.Location = new System.Drawing.Point(0, 577);
+            this.barDockControl2.Size = new System.Drawing.Size(862, 0);
             // 
             // barDockControl3
             // 
             this.barDockControl3.CausesValidation = false;
             this.barDockControl3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControl3.Location = new System.Drawing.Point(0, 51);
-            this.barDockControl3.Size = new System.Drawing.Size(0, 503);
+            this.barDockControl3.Location = new System.Drawing.Point(0, 0);
+            this.barDockControl3.Size = new System.Drawing.Size(0, 577);
             // 
             // barDockControl4
             // 
             this.barDockControl4.CausesValidation = false;
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl4.Location = new System.Drawing.Point(842, 51);
-            this.barDockControl4.Size = new System.Drawing.Size(0, 503);
+            this.barDockControl4.Location = new System.Drawing.Point(862, 0);
+            this.barDockControl4.Size = new System.Drawing.Size(0, 577);
             // 
             // MaterialType_Add_Parent_BarButtonItem
             // 
@@ -727,7 +658,6 @@
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Add_Parent_BarButtonItem),
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Add_Child_BarButtonItem),
             new DevExpress.XtraBars.LinkPersistInfo(this.btnMaterialAdd),
-            new DevExpress.XtraBars.LinkPersistInfo(this.btnAnalogyMaterialAdd),
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Modify_BarButtonItem),
             new DevExpress.XtraBars.LinkPersistInfo(this.MaterialType_Delete_BarButtonItem)});
             this.popupMenu2.Manager = this.barManager2;
@@ -737,7 +667,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(842, 577);
+            this.ClientSize = new System.Drawing.Size(862, 577);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -806,13 +736,10 @@
         private DevExpress.XtraEditors.LabelControl labelControl9;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraBars.BarManager barManager1;
-        private DevExpress.XtraBars.Bar bar1;
-        private DevExpress.XtraBars.Bar bar2;
         private DevExpress.XtraBars.BarSubItem barSubItem1;
         private DevExpress.XtraBars.BarSubItem barSubItem2;
         private DevExpress.XtraBars.BarSubItem barSubItem3;
         private DevExpress.XtraBars.BarSubItem barSubItem4;
-        private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
@@ -828,9 +755,6 @@
         private DevExpress.XtraBars.BarDockControl barDockControl2;
         private DevExpress.XtraBars.BarDockControl barDockControl1;
         private DevExpress.XtraBars.BarManager barManager2;
-        private DevExpress.XtraBars.Bar bar4;
-        private DevExpress.XtraBars.Bar bar5;
-        private DevExpress.XtraBars.Bar bar6;
         private DevExpress.XtraBars.PopupMenu popupMenu2;
         private DevExpress.XtraBars.BarButtonItem MaterialType_Add_Parent_BarButtonItem;
         private DevExpress.XtraBars.BarButtonItem MaterialType_Delete_BarButtonItem;
@@ -845,6 +769,7 @@
         private DevExpress.XtraBars.BarButtonItem btnAnalogyMaterialAdd;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn3;
         private DevExpress.XtraBars.BarButtonItem MaterialType_Add_Child_BarButtonItem;
-        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn4;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn Parent_Id;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
     }
 }

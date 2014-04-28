@@ -32,6 +32,7 @@
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl = new DevExpress.XtraEditors.GroupControl();
+            this.textEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit = new DevExpress.XtraEditors.ButtonEdit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit = new DevExpress.XtraEditors.TextEdit();
@@ -69,10 +70,21 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit = new DevExpress.XtraEditors.TextEdit();
             this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
+            this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit = new DevExpress.XtraEditors.CheckEdit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton = new DevExpress.XtraEditors.SimpleButton();
-            this.textEdit1 = new DevExpress.XtraEditors.MemoEdit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage1.SuspendLayout();
@@ -80,6 +92,7 @@
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl)).BeginInit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Properties)).BeginInit();
@@ -99,8 +112,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Properties)).BeginInit();
+            this.xtraTabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
+            this.groupControl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // xtraTabControl1
@@ -178,14 +195,23 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.TabIndex = 81;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.Text = "备注信息:";
             // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(0, 24);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(592, 235);
+            this.textEdit1.TabIndex = 0;
+            // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit
             // 
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Location = new System.Drawing.Point(83, 172);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Size = new System.Drawing.Size(200, 20);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.TabIndex = 80;
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit_ButtonClick);
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit
             // 
@@ -193,6 +219,7 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Size = new System.Drawing.Size(200, 20);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.TabIndex = 79;
             // 
@@ -233,8 +260,10 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Size = new System.Drawing.Size(200, 20);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.TabIndex = 74;
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit_ButtonClick);
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit
             // 
@@ -260,8 +289,10 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Size = new System.Drawing.Size(200, 20);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.TabIndex = 70;
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit_ButtonClick);
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_PartNumber_ButtonEdit
             // 
@@ -464,7 +495,7 @@
             // PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton
             // 
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Location = new System.Drawing.Point(418, 31);
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Location = new System.Drawing.Point(360, 25);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.Size = new System.Drawing.Size(55, 23);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton.TabIndex = 60;
@@ -474,16 +505,135 @@
             // 
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Location = new System.Drawing.Point(3, 34);
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Location = new System.Drawing.Point(5, 27);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Name = "PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Size = new System.Drawing.Size(349, 20);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.TabIndex = 53;
             // 
             // xtraTabPage5
             // 
+            this.xtraTabPage5.Controls.Add(this.groupControl3);
+            this.xtraTabPage5.Controls.Add(this.simpleButton1);
             this.xtraTabPage5.Name = "xtraTabPage5";
             this.xtraTabPage5.Size = new System.Drawing.Size(598, 457);
             this.xtraTabPage5.Text = "供应商及供应配额";
+            // 
+            // groupControl3
+            // 
+            this.groupControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl3.Controls.Add(this.gridControl1);
+            this.groupControl3.Location = new System.Drawing.Point(3, 3);
+            this.groupControl3.Name = "groupControl3";
+            this.groupControl3.Size = new System.Drawing.Size(592, 410);
+            this.groupControl3.TabIndex = 11;
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl1.Location = new System.Drawing.Point(0, 21);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(592, 389);
+            this.gridControl1.TabIndex = 0;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn4,
+            this.gridColumn5,
+            this.gridColumn6,
+            this.gridColumn7,
+            this.gridColumn8});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ColumnAutoWidth = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.Caption = "供应商名称";
+            this.gridColumn1.FieldName = "Name";
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 0;
+            this.gridColumn1.Width = 115;
+            // 
+            // gridColumn2
+            // 
+            this.gridColumn2.Caption = "供应商类型";
+            this.gridColumn2.FieldName = "Type";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 1;
+            this.gridColumn2.Width = 68;
+            // 
+            // gridColumn3
+            // 
+            this.gridColumn3.Caption = "供应商地址";
+            this.gridColumn3.FieldName = "Address";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 2;
+            this.gridColumn3.Width = 68;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "供应商邮编";
+            this.gridColumn4.FieldName = "ZipCode";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 3;
+            this.gridColumn4.Width = 68;
+            // 
+            // gridColumn5
+            // 
+            this.gridColumn5.Caption = "供应商电话";
+            this.gridColumn5.FieldName = "Phone";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 4;
+            this.gridColumn5.Width = 125;
+            // 
+            // gridColumn6
+            // 
+            this.gridColumn6.Caption = "供应商类别";
+            this.gridColumn6.FieldName = "Category";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 5;
+            this.gridColumn6.Width = 47;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "供应商网址";
+            this.gridColumn7.FieldName = "WebSite";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 6;
+            this.gridColumn7.Width = 83;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.Caption = "gridColumn8";
+            this.gridColumn8.FieldName = "Id";
+            this.gridColumn8.Name = "gridColumn8";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Location = new System.Drawing.Point(497, 423);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(98, 23);
+            this.simpleButton1.TabIndex = 1;
+            this.simpleButton1.Text = "供应配额";
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit
             // 
@@ -516,13 +666,6 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Text = "确定(O)";
             this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton.Click += new System.EventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton_Click);
             // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(0, 24);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(592, 235);
-            this.textEdit1.TabIndex = 0;
-            // 
             // AddMaterialInfor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -544,6 +687,7 @@
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl)).EndInit();
             this.PartsMange_MaterialBankManage_AddMaterialInfor_Remark_GroupControl.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Properties)).EndInit();
@@ -563,8 +707,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit.Properties)).EndInit();
+            this.xtraTabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
+            this.groupControl3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MaterialBankManage_AddMaterialInfor_UseCode_CheckEdit.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -613,8 +761,20 @@
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddMaterialInfor_CancelMaterialMessage_SimpleButton;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit;
         private DevExpress.XtraEditors.SimpleButton PartsMange_MaterialBankManage_AddMaterialInfor_Select_simpleButton;
         private DevExpress.XtraEditors.MemoEdit textEdit1;
+        private DevExpress.XtraEditors.TextEdit PartsMange_MaterialBankManage_AddMaterialInfor_Select_TextEdit;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.GroupControl groupControl3;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
     }
 }

@@ -16,14 +16,14 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
 {
     public partial class AddMaterialProperty : DevExpress.XtraEditors.XtraForm
     {
-        private IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
-        private IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
-        public Material_Type Mt;
+        IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
+        IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
+        public Material_Type materialType;
         public MaterialAttachedProperty attachedProperty { get; set; }
         public MaterialBaseProperty baseProperty { get; set; }
-        private List<Material_Type> materialTypeList = new List<Material_Type>();
-        private DataTable dtCboValue = new DataTable();
-        private List<Material_ComboBox_Value> comboBoxValueList = new List<Material_ComboBox_Value>();
+        List<Material_Type> materialTypeList = new List<Material_Type>();
+        DataTable dtCboValue = new DataTable();
+        List<Material_ComboBox_Value> comboBoxValueList = new List<Material_ComboBox_Value>();
         public AddMaterialProperty()
         {
             InitializeComponent();
@@ -131,7 +131,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         //右键菜单修改 物料分类
         private void MaterialType_Modify_BarButtonItem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Mt = (Material_Type)PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GridView.GetFocusedRow();
+            materialType = (Material_Type)PartsMange_MaterialPropertyBuild_AddMaterialProperty_MaterialClassify_GridView.GetFocusedRow();
             ChooseMaterialType CM = new ChooseMaterialType();
             CM.Tag = "Modify";
             CM.ShowDialog();

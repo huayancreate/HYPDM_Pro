@@ -148,6 +148,7 @@
             new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "否")});
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Size = new System.Drawing.Size(102, 22);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.TabIndex = 66;
+            this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.SelectedIndexChanged += new System.EventHandler(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup_SelectedIndexChanged);
             // 
             // PartsMange_MaterialBankManage_AddType_WaterCodeLength_ComboBoxEdit
             // 

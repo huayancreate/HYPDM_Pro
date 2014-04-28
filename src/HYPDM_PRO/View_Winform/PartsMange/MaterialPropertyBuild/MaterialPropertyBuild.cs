@@ -31,7 +31,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridView.OptionsSelection.MultiSelect = true;
             PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridView.OptionsSelection.MultiSelectMode
                 = GridMultiSelectMode.RowSelect;
-            Thread.Sleep(5000);
+            //Thread.Sleep(5000);
 
             PartsMange_MaterialPropertyBuild_MaterialPropertyBuild_MaterialPropertyList_GridView.RowCellClick += GridViewRowCellClick;
             propertyList = propertyService.GetAllMaterialProperty();

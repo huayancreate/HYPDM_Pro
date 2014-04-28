@@ -38,7 +38,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             MaterbasePro =(MaterialBaseProperty)PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridView.GetFocusedValue();
             AddMaterialInfor AM = new AddMaterialInfor();
             AM.Tag = "select";
-            AM.MaterBase = MaterbasePro;
+            //AM.MaterBase = MaterbasePro;
             AM.ShowDialog();
             
 
@@ -78,7 +78,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             MaterbasePro = (MaterialBaseProperty)PartsMange_MaterialReviewRuleManage_CheckResult_Material_GridView.GetFocusedRow();
             AddMaterialInfor AM = new AddMaterialInfor();
             AM.Tag = "Modify";
-            AM.MaterBase = MaterbasePro;
+            //AM.MaterBase = MaterbasePro;
             AM.ShowDialog();
         }
     }

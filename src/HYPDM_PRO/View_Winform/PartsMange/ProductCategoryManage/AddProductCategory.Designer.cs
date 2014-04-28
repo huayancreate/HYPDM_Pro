@@ -44,23 +44,24 @@
             this.panelControl1.Controls.Add(this.PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton);
             this.panelControl1.Controls.Add(this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit);
             this.panelControl1.Controls.Add(this.labelControl1);
+            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(284, 150);
+            this.panelControl1.Size = new System.Drawing.Size(284, 116);
             this.panelControl1.TabIndex = 7;
             // 
             // PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton
             // 
-            this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.Location = new System.Drawing.Point(222, 122);
+            this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.Location = new System.Drawing.Point(215, 81);
             this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.Name = "PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton";
             this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.Size = new System.Drawing.Size(57, 23);
             this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.TabIndex = 15;
             this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.Text = "取消(C)";
-            this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton_MouseDown);
+            this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton.Click += new System.EventHandler(this.PartsMange_ProductCategoryManage_AddProductCategory_Cancel_simpleButton_Click);
             // 
             // PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton
             // 
-            this.PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton.Location = new System.Drawing.Point(158, 122);
+            this.PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton.Location = new System.Drawing.Point(152, 81);
             this.PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton.Name = "PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton";
             this.PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton.Size = new System.Drawing.Size(57, 23);
             this.PartsMange_ProductCategoryManage_AddProductCategory_Confirm_simpleButton.TabIndex = 14;
@@ -71,7 +72,7 @@
             // 
             this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Location = new System.Drawing.Point(39, 33);
             this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Name = "PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit";
-            this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Size = new System.Drawing.Size(240, 20);
+            this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Size = new System.Drawing.Size(233, 20);
             this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.TabIndex = 13;
             this.PartsMange_ProductCategoryManage_AddProductCategory_ProductName_TextEdit.Tag = "name";
             // 
@@ -87,10 +88,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 149);
+            this.ClientSize = new System.Drawing.Size(284, 116);
             this.Controls.Add(this.panelControl1);
             this.Name = "AddProductCategory";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "添加分类";
+            this.Load += new System.EventHandler(this.AddProductCategory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();

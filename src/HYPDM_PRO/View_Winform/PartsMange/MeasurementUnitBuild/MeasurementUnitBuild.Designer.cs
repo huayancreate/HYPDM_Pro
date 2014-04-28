@@ -45,11 +45,9 @@
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
-            this.bar1 = new DevExpress.XtraBars.Bar();
-            this.bar2 = new DevExpress.XtraBars.Bar();
-            this.bar3 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
@@ -61,6 +59,8 @@
             this.btnModifyUnit = new DevExpress.XtraBars.BarButtonItem();
             this.btnDeleteUnit = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl)).BeginInit();
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
@@ -144,6 +144,7 @@
             // 
             this.Unit_Group_Name.Caption = "treeListColumn1";
             this.Unit_Group_Name.FieldName = "name";
+            this.Unit_Group_Name.MinWidth = 34;
             this.Unit_Group_Name.Name = "Unit_Group_Name";
             this.Unit_Group_Name.Visible = true;
             this.Unit_Group_Name.VisibleIndex = 0;
@@ -156,7 +157,7 @@
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.MainView = this.gridView1;
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridCon" +
     "trol";
-            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Size = new System.Drawing.Size(458, 251);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.Size = new System.Drawing.Size(458, 243);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.TabIndex = 67;
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -200,10 +201,10 @@
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Location = new System.Drawing.Point(264, 258);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Location = new System.Drawing.Point(264, 250);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.MainView = this.gridView2;
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Name = "PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl";
-            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Size = new System.Drawing.Size(458, 259);
+            this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.Size = new System.Drawing.Size(458, 228);
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.TabIndex = 68;
             this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -215,6 +216,7 @@
             this.gridColumn5,
             this.gridColumn6,
             this.gridColumn7,
+            this.gridColumn9,
             this.gridColumn8});
             this.gridView2.GridControl = this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl;
             this.gridView2.Name = "gridView2";
@@ -252,6 +254,11 @@
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 3;
             // 
+            // gridColumn9
+            // 
+            this.gridColumn9.FieldName = "id";
+            this.gridColumn9.Name = "gridColumn9";
+            // 
             // gridColumn8
             // 
             this.gridColumn8.Caption = "最后修改时间";
@@ -262,10 +269,6 @@
             // 
             // barManager1
             // 
-            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
-            this.bar1,
-            this.bar2,
-            this.bar3});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
@@ -278,67 +281,35 @@
             this.btnAddUnit,
             this.btnModifyUnit,
             this.btnDeleteUnit});
-            this.barManager1.MainMenu = this.bar2;
             this.barManager1.MaxItemId = 6;
-            this.barManager1.StatusBar = this.bar3;
-            // 
-            // bar1
-            // 
-            this.bar1.BarName = "Tools";
-            this.bar1.DockCol = 0;
-            this.bar1.DockRow = 1;
-            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar1.Text = "Tools";
-            // 
-            // bar2
-            // 
-            this.bar2.BarName = "Main menu";
-            this.bar2.DockCol = 0;
-            this.bar2.DockRow = 0;
-            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
-            this.bar2.OptionsBar.MultiLine = true;
-            this.bar2.OptionsBar.UseWholeRow = true;
-            this.bar2.Text = "Main menu";
-            // 
-            // bar3
-            // 
-            this.bar3.BarName = "Status bar";
-            this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
-            this.bar3.DockCol = 0;
-            this.bar3.DockRow = 0;
-            this.bar3.DockStyle = DevExpress.XtraBars.BarDockStyle.Bottom;
-            this.bar3.OptionsBar.AllowQuickCustomization = false;
-            this.bar3.OptionsBar.DrawDragBorder = false;
-            this.bar3.OptionsBar.UseWholeRow = true;
-            this.bar3.Text = "Status bar";
             // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Size = new System.Drawing.Size(723, 51);
+            this.barDockControlTop.Size = new System.Drawing.Size(723, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 496);
-            this.barDockControlBottom.Size = new System.Drawing.Size(723, 23);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 519);
+            this.barDockControlBottom.Size = new System.Drawing.Size(723, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 51);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 445);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 519);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(723, 51);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 445);
+            this.barDockControlRight.Location = new System.Drawing.Point(723, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 519);
             // 
             // TreeList_Add_barButtonItem
             // 
@@ -388,11 +359,33 @@
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Location = new System.Drawing.Point(528, 488);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.TabIndex = 73;
+            this.simpleButton1.Text = "确定";
+            this.simpleButton1.Visible = false;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton2.Location = new System.Drawing.Point(619, 488);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton2.TabIndex = 74;
+            this.simpleButton2.Text = "取消";
+            this.simpleButton2.Visible = false;
+            // 
             // MeasurementUnitBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(723, 519);
+            this.Controls.Add(this.simpleButton2);
+            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl);
             this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl);
             this.Controls.Add(this.PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_GroupControl);
@@ -433,9 +426,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
         private DevExpress.XtraBars.BarManager barManager1;
-        private DevExpress.XtraBars.Bar bar1;
-        private DevExpress.XtraBars.Bar bar2;
-        private DevExpress.XtraBars.Bar bar3;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
@@ -451,5 +441,8 @@
         private DevExpress.XtraTreeList.Columns.TreeListColumn Id;
         private DevExpress.XtraTreeList.Columns.TreeListColumn Parent_Id;
         private DevExpress.XtraTreeList.Columns.TreeListColumn Unit_Group_Name;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
     }
 }

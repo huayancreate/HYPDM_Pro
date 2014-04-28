@@ -6,6 +6,7 @@ using System.ServiceModel;
 using PDM_Entity.PartsMange;
 using PDM_Services_Interface;
 using System.ComponentModel;
+using System.Data;
 
 namespace PDM_Services_Implementation
 {
@@ -14,98 +15,88 @@ namespace PDM_Services_Implementation
         Namespace = "PDM_Services_Implementation")]
     public class ProductCategoryManage : IProductCategoryManage
     {
-        public IList<Material> product()
+        public bool AddORUpdateCategory(ProductCategory category)
         {
-            IList<Material> p = new BindingList<Material>();
-            Material m = new Material();
-            Material m1 = new Material();
-            Material m2 = new Material();
-
-            //m.cn_name = "去年买了个表";
-            //m.number = "1001";
-            //m.status = "设计";
-            //m.type = "通用";
-
-            //m1.cn_name = "快到碗里来";
-            //m1.number = "1002";
-            //m1.status = "外购";
-            //m1.type = "外协";
-
-            //m2.cn_name = "打酱油";
-            //m2.number = "1003";
-            //m2.status = "外购";
-            //m2.type = "通用";
-
-            //p.Add(m);
-            //p.Add(m1);
-            //p.Add(m2);
-            return p;
+            return category.id == 0 ? AddCategory(category) : UpdateCategory(category);
         }
 
-        public IList<Material> QueryProductMessage(string type, string name, string status, string versions)
+        public List<ProductCategory> GetAllProductCategory()
         {
-            IList<Material> m = new BindingList<Material>();
-            Material material = new Material();
-            return m;
+            var categoryList = new List<ProductCategory>();
+            var category = new ProductCategory();
+            category.id = 1;
+            category.name = "测试数据1";
+            category.parent_id = 0;
+            category.is_delete = "0";
+            categoryList.Add(category);
+
+            category = new ProductCategory();
+            category.id = 2;
+            category.name = "测试数据2";
+            category.parent_id = 1;
+            category.is_delete = "0";
+            categoryList.Add(category);
+
+            category = new ProductCategory();
+            category.id = 3;
+            category.name = "测试数据3";
+            category.parent_id = 0;
+            category.is_delete = "0";
+            categoryList.Add(category);
+
+            category = new ProductCategory();
+            category.id = 4;
+            category.name = "测试数据4";
+            category.parent_id = 3;
+            category.is_delete = "0";
+            categoryList.Add(category);
+            return categoryList;
         }
 
-        public IList<ProductCategory> ClassifyMessage(string name)
+        public bool DeleteCategory(int id)
         {
-            IList<ProductCategory> P = new BindingList<ProductCategory>();
-            ProductCategory p = new ProductCategory();
-            ProductCategory p1 = new ProductCategory();
-            ProductCategory p2 = new ProductCategory();
-
-            p.name = "波音";
-            p.parent_id = 20011;
-            p.modify_user_id = 2001;
-            p.create_user_id = 1001;
-
-            p1.name = "空客";
-            p1.parent_id = 20002;
-            p1.modify_user_id = 2002;
-            p1.create_user_id = 1002;
-
-            p2.name = "洛克希德.马丁";
-            p2.parent_id = 20002;
-            p2.modify_user_id = 2002;
-            p2.create_user_id = 1002;
-
-            return P;
-
+            return false;
         }
 
-        public bool AddClassify(string name)
+        private bool AddCategory(ProductCategory category)
         {
-
-            return true;
+            return false;
         }
 
-        public IList<ProductCategory> QueryClassify(string name)
+        private bool UpdateCategory(ProductCategory category)
         {
-            IList<ProductCategory> PC = new BindingList<ProductCategory>();
-            ProductCategory p = new ProductCategory();
-            ProductCategory p1 = new ProductCategory();
-            ProductCategory p2 = new ProductCategory();
-            ProductCategory p3 = new ProductCategory();
-
-            p.name = "地球";
-            p1.name = "火星";
-            p2.name = "月球";
-            p3.name = "太阳";
-
-            PC.Add(p);
-            PC.Add(p1);
-            PC.Add(p2);
-            PC.Add(p3);
-
-            return PC;
+            return false;
         }
 
-        public bool DeleteClassify(int id)
+        public DataTable GetProductByCategoryId(int categoryId)
         {
-            return true;
+            var dt = new DataTable("ProductCategory");
+            dt.Columns.Add("Number");
+            dt.Columns.Add("Version");
+            dt.Columns.Add("OriginalNumber");
+            dt.Columns.Add("Name");
+            dt.Columns.Add("Status");
+            dt.Columns.Add("CategoryName");
+
+            var row = dt.NewRow();
+            row["Number"] = "20140424";
+            row["Version"] = "1.0";
+            row["OriginalNumber"] = "000001";
+            row["Name"] = "测试数据1";
+            row["Status"] = "设计状态";
+            row["CategoryName"] = "德国";
+            dt.Rows.Add(row);
+
+            row = dt.NewRow();
+            row["Number"] = "20140425";
+            row["Version"] = "1.1";
+            row["OriginalNumber"] = "000002";
+            row["Name"] = "测试数据2";
+            row["Status"] = "设计状态";
+            row["CategoryName"] = "美国";
+            dt.Rows.Add(row);
+
+            return dt;
         }
     }
-
 }

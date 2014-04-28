@@ -71,8 +71,8 @@
             this.xtraTabPage10 = new DevExpress.XtraTab.XtraTabPage();
             this.btnUnit = new DevExpress.XtraEditors.ButtonEdit();
             this.btnStuff = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.cboCategory = new DevExpress.XtraEditors.ButtonEdit();
+            this.cboProduct = new DevExpress.XtraEditors.ButtonEdit();
             this.cboSpecies = new DevExpress.XtraEditors.ComboBoxEdit();
             this.cboProperty = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -117,12 +117,12 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.xtraTabPage13 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl6 = new DevExpress.XtraGrid.GridControl();
             this.gridView6 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -216,8 +216,8 @@
             this.xtraTabPage10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnUnit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStuff.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboCategory.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboProduct.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboSpecies.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboProperty.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -640,8 +640,8 @@
             // 
             this.xtraTabPage10.Controls.Add(this.btnUnit);
             this.xtraTabPage10.Controls.Add(this.btnStuff);
-            this.xtraTabPage10.Controls.Add(this.buttonEdit1);
-            this.xtraTabPage10.Controls.Add(this.buttonEdit2);
+            this.xtraTabPage10.Controls.Add(this.cboCategory);
+            this.xtraTabPage10.Controls.Add(this.cboProduct);
             this.xtraTabPage10.Controls.Add(this.cboSpecies);
             this.xtraTabPage10.Controls.Add(this.cboProperty);
             this.xtraTabPage10.Controls.Add(this.comboBoxEdit1);
@@ -696,23 +696,23 @@
             this.btnStuff.Size = new System.Drawing.Size(163, 20);
             this.btnStuff.TabIndex = 34;
             // 
-            // buttonEdit1
+            // cboCategory
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(360, 195);
-            this.buttonEdit1.Name = "buttonEdit1";
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cboCategory.Location = new System.Drawing.Point(360, 195);
+            this.cboCategory.Name = "cboCategory";
+            this.cboCategory.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(165, 20);
-            this.buttonEdit1.TabIndex = 33;
+            this.cboCategory.Size = new System.Drawing.Size(165, 20);
+            this.cboCategory.TabIndex = 33;
             // 
-            // buttonEdit2
+            // cboProduct
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(360, 221);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cboProduct.Location = new System.Drawing.Point(360, 221);
+            this.cboProduct.Name = "cboProduct";
+            this.cboProduct.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(165, 20);
-            this.buttonEdit2.TabIndex = 32;
+            this.cboProduct.Size = new System.Drawing.Size(165, 20);
+            this.cboProduct.TabIndex = 32;
             // 
             // cboSpecies
             // 
@@ -1071,21 +1071,28 @@
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 1;
             // 
+            // gridColumn9
+            // 
+            this.gridColumn9.Caption = "BOM状态";
+            this.gridColumn9.FieldName = "Status";
+            this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.Visible = true;
+            this.gridColumn9.VisibleIndex = 2;
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.Caption = "BOM类型";
+            this.gridColumn10.FieldName = "Type";
+            this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.Visible = true;
+            this.gridColumn10.VisibleIndex = 3;
+            // 
             // gridColumn11
             // 
             this.gridColumn11.Caption = "parent_id";
             this.gridColumn11.FieldName = "Parent_Id";
             this.gridColumn11.Name = "gridColumn11";
             this.gridColumn11.Width = 100;
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.Caption = "根件版本";
-            this.gridColumn12.FieldName = "RootVersion";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 4;
-            this.gridColumn12.Width = 65;
             // 
             // gridColumn14
             // 
@@ -1096,30 +1103,23 @@
             this.gridColumn14.VisibleIndex = 4;
             this.gridColumn14.Width = 52;
             // 
+            // gridColumn12
+            // 
+            this.gridColumn12.Caption = "根件版本";
+            this.gridColumn12.FieldName = "RootVersion";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.Visible = true;
+            this.gridColumn12.VisibleIndex = 5;
+            this.gridColumn12.Width = 65;
+            // 
             // gridColumn13
             // 
             this.gridColumn13.Caption = "数量";
             this.gridColumn13.FieldName = "Count";
             this.gridColumn13.Name = "gridColumn13";
             this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 7;
+            this.gridColumn13.VisibleIndex = 6;
             this.gridColumn13.Width = 25;
-            // 
-            // gridColumn9
-            // 
-            this.gridColumn9.Caption = "BOM状态";
-            this.gridColumn9.FieldName = "Status";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 3;
-            // 
-            // gridColumn10
-            // 
-            this.gridColumn10.Caption = "BOM类型";
-            this.gridColumn10.FieldName = "Type";
-            this.gridColumn10.Name = "gridColumn10";
-            this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 3;
             // 
             // xtraTabPage13
             // 
@@ -1811,8 +1811,8 @@
             this.xtraTabPage10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnUnit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnStuff.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboCategory.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cboProduct.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboSpecies.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cboProperty.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
@@ -1950,8 +1950,8 @@
         private DevExpress.XtraTab.XtraTabPage xtraTabPage10;
         private DevExpress.XtraEditors.ButtonEdit btnUnit;
         private DevExpress.XtraEditors.ButtonEdit btnStuff;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
+        private DevExpress.XtraEditors.ButtonEdit cboCategory;
+        private DevExpress.XtraEditors.ButtonEdit cboProduct;
         private DevExpress.XtraEditors.ComboBoxEdit cboSpecies;
         private DevExpress.XtraEditors.ComboBoxEdit cboProperty;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;

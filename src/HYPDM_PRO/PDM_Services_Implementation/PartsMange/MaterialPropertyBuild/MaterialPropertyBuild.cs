@@ -128,6 +128,7 @@ namespace PDM_Services_Implementation
         }
         private bool AddProperty(MaterialBaseProperty baseProperty)
         {
+            //在物料表中动态创建名称为en_name值的字段
             return true;
         }
         private bool UpdateProperty(MaterialBaseProperty baseProperty)
@@ -176,7 +177,66 @@ namespace PDM_Services_Implementation
                 Is_Delete = "0"
             };
             comboBoxValueList.Add(comboBoxValue);
-
+            #region 物料属性
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 5,
+                Extend_Id = 2,
+                Value = "外协件",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 6,
+                Extend_Id = 2,
+                Value = "自制件",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 7,
+                Extend_Id = 2,
+                Value = "外购件",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 8,
+                Extend_Id = 2,
+                Value = "虚拟件",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            #endregion
+            #region 物料种类
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 9,
+                Extend_Id = 3,
+                Value = "零件",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 10,
+                Extend_Id = 3,
+                Value = "部件",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            comboBoxValue = new Material_ComboBox_Value
+            {
+                Id = 11,
+                Extend_Id = 3,
+                Value = "产品",
+                Is_Delete = "0"
+            };
+            comboBoxValueList.Add(comboBoxValue);
+            #endregion
             return comboBoxValueList;
         }
         public DataTable GetListToDataTable(int propertyId)
