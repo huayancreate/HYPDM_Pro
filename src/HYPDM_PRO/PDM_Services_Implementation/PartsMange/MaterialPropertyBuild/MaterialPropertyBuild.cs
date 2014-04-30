@@ -102,7 +102,7 @@ namespace PDM_Services_Implementation
 
             return propertyList;
         }
-        public bool UpdateProperty(string table, Dictionary<string, object> columns, int id)
+        public bool UpdatePropertyWithTable(string table, Dictionary<string, object> columns, int id)
         {
             var str = new StringBuilder();
             if (columns.Count <= 0) return false;
@@ -286,6 +286,10 @@ namespace PDM_Services_Implementation
         private bool UpdateComboBoxValue(Material_ComboBox_Value comboBoxValue)
         {
             return true;
+        }
+        public List<MaterialBaseProperty> GetMaterialPropertyByTypeId(int typeId)
+        {
+            return GetAllMaterialProperty().FindAll(p => p.material_property_type_id == typeId);
         }
     }
 }

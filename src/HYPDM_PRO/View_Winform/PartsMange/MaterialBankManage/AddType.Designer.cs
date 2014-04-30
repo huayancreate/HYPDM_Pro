@@ -144,8 +144,8 @@
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.Appearance.Options.UseBackColor = true;
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "是"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "否")});
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "否"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "是")});
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.Size = new System.Drawing.Size(102, 22);
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.TabIndex = 66;
             this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup.SelectedIndexChanged += new System.EventHandler(this.PartsMange_MaterialBankManage_AddType_MaterialBasicType_IsLast_RadioGroup_SelectedIndexChanged);

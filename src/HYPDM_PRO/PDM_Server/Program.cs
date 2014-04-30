@@ -41,6 +41,7 @@ namespace PDM_Server
             ServerManager.StartService(typeof(AddMaterialProperty));
             ServerManager.StartService(typeof(ProductStruct));
             ServerManager.StartService(typeof(ProductCategoryManage));
+            ServerManager.StartService(typeof(MeasurementUnitBuild));
             //ServerManager.StartService(typeof(DocManageTool));
             //ServerManager.StartService(typeof(DocGrantManage));
             //ServerManager.StartService(typeof(DocPropertyBuild));

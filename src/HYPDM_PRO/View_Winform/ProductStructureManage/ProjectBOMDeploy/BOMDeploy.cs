@@ -19,7 +19,9 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
     public partial class BOMDeploy : DevExpress.XtraEditors.XtraForm
     {
         IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
+        IProductCategoryManage productCategoryService = WcfServiceLocator.Create<IProductCategoryManage>();
         IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
+        IMeasurementUnitBuild unitservice = WcfServiceLocator.Create<IMeasurementUnitBuild>();
         IMaterialPropertyBuild propertyService = WcfServiceLocator.Create<IMaterialPropertyBuild>();
         public int bom_id { get; set; }
         private TreeListNode focus_node;
@@ -239,24 +241,55 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         /// <param name="m"></param>
         private void MaterialDataLoad(Material m)
         {
-            DesignerForm();
             if (m == null) return;
+            DesignerForm(m.Material_Type_Id);
             txtMaterialNo.Text = m.No;
             txtMaterialName.Text = m.Name;
             txtMaterialVersion.Text = m.Version;
             txtOriginalNo.Text = m.Original_No;
-            cboSpecies.SelectedIndex = Convert.ToInt32(m.Species);
-            cboProperty.SelectedIndex = Convert.ToInt32(m.Property_Type);
-            btnUnit.Text = m.Unit_Id;
-            txtUnitGroup.Text = m.Unit_Group_Id;
+            foreach (var item in cboSpecies.Properties.Items)
+            {
+                var speciesItem = (ComboBoxData)item;
+                if (speciesItem.Value == m.Species)
+                {
+                    cboSpecies.SelectedItem = speciesItem;
+                }
+            }
+            foreach (var item in cboProperty.Properties.Items)
+            {
+                var propertyItem = (ComboBoxData)item;
+                if (propertyItem.Value == m.Property_Type)
+                {
+                    cboProperty.SelectedItem = propertyItem;
+                }
+            }
+            var unit = unitservice.GetUnitById(Convert.ToInt32(m.Unit_Id));
+            if (unit != null)
+            {
+                btnUnit.Text = unit.name;
+                var unitgroup = unitservice.GetUnitGroupById(unit.unit_group_id);
+                if (unitgroup != null)
+                {
+                    txtUnitGroup.Text = unitgroup.name;
+                }
+            }
             txtgg.Text = m.Standard;
             txtModel.Text = m.Model_No;
-            btnStuff.Text = "";
+
+            var material = materialService.GetMaterialById(m.Material_Id);
+            if (material.Rows.Count > 0)
+                btnStuff.Text = material.Rows[0]["Name"].ToString();
+
             txtWeight.Text = m.Weight;
-            //txtAllWeight.Text = (Convert.ToDouble(m.Weight) * 1).ToString();
             txtStatus.Text = m.Status;
-            cboCategory.Text = m.Category;
-            cboProduct.Text = m.Product_Type;
+
+            var productcategory = productCategoryService.GetProductByCategoryId(Convert.ToInt32(m.Category));
+            if (productcategory.Rows.Count > 0)
+                cboProduct.Text = productcategory.Rows[0]["CategoryName"].ToString();
+
+            var materialtype = materialService.GetMaterialTypeById(m.Material_Type_Id);
+            if (materialtype != null)
+                cboCategory.Text = materialtype.Name;
         }
         /// <summary>
         /// 关联文档数据加载
@@ -525,9 +558,9 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             }
         }
         #region 扩展属性
-        private void DesignerForm()
+        private void DesignerForm(int typeId)
         {
-            var propertyList = propertyService.GetAllMaterialProperty();
+            var propertyList = propertyService.GetMaterialPropertyByTypeId(typeId);
             #region 创建控件
             var y = 15;
             var j = 0;
@@ -614,7 +647,10 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             var cboValueList = propertyService.GetComboBoxValueByPropertyId(propertyId);
             foreach (var item in cboValueList)
             {
-                cbo.Properties.Items.Add(item.Value);
+                var data = new ComboBoxData();
+                data.Text = item.Value;
+                data.Value = item.Id.ToString();
+                cbo.Properties.Items.Add(data);
             }
         }
     }

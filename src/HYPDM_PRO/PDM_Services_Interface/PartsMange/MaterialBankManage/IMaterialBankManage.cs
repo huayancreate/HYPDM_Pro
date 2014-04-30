@@ -27,5 +27,9 @@ namespace PDM_Services_Interface
         bool DeleteMaterial(int id);
         [OperationContract]
         DataTable GetMaterialById(int id);
+        [OperationContract]
+        bool AddORUpdateWithTable(DataTable dt, int id);
+        [OperationContract]
+        Material_Type GetMaterialTypeById(int typeId);
     }
 }

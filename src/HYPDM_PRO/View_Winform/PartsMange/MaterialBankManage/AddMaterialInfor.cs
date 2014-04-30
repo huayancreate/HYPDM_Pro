@@ -23,6 +23,8 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         public Material material { get; set; }
         IMaterialBankManage materialService = WcfServiceLocator.Create<IMaterialBankManage>();
         IProductStruct productStructService = WcfServiceLocator.Create<IProductStruct>();
+        IProductCategoryManage productCategory = WcfServiceLocator.Create<IProductCategoryManage>();
+        IMeasurementUnitBuild unitService = WcfServiceLocator.Create<IMeasurementUnitBuild>();
         List<MaterialBaseProperty> propertyList = new List<MaterialBaseProperty>();
         public AddMaterialInfor()
         {
@@ -50,36 +52,111 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             if (this.Tag == "Modify")
             {
                 PropertyDataBind();
+
                 PartsMange_MaterialBankManage_AddMaterialInfor_PartNumber_ButtonEdit.Text = material.No;
                 PartsMange_MaterialBankManage_AddMaterialInfor_PartName_TextEdit.Text = material.Name;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text = material.Property_Type;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Text = material.Species;
+
+                //属性
+                foreach (var item in PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Properties.Items)
+                {
+                    var data = (ComboBoxData)item;
+                    if (data.Value == material.Property_Type)
+                    {
+                        PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.SelectedItem = item;
+                        break;
+                    }
+                }
+                //种类
+                foreach (var item in PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Properties.Items)
+                {
+                    var data = (ComboBoxData)item;
+                    if (data.Value == material.Species)
+                    {
+                        PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.SelectedItem = item;
+                        break;
+                    }
+                }
                 PartsMange_MaterialBankManage_AddMaterialInfor_Weight_TextEdit.Text = material.Weight;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text = material.Property_Type;
-                PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = material.Category;
-                PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = material.Product_Type;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text = material.Model_No;
+
+                var materialtype = materialService.GetMaterialTypeById(Convert.ToInt32(material.Category));
+                if (materialtype != null)
+                    PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = materialtype.Name;
+
+                var productcategory = productCategory.GetProductByCategoryId(Convert.ToInt32(material.Product_Type));
+                if (productcategory.Rows.Count > 0)
+                    PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = productcategory.Rows[0]["CategoryName"].ToString();
+
                 PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text = material.Original_No;
                 PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Text = material.Version;
-                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = material.Unit_Id;
-                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text = material.Unit_Group_Id;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = material.Material_Id.ToString();
+
+                var unit = unitService.GetUnitById(Convert.ToInt32(material.Unit_Id));
+                if (unit != null)
+                {
+                    var unitgroup = unitService.GetUnitGroupById(unit.unit_group_id);
+                    PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = unit.name;
+                    if (unitgroup != null)
+                        PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text = unitgroup.name;
+                }
+
+                var m = materialService.GetMaterialById(material.Material_Id);
+                if (m.Rows.Count > 0)
+                    PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = m.Rows[0]["Name"].ToString();
+
                 PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text = material.Price;
                 PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text = material.Standard;
                 textEdit1.Text = material.Remark;
             }
             if (this.Tag == "AnalogyAdd")
             {
-                PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text = material.Property_Type;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Text = material.Species;
+
+                //属性
+                foreach (var item in PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Properties.Items)
+                {
+                    var data = (ComboBoxData)item;
+                    if (data.Value == material.Property_Type)
+                    {
+                        PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.SelectedItem = item;
+                        break;
+                    }
+                }
+                //种类
+                foreach (var item in PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Properties.Items)
+                {
+                    var data = (ComboBoxData)item;
+                    if (data.Value == material.Property_Type)
+                    {
+                        PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.SelectedItem = item;
+                        break;
+                    }
+                }
                 PartsMange_MaterialBankManage_AddMaterialInfor_Weight_TextEdit.Text = material.Weight;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text = material.Property_Type;
-                PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = material.Category;
-                PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = material.Product_Type;
+                PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text = material.Model_No;
+
+                var materialtype = materialService.GetMaterialTypeById(Convert.ToInt32(material.Category));
+                if (materialtype != null)
+                    PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = materialtype.Name;
+
+                var productcategory = productCategory.GetProductByCategoryId(Convert.ToInt32(material.Product_Type));
+                if (productcategory.Rows.Count > 0)
+                    PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text = productcategory.Rows[0]["CategoryName"].ToString();
+
                 PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text = material.Original_No;
                 PartsMange_MaterialBankManage_AddMaterialInfor_PartVersion_TextEdit.Text = material.Version;
-                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = material.Unit_Id;
-                PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text = material.Unit_Group_Id;
-                PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = material.Material_Id.ToString();
+
+                var unit = unitService.GetUnitById(Convert.ToInt32(material.Unit_Id));
+                if (unit != null)
+                {
+                    var unitgroup = unitService.GetUnitGroupById(unit.unit_group_id);
+                    PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasure_ButtonEdit.Text = unit.name;
+                    if (unitgroup != null)
+                        PartsMange_MaterialBankManage_AddMaterialInfor_UnitMeasureGroup_TextEdit.Text = unitgroup.name;
+                }
+
+                var m = materialService.GetMaterialById(material.Material_Id);
+                if (m.Rows.Count > 0)
+                    PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text = m.Rows[0]["Name"].ToString();
+
                 PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text = material.Price;
                 PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text = material.Standard;
                 textEdit1.Text = material.Remark;
@@ -92,35 +169,18 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         }
         private void PartsMange_MaterialBankManage_AddMaterialInfor_ConfirmMaterialMessage_SimpleButton_Click(object sender, EventArgs e)
         {
-            #region
-            //var dt = CreateDataTable();
-            //var value = "";
-            //foreach (var item in propertyList)
-            //{
-            //    if (!item.is_show) continue;
-            //    if (item.input_type == "0")
-            //    {
-            //        var txt = (TextEdit)xtraTabPage3.Controls.Find("txt" + item.en_name, true)[0];
-            //        value = txt.Text;
-            //    }
-            //    else
-            //    {
-            //        var cbo = (ComboBoxEdit)xtraTabPage3.Controls.Find("cbo" + item.en_name, true)[0];
-            //        value = cbo.SelectedIndex.ToString();
-            //    }
-            //    var row = dt.NewRow();
-            //    row["en_name"] = item.en_name;
-            //    row["value"] = value;
-            //    dt.Rows.Add(row);
-            //}
-            #endregion
             #region 基础属性赋值
             material.No = PartsMange_MaterialBankManage_AddMaterialInfor_PartNumber_ButtonEdit.Text;
             material.Name = PartsMange_MaterialBankManage_AddMaterialInfor_PartName_TextEdit.Text;
-            material.Property_Type = PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.Text;
-            material.Species = PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.Text;
+
+            var propertyItem = (ComboBoxData)PartsMange_MaterialBankManage_AddMaterialInfor_Property_ComboBoxEdit.SelectedItem;
+            material.Property_Type = propertyItem.Value;
+
+            var speciesItem = (ComboBoxData)PartsMange_MaterialBankManage_AddMaterialInfor_Variety_ComboBoxEdit.SelectedItem;
+            material.Species = speciesItem.Value;
+
             material.Weight = PartsMange_MaterialBankManage_AddMaterialInfor_Weight_TextEdit.Text;
-            material.Property_Type = PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text;
+            material.Model_No = PartsMange_MaterialBankManage_AddMaterialInfor_Type_TextEdit.Text;
             material.Category = PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text;
             //material.Product_Type = PartsMange_MaterialBankManage_AddMaterialInfor_ProductType_ButtonEdit.Text;
             material.Original_No = PartsMange_MaterialBankManage_AddMaterialInfor_OriginalNumber_TextEdit.Text;
@@ -130,15 +190,40 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             //material.Material_Id = Convert.ToInt32(PartsMange_MaterialBankManage_AddMaterialInfor_Material_ButtonEdit.Text);
             material.Price = PartsMange_MaterialBankManage_AddMaterialInfor_CostPrice_TextEdit.Text;
             material.Standard = PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit.Text;
-
             bool result = materialService.AddORUpdateMaterial(material);
-            MessageBox.Show(result.ToString());
             #endregion
+
+            #region 扩展属性控件取值
+            var dt = CreateDataTable();
+            foreach (Control control in xtraTabPage3.Controls)
+            {
+                if (control is LabelControl) continue;
+                var row = dt.NewRow();
+                Type type = control.GetType();
+                if (type.Name.Equals("TextEdit"))
+                {
+                    var txt = (TextEdit)control;
+                    row["en_name"] = txt.Name.Remove(0, 3);
+                    row["value"] = txt.Text;
+                }
+                if (type.Name.Equals("ComboBoxEdit"))
+                {
+                    var cbo = (ComboBoxEdit)control;
+                    row["en_name"] = cbo.Name.Remove(0, 3);
+                    row["value"] = cbo.SelectedIndex;
+                }
+                dt.Rows.Add(row);
+            }
+
+            materialService.AddORUpdateWithTable(dt, 1);
+            #endregion
+            MessageBox.Show(result.ToString());
+
         }
         #region 设计扩展属性控件
         private void DesignerForm()
         {
-            propertyList = propertyService.GetAllMaterialProperty();
+            propertyList = propertyService.GetMaterialPropertyByTypeId(material.Material_Type_Id);
             #region 创建控件
             var y = 15;
             var j = 0;
@@ -216,7 +301,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         #endregion
         public DataTable CreateDataTable()
         {
-            var dt = new DataTable();
+            var dt = new DataTable("MaterialProperty");
             dt.Columns.Add("en_name", typeof(string));
             dt.Columns.Add("value", typeof(string));
             return dt;
@@ -232,7 +317,10 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             var cboValueList = propertyService.GetComboBoxValueByPropertyId(propertyId);
             foreach (var item in cboValueList)
             {
-                cbo.Properties.Items.Add(item.Value);
+                var data = new ComboBoxData();
+                data.Text = item.Value;
+                data.Value = item.Id.ToString();
+                cbo.Properties.Items.Add(data);
             }
         }
         /// <summary>
@@ -361,6 +449,22 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             //    }
             //}
             #endregion
+        }
+        /// <summary>
+        /// 选择分类
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        {
+            var typeListForm = new MaterialTypeList();
+            typeListForm.ShowDialog();
+            if (typeListForm.DialogResult == DialogResult.OK)
+            {
+                if (typeListForm.materialType == null) return;
+                PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Text = typeListForm.materialType.Name;
+                material.Category = typeListForm.materialType.Id.ToString();
+            }
         }
     }
 }

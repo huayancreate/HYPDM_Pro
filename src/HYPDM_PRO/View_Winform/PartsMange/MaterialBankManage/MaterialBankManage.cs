@@ -24,7 +24,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         public MaterialBankManage()
         {
             InitializeComponent();
-            PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView, false);
+            PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView, true);
         }
         private void MaterialBankManage_Load(object sender, EventArgs e)
         {
@@ -72,8 +72,9 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 case "btnMaterialAdd":
                     var addMaterial = new AddMaterialInfor();
                     var material = new Material();
+                    material.Material_Type_Id = Convert.ToInt32(material_Type_Id);
                     addMaterial.material = material;
-                    addMaterial.Show();
+                    addMaterial.ShowDialog();
                     break;
             }
         }
@@ -84,6 +85,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 case "MaterialMessage_DirectAdd_BarButtonItem":
                     var addMaterial = new AddMaterialInfor();
                     var material = new Material();
+                    material.Material_Type_Id = Convert.ToInt32(material_Type_Id);
                     addMaterial.material = material;
                     addMaterial.Show();
                     break;
@@ -125,9 +127,9 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 else
                 {
                     var is_last = hitInfo.Node.GetValue("Is_Last");
-                    btnAnalogyMaterialAdd.Enabled = is_last.Equals("是") ? true : false;
-                    btnMaterialAdd.Enabled = is_last.Equals("是") ? true : false;
-                    MaterialType_Add_Child_BarButtonItem.Enabled = is_last.Equals("是") ? false : true;
+                    btnAnalogyMaterialAdd.Enabled = is_last.Equals("1") ? true : false;
+                    btnMaterialAdd.Enabled = is_last.Equals("1") ? true : false;
+                    MaterialType_Add_Child_BarButtonItem.Enabled = is_last.Equals("1") ? false : true;
                     MaterialType_Delete_BarButtonItem.Enabled = true;
                     MaterialType_Modify_BarButtonItem.Enabled = true;
                     treeList.SetFocusedNode(hitInfo.Node);

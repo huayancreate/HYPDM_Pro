@@ -392,7 +392,7 @@
             // 
             // cboSpecies
             // 
-            this.cboSpecies.EditValue = "ComboBoxEdit";
+            this.cboSpecies.EditValue = "";
             this.cboSpecies.Location = new System.Drawing.Point(91, 65);
             this.cboSpecies.Name = "cboSpecies";
             this.cboSpecies.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -402,7 +402,7 @@
             // 
             // cboProperty
             // 
-            this.cboProperty.EditValue = "ComboBoxEdit";
+            this.cboProperty.EditValue = "";
             this.cboProperty.Location = new System.Drawing.Point(360, 65);
             this.cboProperty.Name = "cboProperty";
             this.cboProperty.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -412,7 +412,7 @@
             // 
             // comboBoxEdit1
             // 
-            this.comboBoxEdit1.EditValue = "ComboBoxEdit";
+            this.comboBoxEdit1.EditValue = "";
             this.comboBoxEdit1.Location = new System.Drawing.Point(91, 221);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {

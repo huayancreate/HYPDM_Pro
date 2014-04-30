@@ -11,8 +11,6 @@ namespace PDM_Services_Interface
     public interface IMeasurementUnitBuild
     {
         [OperationContract]
-        IList<Unit> list1(); //单位信息
-        [OperationContract]
         List<Unit> GetUnitListByGroupId(int groupId);
         [OperationContract]
         List<UnitGroup> GetAllUnitGroup(); //单位组信息
@@ -22,6 +20,11 @@ namespace PDM_Services_Interface
         bool AddORUpdateUnit(Unit unit);
         [OperationContract]
         List<Unit> GetAllUnit();
+        [OperationContract]
+        Unit GetUnitById(int unitId);
+        [OperationContract]
+        UnitGroup GetUnitGroupById(int groupId);
+
     }
 }
 

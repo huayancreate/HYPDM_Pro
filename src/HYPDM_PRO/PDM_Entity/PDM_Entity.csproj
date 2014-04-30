@@ -66,6 +66,7 @@
     <Compile Include="DocManage\doc_template.cs" />
     <Compile Include="DocManage\doc_template_tree.cs" />
     <Compile Include="DocManage\user.cs" />
+    <Compile Include="PartsMange\ComboBoxData.cs" />
     <Compile Include="PartsMange\Material.cs" />
     <Compile Include="PartsMange\MaterialAttachedProperty.cs" />
     <Compile Include="PartsMange\MaterialBaseProperty.cs" />

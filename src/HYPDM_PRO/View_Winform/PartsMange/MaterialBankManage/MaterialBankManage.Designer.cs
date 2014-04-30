@@ -138,13 +138,13 @@
             this.panelControl1.Controls.Add(this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManage_TreeList);
             this.panelControl1.Location = new System.Drawing.Point(0, 22);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(861, 555);
+            this.panelControl1.Size = new System.Drawing.Size(921, 555);
             this.panelControl1.TabIndex = 69;
             // 
             // simpleButton1
             // 
             this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton1.Location = new System.Drawing.Point(676, 526);
+            this.simpleButton1.Location = new System.Drawing.Point(736, 526);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(75, 23);
             this.simpleButton1.TabIndex = 95;
@@ -153,8 +153,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Location = new System.Drawing.Point(750, 27);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Location = new System.Drawing.Point(830, 5);
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton" +
     "";
             this.PartsMange_MaterialBankManage_MaterialBankManage_QueryMaterialManage_SimpleButton.Size = new System.Drawing.Size(58, 23);
@@ -191,8 +190,9 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Location = new System.Drawing.Point(759, 526);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Location = new System.Drawing.Point(819, 526);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Name = "PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton";
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.Size = new System.Drawing.Size(85, 23);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ExcelExport_SimpleButton.TabIndex = 88;
@@ -208,7 +208,7 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl";
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1});
-            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Size = new System.Drawing.Size(640, 335);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.Size = new System.Drawing.Size(700, 335);
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.TabIndex = 79;
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.PartsMange_MaterialBankManage_MaterialBankManage_MaterialManageList_GridView});
@@ -331,21 +331,22 @@
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.EditValue = null;
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Location = new System.Drawing.Point(286, 156);
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl";
-            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Size = new System.Drawing.Size(550, 45);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.Size = new System.Drawing.Size(610, 45);
             this.PartsMange_MaterialBankManage_MaterialBankManage_LineHeight_TrackBarControl.TabIndex = 77;
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl
             // 
+            this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Location = new System.Drawing.Point(227, 55);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Name = "PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxCont" +
     "rol";
-            this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Size = new System.Drawing.Size(609, 95);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.Size = new System.Drawing.Size(688, 95);
             this.PartsMange_MaterialBankManage_MaterialBankManage_ImportMaterialManage_ListBoxControl.TabIndex = 76;
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Location = new System.Drawing.Point(757, 4);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Location = new System.Drawing.Point(773, 7);
             this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Properties.Caption = "或者";
             this.PartsMange_MaterialBankManage_MaterialBankManage_OrMaterialManage_CkeckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
@@ -354,8 +355,9 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Location = new System.Drawing.Point(698, 4);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Location = new System.Drawing.Point(714, 7);
             this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Properties.Caption = "而且";
             this.PartsMange_MaterialBankManage_MaterialBankManage_AndMaterialManage_CheckEdit.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
@@ -364,8 +366,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Location = new System.Drawing.Point(564, 4);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Location = new System.Drawing.Point(550, 5);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit" +
     "";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_TextEdit.Size = new System.Drawing.Size(110, 20);
@@ -374,8 +375,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Location = new System.Drawing.Point(448, 4);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Location = new System.Drawing.Point(434, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBo" +
     "xEdit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage2_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -388,7 +388,7 @@
             // 
             // PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit
             // 
-            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Location = new System.Drawing.Point(332, 4);
+            this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Location = new System.Drawing.Point(318, 4);
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Name = "PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBox" +
     "Edit";
             this.PartsMange_MaterialBankManage_MaterialBankManage_TypeQueryMaterialManage_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -485,14 +485,14 @@
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Size = new System.Drawing.Size(862, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(922, 0);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControlBottom.Location = new System.Drawing.Point(0, 577);
-            this.barDockControlBottom.Size = new System.Drawing.Size(862, 0);
+            this.barDockControlBottom.Size = new System.Drawing.Size(922, 0);
             // 
             // barDockControlLeft
             // 
@@ -505,7 +505,7 @@
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(862, 0);
+            this.barDockControlRight.Location = new System.Drawing.Point(922, 0);
             this.barDockControlRight.Size = new System.Drawing.Size(0, 577);
             // 
             // barSubItem1
@@ -588,14 +588,14 @@
             this.barDockControl1.CausesValidation = false;
             this.barDockControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControl1.Location = new System.Drawing.Point(0, 0);
-            this.barDockControl1.Size = new System.Drawing.Size(862, 0);
+            this.barDockControl1.Size = new System.Drawing.Size(922, 0);
             // 
             // barDockControl2
             // 
             this.barDockControl2.CausesValidation = false;
             this.barDockControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControl2.Location = new System.Drawing.Point(0, 577);
-            this.barDockControl2.Size = new System.Drawing.Size(862, 0);
+            this.barDockControl2.Size = new System.Drawing.Size(922, 0);
             // 
             // barDockControl3
             // 
@@ -608,7 +608,7 @@
             // 
             this.barDockControl4.CausesValidation = false;
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControl4.Location = new System.Drawing.Point(862, 0);
+            this.barDockControl4.Location = new System.Drawing.Point(922, 0);
             this.barDockControl4.Size = new System.Drawing.Size(0, 577);
             // 
             // MaterialType_Add_Parent_BarButtonItem
@@ -667,7 +667,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 577);
+            this.ClientSize = new System.Drawing.Size(922, 577);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);

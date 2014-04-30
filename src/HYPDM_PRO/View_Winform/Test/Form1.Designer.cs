@@ -36,6 +36,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.LookUpEdit();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -102,23 +107,58 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "label4";
             // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.Location = new System.Drawing.Point(38, 287);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Properties.Columns.AddRange(new DevExpress.XtraEditors.Controls.LookUpColumnInfo[] {
+            new DevExpress.XtraEditors.Controls.LookUpColumnInfo("Name1", "Name1")});
+            this.comboBoxEdit1.Properties.NullText = "";
+            this.comboBoxEdit1.Properties.PopupSizeable = false;
+            this.comboBoxEdit1.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard;
+            this.comboBoxEdit1.Size = new System.Drawing.Size(140, 20);
+            this.comboBoxEdit1.TabIndex = 8;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(242, 285);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 22);
+            this.comboBox1.TabIndex = 9;
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.Location = new System.Drawing.Point(38, 361);
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(140, 20);
+            this.comboBoxEdit2.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1109, 629);
+            this.Controls.Add(this.comboBoxEdit2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.comboBoxEdit1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,6 +174,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private DevExpress.XtraEditors.LookUpEdit comboBoxEdit1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
 
 
     }

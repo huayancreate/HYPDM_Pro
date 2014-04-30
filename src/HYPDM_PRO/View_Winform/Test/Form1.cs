@@ -179,8 +179,38 @@ namespace View_Winform.Test
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            comboBoxEdit1.Properties.DataSource = CreateTable();
+            comboBoxEdit1.Properties.DisplayMember = "Name1";
+            comboBoxEdit1.Properties.ValueMember = "Id1";
             //var propertyList = propertyService.GetAllMaterialProperty();
-            DesignerForm();
+            //DesignerForm();
+        }
+
+        private DataTable CreateTable()
+        {
+            var dt = new DataTable();
+            dt.Columns.Add("Name1");
+            dt.Columns.Add("Id1");
+            var row = dt.NewRow();
+            row["Name1"] = "test1";
+            row["Id1"] = 1;
+            dt.Rows.Add(row);
+
+            row = dt.NewRow();
+            row["Name1"] = "test2";
+            row["Id1"] = 2;
+            dt.Rows.Add(row);
+
+            row = dt.NewRow();
+            row["Name1"] = "test3";
+            row["Id1"] = 3;
+            dt.Rows.Add(row);
+
+            row = dt.NewRow();
+            row["Name1"] = "test4";
+            row["Id1"] = 4;
+            dt.Rows.Add(row);
+            return dt;
         }
 
     }

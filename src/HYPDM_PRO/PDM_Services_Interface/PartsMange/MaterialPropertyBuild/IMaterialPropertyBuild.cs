@@ -19,7 +19,7 @@ namespace PDM_Services_Interface
         [OperationContract]
         List<MaterialBaseProperty> GetAllMaterialProperty();
         [OperationContract]
-        bool UpdateProperty(string table, Dictionary<string, object> columns, int id);
+        bool UpdatePropertyWithTable(string table, Dictionary<string, object> columns, int id);
         [OperationContract]
         bool AddORUpdateProperty(MaterialBaseProperty baseProperty);
         [OperationContract]
@@ -32,5 +32,7 @@ namespace PDM_Services_Interface
         bool AddORUpdateComboBoxValue(Material_ComboBox_Value comboBoxValue);
         [OperationContract]
         DataTable ToDataTable(IList list, string tableName);
+        [OperationContract]
+        List<MaterialBaseProperty> GetMaterialPropertyByTypeId(int typeId);
     }
 }

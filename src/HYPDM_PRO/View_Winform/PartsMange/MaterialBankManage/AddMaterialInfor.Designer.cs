@@ -222,6 +222,7 @@
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.Size = new System.Drawing.Size(200, 20);
             this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.TabIndex = 79;
+            this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.PartsMange_MaterialBankManage_AddMaterialInfor_BelongClassify_ButtonEdit_ButtonClick);
             // 
             // PartsMange_MaterialBankManage_AddMaterialInfor_Norms_TextEdit
             // 

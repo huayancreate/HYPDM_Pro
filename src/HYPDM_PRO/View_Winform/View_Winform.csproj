@@ -315,6 +315,12 @@
     <Compile Include="PartsMange\MaterialBankManage\AddSupplyQuota.Designer.cs">
       <DependentUpon>AddSupplyQuota.cs</DependentUpon>
     </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialTypeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartsMange\MaterialBankManage\MaterialTypeList.Designer.cs">
+      <DependentUpon>MaterialTypeList.cs</DependentUpon>
+    </Compile>
     <Compile Include="PartsMange\MaterialPegging\MaterialPegging.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1657,6 +1663,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddSupplyQuota.resx">
       <DependentUpon>AddSupplyQuota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartsMange\MaterialBankManage\MaterialTypeList.resx">
+      <DependentUpon>MaterialTypeList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialPegging\MaterialPegging.resx">
       <DependentUpon>MaterialPegging.cs</DependentUpon>

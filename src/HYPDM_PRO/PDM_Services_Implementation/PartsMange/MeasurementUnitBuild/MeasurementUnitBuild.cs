@@ -15,44 +15,6 @@ namespace PDM_Services_Implementation
         Namespace = "PDM_Services_Implementation")]
     public class MeasurementUnitBuild : IMeasurementUnitBuild
     {
-        public IList<Unit> list1()
-        {
-            IList<Unit> U = new BindingList<Unit>();
-            Unit u1 = new Unit();
-            Unit u2 = new Unit();
-
-            u1.name = "刀";
-            u1.number = "1";
-            u1.scale = "1:1";
-            u1.create_date = new DateTime();
-            u1.create_user_id = 1;
-            u1.id = 1;
-            u1.is_default = "";
-            u1.is_delete = "是";
-            u1.modify_date = new DateTime();
-            u1.modify_user_id = 1;
-            u1.unit_group_id = 1;
-
-
-
-            u2.name = "枪";
-            u2.number = "2";
-            u2.scale = "1:3";
-            u1.create_date = new DateTime();
-            u1.create_user_id = 2;
-            u1.id = 2;
-            u1.is_default = "";
-            u1.is_delete = "否";
-            u1.modify_date = new DateTime();
-            u1.modify_user_id = 2;
-            u1.unit_group_id = 2;
-
-
-
-            U.Add(u1);
-            U.Add(u2);
-            return U;
-        }
         public List<UnitGroup> GetAllUnitGroup()
         {
             var UG = new BindingList<UnitGroup>();
@@ -148,6 +110,15 @@ namespace PDM_Services_Implementation
             unitList.Add(u1);
             unitList.Add(u2);
             return unitList;
+        }
+        public Unit GetUnitById(int unitId)
+        {
+            return GetAllUnit().Find(u => u.id == unitId);
+        }
+
+        public UnitGroup GetUnitGroupById(int groupId)
+        {
+            return GetAllUnitGroup().Find(g => g.Id == groupId);
         }
     }
 }

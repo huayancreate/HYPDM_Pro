@@ -242,7 +242,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 var columns = new Dictionary<string, object>();
                 columns.Add("is_show", is_show);
                 columns.Add("order_no", i);
-                propertyService.UpdateProperty("material_base_property", columns, id);
+                propertyService.UpdatePropertyWithTable("material_base_property", columns, id);
             }
         }
     }
