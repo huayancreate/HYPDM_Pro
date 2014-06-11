@@ -54,14 +54,14 @@ namespace View_Winform
             //Application.Run(new LoginForm());
             //Application.Run(new PartsMange.MaterialReviewRuleManage.MaterialBankManage());
             //Application.Run(new PartsMange.MaterialReviewRuleManage.MaterialPropertyBuild());
-            Application.Run(new ProductStructureManage.DeployInformationManage.BOMInformationMaintion());
+            // Application.Run(new ProductStructureManage.DeployInformationManage.BOMInformationMaintion());
             //Application.Run(new DocManage.DocManageTool.DocManageTool());
             //Application.Run(new BPM.TestForm());
             //Application.Run(new Test.Form1());
 
             //Application.Run(new PartsMange.ProductCategoryManage.ProductCategoryManage());
 
-            //Application.Run(new ProductStructureManage.BOMPropertyBuild.BOMPropertyBuild());
+
         }
     }
 }
