@@ -28,326 +28,336 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.pcOpenProcess = new DevExpress.XtraEditors.PanelControl();
+            this.chkIsMine = new DevExpress.XtraEditors.CheckEdit();
+            this.gcProcessList = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
+            this.id = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.name = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.verson = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.creator = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.createTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.state = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.pcNewProcess = new DevExpress.XtraEditors.PanelControl();
+            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.txtCreator = new DevExpress.XtraEditors.TextEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnOK = new DevExpress.XtraEditors.SimpleButton();
+            this.rgProcessSwitch = new DevExpress.XtraEditors.RadioGroup();
+            ((System.ComponentModel.ISupportInitialize)(this.pcOpenProcess)).BeginInit();
+            this.pcOpenProcess.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chkIsMine.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcProcessList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcNewProcess)).BeginInit();
+            this.pcNewProcess.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreator.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgProcessSwitch.Properties)).BeginInit();
             this.SuspendLayout();
             // 
-            // panelControl1
+            // pcOpenProcess
             // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.pcOpenProcess.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.checkEdit1);
-            this.panelControl1.Controls.Add(this.checkEdit2);
-            this.panelControl1.Location = new System.Drawing.Point(2, 2);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(678, 42);
-            this.panelControl1.TabIndex = 7;
+            this.pcOpenProcess.Controls.Add(this.chkIsMine);
+            this.pcOpenProcess.Controls.Add(this.gcProcessList);
+            this.pcOpenProcess.Location = new System.Drawing.Point(12, 46);
+            this.pcOpenProcess.Name = "pcOpenProcess";
+            this.pcOpenProcess.Size = new System.Drawing.Size(655, 216);
+            this.pcOpenProcess.TabIndex = 7;
+            this.pcOpenProcess.Visible = false;
             // 
-            // checkEdit1
+            // chkIsMine
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(417, 10);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "只显示本人创建的模板";
-            this.checkEdit1.Size = new System.Drawing.Size(147, 19);
-            this.checkEdit1.TabIndex = 8;
+            this.chkIsMine.Location = new System.Drawing.Point(5, 5);
+            this.chkIsMine.Name = "chkIsMine";
+            this.chkIsMine.Properties.Caption = "只显示本人创建的模板";
+            this.chkIsMine.Size = new System.Drawing.Size(147, 19);
+            this.chkIsMine.TabIndex = 8;
+            this.chkIsMine.CheckedChanged += new System.EventHandler(this.chkIsMine_CheckedChanged);
             // 
-            // checkEdit2
+            // gcProcessList
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(5, 10);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "打开流程模板";
-            this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit2.Size = new System.Drawing.Size(98, 19);
-            this.checkEdit2.TabIndex = 9;
-            // 
-            // gridControl1
-            // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.gcProcessList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(2, 50);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(678, 149);
-            this.gridControl1.TabIndex = 8;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gcProcessList.Location = new System.Drawing.Point(5, 30);
+            this.gcProcessList.MainView = this.gridView1;
+            this.gcProcessList.Name = "gcProcessList";
+            this.gcProcessList.Size = new System.Drawing.Size(645, 181);
+            this.gcProcessList.TabIndex = 8;
+            this.gcProcessList.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5});
-            this.gridView1.GridControl = this.gridControl1;
+            this.id,
+            this.name,
+            this.verson,
+            this.creator,
+            this.createTime,
+            this.state});
+            this.gridView1.GridControl = this.gcProcessList;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.Click;
+            this.gridView1.OptionsBehavior.ReadOnly = true;
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
-            // gridColumn1
+            // id
             // 
-            this.gridColumn1.Caption = "流程名";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.id.Caption = "流程编号";
+            this.id.FieldName = "Id";
+            this.id.Name = "id";
             // 
-            // gridColumn2
+            // name
             // 
-            this.gridColumn2.Caption = "版本";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
+            this.name.Caption = "流程名";
+            this.name.FieldName = "Name";
+            this.name.Name = "name";
+            this.name.Visible = true;
+            this.name.VisibleIndex = 0;
             // 
-            // gridColumn3
+            // verson
             // 
-            this.gridColumn3.Caption = "创建者";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
+            this.verson.Caption = "版本";
+            this.verson.FieldName = "Version";
+            this.verson.Name = "verson";
+            this.verson.Visible = true;
+            this.verson.VisibleIndex = 1;
             // 
-            // gridColumn4
+            // creator
             // 
-            this.gridColumn4.Caption = "创建日期";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
+            this.creator.Caption = "创建者";
+            this.creator.FieldName = "Creator";
+            this.creator.Name = "creator";
+            this.creator.Visible = true;
+            this.creator.VisibleIndex = 2;
             // 
-            // gridColumn5
+            // createTime
             // 
-            this.gridColumn5.Caption = "状态";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
+            this.createTime.Caption = "创建日期";
+            this.createTime.FieldName = "CreateTime";
+            this.createTime.Name = "createTime";
+            this.createTime.Visible = true;
+            this.createTime.VisibleIndex = 3;
             // 
-            // panelControl2
+            // state
             // 
-            this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.state.Caption = "状态";
+            this.state.FieldName = "State";
+            this.state.Name = "state";
+            this.state.Visible = true;
+            this.state.VisibleIndex = 4;
+            // 
+            // pcNewProcess
+            // 
+            this.pcNewProcess.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl2.Controls.Add(this.checkEdit4);
-            this.panelControl2.Location = new System.Drawing.Point(2, 205);
-            this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(678, 42);
-            this.panelControl2.TabIndex = 9;
+            this.pcNewProcess.Controls.Add(this.textEdit4);
+            this.pcNewProcess.Controls.Add(this.labelControl1);
+            this.pcNewProcess.Controls.Add(this.labelControl3);
+            this.pcNewProcess.Controls.Add(this.groupControl1);
+            this.pcNewProcess.Controls.Add(this.labelControl2);
+            this.pcNewProcess.Controls.Add(this.labelControl4);
+            this.pcNewProcess.Controls.Add(this.txtCreator);
+            this.pcNewProcess.Controls.Add(this.textEdit1);
+            this.pcNewProcess.Controls.Add(this.textEdit2);
+            this.pcNewProcess.Location = new System.Drawing.Point(12, 46);
+            this.pcNewProcess.Name = "pcNewProcess";
+            this.pcNewProcess.Size = new System.Drawing.Size(655, 216);
+            this.pcNewProcess.TabIndex = 9;
             // 
-            // checkEdit4
+            // textEdit4
             // 
-            this.checkEdit4.Location = new System.Drawing.Point(5, 11);
-            this.checkEdit4.Name = "checkEdit4";
-            this.checkEdit4.Properties.Caption = "新建流程模板";
-            this.checkEdit4.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit4.Size = new System.Drawing.Size(98, 19);
-            this.checkEdit4.TabIndex = 9;
+            this.textEdit4.Location = new System.Drawing.Point(66, 14);
+            this.textEdit4.Name = "textEdit4";
+            this.textEdit4.Size = new System.Drawing.Size(222, 20);
+            this.textEdit4.TabIndex = 17;
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(314, 306);
+            this.labelControl1.Location = new System.Drawing.Point(333, 43);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 14);
             this.labelControl1.TabIndex = 10;
             this.labelControl1.Text = "流程状态:";
             // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(331, 270);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(35, 14);
-            this.labelControl2.TabIndex = 11;
-            this.labelControl2.Text = "*版本:";
-            // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(19, 306);
+            this.labelControl3.Location = new System.Drawing.Point(20, 43);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(40, 14);
             this.labelControl3.TabIndex = 12;
             this.labelControl3.Text = "创建者:";
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Location = new System.Drawing.Point(12, 270);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(47, 14);
-            this.labelControl4.TabIndex = 13;
-            this.labelControl4.Text = "*流程名:";
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit1.Location = new System.Drawing.Point(372, 300);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(295, 20);
-            this.textEdit1.TabIndex = 14;
-            // 
-            // textEdit2
-            // 
-            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit2.Location = new System.Drawing.Point(372, 264);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(295, 20);
-            this.textEdit2.TabIndex = 15;
-            // 
-            // textEdit3
-            // 
-            this.textEdit3.Location = new System.Drawing.Point(65, 303);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(243, 20);
-            this.textEdit3.TabIndex = 16;
-            // 
-            // textEdit4
-            // 
-            this.textEdit4.Location = new System.Drawing.Point(65, 267);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(243, 20);
-            this.textEdit4.TabIndex = 17;
             // 
             // groupControl1
             // 
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.listBoxControl1);
-            this.groupControl1.Location = new System.Drawing.Point(2, 329);
+            this.groupControl1.Controls.Add(this.memoEdit1);
+            this.groupControl1.Location = new System.Drawing.Point(5, 66);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(678, 146);
+            this.groupControl1.Size = new System.Drawing.Size(645, 145);
             this.groupControl1.TabIndex = 18;
             this.groupControl1.Text = "流程描述:";
             // 
-            // listBoxControl1
+            // memoEdit1
             // 
-            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.memoEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 20);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(678, 126);
-            this.listBoxControl1.TabIndex = 11;
+            this.memoEdit1.Location = new System.Drawing.Point(5, 25);
+            this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Size = new System.Drawing.Size(635, 115);
+            this.memoEdit1.TabIndex = 0;
             // 
-            // simpleButton1
+            // labelControl2
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(616, 481);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(51, 23);
-            this.simpleButton1.TabIndex = 12;
-            this.simpleButton1.Text = "取消(C)";
+            this.labelControl2.Location = new System.Drawing.Point(350, 17);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(35, 14);
+            this.labelControl2.TabIndex = 11;
+            this.labelControl2.Text = "*版本:";
             // 
-            // simpleButton2
+            // labelControl4
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(558, 481);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(52, 23);
-            this.simpleButton2.TabIndex = 13;
-            this.simpleButton2.Text = "确定(O)";
-            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
+            this.labelControl4.Location = new System.Drawing.Point(13, 17);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(47, 14);
+            this.labelControl4.TabIndex = 13;
+            this.labelControl4.Text = "*流程名:";
+            // 
+            // txtCreator
+            // 
+            this.txtCreator.Location = new System.Drawing.Point(66, 40);
+            this.txtCreator.Name = "txtCreator";
+            this.txtCreator.Size = new System.Drawing.Size(222, 20);
+            this.txtCreator.TabIndex = 16;
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(391, 40);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(254, 20);
+            this.textEdit1.TabIndex = 14;
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.Location = new System.Drawing.Point(391, 14);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Size = new System.Drawing.Size(254, 20);
+            this.textEdit2.TabIndex = 15;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.Location = new System.Drawing.Point(594, 268);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(68, 23);
+            this.btnCancel.TabIndex = 12;
+            this.btnCancel.Text = "取消(&C)";
+            // 
+            // btnOK
+            // 
+            this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOK.Location = new System.Drawing.Point(520, 268);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(68, 23);
+            this.btnOK.TabIndex = 13;
+            this.btnOK.Text = "确定(&O)";
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            // 
+            // rgProcessSwitch
+            // 
+            this.rgProcessSwitch.Location = new System.Drawing.Point(12, 12);
+            this.rgProcessSwitch.Name = "rgProcessSwitch";
+            this.rgProcessSwitch.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.rgProcessSwitch.Properties.Appearance.Options.UseBackColor = true;
+            this.rgProcessSwitch.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "新建(&N)"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "打开(&O)")});
+            this.rgProcessSwitch.Size = new System.Drawing.Size(162, 28);
+            this.rgProcessSwitch.TabIndex = 19;
+            this.rgProcessSwitch.SelectedIndexChanged += new System.EventHandler(this.rgProcessSwitch_SelectedIndexChanged);
             // 
             // ProjectFlowDefinition
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 507);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.textEdit4);
-            this.Controls.Add(this.textEdit3);
-            this.Controls.Add(this.textEdit2);
-            this.Controls.Add(this.textEdit1);
-            this.Controls.Add(this.labelControl4);
-            this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.labelControl2);
-            this.Controls.Add(this.labelControl1);
-            this.Controls.Add(this.panelControl2);
-            this.Controls.Add(this.gridControl1);
-            this.Controls.Add(this.panelControl1);
+            this.ClientSize = new System.Drawing.Size(679, 303);
+            this.Controls.Add(this.rgProcessSwitch);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.pcOpenProcess);
+            this.Controls.Add(this.pcNewProcess);
             this.Name = "ProjectFlowDefinition";
             this.Text = "新建/打开流程模板";
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            this.Load += new System.EventHandler(this.ProjectFlowDefinition_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pcOpenProcess)).EndInit();
+            this.pcOpenProcess.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chkIsMine.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcProcessList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            this.panelControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcNewProcess)).EndInit();
+            this.pcNewProcess.ResumeLayout(false);
+            this.pcNewProcess.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtCreator.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgProcessSwitch.Properties)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraEditors.PanelControl pcOpenProcess;
+        private DevExpress.XtraEditors.CheckEdit chkIsMine;
+        private DevExpress.XtraGrid.GridControl gcProcessList;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit4;
+        private DevExpress.XtraGrid.Columns.GridColumn name;
+        private DevExpress.XtraGrid.Columns.GridColumn verson;
+        private DevExpress.XtraGrid.Columns.GridColumn creator;
+        private DevExpress.XtraGrid.Columns.GridColumn createTime;
+        private DevExpress.XtraGrid.Columns.GridColumn state;
+        private DevExpress.XtraEditors.PanelControl pcNewProcess;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
+        private DevExpress.XtraEditors.TextEdit txtCreator;
         private DevExpress.XtraEditors.TextEdit textEdit4;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton btnCancel;
+        private DevExpress.XtraEditors.SimpleButton btnOK;
+        private DevExpress.XtraEditors.MemoEdit memoEdit1;
+        private DevExpress.XtraEditors.RadioGroup rgProcessSwitch;
+        private DevExpress.XtraGrid.Columns.GridColumn id;
     }
 }

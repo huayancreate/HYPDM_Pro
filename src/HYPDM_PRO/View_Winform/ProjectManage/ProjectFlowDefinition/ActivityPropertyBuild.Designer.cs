@@ -36,7 +36,7 @@
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
+            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -57,7 +57,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -78,7 +78,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(12, 49);
+            this.labelControl2.Location = new System.Drawing.Point(12, 54);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 14);
             this.labelControl2.TabIndex = 7;
@@ -86,7 +86,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(12, 12);
+            this.labelControl3.Location = new System.Drawing.Point(12, 16);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(52, 14);
             this.labelControl3.TabIndex = 8;
@@ -94,7 +94,7 @@
             // 
             // buttonEdit2
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(88, 9);
+            this.buttonEdit2.Location = new System.Drawing.Point(70, 13);
             this.buttonEdit2.Name = "buttonEdit2";
             this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -103,21 +103,21 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(88, 46);
+            this.textEdit1.Location = new System.Drawing.Point(70, 51);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(197, 20);
             this.textEdit1.TabIndex = 20;
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(88, 89);
+            this.textEdit2.Location = new System.Drawing.Point(70, 89);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(183, 20);
+            this.textEdit2.Size = new System.Drawing.Size(174, 20);
             this.textEdit2.TabIndex = 21;
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(273, 92);
+            this.labelControl4.Location = new System.Drawing.Point(250, 92);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(12, 14);
             this.labelControl4.TabIndex = 22;
@@ -127,21 +127,20 @@
             // 
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupControl1.Controls.Add(this.listBoxControl1);
-            this.groupControl1.Location = new System.Drawing.Point(3, 126);
+            this.groupControl1.Controls.Add(this.memoEdit1);
+            this.groupControl1.Location = new System.Drawing.Point(12, 126);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(282, 334);
+            this.groupControl1.Size = new System.Drawing.Size(273, 334);
             this.groupControl1.TabIndex = 23;
             this.groupControl1.Text = "描述";
             // 
-            // listBoxControl1
+            // memoEdit1
             // 
-            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 20);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(282, 314);
-            this.listBoxControl1.TabIndex = 11;
+            this.memoEdit1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.memoEdit1.Location = new System.Drawing.Point(2, 22);
+            this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Size = new System.Drawing.Size(269, 310);
+            this.memoEdit1.TabIndex = 0;
             // 
             // groupControl2
             // 
@@ -151,18 +150,17 @@
             this.groupControl2.Controls.Add(this.gridControl1);
             this.groupControl2.Location = new System.Drawing.Point(291, 12);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(412, 164);
+            this.groupControl2.Size = new System.Drawing.Size(402, 164);
             this.groupControl2.TabIndex = 24;
             this.groupControl2.Text = "输出目录信息";
             // 
             // gridControl1
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(0, 19);
+            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl1.Location = new System.Drawing.Point(2, 22);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(412, 145);
+            this.gridControl1.Size = new System.Drawing.Size(398, 140);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -198,19 +196,17 @@
             this.groupControl3.Controls.Add(this.gridControl2);
             this.groupControl3.Location = new System.Drawing.Point(291, 182);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(412, 278);
+            this.groupControl3.Size = new System.Drawing.Size(402, 278);
             this.groupControl3.TabIndex = 25;
             this.groupControl3.Text = "groupControl3";
             // 
             // gridControl2
             // 
-            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl2.Location = new System.Drawing.Point(0, 20);
+            this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl2.Location = new System.Drawing.Point(2, 22);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(412, 258);
+            this.gridControl2.Size = new System.Drawing.Size(398, 254);
             this.gridControl2.TabIndex = 0;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -249,38 +245,38 @@
             // simpleButton1
             // 
             this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(402, 470);
+            this.simpleButton1.Location = new System.Drawing.Point(390, 466);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(79, 23);
             this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "添加输出(A)";
+            this.simpleButton1.Text = "添加输出(&A)";
             // 
             // simpleButton2
             // 
             this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(652, 470);
+            this.simpleButton2.Location = new System.Drawing.Point(640, 466);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(51, 23);
             this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "取消(C)";
+            this.simpleButton2.Text = "取消(&C)";
             // 
             // simpleButton3
             // 
             this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(589, 470);
+            this.simpleButton3.Location = new System.Drawing.Point(577, 466);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(57, 23);
             this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "确定(O)";
+            this.simpleButton3.Text = "确定(&O)";
             // 
             // simpleButton4
             // 
             this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(487, 470);
+            this.simpleButton4.Location = new System.Drawing.Point(475, 466);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(96, 23);
             this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "关联文档模板(I)";
+            this.simpleButton4.Text = "关联文档模板(&I)";
             // 
             // ActivityPropertyBuild
             // 
@@ -308,7 +304,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -347,6 +343,6 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
+        private DevExpress.XtraEditors.MemoEdit memoEdit1;
     }
 }

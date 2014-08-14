@@ -30,17 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tlCategoryList = new DevExpress.XtraTreeList.TreeList();
-            this.name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.id = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.name = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.viewName = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
+            this.bar1 = new DevExpress.XtraBars.Bar();
+            this.bar2 = new DevExpress.XtraBars.Bar();
             this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            this.barSubItem1 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem2 = new DevExpress.XtraBars.BarSubItem();
-            this.barSubItem3 = new DevExpress.XtraBars.BarSubItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.tlCategoryList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
@@ -52,125 +55,63 @@
             // tlCategoryList
             // 
             this.tlCategoryList.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.id,
             this.name,
-            this.id});
-            this.tlCategoryList.Location = new System.Drawing.Point(14, 13);
+            this.viewName,
+            this.treeListColumn1});
+            this.tlCategoryList.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlCategoryList.Location = new System.Drawing.Point(0, 0);
+            this.tlCategoryList.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.tlCategoryList.LookAndFeel.UseWindowsXPTheme = true;
             this.tlCategoryList.Margin = new System.Windows.Forms.Padding(4);
             this.tlCategoryList.Name = "tlCategoryList";
-            this.tlCategoryList.BeginUnboundLoad();
-            this.tlCategoryList.AppendNode(new object[] {
-            "",
-            "文档管理"}, -1);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档管理器"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档模板管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "审签流程定义"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "审签流程实例化"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档查询"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档权限审批"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档发放管理"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "流程模板引用"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档属性设置"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档密级设置"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "权限审批人设置"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "1",
-            "文档打印"}, 0);
-            this.tlCategoryList.AppendNode(new object[] {
-            "",
-            "系统管理工具"}, -1);
-            this.tlCategoryList.AppendNode(new object[] {
-            null,
-            "编码规则设置"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            null,
-            "编码申请管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            null,
-            "编码字典填充"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.CodeSchemeManage.CodeTool",
-            "编码方案管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.MenuManagement.MenuManagement",
-            "菜单管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.OperationManagement.OperationList",
-            "操作管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.OrganizationManage.OrganizationList",
-            "组织机构管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.RoleManage.RoleList",
-            "角色管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.SystemUserMessageManage.UserList",
-            "用户管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "View_Winform.SystemManagementAndTools.UserGroupManage.UserGroupList",
-            "用户组管理"}, 13);
-            this.tlCategoryList.AppendNode(new object[] {
-            "",
-            "测试"}, -1);
-            this.tlCategoryList.AppendNode(new object[] {
-            null,
-            "1"}, 24);
-            this.tlCategoryList.EndUnboundLoad();
+            this.tlCategoryList.OptionsBehavior.Editable = false;
             this.tlCategoryList.OptionsBehavior.PopulateServiceColumns = true;
             this.tlCategoryList.OptionsPrint.UsePrintStyles = true;
-            this.tlCategoryList.Size = new System.Drawing.Size(233, 257);
+            this.tlCategoryList.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.tlCategoryList.Size = new System.Drawing.Size(251, 631);
             this.tlCategoryList.TabIndex = 68;
-            this.tlCategoryList.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
-            this.tlCategoryList.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeList1_MouseDown);
-            this.tlCategoryList.MouseUp += new System.Windows.Forms.MouseEventHandler(this.tlCategoryList_MouseUp);
-            // 
-            // name
-            // 
-            this.name.Caption = "HYPDM v1.0";
-            this.name.FieldName = "name";
-            this.name.MinWidth = 52;
-            this.name.Name = "name";
-            this.name.Visible = true;
-            this.name.VisibleIndex = 1;
-            this.name.Width = 108;
+            this.tlCategoryList.DoubleClick += new System.EventHandler(this.tlCategoryList_DoubleClick);
+            this.tlCategoryList.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tlCategoryList_MouseClick);
             // 
             // id
             // 
-            this.id.Caption = "HYPDM v1.0";
-            this.id.FieldName = "id";
+            this.id.Caption = "编号";
+            this.id.FieldName = "ID";
             this.id.MinWidth = 52;
             this.id.Name = "id";
-            this.id.Visible = true;
-            this.id.VisibleIndex = 0;
-            this.id.Width = 107;
+            this.id.Width = 111;
+            // 
+            // name
+            // 
+            this.name.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.name.AppearanceHeader.Options.UseBackColor = true;
+            this.name.Caption = "主功能";
+            this.name.FieldName = "Name";
+            this.name.MinWidth = 52;
+            this.name.Name = "name";
+            this.name.Visible = true;
+            this.name.VisibleIndex = 0;
+            this.name.Width = 97;
+            // 
+            // viewName
+            // 
+            this.viewName.Caption = "界面名称";
+            this.viewName.FieldName = "ViewName";
+            this.viewName.Name = "viewName";
+            this.viewName.Width = 100;
+            // 
+            // treeListColumn1
+            // 
+            this.treeListColumn1.Caption = "treeListColumn1";
+            this.treeListColumn1.FieldName = "Assembly";
+            this.treeListColumn1.Name = "treeListColumn1";
             // 
             // splitContainerControl1
             // 
-            this.splitContainerControl1.Location = new System.Drawing.Point(-1, 0);
+            this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerControl1.Location = new System.Drawing.Point(0, 51);
             this.splitContainerControl1.Name = "splitContainerControl1";
-            this.splitContainerControl1.Panel1.Appearance.BackColor = System.Drawing.Color.Red;
-            this.splitContainerControl1.Panel1.Appearance.Options.UseBackColor = true;
             this.splitContainerControl1.Panel1.AppearanceCaption.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.splitContainerControl1.Panel1.AutoScroll = true;
             this.splitContainerControl1.Panel1.CaptionLocation = DevExpress.Utils.Locations.Bottom;
@@ -179,76 +120,89 @@
             this.splitContainerControl1.Panel1.Text = "Panel1";
             this.splitContainerControl1.Panel2.AutoScroll = true;
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1063, 530);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1164, 631);
             this.splitContainerControl1.SplitterPosition = 251;
             this.splitContainerControl1.TabIndex = 69;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
             // barManager1
             // 
+            this.barManager1.Bars.AddRange(new DevExpress.XtraBars.Bar[] {
+            this.bar1,
+            this.bar2});
             this.barManager1.DockControls.Add(this.barDockControlTop);
             this.barManager1.DockControls.Add(this.barDockControlBottom);
             this.barManager1.DockControls.Add(this.barDockControlLeft);
             this.barManager1.DockControls.Add(this.barDockControlRight);
             this.barManager1.Form = this;
             this.barManager1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
-            this.barSubItem1,
-            this.barSubItem2,
-            this.barSubItem3});
-            this.barManager1.MaxItemId = 3;
+            this.barButtonItem2,
+            this.barButtonItem1});
+            this.barManager1.MainMenu = this.bar1;
+            this.barManager1.MaxItemId = 5;
+            // 
+            // bar1
+            // 
+            this.bar1.BarName = "Custom 2";
+            this.bar1.DockCol = 0;
+            this.bar1.DockRow = 0;
+            this.bar1.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
+            this.bar1.OptionsBar.MultiLine = true;
+            this.bar1.OptionsBar.UseWholeRow = true;
+            this.bar1.Text = "Custom 2";
+            // 
+            // bar2
+            // 
+            this.bar2.BarName = "Custom 3";
+            this.bar2.DockCol = 0;
+            this.bar2.DockRow = 1;
+            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
+            this.bar2.Text = "Custom 3";
             // 
             // barDockControlTop
             // 
             this.barDockControlTop.CausesValidation = false;
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlTop.Size = new System.Drawing.Size(1061, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(1164, 51);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 530);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1061, 0);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 682);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1164, 0);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 530);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 51);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 631);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1061, 0);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 530);
+            this.barDockControlRight.Location = new System.Drawing.Point(1164, 51);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 631);
             // 
-            // barSubItem1
+            // barButtonItem2
             // 
-            this.barSubItem1.Caption = "添加";
-            this.barSubItem1.Id = 0;
-            this.barSubItem1.Name = "barSubItem1";
+            this.barButtonItem2.Caption = "打开(&O)";
+            this.barButtonItem2.Id = 4;
+            this.barButtonItem2.Name = "barButtonItem2";
             // 
-            // barSubItem2
+            // barButtonItem1
             // 
-            this.barSubItem2.Caption = "修改";
-            this.barSubItem2.Id = 1;
-            this.barSubItem2.Name = "barSubItem2";
-            // 
-            // barSubItem3
-            // 
-            this.barSubItem3.Caption = "删除";
-            this.barSubItem3.Id = 2;
-            this.barSubItem3.Name = "barSubItem3";
+            this.barButtonItem1.Caption = "打开(&O)";
+            this.barButtonItem1.Id = 3;
+            this.barButtonItem1.Name = "barButtonItem1";
             // 
             // popupMenu1
             // 
             this.popupMenu1.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem1),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem2),
-            new DevExpress.XtraBars.LinkPersistInfo(this.barSubItem3)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.barButtonItem1)});
             this.popupMenu1.Manager = this.barManager1;
             this.popupMenu1.Name = "popupMenu1";
             // 
@@ -258,7 +212,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1061, 530);
+            this.ClientSize = new System.Drawing.Size(1164, 682);
             this.Controls.Add(this.splitContainerControl1);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
@@ -282,15 +236,18 @@
         private DevExpress.XtraTreeList.TreeList tlCategoryList;
         private DevExpress.XtraTreeList.Columns.TreeListColumn name;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
-        private DevExpress.XtraTreeList.Columns.TreeListColumn id;
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.BarDockControl barDockControlTop;
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
         private DevExpress.XtraBars.BarDockControl barDockControlRight;
-        private DevExpress.XtraBars.BarSubItem barSubItem1;
-        private DevExpress.XtraBars.BarSubItem barSubItem2;
-        private DevExpress.XtraBars.BarSubItem barSubItem3;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraBars.Bar bar1;
+        private DevExpress.XtraBars.Bar bar2;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn id;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn viewName;
+        private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }

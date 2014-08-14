@@ -169,7 +169,7 @@
             // simpleButton4
             // 
             this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton4.Location = new System.Drawing.Point(371, 71);
+            this.simpleButton4.Location = new System.Drawing.Point(384, 25);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(55, 23);
             this.simpleButton4.TabIndex = 50;
@@ -178,7 +178,7 @@
             // simpleButton2
             // 
             this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton2.Location = new System.Drawing.Point(371, 100);
+            this.simpleButton2.Location = new System.Drawing.Point(384, 54);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(55, 23);
             this.simpleButton2.TabIndex = 49;
@@ -189,9 +189,9 @@
             this.memoEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.memoEdit1.Location = new System.Drawing.Point(0, 25);
+            this.memoEdit1.Location = new System.Drawing.Point(5, 25);
             this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(357, 127);
+            this.memoEdit1.Size = new System.Drawing.Size(373, 127);
             this.memoEdit1.TabIndex = 0;
             // 
             // simpleButton3

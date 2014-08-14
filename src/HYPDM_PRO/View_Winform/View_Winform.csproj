@@ -79,6 +79,10 @@
       <HintPath>..\HYBPM\Libs\BP.WF.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.BonusSkins.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\DXperience 12.1\Bin\Framework\DevExpress.Charts.v12.1.Core.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.Data.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Design.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.PivotGrid.v12.1.Core, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -87,6 +91,18 @@
     <Reference Include="DevExpress.Xpo.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\DXperience 12.1\Bin\Framework\DevExpress.XtraCharts.v12.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1.Extensions, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\DXperience 12.1\Bin\Framework\DevExpress.XtraCharts.v12.1.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v12.1.UI, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\DXperience 12.1\Bin\Framework\DevExpress.XtraCharts.v12.1.UI.dll</HintPath>
+    </Reference>
     <Reference Include="DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v12.1.Design, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraGrid.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -120,6 +136,12 @@
     </Compile>
     <Compile Include="BaseControls\BaseTreeListControl.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BaseControls\TestUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseControls\TestUserControl.Designer.cs">
+      <DependentUpon>TestUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="BPM\FlowBrowserForm.cs">
       <SubType>Form</SubType>
@@ -157,11 +179,29 @@
     <Compile Include="ChangeManage\ChangeApplication\ChangeManageInterface.Designer.cs">
       <DependentUpon>ChangeManageInterface.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeManage\ChangeApplication\ChooseChangeObject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeManage\ChangeApplication\ChooseChangeObject.Designer.cs">
+      <DependentUpon>ChooseChangeObject.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangeManage\ChangeApplication\CreateChangeApplication.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChangeManage\ChangeApplication\CreateChangeApplication.Designer.cs">
       <DependentUpon>CreateChangeApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeManage\ChangeApplication\FindDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeManage\ChangeApplication\FindDocument.Designer.cs">
+      <DependentUpon>FindDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeManage\ChangeMessageGroupManage\AddGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeManage\ChangeMessageGroupManage\AddGroup.Designer.cs">
+      <DependentUpon>AddGroup.cs</DependentUpon>
     </Compile>
     <Compile Include="ChangeManage\ChangeMessageGroupManage\ChangeMessageGroupManage.cs">
       <SubType>Form</SubType>
@@ -169,11 +209,20 @@
     <Compile Include="ChangeManage\ChangeMessageGroupManage\ChangeMessageGroupManage.Designer.cs">
       <DependentUpon>ChangeMessageGroupManage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeManage\ChangeMessageGroupManage\ChooseEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeManage\ChangeMessageGroupManage\ChooseEmployees.Designer.cs">
+      <DependentUpon>ChooseEmployees.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.Designer.cs">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeManage\InitService.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="CommonTemplet\CommonMenu.cs">
       <SubType>UserControl</SubType>
@@ -271,6 +320,7 @@
     <Compile Include="DataPortAndIntegration\ERPPortList\TechnologyInputERP.Designer.cs">
       <DependentUpon>TechnologyInputERP.cs</DependentUpon>
     </Compile>
+    <Compile Include="DevGridViewCheckbox.cs" />
     <Compile Include="DocManage\ApprovalFlowDefinition\DocFlowDefinitionTool.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -303,6 +353,49 @@
     <Compile Include="LoadWaitForm.designer.cs">
       <DependentUpon>LoadWaitForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\BulletinBoardSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\BulletinBoardSystem.Designer.cs">
+      <DependentUpon>BulletinBoardSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\ChangeNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\ChangeNotification.Designer.cs">
+      <DependentUpon>ChangeNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\Emails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\Emails.Designer.cs">
+      <DependentUpon>Emails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\MyDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\MyDocument.Designer.cs">
+      <DependentUpon>MyDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTaskBox\SettingPersonalInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTaskBox\SettingPersonalInformation.Designer.cs">
+      <DependentUpon>SettingPersonalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PackageCommon.cs" />
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -471,6 +564,12 @@
     <Compile Include="ProjectManage\CreateNewProject\AddProduct.Designer.cs">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManage\CreateNewProject\ChooseEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\CreateNewProject\ChooseEmployee.Designer.cs">
+      <DependentUpon>ChooseEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManage\CreateNewProject\CreateProject.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -513,11 +612,11 @@
     <Compile Include="ProjectManage\ProjectFlowDefinition\CreateAddType.Designer.cs">
       <DependentUpon>CreateAddType.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .cs">
+    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .Designer.cs">
-      <DependentUpon>CreateProjectFlow .cs</DependentUpon>
+    <Compile Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow.Designer.cs">
+      <DependentUpon>CreateProjectFlow.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.cs">
       <SubType>Form</SubType>
@@ -537,6 +636,12 @@
     <Compile Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.Designer.cs">
       <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\AddInputInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\AddInputInformation.Designer.cs">
+      <DependentUpon>AddInputInformation.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -554,6 +659,12 @@
     </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\GanttChart.Designer.cs">
       <DependentUpon>GanttChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\ProductViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\ProductViewer.Designer.cs">
+      <DependentUpon>ProductViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\ProjectPlanManage\ProjectList.cs">
       <SubType>Form</SubType>
@@ -579,6 +690,12 @@
     <Compile Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.Designer.cs">
       <DependentUpon>TaskRelationBuild.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskResolve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\ProjectPlanManage\TaskResolve.Designer.cs">
+      <DependentUpon>TaskResolve.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -591,11 +708,23 @@
     <Compile Include="ProjectManage\SporadicTaskCreate\AddPartsDesignPackage.Designer.cs">
       <DependentUpon>AddPartsDesignPackage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\AddTaskInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\AddTaskInput.Designer.cs">
+      <DependentUpon>AddTaskInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\AddTaskOutPut.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\AddTaskOutPut.Designer.cs">
       <DependentUpon>AddTaskOutPut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CopyArchiveBOM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CopyArchiveBOM.Designer.cs">
+      <DependentUpon>CopyArchiveBOM.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.cs">
       <SubType>Form</SubType>
@@ -608,6 +737,18 @@
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.Designer.cs">
       <DependentUpon>CreateDocPackage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocument.Designer.cs">
+      <DependentUpon>CreateDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocumentPackage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\CreateDocumentPackage.Designer.cs">
+      <DependentUpon>CreateDocumentPackage.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.cs">
       <SubType>Form</SubType>
@@ -638,6 +779,12 @@
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\InputMessage.Designer.cs">
       <DependentUpon>InputMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\QueryArchiveBom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectManage\SporadicTaskCreate\QueryArchiveBom.Designer.cs">
+      <DependentUpon>QueryArchiveBom.cs</DependentUpon>
     </Compile>
     <Compile Include="ProjectManage\SporadicTaskCreate\SporadicTaskCreate.cs">
       <SubType>Form</SubType>
@@ -1561,12 +1708,16 @@
     <Compile Include="Test\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Test\ReflectionHelper.cs" />
     <Compile Include="Test\TestForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Test\TestForm.Designer.cs">
       <DependentUpon>TestForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BaseControls\TestUserControl.resx">
+      <DependentUpon>TestUserControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BPM\FlowBrowserForm.resx">
       <DependentUpon>FlowBrowserForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -1585,11 +1736,23 @@
     <EmbeddedResource Include="ChangeManage\ChangeApplication\ChangeManageInterface.resx">
       <DependentUpon>ChangeManageInterface.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChangeManage\ChangeApplication\ChooseChangeObject.resx">
+      <DependentUpon>ChooseChangeObject.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeApplication\CreateChangeApplication.resx">
       <DependentUpon>CreateChangeApplication.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ChangeManage\ChangeApplication\FindDocument.resx">
+      <DependentUpon>FindDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeManage\ChangeMessageGroupManage\AddGroup.resx">
+      <DependentUpon>AddGroup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeMessageGroupManage\ChangeMessageGroupManage.resx">
       <DependentUpon>ChangeMessageGroupManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeManage\ChangeMessageGroupManage\ChooseEmployees.resx">
+      <DependentUpon>ChooseEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChangeManage\ChangeTaskManage\ChangeTaskManage.resx">
       <DependentUpon>ChangeTaskManage.cs</DependentUpon>
@@ -1657,6 +1820,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoadWaitForm.resx">
       <DependentUpon>LoadWaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\BulletinBoardSystem.resx">
+      <DependentUpon>BulletinBoardSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\ChangeNotification.resx">
+      <DependentUpon>ChangeNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\Emails.resx">
+      <DependentUpon>Emails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\MyDocument.resx">
+      <DependentUpon>MyDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTaskBox\SettingPersonalInformation.resx">
+      <DependentUpon>SettingPersonalInformation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PartsMange\MaterialBankManage\AddMaterialInfor.resx">
       <DependentUpon>AddMaterialInfor.cs</DependentUpon>
@@ -1742,6 +1926,9 @@
     <EmbeddedResource Include="ProjectManage\CreateNewProject\AddProduct.resx">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\CreateNewProject\ChooseEmployee.resx">
+      <DependentUpon>ChooseEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\CreateNewProject\CreateProject.resx">
       <DependentUpon>CreateProject.cs</DependentUpon>
     </EmbeddedResource>
@@ -1763,8 +1950,8 @@
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateAddType.resx">
       <DependentUpon>CreateAddType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow .resx">
-      <DependentUpon>CreateProjectFlow .cs</DependentUpon>
+    <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\CreateProjectFlow.resx">
+      <DependentUpon>CreateProjectFlow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ProjectFlowDefinition.resx">
       <DependentUpon>ProjectFlowDefinition.cs</DependentUpon>
@@ -1775,6 +1962,9 @@
     <EmbeddedResource Include="ProjectManage\ProjectFlowDefinition\ReviewActivityPropertyBuild.resx">
       <DependentUpon>ReviewActivityPropertyBuild.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\AddInputInformation.resx">
+      <DependentUpon>AddInputInformation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\CreateProductDeploy.resx">
       <DependentUpon>CreateProductDeploy.cs</DependentUpon>
     </EmbeddedResource>
@@ -1783,6 +1973,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\GanttChart.resx">
       <DependentUpon>GanttChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\ProductViewer.resx">
+      <DependentUpon>ProductViewer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\ProjectList.resx">
       <DependentUpon>ProjectList.cs</DependentUpon>
@@ -1796,20 +1989,35 @@
     <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskRelationBuild.resx">
       <DependentUpon>TaskRelationBuild.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\ProjectPlanManage\TaskResolve.resx">
+      <DependentUpon>TaskResolve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\ProjectTaskStatistics\ProjectTaskStatistics.resx">
       <DependentUpon>ProjectTaskStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\AddPartsDesignPackage.resx">
       <DependentUpon>AddPartsDesignPackage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\AddTaskInput.resx">
+      <DependentUpon>AddTaskInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\AddTaskOutPut.resx">
       <DependentUpon>AddTaskOutPut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CopyArchiveBOM.resx">
+      <DependentUpon>CopyArchiveBOM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CopyPigeonholeBOM.resx">
       <DependentUpon>CopyPigeonholeBOM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateDocPackage.resx">
       <DependentUpon>CreateDocPackage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateDocument.resx">
+      <DependentUpon>CreateDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateDocumentPackage.resx">
+      <DependentUpon>CreateDocumentPackage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\CreateOfficeTask.resx">
       <DependentUpon>CreateOfficeTask.cs</DependentUpon>
@@ -1825,6 +2033,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\InputMessage.resx">
       <DependentUpon>InputMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\QueryArchiveBom.resx">
+      <DependentUpon>QueryArchiveBom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProjectManage\SporadicTaskCreate\SporadicTaskCreate.resx">
       <DependentUpon>SporadicTaskCreate.cs</DependentUpon>
@@ -2305,11 +2516,6 @@
     <None Include="bin\Debug\View_Winform.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.config" />
     <None Include="bin\Debug\View_Winform.vshost.exe.manifest" />
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
-    <None Include="ClassDiagram3.cd" />
-    <None Include="ClassDiagram4.cd" />
-    <None Include="ClassDiagram5.cd" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\GenerateResource-ResGen.read.1.tlog" />
@@ -2391,6 +2597,10 @@
     <ProjectReference Include="..\HYBPM\HYBPMLib.csproj">
       <Project>{1628e536-72ee-4577-8896-c9521705f787}</Project>
       <Name>HYBPMLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYUtils\HYUtils.csproj">
+      <Project>{748a1911-2e5f-48aa-9479-cdb6a2ffe183}</Project>
+      <Name>HYUtils</Name>
     </ProjectReference>
     <ProjectReference Include="..\PDM_Entity\PDM_Entity.csproj">
       <Project>{0057ECFD-DEE0-4AE5-B38A-65943746DE72}</Project>

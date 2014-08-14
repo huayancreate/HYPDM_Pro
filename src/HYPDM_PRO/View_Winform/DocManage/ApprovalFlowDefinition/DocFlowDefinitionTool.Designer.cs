@@ -278,9 +278,9 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelControl1.Controls.Add(this.groupControl1);
             this.panelControl1.Controls.Add(this.textEdit2);
             this.panelControl1.Controls.Add(this.textEdit1);
@@ -294,9 +294,9 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupControl1.Controls.Add(this.listBoxControl1);
             this.groupControl1.Location = new System.Drawing.Point(226, 80);
             this.groupControl1.Name = "groupControl1";
@@ -306,9 +306,9 @@
             // 
             // listBoxControl1
             // 
-            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxControl1.Location = new System.Drawing.Point(1, 22);
             this.listBoxControl1.Name = "listBoxControl1";
             this.listBoxControl1.Size = new System.Drawing.Size(597, 382);
@@ -316,8 +316,8 @@
             // 
             // textEdit2
             // 
-            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit2.Location = new System.Drawing.Point(291, 17);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(521, 20);
@@ -325,8 +325,8 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textEdit1.Location = new System.Drawing.Point(291, 54);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(521, 20);
@@ -350,8 +350,8 @@
             // 
             // treeList1
             // 
-            this.treeList1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.treeList1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.treeList1.Location = new System.Drawing.Point(0, 20);
             this.treeList1.Name = "treeList1";
             this.treeList1.OptionsPrint.UsePrintStyles = true;

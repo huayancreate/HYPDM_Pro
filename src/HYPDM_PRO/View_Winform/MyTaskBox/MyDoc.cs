@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace View_Winform.MyTaskBox
 {
-    public partial class MyDoc : Form
+    public partial class MyDoc : DevExpress.XtraEditors.XtraForm
     {
         public MyDoc()
         {

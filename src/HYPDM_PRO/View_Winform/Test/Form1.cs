@@ -13,6 +13,7 @@ using System.Windows.Forms;
 using WcfExtension;
 using System.Threading;
 using System.Reflection;
+using View_Winform.BaseControls;
 
 namespace View_Winform.Test
 {
@@ -22,6 +23,10 @@ namespace View_Winform.Test
         public Form1()
         {
             InitializeComponent();
+            TestUserControl control = new TestUserControl(1);
+            control.Location = new Point(491, 65);
+            this.Controls.Add(control);
+            //testUserControl1.TestUserControl();
             //DesignerForm();
         }
         private void DesignerForm1()

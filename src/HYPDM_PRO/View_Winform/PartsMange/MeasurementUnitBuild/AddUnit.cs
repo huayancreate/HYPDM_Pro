@@ -7,18 +7,23 @@ using System.Text;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 using PDM_Entity.PartsMange;
+using PDM_Services_Interface;
+using WcfExtension;
 
 namespace View_Winform.PartsMange.MeasurementUnitBuild
 {
     public partial class AddUnit : DevExpress.XtraEditors.XtraForm
     {
+        IMeasurementUnitBuild unitService = WcfServiceLocator.Create<IMeasurementUnitBuild>();
         public Unit unit { get; set; }
+        public int unitId;
         public AddUnit()
         {
             InitializeComponent();
         }
         private void AddUnit_Load(object sender, EventArgs e)
         {
+            unit = unitService.GetUnitById(unitId);
             btnAddUnit.Click += AddORUpdateUnit;
             btnCancel.Click += FormClose;
             DataBind();

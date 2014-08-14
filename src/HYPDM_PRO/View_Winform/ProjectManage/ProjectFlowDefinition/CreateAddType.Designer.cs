@@ -31,7 +31,7 @@
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnOK = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -40,7 +40,7 @@
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(5, 18);
+            this.checkEdit1.Location = new System.Drawing.Point(9, 19);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "输出目录";
             this.checkEdit1.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
@@ -49,36 +49,36 @@
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(5, 57);
+            this.checkEdit2.Location = new System.Drawing.Point(102, 19);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "输出包";
             this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit2.Size = new System.Drawing.Size(75, 19);
+            this.checkEdit2.Size = new System.Drawing.Size(61, 19);
             this.checkEdit2.TabIndex = 6;
             // 
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.checkEdit1);
             this.panelControl1.Controls.Add(this.checkEdit2);
-            this.panelControl1.Location = new System.Drawing.Point(0, 3);
+            this.panelControl1.Location = new System.Drawing.Point(12, 12);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(200, 106);
+            this.panelControl1.Size = new System.Drawing.Size(178, 55);
             this.panelControl1.TabIndex = 7;
             // 
-            // simpleButton1
+            // btnOK
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(155, 115);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(45, 23);
-            this.simpleButton1.TabIndex = 8;
-            this.simpleButton1.Text = "确定";
+            this.btnOK.Location = new System.Drawing.Point(125, 82);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(65, 23);
+            this.btnOK.TabIndex = 8;
+            this.btnOK.Text = "确定(&O)";
             // 
             // CreateAddType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(202, 146);
-            this.Controls.Add(this.simpleButton1);
+            this.ClientSize = new System.Drawing.Size(202, 118);
+            this.Controls.Add(this.btnOK);
             this.Controls.Add(this.panelControl1);
             this.Name = "CreateAddType";
             this.Text = "选择添加类型";
@@ -95,6 +95,6 @@
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.CheckEdit checkEdit2;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnOK;
     }
 }

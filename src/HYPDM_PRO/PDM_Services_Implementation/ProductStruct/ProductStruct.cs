@@ -147,13 +147,22 @@ namespace PDM_Services_Implementation
         /// </summary>
         /// <param name="id">父节点</param>
         /// <param name="strucList">返回的集合</param>
-        private void GetAllChildBOMStruct(int id, ref List<BOM_Struct> strucList)
+        private void GetAllChildBOMStruct(int id, ref List<BOM_Struct> structList)
         {
             var list = new Test.BOMData().GetAllStruct().FindAll(s => s.Parent_Id == id);
             foreach (var s in list)
             {
-                strucList.Add(s);
-                GetAllChildBOMStruct(s.Id, ref strucList);
+                structList.Add(s);
+                GetAllChildBOMStruct(s.Id, ref structList);
+            }
+        }
+
+        public void GetChildBOMStruct(int id, ref List<BOM_Struct> structList)
+        {
+            var list = new Test.BOMData().GetAllStruct().FindAll(s => s.Parent_Id == id);
+            foreach (var s in list)
+            {
+                structList.Add(s);
             }
         }
         #endregion
@@ -472,5 +481,12 @@ namespace PDM_Services_Implementation
             return result;
         }
         #endregion
+
+
+        public List<BOM_Struct> GetBOMStructListByStructId(int structId, int bomId)
+        {
+            var sql = "select * from bom_struct where id=" + structId + " and bom_id=" + bomId + " and is_delete='0'";
+            return new Test.BOMData().GetStructListByStructId(structId, bomId);
+        }
     }
 }

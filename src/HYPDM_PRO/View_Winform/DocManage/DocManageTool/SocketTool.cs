@@ -21,11 +21,11 @@ namespace View_Winform.DocManage.DocManageTool
         private string ip;
         private int port;
         private string filename;
-        public  TcpListener lisner;
+        public TcpListener lisner;
         public Thread TempThread;
         public bool flag = false;
 
-        public SocketServer(string ip, int port,string filename)
+        public SocketServer(string ip, int port, string filename)
         {
             this.ip = ip;
             this.port = port;
@@ -66,7 +66,7 @@ namespace View_Winform.DocManage.DocManageTool
                 //获得[最后一个包的大小]
                 string bagLast = System.Text.Encoding.Unicode.GetString(TransferFiles.ReceiveVarData(client));
                 //创建一个新文件
-                string   fileFullName = filename + SendFileName;
+                string fileFullName = filename + SendFileName;
                 FileStream MyFileStream = new FileStream(fileFullName, FileMode.Create, FileAccess.Write, FileShare.Read);
                 //已发送包的个数
                 int SendedCount = 0;
@@ -100,7 +100,7 @@ namespace View_Winform.DocManage.DocManageTool
     public class Client
     {
         // 文件名
-        private string filename ;
+        private string filename;
         // ip地址
         private string ip;
         // 端口号
@@ -114,7 +114,7 @@ namespace View_Winform.DocManage.DocManageTool
         /// <param name="filename"></param>
         /// <param name="ip"></param>
         /// <param name="port"></param>
-        public Client(string filename,string genfile, string ip, int port)
+        public Client(string filename, string genfile, string ip, int port)
         {
             this.filename = filename;
             this.genfile = genfile;
@@ -188,7 +188,7 @@ namespace View_Winform.DocManage.DocManageTool
             client.Close();
             //关闭文件流  
             EzoneStream.Close();
-        }  
+        }
     }
 
     /// <summary>

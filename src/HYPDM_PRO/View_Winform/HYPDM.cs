@@ -9,100 +9,78 @@ using DevExpress.XtraEditors;
 using DevExpress.XtraTreeList;
 using DevExpress.XtraTreeList.Nodes;
 using System.Reflection;
+using WcfExtension;
+using PDM_Services_Interface;
+using HYUtils.Icons;
 
 namespace View_Winform
 {
     public partial class HYPDM : DevExpress.XtraEditors.XtraForm
     {
+
         public HYPDM()
         {
             InitializeComponent();
         }
 
-        private void treeList1_FocusedNodeChanged(object sender, DevExpress.XtraTreeList.FocusedNodeChangedEventArgs e)
-        {
-
-        }
-
-        //////private void treeList1_Click(object sender, EventArgs e)
-        //////{
-        //////    /* DevExpress.XtraTreeList.TreeList tree = sender as DevExpress.XtraTreeList.TreeList;
-        //////     DevExpress.XtraTreeList.TreeListHitInfo info = tree.CalcHitInfo(tree.PointToClient(MousePosition));
-
-        //////     if(info.Node.Id.Equals("1")){
-        //////         MessageBox.Show("1");
-        //////     }*/
-        //////    if (tlCategoryList.FocusedNode.GetValue("1").ToString() == "1")
-        //////    {
-        //////        MessageBox.Show("1");
-        //////    }
-
-        //////}
-
         private void HYPDM_Load(object sender, EventArgs e)
         {
-
+            System.Threading.Thread.Sleep(10000);
+            tlCategoryList.DataSource = WcfServiceLocator.Create<IHyPdmMainService>().getHuayanPdmMainMenu();
+            var imagelist = new ImageList();
+            imagelist.Images.Add(SystemIcon.GetFolderIcon(true).ToBitmap());
+            tlCategoryList.SelectImageList = imagelist;
+            tlCategoryList.Nodes[0].ImageIndex = 0;
         }
 
-        private string CategoryID = null;
-        private string CategoryName = null;
-        private void treeList1_MouseDown(object sender, MouseEventArgs e)
+        private void CreateForm(string assembly, string name)
         {
+            if (String.IsNullOrEmpty(name)) return;
             splitContainerControl1.Panel2.Controls.Clear();
-            TreeListHitInfo hi = tlCategoryList.CalcHitInfo(e.Location);
-            TreeListNode CurrentNode = hi.Node;
-            if (CurrentNode != null)
-            {
-                CategoryID = CurrentNode.GetValue("id").ToString();
-                CategoryName = CurrentNode.GetValue("name").ToString();
-                //CategoryName = CurrentNode.GetValue("CategoryName").ToString();
-            }
-
-            if (e.Button == MouseButtons.Left)//左键
-            {
-                CreateForm(CategoryName);
-                //Do something
-                //lblCategoryName.Text = CategoryName;
-                //MessageBox.Show("1");
-            }
-            else if (e.Button == MouseButtons.Right)//右键
-            {
-                //tlCategoryList.ContextMenuStrip = null;
-
-                //TreeListHitInfo hInfo = tlCategoryList.CalcHitInfo(new Point(e.X, e.Y));
-                //TreeListNode node = hInfo.Node;
-                //tlCategoryList.FocusedNode = node;
-                //if (node != null)
-                //{
-                    
-                //}
-                popupMenu1.ShowPopup(this.PointToScreen(e.Location));
-            }
-
-        }
-
-
-        private void CreateForm(string strName)
-        {
-            if (strName == "" || strName == null) return;
-
-            Assembly assembly = Assembly.GetExecutingAssembly();
             this.Cursor = Cursors.WaitCursor;
-            string name = strName; //类的名字
-            Form fm = assembly.CreateInstance(name) as Form;
-            //fm.MdiParent = this.ParentForm;
+            Form fm = Assembly.Load(assembly).CreateInstance(name) as Form;
+            fm.MdiParent = this.ParentForm;
             fm.TopLevel = false;
             splitContainerControl1.Panel2.Controls.Add(fm);
-            fm.Show();
             //fm.Dock = DockStyle.Fill;
-            //this.Cursor = Cursors.Default;
+            fm.Show();
+            this.Cursor = Cursors.Default;
         }
 
-        private void tlCategoryList_MouseUp(object sender, MouseEventArgs e)
+        private void tlCategoryList_MouseClick(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Right)
+            string CategoryID = null;
+            string CategoryName = null;
+            var hi = tlCategoryList.CalcHitInfo(e.Location);
+            var CurrentNode = hi.Node;
+            if (CurrentNode != null)
             {
-               // popupMenu1.HidePopup();
+                CategoryID = CurrentNode.GetValue("ID").ToString();
+                CategoryName = CurrentNode.GetValue("ViewName") + "";
+                if (e.Button == MouseButtons.Right && !String.IsNullOrEmpty(CategoryName))//右键
+                {
+                    //tlCategoryList.ContextMenuStrip = null;
+
+                    //TreeListHitInfo hInfo = tlCategoryList.CalcHitInfo(new Point(e.X, e.Y));
+                    //TreeListNode node = hInfo.Node;
+                    //tlCategoryList.FocusedNode = node;
+                    //if (node != null)
+                    //{
+
+                    //}
+                    popupMenu1.ShowPopup(this.PointToScreen(e.Location));
+                }
+            }
+        }
+
+        private void tlCategoryList_DoubleClick(object sender, EventArgs e)
+        {
+            var currentnode = tlCategoryList.FocusedNode;
+            var categoryname = currentnode.GetValue("ViewName") + "";
+            var assembly = currentnode.GetValue("Assembly") + "";
+            if (!String.IsNullOrEmpty(assembly) && !String.IsNullOrEmpty(categoryname))
+            {
+                CreateForm(assembly, categoryname);
             }
         }
     }

@@ -32,33 +32,32 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
+            this.teDocumentVersioin = new DevExpress.XtraEditors.TextEdit();
+            this.teDocumentName = new DevExpress.XtraEditors.TextEdit();
+            this.beDocumentProcess = new DevExpress.XtraEditors.ButtonEdit();
+            this.beDocumentCode = new DevExpress.XtraEditors.ButtonEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
+            this.mmeRemark = new DevExpress.XtraEditors.MemoEdit();
+            this.ceSubmitTask = new DevExpress.XtraEditors.CheckEdit();
+            this.ceMultiplayerMissions = new DevExpress.XtraEditors.CheckEdit();
+            this.btnBack = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnAddDocument = new DevExpress.XtraEditors.SimpleButton();
+            this.btnFinish = new DevExpress.XtraEditors.SimpleButton();
+            ((System.ComponentModel.ISupportInitialize)(this.teDocumentVersioin.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teDocumentName.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beDocumentProcess.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beDocumentCode.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mmeRemark.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ceSubmitTask.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ceMultiplayerMissions.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(339, 56);
+            this.labelControl1.Location = new System.Drawing.Point(291, 51);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 14);
             this.labelControl1.TabIndex = 6;
@@ -66,7 +65,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(339, 12);
+            this.labelControl2.Location = new System.Drawing.Point(291, 25);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 14);
             this.labelControl2.TabIndex = 7;
@@ -74,7 +73,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(12, 56);
+            this.labelControl3.Location = new System.Drawing.Point(27, 51);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(52, 14);
             this.labelControl3.TabIndex = 8;
@@ -82,165 +81,154 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(12, 12);
+            this.labelControl4.Location = new System.Drawing.Point(27, 25);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(52, 14);
             this.labelControl4.TabIndex = 9;
             this.labelControl4.Text = "文档编码:";
             // 
-            // textEdit1
+            // teDocumentVersioin
             // 
-            this.textEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit1.Location = new System.Drawing.Point(397, 53);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(284, 20);
-            this.textEdit1.TabIndex = 13;
+            this.teDocumentVersioin.Location = new System.Drawing.Point(349, 48);
+            this.teDocumentVersioin.Name = "teDocumentVersioin";
+            this.teDocumentVersioin.Size = new System.Drawing.Size(194, 20);
+            this.teDocumentVersioin.TabIndex = 13;
             // 
-            // textEdit2
+            // teDocumentName
             // 
-            this.textEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.textEdit2.Location = new System.Drawing.Point(397, 9);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(284, 20);
-            this.textEdit2.TabIndex = 14;
+            this.teDocumentName.Location = new System.Drawing.Point(349, 22);
+            this.teDocumentName.Name = "teDocumentName";
+            this.teDocumentName.Size = new System.Drawing.Size(194, 20);
+            this.teDocumentName.TabIndex = 14;
             // 
-            // buttonEdit2
+            // beDocumentProcess
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(70, 53);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.beDocumentProcess.Location = new System.Drawing.Point(85, 48);
+            this.beDocumentProcess.Name = "beDocumentProcess";
+            this.beDocumentProcess.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(263, 20);
-            this.buttonEdit2.TabIndex = 19;
+            this.beDocumentProcess.Size = new System.Drawing.Size(170, 20);
+            this.beDocumentProcess.TabIndex = 19;
             // 
-            // buttonEdit1
+            // beDocumentCode
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(70, 9);
-            this.buttonEdit1.Name = "buttonEdit1";
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.beDocumentCode.Location = new System.Drawing.Point(85, 22);
+            this.beDocumentCode.Name = "beDocumentCode";
+            this.beDocumentCode.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(263, 20);
-            this.buttonEdit1.TabIndex = 20;
+            this.beDocumentCode.Size = new System.Drawing.Size(170, 20);
+            this.beDocumentCode.TabIndex = 20;
             // 
             // groupControl1
             // 
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.listBoxControl1);
-            this.groupControl1.Location = new System.Drawing.Point(4, 79);
+            this.groupControl1.Controls.Add(this.mmeRemark);
+            this.groupControl1.Location = new System.Drawing.Point(12, 93);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(690, 287);
+            this.groupControl1.Size = new System.Drawing.Size(545, 130);
             this.groupControl1.TabIndex = 21;
             this.groupControl1.Text = "备注";
             // 
-            // listBoxControl1
+            // mmeRemark
             // 
-            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 18);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(686, 269);
-            this.listBoxControl1.TabIndex = 11;
+            this.mmeRemark.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mmeRemark.Location = new System.Drawing.Point(2, 22);
+            this.mmeRemark.Name = "mmeRemark";
+            this.mmeRemark.Size = new System.Drawing.Size(541, 106);
+            this.mmeRemark.TabIndex = 0;
             // 
-            // checkEdit1
+            // ceSubmitTask
             // 
-            this.checkEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit1.Location = new System.Drawing.Point(83, 381);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "提交任务";
-            this.checkEdit1.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit1.TabIndex = 22;
+            this.ceSubmitTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ceSubmitTask.Location = new System.Drawing.Point(110, 231);
+            this.ceSubmitTask.Name = "ceSubmitTask";
+            this.ceSubmitTask.Properties.Caption = "提交任务";
+            this.ceSubmitTask.Size = new System.Drawing.Size(75, 19);
+            this.ceSubmitTask.TabIndex = 22;
             // 
-            // checkEdit2
+            // ceMultiplayerMissions
             // 
-            this.checkEdit2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit2.Location = new System.Drawing.Point(2, 381);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "多人任务";
-            this.checkEdit2.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit2.TabIndex = 23;
+            this.ceMultiplayerMissions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.ceMultiplayerMissions.Location = new System.Drawing.Point(29, 231);
+            this.ceMultiplayerMissions.Name = "ceMultiplayerMissions";
+            this.ceMultiplayerMissions.Properties.Caption = "多人任务";
+            this.ceMultiplayerMissions.Size = new System.Drawing.Size(75, 19);
+            this.ceMultiplayerMissions.TabIndex = 23;
             // 
-            // simpleButton1
+            // btnBack
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(408, 416);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(72, 23);
-            this.simpleButton1.TabIndex = 12;
-            this.simpleButton1.Text = "上一步(B)";
+            this.btnBack.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBack.Location = new System.Drawing.Point(327, 258);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(72, 23);
+            this.btnBack.TabIndex = 12;
+            this.btnBack.Text = "上一步(&B)";
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // simpleButton2
+            // btnCancel
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(486, 416);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(72, 23);
-            this.simpleButton2.TabIndex = 13;
-            this.simpleButton2.Text = "下一步(N)";
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.Location = new System.Drawing.Point(483, 258);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(72, 23);
+            this.btnCancel.TabIndex = 14;
+            this.btnCancel.Text = "取消(&C)";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // simpleButton3
+            // btnAddDocument
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(630, 416);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton3.TabIndex = 14;
-            this.simpleButton3.Text = "取消(C)";
+            this.btnAddDocument.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnAddDocument.Location = new System.Drawing.Point(191, 229);
+            this.btnAddDocument.Name = "btnAddDocument";
+            this.btnAddDocument.Size = new System.Drawing.Size(90, 23);
+            this.btnAddDocument.TabIndex = 15;
+            this.btnAddDocument.Text = "加入文档(&E)";
+            this.btnAddDocument.Click += new System.EventHandler(this.btnAddDocument_Click);
             // 
-            // simpleButton4
+            // btnFinish
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(164, 377);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(64, 23);
-            this.simpleButton4.TabIndex = 15;
-            this.simpleButton4.Text = "编辑文档";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton5.Location = new System.Drawing.Point(564, 416);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(60, 23);
-            this.simpleButton5.TabIndex = 16;
-            this.simpleButton5.Text = "完成(F)";
+            this.btnFinish.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFinish.Location = new System.Drawing.Point(405, 258);
+            this.btnFinish.Name = "btnFinish";
+            this.btnFinish.Size = new System.Drawing.Size(72, 23);
+            this.btnFinish.TabIndex = 16;
+            this.btnFinish.Text = "完成(&F)";
+            this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
             // 
             // CreateOfficeTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(693, 442);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.checkEdit2);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.checkEdit1);
+            this.ClientSize = new System.Drawing.Size(569, 293);
+            this.Controls.Add(this.btnBack);
+            this.Controls.Add(this.btnFinish);
+            this.Controls.Add(this.ceMultiplayerMissions);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnAddDocument);
+            this.Controls.Add(this.ceSubmitTask);
             this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.buttonEdit1);
-            this.Controls.Add(this.buttonEdit2);
-            this.Controls.Add(this.textEdit2);
-            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.beDocumentCode);
+            this.Controls.Add(this.beDocumentProcess);
+            this.Controls.Add(this.teDocumentName);
+            this.Controls.Add(this.teDocumentVersioin);
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Name = "CreateOfficeTask";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "办公任务创建";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teDocumentVersioin.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teDocumentName.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beDocumentProcess.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beDocumentCode.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mmeRemark.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ceSubmitTask.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ceMultiplayerMissions.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,18 +240,17 @@
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
+        private DevExpress.XtraEditors.TextEdit teDocumentVersioin;
+        private DevExpress.XtraEditors.TextEdit teDocumentName;
+        private DevExpress.XtraEditors.ButtonEdit beDocumentProcess;
+        private DevExpress.XtraEditors.ButtonEdit beDocumentCode;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.CheckEdit ceSubmitTask;
+        private DevExpress.XtraEditors.CheckEdit ceMultiplayerMissions;
+        private DevExpress.XtraEditors.SimpleButton btnBack;
+        private DevExpress.XtraEditors.SimpleButton btnCancel;
+        private DevExpress.XtraEditors.SimpleButton btnAddDocument;
+        private DevExpress.XtraEditors.SimpleButton btnFinish;
+        private DevExpress.XtraEditors.MemoEdit mmeRemark;
     }
 }

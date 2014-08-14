@@ -35,6 +35,7 @@
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.btnOK = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
@@ -97,11 +98,20 @@
             this.labelControl5.TabIndex = 14;
             this.labelControl5.Text = "设计";
             // 
+            // btnOK
+            // 
+            this.btnOK.Location = new System.Drawing.Point(167, 212);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.TabIndex = 15;
+            this.btnOK.Text = "确定(&O)";
+            // 
             // TaskRelationBuild
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.btnOK);
             this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.comboBoxEdit1);
@@ -127,5 +137,6 @@
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.SimpleButton btnOK;
     }
 }

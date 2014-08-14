@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -42,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeManagement\ChangeManagementService.cs" />
     <Compile Include="DocManage\DocGrantManage.cs" />
     <Compile Include="DocManage\DocManageTool.cs" />
     <Compile Include="DocManage\DocPropertyBuild.cs" />
     <Compile Include="DocManage\DocSecurityLevelBuild.cs" />
     <Compile Include="DocManage\DocTemplateCategoryManage.cs" />
     <Compile Include="DocManage\SocketServer.cs" />
+    <Compile Include="HyPdmMainService.cs" />
     <Compile Include="Log\ILogService.cs" />
     <Compile Include="Log\LogService.cs" />
+    <Compile Include="MyTaskBox\MyTaskBoxService.cs" />
     <Compile Include="PartsMange\MaterialBankManage\AddMaterialInfor.cs" />
     <Compile Include="PartsMange\MaterialBankManage\AddType.cs" />
     <Compile Include="PartsMange\MaterialBankManage\CustomExportItem.cs" />
@@ -70,6 +77,16 @@
     <Compile Include="ProductStruct\ProductStruct.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ProjectManage\CreateNewProjectService.cs" />
+    <Compile Include="ProjectManage\PersonnelTaskInquireService.cs" />
+    <Compile Include="ProjectManage\ProjectCalendarService.cs" />
+    <Compile Include="ProjectManage\ProjectExportService.cs" />
+    <Compile Include="ProjectManage\ProjectFlowDefinitionService.cs" />
+    <Compile Include="ProjectManage\ProjectPlanManageService.cs" />
+    <Compile Include="ProjectManage\ProjectService.cs" />
+    <Compile Include="ProjectManage\ProjectTaskStatisticsService.cs" />
+    <Compile Include="ProjectManage\SporadicTaskCreateService.cs" />
+    <Compile Include="ProjectManage\SporadicTaskManageService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeApplyManage.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\CodeDictionaryFill.cs" />
@@ -89,6 +106,10 @@
     <Compile Include="Test\TestService3.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HYUtils\HYUtils.csproj">
+      <Project>{748a1911-2e5f-48aa-9479-cdb6a2ffe183}</Project>
+      <Name>HYUtils</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PDM_Entity\PDM_Entity.csproj">
       <Project>{0057ecfd-dee0-4ae5-b38a-65943746de72}</Project>
       <Name>PDM_Entity</Name>

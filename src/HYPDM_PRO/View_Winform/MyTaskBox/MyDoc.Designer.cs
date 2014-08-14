@@ -97,8 +97,8 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupControl1.Controls.Add(this.simpleButton6);
             this.groupControl1.Controls.Add(this.simpleButton5);
             this.groupControl1.Controls.Add(this.simpleButton4);
@@ -128,42 +128,42 @@
             this.groupControl1.Controls.Add(this.textEdit7);
             this.groupControl1.Location = new System.Drawing.Point(2, 1);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(229, 562);
+            this.groupControl1.Size = new System.Drawing.Size(241, 401);
             this.groupControl1.TabIndex = 83;
             this.groupControl1.Text = "查询条件";
             // 
             // simpleButton6
             // 
             this.simpleButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton6.Location = new System.Drawing.Point(10, 528);
+            this.simpleButton6.Location = new System.Drawing.Point(12, 361);
             this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton6.Size = new System.Drawing.Size(64, 27);
             this.simpleButton6.TabIndex = 89;
             this.simpleButton6.Text = "白";
             // 
             // simpleButton5
             // 
             this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton5.Location = new System.Drawing.Point(10, 497);
+            this.simpleButton5.Location = new System.Drawing.Point(12, 325);
             this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton5.Size = new System.Drawing.Size(64, 27);
             this.simpleButton5.TabIndex = 88;
             this.simpleButton5.Text = "黄";
             // 
             // simpleButton4
             // 
             this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(10, 473);
+            this.simpleButton4.Location = new System.Drawing.Point(12, 297);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton4.Size = new System.Drawing.Size(64, 27);
             this.simpleButton4.TabIndex = 87;
             this.simpleButton4.Text = "红";
             // 
             // labelControl14
             // 
-            this.labelControl14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelControl14.Location = new System.Drawing.Point(79, 531);
+            this.labelControl14.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelControl14.Location = new System.Drawing.Point(92, 364);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(48, 14);
             this.labelControl14.TabIndex = 73;
@@ -172,7 +172,7 @@
             // labelControl13
             // 
             this.labelControl13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelControl13.Location = new System.Drawing.Point(79, 502);
+            this.labelControl13.Location = new System.Drawing.Point(92, 331);
             this.labelControl13.Name = "labelControl13";
             this.labelControl13.Size = new System.Drawing.Size(48, 14);
             this.labelControl13.TabIndex = 72;
@@ -181,7 +181,7 @@
             // labelControl12
             // 
             this.labelControl12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelControl12.Location = new System.Drawing.Point(79, 473);
+            this.labelControl12.Location = new System.Drawing.Point(92, 297);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(72, 14);
             this.labelControl12.TabIndex = 71;
@@ -190,7 +190,7 @@
             // labelControl11
             // 
             this.labelControl11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelControl11.Location = new System.Drawing.Point(79, 453);
+            this.labelControl11.Location = new System.Drawing.Point(92, 273);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(120, 14);
             this.labelControl11.TabIndex = 70;
@@ -199,7 +199,7 @@
             // labelControl10
             // 
             this.labelControl10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelControl10.Location = new System.Drawing.Point(62, 453);
+            this.labelControl10.Location = new System.Drawing.Point(72, 273);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(7, 14);
             this.labelControl10.TabIndex = 69;
@@ -208,7 +208,7 @@
             // labelControl9
             // 
             this.labelControl9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.labelControl9.Location = new System.Drawing.Point(10, 453);
+            this.labelControl9.Location = new System.Drawing.Point(12, 273);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(48, 14);
             this.labelControl9.TabIndex = 68;
@@ -217,7 +217,7 @@
             // dateEdit1
             // 
             this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(62, 210);
+            this.dateEdit1.Location = new System.Drawing.Point(72, 245);
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -225,12 +225,12 @@
             this.dateEdit1.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
             this.dateEdit1.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.dateEdit1.Size = new System.Drawing.Size(100, 20);
+            this.dateEdit1.Size = new System.Drawing.Size(117, 20);
             this.dateEdit1.TabIndex = 67;
             // 
             // labelControl8
             // 
-            this.labelControl8.Location = new System.Drawing.Point(20, 211);
+            this.labelControl8.Location = new System.Drawing.Point(23, 246);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(36, 14);
             this.labelControl8.TabIndex = 65;
@@ -238,7 +238,7 @@
             // 
             // labelControl7
             // 
-            this.labelControl7.Location = new System.Drawing.Point(20, 187);
+            this.labelControl7.Location = new System.Drawing.Point(23, 218);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(36, 14);
             this.labelControl7.TabIndex = 64;
@@ -246,7 +246,7 @@
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(195, 158);
+            this.labelControl6.Location = new System.Drawing.Point(206, 184);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(12, 14);
             this.labelControl6.TabIndex = 63;
@@ -254,7 +254,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(195, 133);
+            this.labelControl4.Location = new System.Drawing.Point(206, 155);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(12, 14);
             this.labelControl4.TabIndex = 62;
@@ -262,69 +262,69 @@
             // 
             // textEdit3
             // 
-            this.textEdit3.Location = new System.Drawing.Point(105, 155);
+            this.textEdit3.Location = new System.Drawing.Point(110, 181);
             this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(75, 20);
+            this.textEdit3.Size = new System.Drawing.Size(87, 20);
             this.textEdit3.TabIndex = 61;
             // 
             // textEdit2
             // 
-            this.textEdit2.Location = new System.Drawing.Point(105, 130);
+            this.textEdit2.Location = new System.Drawing.Point(110, 152);
             this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(75, 20);
+            this.textEdit2.Size = new System.Drawing.Size(87, 20);
             this.textEdit2.TabIndex = 60;
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(18, 156);
+            this.checkEdit2.Location = new System.Drawing.Point(21, 182);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "未看文档距";
-            this.checkEdit2.Size = new System.Drawing.Size(97, 19);
+            this.checkEdit2.Size = new System.Drawing.Size(113, 19);
             this.checkEdit2.TabIndex = 59;
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(18, 131);
+            this.checkEdit1.Location = new System.Drawing.Point(21, 153);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "发放时间";
-            this.checkEdit1.Size = new System.Drawing.Size(97, 19);
+            this.checkEdit1.Size = new System.Drawing.Size(113, 19);
             this.checkEdit1.TabIndex = 58;
             // 
             // buttonEdit1
             // 
-            this.buttonEdit1.Location = new System.Drawing.Point(78, 92);
+            this.buttonEdit1.Location = new System.Drawing.Point(91, 107);
             this.buttonEdit1.Name = "buttonEdit1";
             this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(102, 20);
+            this.buttonEdit1.Size = new System.Drawing.Size(119, 20);
             this.buttonEdit1.TabIndex = 57;
             // 
             // textEdit4
             // 
-            this.textEdit4.Location = new System.Drawing.Point(78, 69);
+            this.textEdit4.Location = new System.Drawing.Point(91, 80);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.textEdit4.Size = new System.Drawing.Size(102, 20);
+            this.textEdit4.Size = new System.Drawing.Size(119, 20);
             this.textEdit4.TabIndex = 56;
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(78, 46);
+            this.textEdit1.Location = new System.Drawing.Point(91, 54);
             this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(102, 20);
+            this.textEdit1.Size = new System.Drawing.Size(119, 20);
             this.textEdit1.TabIndex = 55;
             // 
             // textEdit6
             // 
-            this.textEdit6.Location = new System.Drawing.Point(78, 22);
+            this.textEdit6.Location = new System.Drawing.Point(91, 26);
             this.textEdit6.Name = "textEdit6";
-            this.textEdit6.Size = new System.Drawing.Size(102, 20);
+            this.textEdit6.Size = new System.Drawing.Size(119, 20);
             this.textEdit6.TabIndex = 54;
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(20, 72);
+            this.labelControl3.Location = new System.Drawing.Point(23, 84);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(52, 14);
             this.labelControl3.TabIndex = 53;
@@ -332,7 +332,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(20, 95);
+            this.labelControl2.Location = new System.Drawing.Point(23, 111);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 14);
             this.labelControl2.TabIndex = 52;
@@ -340,7 +340,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(20, 49);
+            this.labelControl1.Location = new System.Drawing.Point(23, 57);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 14);
             this.labelControl1.TabIndex = 51;
@@ -348,7 +348,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(20, 25);
+            this.labelControl5.Location = new System.Drawing.Point(23, 29);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(52, 14);
             this.labelControl5.TabIndex = 50;
@@ -357,7 +357,7 @@
             // textEdit7
             // 
             this.textEdit7.EditValue = null;
-            this.textEdit7.Location = new System.Drawing.Point(62, 184);
+            this.textEdit7.Location = new System.Drawing.Point(72, 215);
             this.textEdit7.Name = "textEdit7";
             this.textEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -365,18 +365,18 @@
             this.textEdit7.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.None;
             this.textEdit7.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.textEdit7.Size = new System.Drawing.Size(100, 20);
+            this.textEdit7.Size = new System.Drawing.Size(117, 20);
             this.textEdit7.TabIndex = 66;
             // 
             // xtraTabControl1
             // 
-            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.xtraTabControl1.Location = new System.Drawing.Point(237, 1);
+            this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.xtraTabControl1.Location = new System.Drawing.Point(249, 1);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(693, 568);
+            this.xtraTabControl1.Size = new System.Drawing.Size(808, 408);
             this.xtraTabControl1.TabIndex = 84;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -386,7 +386,7 @@
             // 
             this.xtraTabPage1.Controls.Add(this.gridControl1);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(687, 539);
+            this.xtraTabPage1.Size = new System.Drawing.Size(802, 379);
             this.xtraTabPage1.Text = "发放的文档";
             // 
             // gridControl1
@@ -395,7 +395,7 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(687, 539);
+            this.gridControl1.Size = new System.Drawing.Size(802, 379);
             this.gridControl1.TabIndex = 67;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -474,50 +474,50 @@
             // xtraTabPage2
             // 
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(687, 539);
+            this.xtraTabPage2.Size = new System.Drawing.Size(802, 634);
             this.xtraTabPage2.Text = "权限申请的文档";
             // 
             // checkEdit3
             // 
             this.checkEdit3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit3.Location = new System.Drawing.Point(20, 569);
+            this.checkEdit3.Location = new System.Drawing.Point(23, 409);
             this.checkEdit3.Name = "checkEdit3";
             this.checkEdit3.Properties.Caption = "自动隐藏已经浏览下载的文档";
-            this.checkEdit3.Size = new System.Drawing.Size(189, 19);
+            this.checkEdit3.Size = new System.Drawing.Size(220, 19);
             this.checkEdit3.TabIndex = 85;
             // 
             // simpleButton3
             // 
             this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton3.Location = new System.Drawing.Point(595, 571);
+            this.simpleButton3.Location = new System.Drawing.Point(694, 411);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton3.Size = new System.Drawing.Size(64, 27);
             this.simpleButton3.TabIndex = 86;
             this.simpleButton3.Text = "查询(F)";
             // 
             // simpleButton1
             // 
             this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton1.Location = new System.Drawing.Point(656, 571);
+            this.simpleButton1.Location = new System.Drawing.Point(765, 411);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(89, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(104, 27);
             this.simpleButton1.TabIndex = 87;
             this.simpleButton1.Text = "Excel导出(E)";
             // 
             // simpleButton2
             // 
             this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton2.Location = new System.Drawing.Point(751, 571);
+            this.simpleButton2.Location = new System.Drawing.Point(876, 411);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(55, 23);
+            this.simpleButton2.Size = new System.Drawing.Size(64, 27);
             this.simpleButton2.TabIndex = 88;
             this.simpleButton2.Text = "退出(X)";
             // 
             // MyDoc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(926, 597);
+            this.ClientSize = new System.Drawing.Size(1080, 441);
             this.Controls.Add(this.simpleButton2);
             this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.simpleButton3);

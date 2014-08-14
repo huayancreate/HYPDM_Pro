@@ -48,11 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeManagement\IChangeManagementService.cs" />
     <Compile Include="DocManage\IDocGrantManage.cs" />
     <Compile Include="DocManage\IDocManageTool.cs" />
     <Compile Include="DocManage\IDocPropertyBuild.cs" />
     <Compile Include="DocManage\IDocSecurityLevelBuild.cs" />
     <Compile Include="DocManage\IDocTemplateCategoryManage.cs" />
+    <Compile Include="IHyPdmMainService.cs" />
+    <Compile Include="MyTaskBox\IMyTaskBoxService.cs" />
     <Compile Include="PartsMange\MaterialBankManage\ICustomExportItem.cs" />
     <Compile Include="PartsMange\MaterialBankManage\IAddType.cs" />
     <Compile Include="PartsMange\MaterialBankManage\IAddMaterialInfor.cs" />
@@ -71,6 +74,16 @@
     <Compile Include="ProductStruct\IProductStruct.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ProjectManage\ICreateNewProjectService.cs" />
+    <Compile Include="ProjectManage\IPersonnelTaskInquireService.cs" />
+    <Compile Include="ProjectManage\IProjectCalendarService.cs" />
+    <Compile Include="ProjectManage\IProjectExportService.cs" />
+    <Compile Include="ProjectManage\IProjectFlowDefinitionService.cs" />
+    <Compile Include="ProjectManage\IProjectPlanManageService.cs" />
+    <Compile Include="ProjectManage\IProjectService.cs" />
+    <Compile Include="ProjectManage\IProjectTaskStatisticsService.cs" />
+    <Compile Include="ProjectManage\ISporadicTaskCreateService.cs" />
+    <Compile Include="ProjectManage\ISporadicTaskManageService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\ICodeApplyManage.cs" />
     <Compile Include="SystemManagementAndTools\CodeManage\ICodeRuleSet.cs" />

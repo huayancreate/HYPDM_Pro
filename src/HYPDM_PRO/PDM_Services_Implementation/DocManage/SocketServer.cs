@@ -57,7 +57,7 @@ namespace PDM_Services_Implementation
                 //获得[最后一个包的大小]
                 string bagLast = System.Text.Encoding.Unicode.GetString(TransferFiles.ReceiveVarData(client));
                 //创建一个新文件
-                string fileFullName = "g:\\" + SendFileName;
+                string fileFullName = "d:\\" + SendFileName;
                 FileStream MyFileStream = new FileStream(fileFullName, FileMode.Create, FileAccess.Write, FileShare.Read);
                 //已发送包的个数
                 int SendedCount = 0;

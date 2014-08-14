@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeManagement\ChangeApplicatioin.cs" />
+    <Compile Include="ChangeManagement\Group.cs" />
     <Compile Include="DocManage\dense.cs" />
     <Compile Include="DocManage\dense_role.cs" />
     <Compile Include="DocManage\department.cs" />
@@ -66,6 +68,26 @@
     <Compile Include="DocManage\doc_template.cs" />
     <Compile Include="DocManage\doc_template_tree.cs" />
     <Compile Include="DocManage\user.cs" />
+    <Compile Include="HyPdmMenu.cs" />
+    <Compile Include="MyTaskBox\Bulletin.cs" />
+    <Compile Include="MyTaskBox\ChangeNotification.cs" />
+    <Compile Include="MyTaskBox\ChangeStructure.cs" />
+    <Compile Include="MyTaskBox\CheckSignTask.cs" />
+    <Compile Include="MyTaskBox\Code.cs" />
+    <Compile Include="MyTaskBox\DesignTask.cs" />
+    <Compile Include="MyTaskBox\Document.cs" />
+    <Compile Include="MyTaskBox\Email.cs" />
+    <Compile Include="MyTaskBox\Executor.cs" />
+    <Compile Include="MyTaskBox\MyTaskTree.cs" />
+    <Compile Include="MyTaskBox\NodeProcess.cs" />
+    <Compile Include="MyTaskBox\OfficeTask.cs" />
+    <Compile Include="MyTaskBox\ProjectTask.cs" />
+    <Compile Include="MyTaskBox\Question.cs" />
+    <Compile Include="MyTaskBox\Reply.cs" />
+    <Compile Include="MyTaskBox\Taskbo.cs" />
+    <Compile Include="MyTaskBox\TaskNode.cs" />
+    <Compile Include="MyTaskBox\TreeNode.cs" />
+    <Compile Include="MyTaskBox\User.cs" />
     <Compile Include="PartsMange\ComboBoxData.cs" />
     <Compile Include="PartsMange\Material.cs" />
     <Compile Include="PartsMange\MaterialAttachedProperty.cs" />
@@ -100,6 +122,31 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ProductStruct\SupplierQuota.cs" />
+    <Compile Include="ProjectManage\Calendar.cs" />
+    <Compile Include="ProjectManage\DocumentPackage.cs" />
+    <Compile Include="ProjectManage\GanttDateBo.cs" />
+    <Compile Include="ProjectManage\GroupBo.cs" />
+    <Compile Include="ProjectManage\InputInformationbo.cs" />
+    <Compile Include="ProjectManage\OutputInformationbo.cs" />
+    <Compile Include="ProjectManage\PersonBo.cs" />
+    <Compile Include="ProjectManage\Product.cs" />
+    <Compile Include="ProjectManage\ProductBo.cs" />
+    <Compile Include="ProjectManage\Project.cs" />
+    <Compile Include="ProjectManage\ProjectBo.cs" />
+    <Compile Include="ProjectManage\ProjectCalendarBo.cs" />
+    <Compile Include="ProjectManage\ProjectDeploybo.cs" />
+    <Compile Include="ProjectManage\ProjectFlow.cs" />
+    <Compile Include="ProjectManage\ProjectGroupUser.cs" />
+    <Compile Include="ProjectManage\ProjectProcessbo.cs" />
+    <Compile Include="ProjectManage\ProjectType.cs" />
+    <Compile Include="ProjectManage\ProjectTypeBo.cs" />
+    <Compile Include="ProjectManage\TaskAnalyzebo.cs" />
+    <Compile Include="ProjectManage\TaskBo.cs" />
+    <Compile Include="ProjectManage\TaskTree.cs" />
+    <Compile Include="ProjectManage\TaskTypebo.cs" />
+    <Compile Include="ProjectManage\WeekBo.cs" />
+    <Compile Include="ProjectManage\WorkDateBo.cs" />
+    <Compile Include="ProjectManage\WorkTimeBo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SystemManagementAndTools\CodeRule.cs" />
     <Compile Include="SystemManagementAndTools\CodeRuleCodes.cs" />

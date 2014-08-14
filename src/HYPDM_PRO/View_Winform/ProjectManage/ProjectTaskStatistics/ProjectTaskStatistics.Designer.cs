@@ -28,385 +28,361 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.SideBySideBarSeriesLabel sideBySideBarSeriesLabel1 = new DevExpress.XtraCharts.SideBySideBarSeriesLabel();
+            DevExpress.XtraCharts.SideBySideBarSeriesLabel sideBySideBarSeriesLabel2 = new DevExpress.XtraCharts.SideBySideBarSeriesLabel();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
+            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
+            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
+            this.btnAnalyze = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
+            this.meStatisticalConditions = new DevExpress.XtraEditors.MemoEdit();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gcOrderStatistics = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.projectTaskState = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.projectStateNumber = new DevExpress.XtraGrid.Columns.GridColumn();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
+            this.cmbChooseChart = new DevExpress.XtraEditors.ComboBoxEdit();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.galleryControl1 = new DevExpress.XtraBars.Ribbon.GalleryControl();
-            this.galleryControlClient1 = new DevExpress.XtraBars.Ribbon.GalleryControlClient();
+            this.ccTaskStatisticalFigure = new DevExpress.XtraCharts.ChartControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.VistaTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.VistaTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meStatisticalConditions.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcOrderStatistics)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbChooseChart.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).BeginInit();
-            this.galleryControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ccTaskStatisticalFigure)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(sideBySideBarSeriesLabel1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(sideBySideBarSeriesLabel2)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
             // 
-            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupControl1.Controls.Add(this.simpleButton8);
-            this.groupControl1.Controls.Add(this.simpleButton7);
-            this.groupControl1.Controls.Add(this.simpleButton6);
-            this.groupControl1.Controls.Add(this.simpleButton5);
-            this.groupControl1.Controls.Add(this.simpleButton4);
-            this.groupControl1.Controls.Add(this.simpleButton3);
-            this.groupControl1.Controls.Add(this.comboBoxEdit2);
-            this.groupControl1.Controls.Add(this.textEdit4);
-            this.groupControl1.Controls.Add(this.textEdit3);
-            this.groupControl1.Controls.Add(this.textEdit2);
-            this.groupControl1.Controls.Add(this.textEdit1);
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Controls.Add(this.labelControl5);
+            this.groupControl1.Controls.Add(this.labelControl4);
+            this.groupControl1.Controls.Add(this.labelControl3);
+            this.groupControl1.Controls.Add(this.dateEdit2);
+            this.groupControl1.Controls.Add(this.dateEdit1);
+            this.groupControl1.Controls.Add(this.buttonEdit2);
+            this.groupControl1.Controls.Add(this.buttonEdit1);
+            this.groupControl1.Controls.Add(this.btnAnalyze);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Controls.Add(this.checkEdit4);
-            this.groupControl1.Controls.Add(this.checkEdit3);
-            this.groupControl1.Controls.Add(this.checkEdit2);
-            this.groupControl1.Controls.Add(this.checkEdit1);
-            this.groupControl1.Location = new System.Drawing.Point(2, 1);
+            this.groupControl1.Location = new System.Drawing.Point(7, 12);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(222, 173);
+            this.groupControl1.Size = new System.Drawing.Size(692, 83);
             this.groupControl1.TabIndex = 8;
             this.groupControl1.Text = "选择条件";
             // 
-            // simpleButton8
+            // labelControl5
             // 
-            this.simpleButton8.Location = new System.Drawing.Point(185, 153);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton8.TabIndex = 23;
-            this.simpleButton8.Text = "分析";
+            this.labelControl5.Location = new System.Drawing.Point(369, 33);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(44, 14);
+            this.labelControl5.TabIndex = 31;
+            this.labelControl5.Text = "时间: 从";
             // 
-            // simpleButton7
+            // labelControl4
             // 
-            this.simpleButton7.Location = new System.Drawing.Point(185, 50);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton7.TabIndex = 22;
-            this.simpleButton7.Text = "...";
+            this.labelControl4.Location = new System.Drawing.Point(219, 33);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(28, 14);
+            this.labelControl4.TabIndex = 30;
+            this.labelControl4.Text = "人员:";
             // 
-            // simpleButton6
+            // labelControl3
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(185, 70);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton6.TabIndex = 21;
-            this.simpleButton6.Text = "...";
+            this.labelControl3.Location = new System.Drawing.Point(7, 33);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(64, 14);
+            this.labelControl3.TabIndex = 29;
+            this.labelControl3.Text = "项目所属组:";
             // 
-            // simpleButton5
+            // dateEdit2
             // 
-            this.simpleButton5.Location = new System.Drawing.Point(185, 89);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton5.TabIndex = 20;
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Location = new System.Drawing.Point(185, 107);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton4.TabIndex = 19;
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(185, 30);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(37, 20);
-            this.simpleButton3.TabIndex = 18;
-            this.simpleButton3.Text = "...";
-            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.EditValue = "就绪";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(79, 70);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.dateEdit2.EditValue = null;
+            this.dateEdit2.Location = new System.Drawing.Point(569, 30);
+            this.dateEdit2.Name = "dateEdit2";
+            this.dateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(107, 20);
-            this.comboBoxEdit2.TabIndex = 17;
+            this.dateEdit2.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.dateEdit2.Size = new System.Drawing.Size(118, 20);
+            this.dateEdit2.TabIndex = 28;
+            this.dateEdit2.ToolTip = "任务结束时间";
             // 
-            // textEdit4
+            // dateEdit1
             // 
-            this.textEdit4.Location = new System.Drawing.Point(79, 30);
-            this.textEdit4.Name = "textEdit4";
-            this.textEdit4.Size = new System.Drawing.Size(107, 20);
-            this.textEdit4.TabIndex = 16;
+            this.dateEdit1.EditValue = null;
+            this.dateEdit1.Location = new System.Drawing.Point(419, 30);
+            this.dateEdit1.Name = "dateEdit1";
+            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.dateEdit1.Size = new System.Drawing.Size(126, 20);
+            this.dateEdit1.TabIndex = 26;
+            this.dateEdit1.ToolTip = "任务开始时间";
             // 
-            // textEdit3
+            // buttonEdit2
             // 
-            this.textEdit3.Location = new System.Drawing.Point(79, 50);
-            this.textEdit3.Name = "textEdit3";
-            this.textEdit3.Size = new System.Drawing.Size(107, 20);
-            this.textEdit3.TabIndex = 15;
+            this.buttonEdit2.Location = new System.Drawing.Point(253, 30);
+            this.buttonEdit2.Name = "buttonEdit2";
+            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit2.Size = new System.Drawing.Size(100, 20);
+            this.buttonEdit2.TabIndex = 25;
+            this.buttonEdit2.ToolTip = "项目组人员";
             // 
-            // textEdit2
+            // buttonEdit1
             // 
-            this.textEdit2.Location = new System.Drawing.Point(79, 107);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Size = new System.Drawing.Size(107, 20);
-            this.textEdit2.TabIndex = 14;
+            this.buttonEdit1.Location = new System.Drawing.Point(77, 30);
+            this.buttonEdit1.Name = "buttonEdit1";
+            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.buttonEdit1.Size = new System.Drawing.Size(135, 20);
+            this.buttonEdit1.TabIndex = 1;
+            this.buttonEdit1.ToolTip = "项目";
             // 
-            // textEdit1
+            // btnAnalyze
             // 
-            this.textEdit1.Location = new System.Drawing.Point(79, 89);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(107, 20);
-            this.textEdit1.TabIndex = 13;
+            this.btnAnalyze.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAnalyze.Location = new System.Drawing.Point(621, 58);
+            this.btnAnalyze.Name = "btnAnalyze";
+            this.btnAnalyze.Size = new System.Drawing.Size(66, 20);
+            this.btnAnalyze.TabIndex = 23;
+            this.btnAnalyze.Text = "分析(&A)";
+            this.btnAnalyze.Click += new System.EventHandler(this.btnAnalyze_Click);
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(10, 110);
+            this.labelControl1.Location = new System.Drawing.Point(551, 33);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(12, 14);
             this.labelControl1.TabIndex = 9;
-            this.labelControl1.Text = "和";
-            // 
-            // checkEdit4
-            // 
-            this.checkEdit4.Location = new System.Drawing.Point(5, 31);
-            this.checkEdit4.Name = "checkEdit4";
-            this.checkEdit4.Properties.Caption = "选择组";
-            this.checkEdit4.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit4.TabIndex = 8;
-            // 
-            // checkEdit3
-            // 
-            this.checkEdit3.Location = new System.Drawing.Point(5, 51);
-            this.checkEdit3.Name = "checkEdit3";
-            this.checkEdit3.Properties.Caption = "选择人员";
-            this.checkEdit3.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit3.TabIndex = 7;
-            // 
-            // checkEdit2
-            // 
-            this.checkEdit2.Location = new System.Drawing.Point(5, 70);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "任务状态";
-            this.checkEdit2.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit2.TabIndex = 6;
-            // 
-            // checkEdit1
-            // 
-            this.checkEdit1.Location = new System.Drawing.Point(5, 90);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "时间介于";
-            this.checkEdit1.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit1.TabIndex = 5;
+            this.labelControl1.Text = "到";
             // 
             // groupControl2
             // 
-            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupControl2.Controls.Add(this.listBoxControl1);
-            this.groupControl2.Location = new System.Drawing.Point(2, 175);
+            this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl2.Controls.Add(this.meStatisticalConditions);
+            this.groupControl2.Location = new System.Drawing.Point(7, 101);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(222, 375);
+            this.groupControl2.Size = new System.Drawing.Size(692, 127);
             this.groupControl2.TabIndex = 9;
             this.groupControl2.Text = "统计条件";
             // 
-            // listBoxControl1
+            // meStatisticalConditions
             // 
-            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 20);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(222, 355);
-            this.listBoxControl1.TabIndex = 11;
+            this.meStatisticalConditions.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.meStatisticalConditions.Location = new System.Drawing.Point(5, 25);
+            this.meStatisticalConditions.Name = "meStatisticalConditions";
+            this.meStatisticalConditions.Size = new System.Drawing.Size(682, 97);
+            this.meStatisticalConditions.TabIndex = 0;
             // 
             // groupControl3
             // 
-            this.groupControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl3.Controls.Add(this.gridControl1);
-            this.groupControl3.Location = new System.Drawing.Point(230, 1);
+            this.groupControl3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupControl3.Controls.Add(this.gcOrderStatistics);
+            this.groupControl3.Controls.Add(this.simpleButton2);
+            this.groupControl3.Controls.Add(this.simpleButton1);
+            this.groupControl3.Location = new System.Drawing.Point(7, 234);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(502, 234);
+            this.groupControl3.Size = new System.Drawing.Size(217, 314);
             this.groupControl3.TabIndex = 10;
             this.groupControl3.Text = "统计结果";
-            this.groupControl3.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl3_Paint);
             // 
-            // gridControl1
+            // gcOrderStatistics
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.gcOrderStatistics.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(0, 21);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(502, 213);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gcOrderStatistics.Location = new System.Drawing.Point(5, 25);
+            this.gcOrderStatistics.MainView = this.gridView1;
+            this.gcOrderStatistics.Name = "gcOrderStatistics";
+            this.gcOrderStatistics.Size = new System.Drawing.Size(207, 255);
+            this.gcOrderStatistics.TabIndex = 0;
+            this.gcOrderStatistics.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2});
-            this.gridView1.GridControl = this.gridControl1;
+            this.projectTaskState,
+            this.projectStateNumber});
+            this.gridView1.GridControl = this.gcOrderStatistics;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
-            // gridColumn1
+            // projectTaskState
             // 
-            this.gridColumn1.Caption = "项目任务状态";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.projectTaskState.Caption = "项目任务状态";
+            this.projectTaskState.FieldName = "State";
+            this.projectTaskState.Name = "projectTaskState";
+            this.projectTaskState.Visible = true;
+            this.projectTaskState.VisibleIndex = 0;
             // 
-            // gridColumn2
+            // projectStateNumber
             // 
-            this.gridColumn2.Caption = "项目任务数量";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
+            this.projectStateNumber.Caption = "项目任务数量";
+            this.projectStateNumber.FieldName = "Count";
+            this.projectStateNumber.Name = "projectStateNumber";
+            this.projectStateNumber.Visible = true;
+            this.projectStateNumber.VisibleIndex = 1;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton2.Location = new System.Drawing.Point(110, 286);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(102, 23);
+            this.simpleButton2.TabIndex = 14;
+            this.simpleButton2.Text = "Excel导出(&E)";
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton1.Location = new System.Drawing.Point(2, 286);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(102, 23);
+            this.simpleButton1.TabIndex = 13;
+            this.simpleButton1.Text = "自定义导出(&S)";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(230, 248);
+            this.labelControl2.Location = new System.Drawing.Point(9, 28);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(64, 14);
             this.labelControl2.TabIndex = 11;
             this.labelControl2.Text = "选择分析图:";
             // 
-            // comboBoxEdit1
+            // cmbChooseChart
             // 
-            this.comboBoxEdit1.EditValue = "柱形图";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(306, 245);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cmbChooseChart.EditValue = "柱形图";
+            this.cmbChooseChart.Location = new System.Drawing.Point(78, 25);
+            this.cmbChooseChart.Name = "cmbChooseChart";
+            this.cmbChooseChart.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(100, 20);
-            this.comboBoxEdit1.TabIndex = 12;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(475, 242);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton1.TabIndex = 13;
-            this.simpleButton1.Text = "自定义导出(S)";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(593, 242);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(102, 23);
-            this.simpleButton2.TabIndex = 14;
-            this.simpleButton2.Text = "Excel导出(E)";
+            this.cmbChooseChart.Properties.Items.AddRange(new object[] {
+            "柱状图",
+            "饼状图",
+            "折线图",
+            "面积图"});
+            this.cmbChooseChart.Size = new System.Drawing.Size(256, 20);
+            this.cmbChooseChart.TabIndex = 12;
+            this.cmbChooseChart.SelectedIndexChanged += new System.EventHandler(this.cmbChooseChart_SelectedIndexChanged);
             // 
             // groupControl4
             // 
             this.groupControl4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl4.Controls.Add(this.galleryControl1);
-            this.groupControl4.Location = new System.Drawing.Point(230, 268);
+            this.groupControl4.Controls.Add(this.ccTaskStatisticalFigure);
+            this.groupControl4.Controls.Add(this.cmbChooseChart);
+            this.groupControl4.Controls.Add(this.labelControl2);
+            this.groupControl4.Location = new System.Drawing.Point(230, 234);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(502, 282);
+            this.groupControl4.Size = new System.Drawing.Size(469, 314);
             this.groupControl4.TabIndex = 15;
             this.groupControl4.Text = "统计图显示";
             // 
-            // galleryControl1
+            // ccTaskStatisticalFigure
             // 
-            this.galleryControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.ccTaskStatisticalFigure.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.galleryControl1.Controls.Add(this.galleryControlClient1);
-            this.galleryControl1.DesignGalleryGroupIndex = 0;
-            this.galleryControl1.DesignGalleryItemIndex = 0;
-            this.galleryControl1.Location = new System.Drawing.Point(0, 21);
-            this.galleryControl1.Name = "galleryControl1";
-            this.galleryControl1.Size = new System.Drawing.Size(502, 261);
-            this.galleryControl1.TabIndex = 17;
-            this.galleryControl1.Text = "galleryControl1";
-            // 
-            // galleryControlClient1
-            // 
-            this.galleryControlClient1.GalleryControl = this.galleryControl1;
-            this.galleryControlClient1.Location = new System.Drawing.Point(2, 2);
-            this.galleryControlClient1.Size = new System.Drawing.Size(481, 257);
+            xyDiagram1.AxisX.Range.ScrollingRange.SideMarginsEnabled = true;
+            xyDiagram1.AxisX.Range.SideMarginsEnabled = true;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.Range.ScrollingRange.SideMarginsEnabled = true;
+            xyDiagram1.AxisY.Range.SideMarginsEnabled = true;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.ccTaskStatisticalFigure.Diagram = xyDiagram1;
+            this.ccTaskStatisticalFigure.Legend.Visible = false;
+            this.ccTaskStatisticalFigure.Location = new System.Drawing.Point(7, 49);
+            this.ccTaskStatisticalFigure.Name = "ccTaskStatisticalFigure";
+            sideBySideBarSeriesLabel1.LineVisible = true;
+            series1.Label = sideBySideBarSeriesLabel1;
+            series1.Name = "state";
+            this.ccTaskStatisticalFigure.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series1};
+            sideBySideBarSeriesLabel2.LineVisible = true;
+            this.ccTaskStatisticalFigure.SeriesTemplate.Label = sideBySideBarSeriesLabel2;
+            this.ccTaskStatisticalFigure.Size = new System.Drawing.Size(459, 258);
+            this.ccTaskStatisticalFigure.TabIndex = 13;
+            chartTitle1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            chartTitle1.Text = "项目任务统计分析图";
+            this.ccTaskStatisticalFigure.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle1});
             // 
             // ProjectTaskStatistics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(734, 551);
+            this.ClientSize = new System.Drawing.Size(706, 560);
+            this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.groupControl4);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.comboBoxEdit1);
-            this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.groupControl3);
             this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.groupControl1);
             this.Name = "ProjectTaskStatistics";
             this.Text = "项目任务统计";
+            this.Load += new System.EventHandler(this.ProjectTaskStatistics_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.VistaTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.VistaTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.meStatisticalConditions.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcOrderStatistics)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbChooseChart.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.galleryControl1)).EndInit();
-            this.galleryControl1.ResumeLayout(false);
+            this.groupControl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(sideBySideBarSeriesLabel1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(sideBySideBarSeriesLabel2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ccTaskStatisticalFigure)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -414,34 +390,26 @@
 
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit4;
-        private DevExpress.XtraEditors.CheckEdit checkEdit3;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
         private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl gcOrderStatistics;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
+        private DevExpress.XtraGrid.Columns.GridColumn projectTaskState;
+        private DevExpress.XtraGrid.Columns.GridColumn projectStateNumber;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
+        private DevExpress.XtraEditors.ComboBoxEdit cmbChooseChart;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.GroupControl groupControl4;
-        private DevExpress.XtraBars.Ribbon.GalleryControl galleryControl1;
-        private DevExpress.XtraBars.Ribbon.GalleryControlClient galleryControlClient1;
-        private DevExpress.XtraEditors.TextEdit textEdit4;
-        private DevExpress.XtraEditors.TextEdit textEdit3;
-        private DevExpress.XtraEditors.TextEdit textEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
+        private DevExpress.XtraEditors.SimpleButton btnAnalyze;
+        private DevExpress.XtraEditors.MemoEdit meStatisticalConditions;
+        private DevExpress.XtraEditors.LabelControl labelControl3;
+        private DevExpress.XtraEditors.DateEdit dateEdit2;
+        private DevExpress.XtraEditors.DateEdit dateEdit1;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
+        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
+        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraCharts.ChartControl ccTaskStatisticalFigure;
     }
 }

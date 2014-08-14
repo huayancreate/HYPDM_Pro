@@ -1,8 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-VisualStudioVersion = 12.0.30110.0
-MinimumVisualStudioVersion = 10.0.40219.1
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View_Winform", "View_Winform\View_Winform.csproj", "{0E7115DC-39AD-42FE-BD8A-E30D5EDB4D0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYHTTPRequestLib", "HYHTTPRequestLib\HYHTTPRequestLib.csproj", "{5AAB9F8A-4498-48B9-8B2C-AF94961BC6B1}"
@@ -42,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDM_Services_Interface", "PDM_Services_Interface\PDM_Services_Interface.csproj", "{06ECE8D4-F2A8-45DF-B6AB-51A890528C3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDM_Services_Implementation", "PDM_Services_Implementation\PDM_Services_Implementation.csproj", "{B776975E-B77F-4746-8979-F22636F32682}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYUtils", "HYUtils\HYUtils.csproj", "{748A1911-2E5F-48AA-9479-CDB6A2FFE183}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +129,10 @@ Global
 		{B776975E-B77F-4746-8979-F22636F32682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B776975E-B77F-4746-8979-F22636F32682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B776975E-B77F-4746-8979-F22636F32682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748A1911-2E5F-48AA-9479-CDB6A2FFE183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748A1911-2E5F-48AA-9479-CDB6A2FFE183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748A1911-2E5F-48AA-9479-CDB6A2FFE183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748A1911-2E5F-48AA-9479-CDB6A2FFE183}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

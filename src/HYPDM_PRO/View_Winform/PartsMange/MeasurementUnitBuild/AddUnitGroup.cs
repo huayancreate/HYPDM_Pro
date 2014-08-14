@@ -14,6 +14,7 @@ namespace View_Winform.PartsMange.MeasurementUnitBuild
 {
     public partial class AddUnitGroup : DevExpress.XtraEditors.XtraForm
     {
+        public int groupId;
         public UnitGroup group { get; set; }
         public AddUnitGroup()
         {
@@ -22,7 +23,13 @@ namespace View_Winform.PartsMange.MeasurementUnitBuild
 
         private void AddUnitGroup_Load(object sender, EventArgs e)
         {
-
+            if (this.Tag == "Edit")
+            {
+                var unitGroup = WcfServiceLocator.Create<IMeasurementUnitBuild>().GetUnitGroupById(groupId);
+                PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Text = unitGroup.number;
+                PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Text = unitGroup.name;
+                PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Text = unitGroup.description;
+            }
         }
 
         private void PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Cancel_SimpleButton_MouseDown(object sender, MouseEventArgs e)
@@ -35,14 +42,15 @@ namespace View_Winform.PartsMange.MeasurementUnitBuild
 
         private void PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Confirm_SimpleButton_Click(object sender, EventArgs e)
         {
-            bool ok = false;
-            group.Id = group.Id + 1;
+            if (this.Tag == "Edit")
+                group = WcfServiceLocator.Create<IMeasurementUnitBuild>().GetUnitGroupById(groupId);
+            else
+                group = new UnitGroup();
             group.name = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupName_TextEdit.Text;
             group.number = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitGroupNumber_TextEdit.Text;
             group.description = PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_Description_TextEdit.Text;
 
-            ok = WcfServiceLocator.Create<IMeasurementUnitBuild>().AddORUpdateUnitGroup(group);
-            MessageBox.Show(ok.ToString());
+            WcfServiceLocator.Create<IMeasurementUnitBuild>().AddORUpdateUnitGroup(group);
             this.DialogResult = DialogResult.OK;
             this.Close();
         }

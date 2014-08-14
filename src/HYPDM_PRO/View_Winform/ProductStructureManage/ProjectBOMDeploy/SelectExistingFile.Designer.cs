@@ -30,6 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
+            this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
@@ -42,14 +44,13 @@
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.Id = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.MaterialNo = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.MaterialName = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
@@ -77,8 +78,6 @@
             this.barButtonItem16 = new DevExpress.XtraBars.BarButtonItem();
             this.btnShowMaterial = new DevExpress.XtraBars.BarButtonItem();
             this.pmReferMaterial = new DevExpress.XtraBars.PopupMenu(this.components);
-            this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.treeListColumn2 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -107,25 +106,29 @@
             this.treeListColumn2});
             this.treeList1.Location = new System.Drawing.Point(1, 1);
             this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
-            null,
-            null}, -1);
-            this.treeList1.AppendNode(new object[] {
-            null,
-            null}, -1);
-            this.treeList1.AppendNode(new object[] {
-            null,
-            null}, 1);
-            this.treeList1.EndUnboundLoad();
             this.treeList1.OptionsBehavior.Editable = false;
             this.treeList1.OptionsPrint.UsePrintStyles = true;
             this.treeList1.Size = new System.Drawing.Size(258, 553);
             this.treeList1.TabIndex = 0;
             // 
+            // treeListColumn1
+            // 
+            this.treeListColumn1.FieldName = "Id";
+            this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.Width = 111;
+            // 
+            // treeListColumn2
+            // 
+            this.treeListColumn2.Caption = "物料类型";
+            this.treeListColumn2.FieldName = "Name";
+            this.treeListColumn2.MinWidth = 70;
+            this.treeListColumn2.Name = "treeListColumn2";
+            this.treeListColumn2.Visible = true;
+            this.treeListColumn2.VisibleIndex = 0;
+            // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(265, -1);
+            this.checkEdit1.Location = new System.Drawing.Point(265, 0);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "按类型查找";
             this.checkEdit1.Size = new System.Drawing.Size(85, 19);
@@ -160,7 +163,7 @@
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(1002, -1);
+            this.checkEdit2.Location = new System.Drawing.Point(1002, 0);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Caption = "或者";
             this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
@@ -220,99 +223,95 @@
             // 
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.Id,
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
             this.MaterialNo,
-            this.gridColumn6,
-            this.gridColumn7,
             this.MaterialName,
+            this.gridColumn7,
+            this.gridColumn2,
+            this.gridColumn4,
+            this.gridColumn3,
+            this.gridColumn6,
             this.gridColumn9,
             this.gridColumn10});
+            this.gridView1.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.None;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsDetail.EnableMasterViewMode = false;
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
             // Id
             // 
-            this.Id.Caption = "gridColumn11";
-            this.Id.FieldName = "ID";
+            this.Id.Caption = "主键";
+            this.Id.FieldName = "Id";
             this.Id.Name = "Id";
             // 
-            // gridColumn1
+            // MaterialNo
             // 
-            this.gridColumn1.Caption = "序号";
-            this.gridColumn1.FieldName = "ID";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.MaterialNo.Caption = "物料编号";
+            this.MaterialNo.FieldName = "No";
+            this.MaterialNo.Name = "MaterialNo";
+            this.MaterialNo.Visible = true;
+            this.MaterialNo.VisibleIndex = 0;
+            // 
+            // MaterialName
+            // 
+            this.MaterialName.Caption = "物料名称";
+            this.MaterialName.FieldName = "Name";
+            this.MaterialName.Name = "MaterialName";
+            this.MaterialName.Visible = true;
+            this.MaterialName.VisibleIndex = 1;
+            // 
+            // gridColumn7
+            // 
+            this.gridColumn7.Caption = "物料版本";
+            this.gridColumn7.FieldName = "Version";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 2;
             // 
             // gridColumn2
             // 
             this.gridColumn2.Caption = "物料简图";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
+            this.gridColumn2.VisibleIndex = 3;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.Caption = "状态";
+            this.gridColumn4.FieldName = "Status";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 4;
             // 
             // gridColumn3
             // 
             this.gridColumn3.Caption = "有效性";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.Caption = "状态";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
-            // 
-            // MaterialNo
-            // 
-            this.MaterialNo.Caption = "物料编号";
-            this.MaterialNo.FieldName = "number";
-            this.MaterialNo.Name = "MaterialNo";
-            this.MaterialNo.Visible = true;
-            this.MaterialNo.VisibleIndex = 4;
+            this.gridColumn3.VisibleIndex = 5;
             // 
             // gridColumn6
             // 
             this.gridColumn6.Caption = "属性";
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 5;
-            // 
-            // gridColumn7
-            // 
-            this.gridColumn7.Caption = "物料版本";
-            this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 6;
-            // 
-            // MaterialName
-            // 
-            this.MaterialName.Caption = "物料名称";
-            this.MaterialName.FieldName = "name";
-            this.MaterialName.Name = "MaterialName";
-            this.MaterialName.Visible = true;
-            this.MaterialName.VisibleIndex = 7;
+            this.gridColumn6.VisibleIndex = 6;
             // 
             // gridColumn9
             // 
             this.gridColumn9.Caption = "物料备注";
+            this.gridColumn9.FieldName = "Remark";
             this.gridColumn9.Name = "gridColumn9";
             this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 8;
+            this.gridColumn9.VisibleIndex = 7;
             // 
             // gridColumn10
             // 
             this.gridColumn10.Caption = "种类";
             this.gridColumn10.Name = "gridColumn10";
             this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 9;
+            this.gridColumn10.VisibleIndex = 8;
             // 
             // checkEdit4
             // 
@@ -520,21 +519,6 @@
             this.pmReferMaterial.Manager = this.bmReferMaterial;
             this.pmReferMaterial.Name = "pmReferMaterial";
             // 
-            // treeListColumn1
-            // 
-            this.treeListColumn1.FieldName = "Id";
-            this.treeListColumn1.Name = "treeListColumn1";
-            this.treeListColumn1.Width = 111;
-            // 
-            // treeListColumn2
-            // 
-            this.treeListColumn2.Caption = "物料类型";
-            this.treeListColumn2.FieldName = "Name";
-            this.treeListColumn2.MinWidth = 52;
-            this.treeListColumn2.Name = "treeListColumn2";
-            this.treeListColumn2.Visible = true;
-            this.treeListColumn2.VisibleIndex = 0;
-            // 
             // SelectExistingFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -605,7 +589,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.TrackBarControl trackBarControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;

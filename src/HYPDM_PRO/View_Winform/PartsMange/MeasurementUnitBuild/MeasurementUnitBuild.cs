@@ -36,12 +36,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             barManager1.ItemClick += UnitGroupItemClick;
             simpleButton1.Click += ChooseUnitClick;
             simpleButton2.Click += FormClose;
-            unitList = unitService.GetAllUnit();
-            PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.DataSource = unitList;
-
-            groupList = unitService.GetAllUnitGroup();
-            PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.DataSource = groupList;
-            TreeDataBind(groupList);
+            DataBind();
         }
         private void PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementAndGropu_TreeList_MouseDown(object sender, MouseEventArgs e)
         {
@@ -50,35 +45,13 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
             {
                 var hitInfo = treeList.CalcHitInfo(e.Location);
                 if (hitInfo.Node == null) return;
-                #region
-                if (hitInfo.Node.Level == 0)
-                {
-                    TreeList_Add_barButtonItem.Enabled = true;
-                    TreeList_Modify_barButtonItem.Enabled = false;
-                    TreeList_Delete_barButtonItem.Enabled = false;
-                    btnAddUnit.Enabled = false;
-                    btnModifyUnit.Enabled = false;
-                    btnDeleteUnit.Enabled = false;
-                }
-                else if (hitInfo.Node.Level == 1)
-                {
-                    TreeList_Add_barButtonItem.Enabled = false;
-                    TreeList_Modify_barButtonItem.Enabled = true;
-                    TreeList_Delete_barButtonItem.Enabled = true;
-                    btnAddUnit.Enabled = true;
-                    btnModifyUnit.Enabled = false;
-                    btnDeleteUnit.Enabled = false;
-                }
-                else
-                {
-                    TreeList_Add_barButtonItem.Enabled = false;
-                    TreeList_Modify_barButtonItem.Enabled = false;
-                    TreeList_Delete_barButtonItem.Enabled = false;
-                    btnAddUnit.Enabled = false;
-                    btnModifyUnit.Enabled = true;
-                    btnDeleteUnit.Enabled = true;
-                }
-                #endregion
+
+                TreeList_Add_barButtonItem.Enabled = hitInfo.Node.Level == 0;
+                TreeList_Modify_barButtonItem.Enabled = hitInfo.Node.Level == 1;
+                TreeList_Delete_barButtonItem.Enabled = hitInfo.Node.Level == 1;
+                btnAddUnit.Enabled = hitInfo.Node.Level == 1;
+                btnModifyUnit.Enabled = hitInfo.Node.Level > 1;
+                btnDeleteUnit.Enabled = hitInfo.Node.Level > 1;
                 treeList.SetFocusedNode(hitInfo.Node);
                 popupMenu1.ShowPopup(Control.MousePosition);
             }
@@ -105,6 +78,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         }
         private void UnitGroupItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            var id = treeList1.FocusedNode.GetValue("Id");
             switch (e.Item.Name)
             {
                 case "TreeList_Add_barButtonItem":
@@ -123,6 +97,8 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 case "TreeList_Modify_barButtonItem":
                     var modifyUnitGroup = new AddUnitGroup();
                     modifyUnitGroup.Text = "修改单位组";
+                    modifyUnitGroup.Tag = "Edit";
+                    modifyUnitGroup.groupId = Convert.ToInt32(id);
                     modifyUnitGroup.ShowDialog();
                     break;
                 case "TreeList_Delete_barButtonItem":
@@ -130,7 +106,7 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                 case "btnAddUnit":
                     var addUnit = new AddUnit();
                     var unit = new Unit();
-                    var id = treeList1.FocusedNode.GetValue("Id");
+                    //var id = treeList1.FocusedNode.GetValue("Id");
                     unit.unit_group_id = Convert.ToInt32(id);
                     addUnit.unit = unit;
                     addUnit.ShowDialog();
@@ -145,8 +121,8 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
                     modifyUnit.Text = "修改单位";
                     var group_id = treeList1.FocusedNode.GetValue("Id");
                     //unit.unit_group_id = Convert.ToInt32(group_id);
-                    unit = new Unit { id = 1, name = "Test", scale = "1.1", number = "1", unit_group_id = Convert.ToInt32(group_id) };
-                    modifyUnit.unit = unit;
+                    //unit = new Unit { id = 1, name = "Test", scale = "1.1", number = "1", unit_group_id = Convert.ToInt32(group_id) };
+                    modifyUnit.unitId = Convert.ToInt32(group_id);
                     modifyUnit.ShowDialog();
                     if (modifyUnit.DialogResult == DialogResult.OK)
                     {
@@ -168,6 +144,16 @@ namespace View_Winform.PartsMange.MaterialReviewRuleManage
         private void FormClose(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        public void DataBind()
+        {
+            unitList = unitService.GetAllUnit();
+            PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurement_GridControl.DataSource = unitList;
+
+            groupList = unitService.GetAllUnitGroup();
+            PartsMange_MeasurementUnitBuild_MeasurementUnitBuild_UnitMeasurementGropu_GridControl.DataSource = groupList;
+            TreeDataBind(groupList);
         }
     }
 }

@@ -13,6 +13,7 @@ using DevExpress.XtraGrid.Views.Grid;
 using WcfExtension;
 using PDM_Services_Interface;
 using System.Data;
+using System.Diagnostics;
 
 namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
 {
@@ -82,9 +83,9 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void TreeListFocusNode(object sender, NodeEventArgs e)
         {
-            btnAddParent.Enabled = e.Node.Level != 0;
-            btnParentPaste.Enabled = e.Node.Level != 0;
-            focus_node = e.Node;
+            //btnAddParent.Enabled = e.Node.Level != 0;
+            //btnParentPaste.Enabled = e.Node.Level != 0;
+            //focus_node = e.Node;
 
             if (is_right == true) return;
             if (e.Node.GetValue("Material_Id") == null) return;
@@ -107,6 +108,17 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void TreeDataBind(List<BOM_Struct> list, TreeList treeList)
         {
+            Stopwatch watch = new Stopwatch();
+            watch.Start();
+            //var dt = new DataTable();
+
+            //treeList.Nodes.Clear();
+            //treeList.DataSource = null;
+            ////FillData(dt);
+            //treeList.DataSource = FillData(structList);
+            //treeList.KeyFieldName = "Id";
+            //treeList.ParentFieldName = "Parent_Id";
+
             treeList.Nodes.Clear();
             TreeListNode parentNode = null;
             var parentList = list.FindAll(s => s.Parent_Id == 0);
@@ -117,6 +129,9 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                 GetChildNode(parentNode, p.Id, list);
             }
             treeList.ExpandAll();
+            watch.Stop();
+            string time = watch.ElapsedMilliseconds.ToString();
+            //MessageBox.Show(time);
 
             if (treeList.FocusedNode == null) return;
             MaterialId = Convert.ToInt32(treeList.FocusedNode.GetValue("Material_Id"));
@@ -145,7 +160,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void ReferMaterailItemClik(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            var id = MaterialGridView.GetFocusedRowCellValue("ID");
+            var id = MaterialGridView.GetFocusedRowCellValue("Id");
             switch (e.Item.Name)
             {
                 case "btnCopyMaterial":
@@ -204,22 +219,34 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         bool is_right = false;
         private void MouseUpClick(object sender, MouseEventArgs e)
         {
-            var tree = sender as TreeList;
-            var hitInfo = tree.CalcHitInfo(e.Location);
-            if (e.Button != MouseButtons.Right || ModifierKeys != Keys.None || treeList1.State != TreeListState.Regular)
-            { is_right = false; return; }
+            var tree = (TreeList)sender;
+            var p = new Point(Cursor.Position.X, Cursor.Position.Y);
+            if (e.Button == MouseButtons.Right || treeList1.State == TreeListState.Regular)
+            {
+                var hitInfo = tree.CalcHitInfo(e.Location);
+                is_right = true;
+                focus_node = hitInfo.Node;
+                if (hitInfo.HitInfoType == HitInfoType.Cell)
+                {
+                    btnChildPaste.Enabled = referMaterialId != 0;
+                    btnParentPaste.Enabled = referMaterialId != 0;
+                    btnAddParent.Enabled = hitInfo.Node.Level != 0;
+                    if (hitInfo.Node.Level != 0 && referMaterialId != 0)
+                    {
+                        btnParentPaste.Enabled = true;
+                    }
+                    else
+                    {
+                        btnParentPaste.Enabled = false;
+                    }
+
+                    tree.SetFocusedNode(hitInfo.Node);
+                    pmTreeList.ShowPopup(p);
+                }
+            }
             else
             {
-                var p = new Point(Cursor.Position.X, Cursor.Position.Y);
-                if (tree != null)
-                {
-                    is_right = true;
-                    if (hitInfo.HitInfoType == HitInfoType.Cell)
-                    {
-                        tree.SetFocusedNode(hitInfo.Node);
-                        pmTreeList.ShowPopup(p);
-                    }
-                }
+                is_right = false;
             }
         }
         private void RefreshData(object sender, EventArgs e)
@@ -324,6 +351,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         }
         private void BindPageTab(XtraTabPage tabPage, List<BOM_Struct> structList)
         {
+            DevExpress.XtraSplashScreen.SplashScreenManager.ShowForm(typeof(LoadWaitForm));
             var m = productStructService.GetBOMById(bom_id);
             var _tabPage = CreateTabPageControl("[归档结构] " + m.Name);
             var treeList = CreateTreeListControl(structList);
@@ -331,6 +359,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             tabPage.Controls.Add(tabControl);
             xtraTabControl1.SelectedTabPage = tabPage;
             treeList.ExpandAll();
+            DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();
         }
         private void CloseTabPage(object sender, EventArgs e)
         {
@@ -411,7 +440,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             treeList.KeyFieldName = "Id";
             treeList.ParentFieldName = "Parent_Id";
             treeList.MouseUp += ReferMouseUp;
-            treeList.AfterFocusNode += ReferFocusNode;
+            //treeList.AfterFocusNode += ReferFocusNode;
             treeList.OptionsSelection.EnableAppearanceFocusedCell = false;
             treeList.OptionsView.ShowFocusedFrame = false;
             treeList.OptionsView.ShowHorzLines = false;
@@ -434,6 +463,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                 if (hitInfo.HitInfoType == HitInfoType.Cell)
                 {
                     tree.SetFocusedNode(hitInfo.Node);
+                    referNode = hitInfo.Node;
                 }
             }
 
@@ -442,10 +472,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
                 pmReferTreeList.ShowPopup(p);
             }
         }
-        private void ReferFocusNode(object sender, NodeEventArgs e)
-        {
-            referNode = e.Node;
-        }
+
         private void ReferBomItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             switch (e.Item.Name)
@@ -463,26 +490,35 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         /// <param name="_parentId"></param>
         private void BOMStructPasteByMaterial(int _parentId)
         {
-            var id = Convert.ToInt32(focus_node.GetValue("Id"));
+            var structId = Convert.ToInt32(focus_node.GetValue("Id"));
+            var referStructId = Convert.ToInt32(referNode.GetValue("Id"));
+            var bomId = Convert.ToInt32(referNode.GetValue("BOM_Id"));
+
             if (bmReferMaterial.Items["btnCopyMaterial"].Tag == "ReferMaterialCopy")
             {
-                //var bomStruct = productStructService.GetBOMStructByMaterialId(referMaterialId, bom_id);
-                var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = referMaterialId, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = 0 };
+                var m = new BOM_Struct { Id = structId + 1, Parent_Id = _parentId, Material_Id = referMaterialId, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = 0 };
                 structList.Add(m);
             }
             else
             {
-                //var bomStruct = productStructService.GetBOMStructByMaterialId(referMaterialId, bom_id);
-                var m = new BOM_Struct { Id = id + 1, Parent_Id = _parentId, Material_Id = referMaterialId, BOM_Id = bom_id, Is_Refer = "1", ReferBOM_Id = bom_id };
-                var new_id = m.Id;
-                var _structList = productStructService.GetBOMStructListByMaterialId(referMaterialId, bom_id);
+                var m = structList.Find(s => s.Id == structId && s.BOM_Id == bom_id);
+                if (m == null) return;
+                var referStructList = productStructService.GetBOMStructListByParentId(referStructId, bomId);
+
+
+                m = new BOM_Struct { Id = m.Id + 1, Parent_Id = _parentId, BOM_Id = bom_id, Material_Id = referStructList[0].Material_Id };
                 structList.Add(m);
-                if (_structList.Count > 0)
-                    foreach (var obj in _structList)
+                for (int i = 0; i < referStructList.Count; i++)
+                {
+                    var _list = new List<BOM_Struct>();
+                    productStructService.GetChildBOMStruct(referStructList[i].Id, ref _list);
+                    var parent_id = m.Id;
+                    for (int j = 0; j < _list.Count; j++)
                     {
-                        m = new BOM_Struct { Id = new_id + 1, Parent_Id = new_id, BOM_Id = bom_id, Material_Id = obj.Material_Id };
+                        m = new BOM_Struct { Id = m.Id + 1, Parent_Id = parent_id, BOM_Id = bom_id, Material_Id = _list[j].Material_Id };
                         structList.Add(m);
                     }
+                }
             }
             TreeDataBind(structList, treeList1);
         }
@@ -553,6 +589,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
             foreach (var c in childList)
             {
                 var m = productStructService.GetMaterialById(c.Material_Id);
+                if (m == null) return;
                 TreeListNode tns = parentNode.TreeList.AppendNode(new object[] { c.Material_Id, c.Id, c.BOM_Id, c.Parent_Id, m.No + "," + m.Version + "," + m.Name + "," + "1000" }, parentNode);
                 GetChildNode(tns, c.Id, structList);
             }

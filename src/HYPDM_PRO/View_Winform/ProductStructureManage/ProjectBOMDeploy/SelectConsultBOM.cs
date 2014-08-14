@@ -22,6 +22,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         public SelectConsultBOM()
         {
             InitializeComponent();
+            gridView1 = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(gridView1, true);
         }
         private void SelectConsultBOM_Load(object sender, EventArgs e)
         {
@@ -50,7 +51,7 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         {
             StructList = productStructService.GetBOMStructListByBOMId(bom_id);
             this.DialogResult = DialogResult.OK;
-            this.Hide();
+            this.Close();
         }
         private void QueryBOM(object sender, EventArgs e)
         {

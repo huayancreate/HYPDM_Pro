@@ -43,9 +43,9 @@
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnQuery = new DevExpress.XtraEditors.SimpleButton();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gcChangeApplication = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -58,11 +58,10 @@
             this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage2 = new DevExpress.XtraTab.XtraTabPage();
             this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gcChangeDocument = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -75,9 +74,8 @@
             this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.groupControl3 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
+            this.gcChangeStructure = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn25 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn26 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -86,7 +84,6 @@
             this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
@@ -104,18 +101,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcChangeApplication)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
             this.xtraTabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
             this.groupControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcChangeDocument)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).BeginInit();
             this.groupControl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcChangeStructure)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -127,7 +124,7 @@
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.labelControl3);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.labelControl2);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Controls.Add(this.labelControl1);
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Location = new System.Drawing.Point(3, 1);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Location = new System.Drawing.Point(12, 12);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupContro" +
                 "l";
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_ApplicationBookMessage_GroupControl.Size = new System.Drawing.Size(200, 100);
@@ -181,23 +178,23 @@
             // 
             // ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit
             // 
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Location = new System.Drawing.Point(12, 141);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Location = new System.Drawing.Point(21, 145);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit";
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Properties.Caption = "执行人:";
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Size = new System.Drawing.Size(64, 19);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.Size = new System.Drawing.Size(61, 19);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_CheckEdit.TabIndex = 9;
             // 
             // ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit
             // 
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Location = new System.Drawing.Point(10, 107);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Location = new System.Drawing.Point(21, 118);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit";
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Properties.Caption = "创建人:";
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Size = new System.Drawing.Size(66, 19);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.Size = new System.Drawing.Size(61, 19);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_CheckEdit.TabIndex = 10;
             // 
             // ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit
             // 
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Location = new System.Drawing.Point(82, 140);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Location = new System.Drawing.Point(91, 144);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit";
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_executor_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -206,7 +203,7 @@
             // 
             // ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit
             // 
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Location = new System.Drawing.Point(82, 107);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Location = new System.Drawing.Point(91, 118);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit";
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_Creater_ButtonEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
@@ -215,16 +212,15 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(36, 214);
+            this.labelControl4.Location = new System.Drawing.Point(54, 199);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(28, 14);
             this.labelControl4.TabIndex = 13;
             this.labelControl4.Text = "时间:";
-            this.labelControl4.Click += new System.EventHandler(this.labelControl4_Click);
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(12, 177);
+            this.labelControl5.Location = new System.Drawing.Point(30, 173);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(52, 14);
             this.labelControl5.TabIndex = 14;
@@ -233,52 +229,52 @@
             // comboBoxEdit1
             // 
             this.comboBoxEdit1.EditValue = "全部";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(70, 211);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(91, 196);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(128, 20);
+            this.comboBoxEdit1.Size = new System.Drawing.Size(116, 20);
             this.comboBoxEdit1.TabIndex = 15;
             // 
             // ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit
             // 
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.EditValue = "全部";
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Location = new System.Drawing.Point(70, 174);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Location = new System.Drawing.Point(91, 170);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Name = "ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit";
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Size = new System.Drawing.Size(73, 20);
+            this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Size = new System.Drawing.Size(116, 20);
             this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.TabIndex = 16;
             // 
-            // simpleButton1
+            // btnQuery
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(149, 171);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(49, 23);
-            this.simpleButton1.TabIndex = 17;
-            this.simpleButton1.Text = "查询(Q)";
+            this.btnQuery.Location = new System.Drawing.Point(137, 222);
+            this.btnQuery.Name = "btnQuery";
+            this.btnQuery.Size = new System.Drawing.Size(70, 23);
+            this.btnQuery.TabIndex = 17;
+            this.btnQuery.Text = "查询(&Q)";
+            this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
             // 
             // groupControl2
             // 
             this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl2.Controls.Add(this.gridControl1);
-            this.groupControl2.Location = new System.Drawing.Point(209, 1);
+            this.groupControl2.Controls.Add(this.gcChangeApplication);
+            this.groupControl2.Location = new System.Drawing.Point(218, 12);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(553, 251);
+            this.groupControl2.Size = new System.Drawing.Size(684, 240);
             this.groupControl2.TabIndex = 18;
             this.groupControl2.Text = "变更申请书";
             // 
-            // gridControl1
+            // gcChangeApplication
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(0, 20);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(553, 231);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gcChangeApplication.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gcChangeApplication.Location = new System.Drawing.Point(2, 22);
+            this.gcChangeApplication.MainView = this.gridView1;
+            this.gcChangeApplication.Name = "gcChangeApplication";
+            this.gcChangeApplication.Size = new System.Drawing.Size(680, 216);
+            this.gcChangeApplication.TabIndex = 0;
+            this.gcChangeApplication.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -294,11 +290,11 @@
             this.gridColumn8,
             this.gridColumn9,
             this.gridColumn10,
-            this.gridColumn11,
-            this.gridColumn12});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridColumn11});
+            this.gridView1.GridControl = this.gcChangeApplication;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridView1_RowClick);
             // 
             // gridColumn1
             // 
@@ -377,22 +373,15 @@
             this.gridColumn11.Visible = true;
             this.gridColumn11.VisibleIndex = 10;
             // 
-            // gridColumn12
-            // 
-            this.gridColumn12.Caption = "...";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 11;
-            // 
             // xtraTabControl1
             // 
             this.xtraTabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.xtraTabControl1.Location = new System.Drawing.Point(209, 258);
+            this.xtraTabControl1.Location = new System.Drawing.Point(218, 258);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage2;
-            this.xtraTabControl1.Size = new System.Drawing.Size(553, 435);
+            this.xtraTabControl1.Size = new System.Drawing.Size(684, 420);
             this.xtraTabControl1.TabIndex = 19;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage2,
@@ -406,30 +395,29 @@
             this.xtraTabPage2.Controls.Add(this.groupControl4);
             this.xtraTabPage2.Controls.Add(this.groupControl3);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(547, 406);
+            this.xtraTabPage2.Size = new System.Drawing.Size(678, 391);
             this.xtraTabPage2.Text = "变更对象";
             // 
             // groupControl4
             // 
             this.groupControl4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl4.Controls.Add(this.gridControl2);
-            this.groupControl4.Location = new System.Drawing.Point(0, 3);
+            this.groupControl4.Controls.Add(this.gcChangeDocument);
+            this.groupControl4.Location = new System.Drawing.Point(3, 3);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(547, 176);
+            this.groupControl4.Size = new System.Drawing.Size(672, 176);
             this.groupControl4.TabIndex = 8;
             this.groupControl4.Text = "文档变更";
             // 
-            // gridControl2
+            // gcChangeDocument
             // 
-            this.gridControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl2.Location = new System.Drawing.Point(0, 19);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(547, 157);
-            this.gridControl2.TabIndex = 0;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gcChangeDocument.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gcChangeDocument.Location = new System.Drawing.Point(2, 22);
+            this.gcChangeDocument.MainView = this.gridView2;
+            this.gcChangeDocument.Name = "gcChangeDocument";
+            this.gcChangeDocument.Size = new System.Drawing.Size(668, 152);
+            this.gcChangeDocument.TabIndex = 0;
+            this.gcChangeDocument.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
             // 
             // gridView2
@@ -445,9 +433,8 @@
             this.gridColumn20,
             this.gridColumn21,
             this.gridColumn22,
-            this.gridColumn23,
-            this.gridColumn24});
-            this.gridView2.GridControl = this.gridControl2;
+            this.gridColumn23});
+            this.gridView2.GridControl = this.gcChangeDocument;
             this.gridView2.Name = "gridView2";
             this.gridView2.OptionsView.ShowGroupPanel = false;
             // 
@@ -528,36 +515,27 @@
             this.gridColumn23.Visible = true;
             this.gridColumn23.VisibleIndex = 10;
             // 
-            // gridColumn24
-            // 
-            this.gridColumn24.Caption = "...";
-            this.gridColumn24.Name = "gridColumn24";
-            this.gridColumn24.Visible = true;
-            this.gridColumn24.VisibleIndex = 11;
-            // 
             // groupControl3
             // 
             this.groupControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl3.Controls.Add(this.gridControl3);
-            this.groupControl3.Location = new System.Drawing.Point(0, 185);
+            this.groupControl3.Controls.Add(this.gcChangeStructure);
+            this.groupControl3.Location = new System.Drawing.Point(3, 185);
             this.groupControl3.Name = "groupControl3";
-            this.groupControl3.Size = new System.Drawing.Size(547, 218);
+            this.groupControl3.Size = new System.Drawing.Size(672, 203);
             this.groupControl3.TabIndex = 8;
             this.groupControl3.Text = "结构变更";
             // 
-            // gridControl3
+            // gcChangeStructure
             // 
-            this.gridControl3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl3.Location = new System.Drawing.Point(1, 20);
-            this.gridControl3.MainView = this.gridView3;
-            this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(546, 198);
-            this.gridControl3.TabIndex = 1;
-            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gcChangeStructure.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gcChangeStructure.Location = new System.Drawing.Point(2, 22);
+            this.gcChangeStructure.MainView = this.gridView3;
+            this.gcChangeStructure.Name = "gcChangeStructure";
+            this.gcChangeStructure.Size = new System.Drawing.Size(668, 179);
+            this.gcChangeStructure.TabIndex = 1;
+            this.gcChangeStructure.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
             // 
             // gridView3
@@ -569,9 +547,8 @@
             this.gridColumn28,
             this.gridColumn29,
             this.gridColumn30,
-            this.gridColumn31,
-            this.gridColumn32});
-            this.gridView3.GridControl = this.gridControl3;
+            this.gridColumn31});
+            this.gridView3.GridControl = this.gcChangeStructure;
             this.gridView3.Name = "gridView3";
             this.gridView3.OptionsView.ShowGroupPanel = false;
             // 
@@ -624,45 +601,38 @@
             this.gridColumn31.Visible = true;
             this.gridColumn31.VisibleIndex = 6;
             // 
-            // gridColumn32
-            // 
-            this.gridColumn32.Caption = "...";
-            this.gridColumn32.Name = "gridColumn32";
-            this.gridColumn32.Visible = true;
-            this.gridColumn32.VisibleIndex = 7;
-            // 
             // xtraTabPage1
             // 
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(547, 406);
+            this.xtraTabPage1.Size = new System.Drawing.Size(678, 391);
             this.xtraTabPage1.Text = "变更通知";
             // 
             // xtraTabPage3
             // 
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(547, 406);
+            this.xtraTabPage3.Size = new System.Drawing.Size(678, 391);
             this.xtraTabPage3.Text = "变更审签信息";
             // 
             // xtraTabPage4
             // 
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(547, 406);
+            this.xtraTabPage4.Size = new System.Drawing.Size(678, 391);
             this.xtraTabPage4.Text = "申请书审签信息";
             // 
             // xtraTabPage5
             // 
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(547, 406);
+            this.xtraTabPage5.Size = new System.Drawing.Size(678, 391);
             this.xtraTabPage5.Text = "零部件设计输出信息";
             // 
             // ChangeTaskManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(764, 690);
+            this.ClientSize = new System.Drawing.Size(914, 690);
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.btnQuery);
             this.Controls.Add(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit);
             this.Controls.Add(this.comboBoxEdit1);
             this.Controls.Add(this.labelControl5);
@@ -688,18 +658,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcChangeApplication)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
             this.xtraTabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
             this.groupControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcChangeDocument)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl3)).EndInit();
             this.groupControl3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcChangeStructure)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -723,9 +693,9 @@
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit ChangeManage_ChangeTaskManage_ChangeTaskManage_TaskStatus_ComboBoxEdit;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnQuery;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl gcChangeApplication;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -738,7 +708,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage2;
         private DevExpress.XtraTab.XtraTabPage xtraTabPage1;
@@ -747,7 +716,7 @@
         private DevExpress.XtraTab.XtraTabPage xtraTabPage5;
         private DevExpress.XtraEditors.GroupControl groupControl4;
         private DevExpress.XtraEditors.GroupControl groupControl3;
-        private DevExpress.XtraGrid.GridControl gridControl2;
+        private DevExpress.XtraGrid.GridControl gcChangeDocument;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn13;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn14;
@@ -760,8 +729,7 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn21;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn22;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn23;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn24;
-        private DevExpress.XtraGrid.GridControl gridControl3;
+        private DevExpress.XtraGrid.GridControl gcChangeStructure;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn25;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn26;
@@ -770,6 +738,5 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn29;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
     }
 }

@@ -112,9 +112,263 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 126</value>
+  </data>
+  <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定(&amp;O)</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 126</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消(&amp;C)</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ceNeednt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 66</value>
+  </data>
+  <data name="checkEdit1.Properties.Caption" xml:space="preserve">
+    <value>不需要审签</value>
+  </data>
+  <data name="ceNeednt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 19</value>
+  </data>
+  <data name="ceNeednt.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ceNeednt.Name" xml:space="preserve">
+    <value>ceNeednt</value>
+  </data>
+  <data name="&gt;&gt;ceNeednt.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckEdit, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ceNeednt.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;ceNeednt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;beProcess.Name" xml:space="preserve">
+    <value>beProcess</value>
+  </data>
+  <data name="&gt;&gt;beProcess.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beProcess.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;beProcess.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;teName.Name" xml:space="preserve">
+    <value>teName</value>
+  </data>
+  <data name="&gt;&gt;teName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teName.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;teName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 10</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 110</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>零部件信息</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="beProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 65</value>
+  </data>
+  <data name="beProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 20</value>
+  </data>
+  <data name="beProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;beProcess.Name" xml:space="preserve">
+    <value>beProcess</value>
+  </data>
+  <data name="&gt;&gt;beProcess.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ButtonEdit, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;beProcess.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;beProcess.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="teName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 39</value>
+  </data>
+  <data name="teName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>350, 20</value>
+  </data>
+  <data name="teName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;teName.Name" xml:space="preserve">
+    <value>teName</value>
+  </data>
+  <data name="&gt;&gt;teName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;teName.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;teName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 42</value>
+  </data>
+  <data name="labelControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 14</value>
+  </data>
+  <data name="labelControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelControl2.Text" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 68</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 14</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>审签流程:</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>474, 160</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>添加零部件设计包</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AddPartsDesignPackage</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v12.1, Version=12.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
 </root>

@@ -16,17 +16,7 @@ namespace View_Winform.ChangeManage.ChangeApplication
             InitializeComponent();
         }
 
-        private void labelControl9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textEdit8_EditValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
+        private void btnOK_Click(object sender, EventArgs e)
         {
 
         }

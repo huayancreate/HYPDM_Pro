@@ -36,12 +36,12 @@
             this.comboBoxEdit3 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.comboBoxEdit4 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnFindProjectList = new DevExpress.XtraEditors.SimpleButton();
             this.treeList1 = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.repositoryItemCheckEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gcProjectList = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -49,13 +49,9 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.btnOK = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDelete = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
@@ -65,13 +61,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcProjectList)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(3, 3);
+            this.checkEdit1.Location = new System.Drawing.Point(12, 12);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Caption = "我的项目";
             this.checkEdit1.Size = new System.Drawing.Size(75, 19);
@@ -79,7 +75,7 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(301, 5);
+            this.labelControl1.Location = new System.Drawing.Point(283, 15);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(28, 14);
             this.labelControl1.TabIndex = 6;
@@ -87,7 +83,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(119, 5);
+            this.labelControl2.Location = new System.Drawing.Point(101, 15);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 14);
             this.labelControl2.TabIndex = 7;
@@ -96,7 +92,7 @@
             // comboBoxEdit1
             // 
             this.comboBoxEdit1.EditValue = "全部";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(177, 3);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(159, 13);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -106,7 +102,7 @@
             // comboBoxEdit2
             // 
             this.comboBoxEdit2.EditValue = "全部";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(335, 3);
+            this.comboBoxEdit2.Location = new System.Drawing.Point(317, 13);
             this.comboBoxEdit2.Name = "comboBoxEdit2";
             this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -116,7 +112,7 @@
             // comboBoxEdit3
             // 
             this.comboBoxEdit3.EditValue = "全部";
-            this.comboBoxEdit3.Location = new System.Drawing.Point(215, 39);
+            this.comboBoxEdit3.Location = new System.Drawing.Point(232, 39);
             this.comboBoxEdit3.Name = "comboBoxEdit3";
             this.comboBoxEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -126,7 +122,7 @@
             // comboBoxEdit4
             // 
             this.comboBoxEdit4.EditValue = "全部";
-            this.comboBoxEdit4.Location = new System.Drawing.Point(5, 39);
+            this.comboBoxEdit4.Location = new System.Drawing.Point(14, 39);
             this.comboBoxEdit4.Name = "comboBoxEdit4";
             this.comboBoxEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -135,18 +131,19 @@
             // 
             // textEdit1
             // 
-            this.textEdit1.Location = new System.Drawing.Point(417, 39);
+            this.textEdit1.Location = new System.Drawing.Point(443, 39);
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Size = new System.Drawing.Size(195, 20);
             this.textEdit1.TabIndex = 13;
             // 
-            // simpleButton1
+            // btnFindProjectList
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(618, 36);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(50, 23);
-            this.simpleButton1.TabIndex = 14;
-            this.simpleButton1.Text = "查询(F)";
+            this.btnFindProjectList.Location = new System.Drawing.Point(644, 38);
+            this.btnFindProjectList.Name = "btnFindProjectList";
+            this.btnFindProjectList.Size = new System.Drawing.Size(50, 21);
+            this.btnFindProjectList.TabIndex = 14;
+            this.btnFindProjectList.Text = "查询(F)";
+            this.btnFindProjectList.Click += new System.EventHandler(this.btnFindProjectList_Click);
             // 
             // treeList1
             // 
@@ -154,7 +151,7 @@
                         | System.Windows.Forms.AnchorStyles.Left)));
             this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.treeList1.Location = new System.Drawing.Point(5, 65);
+            this.treeList1.Location = new System.Drawing.Point(12, 65);
             this.treeList1.Name = "treeList1";
             this.treeList1.BeginUnboundLoad();
             this.treeList1.AppendNode(new object[] {
@@ -170,9 +167,8 @@
             this.treeList1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit1,
             this.repositoryItemCheckEdit2});
-            this.treeList1.Size = new System.Drawing.Size(146, 415);
+            this.treeList1.Size = new System.Drawing.Size(139, 406);
             this.treeList1.TabIndex = 18;
-            this.treeList1.FocusedNodeChanged += new DevExpress.XtraTreeList.FocusedNodeChangedEventHandler(this.treeList1_FocusedNodeChanged);
             // 
             // treeListColumn1
             // 
@@ -193,17 +189,17 @@
             this.repositoryItemCheckEdit2.AutoHeight = false;
             this.repositoryItemCheckEdit2.Name = "repositoryItemCheckEdit2";
             // 
-            // gridControl1
+            // gcProjectList
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.gcProjectList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(157, 65);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(594, 415);
-            this.gridControl1.TabIndex = 19;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gcProjectList.Location = new System.Drawing.Point(157, 65);
+            this.gcProjectList.MainView = this.gridView1;
+            this.gcProjectList.Name = "gcProjectList";
+            this.gcProjectList.Size = new System.Drawing.Size(581, 406);
+            this.gcProjectList.TabIndex = 19;
+            this.gcProjectList.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
@@ -215,7 +211,7 @@
             this.gridColumn4,
             this.gridColumn5,
             this.gridColumn6});
-            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.GridControl = this.gcProjectList;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
             // 
@@ -261,83 +257,46 @@
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             // 
-            // simpleButton2
+            // btnCancel
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(437, 486);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(96, 23);
-            this.simpleButton2.TabIndex = 20;
-            this.simpleButton2.Text = "查看项目输出(P)";
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.Location = new System.Drawing.Point(672, 477);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(66, 23);
+            this.btnCancel.TabIndex = 24;
+            this.btnCancel.Text = "取消(&C)";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // simpleButton3
+            // btnOK
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(344, 486);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(87, 23);
-            this.simpleButton3.TabIndex = 21;
-            this.simpleButton3.Text = "查看项目(V)";
+            this.btnOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOK.Location = new System.Drawing.Point(524, 477);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(66, 23);
+            this.btnOK.TabIndex = 25;
+            this.btnOK.Text = "确定(&O)";
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // simpleButton4
+            // btnDelete
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(251, 486);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(87, 23);
-            this.simpleButton4.TabIndex = 22;
-            this.simpleButton4.Text = "查看项目组(L)";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton5.Location = new System.Drawing.Point(158, 486);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(87, 23);
-            this.simpleButton5.TabIndex = 23;
-            this.simpleButton5.Text = "设置项目组(S)";
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(684, 486);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(54, 23);
-            this.simpleButton6.TabIndex = 24;
-            this.simpleButton6.Text = "取消(C)";
-            // 
-            // simpleButton7
-            // 
-            this.simpleButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton7.Location = new System.Drawing.Point(624, 486);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(54, 23);
-            this.simpleButton7.TabIndex = 25;
-            this.simpleButton7.Text = "确定(O)";
-            // 
-            // simpleButton8
-            // 
-            this.simpleButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton8.Location = new System.Drawing.Point(564, 486);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(54, 23);
-            this.simpleButton8.TabIndex = 26;
-            this.simpleButton8.Text = "删除(D)";
+            this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDelete.Location = new System.Drawing.Point(596, 477);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(66, 23);
+            this.btnDelete.TabIndex = 26;
+            this.btnDelete.Text = "删除(&D)";
             // 
             // ProjectList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(750, 512);
-            this.Controls.Add(this.simpleButton8);
-            this.Controls.Add(this.simpleButton7);
-            this.Controls.Add(this.simpleButton6);
-            this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.gridControl1);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnOK);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.gcProjectList);
             this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.btnFindProjectList);
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.comboBoxEdit4);
             this.Controls.Add(this.comboBoxEdit3);
@@ -358,7 +317,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcProjectList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -375,12 +334,12 @@
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit3;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit4;
         private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton btnFindProjectList;
         private DevExpress.XtraTreeList.TreeList treeList1;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl gcProjectList;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
@@ -388,12 +347,8 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton8;
+        private DevExpress.XtraEditors.SimpleButton btnCancel;
+        private DevExpress.XtraEditors.SimpleButton btnOK;
+        private DevExpress.XtraEditors.SimpleButton btnDelete;
     }
 }

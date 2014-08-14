@@ -28,53 +28,129 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.gdProductList = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.id = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.name = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.process = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.user = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.startTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.endTime = new DevExpress.XtraGrid.Columns.GridColumn();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit1 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit3 = new DevExpress.XtraEditors.ButtonEdit();
-            this.buttonEdit4 = new DevExpress.XtraEditors.ButtonEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.txtName = new DevExpress.XtraEditors.TextEdit();
+            this.btnDocType = new DevExpress.XtraEditors.ButtonEdit();
+            this.btnGroup = new DevExpress.XtraEditors.ButtonEdit();
+            this.btnType = new DevExpress.XtraEditors.ButtonEdit();
+            this.cmbLevel = new DevExpress.XtraEditors.ComboBoxEdit();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.listBoxControl1 = new DevExpress.XtraEditors.ListBoxControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
+            this.mmeDescription = new DevExpress.XtraEditors.MemoEdit();
+            this.chkNeednt = new DevExpress.XtraEditors.CheckEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            this.btnRemoveProduct = new DevExpress.XtraEditors.SimpleButton();
+            this.btnModifyProduct = new DevExpress.XtraEditors.SimpleButton();
+            this.btnNewProduct = new DevExpress.XtraEditors.SimpleButton();
+            this.btnSave = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.dtpStartTime = new DevExpress.XtraEditors.DateEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.gdProductList)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtName.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDocType.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGroup.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnType.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbLevel.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mmeDescription.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkNeednt.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpStartTime.Properties.VistaTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpStartTime.Properties)).BeginInit();
             this.SuspendLayout();
+            // 
+            // gdProductList
+            // 
+            this.gdProductList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.gdProductList.Location = new System.Drawing.Point(2, 22);
+            this.gdProductList.MainView = this.gridView1;
+            this.gdProductList.Name = "gdProductList";
+            this.gdProductList.Size = new System.Drawing.Size(660, 165);
+            this.gdProductList.TabIndex = 0;
+            this.gdProductList.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.id,
+            this.name,
+            this.process,
+            this.user,
+            this.startTime,
+            this.endTime});
+            this.gridView1.CustomizationFormBounds = new System.Drawing.Rectangle(854, 445, 216, 187);
+            this.gridView1.GridControl = this.gdProductList;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
+            this.gridView1.OptionsBehavior.EditorShowMode = DevExpress.Utils.EditorShowMode.Click;
+            this.gridView1.OptionsCustomization.AllowFilter = false;
+            this.gridView1.OptionsMenu.EnableColumnMenu = false;
+            this.gridView1.OptionsMenu.EnableFooterMenu = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // id
+            // 
+            this.id.Caption = "产品编号";
+            this.id.FieldName = "Id";
+            this.id.Name = "id";
+            // 
+            // name
+            // 
+            this.name.Caption = "产品名称";
+            this.name.FieldName = "Name";
+            this.name.Name = "name";
+            this.name.Visible = true;
+            this.name.VisibleIndex = 0;
+            // 
+            // process
+            // 
+            this.process.Caption = "流程模板名称";
+            this.process.Name = "process";
+            this.process.Visible = true;
+            this.process.VisibleIndex = 1;
+            // 
+            // user
+            // 
+            this.user.Caption = "产品负责人";
+            this.user.Name = "user";
+            this.user.Visible = true;
+            this.user.VisibleIndex = 2;
+            // 
+            // startTime
+            // 
+            this.startTime.Caption = "计划开始时间";
+            this.startTime.Name = "startTime";
+            this.startTime.Visible = true;
+            this.startTime.VisibleIndex = 3;
+            // 
+            // endTime
+            // 
+            this.endTime.Caption = "计划结束时间";
+            this.endTime.Name = "endTime";
+            this.endTime.Visible = true;
+            this.endTime.VisibleIndex = 4;
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(398, 91);
+            this.labelControl1.Location = new System.Drawing.Point(396, 70);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(52, 14);
             this.labelControl1.TabIndex = 6;
@@ -82,7 +158,7 @@
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(403, 48);
+            this.labelControl2.Location = new System.Drawing.Point(401, 45);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(47, 14);
             this.labelControl2.TabIndex = 7;
@@ -90,7 +166,7 @@
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(386, 9);
+            this.labelControl3.Location = new System.Drawing.Point(386, 19);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(64, 14);
             this.labelControl3.TabIndex = 8;
@@ -98,7 +174,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(43, 91);
+            this.labelControl4.Location = new System.Drawing.Point(43, 70);
             this.labelControl4.Name = "labelControl4";
             this.labelControl4.Size = new System.Drawing.Size(52, 14);
             this.labelControl4.TabIndex = 9;
@@ -106,7 +182,7 @@
             // 
             // labelControl5
             // 
-            this.labelControl5.Location = new System.Drawing.Point(12, 51);
+            this.labelControl5.Location = new System.Drawing.Point(12, 45);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(83, 14);
             this.labelControl5.TabIndex = 10;
@@ -114,235 +190,193 @@
             // 
             // labelControl6
             // 
-            this.labelControl6.Location = new System.Drawing.Point(36, 12);
+            this.labelControl6.Location = new System.Drawing.Point(36, 19);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(59, 14);
             this.labelControl6.TabIndex = 11;
             this.labelControl6.Text = "*项目名称:";
             // 
-            // textEdit1
+            // txtName
             // 
-            this.textEdit1.Location = new System.Drawing.Point(108, 6);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(265, 20);
-            this.textEdit1.TabIndex = 13;
+            this.txtName.Location = new System.Drawing.Point(108, 16);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(265, 20);
+            this.txtName.TabIndex = 13;
             // 
-            // buttonEdit2
+            // btnDocType
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(456, 88);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.btnDocType.Location = new System.Drawing.Point(454, 67);
+            this.btnDocType.Name = "btnDocType";
+            this.btnDocType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(209, 20);
-            this.buttonEdit2.TabIndex = 19;
+            this.btnDocType.Size = new System.Drawing.Size(209, 20);
+            this.btnDocType.TabIndex = 19;
             // 
-            // buttonEdit1
+            // btnGroup
             // 
-            this.buttonEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.btnGroup.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEdit1.Location = new System.Drawing.Point(456, 45);
-            this.buttonEdit1.Name = "buttonEdit1";
-            this.buttonEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.btnGroup.Location = new System.Drawing.Point(454, 42);
+            this.btnGroup.Name = "btnGroup";
+            this.btnGroup.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit1.Size = new System.Drawing.Size(297, 20);
-            this.buttonEdit1.TabIndex = 20;
+            this.btnGroup.Size = new System.Drawing.Size(297, 20);
+            this.btnGroup.TabIndex = 20;
             // 
-            // buttonEdit3
+            // btnType
             // 
-            this.buttonEdit3.Location = new System.Drawing.Point(108, 88);
-            this.buttonEdit3.Name = "buttonEdit3";
-            this.buttonEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.btnType.Location = new System.Drawing.Point(108, 68);
+            this.btnType.Name = "btnType";
+            this.btnType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit3.Size = new System.Drawing.Size(265, 20);
-            this.buttonEdit3.TabIndex = 21;
+            this.btnType.Size = new System.Drawing.Size(265, 20);
+            this.btnType.TabIndex = 21;
             // 
-            // buttonEdit4
+            // cmbLevel
             // 
-            this.buttonEdit4.Location = new System.Drawing.Point(108, 48);
-            this.buttonEdit4.Name = "buttonEdit4";
-            this.buttonEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit4.Size = new System.Drawing.Size(265, 20);
-            this.buttonEdit4.TabIndex = 22;
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.cmbLevel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxEdit1.EditValue = "ComboBoxEdit";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(456, 6);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cmbLevel.EditValue = "第一级";
+            this.cmbLevel.Location = new System.Drawing.Point(454, 16);
+            this.cmbLevel.Name = "cmbLevel";
+            this.cmbLevel.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(297, 20);
-            this.comboBoxEdit1.TabIndex = 23;
+            this.cmbLevel.Properties.Items.AddRange(new object[] {
+            "第一级",
+            "第二级",
+            "第三级",
+            "第四级",
+            "第五级"});
+            this.cmbLevel.Size = new System.Drawing.Size(297, 20);
+            this.cmbLevel.TabIndex = 23;
             // 
             // groupControl1
             // 
             this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl1.Controls.Add(this.listBoxControl1);
-            this.groupControl1.Location = new System.Drawing.Point(1, 114);
+            this.groupControl1.Controls.Add(this.mmeDescription);
+            this.groupControl1.Location = new System.Drawing.Point(12, 93);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(762, 131);
+            this.groupControl1.Size = new System.Drawing.Size(741, 151);
             this.groupControl1.TabIndex = 24;
             this.groupControl1.Text = "项目描述";
             // 
-            // listBoxControl1
+            // mmeDescription
             // 
-            this.listBoxControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBoxControl1.Location = new System.Drawing.Point(0, 19);
-            this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(762, 112);
-            this.listBoxControl1.TabIndex = 11;
+            this.mmeDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mmeDescription.Location = new System.Drawing.Point(2, 22);
+            this.mmeDescription.Name = "mmeDescription";
+            this.mmeDescription.Size = new System.Drawing.Size(737, 127);
+            this.mmeDescription.TabIndex = 0;
             // 
-            // checkEdit1
+            // chkNeednt
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(671, 89);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "不需要分类";
-            this.checkEdit1.Size = new System.Drawing.Size(82, 19);
-            this.checkEdit1.TabIndex = 25;
+            this.chkNeednt.Location = new System.Drawing.Point(669, 68);
+            this.chkNeednt.Name = "chkNeednt";
+            this.chkNeednt.Properties.Caption = "不需要分类";
+            this.chkNeednt.Size = new System.Drawing.Size(82, 19);
+            this.chkNeednt.TabIndex = 25;
+            this.chkNeednt.CheckedChanged += new System.EventHandler(this.chkNeednt_CheckedChanged);
             // 
             // groupControl2
             // 
             this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupControl2.Controls.Add(this.gridControl1);
-            this.groupControl2.Location = new System.Drawing.Point(1, 251);
+            this.groupControl2.Controls.Add(this.gdProductList);
+            this.groupControl2.Controls.Add(this.btnRemoveProduct);
+            this.groupControl2.Controls.Add(this.btnModifyProduct);
+            this.groupControl2.Controls.Add(this.btnNewProduct);
+            this.groupControl2.Location = new System.Drawing.Point(12, 251);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(701, 207);
+            this.groupControl2.Size = new System.Drawing.Size(741, 189);
             this.groupControl2.TabIndex = 26;
             this.groupControl2.Text = "新建产品列表";
             // 
-            // gridControl1
+            // btnRemoveProduct
             // 
-            this.gridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.gridControl1.Location = new System.Drawing.Point(0, 20);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(701, 187);
-            this.gridControl1.TabIndex = 0;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.btnRemoveProduct.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRemoveProduct.Location = new System.Drawing.Point(668, 83);
+            this.btnRemoveProduct.Name = "btnRemoveProduct";
+            this.btnRemoveProduct.Size = new System.Drawing.Size(68, 23);
+            this.btnRemoveProduct.TabIndex = 3;
+            this.btnRemoveProduct.Text = "删除(&D)";
+            this.btnRemoveProduct.Click += new System.EventHandler(this.btnRemoveProduct_Click);
             // 
-            // gridView1
+            // btnModifyProduct
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn4,
-            this.gridColumn5});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.btnModifyProduct.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnModifyProduct.Location = new System.Drawing.Point(668, 54);
+            this.btnModifyProduct.Name = "btnModifyProduct";
+            this.btnModifyProduct.Size = new System.Drawing.Size(68, 23);
+            this.btnModifyProduct.TabIndex = 4;
+            this.btnModifyProduct.Text = "修改(&E)";
+            this.btnModifyProduct.Click += new System.EventHandler(this.btnModifyProduct_Click);
             // 
-            // gridColumn1
+            // btnNewProduct
             // 
-            this.gridColumn1.Caption = "产品名称";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.btnNewProduct.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNewProduct.Location = new System.Drawing.Point(668, 25);
+            this.btnNewProduct.Name = "btnNewProduct";
+            this.btnNewProduct.Size = new System.Drawing.Size(68, 23);
+            this.btnNewProduct.TabIndex = 5;
+            this.btnNewProduct.Text = "新建(&A)";
+            this.btnNewProduct.Click += new System.EventHandler(this.btnNewProduct_Click);
             // 
-            // gridColumn2
+            // btnSave
             // 
-            this.gridColumn2.Caption = "流程模板名称";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 1;
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSave.Location = new System.Drawing.Point(604, 446);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(70, 23);
+            this.btnSave.TabIndex = 1;
+            this.btnSave.Text = "确定(&O)";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // gridColumn3
+            // btnCancel
             // 
-            this.gridColumn3.Caption = "产品负责人";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 2;
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCancel.Location = new System.Drawing.Point(680, 446);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(73, 23);
+            this.btnCancel.TabIndex = 2;
+            this.btnCancel.Text = "取消(&C)";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // gridColumn4
+            // dtpStartTime
             // 
-            this.gridColumn4.Caption = "计划开始时间";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 3;
-            // 
-            // gridColumn5
-            // 
-            this.gridColumn5.Caption = "计划结束时间";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 4;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(643, 464);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(57, 23);
-            this.simpleButton1.TabIndex = 1;
-            this.simpleButton1.Text = "确定(O)";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(706, 464);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(57, 23);
-            this.simpleButton2.TabIndex = 2;
-            this.simpleButton2.Text = "取消(C)";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton3.Location = new System.Drawing.Point(705, 309);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(58, 23);
-            this.simpleButton3.TabIndex = 3;
-            this.simpleButton3.Text = "删除(D)";
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton4.Location = new System.Drawing.Point(705, 280);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(58, 23);
-            this.simpleButton4.TabIndex = 4;
-            this.simpleButton4.Text = "修改(E)";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.simpleButton5.Location = new System.Drawing.Point(705, 251);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(58, 23);
-            this.simpleButton5.TabIndex = 5;
-            this.simpleButton5.Text = "新建(A)";
+            this.dtpStartTime.EditValue = null;
+            this.dtpStartTime.Location = new System.Drawing.Point(108, 42);
+            this.dtpStartTime.Name = "dtpStartTime";
+            this.dtpStartTime.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dtpStartTime.Properties.Mask.EditMask = "yyyy-MM-dd HH:mm:ss";
+            this.dtpStartTime.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.dtpStartTime.Properties.VistaEditTime = DevExpress.Utils.DefaultBoolean.True;
+            this.dtpStartTime.Properties.VistaTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton()});
+            this.dtpStartTime.Size = new System.Drawing.Size(265, 20);
+            this.dtpStartTime.TabIndex = 27;
+            this.dtpStartTime.ToolTip = "计划开始时间";
             // 
             // CreateProject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 489);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton4);
-            this.Controls.Add(this.simpleButton5);
+            this.ClientSize = new System.Drawing.Size(765, 481);
+            this.Controls.Add(this.dtpStartTime);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.groupControl2);
-            this.Controls.Add(this.checkEdit1);
+            this.Controls.Add(this.chkNeednt);
             this.Controls.Add(this.groupControl1);
-            this.Controls.Add(this.comboBoxEdit1);
-            this.Controls.Add(this.buttonEdit4);
-            this.Controls.Add(this.buttonEdit3);
-            this.Controls.Add(this.buttonEdit1);
-            this.Controls.Add(this.buttonEdit2);
-            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.cmbLevel);
+            this.Controls.Add(this.btnType);
+            this.Controls.Add(this.btnGroup);
+            this.Controls.Add(this.btnDocType);
+            this.Controls.Add(this.txtName);
             this.Controls.Add(this.labelControl6);
             this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.labelControl4);
@@ -351,20 +385,22 @@
             this.Controls.Add(this.labelControl1);
             this.Name = "CreateProject";
             this.Text = "新项目创建";
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            this.Load += new System.EventHandler(this.CreateProject_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gdProductList)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtName.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDocType.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnGroup.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnType.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbLevel.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mmeDescription.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkNeednt.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpStartTime.Properties.VistaTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtpStartTime.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -378,27 +414,28 @@
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit3;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit4;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
+        private DevExpress.XtraEditors.TextEdit txtName;
+        private DevExpress.XtraEditors.ButtonEdit btnDocType;
+        private DevExpress.XtraEditors.ButtonEdit btnGroup;
+        private DevExpress.XtraEditors.ButtonEdit btnType;
+        private DevExpress.XtraEditors.ComboBoxEdit cmbLevel;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.ListBoxControl listBoxControl1;
+        private DevExpress.XtraEditors.CheckEdit chkNeednt;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.GridControl gdProductList;
+        private DevExpress.XtraEditors.SimpleButton btnSave;
+        private DevExpress.XtraEditors.SimpleButton btnRemoveProduct;
+        private DevExpress.XtraEditors.SimpleButton btnModifyProduct;
+        private DevExpress.XtraEditors.SimpleButton btnNewProduct;
+        private DevExpress.XtraEditors.MemoEdit mmeDescription;
+        private DevExpress.XtraEditors.SimpleButton btnCancel;
+        private DevExpress.XtraEditors.DateEdit dtpStartTime;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn2;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn3;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraGrid.Columns.GridColumn id;
+        private DevExpress.XtraGrid.Columns.GridColumn name;
+        private DevExpress.XtraGrid.Columns.GridColumn process;
+        private DevExpress.XtraGrid.Columns.GridColumn user;
+        private DevExpress.XtraGrid.Columns.GridColumn startTime;
+        private DevExpress.XtraGrid.Columns.GridColumn endTime;
     }
 }

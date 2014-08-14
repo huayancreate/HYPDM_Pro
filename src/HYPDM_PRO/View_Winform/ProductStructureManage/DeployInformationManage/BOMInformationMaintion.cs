@@ -86,6 +86,7 @@ namespace View_Winform.ProductStructureManage.DeployInformationManage
             DevExpress.XtraSplashScreen.SplashScreenManager.ShowForm(typeof(LoadWaitForm));
 
             var displayForm = new DisplayChangeParts();
+            displayForm.bomId = bomId;
             displayForm.ShowDialog();
 
             DevExpress.XtraSplashScreen.SplashScreenManager.CloseForm();

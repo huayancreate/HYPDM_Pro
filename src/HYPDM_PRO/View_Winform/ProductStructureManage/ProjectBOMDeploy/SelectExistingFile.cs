@@ -19,22 +19,39 @@ namespace View_Winform.ProductStructureManage.ProjectBOMDeploy
         public SelectExistingFile()
         {
             InitializeComponent();
+            gridView1 = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(gridView1, true);
         }
 
         private void SelectExistingFile_Load(object sender, EventArgs e)
         {
             simpleButton7.Click += new EventHandler(SelectParts);
+            bmReferMaterial.ItemClick += ReferMaterialItemClick;
             gridView1.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(GridViewRowClick);
-            var list = new Test.BOMData().GetAllMaterial();
-            gridControl1.DataSource = list;
+            var materialList = new Test.BOMData().GetAllMaterial();
+            gridControl1.DataSource = materialList;
             TreeDataBind();
+        }
+
+        private void ReferMaterialItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            switch (e.Item.Name)
+            {
+                case "btnCopyMaterial"://复制物料
+                    break;
+                case "btnShowMaterial"://查看物料
+                    break;
+                case "btnMaterialReverse"://物料反查
+                    break;
+                default:
+                    break;
+            }
         }
 
         private void GridViewRowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
         {
-            var id = gridView1.GetRowCellValue(e.RowHandle, "ID");
-            var no = gridView1.GetRowCellValue(e.RowHandle, "number");
-            var name = gridView1.GetRowCellValue(e.RowHandle, "name");
+            var id = gridView1.GetRowCellValue(e.RowHandle, "Id");
+            var no = gridView1.GetRowCellValue(e.RowHandle, "No");
+            var name = gridView1.GetRowCellValue(e.RowHandle, "Name");
             if (id == null || no == null || name == null) return;
             parts[0] = id.ToString();
             parts[1] = no.ToString();

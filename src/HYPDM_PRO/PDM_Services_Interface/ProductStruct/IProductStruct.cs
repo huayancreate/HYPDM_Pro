@@ -70,6 +70,9 @@ namespace PDM_Services_Interface
         [OperationContract]
         List<BOM_Struct> GetBOMStructListByMaterialId(int materialId, int bomId);
 
+        [OperationContract]
+        List<BOM_Struct> GetBOMStructListByStructId(int structId, int bomId);
+
         /// <summary>
         /// 根据结构Id和BOMId获取BOM结构集合
         /// </summary>
@@ -186,5 +189,8 @@ namespace PDM_Services_Interface
         [OperationContract]
         DataTable GetListToDataTable(int propertyId);
         #endregion
+
+        [OperationContract]
+        void GetChildBOMStruct(int id, ref List<BOM_Struct> structList);
     }
 }

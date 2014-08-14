@@ -21,16 +21,16 @@ namespace PDM_Server
             //ServerManager.StartService(typeof(MaterialBankManage));
 
             /* the following code belong to SystemMangeAndTools module*/
-            //ServerManager.StartService(typeof(UsersManage));
-            //ServerManager.StartService(typeof(UserGroupManage));
-            //ServerManager.StartService(typeof(RoleManage));
-            //ServerManager.StartService(typeof(OrganizationManage));
-            //ServerManager.StartService(typeof(OperationManagement));
-            //ServerManager.StartService(typeof(MenuManagement));
-            //ServerManager.StartService(typeof(CodeApplyManage));
-            //ServerManager.StartService(typeof(CodeSchemeManage));
+            ServerManager.StartService(typeof(UsersManage));
+            ServerManager.StartService(typeof(UserGroupManage));
+            ServerManager.StartService(typeof(RoleManage));
+            ServerManager.StartService(typeof(OrganizationManage));
+            ServerManager.StartService(typeof(OperationManagement));
+            ServerManager.StartService(typeof(MenuManagement));
+            ServerManager.StartService(typeof(CodeApplyManage));
+            ServerManager.StartService(typeof(CodeSchemeManage));
             //ServerManager.StartService(typeof(CodeDictionaryFill));
-            //ServerManager.StartService(typeof(CodeRuleSet));
+            ServerManager.StartService(typeof(CodeRuleSet));
             //ServerManager.StartService(typeof(TestService));
             //ServerManager.StartService(typeof(TestService2));
             //ServerManager.StartService(typeof(UserGroupManage));
@@ -42,13 +42,27 @@ namespace PDM_Server
             ServerManager.StartService(typeof(ProductStruct));
             ServerManager.StartService(typeof(ProductCategoryManage));
             ServerManager.StartService(typeof(MeasurementUnitBuild));
-            //ServerManager.StartService(typeof(DocManageTool));
-            //ServerManager.StartService(typeof(DocGrantManage));
-            //ServerManager.StartService(typeof(DocPropertyBuild));
-            //ServerManager.StartService(typeof(DocSecurityLevelBuild));
-            //ServerManager.StartService(typeof(DocTemplateCategoryManage));
-            //SocketServer socket = new SocketServer("127.0.0.1", 7775);
-            //socket.start();
+            ServerManager.StartService(typeof(DocManageTool));
+            ServerManager.StartService(typeof(DocGrantManage));
+            ServerManager.StartService(typeof(DocPropertyBuild));
+            ServerManager.StartService(typeof(DocSecurityLevelBuild));
+            ServerManager.StartService(typeof(DocTemplateCategoryManage));
+
+            SocketServer socket = new SocketServer("127.0.0.1", 7775);
+            socket.start();
+
+            ServerManager.StartService(typeof(PersonnelTaskInquireService));
+            ServerManager.StartService(typeof(CreateNewProjectService));
+            ServerManager.StartService(typeof(ProjectExportService));
+            ServerManager.StartService(typeof(ProjectCalendarService));
+            ServerManager.StartService(typeof(ProjectPlanManageService));
+            ServerManager.StartService(typeof(ProjectFlowDefinitionService));
+            ServerManager.StartService(typeof(ProjectTaskStatisticsService));
+            ServerManager.StartService(typeof(SporadicTaskCreateService));
+            ServerManager.StartService(typeof(SporadicTaskManageService));
+            ServerManager.StartService(typeof(MyTaskBoxService));
+            ServerManager.StartService(typeof(HyPdmMainService));
+            ServerManager.StartService(typeof(ChangeManagementService));
             //ServerManager.StartService(typeof(ProductStruct));
 
             Console.WriteLine("TestService Started...");

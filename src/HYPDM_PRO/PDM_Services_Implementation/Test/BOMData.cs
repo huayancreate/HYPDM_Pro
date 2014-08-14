@@ -243,6 +243,13 @@ namespace PDM_Services_Implementation.Test
             structList = GetAllStructByBOMId(bom_id).FindAll(s => s.Parent_Id == bomStruct.Id);
             return structList;
         }
+
+        public List<BOM_Struct> GetStructListByStructId(int structId, int bom_id)
+        {
+            var structList = GetAllStruct().FindAll(s => s.Id == structId && s.BOM_Id == bom_id);
+            return structList;
+        }
+
         public List<BOM_Struct> GetStructListByParentId(int id, int bom_id)
         {
             var structList = new List<BOM_Struct>();

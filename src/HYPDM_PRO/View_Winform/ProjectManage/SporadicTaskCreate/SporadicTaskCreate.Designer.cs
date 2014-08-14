@@ -28,110 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.treeList1 = new DevExpress.XtraTreeList.TreeList();
+            this.btnNext = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.tlTaskType = new DevExpress.XtraTreeList.TreeList();
             this.treeListColumn1 = new DevExpress.XtraTreeList.Columns.TreeListColumn();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tlTaskType)).BeginInit();
             this.SuspendLayout();
             // 
-            // labelControl6
+            // btnNext
             // 
-            this.labelControl6.Location = new System.Drawing.Point(-1, 2);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(84, 14);
-            this.labelControl6.TabIndex = 86;
-            this.labelControl6.Text = "请选择任务类型";
+            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNext.Location = new System.Drawing.Point(354, 352);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(70, 23);
+            this.btnNext.TabIndex = 89;
+            this.btnNext.Text = "下一步(&N)";
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // treeList1
+            // btnCancel
             // 
-            this.treeList1.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.Location = new System.Drawing.Point(430, 352);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(70, 23);
+            this.btnCancel.TabIndex = 91;
+            this.btnCancel.Text = "取消(&C)";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupControl1.Controls.Add(this.tlTaskType);
+            this.groupControl1.Location = new System.Drawing.Point(12, 12);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(502, 334);
+            this.groupControl1.TabIndex = 92;
+            this.groupControl1.Text = "请选择任务类型";
+            // 
+            // tlTaskType
+            // 
+            this.tlTaskType.Columns.AddRange(new DevExpress.XtraTreeList.Columns.TreeListColumn[] {
             this.treeListColumn1});
-            this.treeList1.Location = new System.Drawing.Point(-1, 22);
-            this.treeList1.Name = "treeList1";
-            this.treeList1.BeginUnboundLoad();
-            this.treeList1.AppendNode(new object[] {
-            "设计任务"}, -1);
-            this.treeList1.AppendNode(new object[] {
-            "办公任务"}, -1);
-            this.treeList1.AppendNode(new object[] {
-            "工艺任务"}, -1);
-            this.treeList1.EndUnboundLoad();
-            this.treeList1.OptionsPrint.UsePrintStyles = true;
-            this.treeList1.Size = new System.Drawing.Size(526, 334);
-            this.treeList1.TabIndex = 87;
+            this.tlTaskType.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tlTaskType.Location = new System.Drawing.Point(2, 22);
+            this.tlTaskType.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.tlTaskType.LookAndFeel.UseWindowsXPTheme = true;
+            this.tlTaskType.Name = "tlTaskType";
+            this.tlTaskType.OptionsBehavior.Editable = false;
+            this.tlTaskType.OptionsPrint.UsePrintStyles = true;
+            this.tlTaskType.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.tlTaskType.OptionsView.ShowHorzLines = false;
+            this.tlTaskType.OptionsView.ShowIndicator = false;
+            this.tlTaskType.OptionsView.ShowVertLines = false;
+            this.tlTaskType.Size = new System.Drawing.Size(498, 310);
+            this.tlTaskType.TabIndex = 87;
+            this.tlTaskType.DoubleClick += new System.EventHandler(this.tlTaskType_DoubleClick);
             // 
             // treeListColumn1
             // 
             this.treeListColumn1.Caption = "任务类型";
-            this.treeListColumn1.FieldName = "任务类型";
+            this.treeListColumn1.FieldName = "Name";
             this.treeListColumn1.MinWidth = 34;
             this.treeListColumn1.Name = "treeListColumn1";
+            this.treeListColumn1.OptionsColumn.AllowSort = false;
+            this.treeListColumn1.OptionsColumn.ReadOnly = true;
             this.treeListColumn1.Visible = true;
             this.treeListColumn1.VisibleIndex = 0;
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Location = new System.Drawing.Point(190, 362);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(70, 23);
-            this.simpleButton6.TabIndex = 88;
-            this.simpleButton6.Text = "上一步(B)";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(266, 362);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(70, 23);
-            this.simpleButton1.TabIndex = 89;
-            this.simpleButton1.Text = "下一步(N)";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(342, 362);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(70, 23);
-            this.simpleButton2.TabIndex = 90;
-            this.simpleButton2.Text = "完成(F)";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Location = new System.Drawing.Point(418, 362);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(70, 23);
-            this.simpleButton3.TabIndex = 91;
-            this.simpleButton3.Text = "取消(C)";
             // 
             // SporadicTaskCreate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(526, 387);
-            this.Controls.Add(this.simpleButton3);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.simpleButton6);
-            this.Controls.Add(this.treeList1);
-            this.Controls.Add(this.labelControl6);
+            this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnNext);
             this.Name = "SporadicTaskCreate";
             this.Text = "零星任务创建";
-            ((System.ComponentModel.ISupportInitialize)(this.treeList1)).EndInit();
+            this.Load += new System.EventHandler(this.SporadicTaskCreate_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tlTaskType)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraTreeList.TreeList treeList1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton btnNext;
+        private DevExpress.XtraEditors.SimpleButton btnCancel;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraTreeList.TreeList tlTaskType;
         private DevExpress.XtraTreeList.Columns.TreeListColumn treeListColumn1;
     }
 }

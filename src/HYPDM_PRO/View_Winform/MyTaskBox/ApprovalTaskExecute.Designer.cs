@@ -139,7 +139,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxControl1.Location = new System.Drawing.Point(5, 32);
             this.listBoxControl1.Name = "listBoxControl1";
-            this.listBoxControl1.Size = new System.Drawing.Size(420, 145);
+            this.listBoxControl1.Size = new System.Drawing.Size(411, 145);
             this.listBoxControl1.TabIndex = 64;
             // 
             // simpleButton3

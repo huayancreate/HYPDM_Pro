@@ -28,90 +28,105 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.buttonEdit2 = new DevExpress.XtraEditors.ButtonEdit();
+            this.txtStartTime = new DevExpress.XtraEditors.TextEdit();
+            this.btnProjectName = new DevExpress.XtraEditors.ButtonEdit();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.gcWorkTime = new DevExpress.XtraGrid.GridControl();
+            this.gvWorkTime = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gvStartTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gvEndTime = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.btnApply = new DevExpress.XtraEditors.SimpleButton();
+            this.btnDefault = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit3 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit4 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit5 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit6 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit7 = new DevExpress.XtraEditors.CheckEdit();
+            this.chkSunday = new DevExpress.XtraEditors.CheckEdit();
+            this.chkSaturday = new DevExpress.XtraEditors.CheckEdit();
+            this.chkFriday = new DevExpress.XtraEditors.CheckEdit();
+            this.chkThursday = new DevExpress.XtraEditors.CheckEdit();
+            this.chkWednesday = new DevExpress.XtraEditors.CheckEdit();
+            this.chkTuesday = new DevExpress.XtraEditors.CheckEdit();
+            this.chkMonday = new DevExpress.XtraEditors.CheckEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.dateNavigator1 = new DevExpress.XtraScheduler.DateNavigator();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.checkEdit9 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit8 = new DevExpress.XtraEditors.CheckEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnOk = new DevExpress.XtraEditors.SimpleButton();
+            this.btnCancel = new DevExpress.XtraEditors.SimpleButton();
+            this.cmbYear = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.cmbMonth = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.gpcCalendar = new DevExpress.XtraEditors.GroupControl();
+            this.pc0 = new DevExpress.XtraEditors.PanelControl();
+            this.lblSaturday = new DevExpress.XtraEditors.LabelControl();
+            this.lblFriday = new DevExpress.XtraEditors.LabelControl();
+            this.lblThursday = new DevExpress.XtraEditors.LabelControl();
+            this.lblWednesday = new DevExpress.XtraEditors.LabelControl();
+            this.lblTuesday = new DevExpress.XtraEditors.LabelControl();
+            this.lblMonday = new DevExpress.XtraEditors.LabelControl();
+            this.lblSunday = new DevExpress.XtraEditors.LabelControl();
+            this.btnToday = new DevExpress.XtraEditors.SimpleButton();
+            this.pmWorkTime = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.biWork = new DevExpress.XtraBars.BarButtonItem();
+            this.biWeekend = new DevExpress.XtraBars.BarButtonItem();
+            this.bmMessage = new DevExpress.XtraBars.BarManager(this.components);
+            this.barDockControlTop = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
+            this.barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStartTime.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnProjectName.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateNavigator1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit9.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit8.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcWorkTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvWorkTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSunday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSaturday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkFriday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkThursday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkWednesday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkTuesday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkMonday.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbYear.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbMonth.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gpcCalendar)).BeginInit();
+            this.gpcCalendar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pc0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pmWorkTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bmMessage)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl1
             // 
-            this.groupControl1.Controls.Add(this.textEdit1);
-            this.groupControl1.Controls.Add(this.buttonEdit2);
+            this.groupControl1.Controls.Add(this.txtStartTime);
+            this.groupControl1.Controls.Add(this.btnProjectName);
             this.groupControl1.Controls.Add(this.labelControl2);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(2, 2);
+            this.groupControl1.Location = new System.Drawing.Point(9, 12);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(276, 100);
             this.groupControl1.TabIndex = 8;
             this.groupControl1.Text = "项目信息";
             // 
-            // textEdit1
+            // txtStartTime
             // 
-            this.textEdit1.Location = new System.Drawing.Point(64, 51);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(207, 20);
-            this.textEdit1.TabIndex = 20;
+            this.txtStartTime.Location = new System.Drawing.Point(67, 60);
+            this.txtStartTime.Name = "txtStartTime";
+            this.txtStartTime.Size = new System.Drawing.Size(196, 20);
+            this.txtStartTime.TabIndex = 20;
             // 
-            // buttonEdit2
+            // btnProjectName
             // 
-            this.buttonEdit2.Location = new System.Drawing.Point(64, 25);
-            this.buttonEdit2.Name = "buttonEdit2";
-            this.buttonEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.btnProjectName.Location = new System.Drawing.Point(67, 34);
+            this.btnProjectName.Name = "btnProjectName";
+            this.btnProjectName.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton()});
-            this.buttonEdit2.Size = new System.Drawing.Size(207, 20);
-            this.buttonEdit2.TabIndex = 19;
+            this.btnProjectName.Size = new System.Drawing.Size(196, 20);
+            this.btnProjectName.TabIndex = 19;
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(10, 25);
+            this.labelControl2.Location = new System.Drawing.Point(13, 37);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(48, 14);
             this.labelControl2.TabIndex = 7;
@@ -119,285 +134,417 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(10, 54);
+            this.labelControl1.Location = new System.Drawing.Point(13, 63);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(48, 14);
             this.labelControl1.TabIndex = 6;
             this.labelControl1.Text = "开始时间";
-            this.labelControl1.Click += new System.EventHandler(this.labelControl1_Click);
             // 
             // groupControl2
             // 
             this.groupControl2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupControl2.Controls.Add(this.simpleButton3);
-            this.groupControl2.Controls.Add(this.simpleButton4);
-            this.groupControl2.Controls.Add(this.labelControl6);
-            this.groupControl2.Controls.Add(this.labelControl5);
+            this.groupControl2.Controls.Add(this.gcWorkTime);
+            this.groupControl2.Controls.Add(this.btnApply);
+            this.groupControl2.Controls.Add(this.btnDefault);
             this.groupControl2.Controls.Add(this.labelControl4);
-            this.groupControl2.Controls.Add(this.checkEdit1);
-            this.groupControl2.Controls.Add(this.checkEdit2);
-            this.groupControl2.Controls.Add(this.checkEdit3);
-            this.groupControl2.Controls.Add(this.checkEdit4);
-            this.groupControl2.Controls.Add(this.checkEdit5);
-            this.groupControl2.Controls.Add(this.checkEdit6);
-            this.groupControl2.Controls.Add(this.checkEdit7);
+            this.groupControl2.Controls.Add(this.chkSunday);
+            this.groupControl2.Controls.Add(this.chkSaturday);
+            this.groupControl2.Controls.Add(this.chkFriday);
+            this.groupControl2.Controls.Add(this.chkThursday);
+            this.groupControl2.Controls.Add(this.chkWednesday);
+            this.groupControl2.Controls.Add(this.chkTuesday);
+            this.groupControl2.Controls.Add(this.chkMonday);
             this.groupControl2.Controls.Add(this.labelControl3);
-            this.groupControl2.Location = new System.Drawing.Point(2, 108);
+            this.groupControl2.Location = new System.Drawing.Point(9, 118);
             this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(276, 352);
+            this.groupControl2.Size = new System.Drawing.Size(276, 342);
             this.groupControl2.TabIndex = 9;
             this.groupControl2.Text = "工作日和工作时间";
             // 
-            // simpleButton3
+            // gcWorkTime
             // 
-            this.simpleButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton3.Location = new System.Drawing.Point(105, 324);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(97, 23);
-            this.simpleButton3.TabIndex = 14;
-            this.simpleButton3.Text = "应用到当前项目";
+            this.gcWorkTime.Location = new System.Drawing.Point(17, 137);
+            this.gcWorkTime.MainView = this.gvWorkTime;
+            this.gcWorkTime.Name = "gcWorkTime";
+            this.gcWorkTime.Size = new System.Drawing.Size(240, 142);
+            this.gcWorkTime.TabIndex = 20;
+            this.gcWorkTime.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gvWorkTime});
             // 
-            // simpleButton4
+            // gvWorkTime
             // 
-            this.simpleButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton4.Location = new System.Drawing.Point(208, 324);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(63, 23);
-            this.simpleButton4.TabIndex = 15;
-            this.simpleButton4.Text = "设为默认";
+            this.gvWorkTime.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gvStartTime,
+            this.gvEndTime});
+            this.gvWorkTime.GridControl = this.gcWorkTime;
+            this.gvWorkTime.Name = "gvWorkTime";
+            this.gvWorkTime.OptionsView.ShowGroupPanel = false;
             // 
-            // labelControl6
+            // gvStartTime
             // 
-            this.labelControl6.Location = new System.Drawing.Point(10, 140);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(54, 14);
-            this.labelControl6.TabIndex = 19;
-            this.labelControl6.Text = "从(xx:xx):";
+            this.gvStartTime.Caption = "上班时间(时:分)";
+            this.gvStartTime.FieldName = "Start";
+            this.gvStartTime.Name = "gvStartTime";
+            this.gvStartTime.Visible = true;
+            this.gvStartTime.VisibleIndex = 0;
             // 
-            // labelControl5
+            // gvEndTime
             // 
-            this.labelControl5.Location = new System.Drawing.Point(133, 140);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(54, 14);
-            this.labelControl5.TabIndex = 18;
-            this.labelControl5.Text = "到(xx:xx):";
+            this.gvEndTime.Caption = "下班时间(时:分)";
+            this.gvEndTime.FieldName = "End";
+            this.gvEndTime.Name = "gvEndTime";
+            this.gvEndTime.Visible = true;
+            this.gvEndTime.VisibleIndex = 1;
+            // 
+            // btnApply
+            // 
+            this.btnApply.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnApply.Location = new System.Drawing.Point(37, 305);
+            this.btnApply.Name = "btnApply";
+            this.btnApply.Size = new System.Drawing.Size(129, 23);
+            this.btnApply.TabIndex = 14;
+            this.btnApply.Text = "应用到当前项目(&A)";
+            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
+            // 
+            // btnDefault
+            // 
+            this.btnDefault.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnDefault.Location = new System.Drawing.Point(172, 305);
+            this.btnDefault.Name = "btnDefault";
+            this.btnDefault.Size = new System.Drawing.Size(91, 23);
+            this.btnDefault.TabIndex = 15;
+            this.btnDefault.Text = "设为默认(&D)";
+            this.btnDefault.Click += new System.EventHandler(this.btnDefault_Click);
             // 
             // labelControl4
             // 
-            this.labelControl4.Location = new System.Drawing.Point(5, 110);
+            this.labelControl4.Location = new System.Drawing.Point(12, 117);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(88, 14);
+            this.labelControl4.Size = new System.Drawing.Size(76, 14);
             this.labelControl4.TabIndex = 17;
-            this.labelControl4.Text = "一天的工作时间:";
+            this.labelControl4.Text = "工作时间设置:";
             // 
-            // checkEdit1
+            // chkSunday
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(131, 85);
-            this.checkEdit1.Name = "checkEdit1";
-            this.checkEdit1.Properties.Caption = "周日";
-            this.checkEdit1.Size = new System.Drawing.Size(52, 19);
-            this.checkEdit1.TabIndex = 10;
+            this.chkSunday.Location = new System.Drawing.Point(140, 77);
+            this.chkSunday.Name = "chkSunday";
+            this.chkSunday.Properties.Caption = "周日";
+            this.chkSunday.Size = new System.Drawing.Size(52, 19);
+            this.chkSunday.TabIndex = 10;
             // 
-            // checkEdit2
+            // chkSaturday
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(64, 85);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "周六";
-            this.checkEdit2.Size = new System.Drawing.Size(49, 19);
-            this.checkEdit2.TabIndex = 11;
+            this.chkSaturday.Location = new System.Drawing.Point(78, 77);
+            this.chkSaturday.Name = "chkSaturday";
+            this.chkSaturday.Properties.Caption = "周六";
+            this.chkSaturday.Size = new System.Drawing.Size(49, 19);
+            this.chkSaturday.TabIndex = 11;
             // 
-            // checkEdit3
+            // chkFriday
             // 
-            this.checkEdit3.Location = new System.Drawing.Point(8, 85);
-            this.checkEdit3.Name = "checkEdit3";
-            this.checkEdit3.Properties.Caption = "周五";
-            this.checkEdit3.Size = new System.Drawing.Size(50, 19);
-            this.checkEdit3.TabIndex = 12;
+            this.chkFriday.Location = new System.Drawing.Point(15, 77);
+            this.chkFriday.Name = "chkFriday";
+            this.chkFriday.Properties.Caption = "周五";
+            this.chkFriday.Size = new System.Drawing.Size(50, 19);
+            this.chkFriday.TabIndex = 12;
             // 
-            // checkEdit4
+            // chkThursday
             // 
-            this.checkEdit4.Location = new System.Drawing.Point(200, 45);
-            this.checkEdit4.Name = "checkEdit4";
-            this.checkEdit4.Properties.Caption = "周四";
-            this.checkEdit4.Size = new System.Drawing.Size(50, 19);
-            this.checkEdit4.TabIndex = 13;
-            this.checkEdit4.CheckedChanged += new System.EventHandler(this.checkEdit4_CheckedChanged);
+            this.chkThursday.Location = new System.Drawing.Point(205, 52);
+            this.chkThursday.Name = "chkThursday";
+            this.chkThursday.Properties.Caption = "周四";
+            this.chkThursday.Size = new System.Drawing.Size(50, 19);
+            this.chkThursday.TabIndex = 13;
             // 
-            // checkEdit5
+            // chkWednesday
             // 
-            this.checkEdit5.Location = new System.Drawing.Point(131, 45);
-            this.checkEdit5.Name = "checkEdit5";
-            this.checkEdit5.Properties.Caption = "周三";
-            this.checkEdit5.Size = new System.Drawing.Size(52, 19);
-            this.checkEdit5.TabIndex = 14;
+            this.chkWednesday.Location = new System.Drawing.Point(140, 52);
+            this.chkWednesday.Name = "chkWednesday";
+            this.chkWednesday.Properties.Caption = "周三";
+            this.chkWednesday.Size = new System.Drawing.Size(52, 19);
+            this.chkWednesday.TabIndex = 14;
             // 
-            // checkEdit6
+            // chkTuesday
             // 
-            this.checkEdit6.Location = new System.Drawing.Point(64, 45);
-            this.checkEdit6.Name = "checkEdit6";
-            this.checkEdit6.Properties.Caption = "周二";
-            this.checkEdit6.Size = new System.Drawing.Size(49, 19);
-            this.checkEdit6.TabIndex = 15;
+            this.chkTuesday.Location = new System.Drawing.Point(78, 52);
+            this.chkTuesday.Name = "chkTuesday";
+            this.chkTuesday.Properties.Caption = "周二";
+            this.chkTuesday.Size = new System.Drawing.Size(49, 19);
+            this.chkTuesday.TabIndex = 15;
             // 
-            // checkEdit7
+            // chkMonday
             // 
-            this.checkEdit7.Location = new System.Drawing.Point(8, 45);
-            this.checkEdit7.Name = "checkEdit7";
-            this.checkEdit7.Properties.Caption = "周一";
-            this.checkEdit7.Size = new System.Drawing.Size(50, 19);
-            this.checkEdit7.TabIndex = 16;
+            this.chkMonday.Location = new System.Drawing.Point(15, 52);
+            this.chkMonday.Name = "chkMonday";
+            this.chkMonday.Properties.Caption = "周一";
+            this.chkMonday.Size = new System.Drawing.Size(50, 19);
+            this.chkMonday.TabIndex = 16;
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(5, 25);
+            this.labelControl3.Location = new System.Drawing.Point(12, 32);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(124, 14);
+            this.labelControl3.Size = new System.Drawing.Size(64, 14);
             this.labelControl3.TabIndex = 6;
-            this.labelControl3.Text = "一周中哪些天是工作日:";
+            this.labelControl3.Text = "工作日设置:";
             // 
-            // panelControl1
+            // btnOk
             // 
-            this.panelControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl1.Controls.Add(this.panelControl2);
-            this.panelControl1.Controls.Add(this.checkEdit9);
-            this.panelControl1.Controls.Add(this.checkEdit8);
-            this.panelControl1.Location = new System.Drawing.Point(284, 2);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(386, 458);
-            this.panelControl1.TabIndex = 10;
+            this.btnOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnOk.Location = new System.Drawing.Point(519, 466);
+            this.btnOk.Name = "btnOk";
+            this.btnOk.Size = new System.Drawing.Size(59, 23);
+            this.btnOk.TabIndex = 14;
+            this.btnOk.Text = "确定(&O)";
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
-            // panelControl2
+            // btnCancel
             // 
-            this.panelControl2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelControl2.Controls.Add(this.dateNavigator1);
-            this.panelControl2.Controls.Add(this.comboBoxEdit2);
-            this.panelControl2.Controls.Add(this.comboBoxEdit1);
-            this.panelControl2.Controls.Add(this.labelControl7);
-            this.panelControl2.Location = new System.Drawing.Point(0, 0);
-            this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(384, 428);
-            this.panelControl2.TabIndex = 14;
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCancel.Location = new System.Drawing.Point(584, 466);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(59, 23);
+            this.btnCancel.TabIndex = 15;
+            this.btnCancel.Text = "取消(&C)";
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
-            // dateNavigator1
+            // cmbYear
             // 
-            this.dateNavigator1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateNavigator1.DateTime = new System.DateTime(2013, 12, 25, 0, 0, 0, 0);
-            this.dateNavigator1.HotDate = null;
-            this.dateNavigator1.Location = new System.Drawing.Point(7, 41);
-            this.dateNavigator1.Name = "dateNavigator1";
-            this.dateNavigator1.Size = new System.Drawing.Size(374, 239);
-            this.dateNavigator1.TabIndex = 29;
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.EditValue = "XXXX";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(112, 5);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cmbYear.EditValue = "2012年";
+            this.cmbYear.Location = new System.Drawing.Point(44, 34);
+            this.cmbYear.Name = "cmbYear";
+            this.cmbYear.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(127, 20);
-            this.comboBoxEdit2.TabIndex = 10;
+            this.cmbYear.Properties.Items.AddRange(new object[] {
+            "2013年",
+            "2014年",
+            "2015年"});
+            this.cmbYear.Size = new System.Drawing.Size(73, 20);
+            this.cmbYear.TabIndex = 10;
+            this.cmbYear.SelectedIndexChanged += new System.EventHandler(this.YearAndMonth_SelectedIndexChanged);
             // 
-            // comboBoxEdit1
+            // cmbMonth
             // 
-            this.comboBoxEdit1.EditValue = "XX";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(261, 5);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.cmbMonth.EditValue = "1月";
+            this.cmbMonth.Location = new System.Drawing.Point(123, 34);
+            this.cmbMonth.Name = "cmbMonth";
+            this.cmbMonth.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(120, 20);
-            this.comboBoxEdit1.TabIndex = 9;
+            this.cmbMonth.Properties.Items.AddRange(new object[] {
+            "1月",
+            "2月",
+            "3月",
+            "4月",
+            "5月",
+            "6月",
+            "7月",
+            "8月",
+            "9月",
+            "10月",
+            "11月",
+            "12月"});
+            this.cmbMonth.Size = new System.Drawing.Size(65, 20);
+            this.cmbMonth.TabIndex = 9;
+            this.cmbMonth.SelectedIndexChanged += new System.EventHandler(this.YearAndMonth_SelectedIndexChanged);
             // 
-            // labelControl7
+            // gpcCalendar
             // 
-            this.labelControl7.Location = new System.Drawing.Point(245, 8);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(12, 14);
-            this.labelControl7.TabIndex = 11;
-            this.labelControl7.Text = "年";
+            this.gpcCalendar.Controls.Add(this.pc0);
+            this.gpcCalendar.Controls.Add(this.lblSaturday);
+            this.gpcCalendar.Controls.Add(this.lblFriday);
+            this.gpcCalendar.Controls.Add(this.lblThursday);
+            this.gpcCalendar.Controls.Add(this.lblWednesday);
+            this.gpcCalendar.Controls.Add(this.lblTuesday);
+            this.gpcCalendar.Controls.Add(this.lblMonday);
+            this.gpcCalendar.Controls.Add(this.lblSunday);
+            this.gpcCalendar.Controls.Add(this.btnToday);
+            this.gpcCalendar.Controls.Add(this.cmbYear);
+            this.gpcCalendar.Controls.Add(this.cmbMonth);
+            this.gpcCalendar.Location = new System.Drawing.Point(291, 12);
+            this.gpcCalendar.Name = "gpcCalendar";
+            this.gpcCalendar.Size = new System.Drawing.Size(369, 448);
+            this.gpcCalendar.TabIndex = 16;
+            this.gpcCalendar.Text = "日历";
             // 
-            // checkEdit9
+            // pc0
             // 
-            this.checkEdit9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit9.Location = new System.Drawing.Point(110, 434);
-            this.checkEdit9.Name = "checkEdit9";
-            this.checkEdit9.Properties.Caption = "工作日";
-            this.checkEdit9.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit9.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit9.TabIndex = 13;
+            this.pc0.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.pc0.Location = new System.Drawing.Point(10, 93);
+            this.pc0.Name = "pc0";
+            this.pc0.Size = new System.Drawing.Size(350, 350);
+            this.pc0.TabIndex = 17;
             // 
-            // checkEdit8
+            // lblSaturday
             // 
-            this.checkEdit8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.checkEdit8.Location = new System.Drawing.Point(196, 434);
-            this.checkEdit8.Name = "checkEdit8";
-            this.checkEdit8.Properties.Caption = "非工作日";
-            this.checkEdit8.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Radio;
-            this.checkEdit8.Size = new System.Drawing.Size(75, 19);
-            this.checkEdit8.TabIndex = 12;
+            this.lblSaturday.Location = new System.Drawing.Point(316, 73);
+            this.lblSaturday.Name = "lblSaturday";
+            this.lblSaturday.Size = new System.Drawing.Size(36, 14);
+            this.lblSaturday.TabIndex = 12;
+            this.lblSaturday.Text = "星期六";
             // 
-            // simpleButton1
+            // lblFriday
             // 
-            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton1.Location = new System.Drawing.Point(284, 466);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton1.TabIndex = 14;
-            this.simpleButton1.Text = "确定(O)";
+            this.lblFriday.Location = new System.Drawing.Point(266, 73);
+            this.lblFriday.Name = "lblFriday";
+            this.lblFriday.Size = new System.Drawing.Size(36, 14);
+            this.lblFriday.TabIndex = 12;
+            this.lblFriday.Text = "星期五";
             // 
-            // simpleButton2
+            // lblThursday
             // 
-            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.simpleButton2.Location = new System.Drawing.Point(349, 466);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(59, 23);
-            this.simpleButton2.TabIndex = 15;
-            this.simpleButton2.Text = "取消(C)";
+            this.lblThursday.Location = new System.Drawing.Point(216, 73);
+            this.lblThursday.Name = "lblThursday";
+            this.lblThursday.Size = new System.Drawing.Size(36, 14);
+            this.lblThursday.TabIndex = 12;
+            this.lblThursday.Text = "星期四";
+            // 
+            // lblWednesday
+            // 
+            this.lblWednesday.Location = new System.Drawing.Point(166, 73);
+            this.lblWednesday.Name = "lblWednesday";
+            this.lblWednesday.Size = new System.Drawing.Size(36, 14);
+            this.lblWednesday.TabIndex = 12;
+            this.lblWednesday.Text = "星期三";
+            // 
+            // lblTuesday
+            // 
+            this.lblTuesday.Location = new System.Drawing.Point(116, 73);
+            this.lblTuesday.Name = "lblTuesday";
+            this.lblTuesday.Size = new System.Drawing.Size(36, 14);
+            this.lblTuesday.TabIndex = 12;
+            this.lblTuesday.Text = "星期二";
+            // 
+            // lblMonday
+            // 
+            this.lblMonday.Location = new System.Drawing.Point(66, 73);
+            this.lblMonday.Name = "lblMonday";
+            this.lblMonday.Size = new System.Drawing.Size(36, 14);
+            this.lblMonday.TabIndex = 12;
+            this.lblMonday.Text = "星期一";
+            // 
+            // lblSunday
+            // 
+            this.lblSunday.Location = new System.Drawing.Point(16, 73);
+            this.lblSunday.Name = "lblSunday";
+            this.lblSunday.Size = new System.Drawing.Size(36, 14);
+            this.lblSunday.TabIndex = 12;
+            this.lblSunday.Text = "星期日";
+            // 
+            // btnToday
+            // 
+            this.btnToday.Location = new System.Drawing.Point(253, 33);
+            this.btnToday.Name = "btnToday";
+            this.btnToday.Size = new System.Drawing.Size(83, 23);
+            this.btnToday.TabIndex = 11;
+            this.btnToday.Text = "返回今天(&T)";
+            this.btnToday.Click += new System.EventHandler(this.btnToday_Click);
+            // 
+            // pmWorkTime
+            // 
+            this.pmWorkTime.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
+            new DevExpress.XtraBars.LinkPersistInfo(this.biWork),
+            new DevExpress.XtraBars.LinkPersistInfo(this.biWeekend)});
+            this.pmWorkTime.Manager = this.bmMessage;
+            this.pmWorkTime.Name = "pmWorkTime";
+            // 
+            // biWork
+            // 
+            this.biWork.Caption = "上班";
+            this.biWork.Id = 2;
+            this.biWork.Name = "biWork";
+            this.biWork.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.biWork_ItemClick);
+            // 
+            // biWeekend
+            // 
+            this.biWeekend.Caption = "休息";
+            this.biWeekend.Id = 3;
+            this.biWeekend.Name = "biWeekend";
+            this.biWeekend.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.biWeekend_ItemClick);
+            // 
+            // bmMessage
+            // 
+            this.bmMessage.AllowQuickCustomization = false;
+            this.bmMessage.DockControls.Add(this.barDockControlTop);
+            this.bmMessage.DockControls.Add(this.barDockControlBottom);
+            this.bmMessage.DockControls.Add(this.barDockControlLeft);
+            this.bmMessage.DockControls.Add(this.barDockControlRight);
+            this.bmMessage.Form = this;
+            this.bmMessage.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
+            this.biWork,
+            this.biWeekend});
+            this.bmMessage.MaxItemId = 4;
+            // 
+            // barDockControlTop
+            // 
+            this.barDockControlTop.CausesValidation = false;
+            this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
+            this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlTop.Size = new System.Drawing.Size(672, 0);
+            // 
+            // barDockControlBottom
+            // 
+            this.barDockControlBottom.CausesValidation = false;
+            this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 497);
+            this.barDockControlBottom.Size = new System.Drawing.Size(672, 0);
+            // 
+            // barDockControlLeft
+            // 
+            this.barDockControlLeft.CausesValidation = false;
+            this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 0);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 497);
+            // 
+            // barDockControlRight
+            // 
+            this.barDockControlRight.CausesValidation = false;
+            this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.barDockControlRight.Location = new System.Drawing.Point(672, 0);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 497);
             // 
             // ProjectCalendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(672, 497);
-            this.Controls.Add(this.simpleButton2);
-            this.Controls.Add(this.panelControl1);
-            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.gpcCalendar);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnOk);
             this.Controls.Add(this.groupControl2);
             this.Controls.Add(this.groupControl1);
+            this.Controls.Add(this.barDockControlLeft);
+            this.Controls.Add(this.barDockControlRight);
+            this.Controls.Add(this.barDockControlBottom);
+            this.Controls.Add(this.barDockControlTop);
             this.Name = "ProjectCalendar";
             this.Text = "项目日历";
+            this.Load += new System.EventHandler(this.ProjectCalendar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtStartTime.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnProjectName.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit5.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit7.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            this.panelControl2.ResumeLayout(false);
-            this.panelControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateNavigator1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit9.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit8.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcWorkTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gvWorkTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSunday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkSaturday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkFriday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkThursday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkWednesday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkTuesday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkMonday.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbYear.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cmbMonth.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gpcCalendar)).EndInit();
+            this.gpcCalendar.ResumeLayout(false);
+            this.gpcCalendar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pc0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pmWorkTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bmMessage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -407,31 +554,45 @@
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEdit2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
+        private DevExpress.XtraEditors.ButtonEdit btnProjectName;
+        private DevExpress.XtraEditors.TextEdit txtStartTime;
         private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.CheckEdit checkEdit4;
-        private DevExpress.XtraEditors.CheckEdit checkEdit5;
-        private DevExpress.XtraEditors.CheckEdit checkEdit6;
-        private DevExpress.XtraEditors.CheckEdit checkEdit7;
-        private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
-        private DevExpress.XtraEditors.CheckEdit checkEdit3;
+        private DevExpress.XtraEditors.CheckEdit chkThursday;
+        private DevExpress.XtraEditors.CheckEdit chkWednesday;
+        private DevExpress.XtraEditors.CheckEdit chkTuesday;
+        private DevExpress.XtraEditors.CheckEdit chkMonday;
+        private DevExpress.XtraEditors.CheckEdit chkSunday;
+        private DevExpress.XtraEditors.CheckEdit chkSaturday;
+        private DevExpress.XtraEditors.CheckEdit chkFriday;
         private DevExpress.XtraEditors.LabelControl labelControl4;
-        private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
-        private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.CheckEdit checkEdit9;
-        private DevExpress.XtraEditors.CheckEdit checkEdit8;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraScheduler.DateNavigator dateNavigator1;
+        private DevExpress.XtraEditors.SimpleButton btnApply;
+        private DevExpress.XtraEditors.SimpleButton btnDefault;
+        private DevExpress.XtraEditors.SimpleButton btnOk;
+        private DevExpress.XtraEditors.SimpleButton btnCancel;
+        private DevExpress.XtraGrid.GridControl gcWorkTime;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvWorkTime;
+        private DevExpress.XtraGrid.Columns.GridColumn gvStartTime;
+        private DevExpress.XtraGrid.Columns.GridColumn gvEndTime;
+        private DevExpress.XtraEditors.ComboBoxEdit cmbYear;
+        private DevExpress.XtraEditors.ComboBoxEdit cmbMonth;
+        private DevExpress.XtraEditors.GroupControl gpcCalendar;
+        private DevExpress.XtraEditors.SimpleButton btnToday;
+        private DevExpress.XtraEditors.LabelControl lblSaturday;
+        private DevExpress.XtraEditors.LabelControl lblFriday;
+        private DevExpress.XtraEditors.LabelControl lblThursday;
+        private DevExpress.XtraEditors.LabelControl lblWednesday;
+        private DevExpress.XtraEditors.LabelControl lblTuesday;
+        private DevExpress.XtraEditors.LabelControl lblMonday;
+        private DevExpress.XtraEditors.LabelControl lblSunday;
+        private DevExpress.XtraEditors.PanelControl pc0;
+        private DevExpress.XtraBars.PopupMenu pmWorkTime;
+        private DevExpress.XtraBars.BarManager bmMessage;
+        private DevExpress.XtraBars.BarDockControl barDockControlTop;
+        private DevExpress.XtraBars.BarDockControl barDockControlBottom;
+        private DevExpress.XtraBars.BarDockControl barDockControlLeft;
+        private DevExpress.XtraBars.BarDockControl barDockControlRight;
+        private DevExpress.XtraBars.BarButtonItem biWork;
+        private DevExpress.XtraBars.BarButtonItem biWeekend;
     }
 }

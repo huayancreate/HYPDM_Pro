@@ -36,8 +36,9 @@ namespace View_Winform.DocManage.DocManageTool
         public DocManageTool()
         {
             InitializeComponent();
+            gridView1 = BaseControls.BaseGridViewControl.BaseGridViewControlSetting(gridView1, false);
         }
-        #endregion 
+        #endregion
 
         #region 页面加载
         /// <summary>
@@ -62,8 +63,8 @@ namespace View_Winform.DocManage.DocManageTool
                 System.Drawing.Image image2 = View_Winform.DocManage.DocManageTool.DocManageRes.Ribbon_Close_16x16;
                 imageListStreamer.Images.Add(image1);
                 imageListStreamer.Images.Add(image2);
-                this.treeList1.ColumnsImageList= imageListStreamer;
-                this.treeList1.SelectImageList= imageListStreamer;
+                this.treeList1.ColumnsImageList = imageListStreamer;
+                this.treeList1.SelectImageList = imageListStreamer;
                 this.treeList1.StateImageList = imageListStreamer;
             }
             catch (Exception ex)
@@ -82,7 +83,8 @@ namespace View_Winform.DocManage.DocManageTool
             if (e.Node.Tag.GetType() == typeof(document_tree))
             {
                 e.SelectImageIndex = 1;
-            }else
+            }
+            else
             {
                 e.SelectImageIndex = 0;
             }
@@ -96,9 +98,9 @@ namespace View_Winform.DocManage.DocManageTool
         private void TreeListBind(int parent)
         {
             treeList1.Nodes.Clear();
-            if (docTlist.Count < 1)  return;
-            var items = from s in docTlist  where s.parent_id == parent  select s;
-            if (items.Count() < 1)   return;
+            if (docTlist.Count < 1) return;
+            var items = from s in docTlist where s.parent_id == parent select s;
+            if (items.Count() < 1) return;
             foreach (var st in items)
             {
                 DevExpress.XtraTreeList.Nodes.TreeListNode tn = treeList1.AppendNode(st.id, null);
@@ -107,9 +109,9 @@ namespace View_Winform.DocManage.DocManageTool
                 tn.SetValue(DocType, "Files");
                 tn.ImageIndex = 0;
                 tn.Tag = st;
-                GetCentralChild(tn, st.id,st.name);
+                GetCentralChild(tn, st.id, st.name);
             }
-            
+
         }
 
         /// <summary>
@@ -117,11 +119,11 @@ namespace View_Winform.DocManage.DocManageTool
         /// </summary>
         /// <param name="tn"></param>
         /// <param name="parent"></param>
-        private void GetCentralChild(DevExpress.XtraTreeList.Nodes.TreeListNode tn, int parent,String parentAllName)
+        private void GetCentralChild(DevExpress.XtraTreeList.Nodes.TreeListNode tn, int parent, String parentAllName)
         {
             // 添加文件夹
-            var items = from s in docTlist  where s.parent_id != 0 && s.parent_id == parent select s;
-            if (items.Count() < 1)   return;
+            var items = from s in docTlist where s.parent_id != 0 && s.parent_id == parent select s;
+            if (items.Count() < 1) return;
             foreach (var st in items)
             {
                 DevExpress.XtraTreeList.Nodes.TreeListNode tns = tn.TreeList.AppendNode(st.id, tn);
@@ -129,9 +131,9 @@ namespace View_Winform.DocManage.DocManageTool
                 tns.SetValue(DocID, st.id);
                 tns.SetValue(DocType, "Files");
                 tns.ImageIndex = 0;
-                st.all_name = parentAllName+"\\"+st.name;
+                st.all_name = parentAllName + "\\" + st.name;
                 tns.Tag = st;
-                GetCentralChild(tns, st.id, parentAllName+"\\"+st.name);
+                GetCentralChild(tns, st.id, parentAllName + "\\" + st.name);
             }
             // 添加文件
             var file = from s in doclist where s.document_type_id != 0 && s.document_type_id == parent select s;
@@ -168,32 +170,32 @@ namespace View_Winform.DocManage.DocManageTool
 
                 // 点击查询
                 List<PDM_Entity.DocManage.document> list = WcfServiceLocator.Create<IDocManageTool>().getDocument(docQuery);
-                if (this.checkEdit1.Checked)
-                {
-                    // 如果是缩列图
-                    DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEditUser = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
-                    repositoryItemPictureEditUser.Name = "repositoryItemPictureEditUser";
-                    this.gridColumn2.ColumnEdit = repositoryItemPictureEditUser;
-                    this.gridColumn2.FieldName = "format_pic";
-                    System.Drawing.Image image1 = View_Winform.DocManage.DocManageTool.DocManageRes.Calendar_16x16;
-                    System.Drawing.Image image2 = View_Winform.DocManage.DocManageTool.DocManageRes.Ribbon_Close_16x16;
-                    for (int i = 0; i < list.Count(); i++)
-                    {
-                        if ("txt".Equals(list[i].format_name))
-                        {
-                            list[i].format_pic = ImageToByteArr(image1);
-                        }
-                        else
-                        {
-                            list[i].format_pic = ImageToByteArr(image2);
-                        }
-                    }
-                }
-                else
-                {
-                    this.gridColumn2.ColumnEdit = null;
-                    this.gridColumn2.FieldName = "format_name";
-                }
+                //if (this.checkEdit1.Checked)
+                //{
+                //    // 如果是缩列图
+                //    DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit repositoryItemPictureEditUser = new DevExpress.XtraEditors.Repository.RepositoryItemPictureEdit();
+                //    repositoryItemPictureEditUser.Name = "repositoryItemPictureEditUser";
+                //    this.gridColumn2.ColumnEdit = repositoryItemPictureEditUser;
+                //    this.gridColumn2.FieldName = "format_pic";
+                //    //System.Drawing.Image image1 = View_Winform.DocManage.DocManageTool.DocManageRes.Calendar_16x16;
+                //    //System.Drawing.Image image2 = View_Winform.DocManage.DocManageTool.DocManageRes.Ribbon_Close_16x16;
+                //    for (int i = 0; i < list.Count(); i++)
+                //    {
+                //        if ("txt".Equals(list[i].format_name))
+                //        {
+                //            //list[i].format_pic = ImageToByteArr(image1);
+                //        }
+                //        else
+                //        {
+                //            //list[i].format_pic = ImageToByteArr(image2);
+                //        }
+                //    }
+                //}
+                //else
+                //{
+                //    this.gridColumn2.ColumnEdit = null;
+                //    this.gridColumn2.FieldName = "format_name";
+                //}
                 this.gridControl1.DataSource = list;
                 this.gridControl1.RefreshDataSource();
             }
@@ -229,7 +231,7 @@ namespace View_Winform.DocManage.DocManageTool
         {
             if (e.Button == MouseButtons.Right)
             {
-                
+
                 DevExpress.XtraTreeList.TreeListHitInfo hInfo = this.treeList1.CalcHitInfo(new Point(e.X, e.Y));
                 if (hInfo.HitInfoType == DevExpress.XtraTreeList.HitInfoType.Cell) //在单元格上右击了
                 {
@@ -246,7 +248,7 @@ namespace View_Winform.DocManage.DocManageTool
                         node = hInfo.Node;
                         selTreeNode = (document)hInfo.Node.Tag;
                     }
-                   
+
                 }
             }
         }
@@ -279,13 +281,13 @@ namespace View_Winform.DocManage.DocManageTool
                 selTreeNode.ipaddress = "127.0.0.1";
                 selTreeNode.port = 7774;
                 // 再浏览
-                System.Diagnostics.Process.Start("rundll32.exe", @"shell32,OpenAs_RunDLL " + @"G:\asp.net\" + selTreeNode.cn_name +"." + selTreeNode.format_name);
+                System.Diagnostics.Process.Start("rundll32.exe", @"shell32,OpenAs_RunDLL " + @"G:\asp.net\" + selTreeNode.cn_name + "." + selTreeNode.format_name);
             }
             else if (e.ClickedItem.Name == "browseItem")
             {
                 //浏览
                 //获取选中的行
-                DocModify modify = new DocModify(selTreeNode,3);
+                DocModify modify = new DocModify(selTreeNode, 3);
                 if (DialogResult.OK == modify.ShowDialog())
                 {
                     // 修改文档成功！
@@ -300,7 +302,7 @@ namespace View_Winform.DocManage.DocManageTool
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
                     // 开启socket文件
-                    SocketServer s = new SocketServer("127.0.0.1", 7774, dlg.SelectedPath +"\\");
+                    SocketServer s = new SocketServer("127.0.0.1", 7774, dlg.SelectedPath + "\\");
                     s.start();
                     selTreeNode.physical_file_location = @"g:\11.xls";
                     selTreeNode.ipaddress = "127.0.0.1";
@@ -308,19 +310,19 @@ namespace View_Winform.DocManage.DocManageTool
                     bool flag = WcfServiceLocator.Create<IDocManageTool>().downDocument(selTreeNode);
                     while (!(flag && s.flag))
                     {
-                       System.Threading.Thread.Sleep(1000);
+                        System.Threading.Thread.Sleep(1000);
                     }
                     s.lisner.Stop();
                     s.TempThread.Abort();
                 }
-                
+
             }
             else if (e.ClickedItem.Name == "alterDocumentItem")
             {
                 //修改文档
                 //获取选中的行
                 DocModify modify = new DocModify(selTreeNode, 2);
-                if(DialogResult.OK == modify.ShowDialog())
+                if (DialogResult.OK == modify.ShowDialog())
                 {
                     // 修改文档成功！
                     MessageBox.Show("文档修改成功！");
@@ -329,7 +331,7 @@ namespace View_Winform.DocManage.DocManageTool
             else if (e.ClickedItem.Name == "delDocumentItem")
             {
                 // 删除文档
-                if(DialogResult.OK == MessageBox.Show("确认删除！","警告",MessageBoxButtons.OKCancel,MessageBoxIcon.Question))
+                if (DialogResult.OK == MessageBox.Show("确认删除！", "警告", MessageBoxButtons.OKCancel, MessageBoxIcon.Question))
                 {
                     bool flag = WcfServiceLocator.Create<IDocManageTool>().delDocument(selTreeNode);
                     // 调用后台删除方法，来删除数据！
@@ -354,16 +356,16 @@ namespace View_Winform.DocManage.DocManageTool
             else if (e.ClickedItem.Name == "permissionApplyItem ")
             {
                 //获取选中的行
-                document doc = (document)this.gridView1.GetFocusedRow();
-                DocModify modify = new DocModify(doc, 2);
-                List<document> list = new List<document>();
-                list.Add(doc);
+                //document doc = (document)this.gridView1.GetFocusedRow();
+                //DocModify modify = new DocModify(doc, 2);
+                //List<document> list = new List<document>();
+                //list.Add(doc);
                 //申请权限  
-                DocQuery.PermissionApply permissionApply = new DocQuery.PermissionApply(list);
-                if (DialogResult.OK == permissionApply.ShowDialog())
-                {
-                    MessageBox.Show("申请权限成功！");
-                }
+                // DocQuery.PermissionApply permissionApply = new DocQuery.PermissionApply(list);
+                //if (DialogResult.OK == permissionApply.ShowDialog())
+                //{
+                //    MessageBox.Show("申请权限成功！");
+                //}
             }
             else if (e.ClickedItem.Name == "prinApplyItem")
             {
@@ -388,7 +390,7 @@ namespace View_Winform.DocManage.DocManageTool
             else if (e.ClickedItem.Name == "updateHistoryItem")
             {
                 //查看变更历史
-                
+
 
             }
             else if (e.ClickedItem.Name == "relationDocItem")
@@ -403,7 +405,7 @@ namespace View_Winform.DocManage.DocManageTool
             }
         }
 
-        
+
         /// <summary>
         /// 右键文档夹菜单事件
         /// </summary>
@@ -496,7 +498,7 @@ namespace View_Winform.DocManage.DocManageTool
                 document document = new document();
                 document.document_type_id = ((document_tree)node.Tag).id;
                 document.document_type_name = ((document_tree)node.Tag).all_name;
-                DocModify docModify = new DocModify(document,1);
+                DocModify docModify = new DocModify(document, 1);
                 if (DialogResult.OK == docModify.ShowDialog())
                 {
                     DevExpress.XtraTreeList.Nodes.TreeListNode tns = node.TreeList.AppendNode(docModify.docSave.id, node);
@@ -507,7 +509,7 @@ namespace View_Winform.DocManage.DocManageTool
                     // 修改文档成功！
                     MessageBox.Show("创建成功！");
                 }
-                
+
             }
             else if (e.ClickedItem.Name == "importItem")
             {
@@ -527,7 +529,7 @@ namespace View_Winform.DocManage.DocManageTool
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
                     // 开启socket文件
-                    SocketServer s = new SocketServer("127.0.0.1", 7774, dlg.SelectedPath+"\\");
+                    SocketServer s = new SocketServer("127.0.0.1", 7774, dlg.SelectedPath + "\\");
                     s.start();
                     var files = from d in doclist where d.document_type_id != 0 && d.document_type_id == ((document_tree)node.Tag).id select d;
                     if (files.Count() < 1) return;
@@ -535,7 +537,7 @@ namespace View_Winform.DocManage.DocManageTool
                     foreach (document st in files)
                     {
                         st.ipaddress = "127.0.0.1";
-                        st.port = 7774 ;
+                        st.port = 7774;
                         list.Add(st);
                     }
                     bool flag = WcfServiceLocator.Create<IDocManageTool>().downDocumentAll(list);
@@ -571,14 +573,14 @@ namespace View_Winform.DocManage.DocManageTool
                 document_tree doct = new document_tree();
                 doct.parent_id = ((document_tree)node.Tag).id;
                 doct.parent_name = ((document_tree)node.Tag).name;
-                BuildDocCategory docCat = new BuildDocCategory(doct,1);
+                BuildDocCategory docCat = new BuildDocCategory(doct, 1);
                 if (docCat.ShowDialog() == DialogResult.OK)
                 {
                     DevExpress.XtraTreeList.Nodes.TreeListNode tns = node.TreeList.AppendNode(docCat.docTree.id, node);
                     tns.SetValue(DocName, docCat.docTree.name);
                     tns.SetValue(DocID, docCat.docTree.id);
                     tns.SetValue(DocType, "Files");
-                    docCat.docTree.all_name = ((document_tree)(node.Tag)).all_name + @"\"+ docCat.docTree.name;
+                    docCat.docTree.all_name = ((document_tree)(node.Tag)).all_name + @"\" + docCat.docTree.name;
                     tns.Tag = docCat.docTree;
                     // 添加成功！
                 }
@@ -591,7 +593,7 @@ namespace View_Winform.DocManage.DocManageTool
                 docType.parent_name = ((document_tree)node.Tag).parent_name;
                 docType.id = ((document_tree)node.Tag).id;
                 docType.name = ((document_tree)node.Tag).name;
-                BuildDocCategory docCat = new BuildDocCategory(docType,2);
+                BuildDocCategory docCat = new BuildDocCategory(docType, 2);
                 if (docCat.ShowDialog() == DialogResult.OK)
                 {
                     // 修改成功！
@@ -622,7 +624,7 @@ namespace View_Winform.DocManage.DocManageTool
                 docType.name = ((document_tree)node.Tag).name;
                 BuildDocCategory docCat = new BuildDocCategory(docType, 3);
                 docCat.ShowDialog();
-                
+
             }
             else if (e.ClickedItem.Name == "execlEmportItem")
             {
@@ -632,13 +634,13 @@ namespace View_Winform.DocManage.DocManageTool
             else if (e.ClickedItem.Name == "userImportItem")
             {
                 // 自定义导出
- 
+
             }
             else if (e.ClickedItem.Name == "docCountStaItem")
             {
                 // 文档数量统计,统计该节点下文件的数目
                 int count = GetChildNodes(node);
-                MessageBox.Show("共有文档"+count+"个");
+                MessageBox.Show("共有文档" + count + "个");
             }
         }
 
@@ -647,7 +649,7 @@ namespace View_Winform.DocManage.DocManageTool
         /// </summary>
         /// <param name="parentNode"></param>
         /// <returns></returns>
-        private int  GetChildNodes(DevExpress.XtraTreeList.Nodes.TreeListNode parentNode)
+        private int GetChildNodes(DevExpress.XtraTreeList.Nodes.TreeListNode parentNode)
         {
             int count = 0;
             if (parentNode.Nodes.Count > 0)
@@ -660,7 +662,7 @@ namespace View_Winform.DocManage.DocManageTool
                     }
                     if (node.Nodes.Count > 0)
                     {
-                       count = count + GetChildNodes(node);
+                        count = count + GetChildNodes(node);
                     }
                 }
             }
@@ -668,10 +670,10 @@ namespace View_Winform.DocManage.DocManageTool
         }
 
 
-        #endregion 
+        #endregion
 
-        
+
 
     }
-    
+
 }
